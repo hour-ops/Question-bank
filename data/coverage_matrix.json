@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-10-11T17:00:21+00:00",
+  "basis": "approved",
+  "subjects": {
+    "english": {
+      "target": 50,
+      "covered_any": 1041,
+      "covered_approved": 1041,
+      "covered_pending": 0,
+      "rejected": 432,
+      "by_type": {
+        "cloze": {
+          "approved": 107,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "dialogue": {
+          "approved": 40,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "grammar_fill": {
+          "approved": 114,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 102,
+          "other": 0
+        },
+        "outline_fill": {
+          "approved": 5,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "phonetics": {
+          "approved": 40,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "program_fill": {
+          "approved": 2,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "reading_fill": {
+          "approved": 83,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 279,
+          "other": 0
+        },
+        "reading_qa": {
+          "approved": 252,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 9,
+          "other": 0
+        },
+        "sentence_build": {
+          "approved": 45,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 4,
+          "other": 0
+        },
+        "sentence_completion": {
+          "approved": 6,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "single_choice": {
+          "approved": 103,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "translation": {
+          "approved": 5,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "translation_choice": {
+          "approved": 20,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "translation_fill": {
+          "approved": 137,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 36,
+          "other": 0
+        },
+        "word_fill": {
+          "approved": 60,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "writing": {
+          "approved": 22,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 2,
+          "other": 0
+        }
+      },
+      "quota": {
+        "grammar_fill": 12,
+        "sentence_build": 7,
+        "reading_fill": 12,
+        "reading_qa": 12,
+        "translation_fill": 7,
+        "writing": 1
+      },
+      "gaps": {
+        "cloze": 0,
+        "dialogue": 0,
+        "grammar_fill": 0,
+        "outline_fill": 0,
+        "phonetics": 0,
+        "program_fill": 0,
+        "reading_fill": 0,
+        "reading_qa": 0,
+        "sentence_build": 0,
+        "sentence_completion": 0,
+        "single_choice": 0,
+        "translation": 0,
+        "translation_choice": 0,
+        "translation_fill": 0,
+        "word_fill": 0,
+        "writing": 0
+      },
+      "gap_total": 0
+    },
+    "c_wuhan": {
+      "target": 50,
+      "covered_any": 5739,
+      "covered_approved": 5739,
+      "covered_pending": 0,
+      "rejected": 64,
+      "by_type": {
+        "code_correction": {
+          "approved": 2,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 18,
+          "other": 0
+        },
+        "program_fill": {
+          "approved": 2104,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 27,
+          "other": 0
+        },
+        "programming": {
+          "approved": 786,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 19,
+          "other": 0
+        },
+        "reading_qa": {
+          "approved": 621,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "single_choice": {
+          "approved": 2114,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "true_false": {
+          "approved": 112,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        }
+      },
+      "quota": {
+        "code_correction": 10,
+        "program_fill": 20,
+        "programming": 20
+      },
+      "gaps": {
+        "code_correction": 8,
+        "program_fill": 0,
+        "programming": 0,
+        "reading_qa": 0,
+        "single_choice": 0,
+        "true_false": 0
+      },
+      "gap_total": 8
+    },
+    "c_hbpu": {
+      "target": 50,
+      "covered_any": 168,
+      "covered_approved": 168,
+      "covered_pending": 19,
+      "rejected": 64,
+      "by_type": {
+        "code_correction": {
+          "approved": 1,
+          "pending_review": 2,
+          "parsed": 0,
+          "rejected": 16,
+          "other": 0
+        },
+        "program_fill": {
+          "approved": 15,
+          "pending_review": 5,
+          "parsed": 0,
+          "rejected": 16,
+          "other": 0
+        },
+        "programming": {
+          "approved": 75,
+          "pending_review": 12,
+          "parsed": 0,
+          "rejected": 32,
+          "other": 0
+        },
+        "reading_qa": {
+          "approved": 27,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "single_choice": {
+          "approved": 49,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        },
+        "true_false": {
+          "approved": 1,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 0,
+          "other": 0
+        }
+      },
+      "quota": {
+        "code_correction": 10,
+        "program_fill": 20,
+        "programming": 20
+      },
+      "gaps": {
+        "code_correction": 9,
+        "program_fill": 5,
+        "programming": 0,
+        "reading_qa": 0,
+        "single_choice": 0,
+        "true_false": 0
+      },
+      "gap_total": 14
+    },
+    "aca_llm": {
+      "target": 50,
+      "covered_any": 148,
+      "covered_approved": 148,
+      "covered_pending": 0,
+      "rejected": 37,
+      "by_type": {
+        "multiple_choice": {
+          "approved": 50,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 7,
+          "other": 0
+        },
+        "single_choice": {
+          "approved": 98,
+          "pending_review": 0,
+          "parsed": 0,
+          "rejected": 30,
+          "other": 0
+        }
+      },
+      "quota": {
+        "single_choice": 35,
+        "multiple_choice": 15
+      },
+      "gaps": {
+        "multiple_choice": 0,
+        "single_choice": 0
+      },
+      "gap_total": 0
+    }
+  },
+  "syllabus_modules": [
+    {
+      "no": 1,
+      "name": "大模型概念（18%，≈9 题）",
+      "weight": "18%",
+      "points": 8
+    },
+    {
+      "no": 2,
+      "name": "提示词工程（20%，≈10 题）",
+      "weight": "20%",
+      "points": 9
+    },
+    {
+      "no": 3,
+      "name": "增强大模型应用的能力（22%，≈11 题）",
+      "weight": "22%",
+      "points": 10
+    },
+    {
+      "no": 4,
+      "name": "大模型微调（12%，≈6 题）",
+      "weight": "12%",
+      "points": 6
+    },
+    {
+      "no": 5,
+      "name": "大模型 Agent（16%，≈8 题）",
+      "weight": "16%",
+      "points": 8
+    },
+    {
+      "no": 6,
+      "name": "大模型安全合规（12%，≈6 题）",
+      "weight": "12%",
+      "points": 6
+    }
+  ],
+  "syllabus_total_points": 47
+}

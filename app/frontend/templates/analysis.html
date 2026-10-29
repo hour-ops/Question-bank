@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 结果分析</title>
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body data-page="analysis" data-subject="{{ subject }}">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">分析</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis" class="active">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <form class="card filters" method="get" action="/analysis">
+    <label>科目
+      <select name="subject">
+        <option value="">全部</option>
+        {% for k, v in subject_labels.items() %}
+        <option value="{{ k }}" {% if subject == k %}selected{% endif %}>{{ v }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <button class="btn btn-primary" type="submit">查看</button>
+    <span class="muted small">统计口径与 <code>update_daily_progress.judge_correct</code> 一致</span>
+  </form>
+
+  <section class="card" id="weakCard">
+    <h1>弱势诊断 <span class="muted small">（我的正确率 · 数据来自 /api/weakness）</span></h1>
+    <div id="weakBox"><p class="muted">正在加载…</p></div>
+    <div class="row">
+      <button class="btn btn-primary" type="button" id="btnAdvice">生成学习强化方案</button>
+      <span class="muted small">默认只生成给大模型的提示词（<strong>不自动调用付费接口</strong>）；
+        配置 API key 后可接通云端。</span>
+    </div>
+    <div id="adviceBox"></div>
+  </section>
+
+  <section class="card">
+    <h1>各科正确率 <span class="muted small">（试答记录 attempts）</span></h1>
+    {% if data.accuracy %}
+    <table class="data">
+      <thead><tr><th>科目</th><th>已判分</th><th>正确</th><th>错误</th><th>未判分</th><th>正确率</th><th>进度</th></tr></thead>
+      <tbody>
+      {% for k, a in data.accuracy.items() %}
+        <tr>
+          <td>{{ a.name }}</td>
+          <td>{{ a.judged }}</td>
+          <td class="ok-text">{{ a.correct }}</td>
+          <td class="err-text">{{ a.wrong }}</td>
+          <td class="muted">{{ a.unjudged }}</td>
+          <td><strong>{{ (a.accuracy * 100) | round(1) }}%</strong></td>
+          <td class="bar-cell"><span class="bar bar-small"><span style="width: {{ (a.accuracy * 100) | round(1) }}%"></span></span></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="muted">暂无试答记录。去 <a href="/quiz">刷题</a> 后这里会有统计。</p>
+    {% endif %}
+  </section>
+
+  <section class="card">
+    <h1>题型分布</h1>
+    {% for k, s in data.subjects.items() %}
+      <h2>{{ s.name }}</h2>
+      {% if s.question_types %}
+      <table class="data">
+        <thead><tr><th>题型</th><th>题量</th><th>已通过</th><th>覆盖</th></tr></thead>
+        <tbody>
+        {% for t in s.question_types %}
+          <tr>
+            <td><a href="/quiz?subject={{ k }}&type={{ t.type }}" title="点这里只刷这个题型">{{ t.name or t.type }}</a></td>
+            <td>{{ t.total }}</td>
+            <td>{{ t.approved }}</td>
+            <td class="bar-cell"><span class="bar bar-small"><span style="width: {{ (100 * t.approved / t.total) | round(1) if t.total else 0 }}%"></span></span></td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p class="muted">该科目库暂无题目。</p>
+      {% endif %}
+      <h3>知识点薄弱项（错题数）</h3>
+      {% if s.weak_points %}
+      <table class="data">
+        <thead><tr><th>知识点</th><th>错题数</th><th>涉及题量</th><th>强度</th></tr></thead>
+        <tbody>
+        {% for w in s.weak_points %}
+          <tr>
+            <td>{{ w.knowledge_point }}</td>
+            <td class="err-text">{{ w.wrong_count }}</td>
+            <td>{{ w.questions }}</td>
+            <td class="bar-cell"><span class="bar bar-small bar-due"><span style="width: {{ w.wrong_count * 10 if w.wrong_count * 10 < 100 else 100 }}%"></span></span></td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p class="muted">暂无错题记录（wrong_book 为空）。</p>
+      {% endif %}
+    {% endfor %}
+    {% if not data.subjects %}<p class="muted">科目库不可用。</p>{% endif %}
+    <p class="muted small">生成时间：{{ data.generated_at }}</p>
+  </section>
+
+  <section class="card">
+    <h1>原始数据</h1>
+    <p class="row">
+      <a class="btn" href="/api/progress?date=today">/api/progress</a>
+      <a class="btn" href="/api/attempts?limit=50">/api/attempts</a>
+      <a class="btn" href="/api/questions?limit=20">/api/questions</a>
+      <a class="btn" href="/api/papers">/api/papers</a>
+    </p>
+    <pre class="json-preview" id="rawPreview">点击上面的接口链接查看 JSON。</pre>
+  </section>
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script src="/static/js/app.js"></script>
+<script src="/static/js/analysis.js"></script>
+</body>
+</html>

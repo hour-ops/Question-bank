@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 判分记录</title>
+<link rel="stylesheet" href="/static/css/app.css">
+<style>
+  .hist-item{border-left:4px solid #c9ced6}
+  .hist-item.ok{border-left-color:#4a9d63}
+  .hist-item.bad{border-left-color:#d9534f}
+  .hist-item.wait{border-left-color:#e8b53a}
+  .hist-meta{font-size:12.5px;color:#6b7280;display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+  .hist-stem{font-size:15.5px;white-space:pre-wrap;word-break:break-word;margin:6px 0}
+  .hist-chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+  .hist-chips span{background:#eef3fa;border:1px solid #cfe0f5;border-radius:4px;padding:2px 9px;font-family:Consolas,Menlo,monospace}
+  .hist-line{margin:5px 0;font-size:14.5px;white-space:pre-wrap;word-break:break-word}
+  .hist-line .k{color:#6b7280;margin-right:6px}
+  .hist-ans{background:#f1f9f3;border-radius:5px;padding:8px 11px;margin-top:8px;border-left:3px solid #4a9d63}
+  .hist-how{background:#fffbf0;border-left:3px solid #e8b53a;padding:6px 10px;border-radius:4px;font-size:13px;color:#7a5a10;margin:6px 0}
+  .score{font-weight:700}
+  .score.ok{color:#2f7d47}
+  .score.bad{color:#c9302c}
+  .empty{color:#8b93a1;text-align:center;padding:40px}
+</style>
+</head>
+<body data-page="history">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">判分记录</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/history" class="active">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="card filters">
+    <label>科目
+      <select id="f-subject">
+        <option value="">全部</option>
+        {% for s in subjects %}<option value="{{ s }}">{{ subject_labels.get(s, s) }}</option>{% endfor %}
+      </select>
+    </label>
+    <label>只看
+      <select id="f-only">
+        <option value="">全部作答</option>
+        <option value="wrong">只错题</option>
+        <option value="right">只对题</option>
+        <option value="pending">还没判分</option>
+      </select>
+    </label>
+    <label>条数
+      <select id="f-limit">
+        <option value="30">30</option>
+        <option value="100" selected>100</option>
+        <option value="300">300</option>
+      </select>
+    </label>
+    <span class="spacer"></span>
+    <button id="btn-refresh" type="button">刷新</button>
+  </div>
+
+  <div id="summary" class="card" style="display:none"></div>
+  <div id="list"></div>
+  <div id="empty" class="empty" style="display:none">还没有作答记录。先去 <a href="/quiz">刷题</a> 做几道题吧。</div>
+</main>
+
+<script>
+const TYPES = {{ types | tojson }};
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function tname(k){return (TYPES[k]&&TYPES[k].name)||k||'未标题型';}
+function thow(k){return (TYPES[k]&&TYPES[k].how)||'';}
+
+// 连词成句：把词表渲染成词卡（与单文件 HTML 题库一致）
+function wordChips(stem){
+  if(!stem) return null;
+  const s = String(stem).replace(/_{2,}/g,' ').trim().replace(/[，,、;；\s]+$/,'');
+  if(s.length>260) return null;
+  const parts = s.split(/[,，/／]/).map(x=>x.replace(/[（(][^）)]{1,6}[）)]$/,'').trim().replace(/^[.\s]+|[.\s]+$/g,'')).filter(Boolean);
+  if(parts.length<3 || parts.some(p=>p.length>26)) return null;
+  return parts;
+}
+
+// 选项对照：标出「正确项」和「你选的项」。
+// 数据来自 /api/attempts 按 question_uid 现查，所以**历史记录也生效**，不用重新作答。
+function optsHtml(r){
+  const opts = r.options_parsed || [];
+  if(!opts.length) return '';
+  const keys = String(r.answer_keys||'').toUpperCase();
+  const mine = String(r.user_answer||'').toUpperCase().replace(/[^A-H]/g,'');
+  return '<div class="hist-opts">' + opts.map(o=>{
+    const k = String(o.key||'').toUpperCase();
+    const isKey = keys.indexOf(k) >= 0;
+    const isMine = mine.indexOf(k) >= 0;
+    const cls = isKey ? ' opt-correct' : (isMine ? ' opt-wrong' : '');
+    let tags = '';
+    if(isKey) tags += '<span class="opt-tag">正确</span>';
+    if(isMine) tags += '<span class="opt-tag mine">你选的</span>';
+    return '<div class="res-opt'+cls+'"><b>'+esc(k)+'</b> '+esc(o.text||'')+tags+'</div>';
+  }).join('') + '</div>';
+}
+
+function render(data){
+  const rows = data.attempts || [];
+  window.__shownIds = rows.map(r=>r.attempt_id).filter(Boolean);
+  const box = document.getElementById('list');
+  const empty = document.getElementById('empty');
+  const sum = document.getElementById('summary');
+  if(!rows.length){ box.innerHTML=''; empty.style.display='block'; sum.style.display='none'; return; }
+  empty.style.display='none';
+  const judged = rows.filter(r=>r.judge_score!==null && r.judge_score!==undefined);
+  const right = judged.filter(r=>r.correct).length;
+  const wrongRows = judged.filter(r=>!r.correct);
+  const rightRows = judged.filter(r=>r.correct);
+  window.__rightIds = rightRows.map(r=>r.attempt_id).filter(Boolean);
+  const subjNow = document.getElementById('f-subject').value;
+  const quizWrong = '/quiz?wrong=1' + (subjNow ? ('&subject='+encodeURIComponent(subjNow)) : '');
+  sum.style.display='block';
+  sum.innerHTML = '<b>共 '+rows.length+' 条记录</b>　已判分 '+judged.length+' 条，'
+    + '正确 <span class="score ok">'+right+'</span> 条，'
+    + '错误 <span class="score bad">'+(judged.length-right)+'</span> 条'
+    + (judged.length? '　正确率 '+(100*right/judged.length).toFixed(1)+'%' : '')
+    + '　<a class="btn btn-small" href="'+quizWrong+'">刷错题（'+wrongRows.length+'）</a>'
+    + '　<button class="btn btn-small" id="btnDelRight" type="button">删除已答对（'+rightRows.length+'）</button>'
+    + '　<button class="btn btn-small" id="btnDelShown" type="button">删除这些记录</button>'
+    + '　<button class="btn btn-small" id="btnDelToday" type="button">删除今天的记录</button>';
+  wireBulkDelete();
+
+  box.innerHTML = rows.map(r=>{
+    const pending = (r.judge_status||'')==='pending' || r.judge_score===null || r.judge_score===undefined;
+    const cls = pending ? 'wait' : (r.correct ? 'ok' : 'bad');
+    const score = pending ? '待判分'
+      : ('得分 '+r.judge_score + (r.correct ? '　<span class="score ok">✔ 正确</span>' : '　<span class="score bad">✘ 错误</span>'));
+    const chips = wordChips(r.stem);
+    const body = chips
+      ? '<div class="hist-chips">'+chips.map(w=>'<span>'+esc(w)+'</span>').join('')+'</div>'
+      : '<div class="hist-stem">'+esc(r.stem||'（题干缺失）')+'</div>';
+    const how = thow(r.question_type);
+    return '<div class="card hist-item '+cls+'">'
+      + '<div class="hist-meta">'
+      +   '<span class="pill">'+esc(r.subject_label||r.subject||'')+'</span>'
+      +   '<span class="pill">'+esc(r.type_name||tname(r.question_type))+'</span>'
+      +   '<span class="'+ (pending?'':'score '+cls) +'">'+score+'</span>'
+      +   '<span class="spacer"></span><span>'+esc((r.created_at||'').replace('T',' ').slice(0,19))+'</span>'
+      +   '<button class="btn btn-small btn-del" type="button" data-aid="'+esc(r.attempt_id||'')+'">删除</button>'
+      + '</div>'
+      + (how ? '<div class="hist-how">📌 '+esc(how)+'</div>' : '')
+      + body
+      + optsHtml(r)
+      + '<div class="hist-line"><span class="k">我的作答：</span>'+esc(r.user_answer||'（空）')+'</div>'
+      + '<div class="hist-ans">'
+      +   '<div class="hist-line"><span class="k">参考答案：</span>'+esc(r.answer||'（题库缺少标准答案）')+'</div>'
+      +   (r.explanation?'<div class="hist-line"><span class="k">解析：</span>'+esc(r.explanation)+'</div>':'')
+      +   (r.judge_reason?'<div class="hist-line"><span class="k">判分理由：</span>'+esc(r.judge_reason)+'</div>':'')
+      + '</div>'
+      + '</div>';
+  }).join('');
+}
+
+/* 删判分记录（用户要求：判分记录里也能删）。删完立刻重载列表与今日进度。 */
+function delRecords(payload, tip){
+  if(!confirm(tip)) return;
+  fetch('/api/attempts/delete',{method:'POST',headers:{'Content-Type':'application/json'},
+                                body:JSON.stringify(payload)})
+    .then(r=>r.json()).then(d=>{
+      if(d.error){ alert('删除失败：'+d.error); return; }
+      load();
+    }).catch(e=>alert('删除失败：'+e));
+}
+function wireBulkDelete(){
+  const a=document.getElementById('btnDelShown');
+  if(a) a.onclick=function(){
+    const ids=window.__shownIds||[];
+    if(!ids.length) return;
+    delRecords({attempt_ids:ids}, '确定删除当前列出的 '+ids.length+' 条判分记录？删掉不可恢复。');
+  };
+  const b=document.getElementById('btnDelToday');
+  if(b) b.onclick=function(){
+    delRecords({date:'today'}, '确定删除「今天」的全部判分记录？删掉不可恢复。');
+  };
+  const r=document.getElementById('btnDelRight');
+  if(r) r.onclick=function(){
+    const ids=window.__rightIds||[];
+    if(!ids.length){ alert('当前没有「已答对」的记录'); return; }
+    delRecords({attempt_ids:ids}, '删除当前列出的 '+ids.length+' 条「已答对」记录？\n（错题会保留，方便继续刷）');
+  };
+}
+document.addEventListener('click', function(ev){
+  const btn = ev.target && ev.target.closest ? ev.target.closest('.btn-del') : null;
+  if(!btn) return;
+  const aid = btn.getAttribute('data-aid');
+  if(aid) delRecords({attempt_ids:[aid]}, '确定删除这条判分记录？');
+});
+
+function load(){
+  const subj = document.getElementById('f-subject').value;  const only = document.getElementById('f-only').value;
+  const limit = document.getElementById('f-limit').value;
+  const url = '/api/attempts?limit=' + encodeURIComponent(limit) + (subj?('&subject='+encodeURIComponent(subj)):'');
+  document.getElementById('list').innerHTML = '<div class="empty">加载中…</div>';
+  fetch(url).then(r=>r.json()).then(d=>{
+    let rows = d.attempts || [];
+    if(only==='wrong') rows = rows.filter(r=>r.judge_score!==null && r.judge_score!==undefined && !r.correct);
+    if(only==='right') rows = rows.filter(r=>r.correct);
+    if(only==='pending') rows = rows.filter(r=>(r.judge_status||'')==='pending' || r.judge_score===null || r.judge_score===undefined);
+    render({attempts: rows});
+  }).catch(e=>{
+    document.getElementById('list').innerHTML = '<div class="empty">加载失败：'+esc(e)+'</div>';
+  });
+}
+document.getElementById('btn-refresh').onclick = load;
+['f-subject','f-only','f-limit'].forEach(id=>document.getElementById(id).onchange = load);
+load();
+</script>
+</body>
+</html>

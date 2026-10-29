@@ -1,0 +1,473 @@
+{
+ "id": 15,
+ "title": "湖北专升本2024年英语真题",
+ "subject": "英语",
+ "createTime": "2026-01-21 22:10:28",
+ "exam": {
+  "meta": {
+   "title": "2024 年湖北省普通高等学校专升本英语",
+   "subject": "英语"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "语法填空",
+    "content": "",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "1_sub_0",
+      "content": "I have confidence {{__SELECT_1__}} (in/ on) my future.",
+      "options": [
+       "in",
+       "on"
+      ],
+      "answer": "in",
+      "analysis": "have confidence in 是固定搭配，意为“对……有信心”。"
+     },
+     {
+      "id": "1_sub_1",
+      "content": "{{__SELECT_1__}} (What/How) beautiful the East Lake is!",
+      "options": [
+       "What",
+       "How"
+      ],
+      "answer": "How",
+      "analysis": "感叹句结构：How + 形容词 + 主语 + 谓语！此处修饰形容词 beautiful。"
+     },
+     {
+      "id": "1_sub_2",
+      "content": "John {{__SELECT_1__}} (is/ are) familiar with Chinese culture.",
+      "options": [
+       "is",
+       "are"
+      ],
+      "answer": "is",
+      "analysis": "主语 John 是单数第三人称，系动词用 is。"
+     },
+     {
+      "id": "1_sub_3",
+      "content": "There are {{__SELECT_1__}} (much/ many) ways to help others.",
+      "options": [
+       "much",
+       "many"
+      ],
+      "answer": "many",
+      "analysis": "ways 是可数名词复数，用 many 修饰。"
+     },
+     {
+      "id": "1_sub_4",
+      "content": "It is {{__SELECT_1__}} (a/the) first time that I have seen the sea.",
+      "options": [
+       "a",
+       "the"
+      ],
+      "answer": "the",
+      "analysis": "序数词前通常加定冠词 the，“It is the first time that...”是固定句式。"
+     },
+     {
+      "id": "1_sub_5",
+      "content": "I'm sure you can solve the problem by {{__SELECT_1__}} (your/ yourself).",
+      "options": [
+       "your",
+       "yourself"
+      ],
+      "answer": "yourself",
+      "analysis": "by oneself 是固定短语，意为“靠某人自己”。"
+     },
+     {
+      "id": "1_sub_6",
+      "content": "I can lend my bike to you {{__SELECT_1__}} (if/ or) you return it on time.",
+      "options": [
+       "if",
+       "or"
+      ],
+      "answer": "if",
+      "analysis": "引导条件状语从句，表示“如果”，语义通顺。"
+     },
+     {
+      "id": "1_sub_7",
+      "content": "The Internet has {{__SELECT_1__}} (great/ greatly) changed the way we live.",
+      "options": [
+       "great",
+       "greatly"
+      ],
+      "answer": "greatly",
+      "analysis": "修饰动词 changed，需用副词 greatly。"
+     },
+     {
+      "id": "1_sub_8",
+      "content": "When I was young, Dad often {{__SELECT_1__}} (took/takes) me to the museum.",
+      "options": [
+       "took",
+       "takes"
+      ],
+      "answer": "took",
+      "analysis": "根据从句 When I was young 可知是过去发生的动作，用过去式 took。"
+     },
+     {
+      "id": "1_sub_9",
+      "content": "I'm happy that the summer holiday {{__SELECT_1__}} (will/ would) begin next month.",
+      "options": [
+       "will",
+       "would"
+      ],
+      "answer": "will",
+      "analysis": "根据 next month 可知是将来发生的事情，主句是现在时，从句用一般将来时 will。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2024年湖北专升本《英语》真题.pdf",
+     "fileId": "2016555453967429633",
+     "originalNumber": "一"
+    },
+    "originalNumber": 1
+   },
+   {
+    "id": 2,
+    "type": "连词成句",
+    "content": "",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "2_sub_0",
+      "content": "the source of / is / Water / life",
+      "options": [],
+      "answer": "Water is the source of life.",
+      "analysis": "主系表结构。句意：水是生命之源。"
+     },
+     {
+      "id": "2_sub_1",
+      "content": "My family / reading books / enjoy",
+      "options": [],
+      "answer": "My family enjoy reading books.",
+      "analysis": "My family 做主语，enjoy 做谓语（此处看作整体或复数均可），reading books 是宾语。"
+     },
+     {
+      "id": "2_sub_2",
+      "content": "the beauty around you / to discover / It is a joy",
+      "options": [],
+      "answer": "It is a joy to discover the beauty around you.",
+      "analysis": "It 作形式主语，to discover... 是真正的主语。"
+     },
+     {
+      "id": "2_sub_3",
+      "content": "try our best / should / to realize our dreams / We",
+      "options": [],
+      "answer": "We should try our best to realize our dreams.",
+      "analysis": "We 主语，should 助动词，try our best 谓语短语，to realize... 目的状语。"
+     },
+     {
+      "id": "2_sub_4",
+      "content": "was translated into / His book / last year / French",
+      "options": [],
+      "answer": "His book was translated into French last year.",
+      "analysis": "被动语态。句意：他的书去年被翻译成了法语。"
+     },
+     {
+      "id": "2_sub_5",
+      "content": "has attracted / more and more people / Life in the countryside",
+      "options": [],
+      "answer": "Life in the countryside has attracted more and more people.",
+      "analysis": "主谓宾结构。句意：农村生活吸引了越来越多的人。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2024年湖北专升本《英语》真题.pdf",
+     "fileId": "2016555453967429633",
+     "originalNumber": "二"
+    },
+    "originalNumber": 2
+   },
+   {
+    "id": 3,
+    "type": "阅读填词",
+    "content": "One of the most important gifts parents can give their kids is time to play. Finding time to play with kids can\nbe a challenge if parents are busy. But play isn't an option, but a must. It's so important to child development that it has been recognized by the Office of the United Nations High Commissioner for Human Rights as a right of every child.\n\nScientists say 75 percent of the brain develops after a baby is born, in the years between birth and the early 20s. Play in childhood motivates the brain to make connections between neurons (神经元). Play during the teen years and into adulthood helps the brain develop even more connectivity. This helps a child or a teenager develop both physical and social skills. Besides, play can also help to increase the emotional well-being.\n\nStudies have shown that kids who are encouraged to use their imagination are more creative in their adult life. So it's wise for parents to shut down the screens and encourage their kids to do free play. Free play costs parents nothing but offers kids everything. Throw a sheet over the table to make a lovely tent; hand out paper plates and challenge everyone to make a funny hat; play hide-and-seek with the little ones, etc. All the free play is unstructured, but it makes kids learn important social skills by working with others.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "3_sub_0",
+      "content": "Kids Need Free Play\nWho: Giving our kids time to play is not a choice but a {{__BLANK_1__}}",
+      "options": [],
+      "answer": "must",
+      "analysis": "对应原文第一段：\"But play isn't an option, but a must.\""
+     },
+     {
+      "id": "3_sub_1",
+      "content": "Why: Play is important to the {{__BLANK_1__}} skills, social skills, and emotional well-being of children and the youth.",
+      "options": [],
+      "answer": "physical",
+      "analysis": "对应原文第二段：\"This helps a child or a teenager develop both physical and social skills.\""
+     },
+     {
+      "id": "3_sub_2",
+      "content": "What: Parents should {{__BLANK_1__}} free play.",
+      "options": [],
+      "answer": "encourage",
+      "analysis": "对应原文第三段：\"...encourage their kids to do free play.\""
+     },
+     {
+      "id": "3_sub_3",
+      "content": "The word \"free\" means both \"{{__BLANK_1__}}\" and \"with no cost\".",
+      "options": [],
+      "answer": "unstructured",
+      "analysis": "对应原文第三段最后一句：\"All the free play is unstructured...\""
+     },
+     {
+      "id": "3_sub_4",
+      "content": "Why: Free play enables kids to {{__BLANK_1__}} with others and learn important social skills.",
+      "options": [],
+      "answer": "work",
+      "analysis": "对应原文最后一句：\"...makes kids learn important social skills by working with others.\""
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2024年湖北专升本《英语》真题.pdf",
+     "fileId": "2016555453967429633",
+     "originalNumber": "三"
+    },
+    "originalNumber": 3
+   },
+   {
+    "id": 4,
+    "type": "阅读填词",
+    "content": "The number of giraffes is becoming smaller across Africa, according to the Giraffe Conservation Foundation (CCF). The total population has dropped by 40 percent in the last 15 years. The CCF is the only non-governmental organization (NCO) in the world to focus solely on the conservation of giraffes in Africa and is pioneering (倡导) a sustainable future for this mammal. According to a study, giraffes are quietly disappearing because it is difficult for them to find acacia trees, their favourite food.\n\nWork towards their conservation is more important now than it has ever been. And more and more giraffes are also being hunted. Because of this, the CCF decided to work with African parks. These parks are very important for keeping Nubian giraffes safe. GPS collars were used to keep an eye on giraffes but they can't stay on for long.\n\nTo solve this problem, new tracking devices which are as small as a chocolate bar, solar-powered and don't bother giraffes much are used to stop illegal hunting to keep giraffes safe.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "4_sub_0",
+      "content": "Keep an Eye on Giraffes\nWhat: Giraffes are quietly {{__BLANK_1__}}",
+      "options": [],
+      "answer": "disappearing",
+      "analysis": "对应原文第一段：\"...giraffes are quietly disappearing because...\""
+     },
+     {
+      "id": "4_sub_1",
+      "content": "because their favourite {{__BLANK_1__}} is difficult to find.",
+      "options": [],
+      "answer": "food",
+      "analysis": "对应原文第一段：\"...acacia trees, their favourite food.\""
+     },
+     {
+      "id": "4_sub_2",
+      "content": "CPS collars were used to keep an eye on giraffes but they can't {{__BLANK_1__}} on for long.",
+      "options": [],
+      "answer": "stay",
+      "analysis": "对应原文第二段：\"...GPS collars were used... but they can't stay on for long.\""
+     },
+     {
+      "id": "4_sub_3",
+      "content": "How: New tracking devices, which are as {{__BLANK_1__}} as a chocolate bar,",
+      "options": [],
+      "answer": "small",
+      "analysis": "对应原文最后一段：\"...new tracking devices which are as small as a chocolate bar...\""
+     },
+     {
+      "id": "4_sub_4",
+      "content": "solar-powered, and don't {{__BLANK_1__}} giraffes much, are used to stop illegal hunting to keep giraffes safe.",
+      "options": [],
+      "answer": "bother",
+      "analysis": "对应原文最后一段：\"...solar-powered and don't bother giraffes much...\""
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2024年湖北专升本《英语》真题.pdf",
+     "fileId": "2016555453967429633",
+     "originalNumber": "三"
+    },
+    "originalNumber": 4
+   },
+   {
+    "id": 5,
+    "type": "阅读理解",
+    "content": "It was on Sunday morning, when Sam went to see his grandfather alone. He took the bus to his grandfather's house, as it was quite a distance away. As the bus traveled along, it stopped at a busy stop and a crowd of passengers boarded, including an old lady.  \nThe bus was already crowded, and there were no more seats available. The old lady looked tired and strained, but she held on to the handrail for support. Sam noticed this and felt a bit uneasy, but he was also far from having the empty seat and couldn't offer one to her.  \nSuddenly, a voice came from the back of the bus. It was the little girl, who had boarded the bus before. \"Please, take my seat, Grandma,\" she said sweetly. The old lady was taken aback but soon smiled gratefully and sat down.  \nThis act of kindness didn't just move the old lady. Other passengers, inspired by the little girl, also got up and offered their seats to those who needed them. The atmosphere in the bus suddenly changed from one kind of indifference to one kind of kindness and compassion.  \nSam watched the scene with a sense of awe. He was amazed by the little girl's selflessness and generosity. It made him realize that true kindness comes from the heart, regardless of age or size.  \nAs the bus continued its journey, Sam couldn't help but think about the little girl's act of kindness. He turned to the passenger next to him and said, \"What a lovely little girl!\" Indeed, her simple yet profound act of giving had left a lasting impression on everyone on the bus.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "5_sub_0",
+      "content": "When did the story happen?",
+      "options": [],
+      "answer": "On Sunday morning.",
+      "analysis": "对应文中首句：\"It was on Sunday morning...\""
+     },
+     {
+      "id": "5_sub_1",
+      "content": "How did Sam go to see his grandfather, by bike or by bus?",
+      "options": [],
+      "answer": "By bus.",
+      "analysis": "对应文中第二句：\"He took the bus to his grandfather's house...\""
+     },
+     {
+      "id": "5_sub_2",
+      "content": "Who gave up the seat to the old lady?",
+      "options": [],
+      "answer": "The/A little girl.",
+      "analysis": "文中提到：\"It was the little girl... 'Please, take my seat, Grandma,' she said...\""
+     },
+     {
+      "id": "5_sub_3",
+      "content": "Why did other passengers also get up?",
+      "options": [],
+      "answer": "Because they were inspired by the little girl.",
+      "analysis": "文中提到：\"Other passengers, inspired by the little girl, also got up...\""
+     },
+     {
+      "id": "5_sub_4",
+      "content": "Translate the sentence \"What a lovely little girl!\" into Chinese.",
+      "options": [],
+      "answer": "多么可爱的一个小女孩啊！",
+      "analysis": "What a... 是感叹句，lovely 意为“可爱的”。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2024年湖北专升本《英语》真题.pdf",
+     "fileId": "2016555453967429633",
+     "originalNumber": "四"
+    },
+    "originalNumber": 5
+   },
+   {
+    "id": 6,
+    "type": "阅读理解",
+    "content": "In my job, I get to combine my two passions: sport and writing.\nI wrote newspaper articles about sport while studying for my journalism degree. I worked as a trainee writer for a local newspaper. Now, I write for a top newspaper. Today, I am writing an article about a baseball game. I arrive at the stadium two hours before the game starts. I have got ready for my work.\nBy now the players are arriving, so I hurry down to wait outside the changing area where I manage to get a short interview with the home team's star player. I have limited time, so I only ask a few important questions, such as how he's feeling and what his expectations are.\nOnce the game starts, I take notes on the action as it happens. It is an exciting game—The home team wins! As the fans leave, I go to the press conference with other journalists. We listen to both team coaches' thoughts on the game and I get some good quotes.\nFinally, it is time for me to pull all my notes together into the finished article to send to the newspaper. I only have a couple of hours to write it all up. The paper will be printed tonight, and the public will be reading my article over breakfast in the morning. I love sharing my love for sport through words.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "6_sub_0",
+      "content": "What newspaper articles does the writer write about?",
+      "options": [],
+      "answer": "Newspaper articles about sport.",
+      "analysis": "文中第一段提到作者把运动和写作结合，并在求学时就开始写关于运动的文章。"
+     },
+     {
+      "id": "6_sub_1",
+      "content": "Why does the writer ask only a few important questions?",
+      "options": [],
+      "answer": "Because he has limited time.",
+      "analysis": "文中第三段提到：\"I have limited time, so I only ask a few important questions...\""
+     },
+     {
+      "id": "6_sub_2",
+      "content": "Who wins the baseball game in the end?",
+      "options": [],
+      "answer": "The home team.",
+      "analysis": "文中第四段提到：\"The home team wins!\""
+     },
+     {
+      "id": "6_sub_3",
+      "content": "How many hours does the writer have to write up his article?",
+      "options": [],
+      "answer": "A couple of hours.",
+      "analysis": "文中最后一段提到：\"I only have a couple of hours to write it all up.\""
+     },
+     {
+      "id": "6_sub_4",
+      "content": "Translate the sentence \"I love sharing my love for sport through words.\" into Chinese.",
+      "options": [],
+      "answer": "我喜欢通过文字分享我对体育的热爱。",
+      "analysis": "sharing...through words 意为“通过文字分享”，my love for sport 意为“我对体育的热爱”。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2024年湖北专升本《英语》真题.pdf",
+     "fileId": "2016555453967429633",
+     "originalNumber": "四"
+    },
+    "originalNumber": 6
+   },
+   {
+    "id": 7,
+    "type": "翻译题",
+    "content": "使用括号内所给单词并结合汉语提示完成句子。",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "7_sub_0",
+      "content": "How {{__BLANK_1__}} were you when you went to college? (old) 你多大上的大学？",
+      "options": [],
+      "answer": "old",
+      "analysis": "询问年龄用 how old。"
+     },
+     {
+      "id": "7_sub_1",
+      "content": "Sorry, but I don't know where {{__BLANK_1__}} (live) 抱歉，我不知道他住的地方。",
+      "options": [],
+      "answer": "he lives",
+      "analysis": "宾语从句，需用陈述句语序。"
+     },
+     {
+      "id": "7_sub_2",
+      "content": "Only by {{__BLANK_1__}} can you change your life. (work) 只有努力工作才能改变你的生活。",
+      "options": [],
+      "answer": "working hard",
+      "analysis": "by 是介词，后跟动名词 working；根据语义补齐 hard。"
+     },
+     {
+      "id": "7_sub_3",
+      "content": "Please {{__BLANK_1__}} that you have enough rest. (sure) 请确保你有足够的休息。",
+      "options": [],
+      "answer": "make sure",
+      "analysis": "make sure 意为“确保”。"
+     },
+     {
+      "id": "7_sub_4",
+      "content": "Travel can give us a chance {{__BLANK_1__}} people from different cultures.(meet) 旅行能让我们有机会认识来自不同文化背景的人。",
+      "options": [],
+      "answer": "to meet",
+      "analysis": "a chance to do sth. 意为“做某事的机会”，动词不定式做后置定语。"
+     },
+     {
+      "id": "7_sub_5",
+      "content": "The snow is {{__BLANK_1__}} that the whole world is covered in silver. (heavy) 雪下得如此之大，整个世界都银装素裹。",
+      "options": [],
+      "answer": "so heavy",
+      "analysis": "so...that... 引导结果状语从句，意为“如此……以至于”。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2024年湖北专升本《英语》真题.pdf",
+     "fileId": "2016555453967429633",
+     "originalNumber": "五"
+    },
+    "originalNumber": 7
+   },
+   {
+    "id": 8,
+    "type": "写作题",
+    "content": "根据所给信息，编辑一条英语手机短信，发送给你的英国朋友Tom。\n主要内容包括：\n1. 请他帮忙买一本关于阅读的英文书；\n2. 书名为 On Reading;\n3. 请他购买该书的原因：\n4. 请他买到后尽快寄出；\n5. 向他表示感谢。\n注意：\n1. 无需写标题；\n2. 文章中不能出现个人姓名与学校名称；\n3. 词数不少于40。",
+    "options": [],
+    "answer": "Dear Tom, \nHow is everything? I'm writing to ask you a favor. Could you please help me buy an English book about reading? Its title is On Reading. I need this book because it is very helpful for my English study and I can't find it in our local bookstores. Please send it to me as soon as possible after you get it. \nThank you very much for your help. \nBest regards.",
+    "analysis": "这是一篇应用文（短信/邮件）。要点包含：请求帮忙买书（help me buy a book）、书名（On Reading）、原因（helpful/cannot find it）、寄送要求（send it as soon as possible）和感谢（Thank you）。格式正确，用词得体。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2024年湖北专升本《英语》真题.pdf",
+     "fileId": "2016555453967429633",
+     "originalNumber": "43"
+    },
+    "originalNumber": 8
+   }
+  ]
+ }
+}

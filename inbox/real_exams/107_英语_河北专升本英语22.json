@@ -1,0 +1,1834 @@
+{
+ "id": 107,
+ "title": "河北专升本英语22",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:41:00",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省 2022 年普通高校专科接本科教育选拔考试",
+   "subject": "英语",
+   "province": "河北省",
+   "year": 2022,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "cda5fc47-e410-4ac2-9023-0de6b3c72aa6"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "语音题",
+    "partLabel": "Ⅰ. Phonetics",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In each of the following groups of words, there are 4 underlined letters or letter combinations marked A, B, C, and D. Compare the underlined parts and identify the ONE that is different from the others in pronunciation. Then mark the corresponding letter On the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. d<u>e</u>corate"
+        },
+        {
+         "key": "B",
+         "label": "B. <u>e</u>nergy"
+        },
+        {
+         "key": "C",
+         "label": "C. m<u>e</u>dia"
+        },
+        {
+         "key": "D",
+         "label": "D. prof<u>e</u>ssor"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. exc<u>u</u>se"
+        },
+        {
+         "key": "B",
+         "label": "B. contin<u>u</u>e"
+        },
+        {
+         "key": "C",
+         "label": "C. ref<u>u</u>se"
+        },
+        {
+         "key": "D",
+         "label": "D. s<u>u</u>ccess"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. performan<u>c</u>e"
+        },
+        {
+         "key": "B",
+         "label": "B. <u>c</u>ommon"
+        },
+        {
+         "key": "C",
+         "label": "C. re<u>c</u>ycle"
+        },
+        {
+         "key": "D",
+         "label": "D. <u>c</u>elebrate"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. fl<u>oo</u>d"
+        },
+        {
+         "key": "B",
+         "label": "B. sp<u>oo</u>n"
+        },
+        {
+         "key": "C",
+         "label": "C. s<u>oo</u>n"
+        },
+        {
+         "key": "D",
+         "label": "D. ch<u>oo</u>se"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. <u>ch</u>arge"
+        },
+        {
+         "key": "B",
+         "label": "B. <u>ch</u>aracter"
+        },
+        {
+         "key": "C",
+         "label": "C. <u>ch</u>urch"
+        },
+        {
+         "key": "D",
+         "label": "D. mat<u>ch</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "cloze",
+    "displayName": "情景对话",
+    "partLabel": "Ⅱ. Situational Dialogues",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Then mark the corresponding letter On the Answer Sheet with a single line through the centre. Note that there are two additional choices and you may not use any of the choices in the list more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. Why not fill in this form to join us?"
+     },
+     {
+      "key": "B",
+      "label": "B. Well, I’m just looking around."
+     },
+     {
+      "key": "C",
+      "label": "C. How long have you been here?"
+     },
+     {
+      "key": "D",
+      "label": "D. Environmental protection."
+     },
+     {
+      "key": "E",
+      "label": "E. What kind of activities do you have?"
+     },
+     {
+      "key": "F",
+      "label": "F. I’m sure you will benefit from it."
+     },
+     {
+      "key": "G",
+      "label": "G. I’m afraid I won’t have enough time and energy."
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Laura: Hi, Tim!\nTim: Hi, Laura! Nice to meet you! What are you doing here?\nLaura: "
+       },
+       {
+        "type": "blank",
+        "key": "q6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": " There are so many clubs.\nTim: There are twenty clubs in total and I’m in charge of the Green Life Club. Would you like to join us?\nLaura: Green Life? What’s it about?\nTim: "
+       },
+       {
+        "type": "blank",
+        "key": "q7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": " We want more people to know that the earth is in danger and we need to do something about it now.\nLaura: That’s really true. We are hearing a lot about it these days. "
+       },
+       {
+        "type": "blank",
+        "key": "q8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": "\nTim: We make signs to put up in classrooms and dormitories to arouse students’ awareness about saving water and electricity.\nLaura: Sounds good.\nTim: We also plant trees every March and we go to some scenic spots to collect garbage every two weeks.\nLaura: Well, I’m kind of interested in your club. The problem is I have joined the Student Union and the Drama Club. "
+       },
+       {
+        "type": "blank",
+        "key": "q9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": "\nTim: Well, when I was a freshman last year, I joined four clubs. And now I’m just with this one. You’ll gradually get to know what really interests you. "
+       },
+       {
+        "type": "blank",
+        "key": "q10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": "\nLaura: Thank you for your advice. I’ll have a try."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Ⅲ. Reading Comprehension / Section A / Passage One",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are two passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A, B, C, and D. You are required to select the ONE that best fits into the statement. Mark the corresponding letter On the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "### Passage One\n**Online Meetings May Affect Creativity, Study Finds**\nMany companies have moved online because of COVID-19, with work meetings around the world taking place virtually instead of in the office. But a recent study has found that online meetings may affect creative thinking.\nThe study, published in Nature, included 602 people who were divided into random pairs. Each pair was given five minutes to think of creative uses for an item such as a frisbee, and then one minute to choose the most creative idea. Some pairs were asked to work together on a video call, while others worked in person. The results showed that the in-person pairs had more ideas than the virtual pairs. However, virtual groups were better at choosing the best idea.\nThe researchers also used eye-tracking technology to see whether focusing on a screen can affect a person’s creativity. Teams working together virtually spent more time looking directly at each other and remembered less of their surroundings when asked later. The in-person pairs spent more time looking around the room, but also had more ideas.\nThe researchers did the same study with 1,490 engineers. The pairs were asked to think of new product ideas and choose one as an idea for their company. The results were similar to the first study, with the engineers who met in person thinking of more product ideas, and the virtual pairs making slightly better decisions about which idea to choose.\nStudy author Melanie Brucks said that while she thinks the future of work is hybrid, the results suggest that businesses should think carefully about which tasks can be done online, and which - like thinking of new ideas - should be done in person."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the passage, under the influence of COVID-19, besides offline meeting, some companies also have meetings"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. airline"
+        },
+        {
+         "key": "B",
+         "label": "B. online"
+        },
+        {
+         "key": "C",
+         "label": "C. underline"
+        },
+        {
+         "key": "D",
+         "label": "D. outline"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How many pairs were there in the study published in Nature?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 602"
+        },
+        {
+         "key": "B",
+         "label": "B. 1490"
+        },
+        {
+         "key": "C",
+         "label": "C. 745"
+        },
+        {
+         "key": "D",
+         "label": "D. 301"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What does the phrase “in person” in the passage mean?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Going somewhere and doing something oneself."
+        },
+        {
+         "key": "B",
+         "label": "B. Communicating by email."
+        },
+        {
+         "key": "C",
+         "label": "C. Asking someone else for help."
+        },
+        {
+         "key": "D",
+         "label": "D. Experiencing something different."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the last paragraph, the study results suggested that"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. if a company wants to get more creative ideas, online meetings should be held."
+        },
+        {
+         "key": "B",
+         "label": "B. all tasks can be done online."
+        },
+        {
+         "key": "C",
+         "label": "C. if a company wants to get more creative ideas, in-person meetings should be held."
+        },
+        {
+         "key": "D",
+         "label": "D. Businesses should pay less attention on which tasks can be done online."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is NOT TRUE?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The study published in Nature showed that online meetings may affect creativity."
+        },
+        {
+         "key": "B",
+         "label": "B. The study with engineer showed that the virtual pairs made slightly better decisions about which idea to choose."
+        },
+        {
+         "key": "C",
+         "label": "C. Focusing on a screen can affect a person’s creativity."
+        },
+        {
+         "key": "D",
+         "label": "D. The in-person pairs had fewer ideas than virtual pairs."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Ⅲ. Reading Comprehension / Section A / Passage Two",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are two passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A, B, C, and D. You are required to select the ONE that best fits into the statement. Mark the corresponding letter On the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "### Passage Two\nMany people believe that teaching children music makes them smarter, better able to learn new things. But the organizers of a new study say there’s no scientific evidence that early musical training affects the intelligence of young people.\nAn estimated 80 percent of American adults think music lessons improve children’s ability to learn or their performance in school. They say that the satisfaction for learning to play a new song helps a child express creativity.\nResearchers at Harvard University, however, have found that there’s one thing musical training does not do. They say it does not make children more intelligent.\nSamuel Mehr, a graduate student at Harvard’s School of Education, said it is wrong to think that learning to play a musical instrument improves a child’s intellectual development. He says the evidence comes from studies that measured the mental ability of two groups of 4-year-olds and their parents. One group attended music class, the other went to a class that places importance on the visual arts - arts that can be seen.\n“The evidence there is ‘no’. We found no evidence for any advantage on any of these tests for the kids participating in these music classes,” said Mehr. Samuel Mehr says researchers have carried out many studies in an effort to learn whether musical training can make children smarter. He says the results have been mixed. He says only one study seems to show a small percentage increase in IQ, intellectual scores among students after one year of music lessons. He does not believe that IQ is a good measure of child’s intelligence. He says researchers in his study compared how well children in the musical training group did on mental processing tasks or projects, then the results were compared to those of children who did not take lessons. There was no evidence that the musical training group did much better on the mental tasks than the other group.\nThe researchers confirmed the results with a larger group of children and their parents. Mr Mehr says music lessons may not offer children a fast easy way to gain entry to the best schools later of their life. But he says the training is still important for cultural reasons. In his words, “We teach music because music is important for us.”"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The word “intelligence” in paragraph 1 can be best understood as the ability to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. speak"
+        },
+        {
+         "key": "B",
+         "label": "B. dance"
+        },
+        {
+         "key": "C",
+         "label": "C. learn"
+        },
+        {
+         "key": "D",
+         "label": "D. paint"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the second paragraph, most of the American adults think that"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. children’s ability to learn can be improved by music lessons"
+        },
+        {
+         "key": "B",
+         "label": "B. teachers are satisfied with students who can play a new song"
+        },
+        {
+         "key": "C",
+         "label": "C. students with good performance in school should learn music"
+        },
+        {
+         "key": "D",
+         "label": "D. Music lessons are more important than lessons in school"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following belongs to “visual arts”?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Music"
+        },
+        {
+         "key": "B",
+         "label": "B. Photography"
+        },
+        {
+         "key": "C",
+         "label": "C. Literature"
+        },
+        {
+         "key": "D",
+         "label": "D. Talk show"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is not supported by Samuel Mehr？"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Learning to play a musical instrument can’t improve a child’s intellectual development"
+        },
+        {
+         "key": "B",
+         "label": "B. Kids gain no advantage in their mental ability from participating in music classes."
+        },
+        {
+         "key": "C",
+         "label": "C. Music lessons may not add to students’ chance receiving the best education."
+        },
+        {
+         "key": "D",
+         "label": "D. Music training is unimportant"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What can be the best title for this passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The Best Way to Improve Students’ Intelligence"
+        },
+        {
+         "key": "B",
+         "label": "B. No Evidence Found on the Effect of Musical Training on Intelligence"
+        },
+        {
+         "key": "C",
+         "label": "C. Benefits of Musical Training"
+        },
+        {
+         "key": "D",
+         "label": "D. How to Improve Students’ Performance in School"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "cloze",
+    "displayName": "选词填空",
+    "partLabel": "Ⅲ. Reading Comprehension / Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word blank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter On the Answer Sheet with a single line through the centre. You may not use any of the word in the blank more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. showed"
+     },
+     {
+      "key": "B",
+      "label": "B. challenging"
+     },
+     {
+      "key": "C",
+      "label": "C. spend"
+     },
+     {
+      "key": "D",
+      "label": "D. nearly"
+     },
+     {
+      "key": "E",
+      "label": "E. getting"
+     },
+     {
+      "key": "F",
+      "label": "F. average"
+     },
+     {
+      "key": "G",
+      "label": "G. closely"
+     },
+     {
+      "key": "H",
+      "label": "H. completed"
+     },
+     {
+      "key": "I",
+      "label": "I. salary"
+     },
+     {
+      "key": "J",
+      "label": "J. health"
+     },
+     {
+      "key": "K",
+      "label": "K. part"
+     },
+     {
+      "key": "L",
+      "label": "L. confident"
+     },
+     {
+      "key": "M",
+      "label": "M. exercise"
+     },
+     {
+      "key": "N",
+      "label": "N. teach"
+     },
+     {
+      "key": "O",
+      "label": "O. negative"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "### Study: Seven Hours of Sleep Ideal in Middle to Old Age\nSeven hours may be the ideal amount of time for people in middle and old age to sleep, new research suggests.\nIn a study from the University of Cambridge and China’s Fudan University, "
+       },
+       {
+        "type": "blank",
+        "key": "q21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": " 500,000 British adults between the ages of 38 and 73 completed surveys about their sleep. Many scientists also "
+       },
+       {
+        "type": "blank",
+        "key": "q22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": " cognitive（认知的）tests, and about a third completed survey on their mental "
+       },
+       {
+        "type": "blank",
+        "key": "q23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": " and well-being.\nThe results "
+       },
+       {
+        "type": "blank",
+        "key": "q24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": " that participants who said they slept an "
+       },
+       {
+        "type": "blank",
+        "key": "q25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": " of about seven hours a day did best in the cognitive tests, had the lowest symptoms（症状）of anxiety and depression, and had the highest feelings of well-being. Even those who slept more than seven hours did not do as well as those who slept seven. “For every hour that you moved away from seven hours you got worse,” co-author Barbara Sahakian told The Guardian.\nBrain scans done on almost 40,000 participants showed that the areas of the brain most affected by sleep included the memory center. However, Sahakian said the researchers are not yet sure why too much sleep could have a "
+       },
+       {
+        "type": "blank",
+        "key": "q26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": " effect, although one idea was that people might\n"
+       },
+       {
+        "type": "blank",
+        "key": "q27",
+        "placeholder": "27"
+       },
+       {
+        "type": "markdown",
+        "value": " longer time in bed if they sleep poorly and wake up a lot.\nHowever, Russell Foster, a sleep expert at the University of Oxford who did not take "
+       },
+       {
+        "type": "blank",
+        "key": "q28",
+        "placeholder": "28"
+       },
+       {
+        "type": "markdown",
+        "value": " in the study, disagreed with the results, telling CNN that the ideal amount of sleep is different for everyone, and that “one size does not fit all.”\nSahakian said that "
+       },
+       {
+        "type": "blank",
+        "key": "q29",
+        "placeholder": "29"
+       },
+       {
+        "type": "markdown",
+        "value": " a good night’s sleep is important for people of all ages, adding, “I think it is as important as getting "
+       },
+       {
+        "type": "blank",
+        "key": "q30",
+        "placeholder": "30"
+       },
+       {
+        "type": "markdown",
+        "value": " .”"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "完形填空",
+    "partLabel": "Ⅳ. Cloze",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C, and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter On the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Holidays are a wonderful time to spend with friends and family, eating and sharing stories. Whether you are waiting at airports or spending time on trains, buses or cars, these situations can give you great "
+       },
+       {
+        "type": "blank",
+        "key": "q31",
+        "placeholder": "31"
+       },
+       {
+        "type": "markdown",
+        "value": " to learn English. Here are some ideas that you can use to improve your English over the holidays.\n### Published materials\nAirports and train stations often have "
+       },
+       {
+        "type": "blank",
+        "key": "q32",
+        "placeholder": "32"
+       },
+       {
+        "type": "markdown",
+        "value": " selling published materials. Buy an English-language publication to read it while you are waiting or spending quiet time at a hotel or in a home. Look at the images and read the lines below them. "
+       },
+       {
+        "type": "blank",
+        "key": "q33",
+        "placeholder": "33"
+       },
+       {
+        "type": "markdown",
+        "value": " you do not understand all the words, you can use the images to help you understand some of them. Later, you can use an online dictionary to look "
+       },
+       {
+        "type": "blank",
+        "key": "q34",
+        "placeholder": "34"
+       },
+       {
+        "type": "markdown",
+        "value": " the words you want to learn.\n### Conversation\nWhile traveling, we "
+       },
+       {
+        "type": "blank",
+        "key": "q35",
+        "placeholder": "35"
+       },
+       {
+        "type": "markdown",
+        "value": " see people from other countries who are also waiting or exploring a new place. If you hear someone asking for information in English, you "
+       },
+       {
+        "type": "blank",
+        "key": "q36",
+        "placeholder": "36"
+       },
+       {
+        "type": "markdown",
+        "value": " offer to help or simply greet them in English. A friendly conversation is usually welcome "
+       },
+       {
+        "type": "blank",
+        "key": "q37",
+        "placeholder": "37"
+       },
+       {
+        "type": "markdown",
+        "value": " travelers share their experiences.\n### Writing about your day\nWriting about your day is a great way to "
+       },
+       {
+        "type": "blank",
+        "key": "q38",
+        "placeholder": "38"
+       },
+       {
+        "type": "markdown",
+        "value": " your English writing skill. Draw images of "
+       },
+       {
+        "type": "blank",
+        "key": "q39",
+        "placeholder": "39"
+       },
+       {
+        "type": "markdown",
+        "value": " you see or do in your travels and look up the English words for the places or events later if you cannot think of them at the time. Using English to "
+       },
+       {
+        "type": "blank",
+        "key": "q40",
+        "placeholder": "40"
+       },
+       {
+        "type": "markdown",
+        "value": " your holiday will help you to put new words to use and make them stay in your memory longer. And you will have a wonderful record of your travel to look at long after the holiday is over."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. challenger"
+        },
+        {
+         "key": "B",
+         "label": "B. factors"
+        },
+        {
+         "key": "C",
+         "label": "C. chances"
+        },
+        {
+         "key": "D",
+         "label": "D. skills"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. stores"
+        },
+        {
+         "key": "B",
+         "label": "B. restrooms"
+        },
+        {
+         "key": "C",
+         "label": "C. elevators"
+        },
+        {
+         "key": "D",
+         "label": "D. security"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Not until"
+        },
+        {
+         "key": "B",
+         "label": "B. As if"
+        },
+        {
+         "key": "C",
+         "label": "C. So that"
+        },
+        {
+         "key": "D",
+         "label": "D. Even if"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. up"
+        },
+        {
+         "key": "B",
+         "label": "B. at"
+        },
+        {
+         "key": "C",
+         "label": "C. after"
+        },
+        {
+         "key": "D",
+         "label": "D. around"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. seldom"
+        },
+        {
+         "key": "B",
+         "label": "B. often"
+        },
+        {
+         "key": "C",
+         "label": "C. quickly"
+        },
+        {
+         "key": "D",
+         "label": "D. lonely"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. might"
+        },
+        {
+         "key": "B",
+         "label": "B. must"
+        },
+        {
+         "key": "C",
+         "label": "C. will"
+        },
+        {
+         "key": "D",
+         "label": "D. dare"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. but"
+        },
+        {
+         "key": "B",
+         "label": "B. yet"
+        },
+        {
+         "key": "C",
+         "label": "C. as"
+        },
+        {
+         "key": "D",
+         "label": "D. until"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. produce"
+        },
+        {
+         "key": "B",
+         "label": "B. protect"
+        },
+        {
+         "key": "C",
+         "label": "C. practice"
+        },
+        {
+         "key": "D",
+         "label": "D. pretend"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. what"
+        },
+        {
+         "key": "B",
+         "label": "B. that"
+        },
+        {
+         "key": "C",
+         "label": "C. which"
+        },
+        {
+         "key": "D",
+         "label": "D. where"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. delay"
+        },
+        {
+         "key": "B",
+         "label": "B. determine"
+        },
+        {
+         "key": "C",
+         "label": "C. divide"
+        },
+        {
+         "key": "D",
+         "label": "D. describe"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "Ⅴ. Writing",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this part you are required to write a composition entitled My View on Failure in no less than 120 words according to the following Chinese outline. Please remember to write it on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Write a composition entitled **My View on Failure** in no less than 120 words according to the following Chinese outline.\n1. 人们对失败的态度与看法；\n2. 你对失败的理解；\n3. 从失败中获得了什么。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 120
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": []
+      },
+      "referenceAnswer": {
+       "blocks": []
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

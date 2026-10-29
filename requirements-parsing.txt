@@ -1,0 +1,8 @@
+# 题库项目 · 可选：PDF 素材解析（只有「导入 PDF 讲义/真题」才需要）
+#
+# scripts/parse_inbox.py 里是 `try: import pdfplumber / except: 跳过` 的写法，
+# 所以不装这个文件，做题/组卷/判分/统计**完全不受影响**。
+# 装它大约多下载 10 MB（pdfplumber + pdfminer.six + pypdfium2 + Pillow）。
+
+-r requirements-core.txt
+pdfplumber==0.11.10

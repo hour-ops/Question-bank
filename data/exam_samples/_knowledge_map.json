@@ -1,0 +1,1313 @@
+{
+  "schema_version": "1.0",
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "note": "题型 ↔ 知识点 映射表，来自三个既有知识点库，未新增任何知识点。",
+  "subjects": {
+    "english": {
+      "kb_path": "subjects/english/knowledge_base.json",
+      "total_points": 48,
+      "basis": "题型维度(E-T*) + 语言知识维度(E-G*/E-S*)，映射取自 knowledge_base.json 的 question_type_to_points",
+      "type_to_points": {
+        "cloze": [
+          {
+            "id": "E-T14",
+            "name": "完形填空",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S13",
+            "name": "完形填空·语境逻辑",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-S14",
+            "name": "完形填空·词汇与语法辨析",
+            "dimension": "knowledge"
+          }
+        ],
+        "dialogue": [
+          {
+            "id": "E-T13",
+            "name": "情景对话",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S12",
+            "name": "情景对话与交际用语",
+            "dimension": "knowledge"
+          }
+        ],
+        "grammar_fill": [
+          {
+            "id": "E-T01",
+            "name": "语法填空",
+            "dimension": "format"
+          },
+          {
+            "id": "E-G01",
+            "name": "时态",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G02",
+            "name": "被动语态",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G04",
+            "name": "非谓语动词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G05",
+            "name": "从句",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G06",
+            "name": "词性转换与构词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G07",
+            "name": "比较级与最高级",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G09",
+            "name": "冠词与限定词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G10",
+            "name": "介词与介词短语",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G11",
+            "name": "连词与状语从句",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G12",
+            "name": "代词与感叹结构",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G13",
+            "name": "情态动词与限定词",
+            "dimension": "knowledge"
+          }
+        ],
+        "outline_fill": [
+          {
+            "id": "E-T11",
+            "name": "提纲填空",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S07",
+            "name": "阅读填空·信息提取",
+            "dimension": "knowledge"
+          }
+        ],
+        "phonetics": [
+          {
+            "id": "E-T12",
+            "name": "语音题",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S01",
+            "name": "语音辨析",
+            "dimension": "knowledge"
+          }
+        ],
+        "program_fill": [
+          {
+            "id": "E-T16",
+            "name": "阅读理解（选择题）",
+            "dimension": "format"
+          }
+        ],
+        "reading_fill": [
+          {
+            "id": "E-T03",
+            "name": "阅读填空",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S07",
+            "name": "阅读填空·信息提取",
+            "dimension": "knowledge"
+          }
+        ],
+        "reading_qa": [
+          {
+            "id": "E-T04",
+            "name": "阅读理解（简答 + 英译汉）",
+            "dimension": "format"
+          },
+          {
+            "id": "E-T16",
+            "name": "阅读理解（选择题）",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S02",
+            "name": "阅读·事实细节",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-S03",
+            "name": "阅读·主旨大意",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-S04",
+            "name": "阅读·推理判断",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-S05",
+            "name": "阅读·词义猜测",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-S06",
+            "name": "阅读·原因与目的",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-S08",
+            "name": "翻译·英译汉",
+            "dimension": "knowledge"
+          }
+        ],
+        "sentence_build": [
+          {
+            "id": "E-T02",
+            "name": "连词成句",
+            "dimension": "format"
+          },
+          {
+            "id": "E-G01",
+            "name": "时态",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G02",
+            "name": "被动语态",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G04",
+            "name": "非谓语动词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G05",
+            "name": "从句",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G06",
+            "name": "词性转换与构词",
+            "dimension": "knowledge"
+          }
+        ],
+        "sentence_completion": [
+          {
+            "id": "E-T07",
+            "name": "完成句子",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S09",
+            "name": "翻译·汉译英（填空）",
+            "dimension": "knowledge"
+          }
+        ],
+        "single_choice": [
+          {
+            "id": "E-T08",
+            "name": "单项选择",
+            "dimension": "format"
+          },
+          {
+            "id": "E-G01",
+            "name": "时态",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G02",
+            "name": "被动语态",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G03",
+            "name": "虚拟语气",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G04",
+            "name": "非谓语动词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G05",
+            "name": "从句",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G06",
+            "name": "词性转换与构词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G07",
+            "name": "比较级与最高级",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G08",
+            "name": "主谓一致",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G09",
+            "name": "冠词与限定词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G10",
+            "name": "介词与介词短语",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G11",
+            "name": "连词与状语从句",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G12",
+            "name": "代词与感叹结构",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G13",
+            "name": "情态动词与限定词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G14",
+            "name": "数词与序数词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G15",
+            "name": "强调句与倒装",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G16",
+            "name": "固定搭配与短语动词",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G17",
+            "name": "词汇辨析",
+            "dimension": "knowledge"
+          }
+        ],
+        "translation": [
+          {
+            "id": "E-T10",
+            "name": "段落翻译",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S08",
+            "name": "翻译·英译汉",
+            "dimension": "knowledge"
+          }
+        ],
+        "translation_choice": [
+          {
+            "id": "E-T09",
+            "name": "英译汉选择",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S08",
+            "name": "翻译·英译汉",
+            "dimension": "knowledge"
+          }
+        ],
+        "translation_fill": [
+          {
+            "id": "E-T05",
+            "name": "翻译填空",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S09",
+            "name": "翻译·汉译英（填空）",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-G07",
+            "name": "比较级与最高级",
+            "dimension": "knowledge"
+          }
+        ],
+        "word_fill": [
+          {
+            "id": "E-T15",
+            "name": "选词填空",
+            "dimension": "format"
+          },
+          {
+            "id": "E-G06",
+            "name": "词性转换与构词",
+            "dimension": "knowledge"
+          }
+        ],
+        "writing": [
+          {
+            "id": "E-T06",
+            "name": "书面表达",
+            "dimension": "format"
+          },
+          {
+            "id": "E-T17",
+            "name": "写作（提纲作文）",
+            "dimension": "format"
+          },
+          {
+            "id": "E-S10",
+            "name": "写作·应用文（湖北新格式）",
+            "dimension": "knowledge"
+          },
+          {
+            "id": "E-S11",
+            "name": "写作·提纲议论文（河北格式）",
+            "dimension": "knowledge"
+          }
+        ]
+      },
+      "points": [
+        {
+          "id": "E-T01",
+          "name": "语法填空",
+          "dimension": "format",
+          "question_type": "grammar_fill",
+          "format_era": "new_2024plus"
+        },
+        {
+          "id": "E-T02",
+          "name": "连词成句",
+          "dimension": "format",
+          "question_type": "sentence_build",
+          "format_era": "new_2024plus"
+        },
+        {
+          "id": "E-T03",
+          "name": "阅读填空",
+          "dimension": "format",
+          "question_type": "reading_fill",
+          "format_era": "new_2024plus"
+        },
+        {
+          "id": "E-T04",
+          "name": "阅读理解（简答 + 英译汉）",
+          "dimension": "format",
+          "question_type": "reading_qa",
+          "format_era": "new_2024plus"
+        },
+        {
+          "id": "E-T05",
+          "name": "翻译填空",
+          "dimension": "format",
+          "question_type": "translation_fill",
+          "format_era": "new_2024plus"
+        },
+        {
+          "id": "E-T06",
+          "name": "书面表达",
+          "dimension": "format",
+          "question_type": "writing",
+          "format_era": "new_2024plus"
+        },
+        {
+          "id": "E-T07",
+          "name": "完成句子",
+          "dimension": "format",
+          "question_type": "sentence_completion",
+          "format_era": "old_2020_2023"
+        },
+        {
+          "id": "E-T08",
+          "name": "单项选择",
+          "dimension": "format",
+          "question_type": "single_choice",
+          "format_era": "old_2020_2023"
+        },
+        {
+          "id": "E-T09",
+          "name": "英译汉选择",
+          "dimension": "format",
+          "question_type": "translation_choice",
+          "format_era": "old_2020_2023"
+        },
+        {
+          "id": "E-T10",
+          "name": "段落翻译",
+          "dimension": "format",
+          "question_type": "translation",
+          "format_era": "old_2020_2023"
+        },
+        {
+          "id": "E-T11",
+          "name": "提纲填空",
+          "dimension": "format",
+          "question_type": "outline_fill",
+          "format_era": "old_2020_2023"
+        },
+        {
+          "id": "E-T12",
+          "name": "语音题",
+          "dimension": "format",
+          "question_type": "phonetics",
+          "format_era": "hebei_2016_2025"
+        },
+        {
+          "id": "E-T13",
+          "name": "情景对话",
+          "dimension": "format",
+          "question_type": "dialogue",
+          "format_era": "hebei_2016_2025"
+        },
+        {
+          "id": "E-T14",
+          "name": "完形填空",
+          "dimension": "format",
+          "question_type": "cloze",
+          "format_era": "hebei_2016_2025"
+        },
+        {
+          "id": "E-T15",
+          "name": "选词填空",
+          "dimension": "format",
+          "question_type": "word_fill",
+          "format_era": "hebei_2016_2025"
+        },
+        {
+          "id": "E-T16",
+          "name": "阅读理解（选择题）",
+          "dimension": "format",
+          "question_type": "reading_qa",
+          "format_era": "hebei_2016_2025"
+        },
+        {
+          "id": "E-T17",
+          "name": "写作（提纲作文）",
+          "dimension": "format",
+          "question_type": "writing",
+          "format_era": "hebei_2016_2025"
+        },
+        {
+          "id": "E-G01",
+          "name": "时态",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G02",
+          "name": "被动语态",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G03",
+          "name": "虚拟语气",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G04",
+          "name": "非谓语动词",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G05",
+          "name": "从句",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G06",
+          "name": "词性转换与构词",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G07",
+          "name": "比较级与最高级",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G08",
+          "name": "主谓一致",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G09",
+          "name": "冠词与限定词",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G10",
+          "name": "介词与介词短语",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G11",
+          "name": "连词与状语从句",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G12",
+          "name": "代词与感叹结构",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G13",
+          "name": "情态动词与限定词",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G14",
+          "name": "数词与序数词",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G15",
+          "name": "强调句与倒装",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G16",
+          "name": "固定搭配与短语动词",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-G17",
+          "name": "词汇辨析",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S01",
+          "name": "语音辨析",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S02",
+          "name": "阅读·事实细节",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S03",
+          "name": "阅读·主旨大意",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S04",
+          "name": "阅读·推理判断",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S05",
+          "name": "阅读·词义猜测",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S06",
+          "name": "阅读·原因与目的",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S07",
+          "name": "阅读填空·信息提取",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S08",
+          "name": "翻译·英译汉",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S09",
+          "name": "翻译·汉译英（填空）",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S10",
+          "name": "写作·应用文（湖北新格式）",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S11",
+          "name": "写作·提纲议论文（河北格式）",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S12",
+          "name": "情景对话与交际用语",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S13",
+          "name": "完形填空·语境逻辑",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        },
+        {
+          "id": "E-S14",
+          "name": "完形填空·词汇与语法辨析",
+          "dimension": "knowledge",
+          "question_type": null,
+          "format_era": null
+        }
+      ]
+    },
+    "c_common": {
+      "kb_path": "subjects/c_common/knowledge_base.json",
+      "total_points": 15,
+      "basis": "题型无关：C 语言的知识点由原题教材章节名(source.chapter)决定，经 knowledge_points[].alias_chapters 反查（190 个别名）",
+      "type_to_points": {
+        "code_correction": {
+          "mapping": "by_chapter",
+          "candidate_points": [
+            "C-01",
+            "C-02",
+            "C-03",
+            "C-04",
+            "C-05",
+            "C-06",
+            "C-07",
+            "C-08",
+            "C-09",
+            "C-10",
+            "C-11",
+            "C-12",
+            "C-13",
+            "C-14",
+            "C-15"
+          ]
+        },
+        "program_fill": {
+          "mapping": "by_chapter",
+          "candidate_points": [
+            "C-01",
+            "C-02",
+            "C-03",
+            "C-04",
+            "C-05",
+            "C-06",
+            "C-07",
+            "C-08",
+            "C-09",
+            "C-10",
+            "C-11",
+            "C-12",
+            "C-13",
+            "C-14",
+            "C-15"
+          ]
+        },
+        "programming": {
+          "mapping": "by_chapter",
+          "candidate_points": [
+            "C-01",
+            "C-02",
+            "C-03",
+            "C-04",
+            "C-05",
+            "C-06",
+            "C-07",
+            "C-08",
+            "C-09",
+            "C-10",
+            "C-11",
+            "C-12",
+            "C-13",
+            "C-14",
+            "C-15"
+          ]
+        },
+        "reading_qa": {
+          "mapping": "by_chapter",
+          "candidate_points": [
+            "C-01",
+            "C-02",
+            "C-03",
+            "C-04",
+            "C-05",
+            "C-06",
+            "C-07",
+            "C-08",
+            "C-09",
+            "C-10",
+            "C-11",
+            "C-12",
+            "C-13",
+            "C-14",
+            "C-15"
+          ]
+        },
+        "single_choice": {
+          "mapping": "by_chapter",
+          "candidate_points": [
+            "C-01",
+            "C-02",
+            "C-03",
+            "C-04",
+            "C-05",
+            "C-06",
+            "C-07",
+            "C-08",
+            "C-09",
+            "C-10",
+            "C-11",
+            "C-12",
+            "C-13",
+            "C-14",
+            "C-15"
+          ]
+        },
+        "true_false": {
+          "mapping": "by_chapter",
+          "candidate_points": [
+            "C-01",
+            "C-02",
+            "C-03",
+            "C-04",
+            "C-05",
+            "C-06",
+            "C-07",
+            "C-08",
+            "C-09",
+            "C-10",
+            "C-11",
+            "C-12",
+            "C-13",
+            "C-14",
+            "C-15"
+          ]
+        }
+      },
+      "type_to_points_note": "C 语言的题型**不决定**知识点：任何题型都可以考任何一个章节。所以这里列出全部候选知识点，实际取值由每道题的 source.chapter 反查得到，见各 sample 的 knowledge_point / chapter_raw。",
+      "chapter_index": {
+        "do-while循环": "C-05",
+        "for 循环": "C-05",
+        "for 循环的语法与空语句": "C-05",
+        "for循环与累加求和": "C-05",
+        "if 语句与关系运算符": "C-04",
+        "if-else 选择结构": "C-04",
+        "scanf 函数": "C-03",
+        "scanf 函数的使用": "C-03",
+        "scanf 函数的地址参数": "C-03",
+        "scanf函数的使用": "C-03",
+        "static 局部变量": "C-07",
+        "static 局部变量的生命周期": "C-07",
+        "static局部变量与函数调用": "C-07",
+        "switch 语句": "C-04",
+        "switch 语句与 case 穿透": "C-04",
+        "switch 语句的穿透现象": "C-04",
+        "switch语句与break的作用": "C-04",
+        "while 循环": "C-05",
+        "一维数组与取余运算": "C-06",
+        "一维数组与循环": "C-06",
+        "一维数组与遍历求最大值": "C-06",
+        "二维数组": "C-06",
+        "二维数组与主对角线": "C-06",
+        "二维数组与指针": "C-08",
+        "二维数组与矩阵转置": "C-06",
+        "位运算（右移与按位与）": "C-12",
+        "关系运算符与赋值运算符的区别": "C-02",
+        "冒泡排序与数组元素交换": "C-06",
+        "函数与条件运算符": "C-07",
+        "函数参数、指针传递": "C-08",
+        "函数参数传递与作用域": "C-07",
+        "函数参数传递（指针传递）": "C-07",
+        "函数参数值传递": "C-07",
+        "函数的递归调用": "C-07",
+        "函数返回指针、变量存储类别": "C-07",
+        "字符串与字符数组": "C-14",
+        "字符串与指针": "C-14",
+        "字符串处理函数 strlen": "C-14",
+        "字符串处理函数 strlen 与 sizeof 的区别": "C-14",
+        "字符串处理函数strcat": "C-14",
+        "字符串处理函数strlen": "C-14",
+        "字符串复制与数组赋值限制": "C-14",
+        "字符串比较": "C-14",
+        "字符分类统计": "C-14",
+        "字符判断与循环": "C-14",
+        "字符数组、字符串结束符": "C-14",
+        "字符数组与字符串处理": "C-14",
+        "字符数组与字符串复制": "C-14",
+        "字符数组与字符串赋值": "C-14",
+        "字符数组赋值": "C-14",
+        "字符类型与ASCII编码、字符数组的遍历": "C-14",
+        "宏定义": "C-11",
+        "宏定义与展开": "C-11",
+        "宏定义与运算符优先级": "C-11",
+        "带参数的宏定义展开及运算符优先级": "C-11",
+        "循环与素数判断": "C-05",
+        "循环与累乘、变量初始化": "C-05",
+        "循环与累加": "C-05",
+        "循环与递推（斐波那契数列）": "C-05",
+        "循环嵌套": "C-05",
+        "循环条件、辗转相除法": "C-05",
+        "循环结构": "C-05",
+        "循环结构、算法": "C-05",
+        "循环结构与累加求和": "C-05",
+        "循环结构与阶乘计算": "C-05",
+        "指针与一维数组、后置自增运算符": "C-08",
+        "指针与字符串": "C-08",
+        "指针与字符串反转": "C-08",
+        "指针与字符串复制": "C-08",
+        "指针与数组": "C-08",
+        "指针作为函数参数": "C-07",
+        "指针作为函数参数，传址调用": "C-07",
+        "指针作函数参数": "C-07",
+        "指针的初始化": "C-08",
+        "按位与运算": "C-12",
+        "数组、排序算法": "C-06",
+        "数组下标、变量初始化": "C-06",
+        "数组下标越界": "C-13",
+        "数组下标越界与循环边界": "C-13",
+        "数组与元素交换": "C-06",
+        "数组与循环": "C-06",
+        "数组越界": "C-13",
+        "数组遍历与求最大值": "C-06",
+        "整数除法与类型转换": "C-02",
+        "文件打开模式": "C-10",
+        "枚举类型": "C-09",
+        "枚举类型与 switch 分支": "C-09",
+        "第10章 字符串": "C-14",
+        "第10章 对文件的输入输出": "C-03",
+        "第10章 文件": "C-10",
+        "第10章 文件操作": "C-10",
+        "第10章 用文件保存数据": "C-10",
+        "第10章 综合案例": "C-15",
+        "第10章 预处理命令": "C-11",
+        "第11章 复杂数据类型": "C-09",
+        "第11章 常见的数据结构": "C-09",
+        "第11章 常见错误分析": "C-13",
+        "第11章 指针和数组": "C-08",
+        "第11章 编译预处理": "C-11",
+        "第12章 位运算": "C-12",
+        "第12章 文件": "C-10",
+        "第12章 结构体和数据结构基础": "C-09",
+        "第12章 综合项目——贪吃蛇控制台游戏": "C-15",
+        "第13章 文件操作": "C-10",
+        "第14章 简单的游戏设计": "C-15",
+        "第1章 C 语言概述": "C-01",
+        "第1章 为什么要学习编程": "C-01",
+        "第1章 程序设计与C语言": "C-01",
+        "第1章 程序设计和C语言": "C-01",
+        "第2章 C语言的基本知识": "C-02",
+        "第2章 C语言程序设计基础": "C-02",
+        "第2章 基本数据类型": "C-02",
+        "第2章 数据的存储与运算": "C-02",
+        "第2章 数据类型、运算符和表达式": "C-02",
+        "第2章 数据类型与运算符": "C-02",
+        "第2章 算法——程序的灵魂": "C-01",
+        "第3章 基本数据类型、运算符与表达式": "C-02",
+        "第3章 基本算术运算": "C-02",
+        "第3章 最简单的C程序设计——顺序程序设计": "C-03",
+        "第3章 流程控制": "C-01",
+        "第3章 顺序和选择结构程序设计": "C-03",
+        "第3章 顺序结构程序设计": "C-03",
+        "第4章 分支结构程序设计": "C-04",
+        "第4章 基本输入/输出和顺序程序设计": "C-03",
+        "第4章 循环结构程序设计": "C-05",
+        "第4章 数组": "C-06",
+        "第4章 选择结构程序设计": "C-04",
+        "第4章 键盘输入和屏幕输出": "C-03",
+        "第5章 函数": "C-07",
+        "第5章 循环结构程序设计": "C-05",
+        "第5章 选择控制结构": "C-04",
+        "第5章 选择结构程序设计": "C-04",
+        "第6章 利用数组处理批量数据": "C-06",
+        "第6章 循环控制结构": "C-05",
+        "第6章 循环结构程序设计": "C-05",
+        "第6章 指针": "C-08",
+        "第6章 数组": "C-06",
+        "第6章 用数组处理批量数据": "C-06",
+        "第7章 函数": "C-07",
+        "第7章 函数与模块化程序设计": "C-07",
+        "第7章 字符串": "C-14",
+        "第7章 指针": "C-08",
+        "第7章 数组": "C-06",
+        "第7章 用函数实现模块化程序设计": "C-07",
+        "第8章 函数": "C-07",
+        "第8章 善于使用指针": "C-08",
+        "第8章 善于利用指针": "C-08",
+        "第8章 指针": "C-08",
+        "第8章 数组和算法基础": "C-06",
+        "第8章 结构体": "C-09",
+        "第8章 结构体等构造数据类型": "C-09",
+        "第9章 指针": "C-08",
+        "第9章 文件": "C-10",
+        "第9章 用户自己建立数据类型": "C-02",
+        "第9章 用结构体类型处理组合数据": "C-09",
+        "第9章 结构体与链表": "C-09",
+        "第9章 预处理": "C-11",
+        "算术运算符 / 与 %": "C-02",
+        "素数判断": "C-05",
+        "结构体": "C-09",
+        "结构体定义语法": "C-09",
+        "结构体指针与成员访问": "C-09",
+        "结构体数组": "C-09",
+        "结构体数组、循环与条件判断": "C-09",
+        "结构体数组与指针": "C-09",
+        "结构体数组与指针访问成员": "C-09",
+        "赋值与相等比较": "C-02",
+        "辗转相除法求最大公约数": "C-05",
+        "运算符优先级": "C-02",
+        "选择结构、循环结构": "C-04",
+        "选择结构中的条件表达式，赋值运算符与关系运算符的区别": "C-04",
+        "递归函数": "C-07",
+        "递归函数与斐波那契数列": "C-07",
+        "递归函数与阶乘计算": "C-07",
+        "逻辑运算符优先级与闰年判断": "C-02",
+        "逻辑运算符的短路求值": "C-02",
+        "静态局部变量": "C-07",
+        "项目一 认识C语言": "C-01",
+        "项目七 使用数组": "C-06",
+        "项目三 设计顺序结构程序": "C-03",
+        "项目九 使用指针": "C-08",
+        "项目二 认识数据类型和表达式": "C-02",
+        "项目五 设计循环结构程序": "C-05",
+        "项目八 认识编译预处理": "C-11",
+        "项目六 使用函数": "C-07",
+        "项目十 使用结构体和共用体": "C-09",
+        "项目十一 使用位运算": "C-12",
+        "项目十三 C语言程序项目案例": "C-15",
+        "项目十二 操作文件": "C-10",
+        "项目四 设计选择结构程序": "C-04"
+      },
+      "points": [
+        {
+          "id": "C-01",
+          "name": "C语言概述与程序设计基础",
+          "alias_count": 7
+        },
+        {
+          "id": "C-02",
+          "name": "数据类型、运算符与表达式",
+          "alias_count": 17
+        },
+        {
+          "id": "C-03",
+          "name": "顺序结构与输入输出",
+          "alias_count": 11
+        },
+        {
+          "id": "C-04",
+          "name": "选择结构",
+          "alias_count": 13
+        },
+        {
+          "id": "C-05",
+          "name": "循环结构",
+          "alias_count": 22
+        },
+        {
+          "id": "C-06",
+          "name": "数组",
+          "alias_count": 19
+        },
+        {
+          "id": "C-07",
+          "name": "函数与模块化程序设计",
+          "alias_count": 22
+        },
+        {
+          "id": "C-08",
+          "name": "指针",
+          "alias_count": 16
+        },
+        {
+          "id": "C-09",
+          "name": "结构体、共用体与自定义数据类型",
+          "alias_count": 17
+        },
+        {
+          "id": "C-10",
+          "name": "文件",
+          "alias_count": 8
+        },
+        {
+          "id": "C-11",
+          "name": "编译预处理",
+          "alias_count": 8
+        },
+        {
+          "id": "C-12",
+          "name": "位运算",
+          "alias_count": 4
+        },
+        {
+          "id": "C-13",
+          "name": "常见错误与程序调试",
+          "alias_count": 4
+        },
+        {
+          "id": "C-14",
+          "name": "字符串处理",
+          "alias_count": 18
+        },
+        {
+          "id": "C-15",
+          "name": "综合项目与案例",
+          "alias_count": 4
+        }
+      ],
+      "alias_collisions": []
+    },
+    "aca_llm": {
+      "kb_path": "subjects/aca_llm/knowledge_base.json",
+      "total_points": 252,
+      "basis": "六大模块 252 个知识点（模块/课时定位）；无官方真题，故无题型↔知识点实测映射",
+      "type_to_points": {},
+      "points_by_module": [
+        {
+          "no": 1,
+          "name": "大模型概念",
+          "weight": 0.18,
+          "points": 33
+        },
+        {
+          "no": 2,
+          "name": "提示词工程",
+          "weight": 0.2,
+          "points": 33
+        },
+        {
+          "no": 3,
+          "name": "增强大模型应用的能力",
+          "weight": 0.22,
+          "points": 59
+        },
+        {
+          "no": 4,
+          "name": "大模型微调",
+          "weight": 0.12,
+          "points": 22
+        },
+        {
+          "no": 5,
+          "name": "大模型 Agent",
+          "weight": 0.16,
+          "points": 79
+        },
+        {
+          "no": 6,
+          "name": "大模型安全合规",
+          "weight": 0.12,
+          "points": 26
+        }
+      ]
+    }
+  },
+  "sample_coverage": {
+    "c_common/code_correction": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "c_common/program_fill": {
+      "samples": 40,
+      "mapped": 28,
+      "unmapped": 12,
+      "rate": 0.7
+    },
+    "c_common/programming": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "c_common/reading_qa": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "c_common/single_choice": {
+      "samples": 40,
+      "mapped": 30,
+      "unmapped": 10,
+      "rate": 0.75
+    },
+    "c_common/true_false": {
+      "samples": 40,
+      "mapped": 38,
+      "unmapped": 2,
+      "rate": 0.95
+    },
+    "english/cloze": {
+      "samples": 10,
+      "mapped": 10,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/dialogue": {
+      "samples": 9,
+      "mapped": 9,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/grammar_fill": {
+      "samples": 23,
+      "mapped": 23,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/outline_fill": {
+      "samples": 1,
+      "mapped": 1,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/phonetics": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/reading_fill": {
+      "samples": 17,
+      "mapped": 17,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/reading_qa": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/sentence_build": {
+      "samples": 23,
+      "mapped": 23,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/sentence_completion": {
+      "samples": 6,
+      "mapped": 6,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/single_choice": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/translation": {
+      "samples": 8,
+      "mapped": 8,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/translation_choice": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/translation_fill": {
+      "samples": 24,
+      "mapped": 24,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/word_fill": {
+      "samples": 7,
+      "mapped": 7,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/writing": {
+      "samples": 24,
+      "mapped": 24,
+      "unmapped": 0,
+      "rate": 1.0
+    }
+  },
+  "unmapped_reasons": {
+    "unmapped: 原题未标注教材章节（source.chapter 为空）": 1956
+  }
+}

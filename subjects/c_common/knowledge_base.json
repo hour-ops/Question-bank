@@ -1,0 +1,751 @@
+{
+  "subject": "c_common",
+  "built_at": "2026-10-12T00:31:36",
+  "source": {
+    "dbs": [
+      "data/c_wuhan.sqlite",
+      "data/c_hbpu.sqlite"
+    ],
+    "questions": 6035,
+    "raw_chapter_names": 190,
+    "raw_chapter_names_incl_empty": 191,
+    "questions_with_named_chapter": 4068,
+    "question_type_distribution": {
+      "single_choice": 2163,
+      "program_fill": 2162,
+      "programming": 912,
+      "reading_qa": 648,
+      "true_false": 113,
+      "code_correction": 37
+    },
+    "trust_level_distribution": {
+      "textbook": 5907,
+      "(null)": 128
+    },
+    "exam_title_count": 30,
+    "exam_titles": {
+      "湖北经济学院法商学院专升本专业课考试": 454,
+      "三峡大学科技学院专升本专业课考试": 448,
+      "湖北恩施学院专升本专业课考试": 448,
+      "湖北文理学院理工学院专升本专业课考试": 448,
+      "武汉传媒学院软件工程": 297,
+      "湖北商贸学院软件工程": 281,
+      "武汉东湖学院软件工程": 181,
+      "武汉生物工程学院软件工程": 181,
+      "汉江师范学院软件工程": 181,
+      "湖北工业大学工程技术学院软件工程": 181,
+      "湖北工程学院软件工程": 181,
+      "武汉晴川学院专升本": 178,
+      "武汉晴川学院软件工程": 178,
+      "武汉设计工程学院专升本专业课考试": 173,
+      "湖北理工学院专升本专业课考试": 168,
+      "武汉城市学院软件工程": 161,
+      "湖北恩施学院软件工程": 161,
+      "武汉东湖学院专升本专业课考试": 149,
+      "武汉文理学院专升本专业课考试": 149,
+      "武汉生物工程学院专升本专业课考试": 149,
+      "湖北大学知行学院专升本专业课考试": 149,
+      "湖北工业大学工程技术学院专升本专业课考试": 149,
+      "湖北工程学院专升本专业课考试": 149,
+      "湖北师范大学专升本专业课考试": 147,
+      "武汉商学院软件工程": 139,
+      "武汉工程大学邮电与信息工程学院专升本教材": 139,
+      "武汉工程大学邮电与信息工程学院软件工程": 139,
+      "武汉纺织大学外经贸学院软件工程": 139,
+      "(null)": 128,
+      "大学生程序设计素养调研": 10
+    },
+    "note": "c_wuhan 的 knowledge_point 直接取自各校真题/教材章节标注，共 134 个不同名称（含空串）；c_hbpu 为湖北理工学院（祁文青 2018 版）体系。两库合计 190 个不同非空章节名。"
+  },
+  "schema_version": "1.0",
+  "merge_rule": "每个原始章节名归属唯一知识点（first-match，规则见 tests/build_c_kb.py）；跨主题的复合章节额外记在 multi_topic_chapters。「第N章」前缀在匹配前被剥离，因为不同教材章号冲突（同样的「第7章」在不同教材里分别指函数、指针或数组）。",
+  "knowledge_points": [
+    {
+      "id": "C-01",
+      "name": "C语言概述与程序设计基础",
+      "desc": "C 程序的基本结构（#include/main/函数体）、源程序的编译与运行过程、算法与流程图、常见开发环境。",
+      "canonical_hint": "教材常见章号：第1章（C语言概述）",
+      "alias_chapters": [
+        "第1章 程序设计与C语言",
+        "第2章 算法——程序的灵魂",
+        "第1章 C 语言概述",
+        "第1章 程序设计和C语言",
+        "项目一 认识C语言",
+        "第3章 流程控制",
+        "第1章 为什么要学习编程"
+      ],
+      "alias_count": 7,
+      "question_count": 323,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 298,
+        "c_hbpu.sqlite": 25
+      },
+      "sub_points": [
+        "C 程序的组成（预处理命令 + 函数）",
+        "main 函数与程序入口",
+        "算法与流程图",
+        "源程序到可执行文件的编译运行过程"
+      ],
+      "related_points": [],
+      "multi_topic_chapters": {
+        "第3章 流程控制": [
+          "C-03",
+          "C-04",
+          "C-05"
+        ]
+      },
+      "multi_topic_question_count": 24
+    },
+    {
+      "id": "C-02",
+      "name": "数据类型、运算符与表达式",
+      "desc": "int/float/double/char 与取值范围、常量与变量、算术/关系/逻辑/赋值/逗号运算符及优先级结合性、自动与强制类型转换。",
+      "canonical_hint": "教材常见章号：第2章（数据类型）",
+      "alias_chapters": [
+        "第2章 数据类型、运算符和表达式",
+        "第9章 用户自己建立数据类型",
+        "第3章 基本数据类型、运算符与表达式",
+        "第2章 数据的存储与运算",
+        "第2章 C语言程序设计基础",
+        "第2章 C语言的基本知识",
+        "第2章 数据类型与运算符",
+        "项目二 认识数据类型和表达式",
+        "第3章 基本算术运算",
+        "第2章 基本数据类型",
+        "关系运算符与赋值运算符的区别",
+        "整数除法与类型转换",
+        "算术运算符 / 与 %",
+        "赋值与相等比较",
+        "运算符优先级",
+        "逻辑运算符优先级与闰年判断",
+        "逻辑运算符的短路求值"
+      ],
+      "alias_count": 17,
+      "question_count": 469,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 450,
+        "c_hbpu.sqlite": 19
+      },
+      "sub_points": [
+        "基本数据类型与取值范围",
+        "常量与变量的定义与初始化",
+        "算术运算符与优先级结合性",
+        "关系与逻辑运算符",
+        "自增自减与赋值运算符",
+        "自动类型转换与强制类型转换"
+      ],
+      "related_points": [],
+      "multi_topic_chapters": {
+        "第9章 用户自己建立数据类型": [
+          "C-09"
+        ],
+        "逻辑运算符优先级与闰年判断": [
+          "C-04"
+        ]
+      },
+      "multi_topic_question_count": 57
+    },
+    {
+      "id": "C-03",
+      "name": "顺序结构与输入输出",
+      "desc": "顺序执行、printf 格式控制、scanf 取地址与格式匹配、getchar/putchar、字符数据的输入输出。",
+      "canonical_hint": "教材常见章号：第3章（顺序结构）",
+      "alias_chapters": [
+        "第3章 顺序结构程序设计",
+        "第3章 最简单的C程序设计——顺序程序设计",
+        "第10章 对文件的输入输出",
+        "第4章 基本输入/输出和顺序程序设计",
+        "第3章 顺序和选择结构程序设计",
+        "项目三 设计顺序结构程序",
+        "第4章 键盘输入和屏幕输出",
+        "scanf 函数的使用",
+        "scanf 函数",
+        "scanf 函数的地址参数",
+        "scanf函数的使用"
+      ],
+      "alias_count": 11,
+      "question_count": 373,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 342,
+        "c_hbpu.sqlite": 31
+      },
+      "sub_points": [
+        "printf 格式字符",
+        "scanf 的地址参数与格式匹配",
+        "getchar / putchar",
+        "字符数据的输入输出"
+      ],
+      "related_points": [],
+      "multi_topic_chapters": {
+        "第3章 顺序和选择结构程序设计": [
+          "C-04"
+        ]
+      },
+      "multi_topic_question_count": 28
+    },
+    {
+      "id": "C-04",
+      "name": "选择结构",
+      "desc": "关系与逻辑表达式、if / if-else / if-else-if、switch-case 与 break 穿透、条件运算符 ?:、嵌套选择。",
+      "canonical_hint": "教材常见章号：第4章（选择结构）",
+      "alias_chapters": [
+        "第4章 分支结构程序设计",
+        "第4章 选择结构程序设计",
+        "第5章 选择结构程序设计",
+        "项目四 设计选择结构程序",
+        "第5章 选择控制结构",
+        "if 语句与关系运算符",
+        "if-else 选择结构",
+        "switch 语句",
+        "switch 语句与 case 穿透",
+        "switch 语句的穿透现象",
+        "switch语句与break的作用",
+        "选择结构、循环结构",
+        "选择结构中的条件表达式，赋值运算符与关系运算符的区别"
+      ],
+      "alias_count": 13,
+      "question_count": 377,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 358,
+        "c_hbpu.sqlite": 19
+      },
+      "sub_points": [
+        "if 与 if-else",
+        "if-else-if 多分支",
+        "switch-case 与 break 穿透",
+        "条件运算符 ?:",
+        "嵌套选择与悬空 else"
+      ],
+      "related_points": [],
+      "multi_topic_chapters": {
+        "选择结构、循环结构": [
+          "C-05"
+        ]
+      },
+      "multi_topic_question_count": 1
+    },
+    {
+      "id": "C-05",
+      "name": "循环结构",
+      "desc": "while、do-while、for 三段式、break 与 continue、循环嵌套、累加累乘、素数判断与辗转相除等典型循环算法。",
+      "canonical_hint": "教材常见章号：第5章（循环结构）",
+      "alias_chapters": [
+        "第5章 循环结构程序设计",
+        "第6章 循环结构程序设计",
+        "第4章 循环结构程序设计",
+        "项目五 设计循环结构程序",
+        "第6章 循环控制结构",
+        "do-while循环",
+        "for 循环",
+        "for 循环的语法与空语句",
+        "for循环与累加求和",
+        "while 循环",
+        "循环与素数判断",
+        "循环与累乘、变量初始化",
+        "循环与累加",
+        "循环与递推（斐波那契数列）",
+        "循环嵌套",
+        "循环条件、辗转相除法",
+        "循环结构",
+        "循环结构、算法",
+        "循环结构与累加求和",
+        "循环结构与阶乘计算",
+        "素数判断",
+        "辗转相除法求最大公约数"
+      ],
+      "alias_count": 22,
+      "question_count": 460,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 425,
+        "c_hbpu.sqlite": 35
+      },
+      "sub_points": [
+        "while 与 do-while 的区别",
+        "for 的三段式与空语句",
+        "break 与 continue 的区别",
+        "循环嵌套",
+        "累加累乘/素数/辗转相除/斐波那契等典型算法"
+      ],
+      "related_points": [],
+      "multi_topic_chapters": {
+        "循环结构、算法": [
+          "C-01"
+        ]
+      },
+      "multi_topic_question_count": 1
+    },
+    {
+      "id": "C-06",
+      "name": "数组",
+      "desc": "一维数组的定义引用与初始化、二维数组与矩阵运算、字符数组、数组遍历求最值、冒泡/选择排序、下标越界。",
+      "canonical_hint": "教材常见章号：第6章（数组）",
+      "alias_chapters": [
+        "第6章 数组",
+        "第6章 利用数组处理批量数据",
+        "第6章 用数组处理批量数据",
+        "第7章 数组",
+        "第4章 数组",
+        "项目七 使用数组",
+        "第8章 数组和算法基础",
+        "冒泡排序与数组元素交换",
+        "一维数组与取余运算",
+        "一维数组与循环",
+        "一维数组与遍历求最大值",
+        "二维数组",
+        "二维数组与主对角线",
+        "二维数组与矩阵转置",
+        "数组、排序算法",
+        "数组下标、变量初始化",
+        "数组与元素交换",
+        "数组与循环",
+        "数组遍历与求最大值"
+      ],
+      "alias_count": 19,
+      "question_count": 408,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 379,
+        "c_hbpu.sqlite": 29
+      },
+      "sub_points": [
+        "一维数组的定义与引用",
+        "二维数组与矩阵运算（转置/对角线）",
+        "字符数组与字符串",
+        "数组遍历求最值",
+        "冒泡排序与元素交换",
+        "数组下标越界"
+      ],
+      "related_points": [],
+      "multi_topic_chapters": {
+        "数组、排序算法": [
+          "C-01"
+        ]
+      },
+      "multi_topic_question_count": 1
+    },
+    {
+      "id": "C-07",
+      "name": "函数与模块化程序设计",
+      "desc": "函数定义/声明/调用、形参与实参、值传递、数组与指针作参数、递归调用、变量作用域与存储类别（auto/static/extern/register）。",
+      "canonical_hint": "教材常见章号：第7章（函数）",
+      "alias_chapters": [
+        "第7章 用函数实现模块化程序设计",
+        "第7章 函数",
+        "第5章 函数",
+        "第8章 函数",
+        "项目六 使用函数",
+        "第7章 函数与模块化程序设计",
+        "递归函数",
+        "静态局部变量",
+        "static 局部变量",
+        "static 局部变量的生命周期",
+        "static局部变量与函数调用",
+        "函数与条件运算符",
+        "函数参数传递与作用域",
+        "函数参数传递（指针传递）",
+        "函数参数值传递",
+        "函数的递归调用",
+        "函数返回指针、变量存储类别",
+        "指针作为函数参数",
+        "指针作为函数参数，传址调用",
+        "指针作函数参数",
+        "递归函数与斐波那契数列",
+        "递归函数与阶乘计算"
+      ],
+      "alias_count": 22,
+      "question_count": 382,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 352,
+        "c_hbpu.sqlite": 30
+      },
+      "sub_points": [
+        "函数定义、声明与调用",
+        "形参与实参、值传递",
+        "数组作函数参数",
+        "函数的递归调用",
+        "变量作用域与存储类别（static/auto/extern）"
+      ],
+      "related_points": [
+        "C-08"
+      ],
+      "multi_topic_chapters": {
+        "函数参数传递（指针传递）": [
+          "C-08"
+        ],
+        "函数返回指针、变量存储类别": [
+          "C-08"
+        ],
+        "指针作为函数参数": [
+          "C-08"
+        ],
+        "指针作为函数参数，传址调用": [
+          "C-08"
+        ],
+        "指针作函数参数": [
+          "C-08"
+        ]
+      },
+      "multi_topic_question_count": 5
+    },
+    {
+      "id": "C-08",
+      "name": "指针",
+      "desc": "地址与指针变量、指针的初始化与运算、指针与一维/二维数组、指针与字符串、指针作函数参数（传址调用）、返回指针的函数、多级指针。",
+      "canonical_hint": "教材常见章号：第8章（指针）",
+      "alias_chapters": [
+        "第8章 善于使用指针",
+        "第9章 指针",
+        "第8章 指针",
+        "第7章 指针",
+        "第6章 指针",
+        "第8章 善于利用指针",
+        "项目九 使用指针",
+        "第11章 指针和数组",
+        "指针与字符串",
+        "指针与数组",
+        "二维数组与指针",
+        "函数参数、指针传递",
+        "指针与一维数组、后置自增运算符",
+        "指针与字符串反转",
+        "指针与字符串复制",
+        "指针的初始化"
+      ],
+      "alias_count": 16,
+      "question_count": 330,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 313,
+        "c_hbpu.sqlite": 17
+      },
+      "sub_points": [
+        "指针变量的定义与初始化",
+        "指针与一维数组",
+        "指针与二维数组",
+        "指针与字符串",
+        "指针作函数参数（传址调用）",
+        "返回指针的函数",
+        "指针与后置自增运算符"
+      ],
+      "related_points": [
+        "C-06",
+        "C-14"
+      ],
+      "multi_topic_chapters": {
+        "第11章 指针和数组": [
+          "C-06"
+        ],
+        "指针与字符串": [
+          "C-14"
+        ],
+        "指针与数组": [
+          "C-06"
+        ],
+        "二维数组与指针": [
+          "C-06"
+        ],
+        "指针与一维数组、后置自增运算符": [
+          "C-06",
+          "C-02"
+        ],
+        "指针与字符串反转": [
+          "C-14"
+        ],
+        "指针与字符串复制": [
+          "C-14"
+        ]
+      },
+      "multi_topic_question_count": 21
+    },
+    {
+      "id": "C-09",
+      "name": "结构体、共用体与自定义数据类型",
+      "desc": "struct 定义与成员访问、结构体数组与结构体指针、union 共用体、enum 枚举、typedef、链表等基础数据结构。",
+      "canonical_hint": "教材常见章号：第9章（结构体）",
+      "alias_chapters": [
+        "第9章 用结构体类型处理组合数据",
+        "第9章 结构体与链表",
+        "第8章 结构体等构造数据类型",
+        "第8章 结构体",
+        "第11章 常见的数据结构",
+        "第11章 复杂数据类型",
+        "第12章 结构体和数据结构基础",
+        "项目十 使用结构体和共用体",
+        "结构体数组",
+        "枚举类型",
+        "枚举类型与 switch 分支",
+        "结构体",
+        "结构体定义语法",
+        "结构体指针与成员访问",
+        "结构体数组、循环与条件判断",
+        "结构体数组与指针",
+        "结构体数组与指针访问成员"
+      ],
+      "alias_count": 17,
+      "question_count": 200,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 195,
+        "c_hbpu.sqlite": 5
+      },
+      "sub_points": [
+        "结构体定义语法与成员访问",
+        "结构体数组",
+        "结构体指针与成员访问",
+        "共用体 union",
+        "枚举 enum 与 typedef",
+        "链表等基础数据结构"
+      ],
+      "related_points": [
+        "C-06",
+        "C-08"
+      ],
+      "multi_topic_chapters": {
+        "结构体数组": [
+          "C-06"
+        ],
+        "枚举类型与 switch 分支": [
+          "C-04"
+        ],
+        "结构体指针与成员访问": [
+          "C-08"
+        ],
+        "结构体数组、循环与条件判断": [
+          "C-06",
+          "C-05"
+        ],
+        "结构体数组与指针": [
+          "C-06",
+          "C-08"
+        ],
+        "结构体数组与指针访问成员": [
+          "C-06",
+          "C-08"
+        ]
+      },
+      "multi_topic_question_count": 7
+    },
+    {
+      "id": "C-10",
+      "name": "文件",
+      "desc": "文件指针 FILE、fopen/fclose 打开模式、fprintf/fscanf/fgets/fputs/fread/fwrite、文件定位与读写、文本文件与二进制文件。",
+      "canonical_hint": "教材常见章号：第10章（文件）",
+      "alias_chapters": [
+        "第10章 文件",
+        "第10章 用文件保存数据",
+        "第9章 文件",
+        "第12章 文件",
+        "第10章 文件操作",
+        "项目十二 操作文件",
+        "第13章 文件操作",
+        "文件打开模式"
+      ],
+      "alias_count": 8,
+      "question_count": 336,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 336,
+        "c_hbpu.sqlite": 0
+      },
+      "sub_points": [
+        "文件指针 FILE",
+        "fopen 打开模式与 fclose",
+        "fprintf / fscanf",
+        "fgets / fputs",
+        "fread / fwrite",
+        "文件定位与读写"
+      ],
+      "related_points": []
+    },
+    {
+      "id": "C-11",
+      "name": "编译预处理",
+      "desc": "#define 宏定义（无参与带参、展开与运算符优先级）、#include 文件包含、条件编译 #ifdef/#ifndef/#if。",
+      "canonical_hint": "教材常见章号：第11章（编译预处理）",
+      "alias_chapters": [
+        "第11章 编译预处理",
+        "第9章 预处理",
+        "第10章 预处理命令",
+        "项目八 认识编译预处理",
+        "宏定义",
+        "宏定义与展开",
+        "宏定义与运算符优先级",
+        "带参数的宏定义展开及运算符优先级"
+      ],
+      "alias_count": 8,
+      "question_count": 204,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 202,
+        "c_hbpu.sqlite": 2
+      },
+      "sub_points": [
+        "无参宏定义与展开",
+        "带参宏定义与展开",
+        "宏定义与运算符优先级",
+        "文件包含 #include",
+        "条件编译"
+      ],
+      "related_points": [],
+      "multi_topic_chapters": {
+        "宏定义与运算符优先级": [
+          "C-02"
+        ],
+        "带参数的宏定义展开及运算符优先级": [
+          "C-02"
+        ]
+      },
+      "multi_topic_question_count": 2
+    },
+    {
+      "id": "C-12",
+      "name": "位运算",
+      "desc": "按位与 &、按位或 |、按位异或 ^、按位取反 ~、左移 << 与右移 >>、位运算的典型应用。",
+      "canonical_hint": "教材常见章号：第12章（位运算）",
+      "alias_chapters": [
+        "第12章 位运算",
+        "项目十一 使用位运算",
+        "位运算（右移与按位与）",
+        "按位与运算"
+      ],
+      "alias_count": 4,
+      "question_count": 70,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 69,
+        "c_hbpu.sqlite": 1
+      },
+      "sub_points": [
+        "按位与 & 、按位或 |",
+        "按位异或 ^ 、按位取反 ~",
+        "左移与右移",
+        "位运算与循环/数组结合的应用"
+      ],
+      "related_points": []
+    },
+    {
+      "id": "C-13",
+      "name": "常见错误与程序调试",
+      "desc": "语法错误与逻辑错误的区分、scanf 少取地址、赋值 = 与相等 == 混用、数组下标越界、循环边界与变量未初始化。",
+      "canonical_hint": "教材常见章号：第13章（常见错误）",
+      "alias_chapters": [
+        "第11章 常见错误分析",
+        "数组下标越界",
+        "数组下标越界与循环边界",
+        "数组越界"
+      ],
+      "alias_count": 4,
+      "question_count": 33,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 22,
+        "c_hbpu.sqlite": 11
+      },
+      "sub_points": [
+        "scanf 少取地址",
+        "赋值 = 与相等 == 混用",
+        "数组下标越界与循环边界",
+        "变量未初始化",
+        "关系运算符与赋值运算符的区别"
+      ],
+      "related_points": [
+        "C-02",
+        "C-03",
+        "C-06"
+      ]
+    },
+    {
+      "id": "C-14",
+      "name": "字符串处理",
+      "desc": "字符串与字符数组的区别、字符串结束符 \\0、strlen/strcpy/strcat/strcmp 等字符串处理函数、sizeof 与 strlen 的区别、字符串与指针。",
+      "canonical_hint": "教材常见章号：第14章（字符串）",
+      "alias_chapters": [
+        "第7章 字符串",
+        "第10章 字符串",
+        "字符串与字符数组",
+        "字符串与指针",
+        "字符串处理函数 strlen",
+        "字符串处理函数 strlen 与 sizeof 的区别",
+        "字符串处理函数strcat",
+        "字符串处理函数strlen",
+        "字符串复制与数组赋值限制",
+        "字符串比较",
+        "字符分类统计",
+        "字符判断与循环",
+        "字符数组、字符串结束符",
+        "字符数组与字符串处理",
+        "字符数组与字符串复制",
+        "字符数组与字符串赋值",
+        "字符数组赋值",
+        "字符类型与ASCII编码、字符数组的遍历"
+      ],
+      "alias_count": 18,
+      "question_count": 59,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 51,
+        "c_hbpu.sqlite": 8
+      },
+      "sub_points": [
+        "字符串与字符数组的区别",
+        "字符串结束符 \\0",
+        "strlen 与 sizeof 的区别",
+        "strcpy / strcat / strcmp",
+        "字符串复制与数组赋值的限制",
+        "字符串与指针"
+      ],
+      "related_points": [
+        "C-06",
+        "C-08"
+      ],
+      "multi_topic_chapters": {
+        "字符串与指针": [
+          "C-08"
+        ],
+        "字符分类统计": [
+          "C-05"
+        ],
+        "字符判断与循环": [
+          "C-05"
+        ]
+      },
+      "multi_topic_question_count": 3
+    },
+    {
+      "id": "C-15",
+      "name": "综合项目与案例",
+      "desc": "整册知识点串联的项目实战：控制台小游戏、综合案例程序。",
+      "canonical_hint": "教材常见章号：第15章（综合项目）",
+      "alias_chapters": [
+        "第10章 综合案例",
+        "项目十三 C语言程序项目案例",
+        "第12章 综合项目——贪吃蛇控制台游戏",
+        "第14章 简单的游戏设计"
+      ],
+      "alias_count": 4,
+      "question_count": 44,
+      "question_count_by_db": {
+        "c_wuhan.sqlite": 44,
+        "c_hbpu.sqlite": 0
+      },
+      "sub_points": [
+        "控制台小游戏",
+        "综合案例程序",
+        "整册知识点串联项目"
+      ],
+      "related_points": []
+    }
+  ],
+  "unmapped_chapters": [],
+  "unassigned": {
+    "reason": "knowledge_point 为空串，不是章节名，无法映射到任何知识点",
+    "rows": {
+      "c_wuhan.sqlite": 1967,
+      "c_hbpu.sqlite": 0
+    },
+    "total_rows": 1967,
+    "note": "这些题在 DB 里 knowledge_point 就是空串（c_wuhan 1967 题 / c_hbpu 0 题），不属于「映射失败」，但会拉低原始题的命名覆盖率。"
+  },
+  "stats": {
+    "total_points": 15,
+    "covered_questions": 4068,
+    "total_questions": 6035,
+    "distinct_raw_chapter_names": 190,
+    "raw_names_assigned": 190,
+    "raw_names_unmapped": 0,
+    "empty_knowledge_point_questions": 1967,
+    "named_chapter_share_of_all_questions": 0.6741,
+    "note": "covered_questions 只统计「有章节名的题」；另有 1967 题 knowledge_point 为空串，不在任何知识点内。"
+  }
+}

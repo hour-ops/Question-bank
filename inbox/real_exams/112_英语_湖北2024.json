@@ -1,0 +1,2301 @@
+{
+ "id": 112,
+ "title": "湖北2024",
+ "subject": "英语",
+ "createTime": "2026-04-07 10:25:08",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "2024年湖北省普通高校专升本考试试题",
+   "subject": "大学英语",
+   "province": "湖北省",
+   "year": 2024,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "9f3b0fac-2138-444b-b56e-fb93a84ebb9a"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "语法填空",
+    "partLabel": "一",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "从括号里给出的词汇中选择一个完成句子填空。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I have confidence "
+        },
+        {
+         "type": "blank",
+         "key": "b1",
+         "placeholder": "1"
+        },
+        {
+         "type": "markdown",
+         "value": " my future."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. in"
+        },
+        {
+         "key": "B",
+         "label": "B. on"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`confidence in` 是固定搭配，表示“对……有信心”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "in"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": ""
+        },
+        {
+         "type": "blank",
+         "key": "b2",
+         "placeholder": "2"
+        },
+        {
+         "type": "markdown",
+         "value": " beautiful the East Lake is!"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. What"
+        },
+        {
+         "key": "B",
+         "label": "B. How"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b2",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`How + 形容词 + 主语 + 谓语` 构成感叹句，所以应选 `How`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "John "
+        },
+        {
+         "type": "blank",
+         "key": "b3",
+         "placeholder": "3"
+        },
+        {
+         "type": "markdown",
+         "value": " familiar with Chinese culture."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. is"
+        },
+        {
+         "key": "B",
+         "label": "B. are"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b3",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "主语 `John` 是第三人称单数，系动词应使用 `is`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "is"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "There are "
+        },
+        {
+         "type": "blank",
+         "key": "b4",
+         "placeholder": "4"
+        },
+        {
+         "type": "markdown",
+         "value": " ways to help others."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. much"
+        },
+        {
+         "key": "B",
+         "label": "B. many"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b4",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`ways` 是可数名词复数，前面应用 `many`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "many"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It is "
+        },
+        {
+         "type": "blank",
+         "key": "b5",
+         "placeholder": "5"
+        },
+        {
+         "type": "markdown",
+         "value": " first time that I have seen the sea."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. a"
+        },
+        {
+         "key": "B",
+         "label": "B. the"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b5",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`It is the first time that ...` 是固定句型。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "the"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I'm sure you can solve the problem by "
+        },
+        {
+         "type": "blank",
+         "key": "b6",
+         "placeholder": "6"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b6",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. your"
+        },
+        {
+         "key": "B",
+         "label": "B. yourself"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b6",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`by yourself` 表示“独自、靠你自己”，符合句意。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "yourself"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I can lend my bike to you "
+        },
+        {
+         "type": "blank",
+         "key": "b7",
+         "placeholder": "7"
+        },
+        {
+         "type": "markdown",
+         "value": " you return it on time."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b7",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. if"
+        },
+        {
+         "key": "B",
+         "label": "B. or"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b7",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句子表示条件关系，应使用 `if` 引导条件状语从句。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "if"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The Internet has "
+        },
+        {
+         "type": "blank",
+         "key": "b8",
+         "placeholder": "8"
+        },
+        {
+         "type": "markdown",
+         "value": " changed the way we live."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b8",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. great"
+        },
+        {
+         "key": "B",
+         "label": "B. greatly"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b8",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这里修饰动词 `changed`，应用副词 `greatly`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "greatly"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "When I was young, Dad often "
+        },
+        {
+         "type": "blank",
+         "key": "b9",
+         "placeholder": "9"
+        },
+        {
+         "type": "markdown",
+         "value": " me to the museum."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b9",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. took"
+        },
+        {
+         "key": "B",
+         "label": "B. takes"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b9",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "时间状语 `When I was young` 表明是过去时间，应使用过去式 `took`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "took"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I'm happy that the summer holiday "
+        },
+        {
+         "type": "blank",
+         "key": "b10",
+         "placeholder": "10"
+        },
+        {
+         "type": "markdown",
+         "value": " begin next month."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b10",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. will"
+        },
+        {
+         "key": "B",
+         "label": "B. would"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b10",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`next month` 表示将来时间，应用 `will`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "will"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "sentence_reorder",
+    "displayName": "连词成句",
+    "partLabel": "二",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "将所给词汇按正确顺序排列，连成一个句子。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "the source of / is / Water / life"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a11",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a11",
+       "values": [
+        "Water is the source of life."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "主语是 `Water`，系动词 `is` 放在主语后，表语部分为 `the source of life`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Water is the source of life."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My family / reading books / enjoy"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a12",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a12",
+       "values": [
+        "My family enjoy reading books."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "按照题目给出的谓语形式 `enjoy` 组合句子，结构为主语 + 谓语 + 宾语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My family enjoy reading books."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "the beauty around you / to discover / It is a joy"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a13",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a13",
+       "values": [
+        "It is a joy to discover the beauty around you."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`It is + 名词 + to do` 是常见句式，不定式短语作真正主语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It is a joy to discover the beauty around you."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "try our best / should / to realize our dreams / We"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a14",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a14",
+       "values": [
+        "We should try our best to realize our dreams."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句子主语为 `We`，情态动词 `should` 后接动词原形 `try`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We should try our best to realize our dreams."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "was translated into / His book / last year / French"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a15",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a15",
+       "values": [
+        "His book was translated into French last year."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "被动语态结构是 `His book was translated into French`，时间状语 `last year` 放句末。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "His book was translated into French last year."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "has attracted / more and more people / Life in the countryside"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a16",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a16",
+       "values": [
+        "Life in the countryside has attracted more and more people."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "主语是 `Life in the countryside`，谓语为现在完成时 `has attracted`，宾语为 `more and more people`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Life in the countryside has attracted more and more people."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "cloze",
+    "displayName": "阅读填词",
+    "partLabel": "三",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据文章内容完成填空，每空填 1 个词。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "### Passage 1\n\nOne of the most important gifts parents can give their kids is time to play. Finding time to play with kids can be a challenge if parents are busy. But play is not an option, but a must. It is so important to child development that it has been recognized by the Office of the United Nations High Commissioner for Human Rights as a right of every child.\n\nScientists say 75 percent of the brain develops after a baby is born, in the years between birth and the early 20s. Play in childhood motivates the brain to make connections between neurons (神经元). Play during the teen years and into adulthood helps the brain develop even more connectivity. This helps a child or a teenager develop both physical and social skills. Besides, play can also help to increase emotional well-being.\n\nStudies have shown that kids who are encouraged to use their imagination are more creative in their adult life. So it is wise for parents to shut down the screens and encourage their kids to do free play. Free play costs parents nothing but offers kids everything. Throw a sheet over the table to make a lovely tent; hand out paper plates and challenge everyone to make a funny hat; play hide-and-seek with the little ones, etc. All the free play is unstructured, but it makes kids learn important social skills by working with others."
+       }
+      ]
+     },
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "### Passage 2\n\nThe number of giraffes is becoming smaller across Africa, according to the Giraffe Conservation Foundation (CCF). The total population has dropped by 40 percent in the last 15 years. The CCF is the only non-governmental organization (NGO) in the world to focus solely on the conservation of giraffes in Africa and is pioneering a sustainable future for this mammal. According to a study, giraffes are quietly disappearing because it is difficult for them to find acacia trees, their favourite food.\n\nWork towards their conservation is more important now than it has ever been. And more and more giraffes are also being hunted. Because of this, the CCF decided to work with African parks. These parks are very important for keeping Nubian giraffes safe. GPS collars were used to keep an eye on giraffes but they cannot stay on for long.\n\nTo solve this problem, new tracking devices which are as small as a chocolate bar, solar-powered and do not bother giraffes much are used to stop illegal hunting and keep giraffes safe."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Giving our kids time to play is not a choice but a "
+        },
+        {
+         "type": "blank",
+         "key": "b17",
+         "placeholder": "17"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b17"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b17",
+         "accepted": [
+          "must"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文是 `play is not an option, but a must`，因此答案为 `must`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "must"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Play is important to the "
+        },
+        {
+         "type": "blank",
+         "key": "b18",
+         "placeholder": "18"
+        },
+        {
+         "type": "markdown",
+         "value": " skills, social skills, and emotional well-being of children and the youth."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b18"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b18",
+         "accepted": [
+          "physical"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文明确提到 `develop both physical and social skills`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "physical"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Parents should "
+        },
+        {
+         "type": "blank",
+         "key": "b19",
+         "placeholder": "19"
+        },
+        {
+         "type": "markdown",
+         "value": " free play."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b19"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b19",
+         "accepted": [
+          "encourage"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章最后一段说父母应 `encourage their kids to do free play`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "encourage"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The word \"free\" means both \""
+        },
+        {
+         "type": "blank",
+         "key": "b20",
+         "placeholder": "20"
+        },
+        {
+         "type": "markdown",
+         "value": "\" and \"with no cost\"."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b20"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b20",
+         "accepted": [
+          "unstructured"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说明 free play 一方面不花钱，另一方面是 `unstructured`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "unstructured"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Free play enables kids to "
+        },
+        {
+         "type": "blank",
+         "key": "b21",
+         "placeholder": "21"
+        },
+        {
+         "type": "markdown",
+         "value": " with others and learn important social skills."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b21"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b21",
+         "accepted": [
+          "work"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文是 `by working with others`，概括后填 `work`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "work"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Giraffes are quietly "
+        },
+        {
+         "type": "blank",
+         "key": "b22",
+         "placeholder": "22"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b22"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b22",
+         "accepted": [
+          "disappearing"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文直接说 `giraffes are quietly disappearing`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "disappearing"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Their favourite "
+        },
+        {
+         "type": "blank",
+         "key": "b23",
+         "placeholder": "23"
+        },
+        {
+         "type": "markdown",
+         "value": " is difficult to find."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b23"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b23",
+         "accepted": [
+          "food"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "acacia trees 是长颈鹿最喜欢的食物，因此此处填 `food`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "food"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "GPS collars were used to keep an eye on giraffes but they cannot "
+        },
+        {
+         "type": "blank",
+         "key": "b24",
+         "placeholder": "24"
+        },
+        {
+         "type": "markdown",
+         "value": " on for long."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b24"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b24",
+         "accepted": [
+          "stay"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文句子为 `they cannot stay on for long`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "stay"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "New tracking devices are as "
+        },
+        {
+         "type": "blank",
+         "key": "b25",
+         "placeholder": "25"
+        },
+        {
+         "type": "markdown",
+         "value": " as a chocolate bar."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b25"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b25",
+         "accepted": [
+          "small"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文描述 tracking devices `are as small as a chocolate bar`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "small"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "New tracking devices do not "
+        },
+        {
+         "type": "blank",
+         "key": "b26",
+         "placeholder": "26"
+        },
+        {
+         "type": "markdown",
+         "value": " giraffes much."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b26"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b26",
+         "accepted": [
+          "bother"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文说这些设备 `do not bother giraffes much`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "bother"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "四 Passage 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据文章内容完成问答。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "### Passage 1\n\nIt was on Sunday morning, when Sam went to see his grandfather alone. He took the bus to his grandfather's house, as it was quite a distance away. As the bus traveled along, it stopped at a busy stop and a crowd of passengers boarded, including an old lady.\n\nThe bus was already crowded, and there were no more seats available. The old lady looked tired and strained, but she held on to the handrail for support. Sam noticed this and felt a bit uneasy, but he was also far from having an empty seat and could not offer one to her.\n\nSuddenly, a voice came from the back of the bus. It was the little girl, who had boarded the bus before. \"Please, take my seat, Grandma,\" she said sweetly. The old lady was taken aback but soon smiled gratefully and sat down.\n\nThis act of kindness did not just move the old lady. Other passengers, inspired by the little girl, also got up and offered their seats to those who needed them. The atmosphere in the bus suddenly changed from one kind of indifference to one kind of kindness and compassion.\n\nSam watched the scene with a sense of awe. He was amazed by the little girl's selflessness and generosity. It made him realize that true kindness comes from the heart, regardless of age or size.\n\nAs the bus continued its journey, Sam could not help but think about the little girl's act of kindness. He turned to the passenger next to him and said, \"What a lovely little girl!\" Indeed, her simple yet profound act of giving had left a lasting impression on everyone on the bus."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "When did the story happen?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a27",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a27",
+       "values": [
+        "On Sunday morning.",
+        "On Sunday morning",
+        "It happened on Sunday morning."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第一段开头直接给出时间：`It was on Sunday morning`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "On Sunday morning."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How did Sam go to see his grandfather, by bike or by bus?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a28",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a28",
+       "values": [
+        "By bus.",
+        "By bus",
+        "He went there by bus."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第一段写明 `He took the bus to his grandfather's house`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "By bus."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Who gave up the seat to the old lady?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a29",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a29",
+       "values": [
+        "The little girl.",
+        "The little girl",
+        "It was the little girl."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段中主动让座的是 `the little girl`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The little girl."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why did other passengers also get up?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a30",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a30",
+       "values": [
+        "Because they were inspired by the little girl.",
+        "Because they were inspired by the little girl's kindness.",
+        "They were inspired by the little girl."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第四段明确说明其他乘客是受到小女孩行为的感染才让座。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Because they were inspired by the little girl's kindness."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Translate the sentence \"What a lovely little girl!\" into Chinese."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a31",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a31",
+       "values": [
+        "多么可爱的小女孩啊！",
+        "真是个可爱的小女孩！",
+        "这个小女孩真可爱啊！"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这是感叹句，`What a lovely little girl!` 可译为“多么可爱的小女孩啊！”"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "多么可爱的小女孩啊！"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "四 Passage 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据文章内容完成问答。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "### Passage 2\n\nIn my job, I get to combine my two passions: sport and writing.\n\nI wrote newspaper articles about sport while studying for my journalism degree. I worked as a trainee writer for a local newspaper. Now, I write for a top newspaper. Today, I am writing an article about a baseball game. I arrive at the stadium two hours before the game starts. I have got ready for my work.\n\nBy now the players are arriving, so I hurry down to wait outside the changing area where I manage to get a short interview with the home team's star player. I have limited time, so I only ask a few important questions, such as how he's feeling and what his expectations are.\n\nOnce the game starts, I take notes on the action as it happens. It is an exciting game. The home team wins! As the fans leave, I go to the press conference with other journalists. We listen to both team coaches' thoughts on the game and I get some good quotes.\n\nFinally, it is time for me to pull all my notes together into the finished article to send to the newspaper. I only have a couple of hours to write it all up. The paper will be printed tonight, and the public will be reading my article over breakfast in the morning. I love sharing my love for sport through words."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What newspaper articles does the writer write about?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a32",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a32",
+       "values": [
+        "Sport.",
+        "Sport",
+        "Sports.",
+        "Sports",
+        "Newspaper articles about sport."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二篇第一段和第二段说明作者一直写体育相关文章。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "He writes newspaper articles about sport."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why does the writer ask only a few important questions?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a33",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a33",
+       "values": [
+        "Because he has limited time.",
+        "Because his time is limited.",
+        "He has limited time."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段原文直接给出原因：`I have limited time`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Because he has limited time."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Who wins the baseball game in the end?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a34",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a34",
+       "values": [
+        "The home team.",
+        "The home team",
+        "Home team."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第四段写到 `The home team wins!`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The home team."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How many hours does the writer have to write up his article?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a35",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a35",
+       "values": [
+        "A couple of hours.",
+        "A couple of hours",
+        "About two hours.",
+        "About two hours"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段说 `I only have a couple of hours to write it all up`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A couple of hours."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Translate the sentence \"I love sharing my love for sport through words.\" into Chinese."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a36",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a36",
+       "values": [
+        "我喜欢通过文字分享我对运动的热爱。",
+        "我喜欢用文字分享我对运动的热爱。"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句中 `through words` 可译为“通过文字”或“用文字”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "我喜欢通过文字分享我对运动的热爱。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "translation_fill",
+    "displayName": "完成句子",
+    "partLabel": "五",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "使用括号内所给单词并结合汉语提示完成句子。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "b37",
+         "placeholder": "37"
+        },
+        {
+         "type": "markdown",
+         "value": " were you when you went to college? (old)\n\n你多大上的大学？"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b37"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b37",
+         "accepted": [
+          "How old"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "询问年龄用 `How old`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How old"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Sorry, but I don't know where "
+        },
+        {
+         "type": "blank",
+         "key": "b38",
+         "placeholder": "38"
+        },
+        {
+         "type": "markdown",
+         "value": " (live)\n\n抱歉，我不知道他住的地方。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b38"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b38",
+         "accepted": [
+          "he lives"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "宾语从句中应用陈述语序，所以填 `he lives`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "he lives"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Only by "
+        },
+        {
+         "type": "blank",
+         "key": "b39",
+         "placeholder": "39"
+        },
+        {
+         "type": "markdown",
+         "value": " can you change your life. (work)\n\n只有努力工作才能改变你的生活。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b39"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b39",
+         "accepted": [
+          "working hard"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Only by` 后接动名词或名词短语，结合汉语提示应填 `working hard`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "working hard"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Please "
+        },
+        {
+         "type": "blank",
+         "key": "b40",
+         "placeholder": "40"
+        },
+        {
+         "type": "markdown",
+         "value": " that you have enough rest. (sure)\n\n请确保你有足够的休息。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b40"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b40",
+         "accepted": [
+          "make sure"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`make sure` 表示“确保”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "make sure"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Travel can give us a chance "
+        },
+        {
+         "type": "blank",
+         "key": "b41",
+         "placeholder": "41"
+        },
+        {
+         "type": "markdown",
+         "value": " people from different cultures. (meet)\n\n旅行能让我们有机会认识来自不同文化背景的人。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b41"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b41",
+         "accepted": [
+          "to meet"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`a chance to do sth.` 是固定搭配，所以填 `to meet`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "to meet"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-42",
+      "no": 42,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The snow is "
+        },
+        {
+         "type": "blank",
+         "key": "b42",
+         "placeholder": "42"
+        },
+        {
+         "type": "markdown",
+         "value": " that the whole world is covered in silver. (heavy)\n\n雪下得如此之大，整个世界都银装素裹。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b42"
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "answers": [
+        {
+         "target": "b42",
+         "accepted": [
+          "so heavy"
+         ]
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`so ... that ...` 结构表示“如此……以至于……”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "so heavy"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "书面表达",
+    "partLabel": "六",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据所给信息，编辑一条英语手机短信。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-43",
+      "no": 43,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据所给信息，编辑一条英语手机短信，发送给你的英国朋友 Tom。\n\n主要内容包括：\n1. 请他帮忙买一本关于阅读的英文书；\n2. 书名为 `On Reading`；\n3. 请他购买该书的原因；\n4. 请他买到后尽快寄出；\n5. 向他表示感谢。\n\n注意：\n1. 无需写标题；\n2. 文章中不能出现个人姓名与学校名称；\n3. 词数不少于 40。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay43",
+       "placeholder": "请在此作答",
+       "minWords": 40
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "写作时需要覆盖买书请求、书名、购买原因、寄送要求和感谢五个要点，语气应礼貌自然，词数不少于 40。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Hi,\n\nCould you please buy me an English book on reading called On Reading? I need it because I want to improve my reading skills and learn better reading methods. Please send it to me as soon as possible after you buy it. Thank you very much for your help.\n\nBest wishes"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

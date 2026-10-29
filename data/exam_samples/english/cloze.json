@@ -1,0 +1,1645 @@
+{
+  "schema_version": "1.0",
+  "subject": "english",
+  "subject_name_cn": "英语（湖北专升本）",
+  "type": "cloze",
+  "type_name_cn": "完形填空",
+  "how": "读下面的短文，从每题的四个选项中选出最恰当的一个填入空白处。",
+  "answer_label": "正确答案",
+  "knowledge_points": [
+    {
+      "id": "E-T14",
+      "name": "完形填空",
+      "dimension": "format",
+      "question_type": "cloze",
+      "format_era": "hebei_2016_2025"
+    },
+    {
+      "id": "E-S13",
+      "name": "完形填空·语境逻辑",
+      "dimension": "knowledge"
+    },
+    {
+      "id": "E-S14",
+      "name": "完形填空·词汇与语法辨析",
+      "dimension": "knowledge"
+    }
+  ],
+  "knowledge_point_basis": "题型维度(E-T*) + 语言知识维度(E-G*/E-S*)，映射取自 knowledge_base.json 的 question_type_to_points",
+  "knowledge_base": "subjects/english/knowledge_base.json",
+  "source": "inbox/real_exams/*.json（只读；不从 SQLite 取题干）",
+  "type_raw_values": [
+    "Cloze",
+    "完形填空"
+  ],
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "rules": {
+    "trust_priority": [
+      "official_exam",
+      "textbook",
+      "third_party"
+    ],
+    "exclude": [
+      "ai_generated",
+      "source_type='generate'"
+    ],
+    "prefer": "有解析者优先；其次解析更长、空更多、材料更长",
+    "sampling": "按 exam 轮转（每套卷先取 1 条再取第 2 条…），上限 40 条",
+    "dedupe": "同题干（去空白差异）只留解析最好的一条，其余来源记在 same_stem_exams",
+    "material_rule": "材料型题整组存：material 存整篇原文、material_blanks 存该组全部空（空数经断言校验）；材料型 sample 的 stem 为空串，题干在各空的 stem 里",
+    "zero_rewrite": "题干/材料/答案/解析零改写；唯一渲染是把源里的 {type:'blank'} 块显式写成 {{__BLANK_<n>__}}；连词成句保留 `词组 / 词组` 斜杠格式",
+    "deterministic": "不使用随机数；排序键固定为 (exam, 组内 rank)"
+  },
+  "stats": {
+    "samples": 10,
+    "source_records": 10,
+    "with_explanation": 10,
+    "material_blocks": 10,
+    "total_blanks_in_material_blocks": 92,
+    "blanks_with_own_stem": 10,
+    "usable_records": 10,
+    "exams_in_type": 9,
+    "duplicated_records_removed": 0,
+    "cap": 40,
+    "truncated": false,
+    "unique_sources_kept": 9,
+    "unique_sources_available": 9
+  },
+  "exams": [
+    {
+      "exam": "103_英语_河北专升本英语18.json",
+      "samples": 2
+    },
+    {
+      "exam": "101_英语_河北专升本英语16.json",
+      "samples": 1
+    },
+    {
+      "exam": "102_英语_河北专升本英语17.json",
+      "samples": 1
+    },
+    {
+      "exam": "104_英语_河北专升本英语19.json",
+      "samples": 1
+    },
+    {
+      "exam": "105_英语_河北专升本英语20.json",
+      "samples": 1
+    },
+    {
+      "exam": "106_英语_河北专升本英语21.json",
+      "samples": 1
+    },
+    {
+      "exam": "108_英语_河北专升本英语23.json",
+      "samples": 1
+    },
+    {
+      "exam": "109_英语_河北专升本英语24.json",
+      "samples": 1
+    },
+    {
+      "exam": "110_英语_河北专升本英语25.json",
+      "samples": 1
+    }
+  ],
+  "samples": [
+    {
+      "stem": "",
+      "answer": "B | C | D | A",
+      "explanation": "此处表示“分心在考虑他们自己的回答”，distracted 之后可以使用现在分词短语 thinking about 做伴随状语或补语。\n\nopen 以元音音素开头，泛指“一颗开放的心态”，应使用不定冠词 an。\n\nfocus on 为固定搭配，意为“专注于”。\n\n根据语境，积极倾听“需要”参与和对细节的关注。require 意为“需要，要求”；retire 退休；acquire 获得；admire 钦佩。\n\n此处为定语从句，先行词是 environment，从句中不缺主宾语，应使用关系副词 where 表示“在这样的环境中”。\n\n此处 as 引导原因状语从句，意为“因为，由于”。\n\nplay a significant role in 为固定搭配，意为“在……中起重要作用”。\n\nfeel valued 意为“感到被重视”，valued 在此处作形容词化的过去分词。\n\n介词 for 之后应接动名词形式，因此选用 promoting。\n\n根据语境，倾听应是“耐心地”且不打断。patiently 意为“耐心地”。",
+      "exam": "103_英语_河北专升本英语18.json",
+      "exam_title": "河北专升本英语18",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "Have you ever been in a conversation where the other person wasn't really listening to what you were saying? Maybe they were distracted {{__BLANK_31__}} about their own response, or just not interested. It is annoying and even discouraging. But active listening is a way to ensure that all parties are heard and understood.\\n\\nActive listening is a skill that requires focus, patience, and {{__BLANK_32__}} open mind. Here, we will discuss the basic elements of active listening, techniques to become an active listener, and why it's important in our daily life.\\n\\nActive listening is a practice that promotes mutual understanding and effective communication. It involves focusing {{__BLANK_33__}} the speaker and fully comprehending their message. This goes beyond just hearing; it {{__BLANK_34__}} engagement and attention to detail. By actively listening, we show respect to the speaker and create an environment {{__BLANK_35__}} open and honest communication can continue smoothly.\\n\\nBeing present is vital when practicing active listening, {{__BLANK_36__}} it involves being fully engaged in the conversation. Non-verbal clues, such as body language and facial expressions, play a significant {{__BLANK_37__}} in enhancing active listening by providing context and aiding in the explanation of the speaker's message. Maintaining eye contact demonstrates respect, interest, and attentiveness towards the speaker, while body language can show emotions, attitudes, and intentions that words may not express. Active listening calls for giving undivided attention and avoiding distractions, ensuring that the speaker feels {{__BLANK_38__}} and heard. By using these basic elements, we can truly connect with others and make effective communication.\\n\\nActive listening techniques are essential for {{__BLANK_39__}} deeper conversations and effective problem-solving. These techniques include:\\n\\n\n\n$\\diamond$ Asking open-ended questions;\\n\\n$\\Leftrightarrow$ Reflecting on-and paraphrasing-what is heard;\\n\\nListening {{__BLANK_40__}} without interrupting.\\n\\nThese techniques, when practiced, enhance the quality of interactions and strengthen relationships. Adding these techniques to your listening skills can have a great influence on your communication abilities.",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "103-s17",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the Answer Sheet with a single line through the centre.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "此处表示“分心在考虑他们自己的回答”，distracted 之后可以使用现在分词短语 thinking about 做伴随状语或补语。",
+          "options": [
+            "A. think",
+            "B. thinking",
+            "C. thinks",
+            "D. thought"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "open 以元音音素开头，泛指“一颗开放的心态”，应使用不定冠词 an。",
+          "options": [
+            "A. a",
+            "B. the",
+            "C. an",
+            "D. /"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "focus on 为固定搭配，意为“专注于”。",
+          "options": [
+            "A. in",
+            "B. by",
+            "C. at",
+            "D. on"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "根据语境，积极倾听“需要”参与和对细节的关注。require 意为“需要，要求”；retire 退休；acquire 获得；admire 钦佩。",
+          "options": [
+            "A. requires",
+            "B. retires",
+            "C. acquires",
+            "D. admires"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "此处为定语从句，先行词是 environment，从句中不缺主宾语，应使用关系副词 where 表示“在这样的环境中”。",
+          "options": [
+            "A. why",
+            "B. where",
+            "C. which",
+            "D. what"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "此处 as 引导原因状语从句，意为“因为，由于”。",
+          "options": [
+            "A. as",
+            "B. whether",
+            "C. but",
+            "D. if"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "play a significant role in 为固定搭配，意为“在……中起重要作用”。",
+          "options": [
+            "A. choice",
+            "B. advice",
+            "C. benefit",
+            "D. role"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "feel valued 意为“感到被重视”，valued 在此处作形容词化的过去分词。",
+          "options": [
+            "A. value",
+            "B. valued",
+            "C. valuing",
+            "D. valuable"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "介词 for 之后应接动名词形式，因此选用 promoting。",
+          "options": [
+            "A. promoted",
+            "B. promotion",
+            "C. promoting",
+            "D. promote"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "根据语境，倾听应是“耐心地”且不打断。patiently 意为“耐心地”。",
+          "options": [
+            "A. patiently",
+            "B. obviously",
+            "C. immediately",
+            "D. apparently"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "B | D | C | A",
+      "explanation": "此处表示“所需要的睡眠量”，needed 与 depends on 搭配自然，语义完整。\n\ngenerally 表示“一般来说”，符合对成年人大致睡眠时长的概括。\n\nfew 与 some 形成对应，表示“有些人睡得少也行，但也有少数人需要更多”。\n\n固定表达是 get ready for a day's work，表示为一天的工作做好准备。\n\nnot without reason 是固定说法，表示“并非没有道理”。\n\nwhen 引导条件性时间状语从句，表示“当能保暖时，户外睡眠大概能让身体最充分放松”。\n\na most complete relaxation 中 most 表示程度上的“极其、最充分的”，语法和语义都成立。\n\nworry 与 late eating 并列，都是影响睡眠的不良因素，avoidance of ... and worry 语义最通顺。\n\n睡前洗温水澡有助于入睡，bed time 与全文主题完全一致。\n\n安眠药只能在医生建议下服用，a doctor 符合常识和医学语境。",
+      "exam": "101_英语_河北专升本英语16.json",
+      "exam_title": "河北专升本英语16",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "Enough sleep is important to health. The amount of sleep {{__BLANK_31__}} depends on the age of the person and the conditions in which sleep takes place. The young may need more sleep than the old, but {{__BLANK_32__}} eight hours are enough for the health of grown-ups. Some can do with less than this amount, but {{__BLANK_33__}} may need more. Every person knows his own need. It is then a matter of good judgment to satisfy his need. Sleep should always be enough to make one bring back his strength and get ready for {{__BLANK_34__}} work.\n\nFresh air is necessary to sound sleep. It is not {{__BLANK_35__}} reason for some people to think that it is practicable to sleep in the open air. {{__BLANK_36__}} one can keep himself warm, out-of-door sleeping probably gives the body {{__BLANK_37__}} complete relaxation.\n\nAbility to sleep is largely a habit. The conditions referred to only lead to sleep. Out-of-door exercises, a good habit of regular drinking and the avoidance of late eating and {{__BLANK_38__}} are all helpful to sound sleep. Such factors are largely within the control of any person. A bath at {{__BLANK_39__}}, neither hot nor cool but of body temperature, may be helpful to sleep. Sleeping pills should never be taken except when suggested by {{__BLANK_40__}}.",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "101-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There are 10 blanks in the following passage. For each blank there are four choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the answer sheet with a single line through the center.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "此处表示“所需要的睡眠量”，needed 与 depends on 搭配自然，语义完整。",
+          "options": [
+            "A. wished",
+            "B. needed",
+            "C. expected",
+            "D. wanted"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "generally 表示“一般来说”，符合对成年人大致睡眠时长的概括。",
+          "options": [
+            "A. seldom",
+            "B. sometimes",
+            "C. always",
+            "D. generally"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "few 与 some 形成对应，表示“有些人睡得少也行，但也有少数人需要更多”。",
+          "options": [
+            "A. children",
+            "B. women",
+            "C. man",
+            "D. few"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "固定表达是 get ready for a day's work，表示为一天的工作做好准备。",
+          "options": [
+            "A. hardly",
+            "B. extra",
+            "C. a day's",
+            "D. good"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "not without reason 是固定说法，表示“并非没有道理”。",
+          "options": [
+            "A. the best",
+            "B. at all",
+            "C. without",
+            "D. a good"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "when 引导条件性时间状语从句，表示“当能保暖时，户外睡眠大概能让身体最充分放松”。",
+          "options": [
+            "A. As",
+            "B. Where",
+            "C. Unless",
+            "D. When"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "a most complete relaxation 中 most 表示程度上的“极其、最充分的”，语法和语义都成立。",
+          "options": [
+            "A. a strong",
+            "B. a most",
+            "C. a bad",
+            "D. an exciting"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "worry 与 late eating 并列，都是影响睡眠的不良因素，avoidance of ... and worry 语义最通顺。",
+          "options": [
+            "A. worry",
+            "B. fear",
+            "C. carelessness",
+            "D. hard work"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "睡前洗温水澡有助于入睡，bed time 与全文主题完全一致。",
+          "options": [
+            "A. anytime",
+            "B. bed time",
+            "C. midnight",
+            "D. lunch time"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "安眠药只能在医生建议下服用，a doctor 符合常识和医学语境。",
+          "options": [
+            "A. the sleeper",
+            "B. a child",
+            "C. a doctor",
+            "D. parents"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "C | A | B | D",
+      "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 C。\n\n结合上下文语义、固定搭配和逻辑关系，答案为 A。\n\n结合上下文语义、固定搭配和逻辑关系，答案为 B。\n\n结合上下文语义、固定搭配和逻辑关系，答案为 D。",
+      "exam": "102_英语_河北专升本英语17.json",
+      "exam_title": "河北专升本英语17",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "Directions: There are 10 blanks in the following passage． For each blank there are four choices marked A,B,C and D. You are required to choose the ONE that best fits into the passage ． Then mark the corresponding letter on the Answer Sheet with a single line through the centre.\n\nWalking, if you do it vigorously enough, is the overall best exercise for regular physical activity. It requires no 31 , everyone knows how to do it and it carries the lowest risk of injury. The human body is 32 to walk. You can walk in parks or along a river or in your neighborhood. To get 33 benefit from walking, aim for 45 minutes a day, an average of five days a week.\n\nStrength training is another important component of 34 activity. Its purpose is to build and maintain bone and muscle mass, both of which 35 with age. In general, you will want to do strength training two or three days a week, allowing 36 days between sessions.\n\nFinally, flexibility and balance training are increasingly important as the body ages. Aches and pains are high 37 the list of complaints in old age. The result of constant muscle tension and stiffness of joints, many of them are 38, and simple flexibility training can prevent these by making muscles stronger and keeping joints lubricated (润滑 . Some of this you do 39 you stretch. If you watch dogs and cats, you’ll get an idea of how\n\nnatural it is. The general principle is simple: whenever the body has been in one 40 for a while, it is good to briefly stretch it in an opposite position.",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "102-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: Choose the best answer for each blank in the passage.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "{{__BLANK_31__}}",
+          "answer": "C",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 C。",
+          "options": [
+            "A. muscles",
+            "B. energy",
+            "C. equipment",
+            "D. strength"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "{{__BLANK_32__}}",
+          "answer": "A",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 A。",
+          "options": [
+            "A. designed",
+            "B. planned",
+            "C. useful",
+            "D. mastered"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "{{__BLANK_33__}}",
+          "answer": "B",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 B。",
+          "options": [
+            "A. minimum",
+            "B. maximum",
+            "C. ordinary",
+            "D. lower"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "{{__BLANK_34__}}",
+          "answer": "C",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 C。",
+          "options": [
+            "A. mental",
+            "B. physics",
+            "C. physical",
+            "D. chemical"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "{{__BLANK_35__}}",
+          "answer": "A",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 A。",
+          "options": [
+            "A. shrink",
+            "B. add",
+            "C. accumulate",
+            "D. deduct"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "{{__BLANK_36__}}",
+          "answer": "C",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 C。",
+          "options": [
+            "A. harsh",
+            "B. beautiful",
+            "C. recovery",
+            "D. dismissed"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "{{__BLANK_37__}}",
+          "answer": "D",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 D。",
+          "options": [
+            "A. in",
+            "B. between",
+            "C. of",
+            "D. on"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "{{__BLANK_38__}}",
+          "answer": "A",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 A。",
+          "options": [
+            "A. avoidable",
+            "B. critical",
+            "C. serious",
+            "D. necessary"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "{{__BLANK_39__}}",
+          "answer": "D",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 D。",
+          "options": [
+            "A. however",
+            "B. wherever",
+            "C. whatever",
+            "D. whenever"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "{{__BLANK_40__}}",
+          "answer": "B",
+          "explanation": "结合上下文语义、固定搭配和逻辑关系，答案为 B。",
+          "options": [
+            "A. motion",
+            "B. position",
+            "C. gesture",
+            "D. body language"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "A | D | B | C",
+      "explanation": "上下文都在谈识别人脸，recognize people 最符合语义。\n\nmake A different from B 是固定结构；A 项语法不合。\n\ntake ... for granted 是固定短语，表示“认为……理所当然”。\n\ntell people apart 是固定搭配，表示“把人区分开”。\n\n谈论 someone's personality 与后文 acts, speaks, thinks and feels 对应。\n\nthe ways in which ... 是常见定语从句结构。\n\n前后在比较 human face 与 human personality 的不同，因此用 Unlike。\n\ndescribe what ... looked like 中 what 引导宾语从句。\n\nif you were asked to describe ... 是虚拟语气语境下的被动表达。\n\n与 kind、friendly、warm 并列的应是形容人品质的 considerate。",
+      "exam": "104_英语_河北专升本英语19.json",
+      "exam_title": "河北专升本英语19",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "Faces, like fingerprints, are unique. Did you ever wonder how it is possible for us to {{__BLANK_31__}} people? Even a skilled writer probably could not describe all the features that make one face {{__BLANK_32__}} another. Yet a very young child - or even an animal, such as a pigeon - can learn to recognize faces. We all {{__BLANK_33__}} this ability for granted.\nWe also {{__BLANK_34__}} people apart by how they behave. When we talk about someone's {{__BLANK_35__}}, we mean the ways {{__BLANK_36__}} he or she acts, speaks, thinks and feels that make that individual different from others.\n{{__BLANK_37__}} the human face, human personality is very complex. But describing someone's personality in words is somewhat easier than describing his face. If you were asked to describe {{__BLANK_38__}} a \"nice face\" looked like, you probably would have a difficult time doing so. But if you {{__BLANK_39__}} to describe a \"nice person\", you might begin to think about someone who was kind, {{__BLANK_40__}}, friendly, warm, and so forth.",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "104-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "上下文都在谈识别人脸，recognize people 最符合语义。",
+          "options": [
+            "A. recognize",
+            "B. realize",
+            "C. remind",
+            "D. remember"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "make A different from B 是固定结构；A 项语法不合。",
+          "options": [
+            "A. differs from",
+            "B. distinct of",
+            "C. divide from",
+            "D. different from"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "take ... for granted 是固定短语，表示“认为……理所当然”。",
+          "options": [
+            "A. give",
+            "B. take",
+            "C. make",
+            "D. have"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "tell people apart 是固定搭配，表示“把人区分开”。",
+          "options": [
+            "A. separate",
+            "B. know",
+            "C. tell",
+            "D. distinguish"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "谈论 someone's personality 与后文 acts, speaks, thinks and feels 对应。",
+          "options": [
+            "A. personality",
+            "B. personal",
+            "C. person",
+            "D. personally"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "the ways in which ... 是常见定语从句结构。",
+          "options": [
+            "A. at which",
+            "B. about which",
+            "C. in which",
+            "D. from which"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "前后在比较 human face 与 human personality 的不同，因此用 Unlike。",
+          "options": [
+            "A. Unlike",
+            "B. Like",
+            "C. Dislike",
+            "D. Likely"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "describe what ... looked like 中 what 引导宾语从句。",
+          "options": [
+            "A. when",
+            "B. which",
+            "C. what",
+            "D. that"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "if you were asked to describe ... 是虚拟语气语境下的被动表达。",
+          "options": [
+            "A. were asked",
+            "B. are asked",
+            "C. was asked",
+            "D. asked"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "与 kind、friendly、warm 并列的应是形容人品质的 considerate。",
+          "options": [
+            "A. considerable",
+            "B. consider",
+            "C. consideration",
+            "D. considerate"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "A | D | C | B",
+      "explanation": "前句否定“好销售能卖任何东西”，后句转入另一层说明，需用表示转折的 However。\n\nno matter what 是固定结构，意为“无论……什么”。\n\nestablish trust 是固定搭配，表示“建立信任”。\n\nthink through 表示“仔细想清楚”，符合根据问题推断需求的语境。\n\n与直接问“你需要什么”相比，这种提问方式更有效，effective 最贴切。\n\nit goes without saying 是固定表达，意为“不言而喻”。\n\nmake their life better 是常见搭配，表示“让生活更好”。\n\nthe classic image of a salesperson 表示“销售人员的典型形象”。\n\n后文说销售充满挫折，因此这里应表示“被拒绝”。\n\nmove on to the next customer 是固定搭配，表示“继续找下一个客户”。",
+      "exam": "105_英语_河北专升本英语20.json",
+      "exam_title": "河北专升本英语20",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "It's not quite true that a great salesperson can sell anything to anyone. For a start, they might not need it—and selling is all about meeting needs. {{__BLANK_31__}}, selling is one of those things that can happen to anyone, no {{__BLANK_32__}} what their job description, so here are the basics.\nSTEP 1 Build trust\nYou need to {{__BLANK_33__}} trust with the person to whom you are selling. They don't have to be your best friend but essentially people don't buy from people they hate or distrust.\nSTEP 2 Don't misunderstand the customer\nUnderstand the needs of the other person. Then it's up to the salesperson to demonstrate that the benefits of their goods or services match the requirements. Without that, you have no sale.\nSTEP 3 Ask clever questions\nAsk questions to find out what the customer's problems and issues are. Then think {{__BLANK_34__}} what the needs must be. It's often more {{__BLANK_35__}} than asking \"what do you need?\"\nSTEP 4 Know your stuff\nIt {{__BLANK_36__}} without saying: know your product and understand the marketplace into which you are selling.\nSTEP 5 Don't overload people with details\nYou need to know every product specification but your customer doesn't. Essentially, he or she needs to know how it will make their life {{__BLANK_37__}}. If later on they want more details, they will find it on your website.\nSTEP 6 Salespeople are not necessarily born\nThe classic {{__BLANK_38__}} of a salesperson is someone who is outgoing. But like customers who come in all personality types, salespeople can vary. The main thing is to be able to reflect and react to a customer's personality.\nSTEP 7 Be prepared to fail\nIt doesn't matter how good you are, you will get {{__BLANK_39__}}. Selling is full of setbacks, so don't get hung up on it. {{__BLANK_40__}} on to the next customer.",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "105-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "前句否定“好销售能卖任何东西”，后句转入另一层说明，需用表示转折的 However。",
+          "options": [
+            "A. However",
+            "B. Although",
+            "C. Because",
+            "D. Whatever"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "no matter what 是固定结构，意为“无论……什么”。",
+          "options": [
+            "A. much",
+            "B. more",
+            "C. way",
+            "D. matter"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "establish trust 是固定搭配，表示“建立信任”。",
+          "options": [
+            "A. put",
+            "B. find",
+            "C. establish",
+            "D. know"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "think through 表示“仔细想清楚”，符合根据问题推断需求的语境。",
+          "options": [
+            "A. along",
+            "B. through",
+            "C. out",
+            "D. across"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "与直接问“你需要什么”相比，这种提问方式更有效，effective 最贴切。",
+          "options": [
+            "A. clear",
+            "B. vague",
+            "C. effective",
+            "D. distinct"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "it goes without saying 是固定表达，意为“不言而喻”。",
+          "options": [
+            "A. goes",
+            "B. moves",
+            "C. does",
+            "D. makes"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "make their life better 是常见搭配，表示“让生活更好”。",
+          "options": [
+            "A. good",
+            "B. better",
+            "C. well",
+            "D. best"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "the classic image of a salesperson 表示“销售人员的典型形象”。",
+          "options": [
+            "A. vision",
+            "B. look",
+            "C. focus",
+            "D. image"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "后文说销售充满挫折，因此这里应表示“被拒绝”。",
+          "options": [
+            "A. sent back",
+            "B. recruited",
+            "C. turned down",
+            "D. contracts"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "move on to the next customer 是固定搭配，表示“继续找下一个客户”。",
+          "options": [
+            "A. Phone",
+            "B. Try",
+            "C. Move",
+            "D. Contact"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "B | A | D | C",
+      "explanation": "take sth seriously 认真对待某事，固定搭配。\n\n大笑对身体的影响，the effect on human body。\n\n做测试，carry out tests。\n\n根据上文，大笑和体育锻炼对心脏，血压，心跳和呼吸的作用很类似，就是会提升血压，心跳和呼吸。\n\n根据上一句话，如果大笑能够锻炼身体，那么它必须是有益的。\n\n在身体上的痛苦，用介词 on，固定搭配。\n\n定语从句，先行词是 students,从句缺主语，用 who。\n\n笑声能够减少痛苦，reduce减少。\n\n鼓励某人做某事， encourage sb to do sth.\n\nfeel like doing sth,喜欢做某事。\n# V. Writing (15.points) 参考范文\n# My view on happiness\nWith the development of our society, we are having much more happiness than ever before. For a student like me, happiness is never a thing far reaching. Instead, it is appearing in every corner of our life.\nDuring the preparation of this examination, my parents, friends and teachers have given me tremendous help. I still remember the day when I was studying at night, I happened to notice that my mother was actually waiting for me in the living room with my dinner, without telling me.\nThere are many ways to reach happiness. Firstly, we should pay more attention on things around us. Secondly, happiness is not all about receiving but sometimes about giving.\nSpend more time with families and friends; do volunteer works instead of always waiting for help. Only then, can we embrace happiness.",
+      "exam": "106_英语_河北专升本英语21.json",
+      "exam_title": "河北专升本英语21",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "There is an English saying: “Laughter is the best medicine.” Until recently, few people took the saying{{__BLANK_31__}}. Now, however, doctors have begun to look into laughter and the{{__BLANK_32__}}it has on the human body. They have found that laughter really can improve people’s health.\nTests were{{__BLANK_33__}}to study the effects of laughter on the body. People watched funny films while doctors checked their hearts, blood pressure, breathing and muscles. It was found that laughter has similar effects to physical exercise. It{{__BLANK_34__}}blood pressure, the heart beating and breathing; it also works several groups of muscles in the face, the stomach and even the feet. If laughter exercises the body, it must be{{__BLANK_35__}}Other tests have shown that laughter appears to be able to reduce the effect of pain{{__BLANK_36__}}the body. In one experiment doctors produced pain in groups of students{{__BLANK_37__}}listened to different radio programs. The group that tolerated the pain for the longest time was the group which listened to a funny program. The reason why laughter can{{__BLANK_38__}}pain seems to be that it helps to produce a kind of chemicals in the brain which diminish both stress and pain.\nAs a result of these discoveries, some doctors in the United States now hold laughter clinics in which they help to improve their patients’ condition by{{__BLANK_39__}}them to laugh. They have found that even if their patients do not really feel like{{__BLANK_40__}}, making them smile is enough to produce beneficial effects similar to those caused by laughter.",
+      "type": "cloze",
+      "type_raw": "Cloze",
+      "kind": "material",
+      "group_uid": "106-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the Answer Sheet with a single line through the centre.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "take sth seriously 认真对待某事，固定搭配。",
+          "options": [
+            "A. carefully",
+            "B. seriously",
+            "C. heavily",
+            "D. kindly"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "大笑对身体的影响，the effect on human body。",
+          "options": [
+            "A. effects",
+            "B. affect",
+            "C. affection",
+            "D. exercises"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "做测试，carry out tests。",
+          "options": [
+            "A. carried out",
+            "B. carried forward",
+            "C. made over",
+            "D. handed out"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "根据上文，大笑和体育锻炼对心脏，血压，心跳和呼吸的作用很类似，就是会提升血压，心跳和呼吸。",
+          "options": [
+            "A. destroys",
+            "B. balances",
+            "C. decreases",
+            "D. increases"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "根据上一句话，如果大笑能够锻炼身体，那么它必须是有益的。",
+          "options": [
+            "A. interesting",
+            "B. harmful",
+            "C. beneficial",
+            "D. boring"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "在身体上的痛苦，用介词 on，固定搭配。",
+          "options": [
+            "A. on",
+            "B. in",
+            "C. to",
+            "D. within"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "定语从句，先行词是 students,从句缺主语，用 who。",
+          "options": [
+            "A. who",
+            "B. which",
+            "C. where",
+            "D. what"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "笑声能够减少痛苦，reduce减少。",
+          "options": [
+            "A. produce",
+            "B. reduce",
+            "C. raise",
+            "D. rise"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "鼓励某人做某事， encourage sb to do sth.",
+          "options": [
+            "A. making",
+            "B. discouraging",
+            "C. encouraging",
+            "D. forcing"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "feel like doing sth,喜欢做某事。\n# V. Writing (15.points) 参考范文\n# My view on happiness\nWith the development of our society, we are having much more happiness than ever before. For a student like me, happiness is never a thing far reaching. Instead, it is appearing in every corner of our life.\nDuring the preparation of this examination, my parents, friends and teachers have given me tremendous help. I still remember the day when I was studying at night, I happened to notice that my mother was actually waiting for me in the living room with my dinner, without telling me.\nThere are many ways to reach happiness. Firstly, we should pay more attention on things around us. Secondly, happiness is not all about receiving but sometimes about giving.\nSpend more time with families and friends; do volunteer works instead of always waiting for help. Only then, can we embrace happiness.",
+          "options": [
+            "A. to smile",
+            "B. smiling",
+            "C. to laugh",
+            "D. laughing"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "C | A | D | B",
+      "explanation": "`in one's late twenties` 为固定表达。\n\n`sound + 形容词`，且这里表示“听起来令人害怕”。\n\n结构是 “the more..., the less...”。\n\n`Not only ... but also ...` 为固定搭配。\n\n`connect ... to ...` 符合语义与搭配。\n\n`on a number of levels` 是固定说法。\n\n前后句是因果递进关系。\n\n逗号后是非限制性定语从句，只能用 `which`。\n\n`decision making` 是固定搭配。\n\n`even` 表示“甚至”。",
+      "exam": "108_英语_河北专升本英语23.json",
+      "exam_title": "河北专升本英语23",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "As early as our late {{__BLANK_31__}}, our brains start losing neurons and even start to become weaker once we reach 65. This may sound {{__BLANK_32__}}, but it happens to everyone. The good news is that there are many things we can do to age-proof our brains. The more active our brains are, the {{__BLANK_33__}} they'll be affected by aging. Here are four simple suggestions that will give your brain good exercise.\n## Be social\nResearch has found that being social is one of the keys to living a long and happy life. {{__BLANK_34__}} does socializing help to improve one's mood and mental well-being, it can also prevent memory loss in later life. Social interaction keeps our brains mentally engaged.\n## Play sports and go dancing\nIt's important to develop the areas of the brain that {{__BLANK_35__}} it to the body. Movement improves brain function {{__BLANK_36__}} a number of levels and helps to develop motor skills. It also boosts our memories and strengthens neuronal networks.\n## Play an instrument\nResearch has shown a person who has played an instrument for more than 10 years will have a much better memory than someone who hasn't. It also helps children become more self-disciplined, attentive, and better at planning. Playing an instrument makes us better at processing sound, {{__BLANK_37__}} musicians are very good at understanding how people feel based on the tone of their voice.\n## Learn another language\nBilingual brains work much harder than monolingual brains. Learning another language builds gray matter in the brain, {{__BLANK_38__}} controls many of the brain's functions, including sensory perception, memory, and {{__BLANK_39__}} making.\nThe most important thing is to challenge your brain as often as you can. Studies have shown that {{__BLANK_40__}} brushing your teeth with your \"wrong\" hand stimulates your brain!",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "108-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C, and D. You are required to choose the ONE that best fits into the passage.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "`in one's late twenties` 为固定表达。",
+          "options": [
+            "A. twelfths",
+            "B. twentieths",
+            "C. twenties",
+            "D. twenty"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "`sound + 形容词`，且这里表示“听起来令人害怕”。",
+          "options": [
+            "A. frightening",
+            "B. fright",
+            "C. frightened",
+            "D. frighten"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "结构是 “the more..., the less...”。",
+          "options": [
+            "A. more",
+            "B. much",
+            "C. better",
+            "D. less"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "`Not only ... but also ...` 为固定搭配。",
+          "options": [
+            "A. Not only",
+            "B. Not until",
+            "C. As if",
+            "D. If so"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "`connect ... to ...` 符合语义与搭配。",
+          "options": [
+            "A. control",
+            "B. compare",
+            "C. connect",
+            "D. concentrate"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "`on a number of levels` 是固定说法。",
+          "options": [
+            "A. on",
+            "B. with",
+            "C. under",
+            "D. above"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "前后句是因果递进关系。",
+          "options": [
+            "A. however",
+            "B. so",
+            "C. since",
+            "D. though"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "逗号后是非限制性定语从句，只能用 `which`。",
+          "options": [
+            "A. what",
+            "B. where",
+            "C. that",
+            "D. which"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "`decision making` 是固定搭配。",
+          "options": [
+            "A. position",
+            "B. emotion",
+            "C. decision",
+            "D. occasion"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "`even` 表示“甚至”。",
+          "options": [
+            "A. only",
+            "B. even",
+            "C. whether",
+            "D. also"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "C | B | A | D",
+      "explanation": "It is normal that... 是固定句式，that 引导真正主语从句，故选 C。\n\n前句说紧张很正常，后句强调仍要保持冷静，自然是转折关系，应选 However。\n\nconsist of 是固定搭配，表示“由……组成”，与后面的 several tasks 搭配正确。\n\nresearch the school as well as the expectations... 表示“也要研究岗位要求”，D 最合适。\n\nas much information as you can 是固定表达，表示“尽可能多的信息”。\n\n前文用了 First、Second，这里顺承列举步骤，应为 Finally。\n\nmake sure that... 是固定搭配，表示“务必确保……”，故选 D。\n\npractice doing sth. 是固定用法，所以用 answering。\n\n先行词是 friends，后面缺少限定 advice 的关系代词，应使用 whose advice。\n\n句意是“你可以在网上找到一些潜在的面试问题”，用 some 最自然。",
+      "exam": "109_英语_河北专升本英语24.json",
+      "exam_title": "河北专升本英语24",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "Interviews are an important and necessary part of going for a new job. It is normal {{__BLANK_31__}} you will feel nervous at an interview. {{__BLANK_32__}}, it is important to remain calm and confident. Remember, your application impressed the school hence your invitation to interview.\nTypically, a teaching interview will {{__BLANK_33__}} of a teaching task, an evaluation task and a formal interview with an interview panel.\n## Preparation is key!\nFirst, ensure you research the school before the interview {{__BLANK_34__}} the expectations of the job role itself (although you would have already done research as part of your application!). Second, pay a visit to the school website and find out as much information {{__BLANK_35__}} you can, such as the school's values, the type of school and recent school news. {{__BLANK_36__}}, download the school's most recent official report and look carefully for your improvement.\n## Pay A Visit\nIf you have not yet visited the school then make {{__BLANK_37__}} that you do so before the interview. Visiting the school gives you a real insight into the day-to-day routines and atmosphere in the school. It will also give you the opportunity to talk to staff and students.\n## Practice Makes Perfect\nFor any job interview, not just teaching, it is always advisable to practice {{__BLANK_38__}} some interview questions prior to the real thing! To conduct a practice interview, you can ask your friends, {{__BLANK_39__}} advice will be honest and useful. You could take it a step further by filming the interview and watching it back yourself to see how you could improve. You can find {{__BLANK_40__}} potential teaching interview questions online including in our blog!\n## First Impressions Matter\nFrom the moment you step into the school building, judgments are already being formed. Smile, show enthusiasm, ask questions and strike up conversations. Remain positive and confident.",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "109-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the Answer Sheet with a single line through the centre.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "It is normal that... 是固定句式，that 引导真正主语从句，故选 C。",
+          "options": [
+            "A. how",
+            "B. where",
+            "C. that",
+            "D. what"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "前句说紧张很正常，后句强调仍要保持冷静，自然是转折关系，应选 However。",
+          "options": [
+            "A. Meanwhile",
+            "B. However",
+            "C. At the same time",
+            "D. Moreover"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "consist of 是固定搭配，表示“由……组成”，与后面的 several tasks 搭配正确。",
+          "options": [
+            "A. consist",
+            "B. consider",
+            "C. construct",
+            "D. confirm"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "research the school as well as the expectations... 表示“也要研究岗位要求”，D 最合适。",
+          "options": [
+            "A. too",
+            "B. either",
+            "C. neither",
+            "D. as well as"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "as much information as you can 是固定表达，表示“尽可能多的信息”。",
+          "options": [
+            "A. as",
+            "B. so",
+            "C. that",
+            "D. if"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "前文用了 First、Second，这里顺承列举步骤，应为 Finally。",
+          "options": [
+            "A. Luckily",
+            "B. Finally",
+            "C. Rarely",
+            "D. Exactly"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "make sure that... 是固定搭配，表示“务必确保……”，故选 D。",
+          "options": [
+            "A. for",
+            "B. off",
+            "C. out",
+            "D. sure"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "practice doing sth. 是固定用法，所以用 answering。",
+          "options": [
+            "A. answered",
+            "B. answer",
+            "C. answering",
+            "D. have answered"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "先行词是 friends，后面缺少限定 advice 的关系代词，应使用 whose advice。",
+          "options": [
+            "A. whose",
+            "B. which",
+            "C. who",
+            "D. that"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "句意是“你可以在网上找到一些潜在的面试问题”，用 some 最自然。",
+          "options": [
+            "A. none",
+            "B. no",
+            "C. both",
+            "D. some"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "B | C | D | A",
+      "explanation": "be distracted thinking about sth. 符合句意，动名词作伴随状态。\n\nopen 以元音音素开头，前面应用 an。\n\nfocus on the speaker 是固定搭配。\n\n句意是\n\n先行词是 environment，关系副词 where 引导定语从句。\n\nas 在此表示\n\nplay a significant role in 是固定表达。\n\nfeel valued and heard 是常见搭配，表示\n\nfor 后接动名词，promoting deeper conversations 语法正确。\n\nListening patiently without interrupting 与主动倾听主题完全一致。",
+      "exam": "110_英语_河北专升本英语25.json",
+      "exam_title": "河北专升本英语25",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "Have you ever been in a conversation where the other person wasn't really listening to what you were saying? Maybe they were distracted{{__BLANK_31__}}about their own response, or just not interested. It is annoying and even discouraging. But active listening is a way to ensure that all parties are heard and understood.\n\nActive listening is a skill that requires focus, patience, and{{__BLANK_32__}}open mind. Here, we will discuss the basic elements of active listening, techniques to become an active listener, and why it's important in our daily life.\n\nActive listening is a practice that promotes mutual understanding and effective communication. It involves focusing{{__BLANK_33__}}the speaker and fully comprehending their message. This goes beyond just hearing; it{{__BLANK_34__}}engagement and attention to detail. By actively listening, we show respect to the speaker and create an environment{{__BLANK_35__}}open and honest communication can continue smoothly.\n\nBeing present is vital when practicing active listening,{{__BLANK_36__}}it involves being fully engaged in the conversation. Non-verbal clues, such as body language and facial expressions, play a significant{{__BLANK_37__}}in enhancing active listening by providing context and aiding in the explanation of the speaker's message. Maintaining eye contact demonstrates respect, interest, and attentiveness towards the speaker, while body language can show emotions, attitudes, and intentions that words may not express. Active listening calls for giving undivided attention and avoiding distractions, ensuring that the speaker feels{{__BLANK_38__}}and heard. By using these basic elements, we can truly connect with others and make effective communication.\n\nActive listening techniques are essential for{{__BLANK_39__}}deeper conversations and effective problem-solving. These techniques include:\n- Asking open-ended questions;\n- Reflecting on and paraphrasing what is heard;\n- Listening{{__BLANK_40__}}without interrupting.\n\nThese techniques, when practiced, enhance the quality of interactions and strengthen relationships. Adding these techniques to your listening skills can have a great influence on your communication abilities.",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "110-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the Answer Sheet with a single line through the centre.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 31,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "be distracted thinking about sth. 符合句意，动名词作伴随状态。",
+          "options": [
+            "A. think",
+            "B. thinking",
+            "C. thinks",
+            "D. thought"
+          ]
+        },
+        {
+          "no": 32,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "open 以元音音素开头，前面应用 an。",
+          "options": [
+            "A. a",
+            "B. the",
+            "C. an",
+            "D. /"
+          ]
+        },
+        {
+          "no": 33,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "focus on the speaker 是固定搭配。",
+          "options": [
+            "A. in",
+            "B. by",
+            "C. at",
+            "D. on"
+          ]
+        },
+        {
+          "no": 34,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "句意是",
+          "options": [
+            "A. requires",
+            "B. retires",
+            "C. acquires",
+            "D. admires"
+          ]
+        },
+        {
+          "no": 35,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "先行词是 environment，关系副词 where 引导定语从句。",
+          "options": [
+            "A. why",
+            "B. where",
+            "C. which",
+            "D. what"
+          ]
+        },
+        {
+          "no": 36,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "as 在此表示",
+          "options": [
+            "A. as",
+            "B. whether",
+            "C. but",
+            "D. if"
+          ]
+        },
+        {
+          "no": 37,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "play a significant role in 是固定表达。",
+          "options": [
+            "A. choice",
+            "B. advice",
+            "C. benefit",
+            "D. role"
+          ]
+        },
+        {
+          "no": 38,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "feel valued and heard 是常见搭配，表示",
+          "options": [
+            "A. value",
+            "B. valued",
+            "C. valuing",
+            "D. valuable"
+          ]
+        },
+        {
+          "no": 39,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "for 后接动名词，promoting deeper conversations 语法正确。",
+          "options": [
+            "A. promoted",
+            "B. promotion",
+            "C. promoting",
+            "D. promote"
+          ]
+        },
+        {
+          "no": 40,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "Listening patiently without interrupting 与主动倾听主题完全一致。",
+          "options": [
+            "A. patiently",
+            "B. obviously",
+            "C. immediately",
+            "D. apparently"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "A | B",
+      "explanation": "Communication involves both speaking and listening.\n\nPaying attention to others is a sign of respect.",
+      "exam": "103_英语_河北专升本英语18.json",
+      "exam_title": "河北专升本英语18",
+      "trust": "official_exam",
+      "knowledge_point": "E-T14 完形填空；E-S13 完形填空·语境逻辑；E-S14 完形填空·词汇与语法辨析",
+      "material": "Effective communication is not just about speaking; it is also about {{__BLANK_3__}}. When we pay attention to others, we show {{__BLANK_4__}} for their feelings and opinions.",
+      "type": "cloze",
+      "type_raw": "完形填空",
+      "kind": "material",
+      "group_uid": "103-s11",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Fill in the blanks with the most appropriate words from the options provided.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 3,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "Communication involves both speaking and listening.",
+          "options": [
+            "A. listening",
+            "B. writing",
+            "C. running",
+            "D. shouting"
+          ]
+        },
+        {
+          "no": 4,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "Paying attention to others is a sign of respect.",
+          "options": [
+            "A. anger",
+            "B. respect",
+            "C. fear",
+            "D. doubt"
+          ]
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T14",
+        "E-S13",
+        "E-S14"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[cloze]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    }
+  ]
+}

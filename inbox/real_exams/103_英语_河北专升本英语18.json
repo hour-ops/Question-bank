@@ -1,0 +1,6202 @@
+{
+ "id": 103,
+ "title": "河北专升本英语18",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:40:23",
+ "exam": {
+  "meta": {
+   "year": null,
+   "title": "full.md",
+   "source": {
+    "fileId": "",
+    "fileName": "full.md"
+   },
+   "subject": "英语",
+   "province": null,
+   "paperCode": null
+  },
+  "version": 2,
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "It is essential that every student ",
+         "headers": [],
+         "placeholder": null
+        },
+        {
+         "alt": null,
+         "key": "b1",
+         "src": null,
+         "rows": [],
+         "type": "blank",
+         "value": null,
+         "headers": [],
+         "placeholder": "1"
+        },
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": " a library card before using the library resources.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "在“It is essential/necessary/important + that从句”结构中，从句谓语动词应使用虚拟语气，即“should + 动词原形”，should可以省略。故选B。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. has"
+        },
+        {
+         "key": "B",
+         "label": "B. have"
+        },
+        {
+         "key": "C",
+         "label": "C. had"
+        },
+        {
+         "key": "D",
+         "label": "D. is having"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Not only ",
+         "headers": [],
+         "placeholder": null
+        },
+        {
+         "alt": null,
+         "key": "b2",
+         "src": null,
+         "rows": [],
+         "type": "blank",
+         "value": null,
+         "headers": [],
+         "placeholder": "2"
+        },
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": " the project on time, but he also stayed within the budget.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "not only... but also... 连接两个句子时，若not only置于句首，前一个分句需要部分倒装。根据后半句stayed可知时态为一般过去时。故选B。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b2",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. he finished"
+        },
+        {
+         "key": "B",
+         "label": "B. did he finish"
+        },
+        {
+         "key": "C",
+         "label": "C. he has finished"
+        },
+        {
+         "key": "D",
+         "label": "D. has he finished"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [],
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "从每小题给出的四个选项中，选出可以填入空白处的最佳选项。",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "词汇与语法",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-2",
+    "kind": "reading_qa",
+    "items": [
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "According to the passage, AI-powered tools in education can ",
+         "headers": [],
+         "placeholder": null
+        },
+        {
+         "alt": null,
+         "key": "b3",
+         "src": null,
+         "rows": [],
+         "type": "blank",
+         "value": null,
+         "headers": [],
+         "placeholder": "3"
+        },
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": ".",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "文章第一段最后一句提到“AI-powered tools can provide personalized learning experiences for students”，明确指出AI工具在教育领域的积极作用。故选B。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b3",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. replace all teachers in the future"
+        },
+        {
+         "key": "B",
+         "label": "B. provide personalized learning experiences"
+        },
+        {
+         "key": "C",
+         "label": "C. solve all data privacy problems"
+        },
+        {
+         "key": "D",
+         "label": "D. make students learn faster than before"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is one of the concerns mentioned regarding the rise of AI?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "文章第二段提到“There are concerns about data privacy and the potential for AI to replace human jobs.”，选项C符合题意。故选C。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b4",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The lack of smart assistants."
+        },
+        {
+         "key": "B",
+         "label": "B. The high cost of AI systems."
+        },
+        {
+         "key": "C",
+         "label": "C. The potential for job replacement."
+        },
+        {
+         "key": "D",
+         "label": "D. The slow development of technology."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Artificial Intelligence (AI) is changing the way we live and work. From smart assistants in our phones to automated systems in factories, AI is becoming an essential part of modern life. One of the most significant impacts of AI is in the field of education. AI-powered tools can provide personalized learning experiences for students, helping them to learn at their own pace and focus on areas where they need improvement.\n\nHowever, the rise of AI also brings challenges. There are concerns about data privacy and the potential for AI to replace human jobs. It is important for society to find a balance between embracing the benefits of AI and addressing these ethical and economic issues. Educators and policymakers must work together to ensure that AI is used responsibly and that people are prepared for the future job market.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "Part II",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "阅读下列短文，从每题所给的四个选项中选出最佳选项。",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "阅读理解",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-3",
+    "kind": "writing",
+    "items": [
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "假设你是李华，你的学校将举办一场关于“环境保护”的英语讲座。请你写一则通知，内容包括：\n1. 讲座的时间和地点；\n2. 讲座的主要内容；\n3. 欢迎大家踊跃参加。\n词数：100左右。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "本题要求写一则通知。格式应包含标题（Notice）、正文和落款。正文需涵盖时间、地点、内容及号召参与。注意使用正式语体。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only",
+       "value": null,
+       "target": null,
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": 80,
+       "placeholder": "请在此处输入你的作文"
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "**Notice**\n\nTo raise students' awareness of environmental protection, an English lecture will be held in our school. The details are as follows:\n\nThe lecture is scheduled for 2:00 p.m. to 4:00 p.m. next Friday in the School Auditorium. Our guest speaker, Professor Zhang from Y University, will give us a talk on the current environmental challenges and practical ways to live a low-carbon life. It is not only an opportunity to learn about environmental issues but also a great chance to improve your English listening skills.\n\nEveryone is welcome to attend. Please be on time.\n\nStudent Union\nMay 20, 2025",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [],
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "根据要求完成下列写作任务。",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "写作",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-4",
+    "kind": "single_choice",
+    "items": [
+     {
+      "id": "item-6",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "It is necessary for us to ____ a good habit of reading in our daily life.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "develop a habit 意为“养成习惯”，是固定搭配。句意：在日常生活中，我们有必要养成良好的阅读习惯。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. develop"
+        },
+        {
+         "key": "B",
+         "label": "B. make"
+        },
+        {
+         "key": "C",
+         "label": "C. take"
+        },
+        {
+         "key": "D",
+         "label": "D. do"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Neither he nor I ____ interested in the new project at the moment.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "neither...nor... 连接两个并列主语时，谓语动词遵循“就近原则”，即与靠近它的主语 I 保持一致，故使用 am。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b2",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. am"
+        },
+        {
+         "key": "B",
+         "label": "B. is"
+        },
+        {
+         "key": "C",
+         "label": "C. are"
+        },
+        {
+         "key": "D",
+         "label": "D. be"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [],
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "从每题所给的A、B、C、D四个选项中，选出可以填入空白处的最佳选项。",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "单项选择",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-5",
+    "kind": "reading_qa",
+    "items": [
+     {
+      "id": "item-8",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "According to the passage, what is one of the main advantages of AI?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "根据文中“One of the primary benefits of AI is its ability to process vast amounts of data much faster than humans.”可知，AI的主要优势之一是处理数据的速度比人类快。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b3",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. It can replace all human jobs."
+        },
+        {
+         "key": "B",
+         "label": "B. It processes data faster than humans."
+        },
+        {
+         "key": "C",
+         "label": "C. It is only used in medicine."
+        },
+        {
+         "key": "D",
+         "label": "D. It has no ethical concerns."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Artificial Intelligence (AI) is changing the way we live and work. From voice assistants on our phones to autonomous vehicles, AI technology is becoming more integrated into our daily routines. One of the primary benefits of AI is its ability to process vast amounts of data much faster than humans. This allows for more efficient problem-solving in fields like medicine and finance. However, experts also warn about the potential challenges, such as job displacement and ethical concerns regarding privacy.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "Part II",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "阅读下列短文，从每题所给的A、B、C、D四个选项中，选出最佳选项。",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "阅读理解",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-6",
+    "kind": "writing",
+    "items": [
+     {
+      "id": "item-9",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "假设你是李华，你的美国朋友 Tom 对中国的传统节日很感兴趣。请你给他写一封邮件，介绍一个你最喜欢的中国传统节日。内容包括：\n1. 节日的名称；\n2. 节日的习俗；\n3. 你喜欢的原因。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "本题要求写一封介绍中国传统节日的邮件。应包含节日名称、相关习俗及个人感受。写作时应注意邮件的格式（称呼、正文、落款）以及语言的连贯性和准确性。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only",
+       "value": null,
+       "target": null,
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": 80,
+       "placeholder": "请在此输入你的邮件内容..."
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Dear Tom,\n\nI'm glad to hear that you are interested in Chinese traditional festivals. My favorite festival is the Spring Festival.\n\nIt is the most important festival in China, usually falling in January or February. During the festival, family members get together to have a big dinner. We also paste spring couplets and set off fireworks to celebrate. Children are always excited because they can receive lucky money in red envelopes.\n\nI like it because it's a time for family reunion and sharing happiness. I hope you can come to China and experience it yourself.\n\nBest regards,\nLi Hua",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [],
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "根据要求完成写作任务。",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "书面表达",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-7",
+    "kind": "single_choice",
+    "items": [
+     {
+      "id": "item-10",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "选出下列单词中划线部分发音不同的选项：",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A、B、D项中划线字母a的发音均为[æ]；C项中danger划线字母a的发音为[eɪ]。故选C。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. m<u>a</u>tch"
+        },
+        {
+         "key": "B",
+         "label": "B. b<u>a</u>lance"
+        },
+        {
+         "key": "C",
+         "label": "C. d<u>a</u>nger"
+        },
+        {
+         "key": "D",
+         "label": "D. intern<u>a</u>tional"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-11",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "选出下列单词中划线部分发音不同的选项：",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B、C、D项中划线字母组合ea的发音均为[i:]；A项中heavy划线字母组合ea的发音为[e]。故选A。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b2",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. h<u>ea</u>vy"
+        },
+        {
+         "key": "B",
+         "label": "B. br<u>ea</u>the"
+        },
+        {
+         "key": "C",
+         "label": "C. s<u>ea</u>son"
+        },
+        {
+         "key": "D",
+         "label": "D. ch<u>ea</u>p"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "选出下列单词中划线部分发音不同的选项：",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A、B、C项中划线字母i（或igh）的发音均为[aɪ]；D项中bridge划线字母i的发音为[ɪ]。故选D。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b3",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. pr<u>i</u>de"
+        },
+        {
+         "key": "B",
+         "label": "B. surpr<u>i</u>se"
+        },
+        {
+         "key": "C",
+         "label": "C. fl<u>i</u>ght"
+        },
+        {
+         "key": "D",
+         "label": "D. br<u>i</u>dge"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "选出下列单词中划线部分发音不同的选项：",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A项lamb、C项climb、D项debt中的字母b均不发音；B项club中的字母b发音为[b]。故选B。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b4",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. lam<u>b</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. clu<u>b</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. clim<u>b</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. de<u>b</u>t"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "选出下列单词中划线部分发音不同的选项：",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A项explained、C项changed、D项dreamed中的划线部分ed均发音为[d]；B项hoped中的ed在清辅音[p]后发音为[t]。故选B。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b5",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. explain<u>ed</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. hop<u>ed</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. chang<u>ed</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. dream<u>ed</u>"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [],
+    "partLabel": "I",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "In each of the following groups of words, there are 4 underlined letters or letter combinations marked A, B, C and D. Compare the underlined parts and identify the ONE that is different from the others in pronunciation. Then mark the corresponding letter on the Answer Sheet with a single line through the centre.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "语音知识",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-8",
+    "kind": "cloze",
+    "items": [
+     {
+      "id": "item-15",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "对话开头李华询问“What are you doing?”（你在做什么？），王军应回答正在进行的活动。选项G“I'm just playing an online game.”（我只是在玩网络游戏）符合语境。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "G",
+       "target": "b6",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b6",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "G",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-16",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "王军回答“Um. I went to Liu Ming's birthday party four weeks ago.”（嗯，我四周前去了刘明的生日聚会），说明李华问的是关于上一次出门社交的时间。选项A“When was the last time you went out with friends?”（你上一次和朋友出去是什么时候？）与之衔接最自然。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b7",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b7",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "空后提到“We're going for dinner. How about joining us?”（我们要去吃晚饭，一起去吗？），选项E“I'm going out with some people from our course on Saturday.”（这周六我要和课上的几个人出去）交代了活动的背景和时间，引导出后面的邀请。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "E",
+       "target": "b8",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b8",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "E",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "李华提到“You are a good football player.”（你是个优秀的足球运动员），建议他参加不需要太多交流的活动，选项D“Why don't you join the college club?”（你为什么不加入大学俱乐部呢？）是基于足球特长的合理建议。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b9",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b9",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "李华提到周日去看新电影《哪吒2》，王军紧接着说“I do need to get out more!”（我确实需要多出门走走），说明他接受了提议。选项C“I'd like to see that.”（我想看那部电影）表达了兴趣。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b10",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b10",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Li Hua: Hi, Wang Jun. What are you doing?\n\nWang Jun: ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b6",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "6"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "\n\nLi Hua: You always sit inside playing games and going online. When was the last time you had a day without going online?\n\nWang Jun: I don't know. Probably six months ago.\n\nLi Hua: You should go out more. I'm meeting some friends for coffee now. Why don't you come?\n\nWang Jun: Thanks, but I'm fine here.\n\nLi Hua: OK. ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b7",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "7"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "\n\nWang Jun: Um. I went to Liu Ming's birthday party four weeks ago.\n\nLi Hua: And you haven't been out since then?\n\nWang Jun: No. I don't really enjoy it. I get nervous.\n\nLi Hua: ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b8",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "8"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " We're going for dinner. How about joining us?\n\nWang Jun: That's my worst nightmare! I feel nervous sitting in a small group making conversations.\n\nLi Hua: You could do something where you don't have to talk too much. You are a good football player. ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b9",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "9"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "\n\nWang Jun: Actually, that sounds like a good idea.\n\nLi Hua: OK, I'll pick up some information for you. Also, we're going to see the new movie Nezha II on Sunday.\n\nWang Jun: ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b10",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "10"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " I do need to get out more! Thank you.\n\nLi Hua: Welcome.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "II",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Note that there are two additional choices and you can not use any of the choices in the list more than once.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "情景对话",
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. When was the last time you went out with friends?"
+     },
+     {
+      "key": "B",
+      "label": "B. That's why I do it online."
+     },
+     {
+      "key": "C",
+      "label": "C. I'd like to see that."
+     },
+     {
+      "key": "D",
+      "label": "D. Why don't you join the college club?"
+     },
+     {
+      "key": "E",
+      "label": "E. I'm going out with some people from our course on Saturday."
+     },
+     {
+      "key": "F",
+      "label": "F. Which one do you like better?"
+     },
+     {
+      "key": "G",
+      "label": "G. I'm just playing an online game."
+     }
+    ]
+   },
+   {
+    "id": "sec-9",
+    "kind": "single_choice",
+    "items": [
+     {
+      "id": "item-20",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is the main idea of the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The passage discusses how AI is transforming learning, helping teachers, and the concerns surrounding its use, which all relate to its impact on education.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The history of artificial intelligence."
+        },
+        {
+         "key": "B",
+         "label": "B. The impact of AI on modern education."
+        },
+        {
+         "key": "C",
+         "label": "C. How to grade tests using technology."
+        },
+        {
+         "key": "D",
+         "label": "D. The importance of traditional teaching."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-21",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "How do adaptive learning platforms help students according to the text?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The text states that these platforms \"analyze a student's performance in real-time and provide customized exercises to address their weaknesses.\"",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. By replacing the need for teachers."
+        },
+        {
+         "key": "B",
+         "label": "B. By providing customized exercises based on performance."
+        },
+        {
+         "key": "C",
+         "label": "C. By allowing students to skip difficult subjects."
+        },
+        {
+         "key": "D",
+         "label": "D. By increasing the time spent on administrative tasks."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is one benefit of AI for teachers mentioned in the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The passage mentions that AI can assist teachers by \"automating administrative tasks like grading multiple-choice tests.\"",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. It helps them avoid mentoring students."
+        },
+        {
+         "key": "B",
+         "label": "B. It replaces creative teaching methods."
+        },
+        {
+         "key": "C",
+         "label": "C. It automates tasks like grading multiple-choice tests."
+        },
+        {
+         "key": "D",
+         "label": "D. It reduces the need for critical thinking."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is a major concern raised by critics?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Critics argue that \"over-reliance on AI might reduce human interaction and critical thinking skills.\"",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. AI is too expensive for most schools."
+        },
+        {
+         "key": "B",
+         "label": "B. Students might focus too much on human interaction."
+        },
+        {
+         "key": "C",
+         "label": "C. Over-reliance on AI might reduce critical thinking skills."
+        },
+        {
+         "key": "D",
+         "label": "D. Teachers will have too much free time."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What does the author suggest at the end of the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The author concludes that \"it is essential to find a balance between technology and traditional teaching methods.\"",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. AI should eventually replace teachers."
+        },
+        {
+         "key": "B",
+         "label": "B. Schools should avoid using technology altogether."
+        },
+        {
+         "key": "C",
+         "label": "C. A balance between technology and traditional methods is needed."
+        },
+        {
+         "key": "D",
+         "label": "D. Problem-solving skills are no longer necessary."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Artificial Intelligence (AI) is transforming the way we learn. In modern classrooms, AI-powered tools can personalize learning experiences for each student. For example, adaptive learning platforms analyze a student's performance in real-time and provide customized exercises to address their weaknesses. Moreover, AI can assist teachers by automating administrative tasks like grading multiple-choice tests, allowing them to focus more on mentoring and creative teaching.\n\nHowever, some critics argue that an over-reliance on AI might reduce human interaction and critical thinking skills. They worry that students might become too dependent on technology for answers rather than developing their own problem-solving abilities. Therefore, experts suggest that it is essential to find a balance between technology and traditional teaching methods. The goal is to use AI as a tool to enhance education, not to replace the vital role of the teacher.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "III",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "Read the following passage and choose the best answer for each question.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "Reading Comprehension",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-10",
+    "kind": "reading_qa",
+    "items": [
+     {
+      "id": "item-25",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is mentioned as a primary advantage of online learning in Passage One?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "文中提到在线教育的拥护者强调其灵活性（flexibility），允许学生按照自己的节奏学习。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. It is more affordable than traditional schools."
+        },
+        {
+         "key": "B",
+         "label": "B. It offers greater flexibility for students."
+        },
+        {
+         "key": "C",
+         "label": "C. It eliminates the need for self-discipline."
+        },
+        {
+         "key": "D",
+         "label": "D. It focuses mainly on social skill development."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "According to Passage One, what is a potential disadvantage of online education?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "文中提到批评者认为缺乏面对面交流（lack of face-to-face interaction）会阻碍社交技能的发展。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b2",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The lack of social interaction."
+        },
+        {
+         "key": "B",
+         "label": "B. The limited range of digital resources."
+        },
+        {
+         "key": "C",
+         "label": "C. The excessive feedback from instructors."
+        },
+        {
+         "key": "D",
+         "label": "D. The overly structured learning environment."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What does the author suggest as a possible ideal approach to education?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "文章最后一段指出，最有效的方法可能是一种结合两者优点的混合模式（hybrid model）。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b3",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Replacing all physical schools with digital platforms."
+        },
+        {
+         "key": "B",
+         "label": "B. Focusing solely on self-disciplined students."
+        },
+        {
+         "key": "C",
+         "label": "C. Returning to strictly traditional classroom models."
+        },
+        {
+         "key": "D",
+         "label": "D. Adopting a hybrid model of both online and offline learning."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "How do urban green spaces help reduce the \"heat island\" effect according to Passage Two?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "文中明确提到，绿色空间通过提供遮荫（shade）和蒸腾作用冷却空气来缓解城市热岛效应。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b4",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. By filtering air pollutants."
+        },
+        {
+         "key": "B",
+         "label": "B. By managing stormwater runoff."
+        },
+        {
+         "key": "C",
+         "label": "C. By providing shade and cooling the air."
+        },
+        {
+         "key": "D",
+         "label": "D. By encouraging physical activities."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is the main point made about urban green spaces in the final paragraph of Passage Two?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "最后一段指出，确保所有社区（无论社会经济地位如何）都能获得高质量的绿色空间是一个社会公平问题（matter of social equity）。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b5",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. They are primarily for aesthetic purposes."
+        },
+        {
+         "key": "B",
+         "label": "B. Access to them is a matter of social equity."
+        },
+        {
+         "key": "C",
+         "label": "C. They are too expensive for most neighborhoods."
+        },
+        {
+         "key": "D",
+         "label": "D. They only benefit physical health, not mental health."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "**Passage One**\n\nRecent years have seen a dramatic shift in how education is delivered, with online learning becoming a mainstream alternative to traditional classrooms. Proponents of online education highlight its flexibility, allowing students to learn at their own pace and balance studies with work or family commitments. Furthermore, digital platforms often provide a wider range of resources, from interactive simulations to global discussion forums.\n\nHowever, critics argue that the lack of face-to-face interaction can hinder the development of social skills and peer-to-peer learning. In a physical classroom, students benefit from immediate feedback and the non-verbal cues of their instructors. Moreover, online learning requires a high degree of self-discipline, which not all students possess. Without the structured environment of a school, some may struggle to stay motivated. Ultimately, the most effective approach might be a hybrid model that combines the best of both worlds.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     },
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "**Passage Two**\n\nAs urbanization continues to accelerate, the preservation of green spaces within cities has become a critical issue for urban planners and public health advocates. Parks, gardens, and urban forests are not merely aesthetic additions to the cityscape; they provide essential ecosystem services. They help mitigate the \"urban heat island\" effect by providing shade and cooling the air through evapotranspiration. Additionally, green spaces play a vital role in managing stormwater runoff and improving air quality by filtering pollutants.\n\nBeyond environmental benefits, urban green spaces are crucial for the mental and physical well-being of residents. Studies have consistently shown that access to nature reduces stress, anxiety, and depression. It also encourages physical activity, such as walking and cycling, which helps combat obesity and related health problems. Therefore, investing in urban greenery is an investment in the overall health and sustainability of the community. Ensuring that all neighborhoods, regardless of socioeconomic status, have access to high-quality green space is a matter of social equity.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "Section A",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement. Mark the corresponding letter on the Answer Sheet with a single line through the center.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "阅读理解",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-11",
+    "kind": "single_choice",
+    "items": [
+     {
+      "id": "item-30",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is the main idea of the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The passage discusses how technology has changed communication and the resulting pros and cons, which aligns with option B.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The history of handwritten letters."
+        },
+        {
+         "key": "B",
+         "label": "B. The impact of technology on communication."
+        },
+        {
+         "key": "C",
+         "label": "C. The importance of fast messaging."
+        },
+        {
+         "key": "D",
+         "label": "D. How to improve digital tools."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-31",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "According to the passage, what is a disadvantage of text-based communication?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The text mentions that non-verbal cues like facial expressions are often missing in text-based communication.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. It is too slow for modern business."
+        },
+        {
+         "key": "B",
+         "label": "B. It is more expensive than letters."
+        },
+        {
+         "key": "C",
+         "label": "C. It lacks non-verbal cues."
+        },
+        {
+         "key": "D",
+         "label": "D. It is difficult to learn."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "In the modern era, technology has fundamentally transformed the way we communicate. Traditional methods, such as handwritten letters, have largely been replaced by instant messaging and emails. While these digital tools offer unparalleled speed and convenience, some experts worry about the loss of 'emotional intelligence' in our interactions. Face-to-face conversations allow us to perceive non-verbal cues like facial expressions and tone of voice, which are often missing in text-based communication. To maintain strong social bonds, it is essential to find a balance between digital efficiency and personal connection.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "Read the following passage and choose the best answer for each question.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "阅读理解",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-12",
+    "kind": "cloze",
+    "items": [
+     {
+      "id": "item-32",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Communication involves both speaking and listening.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b3",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. listening"
+        },
+        {
+         "key": "B",
+         "label": "B. writing"
+        },
+        {
+         "key": "C",
+         "label": "C. running"
+        },
+        {
+         "key": "D",
+         "label": "D. shouting"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Paying attention to others is a sign of respect.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b4",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. anger"
+        },
+        {
+         "key": "B",
+         "label": "B. respect"
+        },
+        {
+         "key": "C",
+         "label": "C. fear"
+        },
+        {
+         "key": "D",
+         "label": "D. doubt"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Effective communication is not just about speaking; it is also about ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b3",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "3"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": ". When we pay attention to others, we show ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b4",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "4"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " for their feelings and opinions.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "Part II",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "Fill in the blanks with the most appropriate words from the options provided.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "完形填空",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-13",
+    "kind": "translation_paragraph",
+    "items": [
+     {
+      "id": "item-34",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "To maintain strong social bonds, it is essential to find a balance between digital efficiency and personal connection.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "本句考察 'essential' (至关重要的) 和 'balance between...and...' (在...与...之间寻找平衡) 的用法。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only",
+       "value": null,
+       "target": null,
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "a5",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": "请输入翻译内容"
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "为了保持强大的社会纽带，在数字效率和个人联系之间找到平衡是至关重要的。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [],
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "Translate the following sentence into Chinese.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "英译汉",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-14",
+    "kind": "reading_qa",
+    "items": [
+     {
+      "id": "item-35",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What are the two factors that determine a diamond's hardness according to the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The hardness of a diamond is determined by its purity and its structure.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b11",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Structure and shape."
+        },
+        {
+         "key": "B",
+         "label": "B. Color and shape."
+        },
+        {
+         "key": "C",
+         "label": "C. Purity and structure."
+        },
+        {
+         "key": "D",
+         "label": "D. Purity and color."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Why are red diamonds worth so much money?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Red diamonds are the rarest of all, which makes them highly valuable.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b12",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. They have the highest purity of all diamonds."
+        },
+        {
+         "key": "B",
+         "label": "B. They are the rarest of all diamonds."
+        },
+        {
+         "key": "C",
+         "label": "C. They are soft and easy to shape."
+        },
+        {
+         "key": "D",
+         "label": "D. They are the hardest diamond of all"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Which type of diamond does not have a carbon defect?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Pure diamonds are colorless and consist entirely of carbon, meaning they do not have carbon defects caused by impurities like nitrogen or boron.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b13",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Red diamond."
+        },
+        {
+         "key": "B",
+         "label": "B. Blue diamond."
+        },
+        {
+         "key": "C",
+         "label": "C. Yellow diamond."
+        },
+        {
+         "key": "D",
+         "label": "D. Pure diamond."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Which of the following statements is TRUE according to the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Azurite is described as soft and easy to scratch, while diamonds are the hardest material and do not scratch easily, making diamond much harder than azurite.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b14",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Azurite is much harder than diamond."
+        },
+        {
+         "key": "B",
+         "label": "B. Diamond is much prettier than azurite."
+        },
+        {
+         "key": "C",
+         "label": "C. Azurite is much prettier than diamond."
+        },
+        {
+         "key": "D",
+         "label": "D. Diamond is much harder than azurite."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "In this passage, the author is trying to",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The passage focuses on explaining the physical characteristics and features of diamonds, such as their hardness, color, and structure.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b15",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. explain features of diamonds."
+        },
+        {
+         "key": "B",
+         "label": "B. persuade readers to purchase diamonds."
+        },
+        {
+         "key": "C",
+         "label": "C. describe how diamonds are mined."
+        },
+        {
+         "key": "D",
+         "label": "D. argue that diamonds cost too much money."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Diamond is the hardest material on Earth. Yet, gem cutters shape them. If diamonds are so hard, how do they cut them into shape? They use other diamonds of course!\n\nNot all diamonds are the same. Some are harder than others. The hardness of a diamond depends on two things: its purity and its structure. Let's discuss purity first.\n\nDiamonds come in many colors: grey, white, yellow, blue, pink, purple, orange and black.\n\nRed diamonds are the rarest of all. This makes them worth a lot of money. Yet, pure diamonds are colorless. They are all carbon. They are transparent like glass.\n\nColors found in diamonds come from impurities. They have another element besides carbon. They have a carbon defect. For example, yellow diamonds have nitrogen in them. The nitrogen is yellow. Blue diamonds have boron trapped in their crystal structure. The boron is blue.\n\nThe purity or color of a diamond is important to its hardness. Pure diamonds are harder than impure diamonds. But purity isn't the only thing that matters. Structure also affects hardness.\n\nThe carbon atoms in a diamond are arranged in a crystal structure. Some crystal structures are perfect. A diamond with a perfect crystal structure is harder than one with flaws. So pure, colorless crystal diamonds are the hardest of all.\n\nGood gemstones should be hard. This is what makes diamonds so great for jewelry. Some gems, such as azurite, are soft and easy to scratch. Azurite looks pretty, but it will scratch if worn daily. Diamonds do not scratch easily. Only a diamond can scratch another diamond.\n\nThat's why you can wear a diamond ring while doing chores, if you want. The gem will not need polishing. Just don't go fist bumping other people with fancy engagement rings. It will end badly.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "Questions 11-15 are based on the following passage.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "阅读理解",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-15",
+    "kind": "reading_qa",
+    "items": [
+     {
+      "id": "item-40",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is the main idea of the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The passage emphasizes that lifelong learning is a vital tool for both professional survival and personal well-being, making B the most comprehensive answer.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Education should be completed within a specific timeframe."
+        },
+        {
+         "key": "B",
+         "label": "B. Lifelong learning is essential for personal and professional growth."
+        },
+        {
+         "key": "C",
+         "label": "C. Technology is the primary reason people should continue to study."
+        },
+        {
+         "key": "D",
+         "label": "D. Brain health is more important than career success in the modern world."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-41",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The word \"obsolete\" in the text most likely means ________.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Contextually, the passage mentions that knowledge in tech and medicine evolves so fast that old information becomes \"obsolete,\" meaning no longer useful or out of date.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. updated"
+        },
+        {
+         "key": "B",
+         "label": "B. expensive"
+        },
+        {
+         "key": "C",
+         "label": "C. out of date"
+        },
+        {
+         "key": "D",
+         "label": "D. popular"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-42",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "According to the passage, lifelong learning is defined as the \"ongoing, voluntary, and self-motivated\" pursuit of knowledge for personal or ",
+         "headers": [],
+         "placeholder": null
+        },
+        {
+         "alt": null,
+         "key": "b1",
+         "src": null,
+         "rows": [],
+         "type": "blank",
+         "value": null,
+         "headers": [],
+         "placeholder": "1"
+        },
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": " reasons.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The definition provided in the second sentence mentions \"personal or professional development.\"",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "blank_set",
+       "value": null,
+       "target": null,
+       "values": [],
+       "answers": [
+        {
+         "target": "b1",
+         "accepted": [
+          "professional"
+         ]
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "target": null,
+       "choices": [],
+       "targets": [
+        "b1"
+       ],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "professional",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-43",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is one benefit of lifelong learning for older people according to the text?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The text states that engaging in intellectual challenges helps maintain brain health and delays aging symptoms.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "value": null,
+       "target": "a1",
+       "values": [
+        "It helps maintain brain health.",
+        "It potentially delays the symptoms of aging.",
+        "It keeps individuals adaptable and confident."
+       ],
+       "answers": []
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a1",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": "Enter your answer"
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "It helps maintain brain health and potentially delays the symptoms of aging.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "In the modern era, the concept of education has shifted from a finite period of schooling to a lifelong journey. Lifelong learning is defined as the \"ongoing, voluntary, and self-motivated\" pursuit of knowledge for personal or professional development. It is no longer just a hobby for the curious; it is a vital tool for survival in a fast-paced global economy. For example, in fields like software engineering and medicine, knowledge evolves so rapidly that what was learned five years ago may now be obsolete. Beyond professional advantages, engaging in new intellectual challenges helps maintain brain health, potentially delaying the symptoms of aging. Ultimately, the habit of learning keeps individuals adaptable, confident, and socially connected.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "Read the following passage and answer the questions that follow.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "阅读理解",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-16",
+    "kind": "single_choice",
+    "items": [
+     {
+      "id": "item-44",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "How do phishing attackers obtain users' data?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "According to the second paragraph, the attackers steal data when users login or provide sensitive information on the fake web pages.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b1",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. When users receive an email from the attackers."
+        },
+        {
+         "key": "B",
+         "label": "B. When users are interested in the web pages."
+        },
+        {
+         "key": "C",
+         "label": "C. When users login or provide sensitive information."
+        },
+        {
+         "key": "D",
+         "label": "D. When users click the link in an email from the attackers."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-45",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Which is NOT a motive or reason for phishing mentioned in the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The third paragraph mentions stealing customer records, identity fraud, and taking over a computer network as motives. Attacking hackers is not mentioned as a motive for phishing.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b2",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. To steal customer records."
+        },
+        {
+         "key": "B",
+         "label": "B. To commit identity fraud."
+        },
+        {
+         "key": "C",
+         "label": "C. To gain control of someone else's computer network."
+        },
+        {
+         "key": "D",
+         "label": "D. To attack the dangerous hackers."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-46",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "What is the main idea of Paragraph 4?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Paragraph 4 begins with \"Phishing attacks are dangerous, but you can spot them if you pay attention,\" and goes on to explain how to check the address bar and use root domains.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b3",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. To describe the reasons for phishing attacks."
+        },
+        {
+         "key": "B",
+         "label": "B. To teach readers how to spot phishing attacks."
+        },
+        {
+         "key": "C",
+         "label": "C. To help users design their passwords."
+        },
+        {
+         "key": "D",
+         "label": "D. To tell readers phishing attacks happen every day."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-47",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "How can 2FA protect users from phishing attacks?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Paragraph 5 explains that 2FA means the account is secured with two keys: a password and a random code that changes frequently, which prevents attackers from gaining access even if they have the password.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b4",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Users need two keys to login, and the user can't give away one of the keys."
+        },
+        {
+         "key": "B",
+         "label": "B. The attacker needs a fingerprint or eyeball scan to access the account."
+        },
+        {
+         "key": "C",
+         "label": "C. Nobody can log into the account under any circumstances."
+        },
+        {
+         "key": "D",
+         "label": "D. Two people have to approve the login, so the attacker can't do it alone."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-48",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "Which of the following statements is TRUE according to the passage?",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "The passage describes phishing as tricking people into giving their login information. While they are being deceived, the users are the ones who physically enter and submit the data to the attacker's site.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b5",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Every phishing attack involves deleting the victim's identity to commit fraud."
+        },
+        {
+         "key": "B",
+         "label": "B. In a phishing attack, an attacker controls a victim with a stronger computer."
+        },
+        {
+         "key": "C",
+         "label": "C. You should check your bank account carefully before submitting your data."
+        },
+        {
+         "key": "D",
+         "label": "D. If a phishing attack is successful, users willingly give attackers sensitive data."
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Imagine that you get an email one morning. You click the link in the email. It takes you to a site that looks very much like your bank's. You enter your username and password. You submit the form. You've just been phished!\n\nPhishing is a type of attack that happens over the Internet. Users receive an email or text message that seems like it came from a trusted source. These users are being cheated. They are interacting with dangerous hackers. The attackers copy trusted companies. They send users to web pages that look like the ones we use every day. When users login or provide sensitive information, the attackers steal this data.\n\nAttackers want your data for many reasons. They may use your data to commit identity fraud. This is when they use your identity to buy something with your credit. Then they receive the goods and you receive the bill. Or they may want your password to take over a computer network. They may want access to private emails. They may want customer records. They gain access by tricking people into giving them their login information.\n\nPhishing attacks are dangerous, but you can spot them if you pay attention. One thing to watch is your address bar in your browser. Attackers use domains that look like the ones that we trust, but they are not the same. If you are unsure, search for the site and login from the root domain.\n\nAn even better way to secure your account against phishing attacks is to use 2FA: two factor authentication. 2FA means that your account is secured with two keys. The first is your password. The second key is a random code that changes every few minutes.\n\nPhishing attacks are scary and common. The reason why they are common is that they are effective. Many people accept appearances with no doubt. Browsing the Internet safely requires a healthy amount of suspicion. Nobody is trying to give you free money.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "Read the following passage and choose the best answer for each question.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "阅读理解",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-17",
+    "kind": "cloze",
+    "items": [
+     {
+      "id": "item-49",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "be aware of 是固定搭配，意为“意识到”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b21",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b21",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-50",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "have a significant impact on 是固定搭配，意为“对……有重大影响”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "F",
+       "target": "b22",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b22",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "F",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-51",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "介词 By 后面接动名词形式，表示通过某种手段。developing self-awareness 意为“培养自我意识”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "J",
+       "target": "b23",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b23",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "J",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-52",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "此处需要副词修饰动词短语 deal with stressful situations，successfully 意为“成功地”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "O",
+       "target": "b24",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b24",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "O",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-53",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "情态动词 can 后接动词原形。communicate effectively 意为“有效地沟通”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "L",
+       "target": "b25",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b25",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "L",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-54",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "and 连接并列成分，efficient 是形容词，此处也应填形容词。respected 意为“受尊敬的”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b26",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b26",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-55",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "play a critical part in 是固定搭配，意为“在……中起关键作用”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "M",
+       "target": "b27",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b27",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "M",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-56",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "the ability to do sth 是固定用法，意为“做某事的能力”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "E",
+       "target": "b28",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b28",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "E",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-57",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "help 后面接宾语，此处填名词 individuals，指代“个人”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "G",
+       "target": "b29",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b29",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "G",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-58",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "此处填形容词作表语描述 responses。thoughtful 意为“深思熟虑的”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b30",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b30",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Emotional intelligence, often referred to as EQ or EI, is the ability to recognize and understand our own emotions. It goes beyond simple self-awareness and involves being",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b21",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "21"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "of how our emotions impact ourselves and others.\n\nDeveloping emotional intelligence is the first step towards better self-management and relationship management skills. Having a high EQ can have a significant",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b22",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "22"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "on job satisfaction and workplace morale. By",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b23",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "23"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "self-awareness, self-regulation, and social awareness, individuals with high emotional intelligence can deal with stressful situations",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b24",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "24"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "provide constructive advice, and demonstrate sympathy towards others. Business leaders with strong emotional intelligence can",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b25",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "25"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "effectively, and manage setbacks, biases, and even workplace gossip. Leaders who possess high emotional intelligence tend to be more efficient and",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b26",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "26"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "in the workplace. EI not only enhances communication but also reduces conflicts among team members. It plays a",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b27",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "27"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "part in helping professionals express themselves clearly and concisely, enabling them to build strong relationships with clients and prospects.\n\nEI can be formed and enhanced over time. It differs from intellectual intelligence, or IQ, as it centers around social skills and the",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b28",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "28"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "to understand and manage emotions effectively. Developing and improving EI skills can help",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b29",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "29"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "recover from communication barriers and promote healthier relationships in both personal and professional settings.\n\nAll in all, emotional intelligence equips you with the tools and awareness needed for more effective communication, ensuring your messages are clear, your responses are",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b30",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "30"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "and your interactions are more meaningful.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "Section B",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "In this section there is a passage with 10 blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choice. Each choice in the blank is identified by a letter. Please mark the corresponding letter for each item on the Answer Sheet with a single line through the center. You may not use any of the words in the bank more than once.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "选词填空",
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. thoughtful"
+     },
+     {
+      "key": "B",
+      "label": "B. able"
+     },
+     {
+      "key": "C",
+      "label": "C. respected"
+     },
+     {
+      "key": "D",
+      "label": "D. aware"
+     },
+     {
+      "key": "E",
+      "label": "E. ability"
+     },
+     {
+      "key": "F",
+      "label": "F. impact"
+     },
+     {
+      "key": "G",
+      "label": "G. individuals"
+     },
+     {
+      "key": "H",
+      "label": "H. unfortunately"
+     },
+     {
+      "key": "I",
+      "label": "I. difficult"
+     },
+     {
+      "key": "J",
+      "label": "J. developing"
+     },
+     {
+      "key": "K",
+      "label": "K. Attitude"
+     },
+     {
+      "key": "L",
+      "label": "L. communicate"
+     },
+     {
+      "key": "M",
+      "label": "M. critical"
+     },
+     {
+      "key": "N",
+      "label": "N. developed"
+     },
+     {
+      "key": "O",
+      "label": "O. successfully"
+     }
+    ]
+   },
+   {
+    "id": "sec-18",
+    "kind": "cloze",
+    "items": [
+     {
+      "id": "item-59",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "此处表示“分心在考虑他们自己的回答”，distracted 之后可以使用现在分词短语 thinking about 做伴随状语或补语。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b31",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. think"
+        },
+        {
+         "key": "B",
+         "label": "B. thinking"
+        },
+        {
+         "key": "C",
+         "label": "C. thinks"
+        },
+        {
+         "key": "D",
+         "label": "D. thought"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-60",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "open 以元音音素开头，泛指“一颗开放的心态”，应使用不定冠词 an。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b32",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. a"
+        },
+        {
+         "key": "B",
+         "label": "B. the"
+        },
+        {
+         "key": "C",
+         "label": "C. an"
+        },
+        {
+         "key": "D",
+         "label": "D. /"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-61",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "focus on 为固定搭配，意为“专注于”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b33",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. in"
+        },
+        {
+         "key": "B",
+         "label": "B. by"
+        },
+        {
+         "key": "C",
+         "label": "C. at"
+        },
+        {
+         "key": "D",
+         "label": "D. on"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-62",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "根据语境，积极倾听“需要”参与和对细节的关注。require 意为“需要，要求”；retire 退休；acquire 获得；admire 钦佩。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b34",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. requires"
+        },
+        {
+         "key": "B",
+         "label": "B. retires"
+        },
+        {
+         "key": "C",
+         "label": "C. acquires"
+        },
+        {
+         "key": "D",
+         "label": "D. admires"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-63",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "此处为定语从句，先行词是 environment，从句中不缺主宾语，应使用关系副词 where 表示“在这样的环境中”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b35",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. why"
+        },
+        {
+         "key": "B",
+         "label": "B. where"
+        },
+        {
+         "key": "C",
+         "label": "C. which"
+        },
+        {
+         "key": "D",
+         "label": "D. what"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-64",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "此处 as 引导原因状语从句，意为“因为，由于”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b36",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. as"
+        },
+        {
+         "key": "B",
+         "label": "B. whether"
+        },
+        {
+         "key": "C",
+         "label": "C. but"
+        },
+        {
+         "key": "D",
+         "label": "D. if"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-65",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "play a significant role in 为固定搭配，意为“在……中起重要作用”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "D",
+       "target": "b37",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. choice"
+        },
+        {
+         "key": "B",
+         "label": "B. advice"
+        },
+        {
+         "key": "C",
+         "label": "C. benefit"
+        },
+        {
+         "key": "D",
+         "label": "D. role"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "D",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-66",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "feel valued 意为“感到被重视”，valued 在此处作形容词化的过去分词。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "B",
+       "target": "b38",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. value"
+        },
+        {
+         "key": "B",
+         "label": "B. valued"
+        },
+        {
+         "key": "C",
+         "label": "C. valuing"
+        },
+        {
+         "key": "D",
+         "label": "D. valuable"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "B",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-67",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "介词 for 之后应接动名词形式，因此选用 promoting。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "C",
+       "target": "b39",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. promoted"
+        },
+        {
+         "key": "B",
+         "label": "B. promotion"
+        },
+        {
+         "key": "C",
+         "label": "C. promoting"
+        },
+        {
+         "key": "D",
+         "label": "D. promote"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "C",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-68",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "根据语境，倾听应是“耐心地”且不打断。patiently 意为“耐心地”。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "value": "A",
+       "target": "b40",
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. patiently"
+        },
+        {
+         "key": "B",
+         "label": "B. obviously"
+        },
+        {
+         "key": "C",
+         "label": "C. immediately"
+        },
+        {
+         "key": "D",
+         "label": "D. apparently"
+        }
+       ],
+       "targets": [],
+       "children": [],
+       "minWords": null,
+       "placeholder": null
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "A",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "Have you ever been in a conversation where the other person wasn't really listening to what you were saying? Maybe they were distracted ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b31",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "31"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " about their own response, or just not interested. It is annoying and even discouraging. But active listening is a way to ensure that all parties are heard and understood.\\n\\nActive listening is a skill that requires focus, patience, and ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b32",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "32"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " open mind. Here, we will discuss the basic elements of active listening, techniques to become an active listener, and why it's important in our daily life.\\n\\nActive listening is a practice that promotes mutual understanding and effective communication. It involves focusing ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b33",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "33"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " the speaker and fully comprehending their message. This goes beyond just hearing; it ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b34",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "34"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " engagement and attention to detail. By actively listening, we show respect to the speaker and create an environment ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b35",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "35"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " open and honest communication can continue smoothly.\\n\\nBeing present is vital when practicing active listening, ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b36",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "36"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " it involves being fully engaged in the conversation. Non-verbal clues, such as body language and facial expressions, play a significant ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b37",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "37"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " in enhancing active listening by providing context and aiding in the explanation of the speaker's message. Maintaining eye contact demonstrates respect, interest, and attentiveness towards the speaker, while body language can show emotions, attitudes, and intentions that words may not express. Active listening calls for giving undivided attention and avoiding distractions, ensuring that the speaker feels ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b38",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "38"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " and heard. By using these basic elements, we can truly connect with others and make effective communication.\\n\\nActive listening techniques are essential for ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b39",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "39"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " deeper conversations and effective problem-solving. These techniques include:\\n\\n",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": "$\\diamond$ Asking open-ended questions;\\n\\n$\\Leftrightarrow$ Reflecting on-and paraphrasing-what is heard;\\n\\nListening ",
+        "headers": [],
+        "placeholder": null
+       },
+       {
+        "alt": null,
+        "key": "b40",
+        "src": null,
+        "rows": [],
+        "type": "blank",
+        "value": null,
+        "headers": [],
+        "placeholder": "40"
+       },
+       {
+        "alt": null,
+        "key": null,
+        "src": null,
+        "rows": [],
+        "type": "markdown",
+        "value": " without interrupting.\\n\\nThese techniques, when practiced, enhance the quality of interactions and strengthen relationships. Adding these techniques to your listening skills can have a great influence on your communication abilities.",
+        "headers": [],
+        "placeholder": null
+       }
+      ]
+     }
+    ],
+    "partLabel": "IV",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the Answer Sheet with a single line through the centre.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "完形填空",
+    "sharedChoices": []
+   },
+   {
+    "id": "sec-19",
+    "kind": "writing",
+    "items": [
+     {
+      "id": "item-69",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "**My Major**\n\n1. 简单描述你所学的专业；\n2. 你选择该专业的原因；\n3. 你的努力方向。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "这是一篇关于个人专业的说明性作文。第一部分应明确交代专业名称及其主要研究内容；第二部分需阐述选择该专业的动机，如个人兴趣、就业前景或社会需求；第三部分应列出具体的学习计划或职业目标。注意文章的逻辑连贯性、语法准确性以及词汇的多样性。",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "manual_only",
+       "value": null,
+       "target": null,
+       "values": [],
+       "answers": []
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "choices": [],
+       "targets": [],
+       "children": [],
+       "minWords": 100,
+       "placeholder": "请在此处输入你的作文"
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "alt": null,
+         "key": null,
+         "src": null,
+         "rows": [],
+         "type": "markdown",
+         "value": "My Major\n\nI am currently a student majoring in Computer Science and Technology. This field of study primarily focuses on software development, hardware systems, and complex data structures. I chose this major because I have been fascinated by technology since I was a child. I believe that computer science is the driving force behind modern innovation and offers endless possibilities for the future.\n\nTo achieve my goals, I will dedicate myself to mastering various programming languages and staying updated with the latest industry trends. I plan to participate in more practical projects to gain hands-on experience during my college years. My ultimate aim is to become a professional software engineer who can contribute to society by creating meaningful applications.",
+         "headers": [],
+         "placeholder": null
+        }
+       ]
+      }
+     }
+    ],
+    "materials": [],
+    "partLabel": "V",
+    "directions": {
+     "blocks": [
+      {
+       "alt": null,
+       "key": null,
+       "src": null,
+       "rows": [],
+       "type": "markdown",
+       "value": "In this part you are required to write a composition entitled My Major in no less than 100 words according to the following Chinese outline. Please remember to write it on the Answer Sheet.",
+       "headers": [],
+       "placeholder": null
+      }
+     ]
+    },
+    "displayName": "写作",
+    "sharedChoices": []
+   }
+  ]
+ }
+}

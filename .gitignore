@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 数据（题库本体不进版本库）
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+data/backup/
+data/generation_cache/
+
+# 日志与运行态
+logs/*.log
+logs/*.log.1
+logs/*.jsonl
+logs/checkpoints/
+app/port.txt
+
+# 产物
+output/
+
+# 测试临时目录（沙箱禁止删系统临时目录，统一放这里）
+tests/.tmp/
+
+# 凭据
+.env

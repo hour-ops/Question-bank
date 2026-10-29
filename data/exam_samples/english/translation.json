@@ -1,0 +1,359 @@
+{
+  "schema_version": "1.0",
+  "subject": "english",
+  "subject_name_cn": "英语（湖北专升本）",
+  "type": "translation",
+  "type_name_cn": "翻译（英译汉）",
+  "how": "把下面的英文句子/段落翻译成通顺的中文。",
+  "answer_label": "参考译文",
+  "knowledge_points": [
+    {
+      "id": "E-T10",
+      "name": "段落翻译",
+      "dimension": "format",
+      "question_type": "translation",
+      "format_era": "old_2020_2023"
+    },
+    {
+      "id": "E-S08",
+      "name": "翻译·英译汉",
+      "dimension": "knowledge"
+    }
+  ],
+  "knowledge_point_basis": "题型维度(E-T*) + 语言知识维度(E-G*/E-S*)，映射取自 knowledge_base.json 的 question_type_to_points",
+  "knowledge_base": "subjects/english/knowledge_base.json",
+  "source": "inbox/real_exams/*.json（只读；不从 SQLite 取题干）",
+  "type_raw_values": [
+    "段落翻译",
+    "翻译题",
+    "英译汉"
+  ],
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "rules": {
+    "trust_priority": [
+      "official_exam",
+      "textbook",
+      "third_party"
+    ],
+    "exclude": [
+      "ai_generated",
+      "source_type='generate'"
+    ],
+    "prefer": "有解析者优先；其次解析更长、空更多、材料更长",
+    "sampling": "按 exam 轮转（每套卷先取 1 条再取第 2 条…），上限 40 条",
+    "dedupe": "同题干（去空白差异）只留解析最好的一条，其余来源记在 same_stem_exams",
+    "material_rule": "材料型题整组存：material 存整篇原文、material_blanks 存该组全部空（空数经断言校验）；材料型 sample 的 stem 为空串，题干在各空的 stem 里",
+    "zero_rewrite": "题干/材料/答案/解析零改写；唯一渲染是把源里的 {type:'blank'} 块显式写成 {{__BLANK_<n>__}}；连词成句保留 `词组 / 词组` 斜杠格式",
+    "deterministic": "不使用随机数；排序键固定为 (exam, 组内 rank)"
+  },
+  "stats": {
+    "samples": 8,
+    "source_records": 9,
+    "with_explanation": 8,
+    "material_blocks": 0,
+    "total_blanks_in_material_blocks": 0,
+    "blanks_with_own_stem": 0,
+    "usable_records": 8,
+    "exams_in_type": 8,
+    "duplicated_records_removed": 1,
+    "cap": 40,
+    "truncated": false,
+    "unique_sources_kept": 8,
+    "unique_sources_available": 8
+  },
+  "exams": [
+    {
+      "exam": "017_英语_湖北专升本2023年英语真题.json",
+      "samples": 1
+    },
+    {
+      "exam": "018_英语_湖北专升本2022年英语真题.json",
+      "samples": 1
+    },
+    {
+      "exam": "019_英语_湖北专升本2021年英语真题.json",
+      "samples": 1
+    },
+    {
+      "exam": "020_英语_湖北专升本2020年英语真题.json",
+      "samples": 1
+    },
+    {
+      "exam": "103_英语_河北专升本英语18.json",
+      "samples": 1
+    },
+    {
+      "exam": "113_英语_湖北2023.json",
+      "samples": 1
+    },
+    {
+      "exam": "114_英语_湖北2022.json",
+      "samples": 1
+    },
+    {
+      "exam": "115_英语_湖北2021.json",
+      "samples": 1
+    }
+  ],
+  "samples": [
+    {
+      "stem": "Directions: This part is to test your ability to translate English into Chinese. You are required to translate the paragraph into Chinese in the corresponding space on the Answer Sheet.\n\nDuring holidays, people tend to rush to popular places of interest. As a result, the tourists may suffer from traffic jams or find it difficult to book a hotel. In fact, there are better choices for people to avoid crowds and to spend a satisfying holiday. For example, they can choose to go camping somewhere or visit areas nearly. in those places, people can take beautiful photos, pick fruits or vegetables, try delicious local food and experience various activities. Whatever people choose, the most important thing is to enjoy the holiday.",
+      "answer": "节假日期间，人们往往涌向热门的旅游景点。结果，游客可能会遭遇交通堵塞或发现很难预订到酒店。事实上，人们有更好的选择来避开人群，度过一个满意的假期。例如，他们可以选择去某个地方露营或游览附近的地区。在那些地方，人们可以拍美丽的照片，采摘水果或蔬菜，品尝当地美味的食物，并体验各种各样的活动。无论人们选择什么，最重要的事情是享受假期。",
+      "explanation": "本段翻译的关键在于理解并准确表达原文的词汇和句型。\n- `tend to rush to`: 倾向于涌向。\n- `popular places of interest`: 热门的旅游景点。\n- `suffer from traffic jams`: 遭遇交通堵塞。\n- `find it difficult to book a hotel`: 发现很难预订酒店，这是一个 `find it + adj. + to do` 的结构。\n- `avoid crowds`: 避开人群。\n- `a satisfying holiday`: 一个满意的假期。\n- `visit areas nearly` (应为nearby): 游览附近的地区。\n- `Whatever people choose`: 无论人们选择什么，引导让步状语从句。\n- `the most important thing is to enjoy the holiday`: 最重要的事情是享受假期。 \n整体翻译应力求通顺自然，符合中文表达习惯。",
+      "exam": "017_英语_湖北专升本2023年英语真题.json",
+      "exam_title": "湖北专升本2023年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T10 段落翻译；E-S08 翻译·英译汉",
+      "material": "",
+      "type": "translation",
+      "type_raw": "翻译题",
+      "kind": "single",
+      "group_uid": "17-q8-s0",
+      "no": 8,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: This part is to test your ability to translate English into Chinese. You are required to translate the paragraph into Chinese in the corresponding space on the Answer Sheet.",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "E-T10",
+        "E-S08"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[translation]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "Directions: This part is to test your ability to translate English into Chinese.\n\nReading can change lives. Here's a story. A grandmother and her grandson lived in different cities. She would call him and ask him about school or about his day. He would respond in one word answer: Fine. Nothing. She was so sad to have fallen out of touch with her beloved grandson. And then one day she asked him what he was reading. He had just started The Hunger Games. The grandmother decided to read it so that she could talk about it with her grandson the next time they chatted on the phone. Other than belonging to the same family, they had never had much in common. Now, they did. It was reading.",
+      "answer": "阅读可以改变人生。这是一个关于阅读的故事。一位祖母和她的孙子住在不同的城市。她会打电话给他，问他学校或一天的情况。他总是用一个词回答：还好。没什么。她因为与心爱的孙子疏远而感到非常难过。然后有一天，她问他在读什么书。他刚开始读《饥饿游戏》。于是，祖母决定也读这本书，这样下次他们在电话里聊天时，她就可以和孙子谈论这本书了。除了同属一个家庭，他们从来没有太多共同点。但现在，他们有了。那就是阅读。",
+      "explanation": "这篇短文的翻译需要注意语气的连贯和情感的表达。关键点包括：\n1. `would call him` 和 `He would respond` 中的 `would` 表示过去的习惯性动作，可以翻译为“总是”、“会”。\n2. `fallen out of touch with` 意为“与……失去联系，疏远”。\n3. `so that` 引导目的状语从句，翻译为“以便，这样”。\n4. `Other than...` 意为“除了……”。\n5. `much in common` 意为“很多共同点”。\n6. 最后一句 `Now, they did. It was reading.` 是强调句式，`did` 代替 `had much in common`，需要把这种转折和强调的语气翻译出来，可以译为“但现在，他们有了。那就是阅读。”，简洁而有力。",
+      "exam": "018_英语_湖北专升本2022年英语真题.json",
+      "exam_title": "湖北专升本2022年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T10 段落翻译；E-S08 翻译·英译汉",
+      "material": "",
+      "type": "translation",
+      "type_raw": "翻译题",
+      "kind": "single",
+      "group_uid": "18-q8-s0",
+      "no": 8,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: This part is to test your ability to translate English into Chinese.",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "E-T10",
+        "E-S08"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[translation]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "Directions: Translate the following English sentences/paragraph into Chinese. Write your translation in the corresponding space on the Answer Sheet.\n\nEverybody knows that people all wear masks during the COVID- 19 pandemic. But we also have to throw the masks away after they are used. This could become a serious environmental problem, scientists have warned. Researchers in the US and some European countries did a study. They estimated that people around the world are now using 129 billion face masks every month. That is to say we use 2.8 million masks every minute!",
+      "answer": "众所周知，在新冠疫情期间，人们都戴着口罩。但使用后，我们也必须将口罩丢弃。科学家警告说，这可能成为一个严重的环境问题。美国和一些欧洲国家的研究人员进行了一项研究。他们估计，现在全世界的人们每月使用1290亿个口罩。也就是说，我们每分钟使用280万个口罩！",
+      "explanation": "本段翻译的关键在于保持句子的流畅性和信息的准确性。\n1. 'COVID-19 pandemic'：可翻译为“新冠疫情大流行”或简化为“新冠疫情”。\n2. 'throw the masks away'：翻译为“丢弃口罩”。\n3. 'This could become a serious environmental problem, scientists have warned.'：注意语序，可以将“科学家警告说”提前，使中文表达更自然。\n4. 'Researchers...did a study'：翻译为“研究人员进行了一项研究”。\n5. 'They estimated that...'：翻译为“他们估计...”。\n6. '129 billion'：billion是十亿，129 billion是1290亿。\n7. 'That is to say'：翻译为“也就是说”，用于解释说明。",
+      "exam": "019_英语_湖北专升本2021年英语真题.json",
+      "exam_title": "湖北专升本2021年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T10 段落翻译；E-S08 翻译·英译汉",
+      "material": "",
+      "type": "translation",
+      "type_raw": "翻译题",
+      "kind": "single",
+      "group_uid": "19-q8-s0",
+      "no": 8,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: Translate the following English sentences/paragraph into Chinese. Write your translation in the corresponding space on the Answer Sheet.",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "E-T10",
+        "E-S08"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[translation]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "Thank you for your letter and resume of April 16th. I have sent your resume to the proper department, and it will be considered soon.\n\nWe will get in touch with you and possibly arrange an interview with you some day next week. If there is no suitable position for you at present, we'll also let you know as soon as possible. Thank you for your interest in our company.",
+      "answer": "感谢您4月16日的来信及简历。我已将您的简历转交至相关部门，并将很快予以审阅。\n\n我们下周会与您联系，并可能安排面试。如果目前没有适合您的职位，我们也会尽快通知您。感谢您对本公司的关注。",
+      "explanation": "本段翻译为商务信函回复，语言应正式、得体。\n1. “resume of April 16th”指“4月16日的简历”。\n2. “proper department”指“相关部门”或“相应部门”。\n3. “it will be considered soon”意为“会很快被考虑/审阅”。\n4. “get in touch with you”意为“与您联系”。\n5. “possibly arrange an interview”意为“可能安排一次面试”。\n6. “suitable position”指“合适的职位”。\n7. “interest in our company”指“对我们公司的兴趣/关注”。\n整体翻译需保持原文的礼貌和专业语气。",
+      "exam": "020_英语_湖北专升本2020年英语真题.json",
+      "exam_title": "湖北专升本2020年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T10 段落翻译；E-S08 翻译·英译汉",
+      "material": "",
+      "type": "translation",
+      "type_raw": "翻译题",
+      "kind": "single",
+      "group_uid": "20-q8-s0",
+      "no": 8,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "E-T10",
+        "E-S08"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[translation]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "116_英语_湖北2020.json"
+      ],
+      "same_stem_exam_count": 1
+    },
+    {
+      "stem": "To maintain strong social bonds, it is essential to find a balance between digital efficiency and personal connection.",
+      "answer": "为了保持强大的社会纽带，在数字效率和个人联系之间找到平衡是至关重要的。",
+      "explanation": "本句考察 'essential' (至关重要的) 和 'balance between...and...' (在...与...之间寻找平衡) 的用法。",
+      "exam": "103_英语_河北专升本英语18.json",
+      "exam_title": "河北专升本英语18",
+      "trust": "official_exam",
+      "knowledge_point": "E-T10 段落翻译；E-S08 翻译·英译汉",
+      "material": "",
+      "type": "translation",
+      "type_raw": "英译汉",
+      "kind": "single",
+      "group_uid": "103-s12-i0",
+      "no": 5,
+      "options": [],
+      "word_bank": null,
+      "directions": "Translate the following sentence into Chinese.",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "E-T10",
+        "E-S08"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[translation]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "During holidays, people tend to rush to popular places of interest. As a result, the tourists may suffer from traffic jams or find it difficult to book a hotel. In fact, there are better choices for people to avoid crowds and to spend a satisfying holiday. For example, they can choose to go camping somewhere or visit nearby areas. In those places, people can take beautiful photos, pick fruits or vegetables, try delicious local food and experience various activities. Whatever people choose, the most important thing is to enjoy the holiday.",
+      "answer": "假期里，人们往往会涌向热门景点。结果，游客可能会遭遇交通拥堵，或者发现很难订到酒店。事实上，人们还有更好的选择，既能避开人群，又能度过一个令人满意的假期。例如，他们可以选择去某个地方露营，或者游览附近的地区。在那些地方，人们可以拍美丽的照片，采摘水果或蔬菜，品尝可口的当地食物，并体验各种活动。无论人们作何选择，最重要的是享受假期。",
+      "explanation": "翻译时要准确处理 `tend to`、`as a result`、`avoid crowds`、`whatever people choose` 等结构，并保持中文通顺自然。",
+      "exam": "113_英语_湖北2023.json",
+      "exam_title": "湖北2023",
+      "trust": "official_exam",
+      "knowledge_point": "E-T10 段落翻译；E-S08 翻译·英译汉",
+      "material": "",
+      "type": "translation",
+      "type_raw": "段落翻译",
+      "kind": "single",
+      "group_uid": "113-s7-i0",
+      "no": 56,
+      "options": [],
+      "word_bank": null,
+      "directions": "Translate the following paragraph into Chinese.",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "E-T10",
+        "E-S08"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[translation]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "Reading can change lives. Here's a story. A grandmother and her grandson lived in different cities. She would call him and ask him about school or about his day. He would respond in one-word answers: \"Fine.\" \"Nothing.\" She was so sad to have fallen out of touch with her beloved grandson.\n\nAnd then one day she asked him what he was reading. He had just started *The Hunger Games*. The grandmother decided to read it so that she could talk about it with her grandson the next time they chatted on the phone. Other than belonging to the same family, they had never had much in common. Now, they did. It was reading.",
+      "answer": "阅读能够改变人的生活。这里有一个故事。一位祖母和她的孙子住在不同的城市。她常常给他打电话，问他学校里的情况或者他一天过得怎么样。可他总是只用一个词来回答：“挺好。”“没什么。” 她因为和自己心爱的孙子渐渐失去了联系而十分伤心。\n\n后来有一天，她问他最近在读什么书。他刚开始读《饥饿游戏》。祖母决定也把这本书读一读，这样下次他们通电话时，她就可以和孙子聊这本书了。除了属于同一个家庭之外，他们过去几乎没有什么共同点。现在，他们有了。那就是阅读。",
+      "explanation": "翻译时要把叙事顺序和情感变化交代清楚，重点处理好 `fallen out of touch`、`one-word answers` 和最后一句强调阅读带来共同话题的作用。",
+      "exam": "114_英语_湖北2022.json",
+      "exam_title": "湖北2022",
+      "trust": "official_exam",
+      "knowledge_point": "E-T10 段落翻译；E-S08 翻译·英译汉",
+      "material": "",
+      "type": "translation",
+      "type_raw": "英译汉",
+      "kind": "single",
+      "group_uid": "114-s7-i0",
+      "no": 56,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: Write your translation in the corresponding space on the Answer Sheet.",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "E-T10",
+        "E-S08"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[translation]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "Everybody knows that people all wear masks during the COVID-19 pandemic. But we also have to throw the masks away after they are used. This could become a serious environmental problem, scientists have warned. Researchers in the US and some European countries did a study. They estimated that people around the world are now using 129 billion face masks every month. That is to say we use 2.8 million masks every minute!",
+      "answer": "众所周知，在新冠疫情期间，人们都戴着口罩。但口罩使用后也必须被丢弃。科学家警告说，这可能会成为一个严重的环境问题。美国和一些欧洲国家的研究人员做了一项研究。他们估计，如今全世界每个月要使用 1290 亿只口罩。也就是说，我们每分钟要使用 280 万只口罩！",
+      "explanation": "翻译时要处理好被动含义和数字表达。throw the masks away 可译为“把口罩丢弃”，129 billion 和 2.8 million 需准确换算为“1290 亿”和“280 万”。",
+      "exam": "115_英语_湖北2021.json",
+      "exam_title": "湖北2021",
+      "trust": "official_exam",
+      "knowledge_point": "E-T10 段落翻译；E-S08 翻译·英译汉",
+      "material": "",
+      "type": "translation",
+      "type_raw": "英译汉",
+      "kind": "single",
+      "group_uid": "115-s7-i0",
+      "no": 56,
+      "options": [],
+      "word_bank": null,
+      "directions": "Write your translation in the corresponding space on the Answer Sheet.",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "E-T10",
+        "E-S08"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[translation]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    }
+  ]
+}

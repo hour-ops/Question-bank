@@ -1,0 +1,3264 @@
+{
+ "id": 114,
+ "title": "湖北2022",
+ "subject": "英语",
+ "createTime": "2026-04-07 10:25:24",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "2022 年湖北省普通高等学校专升本英语",
+   "subject": "英语",
+   "province": "湖北",
+   "year": 2022,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "e24fb419-2ed7-4af8-bf50-e4b478e7b5f6"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "词汇与结构",
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "This part is to test the use of English. There are 25 incomplete sentences in it. For each sentence there are four choices marked A, B, C and D. Choose the one answer that best completes the sentence and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Can you help me with my homework? I'm sure it ____ take long."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. won't"
+        },
+        {
+         "key": "B",
+         "label": "B. will"
+        },
+        {
+         "key": "C",
+         "label": "C. can't"
+        },
+        {
+         "key": "D",
+         "label": "D. can"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`I'm sure` expresses confidence that the action will not take much time, so `won't` is the correct future form."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. won't"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "He ____ online when his computer broke down."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. was shopping"
+        },
+        {
+         "key": "B",
+         "label": "B. were shopping"
+        },
+        {
+         "key": "C",
+         "label": "C. has shopped"
+        },
+        {
+         "key": "D",
+         "label": "D. have shopped"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b2",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The action was in progress when another past action happened, so the past continuous `was shopping` is required."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. was shopping"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "These pictures ____ on campus last week."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. was taken"
+        },
+        {
+         "key": "B",
+         "label": "B. were taken"
+        },
+        {
+         "key": "C",
+         "label": "C. has taken"
+        },
+        {
+         "key": "D",
+         "label": "D. have taken"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b3",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Pictures` is plural and the sentence needs a past passive form, so `were taken` is correct."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. were taken"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We missed the bus, so we decided ____ for the next one."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. waiting"
+        },
+        {
+         "key": "B",
+         "label": "B. to be waiting"
+        },
+        {
+         "key": "C",
+         "label": "C. to wait"
+        },
+        {
+         "key": "D",
+         "label": "D. having waited"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b4",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The verb `decide` is followed by an infinitive, so `to wait` is the standard structure."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. to wait"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If I were you, I ____ book a ticket as soon as possible."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. would"
+        },
+        {
+         "key": "B",
+         "label": "B. will"
+        },
+        {
+         "key": "C",
+         "label": "C. have to"
+        },
+        {
+         "key": "D",
+         "label": "D. am to"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b5",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`If I were you` introduces an unreal present condition, so the main clause should use `would`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. would"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Liu Yang is ____ first Chinese woman who has worked in space."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b6",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. /"
+        },
+        {
+         "key": "B",
+         "label": "B. the"
+        },
+        {
+         "key": "C",
+         "label": "C. a"
+        },
+        {
+         "key": "D",
+         "label": "D. an"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b6",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Ordinal numbers such as `first` normally take the definite article `the`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. the"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Doing Taichi exercises ____ one of the traditional Chinese ways to maintain mental peace."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b7",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. was"
+        },
+        {
+         "key": "B",
+         "label": "B. were"
+        },
+        {
+         "key": "C",
+         "label": "C. is"
+        },
+        {
+         "key": "D",
+         "label": "D. are"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b7",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The subject is a gerund phrase treated as singular, so the present singular verb `is` fits."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. is"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "____ you show me your health code? If you ____, you will not be allowed to get in."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b8",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Could; can't"
+        },
+        {
+         "key": "B",
+         "label": "B. Can; couldn't"
+        },
+        {
+         "key": "C",
+         "label": "C. Will; won't"
+        },
+        {
+         "key": "D",
+         "label": "D. May; can't"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b8",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Could` makes a polite request, and the second blank needs `can't` to express inability in the condition."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Could; can't"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "____ extremely tired, thousands of medical workers continued to perform their duties."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b9",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Since"
+        },
+        {
+         "key": "B",
+         "label": "B. However"
+        },
+        {
+         "key": "C",
+         "label": "C. As"
+        },
+        {
+         "key": "D",
+         "label": "D. Although"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b9",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The sentence shows concession rather than cause, so `Although` is the suitable conjunction."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Although"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Children may feel more confident working in groups ____ working alone."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b10",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. by"
+        },
+        {
+         "key": "B",
+         "label": "B. over"
+        },
+        {
+         "key": "C",
+         "label": "C. to"
+        },
+        {
+         "key": "D",
+         "label": "D. than"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b10",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A comparative structure with `more ...` is followed by `than`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. than"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Bob ____ his parents often takes a long walk in the evening."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. and"
+        },
+        {
+         "key": "B",
+         "label": "B. both"
+        },
+        {
+         "key": "C",
+         "label": "C. as well as"
+        },
+        {
+         "key": "D",
+         "label": "D. but also"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b11",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`As well as` links Bob and his parents, but the verb still agrees with the first subject `Bob`, so the sentence remains singular."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. as well as"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I made a lot of mistakes in the reading. Could you tell me ____?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. how I can improve my English"
+        },
+        {
+         "key": "B",
+         "label": "B. how can I improve my English"
+        },
+        {
+         "key": "C",
+         "label": "C. why I can improve my English"
+        },
+        {
+         "key": "D",
+         "label": "D. why can I improve my English"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b12",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "After `Could you tell me`, an indirect question needs statement word order, so `how I can improve my English` is correct."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. how I can improve my English"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Tom, please help ____ to some drinks. They are all over there on the table."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. you"
+        },
+        {
+         "key": "B",
+         "label": "B. me"
+        },
+        {
+         "key": "C",
+         "label": "C. yourself"
+        },
+        {
+         "key": "D",
+         "label": "D. myself"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b13",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The fixed expression is `help yourself to ...`, used when inviting someone to take food or drinks."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. yourself"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Nowadays, some people prefer subway ____ buses."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. against"
+        },
+        {
+         "key": "B",
+         "label": "B. off"
+        },
+        {
+         "key": "C",
+         "label": "C. over"
+        },
+        {
+         "key": "D",
+         "label": "D. to"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b14",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The verb `prefer` normally takes the pattern `prefer A to B`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. to"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Alex, did you see all the acts? No. When I got to the theater, they were playing ____."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. act three"
+        },
+        {
+         "key": "B",
+         "label": "B. third act"
+        },
+        {
+         "key": "C",
+         "label": "C. the act third"
+        },
+        {
+         "key": "D",
+         "label": "D. the act three"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b15",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Plays are commonly divided into `Act One`, `Act Two`, `Act Three`, so `act three` is the natural form."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. act three"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I'm sorry. I promise I won't ____ my homework tomorrow."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. remember"
+        },
+        {
+         "key": "B",
+         "label": "B. forget"
+        },
+        {
+         "key": "C",
+         "label": "C. bring"
+        },
+        {
+         "key": "D",
+         "label": "D. finish"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b16",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The apology and promise indicate the speaker means `I won't forget my homework tomorrow`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. forget"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "People sometimes cross their arms and this gesture may ____ us that they want to protect themselves."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. say"
+        },
+        {
+         "key": "B",
+         "label": "B. tell"
+        },
+        {
+         "key": "C",
+         "label": "C. speak"
+        },
+        {
+         "key": "D",
+         "label": "D. talk"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b17",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The pattern is `tell somebody that ...`, so `tell` is the only grammatically correct choice."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. tell"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Yesterday, I ____ a great effort and got up early."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. made"
+        },
+        {
+         "key": "B",
+         "label": "B. did"
+        },
+        {
+         "key": "C",
+         "label": "C. had"
+        },
+        {
+         "key": "D",
+         "label": "D. got"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b18",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "English uses the fixed collocation `make an effort`, so the past form `made` is correct."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. made"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Everyone could see that he was just ____ to impress his classmates."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. showing around"
+        },
+        {
+         "key": "B",
+         "label": "B. showing up"
+        },
+        {
+         "key": "C",
+         "label": "C. showing off"
+        },
+        {
+         "key": "D",
+         "label": "D. showing out"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b19",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Show off` means trying to impress others, which matches the sentence context."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. showing off"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My friend is not interested in ____ a new job."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. looking out"
+        },
+        {
+         "key": "B",
+         "label": "B. looking in"
+        },
+        {
+         "key": "C",
+         "label": "C. looking on"
+        },
+        {
+         "key": "D",
+         "label": "D. looking for"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b20",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Look for` means `seek`, so `looking for a new job` is the meaningful expression here."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. looking for"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We haven't been able to get in ____ with him since graduation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b21",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. meet"
+        },
+        {
+         "key": "B",
+         "label": "B. play"
+        },
+        {
+         "key": "C",
+         "label": "C. touch"
+        },
+        {
+         "key": "D",
+         "label": "D. link"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b21",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The fixed phrase is `get in touch with somebody`, meaning to contact someone."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. touch"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Please feel ____ to ask me any questions if needed."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b22",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. glad"
+        },
+        {
+         "key": "B",
+         "label": "B. good"
+        },
+        {
+         "key": "C",
+         "label": "C. well"
+        },
+        {
+         "key": "D",
+         "label": "D. free"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b22",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The polite formula is `feel free to do something`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. free"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The headmaster was rather busy and could ____ me no more than five minutes."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b23",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. spend"
+        },
+        {
+         "key": "B",
+         "label": "B. save"
+        },
+        {
+         "key": "C",
+         "label": "C. spare"
+        },
+        {
+         "key": "D",
+         "label": "D. take"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b23",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Spare somebody some time` means to make a limited amount of time available."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. spare"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "This classroom isn't good, but that one is ____ better."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b24",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. ever"
+        },
+        {
+         "key": "B",
+         "label": "B. hardly"
+        },
+        {
+         "key": "C",
+         "label": "C. less"
+        },
+        {
+         "key": "D",
+         "label": "D. rather"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b24",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Rather` can modify a comparative adjective, so `rather better` is idiomatic here."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. rather"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We will be ready at ____ time they get here this week."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b25",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. whenever"
+        },
+        {
+         "key": "B",
+         "label": "B. however"
+        },
+        {
+         "key": "C",
+         "label": "C. wherever"
+        },
+        {
+         "key": "D",
+         "label": "D. whatever"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b25",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The expression `at whatever time` means `no matter what time`, which fits the sentence."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. whatever"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section 1 Passage 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four choices marked A, B, C, and D. Choose the best one and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Itzhak Perlman is one of the finest violinists alive today. Several years ago, Perlman agreed to attend a charity reception after one of his concerts. At the reception one guest said, \"Mr. Perlman, you were truly amazing tonight.\" Perlman smiled and thanked him graciously. The man continued, \"I have never heard anyone play the violin as well as you.\" Perlman smiled again but said nothing, and the man continued, \"You know, Mr. Perlman, I would give my whole life to be able to play the violin like you did tonight.\" Perlman smiled once more and said, \"I have.\"\n\nThat is the difference. While some of us sit around thinking, I would give my whole life to be able to do that, or, I hope that happens to me one day, people like Perlman are getting the job done. They are giving their whole lives to the fulfillment of their dreams.\n\nAll men and women have dreams, but only some achieve their dreams. Why is this? The reason is that some people dream and wait for their dreams to come true. They look at others, whom they consider fortunate or lucky, and think, I hope that happens to me one day! Others devote themselves to excellence and go out onto the stage of life chasing their dreams, living life passionately. They make their dreams come true."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What does the underlined word \"graciously\" in Paragraph 1 most probably mean?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b26",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Comfortably."
+        },
+        {
+         "key": "B",
+         "label": "B. Humorously."
+        },
+        {
+         "key": "C",
+         "label": "C. Gratefully."
+        },
+        {
+         "key": "D",
+         "label": "D. Politely."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b26",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Perlman smiled and thanked the guest in a courteous way, so `graciously` here is closest to `politely`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Politely."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is true according to Paragraph 1?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b27",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The guest believed that he could play the violin as well as Perlman."
+        },
+        {
+         "key": "B",
+         "label": "B. Perlman was invited to attend a charity reception after his concert."
+        },
+        {
+         "key": "C",
+         "label": "C. Perlman was invited to play the violin after the charity reception."
+        },
+        {
+         "key": "D",
+         "label": "D. The guest did not really enjoy Perlman's concert."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b27",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The first paragraph states directly that Perlman agreed to attend a charity reception after one of his concerts."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Perlman was invited to attend a charity reception after his concert."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the author, why do some people achieve their dreams?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b28",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. They wait for their dreams to come true."
+        },
+        {
+         "key": "B",
+         "label": "B. They are considered fortunate or lucky."
+        },
+        {
+         "key": "C",
+         "label": "C. They hope their dreams will come true."
+        },
+        {
+         "key": "D",
+         "label": "D. They give their lives to their dreams."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b28",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The author contrasts passive dreaming with active devotion and says successful people give their whole lives to fulfilling their dreams."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. They give their lives to their dreams."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why does the author tell the story about Perlman?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b29",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Because Perlman made his dream come true."
+        },
+        {
+         "key": "B",
+         "label": "B. Because Perlman was very kind and gracious."
+        },
+        {
+         "key": "C",
+         "label": "C. Because Perlman always had his own dreams."
+        },
+        {
+         "key": "D",
+         "label": "D. Because Perlman smiled and thanked the guest."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b29",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Perlman's reply shows that achievement comes from long-term dedication, so his story illustrates making a dream come true through effort."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Because Perlman made his dream come true."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following would be the best title for the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b30",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. A Charity Reception"
+        },
+        {
+         "key": "B",
+         "label": "B. Dream Differently"
+        },
+        {
+         "key": "C",
+         "label": "C. Live Passionately"
+        },
+        {
+         "key": "D",
+         "label": "D. A Fine Violinist"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b30",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage centers on devoting oneself fully to dreams and living with passion, not just on the reception or on Perlman himself."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Live Passionately"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section 1 Passage 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four choices marked A, B, C, and D. Choose the best one and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "For many people, the most exciting way to shop is at a street market. Here are five world-famous markets.\n\nThe Grand Bazaar in Turkey is more than 500 years old and it has more than four thousand shops under one roof. You can buy almost anything here, but the most popular items for tourists are the beautiful carpets.\n\nIn Asia, the most famous market is perhaps in Thailand, a place called Danneon Saduak. From six in the morning to midday, every day, people sell fresh fruit and vegetables from their boats.\n\nMany Italians say the Campo de'Fiori in Rome is the most beautiful square in the world. It's the home of a colorful flower, fruit and vegetable market, open from seven o'clock in the morning to midday every day except Sunday. It is a lively place to meet friends and to have a meal.\n\nEvery year, thousands of people travel to Germany to visit the famous Christmas Markets. The old town of Nurnberg has the biggest market, open from the end of November until Christmas. Here people can buy toys, hand-made gifts and Christmas decorations.\n\nOne of the world's most unusual markets is in Mexico City: at the Sonara Market. As well as toys and birds, you can buy herbs and natural medicines which they say can help with anything, from problems at work to problems with your marriage."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following may have the greatest number of shops?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Danneon Saduak."
+        },
+        {
+         "key": "B",
+         "label": "B. The Grand Bazaar."
+        },
+        {
+         "key": "C",
+         "label": "C. The Sonara Market."
+        },
+        {
+         "key": "D",
+         "label": "D. The Campo de'Fiori."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b31",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage says the Grand Bazaar has more than four thousand shops under one roof, which is the largest shop count mentioned."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. The Grand Bazaar."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is a good place for meeting friends and having a meal?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Danneon Saduak."
+        },
+        {
+         "key": "B",
+         "label": "B. Christmas Markets."
+        },
+        {
+         "key": "C",
+         "label": "C. The Sonara Market."
+        },
+        {
+         "key": "D",
+         "label": "D. The Campo de'Fiori."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b32",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The description of the Campo de'Fiori states directly that it is a lively place to meet friends and have a meal."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. The Campo de'Fiori."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What can you buy if you visit the Nurnberg Christmas Markets?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Fresh vegetables."
+        },
+        {
+         "key": "B",
+         "label": "B. Beautiful carpets."
+        },
+        {
+         "key": "C",
+         "label": "C. Natural medicines."
+        },
+        {
+         "key": "D",
+         "label": "D. Christmas decorations."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b33",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The Nurnberg market section says people can buy toys, hand-made gifts and Christmas decorations there."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Christmas decorations."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If you have problems with your work, where would you go?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The Campo de'Fiori."
+        },
+        {
+         "key": "B",
+         "label": "B. The Sonara Market."
+        },
+        {
+         "key": "C",
+         "label": "C. The Grand Bazaar."
+        },
+        {
+         "key": "D",
+         "label": "D. Danneon Saduak."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b34",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The Sonara Market is said to sell herbs and natural medicines that can help with problems at work."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. The Sonara Market."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is the passage mainly about?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Well-known markets in the world."
+        },
+        {
+         "key": "B",
+         "label": "B. Unusual products in the world."
+        },
+        {
+         "key": "C",
+         "label": "C. Lively places to meet friends."
+        },
+        {
+         "key": "D",
+         "label": "D. Exciting ways to shop."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b35",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The whole passage introduces five famous street markets in different countries, so its main focus is well-known markets around the world."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Well-known markets in the world."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section 1 Passage 3",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four choices marked A, B, C, and D. Choose the best one and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "During the COVID-19 outbreak, many children were isolated at home. They often felt very unhappy as their normal lives were suddenly interrupted and completely changed.\n\nSproutel Purrble came to save some of these children out of trouble. An interactive plush toy equipped with seven sensors that respond to touch, Purrble's able-to-touch heartbeat speeds up to 135 beats per minute when it senses somebody is playing with it. Kids can then comfort their companion with gentle touching and soft voice, slowing Purrble's quick heartbeat to a low continuous sound, calming themselves as well in the process.\n\nDeveloped through using research from the Committee for Children, a nonprofit and global leader on social-emotional learning, the device aims to help children learn to manage their emotions, such as keeping them calm.\n\nEarly research shows that Purrble is doing just that: in a study with 20 families, 19 parents reported that the toy helped their kids calm down when they needed to. \"I grew up with a long-time illness as a child and would have loved to have this,\" says Aaron Horowits, head of Sproutel, the company which designed the toy."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is Sproutel Purrble?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. A sensor."
+        },
+        {
+         "key": "B",
+         "label": "B. A kid."
+        },
+        {
+         "key": "C",
+         "label": "C. An illness."
+        },
+        {
+         "key": "D",
+         "label": "D. A toy."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b36",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage identifies Purrble as an interactive plush toy designed to help children manage emotions."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. A toy."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What enables Purrble to calm kids down?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Feeling isolated."
+        },
+        {
+         "key": "B",
+         "label": "B. Having lots of plush."
+        },
+        {
+         "key": "C",
+         "label": "C. Responding to touch."
+        },
+        {
+         "key": "D",
+         "label": "D. Making different sounds."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b37",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Purrble is equipped with sensors that respond to touch, and this interaction lets children soothe the toy and themselves."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Responding to touch."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How do kids comfort Purrble?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Equipping it with sensors."
+        },
+        {
+         "key": "B",
+         "label": "B. Responding to its sound."
+        },
+        {
+         "key": "C",
+         "label": "C. Touching it gently."
+        },
+        {
+         "key": "D",
+         "label": "D. Increasing its heartbeat."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b38",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage says children comfort Purrble with gentle touching and a soft voice."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Touching it gently."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following designed the device?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Sproutel."
+        },
+        {
+         "key": "B",
+         "label": "B. A famous researcher."
+        },
+        {
+         "key": "C",
+         "label": "C. Aaron Horowits."
+        },
+        {
+         "key": "D",
+         "label": "D. Committee for Children."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b39",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Aaron Horowits is quoted as the head of Sproutel, and the text states that Sproutel designed the toy."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Sproutel."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following best describes most parents' attitude to Purrble?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Unclear."
+        },
+        {
+         "key": "B",
+         "label": "B. Critical."
+        },
+        {
+         "key": "C",
+         "label": "C. Positive."
+        },
+        {
+         "key": "D",
+         "label": "D. Negative."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b40",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Nineteen out of twenty parents reported that the toy helped their children calm down, showing a clearly positive attitude."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Positive."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section 1 Passage 4",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four choices marked A, B, C, and D. Choose the best one and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "English is spoken by hundreds of millions of people worldwide, but do the developments of translation technology and \"mixed\" languages damage its status?\n\nFor how much longer will English qualify as the world's favorite language? The World Economic Organization estimates that about 1.5 billion people around the world speak it, but fewer than 400 million have it as their first language.\n\nEnglish is the world's favorite lingua franca, the language people are most likely to turn to when they don't share a first language. Imagine, for example, a Russian speaker who speaks no French in conversation with a French speaker who speaks no Russian. The chances are that they would use English.\n\nFive years ago, perhaps. But not any more. Thanks to advances in computer translation and voice-recognition technology, they can each speak their own language, and hear what the other speaker is saying, which is machine-translated in real time.\n\nSo English's days as the world's top global language may be numbered. That is: the computers are coming, and they are winning.\n\nSo is the future of English at risk? I don't think so, although its global influence may become less over the coming decades. Like all languages, it is constantly changing and adapting to new needs. Until recently, \"text\" and \"friend\" were nouns. Now, they are also verbs, as in \"I'll text you,\" or \"Why don't you friend me?\""
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How many people are estimated to speak English as their first language?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b41",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Less than 1.5 billion."
+        },
+        {
+         "key": "B",
+         "label": "B. Less than 400 million."
+        },
+        {
+         "key": "C",
+         "label": "C. More than 1.5 billion."
+        },
+        {
+         "key": "D",
+         "label": "D. More than 400 million."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b41",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage says about 1.5 billion people speak English, but fewer than 400 million speak it as a first language."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Less than 400 million."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-42",
+      "no": 42,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What language will most probably be used between a Russian and a Frenchman without translation technology?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b42",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. English."
+        },
+        {
+         "key": "B",
+         "label": "B. French."
+        },
+        {
+         "key": "C",
+         "label": "C. Russian."
+        },
+        {
+         "key": "D",
+         "label": "D. A mixed language."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b42",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage uses exactly this example to explain that people without a shared first language would most likely turn to English."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. English."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-43",
+      "no": 43,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is a lingua franca?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b43",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. A language spoken by millions of people."
+        },
+        {
+         "key": "B",
+         "label": "B. A language understood only by machines."
+        },
+        {
+         "key": "C",
+         "label": "C. A language used in computer translation technology."
+        },
+        {
+         "key": "D",
+         "label": "D. A language spoken by people who don't share a first language."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b43",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The author defines `lingua franca` as the language people use when they do not share a first language."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. A language spoken by people who don't share a first language."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-44",
+      "no": 44,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is made possible by machine translation?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b44",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Communicating across different languages."
+        },
+        {
+         "key": "B",
+         "label": "B. Identifying speakers through voice recognition."
+        },
+        {
+         "key": "C",
+         "label": "C. Using English as the world's favorite language."
+        },
+        {
+         "key": "D",
+         "label": "D. Replacing English by computer language."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b44",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Real-time machine translation allows speakers to use their own languages while still understanding each other."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Communicating across different languages."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-45",
+      "no": 45,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What does the writer think of the future of the English language?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b45",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. It is extremely promising."
+        },
+        {
+         "key": "B",
+         "label": "B. It is still full of hope."
+        },
+        {
+         "key": "C",
+         "label": "C. It is uncertain."
+        },
+        {
+         "key": "D",
+         "label": "D. It is at risk."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b45",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Although English may lose some global influence, the writer says it is not at risk and will keep changing and adapting."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. It is still full of hope."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "阅读填空",
+    "partLabel": "Part II Section 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There is one passage in this section. Read the passage and fill in each blank (No. 46 to No. 50) with no more than three words. Write your answers in the corresponding space on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Charles Darwin (1809-1882) was one of the most influential scientists of all time. His theory of evolution by natural selection explained how life on Earth developed, and is the basic concept upon which the life sciences are built.\n\nDarwin's father was a doctor. On leaving school, Darwin followed in his father's footsteps and went to Edinburgh University to study medicine. However, he gave up because he hated the sight of blood. He then went to the University of Cambridge, intending to work in a church.\n\nDarwin discovered his love of natural history at Cambridge, where he spent much of his time collecting insects. He graduated in 1831 and accepted a place as a naturalist on board the Beagle. The ship's five-year voyage proved to be the most important period in Darwin's life, providing the basis for his future ideas and writings.\n\nHe returned to England in 1836 and published an account of his travels, which made him famous. He began to develop his theory of natural selection and published his revolutionary book On the Origin of Species in 1859. This was followed by The Descent of Man in 1871, in which he applied his ideas to explaining the evolution of humans."
+       }
+      ]
+     },
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "# Charles Darwin\n\nHis theory of evolution by "
+       },
+       {
+        "type": "blank",
+        "key": "b46",
+        "placeholder": "46"
+       },
+       {
+        "type": "markdown",
+        "value": " is a basic concept of the life sciences.\n\nHe studied "
+       },
+       {
+        "type": "blank",
+        "key": "b47",
+        "placeholder": "47"
+       },
+       {
+        "type": "markdown",
+        "value": " at Edinburgh University after leaving school.\n\nHe discovered his love of "
+       },
+       {
+        "type": "blank",
+        "key": "b48",
+        "placeholder": "48"
+       },
+       {
+        "type": "markdown",
+        "value": " at Cambridge.\n\nThe five-year voyage provided the "
+       },
+       {
+        "type": "blank",
+        "key": "b49",
+        "placeholder": "49"
+       },
+       {
+        "type": "markdown",
+        "value": " for his future ideas and writings.\n\nHe applied his ideas in *The Descent of Man* to explaining the "
+       },
+       {
+        "type": "blank",
+        "key": "b50",
+        "placeholder": "50"
+       },
+       {
+        "type": "markdown",
+        "value": " of humans."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-46",
+      "no": 46,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b46"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b46",
+       "values": [
+        "natural selection"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The first paragraph states that Darwin explained evolution by `natural selection`, which is the required phrase."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "natural selection"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-47",
+      "no": 47,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b47"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b47",
+       "values": [
+        "medicine"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The second paragraph says Darwin went to Edinburgh University to study `medicine`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "medicine"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-48",
+      "no": 48,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b48"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b48",
+       "values": [
+        "natural history"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The third paragraph says Darwin discovered his love of `natural history` at Cambridge."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "natural history"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-49",
+      "no": 49,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b49"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b49",
+       "values": [
+        "basis"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage says the five-year voyage provided the `basis` for his future ideas and writings."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "basis"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-50",
+      "no": 50,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b50"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b50",
+       "values": [
+        "evolution"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The last paragraph says *The Descent of Man* applied his ideas to explaining the `evolution` of humans."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "evolution"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "translation_choice",
+    "displayName": "英译汉选择",
+    "partLabel": "Part III Section 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 5 sentences numbered 51 to 55. You will read three suggested translations marked A, B, and C. Choose the best one and blacken the corresponding letter on your Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-51",
+      "no": 51,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "They rely on themselves, which is much better."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b51",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 依靠他们自己比依靠别人好。"
+        },
+        {
+         "key": "B",
+         "label": "B. 如果他们能依靠自己就好了。"
+        },
+        {
+         "key": "C",
+         "label": "C. 他们依靠自己，这就好多了。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b51",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The relative clause `which is much better` comments on the whole previous statement, so option C conveys that logic most accurately."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. 他们依靠自己，这就好多了。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-52",
+      "no": 52,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "He is unworthy to live who lives only for himself."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b52",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 此生只为己，不配活在世。"
+        },
+        {
+         "key": "B",
+         "label": "B. 此生不值得，除非为自己。"
+        },
+        {
+         "key": "C",
+         "label": "C. 若不为己活，还不如不活。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b52",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The sentence criticizes a person who lives only for himself, and option A preserves that moral judgment most faithfully."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. 此生只为己，不配活在世。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-53",
+      "no": 53,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Don't cough more than you can help."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b53",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 能不咳，就不咳。"
+        },
+        {
+         "key": "B",
+         "label": "B. 别咳了，你咳得太多了。"
+        },
+        {
+         "key": "C",
+         "label": "C. 不要咳得多于你能不咳的。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b53",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The expression `can help` means `can avoid`, so the best translation is `能不咳，就不咳`."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. 能不咳，就不咳。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-54",
+      "no": 54,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I didn't begin to work till he had gone."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b54",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 他还没走我就开始工作了。"
+        },
+        {
+         "key": "B",
+         "label": "B. 他走了之后我才开始工作。"
+        },
+        {
+         "key": "C",
+         "label": "C. 我还没开始工作他就走了。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b54",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Not ... till` means the action began only after another action was completed, so option B is correct."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 他走了之后我才开始工作。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-55",
+      "no": 55,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The personnel manager said he would have an interview with the applicant on Tuesday."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b55",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 人事部经理星期二说他将对应聘者进行面试。"
+        },
+        {
+         "key": "B",
+         "label": "B. 人事部经理说他将于星期二对应聘者进行面试。"
+        },
+        {
+         "key": "C",
+         "label": "C. 人事部经理说每个星期二他将对应聘者进行面试。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b55",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The time phrase `on Tuesday` modifies the interview, not the act of saying or a repeated weekly action, so option B is the best translation."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 人事部经理说他将于星期二对应聘者进行面试。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-8",
+    "kind": "translation_paragraph",
+    "displayName": "英译汉",
+    "partLabel": "Part III Section 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Write your translation in the corresponding space on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-56",
+      "no": 56,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Reading can change lives. Here's a story. A grandmother and her grandson lived in different cities. She would call him and ask him about school or about his day. He would respond in one-word answers: \"Fine.\" \"Nothing.\" She was so sad to have fallen out of touch with her beloved grandson.\n\nAnd then one day she asked him what he was reading. He had just started *The Hunger Games*. The grandmother decided to read it so that she could talk about it with her grandson the next time they chatted on the phone. Other than belonging to the same family, they had never had much in common. Now, they did. It was reading."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay56",
+       "placeholder": "请在此作答"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "翻译时要把叙事顺序和情感变化交代清楚，重点处理好 `fallen out of touch`、`one-word answers` 和最后一句强调阅读带来共同话题的作用。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "阅读能够改变人的生活。这里有一个故事。一位祖母和她的孙子住在不同的城市。她常常给他打电话，问他学校里的情况或者他一天过得怎么样。可他总是只用一个词来回答：“挺好。”“没什么。” 她因为和自己心爱的孙子渐渐失去了联系而十分伤心。\n\n后来有一天，她问他最近在读什么书。他刚开始读《饥饿游戏》。祖母决定也把这本书读一读，这样下次他们通电话时，她就可以和孙子聊这本书了。除了属于同一个家庭之外，他们过去几乎没有什么共同点。现在，他们有了。那就是阅读。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-9",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "Part IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: This part is to test your writing ability. Write a notice based on the information provided. Write in the corresponding space on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-57",
+      "no": 57,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "请根据以下信息写一则通知，词数不少于60。\n\n主讲人：张军（职业发展指导中心）\n题目：大学生职业生涯规划\n地点：大学生活动中心1号报告厅\n时间：2022年6月18日14:00-15:30\n要求：全体学生参加；提前10分钟入场；手机保持静音状态。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay57",
+       "placeholder": "请在此作答",
+       "minWords": 60
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作文需写成英文通知，核心信息包括讲座主题、主讲人、时间、地点和参会要求，语言应简洁正式，通知格式要清楚。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "NOTICE\n\nA lecture on Career Planning for College Students will be given by Zhang Jun from the Career Development Guidance Center in Lecture Hall 1 of the Student Activity Center from 2:00 p.m. to 3:30 p.m. on June 18, 2022.\n\nAll students are required to attend. Please enter the hall 10 minutes early and keep your mobile phones on silent mode.\n\nStudents' Union"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

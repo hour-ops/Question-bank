@@ -1,0 +1,33 @@
+# 题库项目 · 运行依赖（**这是权威清单**）
+#
+# 2026-10-12 瘦身：原来这份文件列了 77 个包（含 onnxruntime / pandas / numpy / sympy /
+# magika / markitdown / ziglang 等 **500+ MB 且项目里 0 处引用** 的依赖），
+# 装一次要好几分钟。现在只保留**真正被 import 的**依赖，见 `requirements-core.txt`。
+#
+# 实测（2026-10-12）：
+#   - 核心 13 个直接依赖 → pip 解析出 48 个包、wheel 合计 **37.2 MB**（原来 500+ MB）
+#   - 用「只有核心依赖」的环境（`-S` 隔离 site-packages）跑：
+#       · 网页版 15 个页面/接口探测点**全部 200**
+#       · 19 个 scripts 全部 import 成功
+#
+# 便携版「安装依赖.bat」默认装 `requirements-core.txt`；
+# 需要导入 PDF 素材（试卷/讲义）时再装 `requirements-parsing.txt`。
+
+-r requirements-core.txt
+
+# ---------------------------------------------------------------- 以下为历史清单，勿再启用
+# 说明：这些包在本项目 **app/ scripts/ tests/ 里搜不到任何 import**，
+# 是早期一次性 `pip freeze` 全环境带进来的（其中 onnxruntime/pandas/numpy/sympy/magika/
+# markitdown 是 markitdown 那条链的传递依赖，而 markitdown 本身没被用过）。
+# 保留在此仅作"当年装过什么"的记录，**不要**把它们加回安装清单。
+#
+# annotated-types, anyio, blinker, cached-property, certifi, cffi, charset-normalizer,
+# chevron, click, click-default-group, coloredlogs, cryptography, defusedxml, EbookLib,
+# et_xmlfile, flask-cors, flatbuffers, frozendict, h11, httpcore2, httpx2, humanfriendly,
+# idna, itsdangerous, jieba, Jinja2, jiter, magika, markdownify, markitdown, MarkupSafe,
+# mpmath, numpy, onnxruntime, packaging, pandas, pdfminer.six, pillow, pluggy, protobuf,
+# pycparser, pydantic, pydantic_core, pypdfium2, pyreadline3, python-dateutil, python-dotenv,
+# PyYAML, six, sniffio, soupsieve, sqlite-fts4, sqlite-utils, sympy, tabulate, truststore,
+# typing-inspection, typing_extensions, tzdata, urllib3, Werkzeug, xlsxwriter, zhconv, ziglang
+#
+# （lxml / python-pptx 等确实要用的，已经写在 requirements-core.txt 里，不在此列重复。）

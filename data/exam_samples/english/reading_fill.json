@@ -1,0 +1,1459 @@
+{
+  "schema_version": "1.0",
+  "subject": "english",
+  "subject_name_cn": "英语（湖北专升本）",
+  "type": "reading_fill",
+  "type_name_cn": "阅读填空",
+  "how": "先读**上面的短文**，再在每个空里填一个词（每空一词）。同一篇短文的几个空是一组，要一起做完。",
+  "answer_label": "参考答案",
+  "knowledge_points": [
+    {
+      "id": "E-T03",
+      "name": "阅读填空",
+      "dimension": "format",
+      "question_type": "reading_fill",
+      "format_era": "new_2024plus"
+    },
+    {
+      "id": "E-S07",
+      "name": "阅读填空·信息提取",
+      "dimension": "knowledge"
+    }
+  ],
+  "knowledge_point_basis": "题型维度(E-T*) + 语言知识维度(E-G*/E-S*)，映射取自 knowledge_base.json 的 question_type_to_points",
+  "knowledge_base": "subjects/english/knowledge_base.json",
+  "source": "inbox/real_exams/*.json（只读；不从 SQLite 取题干）",
+  "type_raw_values": [
+    "填空题",
+    "阅读填空",
+    "阅读填空 / 词汇填空",
+    "阅读填词"
+  ],
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "rules": {
+    "trust_priority": [
+      "official_exam",
+      "textbook",
+      "third_party"
+    ],
+    "exclude": [
+      "ai_generated",
+      "source_type='generate'"
+    ],
+    "prefer": "有解析者优先；其次解析更长、空更多、材料更长",
+    "sampling": "按 exam 轮转（每套卷先取 1 条再取第 2 条…），上限 40 条",
+    "dedupe": "同题干（去空白差异）只留解析最好的一条，其余来源记在 same_stem_exams",
+    "material_rule": "材料型题整组存：material 存整篇原文、material_blanks 存该组全部空（空数经断言校验）；材料型 sample 的 stem 为空串，题干在各空的 stem 里",
+    "zero_rewrite": "题干/材料/答案/解析零改写；唯一渲染是把源里的 {type:'blank'} 块显式写成 {{__BLANK_<n>__}}；连词成句保留 `词组 / 词组` 斜杠格式",
+    "deterministic": "不使用随机数；排序键固定为 (exam, 组内 rank)"
+  },
+  "stats": {
+    "samples": 17,
+    "source_records": 17,
+    "with_explanation": 17,
+    "material_blocks": 17,
+    "total_blanks_in_material_blocks": 95,
+    "blanks_with_own_stem": 55,
+    "usable_records": 17,
+    "exams_in_type": 13,
+    "duplicated_records_removed": 0,
+    "cap": 40,
+    "truncated": false,
+    "unique_sources_kept": 13,
+    "unique_sources_available": 13
+  },
+  "exams": [
+    {
+      "exam": "014_英语_湖北专升本2025年英语真题.json",
+      "samples": 2
+    },
+    {
+      "exam": "015_英语_湖北专升本2024年英语真题.json",
+      "samples": 2
+    },
+    {
+      "exam": "111_英语_湖北2025.json",
+      "samples": 2
+    },
+    {
+      "exam": "128_英语_湖北2026.json",
+      "samples": 2
+    },
+    {
+      "exam": "017_英语_湖北专升本2023年英语真题.json",
+      "samples": 1
+    },
+    {
+      "exam": "018_英语_湖北专升本2022年英语真题.json",
+      "samples": 1
+    },
+    {
+      "exam": "019_英语_湖北专升本2021年英语真题.json",
+      "samples": 1
+    },
+    {
+      "exam": "020_英语_湖北专升本2020年英语真题.json",
+      "samples": 1
+    },
+    {
+      "exam": "102_英语_河北专升本英语17.json",
+      "samples": 1
+    },
+    {
+      "exam": "112_英语_湖北2024.json",
+      "samples": 1
+    },
+    {
+      "exam": "113_英语_湖北2023.json",
+      "samples": 1
+    },
+    {
+      "exam": "114_英语_湖北2022.json",
+      "samples": 1
+    },
+    {
+      "exam": "115_英语_湖北2021.json",
+      "samples": 1
+    }
+  ],
+  "samples": [
+    {
+      "stem": "",
+      "answer": "musical | written | listening | fewer | classes",
+      "explanation": "根据文章第一句 “The Dong Grand Choir is a unique musical tradition of the Dong people in China.” 可知，此处应填入 `musical`。\n\n根据文章第一段末句 “Unlike most choirs, there is no conductor or written music...” 可知，此处应填入 `written`。\n\n根据文章第二段末句 “Traditionally, children learn these songs by listening to elders while sitting around a big fire at night.” 可知，此处应填入 `listening`。\n\n根据文章第三段第二句 “...fewer villages are there to keep the singing tradition alive.” 可知，此处应填入 `fewer`。\n\n根据文章第三段第三句 “To protect the tradition, local schools have started choir classes.” 可知，此处应填入 `classes`。",
+      "exam": "014_英语_湖北专升本2025年英语真题.json",
+      "exam_title": "湖北专升本2025年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "根据文章内容填空,每空1个词\n\nThe Dong Grand Choir is a unique musical tradition of the Dong people in China. For centuries, the Dong people, who live in mountain villages of Guizhou, Guangxi and Hunan, have used these songs to share stories, teach moral values, and celebrate nature. Unlike most choirs, there is no conductor or written music—the harmony is created naturally by singers of all ages.\n\nThe songs are divided into two types: Galao and Gaxia. Galao are performed at festivals and tell stories about history or love, while Gaxia are short tunes people sing during daily work. The most amazing part is their singing style, combining different voice parts. Traditionally, children learn these songs by listening to elders while sitting around a big fire at night.\n\nHowever, this tradition faces challenges. With many young people moving to cities for jobs, fewer villages are there to keep the singing tradition alive. To protect the tradition, local schools have started choir classes. The Dong Grand Festival now attracts tourists worldwide every year.\n\nThe Dong people believe that \"a song is more valuable than rice\", showing how deeply music is rooted in their culture.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "14-q3",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": "3_sub_0",
+          "placeholder": null,
+          "stem": "Type of Tradition: The Dong Grand Choir is a unique {{__BLANK_1__}} tradition of the Dong people in China.",
+          "answer": "musical",
+          "explanation": "根据文章第一句 “The Dong Grand Choir is a unique musical tradition of the Dong people in China.” 可知，此处应填入 `musical`。",
+          "options": []
+        },
+        {
+          "no": "3_sub_1",
+          "placeholder": null,
+          "stem": "Unique Feature: Unlike most choirs, the Dong Grand Choir has no conductor or {{__BLANK_1__}} music.",
+          "answer": "written",
+          "explanation": "根据文章第一段末句 “Unlike most choirs, there is no conductor or written music...” 可知，此处应填入 `written`。",
+          "options": []
+        },
+        {
+          "no": "3_sub_2",
+          "placeholder": null,
+          "stem": "Passing-down of Tradition: Children learn the songs by {{__BLANK_1__}} to elders around a big fire at night.",
+          "answer": "listening",
+          "explanation": "根据文章第二段末句 “Traditionally, children learn these songs by listening to elders while sitting around a big fire at night.” 可知，此处应填入 `listening`。",
+          "options": []
+        },
+        {
+          "no": "3_sub_3",
+          "placeholder": null,
+          "stem": "Challenges: There are {{__BLANK_1__}} villagers to keep the tradition alive.",
+          "answer": "fewer",
+          "explanation": "根据文章第三段第二句 “...fewer villages are there to keep the singing tradition alive.” 可知，此处应填入 `fewer`。",
+          "options": []
+        },
+        {
+          "no": "3_sub_4",
+          "placeholder": null,
+          "stem": "Action Taken: Local schools have started choir {{__BLANK_1__}} to protect the tradition.",
+          "answer": "classes",
+          "explanation": "根据文章第三段第三句 “To protect the tradition, local schools have started choir classes.” 可知，此处应填入 `classes`。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "disappearing | food | stay | small | bother",
+      "explanation": "对应原文第一段：\"...giraffes are quietly disappearing because...\"\n\n对应原文第一段：\"...acacia trees, their favourite food.\"\n\n对应原文第二段：\"...GPS collars were used... but they can't stay on for long.\"\n\n对应原文最后一段：\"...new tracking devices which are as small as a chocolate bar...\"\n\n对应原文最后一段：\"...solar-powered and don't bother giraffes much...\"",
+      "exam": "015_英语_湖北专升本2024年英语真题.json",
+      "exam_title": "湖北专升本2024年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "The number of giraffes is becoming smaller across Africa, according to the Giraffe Conservation Foundation (CCF). The total population has dropped by 40 percent in the last 15 years. The CCF is the only non-governmental organization (NCO) in the world to focus solely on the conservation of giraffes in Africa and is pioneering (倡导) a sustainable future for this mammal. According to a study, giraffes are quietly disappearing because it is difficult for them to find acacia trees, their favourite food.\n\nWork towards their conservation is more important now than it has ever been. And more and more giraffes are also being hunted. Because of this, the CCF decided to work with African parks. These parks are very important for keeping Nubian giraffes safe. GPS collars were used to keep an eye on giraffes but they can't stay on for long.\n\nTo solve this problem, new tracking devices which are as small as a chocolate bar, solar-powered and don't bother giraffes much are used to stop illegal hunting to keep giraffes safe.",
+      "type": "reading_fill",
+      "type_raw": "阅读填词",
+      "kind": "material",
+      "group_uid": "15-q4",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": "4_sub_0",
+          "placeholder": null,
+          "stem": "Keep an Eye on Giraffes\nWhat: Giraffes are quietly {{__BLANK_1__}}",
+          "answer": "disappearing",
+          "explanation": "对应原文第一段：\"...giraffes are quietly disappearing because...\"",
+          "options": []
+        },
+        {
+          "no": "4_sub_1",
+          "placeholder": null,
+          "stem": "because their favourite {{__BLANK_1__}} is difficult to find.",
+          "answer": "food",
+          "explanation": "对应原文第一段：\"...acacia trees, their favourite food.\"",
+          "options": []
+        },
+        {
+          "no": "4_sub_2",
+          "placeholder": null,
+          "stem": "CPS collars were used to keep an eye on giraffes but they can't {{__BLANK_1__}} on for long.",
+          "answer": "stay",
+          "explanation": "对应原文第二段：\"...GPS collars were used... but they can't stay on for long.\"",
+          "options": []
+        },
+        {
+          "no": "4_sub_3",
+          "placeholder": null,
+          "stem": "How: New tracking devices, which are as {{__BLANK_1__}} as a chocolate bar,",
+          "answer": "small",
+          "explanation": "对应原文最后一段：\"...new tracking devices which are as small as a chocolate bar...\"",
+          "options": []
+        },
+        {
+          "no": "4_sub_4",
+          "placeholder": null,
+          "stem": "solar-powered, and don't {{__BLANK_1__}} giraffes much, are used to stop illegal hunting to keep giraffes safe.",
+          "answer": "bother",
+          "explanation": "对应原文最后一段：\"...solar-powered and don't bother giraffes much...\"",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "musical | written | listening | fewer | classes",
+      "explanation": "第一段首句原文就是 a unique musical tradition，因此直接提取 musical。\n\n原文说 there is no conductor or written music，因此答案是 written。\n\n原文是 learn these songs by listening to elders，介词 by 后应用动名词 listening。\n\n原文明确写到 fewer villages are there to keep the singing tradition alive，因此填 fewer。\n\n原文说 local schools have started choir classes。OCR 参考答案里的 classs 为明显拼写错误，应修正为 classes。",
+      "exam": "111_英语_湖北2025.json",
+      "exam_title": "湖北2025",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Passage 1\n\nThe Dong Grand Choir is a unique musical tradition of the Dong people in China. For centuries, the Dong people, who live in mountain villages of Guizhou, Guangxi and Hunan, have used these songs to share stories, teach moral values, and celebrate nature. Unlike most choirs, there is no conductor or written music—the harmony is created naturally by singers of all ages.\n\nThe songs are divided into two types: Galao and Gaxia. Galao are performed at festivals and tell stories about history or love, while Gaxia are short tunes people sing during daily work. The most amazing part is their singing style, combining different voice parts. Traditionally, children learn these songs by listening to elders while sitting around a big fire at night.\n\nHowever, this tradition faces challenges. With many young people moving to cities for jobs, fewer villages are there to keep the singing tradition alive. To protect the tradition, local schools have started choir classes. The Dong Grand Festival now attracts tourists worldwide every year.\n\nThe Dong people believe that \"a song is more valuable than rice\", showing how deeply music is rooted in their culture.\n\nThe Dong Grand Choir\n\nType of Tradition: The Dong Grand Choir is a unique {{__BLANK_17__}} tradition of the Dong people in China.\nUnique Feature: Unlike most choirs, the Dong Grand Choir has no conductor or {{__BLANK_18__}} music.\nPassing-down of Tradition: Children learn the songs by {{__BLANK_19__}} to elders around a big fire at night.\nChallenges: There are {{__BLANK_20__}} villagers to keep the tradition alive.\nAction Taken: Local schools have started choir {{__BLANK_21__}} to protect the tradition.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "111-s2",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "根据文章内容填空，每空 1 个词。",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 17,
+          "placeholder": null,
+          "stem": "",
+          "answer": "musical",
+          "explanation": "第一段首句原文就是 a unique musical tradition，因此直接提取 musical。",
+          "options": []
+        },
+        {
+          "no": 18,
+          "placeholder": null,
+          "stem": "",
+          "answer": "written",
+          "explanation": "原文说 there is no conductor or written music，因此答案是 written。",
+          "options": []
+        },
+        {
+          "no": 19,
+          "placeholder": null,
+          "stem": "",
+          "answer": "listening",
+          "explanation": "原文是 learn these songs by listening to elders，介词 by 后应用动名词 listening。",
+          "options": []
+        },
+        {
+          "no": 20,
+          "placeholder": null,
+          "stem": "",
+          "answer": "fewer",
+          "explanation": "原文明确写到 fewer villages are there to keep the singing tradition alive，因此填 fewer。",
+          "options": []
+        },
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "",
+          "answer": "classes",
+          "explanation": "原文说 local schools have started choir classes。OCR 参考答案里的 classs 为明显拼写错误，应修正为 classes。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "childhood | adults | stress | amount | future",
+      "explanation": "原文第一句直接给出 bad childhood experiences，因此空格填 childhood。\n\n第二段第一句写明研究对象是 75 adults who had difficult childhoods，答案为 adults。\n\n第二段指出 brain areas for feelings and stress were closely connected，故填 stress。\n\n第三段原句是 there was a best amount of exercise，因此答案是 amount。\n\n结尾处指出童年艰难并不能决定一个人的 future，因此填 future。",
+      "exam": "128_英语_湖北2026.json",
+      "exam_title": "湖北2026",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Passage Two\n\nFor many years, scientists thought bad childhood experiences could harm the brain for life. But a new study from Germany shows that exercise can help the brain recover.\n\nThe researches studied 75 adults who had difficult childhoods. Some had been hurt or not well cared for when they were young. The researchers used brain scans (脑部扫描) to see how different parts of the brain worked together. They found that in people who exercised often, brain areas for feelings and stress were closely connected. Exercise, they said, helped the brain work better.\n\nThe team also found that there was a best amount of exercise: about 150 to 390 minutes a week. Doing more exercise did not always bring better results.\n\nWhy can exercise help? This is because exercise can build new links between brain cells and lower stress in the body. For people with difficult childhoods, exercise is like a natural medicine that helps the brain recover.\n\nOne researcher said, \"A difficult childhood can make life harder, but it does not decide a person's future.\" We cannot change the past, but we can do something now to build a better future.",
+      "type": "reading_fill",
+      "type_raw": "阅读填词",
+      "kind": "material",
+      "group_uid": "128-s3",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "阅读短文并根据内容完成信息填空。",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "Misconception: Bad {{__BLANK_22__}} experiences could harm the brain for life.",
+          "answer": "childhood",
+          "explanation": "原文第一句直接给出 bad childhood experiences，因此空格填 childhood。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "Participants: 75 {{__BLANK_23__}} who had difficult childhoods.",
+          "answer": "adults",
+          "explanation": "第二段第一句写明研究对象是 75 adults who had difficult childhoods，答案为 adults。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "Findings: In people who exercised often, brain areas for feelings and {{__BLANK_24__}} were closely connected.",
+          "answer": "stress",
+          "explanation": "第二段指出 brain areas for feelings and stress were closely connected，故填 stress。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "A best {{__BLANK_25__}} of exercise: about 150 to 390 minutes a week.",
+          "answer": "amount",
+          "explanation": "第三段原句是 there was a best amount of exercise，因此答案是 amount。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "Conclusion: A difficult childhood does not decide a person's {{__BLANK_26__}}, because exercise can heal the brain.",
+          "answer": "future",
+          "explanation": "结尾处指出童年艰难并不能决定一个人的 future，因此填 future。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "something valuable | small | at present | enlist | human duty",
+      "explanation": "1. 第一个空对应文章第一句：\"If you have something valuable in mind...\"，因此应填 \"something valuable\"。\n\n2. 第二个空对应第三段第一句：\"Remember that everything starts from small things...\"，因此应填 \"small\"。\n\n3. 第三个空对应第三段最后一句：\"So it doesn't matter where yo are at present...\"，因此应填 \"at present\"。\n\n4. 第四个空对应第四段第二句：\"Enlist people who are better than you.\"，因此应填 \"enlist\"。\n\n5. 第五个空对应最后一段第二句：\"...then it is a human duty to think and act big...\"，因此应填 \"human duty\"。",
+      "exam": "017_英语_湖北专升本2023年英语真题.json",
+      "exam_title": "湖北专升本2023年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Directions: This part is to test your reading ability. There are two sections in it.\n\nIf you have something valuable in mind, a service to offer, or an idea to develop, then you should tell it to other people to widen its scope. Why not make full use of it?\n\nThe fact is that, when you have enough vision, you may have the courage. And then you simply have to pursue it, however cray it might seem to others.\n\nRemember that everything starts from small things: Rome was not built in a day. Scientists say that everything in the universe comes from a smaller unit than you can possibly assume, So it doesn't matter where yo are at present , because small beginnings become great things at last.\n\nThink big by enlisting(争取) others: To think big, you need so see yourself as a small part of a greater whole. Enlist people who are better than you. If you're not the most organized person, don't just be unhappy about it. You should find someone who is better.\n\nBig thinkers know their personal limitations. Gather people who can do what you can't do around you to make sure your dream will come true.\n\nThink big by focusing on future regrets; There is an old saying, \" We regret not the things we did do , but the things we didn't do.\" You'll never know how far it could go unless you see how far you can take something.\n\nIf you have big plans, just close your eyes. And strongly imagine how regretful you will be if you don't try on\n\nattempt properly.\n\nFeel that it is your human duty to think big: When something is probably of real service to mankind, then it is a human duty to think and act big, Even if you don't succeed at last, it is still valuable to think big.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "17-q6",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: This part is to test your reading ability. There are two sections in it.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "something valuable",
+          "explanation": "1. 第一个空对应文章第一句：\"If you have something valuable in mind...\"，因此应填 \"something valuable\"。",
+          "options": [],
+          "blank_stem_shared": "If you have {{__BLANK_1__}} in mind, you should make full use of it.\n\nHow to train yourself to think big:\n\nRemember that every big thing starts from a(n) {{__BLANK_2__}} one.\n\nIt is not important where you are {{__BLANK_3__}}\n\nSee yourself as a small part of a greater whole.\n\nYou should {{__BLANK_4__}} better people around you to make sure of the realization of your dream.\n\nIf you don't try, you will never know how far your idea could go.\n\nImagine how much regret you will have if you give up your big plans.\n\nIt is you {{__BLANK_5__}} to think big and it is worth trying."
+        },
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "small",
+          "explanation": "2. 第二个空对应第三段第一句：\"Remember that everything starts from small things...\"，因此应填 \"small\"。",
+          "options": [],
+          "blank_stem_shared": "If you have {{__BLANK_1__}} in mind, you should make full use of it.\n\nHow to train yourself to think big:\n\nRemember that every big thing starts from a(n) {{__BLANK_2__}} one.\n\nIt is not important where you are {{__BLANK_3__}}\n\nSee yourself as a small part of a greater whole.\n\nYou should {{__BLANK_4__}} better people around you to make sure of the realization of your dream.\n\nIf you don't try, you will never know how far your idea could go.\n\nImagine how much regret you will have if you give up your big plans.\n\nIt is you {{__BLANK_5__}} to think big and it is worth trying."
+        },
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "at present",
+          "explanation": "3. 第三个空对应第三段最后一句：\"So it doesn't matter where yo are at present...\"，因此应填 \"at present\"。",
+          "options": [],
+          "blank_stem_shared": "If you have {{__BLANK_1__}} in mind, you should make full use of it.\n\nHow to train yourself to think big:\n\nRemember that every big thing starts from a(n) {{__BLANK_2__}} one.\n\nIt is not important where you are {{__BLANK_3__}}\n\nSee yourself as a small part of a greater whole.\n\nYou should {{__BLANK_4__}} better people around you to make sure of the realization of your dream.\n\nIf you don't try, you will never know how far your idea could go.\n\nImagine how much regret you will have if you give up your big plans.\n\nIt is you {{__BLANK_5__}} to think big and it is worth trying."
+        },
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "enlist",
+          "explanation": "4. 第四个空对应第四段第二句：\"Enlist people who are better than you.\"，因此应填 \"enlist\"。",
+          "options": [],
+          "blank_stem_shared": "If you have {{__BLANK_1__}} in mind, you should make full use of it.\n\nHow to train yourself to think big:\n\nRemember that every big thing starts from a(n) {{__BLANK_2__}} one.\n\nIt is not important where you are {{__BLANK_3__}}\n\nSee yourself as a small part of a greater whole.\n\nYou should {{__BLANK_4__}} better people around you to make sure of the realization of your dream.\n\nIf you don't try, you will never know how far your idea could go.\n\nImagine how much regret you will have if you give up your big plans.\n\nIt is you {{__BLANK_5__}} to think big and it is worth trying."
+        },
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "human duty",
+          "explanation": "5. 第五个空对应最后一段第二句：\"...then it is a human duty to think and act big...\"，因此应填 \"human duty\"。",
+          "options": [],
+          "blank_stem_shared": "If you have {{__BLANK_1__}} in mind, you should make full use of it.\n\nHow to train yourself to think big:\n\nRemember that every big thing starts from a(n) {{__BLANK_2__}} one.\n\nIt is not important where you are {{__BLANK_3__}}\n\nSee yourself as a small part of a greater whole.\n\nYou should {{__BLANK_4__}} better people around you to make sure of the realization of your dream.\n\nIf you don't try, you will never know how far your idea could go.\n\nImagine how much regret you will have if you give up your big plans.\n\nIt is you {{__BLANK_5__}} to think big and it is worth trying."
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "natural selection | medicine | natural history | basis | evolution",
+      "explanation": "根据文章内容，达尔文的进化论是基于自然选择（natural selection）。他在爱丁堡大学学习医学（medicine）。在剑桥大学发现了对自然历史（natural history）的热爱。五年的航行为他未来的思想和写作提供了基础（basis）。他在《人类的由来》中运用其思想解释了人类的进化（evolution）。",
+      "exam": "018_英语_湖北专升本2022年英语真题.json",
+      "exam_title": "湖北专升本2022年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Directions: This part is to test your reading ability. \n\nCharles Darwin (1809 — 1882) was one of the most influential scientists of all time. His theory of evolution by natural selection explained how life on Earth developed, and is the basic concept upon which the life sciences are built.\n\nDarwin's father was a doctor. On leaving school, Darwin followed in his father's footsteps and went to Edinburgh University to study medicine. However, he gave up because he hated the sight of blood. He then went to the University of Cambridge, intending to work in a church.\n\nDarwin discovered his love of natural history at Cambridge, where he spent much of his time collecting insects. He graduated in 1831 and accepted a place as a naturalist on board Beagle. The ship's five-year voyage proved to be the most important period in Darwin's life, providing the basis for his future ideas and writings.\n\nHe returned to England in 1836 and published an account of his travels, which made him famous. He began to develop his theory of natural selection and published his revolutionary book On the Origin of Species in 1859. This was followed by The Descent of Man in 1871, in which he applied his ideas to explaining the evolution of humans.\n\nCharles Darwin\n\nHis theory of evolution by {{__BLANK_1__}} is a basic concept of the life sciences.\n\nHe studied {{__BLANK_2__}} at Edinburgh University after leaving school.\n\nHe discovered his love of {{__BLANK_3__}} at Cambridge.\n\nThe five-year voyage provided the {{__BLANK_4__}} for his future ideas and writings.\n\nHe applied his ideas in The Descent of Man to explaining the {{__BLANK_5__}} of humans.",
+      "type": "reading_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "18-q6",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: This part is to test your reading ability.",
+      "explanation_source": "parent",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "natural selection",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "medicine",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "natural history",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "basis",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "evolution",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "ingredient | number | warm | icy disagreement | heart",
+      "explanation": "这是一道基于文章内容的表格填空题。\n46. 根据第一段“With a hot pot, you can put in any ingredient that you like”可知，开放性体现在可以放入任何你喜欢的食材(ingredient)。\n47. 根据第一段“The same pot can serve any number of different meals to the people”可知，分享性体现在同一锅可以为人们提供任意数量(number)的不同餐食。\n48. 根据第二段第一句“Hot pot creates a cozy, warm atmosphere”可知，火锅营造了舒适和温暖(warm)的氛围。\n49. 根据第二段“The fire from the hot pot can melt just about any icy disagreement”可知，火锅的社交功能之一是融化任何冰冷的分歧(icy disagreement)。\n50. 根据第二段“...and warm just about any heart”可知，火锅的社交功能之二是温暖任何心灵(heart)。",
+      "exam": "019_英语_湖北专升本2021年英语真题.json",
+      "exam_title": "湖北专升本2021年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Directions: Read the following passage carefully and fill in the blanks with the correct words or phrases based on the passage. Write your answers in the corresponding spaces on the Answer Sheet.\n\nWhy is hot pot so popular in China? It shows the Chinese cultural values of openness and sharing. With a hot pot, you can put in any ingredient that you like: vegetables as well as meat. The same pot can serve any number of different meals to the people sitting around the table. No one is left out, and everyone gets to eat as much -or as little-as they want.\n\nHot pot creates a cozy, warm atmosphere and really brings people together as you sit around a pot, cooking, eating, talking, and relaxing. The food is important but also important are the feels. In China, people like to joke that there is no problem that a hot pot can't solve. The fire from the hot pot can melt just about any icy disagreement and warm just about any heart. Over a hot pot people can talk and share not just food, but friendship. While the food may soon be forgotten, these friendships stay with us forever.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "19-q6",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: Read the following passage carefully and fill in the blanks with the correct words or phrases based on the passage. Write your answers in the corresponding spaces on the Answer Sheet.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "ingredient",
+          "explanation": "这是一道基于文章内容的表格填空题。\n46. 根据第一段“With a hot pot, you can put in any ingredient that you like”可知，开放性体现在可以放入任何你喜欢的食材(ingredient)。\n47. 根据第一段“The same pot can serve any number of different meals to the people”可知，分享性体现在同一锅可以为人们提供任意数量(number)的不同餐食。\n48. 根据第二段第一句“Hot pot creates a cozy, warm atmosphere”可知，火锅营造了舒适和温暖(warm)的氛围。\n49. 根据第二段“The fire from the hot pot can melt just about any icy disagreement”可知，火锅的社交功能之一是融化任何冰冷的分歧(icy disagreement)。\n50. 根据第二段“...and warm just about any heart”可知，火锅的社交功能之二是温暖任何心灵(heart)。",
+          "options": [],
+          "blank_stem_shared": "Popularity of hot Pot\n\nCultural values:\n\n(1) Openness: putting in any {{__BLANK_1__}} that you like  \n(2) Sharing: serving any {{__BLANK_2__}} of different meals to the people\n\nAtmosphere:cozy and {{__BLANK_3__}}\n\nSocial functions:melting any {{__BLANK_4__}}\n\nand warming any {{__BLANK_5__}}"
+        },
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "number",
+          "explanation": "这是一道基于文章内容的表格填空题。\n46. 根据第一段“With a hot pot, you can put in any ingredient that you like”可知，开放性体现在可以放入任何你喜欢的食材(ingredient)。\n47. 根据第一段“The same pot can serve any number of different meals to the people”可知，分享性体现在同一锅可以为人们提供任意数量(number)的不同餐食。\n48. 根据第二段第一句“Hot pot creates a cozy, warm atmosphere”可知，火锅营造了舒适和温暖(warm)的氛围。\n49. 根据第二段“The fire from the hot pot can melt just about any icy disagreement”可知，火锅的社交功能之一是融化任何冰冷的分歧(icy disagreement)。\n50. 根据第二段“...and warm just about any heart”可知，火锅的社交功能之二是温暖任何心灵(heart)。",
+          "options": [],
+          "blank_stem_shared": "Popularity of hot Pot\n\nCultural values:\n\n(1) Openness: putting in any {{__BLANK_1__}} that you like  \n(2) Sharing: serving any {{__BLANK_2__}} of different meals to the people\n\nAtmosphere:cozy and {{__BLANK_3__}}\n\nSocial functions:melting any {{__BLANK_4__}}\n\nand warming any {{__BLANK_5__}}"
+        },
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "warm",
+          "explanation": "这是一道基于文章内容的表格填空题。\n46. 根据第一段“With a hot pot, you can put in any ingredient that you like”可知，开放性体现在可以放入任何你喜欢的食材(ingredient)。\n47. 根据第一段“The same pot can serve any number of different meals to the people”可知，分享性体现在同一锅可以为人们提供任意数量(number)的不同餐食。\n48. 根据第二段第一句“Hot pot creates a cozy, warm atmosphere”可知，火锅营造了舒适和温暖(warm)的氛围。\n49. 根据第二段“The fire from the hot pot can melt just about any icy disagreement”可知，火锅的社交功能之一是融化任何冰冷的分歧(icy disagreement)。\n50. 根据第二段“...and warm just about any heart”可知，火锅的社交功能之二是温暖任何心灵(heart)。",
+          "options": [],
+          "blank_stem_shared": "Popularity of hot Pot\n\nCultural values:\n\n(1) Openness: putting in any {{__BLANK_1__}} that you like  \n(2) Sharing: serving any {{__BLANK_2__}} of different meals to the people\n\nAtmosphere:cozy and {{__BLANK_3__}}\n\nSocial functions:melting any {{__BLANK_4__}}\n\nand warming any {{__BLANK_5__}}"
+        },
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "icy disagreement",
+          "explanation": "这是一道基于文章内容的表格填空题。\n46. 根据第一段“With a hot pot, you can put in any ingredient that you like”可知，开放性体现在可以放入任何你喜欢的食材(ingredient)。\n47. 根据第一段“The same pot can serve any number of different meals to the people”可知，分享性体现在同一锅可以为人们提供任意数量(number)的不同餐食。\n48. 根据第二段第一句“Hot pot creates a cozy, warm atmosphere”可知，火锅营造了舒适和温暖(warm)的氛围。\n49. 根据第二段“The fire from the hot pot can melt just about any icy disagreement”可知，火锅的社交功能之一是融化任何冰冷的分歧(icy disagreement)。\n50. 根据第二段“...and warm just about any heart”可知，火锅的社交功能之二是温暖任何心灵(heart)。",
+          "options": [],
+          "blank_stem_shared": "Popularity of hot Pot\n\nCultural values:\n\n(1) Openness: putting in any {{__BLANK_1__}} that you like  \n(2) Sharing: serving any {{__BLANK_2__}} of different meals to the people\n\nAtmosphere:cozy and {{__BLANK_3__}}\n\nSocial functions:melting any {{__BLANK_4__}}\n\nand warming any {{__BLANK_5__}}"
+        },
+        {
+          "no": "46-50",
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "heart",
+          "explanation": "这是一道基于文章内容的表格填空题。\n46. 根据第一段“With a hot pot, you can put in any ingredient that you like”可知，开放性体现在可以放入任何你喜欢的食材(ingredient)。\n47. 根据第一段“The same pot can serve any number of different meals to the people”可知，分享性体现在同一锅可以为人们提供任意数量(number)的不同餐食。\n48. 根据第二段第一句“Hot pot creates a cozy, warm atmosphere”可知，火锅营造了舒适和温暖(warm)的氛围。\n49. 根据第二段“The fire from the hot pot can melt just about any icy disagreement”可知，火锅的社交功能之一是融化任何冰冷的分歧(icy disagreement)。\n50. 根据第二段“...and warm just about any heart”可知，火锅的社交功能之二是温暖任何心灵(heart)。",
+          "options": [],
+          "blank_stem_shared": "Popularity of hot Pot\n\nCultural values:\n\n(1) Openness: putting in any {{__BLANK_1__}} that you like  \n(2) Sharing: serving any {{__BLANK_2__}} of different meals to the people\n\nAtmosphere:cozy and {{__BLANK_3__}}\n\nSocial functions:melting any {{__BLANK_4__}}\n\nand warming any {{__BLANK_5__}}"
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "8 years old | injury | many stores | $15 and $100 | shoulder",
+      "explanation": "本题考查根据短文内容提取关键信息的能力。\n1. (46) Purposes: 根据第一段第二句“Until children are 8 years old or 4.9 feet tall...”以及第二段第二句“...for children under the age of 8...”，可知适用于8岁以下的儿童。故填“8 years old”。\n2. (47) Advantages: 根据第一段最后一句“A booster seat makes safety belts fit properly and reduces the risk of injury in a crash.”，可知优点是降低碰撞中受伤的风险。故填“injury”。\n3. (48) Places to buy: 根据第三段第一句“Booster seats are available at many stores.”，可知在很多商店可以买到。故填“many stores”。\n4. (49) Prices: 根据第三段第二句“They cost between $15 and $100 depending on the style.”，可知价格在15到100美元之间。故填“$15 and $100”。\n5. (50) Proper way of use: 根据最后一段“Important:”中的“...with both the car's lap and shoulder belt.”，可知正确使用方式是同时使用腰部和肩部安全带。故填“shoulder”。",
+      "exam": "020_英语_湖北专升本2020年英语真题.json",
+      "exam_title": "湖北专升本2020年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Booster Seats (幼儿保护座椅) are more than a good idea. It is the law. Until children are 8 years old or 4.9 feet tall, they can be too big for a child car seat but too small for a safety belt. A booster seat makes safety belts fit properly and reduces the risk of injury in a crash.\n\nWhich seat should I use? Either a proper-fitting child safety seal or booster seat installed (安装) correctly will meet the requirements of Michigan's new law for children under the age of 8 or not yet 4.9 feet tall. This includes using a booster seat with both a lap (膝部) and shoulder belt.\n\nWhere do I get a booster seat, and how much do they cost? Booster seats are available at many stores. They cost between $15 and $100 depending on the style.\n\nImportant: All booster seats are safest when used in the back seat and with both the car's lap and shoulder belt. Never use a lap belt only.\n\nBooster Seats\n\nPurposes: used for children under {{__BLANK_1__}} or 4.9 feet tall\n\nAdvantages:\n\n1. making safety belts fit properly  \n2. reducing the risk of {{__BLANK_2__}} in a crash\n\nPlaces to buy: available at {{__BLANK_3__}}\n\nPrices: between {{__BLANK_4__}}\n\nProper way of use: with both a lap and {{__BLANK_5__}} belt",
+      "type": "reading_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "20-q6",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "8 years old",
+          "explanation": "1. (46) Purposes: 根据第一段第二句“Until children are 8 years old or 4.9 feet tall...”以及第二段第二句“...for children under the age of 8...”，可知适用于8岁以下的儿童。故填“8 years old”。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "injury",
+          "explanation": "2. (47) Advantages: 根据第一段最后一句“A booster seat makes safety belts fit properly and reduces the risk of injury in a crash.”，可知优点是降低碰撞中受伤的风险。故填“injury”。",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "many stores",
+          "explanation": "3. (48) Places to buy: 根据第三段第一句“Booster seats are available at many stores.”，可知在很多商店可以买到。故填“many stores”。",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "$15 and $100",
+          "explanation": "4. (49) Prices: 根据第三段第二句“They cost between $15 and $100 depending on the style.”，可知价格在15到100美元之间。故填“$15 and $100”。",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "shoulder",
+          "explanation": "5. (50) Proper way of use: 根据最后一段“Important:”中的“...with both the car's lap and shoulder belt.”，可知正确使用方式是同时使用腰部和肩部安全带。故填“shoulder”。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "N | J | M | F | D | B | I | L | G | C",
+      "explanation": "结合上下文语义和固定搭配，该空应选 N。\n\n结合上下文语义和固定搭配，该空应选 J。\n\n结合上下文语义和固定搭配，该空应选 M。\n\n结合上下文语义和固定搭配，该空应选 F。\n\n结合上下文语义和固定搭配，该空应选 D。\n\n结合上下文语义和固定搭配，该空应选 B。\n\n结合上下文语义和固定搭配，该空应选 I。\n\n结合上下文语义和固定搭配，该空应选 L。\n\n结合上下文语义和固定搭配，该空应选 G。\n\n结合上下文语义和固定搭配，该空应选 C。",
+      "exam": "102_英语_河北专升本英语17.json",
+      "exam_title": "河北专升本英语17",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter: Please mark the corresponding letter on the Answer Sheet with a single line through the centre. You may not use any of the words in the bank more than once.\n\nCoconut(椰子)is an unusual food for many reasons. It is one of the largest edible seeds produced by any plant. Its unusual contents also make it 21 in the seed world. It 22 of both “meat” and “water” inside. The coconut meat is the white substance with which we are all familiar, as it is used extensively for cooking and flavorings; the coconut water is a white and sweet liquid\n\nPortuguese (葡萄牙的) explorers gave the nut its name in the 1 5th century, 23 to it as coco, meaning “ghost” in their language. The outside appearance of coconuts 24 them of a ghost’s face, and the tree has had that name ever since.\n\nThe coconut has varied uses. It is used to make various cooking oils for fast-food restaurants around the world to make diet 25 .The coconut fluid is a favorite drink in hot climates, providing a cool and refreshing 26 right off the tree. This is water is also used by manufacturers of various sports drinks. Even the shell itself has many uses, 27 animal food and fertilizer.\n\nYet the coconut is also useful in many ways that have 28 to do with food. Coconut oil is used\n\nfor cosmetics（化妆品） medicines, and so on. Dried coconut shells are used in many countries as a tool for shinning wood floors. The shells are also used for shirt buttons, and are 29 found on Hawaiian clothing. They are even used for musical instruments and bird houses.\n\nAnd all these are only some of the uses found for the coconut fruit. The coconut tree, which produces the nut, also produces many useful things. It’s no 30 that the coconut tree has been taken as “the tree of life”.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空 / 词汇填空",
+      "kind": "material",
+      "group_uid": "102-s4",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. limits",
+        "D. materials",
+        "G. commonly",
+        "J. consists",
+        "M. referring",
+        "B. beverage",
+        "E. some",
+        "H. meaning",
+        "K. chance",
+        "N. unique",
+        "C. wonder",
+        "F. reminded",
+        "I. including",
+        "L. nothing",
+        "O. spirit"
+      ],
+      "directions": "Directions: Read the passage and select one word for each blank from the word bank.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "{{__BLANK_21__}}",
+          "answer": "N",
+          "explanation": "结合上下文语义和固定搭配，该空应选 N。",
+          "options": []
+        },
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "{{__BLANK_22__}}",
+          "answer": "J",
+          "explanation": "结合上下文语义和固定搭配，该空应选 J。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "{{__BLANK_23__}}",
+          "answer": "M",
+          "explanation": "结合上下文语义和固定搭配，该空应选 M。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "{{__BLANK_24__}}",
+          "answer": "F",
+          "explanation": "结合上下文语义和固定搭配，该空应选 F。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "{{__BLANK_25__}}",
+          "answer": "D",
+          "explanation": "结合上下文语义和固定搭配，该空应选 D。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "{{__BLANK_26__}}",
+          "answer": "B",
+          "explanation": "结合上下文语义和固定搭配，该空应选 B。",
+          "options": []
+        },
+        {
+          "no": 27,
+          "placeholder": null,
+          "stem": "{{__BLANK_27__}}",
+          "answer": "I",
+          "explanation": "结合上下文语义和固定搭配，该空应选 I。",
+          "options": []
+        },
+        {
+          "no": 28,
+          "placeholder": null,
+          "stem": "{{__BLANK_28__}}",
+          "answer": "L",
+          "explanation": "结合上下文语义和固定搭配，该空应选 L。",
+          "options": []
+        },
+        {
+          "no": 29,
+          "placeholder": null,
+          "stem": "{{__BLANK_29__}}",
+          "answer": "G",
+          "explanation": "结合上下文语义和固定搭配，该空应选 G。",
+          "options": []
+        },
+        {
+          "no": 30,
+          "placeholder": null,
+          "stem": "{{__BLANK_30__}}",
+          "answer": "C",
+          "explanation": "结合上下文语义和固定搭配，该空应选 C。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "must | physical | encourage | unstructured | work | disappearing | food | stay | small | bother",
+      "explanation": "原文是 `play is not an option, but a must`，因此答案为 `must`。\n\n原文明确提到 `develop both physical and social skills`。\n\n文章最后一段说父母应 `encourage their kids to do free play`。\n\n文中说明 free play 一方面不花钱，另一方面是 `unstructured`。\n\n原文是 `by working with others`，概括后填 `work`。\n\n原文直接说 `giraffes are quietly disappearing`。\n\nacacia trees 是长颈鹿最喜欢的食物，因此此处填 `food`。\n\n原文句子为 `they cannot stay on for long`。\n\n原文描述 tracking devices `are as small as a chocolate bar`。\n\n原文说这些设备 `do not bother giraffes much`。",
+      "exam": "112_英语_湖北2024.json",
+      "exam_title": "湖北2024",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "### Passage 1\n\nOne of the most important gifts parents can give their kids is time to play. Finding time to play with kids can be a challenge if parents are busy. But play is not an option, but a must. It is so important to child development that it has been recognized by the Office of the United Nations High Commissioner for Human Rights as a right of every child.\n\nScientists say 75 percent of the brain develops after a baby is born, in the years between birth and the early 20s. Play in childhood motivates the brain to make connections between neurons (神经元). Play during the teen years and into adulthood helps the brain develop even more connectivity. This helps a child or a teenager develop both physical and social skills. Besides, play can also help to increase emotional well-being.\n\nStudies have shown that kids who are encouraged to use their imagination are more creative in their adult life. So it is wise for parents to shut down the screens and encourage their kids to do free play. Free play costs parents nothing but offers kids everything. Throw a sheet over the table to make a lovely tent; hand out paper plates and challenge everyone to make a funny hat; play hide-and-seek with the little ones, etc. All the free play is unstructured, but it makes kids learn important social skills by working with others.\n\n### Passage 2\n\nThe number of giraffes is becoming smaller across Africa, according to the Giraffe Conservation Foundation (CCF). The total population has dropped by 40 percent in the last 15 years. The CCF is the only non-governmental organization (NGO) in the world to focus solely on the conservation of giraffes in Africa and is pioneering a sustainable future for this mammal. According to a study, giraffes are quietly disappearing because it is difficult for them to find acacia trees, their favourite food.\n\nWork towards their conservation is more important now than it has ever been. And more and more giraffes are also being hunted. Because of this, the CCF decided to work with African parks. These parks are very important for keeping Nubian giraffes safe. GPS collars were used to keep an eye on giraffes but they cannot stay on for long.\n\nTo solve this problem, new tracking devices which are as small as a chocolate bar, solar-powered and do not bother giraffes much are used to stop illegal hunting and keep giraffes safe.",
+      "type": "reading_fill",
+      "type_raw": "阅读填词",
+      "kind": "material",
+      "group_uid": "112-s2",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "根据文章内容完成填空，每空填 1 个词。",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 17,
+          "placeholder": "b17",
+          "stem": "Giving our kids time to play is not a choice but a {{__BLANK_17__}}.",
+          "answer": "must",
+          "explanation": "原文是 `play is not an option, but a must`，因此答案为 `must`。"
+        },
+        {
+          "no": 18,
+          "placeholder": "b18",
+          "stem": "Play is important to the {{__BLANK_18__}} skills, social skills, and emotional well-being of children and the youth.",
+          "answer": "physical",
+          "explanation": "原文明确提到 `develop both physical and social skills`。"
+        },
+        {
+          "no": 19,
+          "placeholder": "b19",
+          "stem": "Parents should {{__BLANK_19__}} free play.",
+          "answer": "encourage",
+          "explanation": "文章最后一段说父母应 `encourage their kids to do free play`。"
+        },
+        {
+          "no": 20,
+          "placeholder": "b20",
+          "stem": "The word \"free\" means both \"{{__BLANK_20__}}\" and \"with no cost\".",
+          "answer": "unstructured",
+          "explanation": "文中说明 free play 一方面不花钱，另一方面是 `unstructured`。"
+        },
+        {
+          "no": 21,
+          "placeholder": "b21",
+          "stem": "Free play enables kids to {{__BLANK_21__}} with others and learn important social skills.",
+          "answer": "work",
+          "explanation": "原文是 `by working with others`，概括后填 `work`。"
+        },
+        {
+          "no": 22,
+          "placeholder": "b22",
+          "stem": "Giraffes are quietly {{__BLANK_22__}}.",
+          "answer": "disappearing",
+          "explanation": "原文直接说 `giraffes are quietly disappearing`。"
+        },
+        {
+          "no": 23,
+          "placeholder": "b23",
+          "stem": "Their favourite {{__BLANK_23__}} is difficult to find.",
+          "answer": "food",
+          "explanation": "acacia trees 是长颈鹿最喜欢的食物，因此此处填 `food`。"
+        },
+        {
+          "no": 24,
+          "placeholder": "b24",
+          "stem": "GPS collars were used to keep an eye on giraffes but they cannot {{__BLANK_24__}} on for long.",
+          "answer": "stay",
+          "explanation": "原文句子为 `they cannot stay on for long`。"
+        },
+        {
+          "no": 25,
+          "placeholder": "b25",
+          "stem": "New tracking devices are as {{__BLANK_25__}} as a chocolate bar.",
+          "answer": "small",
+          "explanation": "原文描述 tracking devices `are as small as a chocolate bar`。"
+        },
+        {
+          "no": 26,
+          "placeholder": "b26",
+          "stem": "New tracking devices do not {{__BLANK_26__}} giraffes much.",
+          "answer": "bother",
+          "explanation": "原文说这些设备 `do not bother giraffes much`。"
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "something valuable | small | at present | enlist | duty",
+      "explanation": "首段原文就是 `If you have something valuable in mind`，因此答案为 `something valuable`。\n\n第三段明确指出 `everything starts from small things`，故填 `small`。\n\n原文说 `it doesn't matter where you are at present`，答案为 `at present`。\n\n第四段使用祈使句 `Enlist people who are better than you`，故填 `enlist`。\n\n倒数第二段说 `it is a human duty to think and act big`，概括后填 `duty`。",
+      "exam": "113_英语_湖北2023.json",
+      "exam_title": "湖北2023",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "If you have something valuable in mind, a service to offer, or an idea to develop, then you should tell it to other people to widen its scope. Why not make full use of it?\n\nThe fact is that, when you have enough vision, you may have the courage. And then you simply have to pursue it, however crazy it might seem to others.\n\nRemember that everything starts from small things: Rome was not built in a day. Scientists say that everything in the universe comes from a smaller unit than you can possibly assume, so it doesn't matter where you are at present, because small beginnings become great things at last.\n\nThink big by enlisting others: To think big, you need to see yourself as a small part of a greater whole. Enlist people who are better than you. If you're not the most organized person, don't just be unhappy about it. You should find someone who is better.\n\nBig thinkers know their personal limitations. Gather people who can do what you can't do around you to make sure your dream will come true.\n\nThink big by focusing on future regrets: There is an old saying, \"We regret not the things we did do, but the things we didn't do.\" You'll never know how far it could go unless you see how far you can take something.\n\nIf you have big plans, just close your eyes. And strongly imagine how regretful you will be if you don't try or attempt properly.\n\nFeel that it is your human duty to think big: When something is probably of real service to mankind, then it is a human duty to think and act big. Even if you don't succeed at last, it is still valuable to think big.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "113-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Read the passage and complete the outline below it. Write your answers briefly in no more than three words.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 46,
+          "placeholder": null,
+          "stem": "Outline:\n\nIf you have {{__BLANK_46__}} in mind, you should make full use of it.",
+          "answer": "something valuable",
+          "explanation": "首段原文就是 `If you have something valuable in mind`，因此答案为 `something valuable`。",
+          "options": []
+        },
+        {
+          "no": 47,
+          "placeholder": null,
+          "stem": "How to train yourself to think big:\n\nRemember that every big thing starts from a(n) {{__BLANK_47__}} one.",
+          "answer": "small",
+          "explanation": "第三段明确指出 `everything starts from small things`，故填 `small`。",
+          "options": []
+        },
+        {
+          "no": 48,
+          "placeholder": null,
+          "stem": "It is not important where you are {{__BLANK_48__}}.",
+          "answer": "at present",
+          "explanation": "原文说 `it doesn't matter where you are at present`，答案为 `at present`。",
+          "options": []
+        },
+        {
+          "no": 49,
+          "placeholder": null,
+          "stem": "See yourself as a small part of a greater whole.\n\nYou should {{__BLANK_49__}} better people around you to make sure of the realization of your dream.",
+          "answer": "enlist",
+          "explanation": "第四段使用祈使句 `Enlist people who are better than you`，故填 `enlist`。",
+          "options": []
+        },
+        {
+          "no": 50,
+          "placeholder": null,
+          "stem": "If you don't try, you will never know how far your idea could go.\n\nImagine how much regret you will have if you give up your big plans.\n\nIt is your {{__BLANK_50__}} to think big and it is worth trying.",
+          "answer": "duty",
+          "explanation": "倒数第二段说 `it is a human duty to think and act big`，概括后填 `duty`。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "natural selection | medicine | natural history | basis | evolution",
+      "explanation": "The first paragraph states that Darwin explained evolution by `natural selection`, which is the required phrase.\n\nThe second paragraph says Darwin went to Edinburgh University to study `medicine`.\n\nThe third paragraph says Darwin discovered his love of `natural history` at Cambridge.\n\nThe passage says the five-year voyage provided the `basis` for his future ideas and writings.\n\nThe last paragraph says *The Descent of Man* applied his ideas to explaining the `evolution` of humans.",
+      "exam": "114_英语_湖北2022.json",
+      "exam_title": "湖北2022",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Charles Darwin (1809-1882) was one of the most influential scientists of all time. His theory of evolution by natural selection explained how life on Earth developed, and is the basic concept upon which the life sciences are built.\n\nDarwin's father was a doctor. On leaving school, Darwin followed in his father's footsteps and went to Edinburgh University to study medicine. However, he gave up because he hated the sight of blood. He then went to the University of Cambridge, intending to work in a church.\n\nDarwin discovered his love of natural history at Cambridge, where he spent much of his time collecting insects. He graduated in 1831 and accepted a place as a naturalist on board the Beagle. The ship's five-year voyage proved to be the most important period in Darwin's life, providing the basis for his future ideas and writings.\n\nHe returned to England in 1836 and published an account of his travels, which made him famous. He began to develop his theory of natural selection and published his revolutionary book On the Origin of Species in 1859. This was followed by The Descent of Man in 1871, in which he applied his ideas to explaining the evolution of humans.\n\n# Charles Darwin\n\nHis theory of evolution by {{__BLANK_46__}} is a basic concept of the life sciences.\n\nHe studied {{__BLANK_47__}} at Edinburgh University after leaving school.\n\nHe discovered his love of {{__BLANK_48__}} at Cambridge.\n\nThe five-year voyage provided the {{__BLANK_49__}} for his future ideas and writings.\n\nHe applied his ideas in *The Descent of Man* to explaining the {{__BLANK_50__}} of humans.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "114-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There is one passage in this section. Read the passage and fill in each blank (No. 46 to No. 50) with no more than three words. Write your answers in the corresponding space on the Answer Sheet.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 46,
+          "placeholder": null,
+          "stem": "",
+          "answer": "natural selection",
+          "explanation": "The first paragraph states that Darwin explained evolution by `natural selection`, which is the required phrase.",
+          "options": []
+        },
+        {
+          "no": 47,
+          "placeholder": null,
+          "stem": "",
+          "answer": "medicine",
+          "explanation": "The second paragraph says Darwin went to Edinburgh University to study `medicine`.",
+          "options": []
+        },
+        {
+          "no": 48,
+          "placeholder": null,
+          "stem": "",
+          "answer": "natural history",
+          "explanation": "The third paragraph says Darwin discovered his love of `natural history` at Cambridge.",
+          "options": []
+        },
+        {
+          "no": 49,
+          "placeholder": null,
+          "stem": "",
+          "answer": "basis",
+          "explanation": "The passage says the five-year voyage provided the `basis` for his future ideas and writings.",
+          "options": []
+        },
+        {
+          "no": 50,
+          "placeholder": null,
+          "stem": "",
+          "answer": "evolution",
+          "explanation": "The last paragraph says *The Descent of Man* applied his ideas to explaining the `evolution` of humans.",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "ingredient | number | warm | icy disagreement | heart",
+      "explanation": "原文是 put in any ingredient that you like，空格位于 any 后面，应填 ingredient。\n\n原文是 The same pot can serve any number of different meals，固定搭配 any number of。\n\n原文对应 cozy, warm atmosphere，应填 warm。\n\n原文是 melt just about any icy disagreement，且题目要求不超过三个词。\n\n原文是 warm just about any heart，空格前已有 any，因此只填 heart。",
+      "exam": "115_英语_湖北2021.json",
+      "exam_title": "湖北2021",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Passage 5\n\nWhy is hot pot so popular in China? It shows the Chinese cultural values of openness and sharing. With a hot pot, you can put in any ingredient that you like: vegetables as well as meat. The same pot can serve any number of different meals to the people sitting around the table. No one is left out, and everyone gets to eat as much - or as little - as they want.\n\nHot pot creates a cozy, warm atmosphere and really brings people together as you sit around a pot, cooking, eating, talking, and relaxing. The food is important but also important are the feels. In China, people like to joke that there is no problem that a hot pot can't solve. The fire from the hot pot can melt just about any icy disagreement and warm just about any heart. Over a hot pot people can talk and share not just food, but friendship. While the food may soon be forgotten, these friendships stay with us forever.\n\nPopularity of hot Pot\n\nCultural values:\n\n(1) Openness: putting in any {{__BLANK_46__}} that you like\n(2) Sharing: serving any {{__BLANK_47__}} of different meals to the people\n\nAtmosphere: cozy and {{__BLANK_48__}}\n\nSocial functions: melting any {{__BLANK_49__}} and warming any {{__BLANK_50__}}",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "115-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "There is one passage in this section. Read the passage and fill in each blank (No.46 to No.50) with no more than three words. Write your answers in the corresponding space on the Answer Sheet.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 46,
+          "placeholder": null,
+          "stem": "",
+          "answer": "ingredient",
+          "explanation": "原文是 put in any ingredient that you like，空格位于 any 后面，应填 ingredient。",
+          "options": []
+        },
+        {
+          "no": 47,
+          "placeholder": null,
+          "stem": "",
+          "answer": "number",
+          "explanation": "原文是 The same pot can serve any number of different meals，固定搭配 any number of。",
+          "options": []
+        },
+        {
+          "no": 48,
+          "placeholder": null,
+          "stem": "",
+          "answer": "warm",
+          "explanation": "原文对应 cozy, warm atmosphere，应填 warm。",
+          "options": []
+        },
+        {
+          "no": 49,
+          "placeholder": null,
+          "stem": "",
+          "answer": "icy disagreement",
+          "explanation": "原文是 melt just about any icy disagreement，且题目要求不超过三个词。",
+          "options": []
+        },
+        {
+          "no": 50,
+          "placeholder": null,
+          "stem": "",
+          "answer": "heart",
+          "explanation": "原文是 warm just about any heart，空格前已有 any，因此只填 heart。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "wrong | asking | polite | immigration | grow",
+      "explanation": "根据文章“What the studies Found”部分第一句 “A survey of 1,912 people found that we often guess other's feelings wrong.” 可知，此处应填入 `wrong`。\n\n根据文章“Easy steps to try”部分列出的第一个要点 “Asking questions” 可知，此处应填入 `asking`。\n\n根据文章“Easy steps to try”部分列出的第三个要点 “Being polite” 可知，此处应填入 `polite`。\n\n根据文章“Telling stories”部分第二句 “In the 2018 US elections, volunteers talked to voters about immigration.” 可知，此处应填入 `immigration`。\n\n根据文章最后一段末句 “...we turn differences into chances to grow.” 可知，此处应填入 `grow`。",
+      "exam": "014_英语_湖北专升本2025年英语真题.json",
+      "exam_title": "湖北专升本2025年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "根据文章内容填空,每空1个词\n\nWhen people disagree, it can be hard to find common ground. Research on how people handle differences has uncovered useful ways to make communication better.\n\nWhat the studies Found\n\nA survey of 1,912 people found that we often guess other's feelings wrong. For example, we often think that others want to argue, but the fact is that they just want to learn. This proves that most people are more open than we think.\n\nEasy steps to try\n\nAsking questions: can you tell me why you feel that way! Asking a question like this makes other feel more willing to share their ideas. In a Stanford test, this simple question helped  40% more people listen to different ideas.  \nTelling stories: sharing your life stories works very well. In the 2018 US elections, volunteers talked to voters about immigration. Those who shared both personal stories and facts changed  5%  more voters' minds in just 11 minutes.  \nBeing polite: Being rude makes people stop listening, staying calm and kind helps other understand your ideas. Remember: Being polite costs nothing but wins everything.\n\nThe Final Thought: As a famous thinker said, different opinions aren't just noise, they're teachers. By asking questions, sharing stories, and being polite, we turn differences into chances to grow.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "14-q4",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": "4_sub_0",
+          "placeholder": null,
+          "stem": "Finding: A survey of 1912 people found that we often guess other's feeling {{__BLANK_1__}}.",
+          "answer": "wrong",
+          "explanation": "根据文章“What the studies Found”部分第一句 “A survey of 1,912 people found that we often guess other's feelings wrong.” 可知，此处应填入 `wrong`。",
+          "options": []
+        },
+        {
+          "no": "4_sub_1",
+          "placeholder": null,
+          "stem": "Solutions: The three easy steps to try include {{__BLANK_1__}} questions, telling stories and being polite.",
+          "answer": "asking",
+          "explanation": "根据文章“Easy steps to try”部分列出的第一个要点 “Asking questions” 可知，此处应填入 `asking`。",
+          "options": []
+        },
+        {
+          "no": "4_sub_2",
+          "placeholder": null,
+          "stem": "Solutions: The three easy steps to try include asking questions, telling stories and being {{__BLANK_1__}}.",
+          "answer": "polite",
+          "explanation": "根据文章“Easy steps to try”部分列出的第三个要点 “Being polite” 可知，此处应填入 `polite`。",
+          "options": []
+        },
+        {
+          "no": "4_sub_3",
+          "placeholder": null,
+          "stem": "Example: Volunteers who shared both personal stories and facts changed  $5\\%$  more voters' minds about {{__BLANK_1__}}.",
+          "answer": "immigration",
+          "explanation": "根据文章“Telling stories”部分第二句 “In the 2018 US elections, volunteers talked to voters about immigration.” 可知，此处应填入 `immigration`。",
+          "options": []
+        },
+        {
+          "no": "4_sub_4",
+          "placeholder": null,
+          "stem": "Final thought: Since different opinions are teachers, we can turn differences into chances to {{__BLANK_1__}}.",
+          "answer": "grow",
+          "explanation": "根据文章最后一段末句 “...we turn differences into chances to grow.” 可知，此处应填入 `grow`。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "must | physical | encourage | unstructured | work",
+      "explanation": "对应原文第一段：\"But play isn't an option, but a must.\"\n\n对应原文第二段：\"This helps a child or a teenager develop both physical and social skills.\"\n\n对应原文第三段：\"...encourage their kids to do free play.\"\n\n对应原文第三段最后一句：\"All the free play is unstructured...\"\n\n对应原文最后一句：\"...makes kids learn important social skills by working with others.\"",
+      "exam": "015_英语_湖北专升本2024年英语真题.json",
+      "exam_title": "湖北专升本2024年英语真题",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "One of the most important gifts parents can give their kids is time to play. Finding time to play with kids can\nbe a challenge if parents are busy. But play isn't an option, but a must. It's so important to child development that it has been recognized by the Office of the United Nations High Commissioner for Human Rights as a right of every child.\n\nScientists say 75 percent of the brain develops after a baby is born, in the years between birth and the early 20s. Play in childhood motivates the brain to make connections between neurons (神经元). Play during the teen years and into adulthood helps the brain develop even more connectivity. This helps a child or a teenager develop both physical and social skills. Besides, play can also help to increase the emotional well-being.\n\nStudies have shown that kids who are encouraged to use their imagination are more creative in their adult life. So it's wise for parents to shut down the screens and encourage their kids to do free play. Free play costs parents nothing but offers kids everything. Throw a sheet over the table to make a lovely tent; hand out paper plates and challenge everyone to make a funny hat; play hide-and-seek with the little ones, etc. All the free play is unstructured, but it makes kids learn important social skills by working with others.",
+      "type": "reading_fill",
+      "type_raw": "阅读填词",
+      "kind": "material",
+      "group_uid": "15-q3",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": "3_sub_0",
+          "placeholder": null,
+          "stem": "Kids Need Free Play\nWho: Giving our kids time to play is not a choice but a {{__BLANK_1__}}",
+          "answer": "must",
+          "explanation": "对应原文第一段：\"But play isn't an option, but a must.\"",
+          "options": []
+        },
+        {
+          "no": "3_sub_1",
+          "placeholder": null,
+          "stem": "Why: Play is important to the {{__BLANK_1__}} skills, social skills, and emotional well-being of children and the youth.",
+          "answer": "physical",
+          "explanation": "对应原文第二段：\"This helps a child or a teenager develop both physical and social skills.\"",
+          "options": []
+        },
+        {
+          "no": "3_sub_2",
+          "placeholder": null,
+          "stem": "What: Parents should {{__BLANK_1__}} free play.",
+          "answer": "encourage",
+          "explanation": "对应原文第三段：\"...encourage their kids to do free play.\"",
+          "options": []
+        },
+        {
+          "no": "3_sub_3",
+          "placeholder": null,
+          "stem": "The word \"free\" means both \"{{__BLANK_1__}}\" and \"with no cost\".",
+          "answer": "unstructured",
+          "explanation": "对应原文第三段最后一句：\"All the free play is unstructured...\"",
+          "options": []
+        },
+        {
+          "no": "3_sub_4",
+          "placeholder": null,
+          "stem": "Why: Free play enables kids to {{__BLANK_1__}} with others and learn important social skills.",
+          "answer": "work",
+          "explanation": "对应原文最后一句：\"...makes kids learn important social skills by working with others.\"",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "wrong | asking | polite | immigration | grow",
+      "explanation": "原文是 we often guess other's feelings wrong，所以答案填 wrong。\n\n列表第一项是 Asking questions，空前 include 后与后面的 telling、being 并列，因此填 asking。\n\n第三个建议是 Being polite，空前是系动词 being，因此填形容词 polite。\n\n原文提到 volunteers talked to voters about immigration，因此答案是 immigration。\n\n结尾句原文是 turn differences into chances to grow，因此填 grow。",
+      "exam": "111_英语_湖北2025.json",
+      "exam_title": "湖北2025",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Passage 2\n\nWhen people disagree, it can be hard to find common ground. Research on how people handle differences has uncovered useful ways to make communication better.\n\nWhat the studies Found\n\nA survey of 1,912 people found that we often guess other's feelings wrong. For example, we often think that others want to argue, but the fact is that they just want to learn. This proves that most people are more open than we think.\n\nEasy steps to try\n\n- Asking questions: can you tell me why you feel that way! Asking a question like this makes other feel more willing to share their ideas. In a Stanford test, this simple question helped $40\\%$ more people listen to different ideas.\n- Telling stories: sharing your life stories works very well. In the 2018 US elections, volunteers talked to voters about immigration. Those who shared both personal stories and facts changed $5\\%$ more voters' minds in just 11 minutes.\n- Being polite: Being rude makes people stop listening, staying calm and kind helps other understand your ideas. Remember: Being polite costs nothing but wins everything.\n\nThe Final Thought: As a famous thinker said, different opinions aren't just noise, they're teachers. By asking questions, sharing stories, and being polite, we turn differences into chances to grow.\n\nHow to Deal with Disagreements\n\nFinding: A survey of 1912 people found that we often guess other's feeling {{__BLANK_22__}}.\nSolutions: The three easy steps to try include {{__BLANK_23__}} questions, telling stories and being {{__BLANK_24__}}.\nExample: Volunteers who shared both personal stories and facts changed $5\\%$ more voters' minds about {{__BLANK_25__}}.\nFinal thought: Since different opinions are teachers, we can turn differences into chances to {{__BLANK_26__}}.",
+      "type": "reading_fill",
+      "type_raw": "阅读填空",
+      "kind": "material",
+      "group_uid": "111-s3",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "根据文章内容填空，每空 1 个词。",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "",
+          "answer": "wrong",
+          "explanation": "原文是 we often guess other's feelings wrong，所以答案填 wrong。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "",
+          "answer": "asking",
+          "explanation": "列表第一项是 Asking questions，空前 include 后与后面的 telling、being 并列，因此填 asking。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "",
+          "answer": "polite",
+          "explanation": "第三个建议是 Being polite，空前是系动词 being，因此填形容词 polite。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "",
+          "answer": "immigration",
+          "explanation": "原文提到 volunteers talked to voters about immigration，因此答案是 immigration。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "",
+          "answer": "grow",
+          "explanation": "结尾句原文是 turn differences into chances to grow，因此填 grow。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "Western | technology | using technology | technology tools | patience | support | family members",
+      "explanation": "原文明确写到该职业最早出现在 Western countries，所以答案为 Western。\n\n根据题干对 pet detective 工作方式的概括，空格处对应 tracking 和 search dogs 之间的另一种寻找手段，可概括为 technology。\n\n原文说最长一次寻找持续了六天，并指出这说明宠物侦探也需要 patience。\n\n最后一段直接写到这些侦探会给宠物主人 emotional support。\n\n结合文章语境可知，如今人们对宠物的情感投入更深，宠物被视作 family members。",
+      "exam": "128_英语_湖北2026.json",
+      "exam_title": "湖北2026",
+      "trust": "official_exam",
+      "knowledge_point": "E-T03 阅读填空；E-S07 阅读填空·信息提取",
+      "material": "Passage 1\n\nWhen a cat named Tiantian went missing in Beijing last year, its owner turned to a pet detective for help.\n\nThe profession first appeared in Western countries about twenty years ago, but it came into being in China only recently.\n\nPet detectives find lost pets by using skills like tracking, technology and even search dogs.\n\nThe job requires more than just skills. One detective told the reporter that his longest search lasted six days. He walked through the city for hours each day until he finally found the missing dog behind a factory building. This shows that to be a pet detective, one also needs patience.\n\nFor pet owners, these detectives give them emotional support. When a pet goes missing, the owners often feel helpless and worried. Having someone who knows what to do gives them hope.\n\nToday, many people regard their pets as family members.",
+      "type": "reading_fill",
+      "type_raw": "阅读填词",
+      "kind": "material",
+      "group_uid": "128-s2",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "阅读短文并根据内容完成信息填空。",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 17,
+          "placeholder": null,
+          "stem": "With its first appearance in {{__BLANK_17__}} countries about twenty years ago, the profession came into being in China only recently.",
+          "answer": "Western",
+          "explanation": "原文明确写到该职业最早出现在 Western countries，所以答案为 Western。",
+          "options": []
+        },
+        {
+          "no": 18,
+          "placeholder": null,
+          "stem": "Duty: The job is to find lost pets using skills like tracking, {{__BLANK_18__}} and even using search dogs.",
+          "answer": "technology | using technology | technology tools",
+          "explanation": "根据题干对 pet detective 工作方式的概括，空格处对应 tracking 和 search dogs 之间的另一种寻找手段，可概括为 technology。",
+          "options": []
+        },
+        {
+          "no": 19,
+          "placeholder": null,
+          "stem": "A Real Case: One search lasted six days, showing that pet detectives should have {{__BLANK_19__}}.",
+          "answer": "patience",
+          "explanation": "原文说最长一次寻找持续了六天，并指出这说明宠物侦探也需要 patience。",
+          "options": []
+        },
+        {
+          "no": 20,
+          "placeholder": null,
+          "stem": "From pet detectives, the owners can get emotional {{__BLANK_20__}}.",
+          "answer": "support",
+          "explanation": "最后一段直接写到这些侦探会给宠物主人 emotional support。",
+          "options": []
+        },
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "Pets are now regarded as {{__BLANK_21__}}.",
+          "answer": "family members",
+          "explanation": "结合文章语境可知，如今人们对宠物的情感投入更深，宠物被视作 family members。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T03",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[reading_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    }
+  ]
+}

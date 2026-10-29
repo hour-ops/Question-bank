@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 知识库</title>
+<link rel="stylesheet" href="/static/css/app.css">
+<style>
+  .kb-tabs { display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 12px; }
+  .kb-tab { border:1px solid var(--line); border-radius:999px; padding:5px 14px; font-size:13.5px;
+            background:#fff; color:#223; text-decoration:none; }
+  .kb-tab.on { background:var(--primary); border-color:var(--primary); color:#fff; font-weight:600; }
+  .kb-kpis { display:flex; gap:22px; flex-wrap:wrap; margin:8px 0 4px; }
+  .kb-kpi b { font-size:19px; color:#12325C; }
+  .kb-kpi span { font-size:12.5px; color:#6b7280; display:block; }
+  .kb-list { max-height:520px; overflow:auto; margin:0; padding:0; list-style:none; }
+  .kb-list li { border-bottom:1px dashed #e5e9f0; }
+  .kb-list a { display:flex; justify-content:space-between; gap:8px; padding:6px 2px;
+               text-decoration:none; color:#223; font-size:13.5px; }
+  .kb-list a:hover { background:#F3F7FD; }
+  .kb-list .n { color:#8a93a3; font-size:12px; white-space:nowrap; }
+  .kb-list .par { color:#8a93a3; font-size:11.5px; margin-left:6px; }
+  .kb-chunk { border:1px solid var(--line); border-radius:8px; padding:10px 13px; margin-bottom:10px;
+              background:#fff; font-size:13.5px; line-height:1.75; }
+  .kb-chunk .src { color:#8a93a3; font-size:12px; margin-bottom:4px; }
+  .kb-chunk .body { white-space:pre-wrap; word-break:break-word; }
+  .kb-grid { display:grid; grid-template-columns: 1fr 1.35fr; gap:16px; }
+  @media (max-width: 1000px) { .kb-grid { grid-template-columns: 1fr; } }
+  .kb-search { display:flex; gap:8px; align-items:center; }
+  .kb-search input[type=text] { flex:1 1 260px; }
+</style>
+</head>
+<body data-page="kb" data-subject="{{ subject }}">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">知识库</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb" class="active">知识库</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <h1>知识库 <span class="muted small">每个科目一个独立库文件，检索绝不跨科目</span></h1>
+    <div class="kb-tabs">
+      {% for s in nav.subjects %}
+      <a class="kb-tab {% if s.key == subject %}on{% endif %}" href="/kb?subject={{ s.key }}">{{ s.name }}</a>
+      {% endfor %}
+    </div>
+    <form class="kb-search" method="get" action="/kb">
+      <input type="hidden" name="subject" value="{{ subject }}">
+      {% if kp %}<input type="hidden" name="kp" value="{{ kp }}">{% endif %}
+      <input type="text" name="q" value="{{ q }}" placeholder="在「{{ subject_labels.get(subject, subject) }}」里搜知识点 / 例题 / 教材章节…">
+      <button class="btn btn-primary" type="submit">检索</button>
+      {% if q or kp %}<a class="btn" href="/kb?subject={{ subject }}">清空</a>{% endif %}
+    </form>
+    {% if stats %}
+    <div class="kb-kpis">
+      <div class="kb-kpi"><b>{{ stats.docs }}</b><span>文档</span></div>
+      <div class="kb-kpi"><b>{{ stats.chunks }}</b><span>材料块</span></div>
+      <div class="kb-kpi"><b>{{ stats.chars }}</b><span>总字数</span></div>
+      <div class="kb-kpi"><b>{{ stats.kp }}</b><span>知识点</span></div>
+    </div>
+    {% endif %}
+    {% if error %}<p class="err-text">{{ error }}</p>{% endif %}
+    <div class="kb-tip">
+      <b>怎么用这个知识库（特色功能）</b>
+      <ul>
+        <li><b>检索要“具体”</b>：搜「RAG 的重排序」比搜「关系」准得多——切块按考纲小节做，
+            命中后显示「章 › 节 › 小节」路径，点开就是该知识点的完整上下文。</li>
+        <li><b>回答只依据命中块</b>：生题 / 判分调用大模型时，把检索到的块作为<b>唯一依据</b>喂进去；
+            命中块里没有的内容不补、不编（宁可不答）。</li>
+        <li><b>返回 0 块 = 确实没收录</b>，不是“没搜到”：先去「设置 → 知识库」把对应教材/资料入库，再问。</li>
+        <li><b>填了 API Key 之后</b>：可在题目页对当前题提问，系统先检索本库再回答，并标出引用的「章 › 节」，
+            方便回原文核对——这就是“不会出现幻觉”的用法。</li>
+      </ul>
+    </div>
+  </section>
+
+  {% if searched %}
+  <section class="card">
+    <h1>检索「{{ q }}」 <span class="muted small">命中 {{ searched|length }} 块</span></h1>
+    {% for r in searched %}
+    <div class="kb-chunk">
+      <div class="src">{{ r.title }}{% if r.heading %} · {{ r.heading }}{% endif %}</div>
+      <div class="body">{{ r.text[:600] }}{% if r.text|length > 600 %}…{% endif %}</div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <div class="kb-grid">
+    <section class="card">
+      <h1>知识点 <span class="muted small">{{ kps|length }} 个（点进去看该点的全部材料）</span></h1>
+      <ul class="kb-list">
+        {% for k in kps %}
+        <li>
+          <a href="/kb?subject={{ subject }}&kp={{ k.name|urlencode }}">
+            <span>{{ k.name }}{% if k.parent %}<span class="par">· {{ k.parent }}</span>{% endif %}</span>
+            <span class="n">{{ k.n }} 块</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="card">
+      {% if kp %}
+      <h1>知识点：{{ kp }} <span class="muted small">{{ chunks|length }} 块材料</span></h1>
+      {% if chunks %}
+        {% for c in chunks %}
+        <div class="kb-chunk">
+          <div class="src">{{ c.title }}{% if c.heading %} · {{ c.heading }}{% endif %}</div>
+          <div class="body">{{ c.text[:700] }}{% if c.text|length > 700 %}…{% endif %}</div>
+        </div>
+        {% endfor %}
+      {% else %}
+        <p class="muted">这个知识点下还没有挂材料。用 <code>scripts/kb.py add --kp "{{ kp }}"</code> 或
+          <code>kb.py kp --add</code> 添加。</p>
+      {% endif %}
+      {% else %}
+      <h1>文档来源 <span class="muted small">{{ docs|length }} 份</span></h1>
+      <ul class="kb-list">
+        {% for d in docs %}
+        <li><a href="/kb?subject={{ subject }}&q={{ d.title|urlencode }}">
+          <span>{{ d.title }}</span><span class="n">{{ d.kind or '—' }} · {{ d.n }} 块</span></a></li>
+        {% endfor %}
+      </ul>
+      <p class="muted small" style="margin-top:12px">
+        添加材料：<code>python scripts/kb.py add --subject {{ subject }} --file &lt;文件&gt; --title &lt;标题&gt; --kind &lt;guide/textbook/syllabus&gt;</code><br>
+        新增知识点：<code>python scripts/kb.py kp --subject {{ subject }} --add "新知识点" --parent "父知识点"</code><br>
+        给脚本用：<code>GET /api/kb/search?subject={{ subject }}&amp;q=关键词</code>（只搜本科目）
+      </p>
+      {% endif %}
+    </section>
+  </div>
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2116 @@
+{
+ "id": 111,
+ "title": "湖北2025",
+ "subject": "英语",
+ "createTime": "2026-04-07 10:24:58",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "2025年湖北省普通高等学校专升本英语",
+   "subject": "英语",
+   "province": "湖北",
+   "year": 2025,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "4a3007b6-398e-4e18-8796-47dd6abd17dd"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "cloze",
+    "displayName": "语法填空",
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "阅读下面短文，在题号(第1-10题)空白处填入括号内提示词的正确形式，若无提示词则填入一个适当的单词，并将答案写在答题卡相应题号后的横线上。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Chinese architect, Liu Jiakun, won the 2025 Pritzker Architecture Prize on the 4th of March. This is the "
+       },
+       {
+        "type": "blank",
+        "key": "b1",
+        "placeholder": "1"
+       },
+       {
+        "type": "markdown",
+        "value": " (big) award of all in architecture. He is the second person from China to win it.\n\nLiu lives in Chengdu and has worked "
+       },
+       {
+        "type": "blank",
+        "key": "b2",
+        "placeholder": "2"
+       },
+       {
+        "type": "markdown",
+        "value": " 40 years. In 1999, he "
+       },
+       {
+        "type": "blank",
+        "key": "b3",
+        "placeholder": "3"
+       },
+       {
+        "type": "markdown",
+        "value": " (start) his company, Jiakun Architects, and has completed over 30 projects, including small museums, big buildings, "
+       },
+       {
+        "type": "blank",
+        "key": "b4",
+        "placeholder": "4"
+       },
+       {
+        "type": "markdown",
+        "value": " city plans.\n\nLiu does not follow one style. He uses local materials and simple designs to make "
+       },
+       {
+        "type": "blank",
+        "key": "b5",
+        "placeholder": "5"
+       },
+       {
+        "type": "markdown",
+        "value": " (beauty) buildings. After the 2008 Wenchuan earthquake, Liu made \"rebirth bricks\" from broken buildings-- a symbol of hope.\n\nLiu also "
+       },
+       {
+        "type": "blank",
+        "key": "b6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": " (design) for ordinary people. For example, west village in Chengdu, "
+       },
+       {
+        "type": "blank",
+        "key": "b7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": " (finish) in 2015, has a soccer field, a market, and paths for running, "
+       },
+       {
+        "type": "blank",
+        "key": "b8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": " (walk), and cycling. Grass grows through the bricks, showing the beauty of daily life. Many people enjoy visiting this place.\n\n\"The purpose of architecture is to create "
+       },
+       {
+        "type": "blank",
+        "key": "b9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": " pleasant and wonderful environment. People's "
+       },
+       {
+        "type": "blank",
+        "key": "b10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": " (happy) is what we work for,\" he said."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b1"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b1",
+       "values": [
+        "biggest"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空前有 the，后面又有 of all in architecture 表示最高范围，因此用形容词最高级 biggest。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "biggest"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b2"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b2",
+       "values": [
+        "for"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "与时间段 40 years 连用时，应用介词 for 表示“持续了40年”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "for"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b3"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b3",
+       "values": [
+        "started"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "时间状语是 In 1999，叙述过去发生的动作，应用一般过去时 started。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "started"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b4"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b4",
+       "values": [
+        "and"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "small museums、big buildings 与 city plans 是并列成分，应用并列连词 and。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "and"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b5"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b5",
+       "values": [
+        "beautiful"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空后是名词 buildings，需要形容词作定语，beauty 应变为 beautiful。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "beautiful"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b6"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b6",
+       "values": [
+        "designs"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "主语 Liu 为第三人称单数，句子描述一般事实，谓语动词应用 designs。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "designs"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b7"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b7",
+       "values": [
+        "finished"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "逗号前后的结构表示对 west village 的补充说明，应用过去分词 finished 作后置定语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "finished"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b8"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b8",
+       "values": [
+        "walking"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "running、walking、cycling 构成并列动名词结构，因此用 walking。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "walking"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b9"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b9",
+       "values": [
+        "a"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "environment 在此为可数名词单数，pleasant and wonderful 是辅音音素开头，应用不定冠词 a。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "a"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b10"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b10",
+       "values": [
+        "happiness"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空前有所有格 People's，空处需填名词作主语，happy 应变为 happiness。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "happiness"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "sentence_reorder",
+    "displayName": "连词成句",
+    "partLabel": "Part II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "将所给词正确排列顺序连成一个句子。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "her homework / she / has completed"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a11",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a11",
+       "values": [
+        "She has completed her homework.",
+        "She has completed her homework"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "按英语陈述句语序排列：主语 She + 助动词 has + 过去分词 completed + 宾语 her homework。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "She has completed her homework."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "your plan / tell me / can you"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a12",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a12",
+       "values": [
+        "Can you tell me your plan?",
+        "Can you tell me your plan"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这是一般疑问句，应用 Can you 开头，再接 tell me 和宾语 your plan。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Can you tell me your plan?"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "me / explain / let / how this works"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a13",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a13",
+       "values": [
+        "Let me explain how this works.",
+        "Let me explain how this works"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配是 Let me do sth.，后接宾语从句 how this works。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Let me explain how this works."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "went to / and I / my friends / the same lecture"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a14",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a14",
+       "values": [
+        "My friends and I went to the same lecture.",
+        "My friends and I went to the same lecture"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "主语应为 My friends and I，谓语是 went to，最后接宾语 the same lecture。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My friends and I went to the same lecture."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "young people / Deepseek / was established in 2023 / by a group of"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a15",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a15",
+       "values": [
+        "Deepseek was established in 2023 by a group of young people.",
+        "Deepseek was established in 2023 by a group of young people"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "主语是 Deepseek，谓语部分是 was established in 2023，后接 by a group of young people。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Deepseek was established in 2023 by a group of young people."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "\"Made in China 2025\" / is a plan / to improve / China's technology industries"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a16",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a16",
+       "values": [
+        "\"Made in China 2025\" is a plan to improve China's technology industries.",
+        "\"Made in China 2025\" is a plan to improve China's technology industries"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句子主语是 \"Made in China 2025\"，系动词结构 is a plan 后接不定式 to improve，最后接宾语 China's technology industries。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "\"Made in China 2025\" is a plan to improve China's technology industries."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "cloze",
+    "displayName": "阅读填空",
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据文章内容填空，每空 1 个词。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 1\n\nThe Dong Grand Choir is a unique musical tradition of the Dong people in China. For centuries, the Dong people, who live in mountain villages of Guizhou, Guangxi and Hunan, have used these songs to share stories, teach moral values, and celebrate nature. Unlike most choirs, there is no conductor or written music—the harmony is created naturally by singers of all ages.\n\nThe songs are divided into two types: Galao and Gaxia. Galao are performed at festivals and tell stories about history or love, while Gaxia are short tunes people sing during daily work. The most amazing part is their singing style, combining different voice parts. Traditionally, children learn these songs by listening to elders while sitting around a big fire at night.\n\nHowever, this tradition faces challenges. With many young people moving to cities for jobs, fewer villages are there to keep the singing tradition alive. To protect the tradition, local schools have started choir classes. The Dong Grand Festival now attracts tourists worldwide every year.\n\nThe Dong people believe that \"a song is more valuable than rice\", showing how deeply music is rooted in their culture.\n\nThe Dong Grand Choir\n\nType of Tradition: The Dong Grand Choir is a unique "
+       },
+       {
+        "type": "blank",
+        "key": "b17",
+        "placeholder": "17"
+       },
+       {
+        "type": "markdown",
+        "value": " tradition of the Dong people in China.\nUnique Feature: Unlike most choirs, the Dong Grand Choir has no conductor or "
+       },
+       {
+        "type": "blank",
+        "key": "b18",
+        "placeholder": "18"
+       },
+       {
+        "type": "markdown",
+        "value": " music.\nPassing-down of Tradition: Children learn the songs by "
+       },
+       {
+        "type": "blank",
+        "key": "b19",
+        "placeholder": "19"
+       },
+       {
+        "type": "markdown",
+        "value": " to elders around a big fire at night.\nChallenges: There are "
+       },
+       {
+        "type": "blank",
+        "key": "b20",
+        "placeholder": "20"
+       },
+       {
+        "type": "markdown",
+        "value": " villagers to keep the tradition alive.\nAction Taken: Local schools have started choir "
+       },
+       {
+        "type": "blank",
+        "key": "b21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": " to protect the tradition."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b17"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b17",
+       "values": [
+        "musical"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第一段首句原文就是 a unique musical tradition，因此直接提取 musical。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "musical"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b18"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b18",
+       "values": [
+        "written"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文说 there is no conductor or written music，因此答案是 written。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "written"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b19"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b19",
+       "values": [
+        "listening"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文是 learn these songs by listening to elders，介词 by 后应用动名词 listening。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "listening"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b20"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b20",
+       "values": [
+        "fewer"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文明确写到 fewer villages are there to keep the singing tradition alive，因此填 fewer。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "fewer"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b21"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b21",
+       "values": [
+        "classes"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文说 local schools have started choir classes。OCR 参考答案里的 classs 为明显拼写错误，应修正为 classes。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "classes"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "cloze",
+    "displayName": "阅读填空",
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据文章内容填空，每空 1 个词。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 2\n\nWhen people disagree, it can be hard to find common ground. Research on how people handle differences has uncovered useful ways to make communication better.\n\nWhat the studies Found\n\nA survey of 1,912 people found that we often guess other's feelings wrong. For example, we often think that others want to argue, but the fact is that they just want to learn. This proves that most people are more open than we think.\n\nEasy steps to try\n\n- Asking questions: can you tell me why you feel that way! Asking a question like this makes other feel more willing to share their ideas. In a Stanford test, this simple question helped $40\\%$ more people listen to different ideas.\n- Telling stories: sharing your life stories works very well. In the 2018 US elections, volunteers talked to voters about immigration. Those who shared both personal stories and facts changed $5\\%$ more voters' minds in just 11 minutes.\n- Being polite: Being rude makes people stop listening, staying calm and kind helps other understand your ideas. Remember: Being polite costs nothing but wins everything.\n\nThe Final Thought: As a famous thinker said, different opinions aren't just noise, they're teachers. By asking questions, sharing stories, and being polite, we turn differences into chances to grow.\n\nHow to Deal with Disagreements\n\nFinding: A survey of 1912 people found that we often guess other's feeling "
+       },
+       {
+        "type": "blank",
+        "key": "b22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": ".\nSolutions: The three easy steps to try include "
+       },
+       {
+        "type": "blank",
+        "key": "b23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": " questions, telling stories and being "
+       },
+       {
+        "type": "blank",
+        "key": "b24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": ".\nExample: Volunteers who shared both personal stories and facts changed $5\\%$ more voters' minds about "
+       },
+       {
+        "type": "blank",
+        "key": "b25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": ".\nFinal thought: Since different opinions are teachers, we can turn differences into chances to "
+       },
+       {
+        "type": "blank",
+        "key": "b26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": "."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b22"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b22",
+       "values": [
+        "wrong"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文是 we often guess other's feelings wrong，所以答案填 wrong。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "wrong"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b23"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b23",
+       "values": [
+        "asking"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "列表第一项是 Asking questions，空前 include 后与后面的 telling、being 并列，因此填 asking。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "asking"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b24"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b24",
+       "values": [
+        "polite"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三个建议是 Being polite，空前是系动词 being，因此填形容词 polite。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "polite"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b25"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b25",
+       "values": [
+        "immigration"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文提到 volunteers talked to voters about immigration，因此答案是 immigration。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "immigration"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b26"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b26",
+       "values": [
+        "grow"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结尾句原文是 turn differences into chances to grow，因此填 grow。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "grow"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据文章内容完成问答。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 3\n\nAnna and her friends decided to take a journey along the river's path. They rented a small boat and packed food, drinks, and blankets for the day.\n\nThe sun was shining brightly, making the river glitter like a sea of stars. The gentle breeze carried the scent of blooming flowers from the riverbanks nearby. As they paddled, birds flew overhead, chirping songs that echoed in the air. They enjoyed watching the ducks swim and play in the clear, sparkling water. Anna loved the calming sound of the river as it flowed past them. It felt like a perfect escape from the busy world they knew so well.\n\nSoon, they reached a secluded spot where they decided to stop for lunch. They spread out the blankets and sat down, enjoying sandwiches and fresh fruit. Laughter filled the air as they shared stories and recalled past adventures together. The river flowed gently by, listening quietly to their cheerful conversations.\n\nAfter lunch, they continued their journey, discovering new sights and sounds. They saw a family of turtles basking on rocks under the warm afternoon sun. Anna felt grateful for this peaceful day spent with nature and good friends. As evening approached, they knew it was time to head back home. They rowed slowly, watching the sunset paint the sky with shades of red and gold. The river shimmered one last time before the stars began to twinkle above. Anna and her friends promised to return to the river for another journey soon. Their hearts were full of joy and gratitude for this unforgettable day together."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What did Anna and her girl friends pack for their boat journey?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a27",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a27",
+       "values": [
+        "Food, drinks, and blankets.",
+        "They packed food, drinks, and blankets."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段直接写到 They rented a small boat and packed food, drinks, and blankets for the day，因此回答这三项即可。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Food, drinks, and blankets.\n\n或 They packed food, drinks, and blankets."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How did Anna feel about the calming sound of the river?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a28",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a28",
+       "values": [
+        "Anna loved the calming sound of the river.",
+        "She loved the calming sound of the river.",
+        "Anna loved the calming sound of the river as it flowed past them.",
+        "She loved the calming sound of the river as it flowed past them.",
+        "Anna loved it.",
+        "She loved it."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段明确说 Anna loved the calming sound of the river as it flowed past them，所以回答 loved it 或完整复述都可以。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Anna loved the calming sound of the river.\n\n或 Anna loved the calming sound of the river as it flowed past them.\n\n或 She loved it."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Where did Anna and her friends stop for lunch?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a29",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a29",
+       "values": [
+        "In a secluded spot.",
+        "Anna and her friends stopped for lunch in a secluded spot.",
+        "They stopped for lunch in a secluded spot."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段开头写到 they reached a secluded spot where they decided to stop for lunch，因此地点是 a secluded spot。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "In a secluded spot.\n\n或 Anna and her friends stopped for lunch in a secluded spot.\n\n或 They stopped for lunch in a secluded spot."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What promise did Anna and her friends make at the end of their journey?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a30",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a30",
+       "values": [
+        "Anna and her friends promised to return to the river for another journey soon.",
+        "They promised to return to the river for another journey soon."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "末段明确写到 Anna and her friends promised to return to the river for another journey soon，因此照原文作答即可。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Anna and her friends promised to return to the river for another journey soon.\n\n或 They promised to return to the river for another journey soon."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Translate: \"Afterwards, they continued their journey, discovering new sights.\""
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a31",
+       "placeholder": "请输入中文答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a31",
+       "values": [
+        "之后（后来），他们继续他们的旅程，发现新的风景。",
+        "之后，他们继续他们的旅程，发现新的风景。",
+        "后来，他们继续他们的旅程，发现新的风景。"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Afterwards 对应“之后/后来”，continued their journey 对应“继续他们的旅程”，discovering new sights 对应“发现新的风景”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "之后（后来），他们继续他们的旅程，发现新的风景。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据文章内容完成问答。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 4\n\nHi Jane!\n\nI've been meaning to write for ages, and finally, today I'm actually doing something about it. It's been really hard to sit down and write since I've been moving around so much. Since we last saw each other, I've unpacked my bags in four different cities.\n\nI went from London to Prague to set up a new regional office there. You know I'd always wanted to go, but maybe I was imagining Prague in spring when I used to talk about it. Winter was really hard, with minus 15 degrees in the mornings and it got dark really early in the evening. But at least it was blue skies and white snow and not days on end of grey skies and rain, like at home.\n\nFrom there, I was on another three-month mission to oversee the set-up of the office in New York. Loved, loved, loved New York! It's like being in one big TV show, as everywhere looks just a little bit familiar. I did every tourist thing you can think of when I wasn't working and must have spent most of my salary on eating out. It was really hard to leave for the next job, especially as I kind of met someone (!) More about Michael later ...\n\nSo then I was posted to LA, which felt like a whole other country compared with the East Coast. I could definitely get used to that kind of outdoor, beach lifestyle, but I didn't spend as much time getting to know California as I could have because I was flying back to see Michael every other weekend. He came to see me when he could, but his job means he's often working at weekends, so he couldn't make the flight very often. Those three months flew by and then I was off again, to Frankfurt, which is where I am now. And ... so is Michael! He got a month off work and we're trying to work out how we can be in the same place at the same time for a while. We figure the first step in that direction is getting married, which is also why I wanted to write – I can't get married without my oldest friend there! The marriage ceremony is going to be at home in London in September and I hope you can come!\n\nAnyway, tell me all your news and I promise not to leave it so long this time!\n\nLots of love,\n\nKath"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "For what did Kath feel sorry?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a32",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a32",
+       "values": [
+        "The late reply.",
+        "Her late reply.",
+        "For replying late."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "开头说明 I've been meaning to write for ages，表示她因为回信太晚而感到抱歉。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The late reply."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why did Kath go to Prague?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a33",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a33",
+       "values": [
+        "To set up a new regional office there.",
+        "She went there to set up a new regional office."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段首句原文就是 I went from London to Prague to set up a new regional office there。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "To set up a new regional office there."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "On what did Kath spend most of her salary in New York?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a34",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a34",
+       "values": [
+        "Eating out.",
+        "She spent most of her salary on eating out."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段写到 must have spent most of my salary on eating out，因此答案是 eating out。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Eating out."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why did Kath have to fly back to London every other week?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a35",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a35",
+       "values": [
+        "To meet Michael.",
+        "To see Michael.",
+        "To meet her boyfriend.",
+        "To see her boyfriend."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第四段说 she was flying back to see Michael every other weekend，因此回答去见 Michael 或 her boyfriend 都可以。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "To meet/see Michael /her boyfriend."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Translate: The marriage ceremony is going to be at home in London in September."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a36",
+       "placeholder": "请输入中文答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a36",
+       "values": [
+        "婚礼将于九月在伦敦的家中举行。",
+        "婚礼仪式将于九月在伦敦的家中举行。",
+        "结婚典礼将于九月在伦敦的家中举行。",
+        "结婚庆典将于九月在伦敦的家中举行。"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The marriage ceremony 对应“婚礼/婚礼仪式”，is going to be 表示将举行，at home in London in September 表示时间和地点。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "婚礼（结婚典礼/结婚庆典/婚礼仪式）将于九月在伦敦的家中举行。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "translation_fill",
+    "displayName": "翻译填空",
+    "partLabel": "Part V",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "使用括号中的单词根据汉语提示完成句子。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "如果下雪，他们会取消活动。\n\nThey will cancel the event if "
+        },
+        {
+         "type": "blank",
+         "key": "b37",
+         "placeholder": "37"
+        },
+        {
+         "type": "markdown",
+         "value": ". (snow)"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b37"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b37",
+       "values": [
+        "it snows"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "if 引导条件状语从句，主句用一般将来时时，从句用一般现在时；snow 作动词时需补主语 it，答案是 it snows。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "it snows"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这完美的日出将天空染成了粉橙交织的画卷。\n\nThis "
+        },
+        {
+         "type": "blank",
+         "key": "b38",
+         "placeholder": "38"
+        },
+        {
+         "type": "markdown",
+         "value": " painted the sky in pink and orange hues. (sunrise)"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b38"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b38",
+       "values": [
+        "perfect sunrise"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据中文提示，应用名词短语 perfect sunrise 作主语，构成 This perfect sunrise ...。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "perfect sunrise"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "午饭后，我改喝养生茶，不喝咖啡了。\n\nI started drinking herbal tea instead of coffee "
+        },
+        {
+         "type": "blank",
+         "key": "b39",
+         "placeholder": "39"
+        },
+        {
+         "type": "markdown",
+         "value": ". (lunch)"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b39"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b39",
+       "values": [
+        "after lunch"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据汉语“午饭后”及括号中的 lunch，应填介词短语 after lunch。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "after lunch"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "小明教会了我如何使用英文词典。\n\nXiaoming taught me how "
+        },
+        {
+         "type": "blank",
+         "key": "b40",
+         "placeholder": "40"
+        },
+        {
+         "type": "markdown",
+         "value": " an English dictionary. (use)"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b40"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b40",
+       "values": [
+        "to use"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "how 后接“疑问词 + 不定式”结构，应用 to use。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "to use"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "你能保持安静吗?我需要集中精力。\n\nCan you "
+        },
+        {
+         "type": "blank",
+         "key": "b41",
+         "placeholder": "41"
+        },
+        {
+         "type": "markdown",
+         "value": "? I need to concentrate. (quiet)"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b41"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b41",
+       "values": [
+        "keep quiet",
+        "be quiet"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据中文语义，可用 keep quiet 或 be quiet，均表示“保持安静”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "keep/be quiet"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-42",
+      "no": 42,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "依靠每天用语言应用软件打卡，詹姆斯的汉语水平稳步提升。\n\nJames's Chinese is "
+        },
+        {
+         "type": "blank",
+         "key": "b42",
+         "placeholder": "42"
+        },
+        {
+         "type": "markdown",
+         "value": " through daily practice with language apps. (improve)"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b42"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b42",
+       "values": [
+        "steadily improving",
+        "improving steadily"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "be 动词后可接现在分词 improving；副词 steadily 既可前置修饰 improving，也可后置，因此两种答案都成立。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "steadily improving / improving steadily"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-8",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "Part VI",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据要求写一封邮件，邮件格式不限，不少于40词。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-43",
+      "no": 43,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "国外某乐队想参加在东湖举办的音乐节，请你以委员会成员李华的名义写一封邮件，要求如下：\n\n1. 表示欢迎。\n2. 说明音乐会将在7.18-20举行。\n3. 请艺术团准备2-3个节目参加表演。\n\n邮件格式不限，不少于40词。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay43",
+       "placeholder": "请在此作答",
+       "minWords": 40
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作文应覆盖三点：欢迎对方参加；说明音乐节时间为 7 月 18 日至 20 日；请对方准备 2-3 个节目。语言得体、格式清楚即可。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Dear Music Artists,\n\nOn behalf of the East Lake Music Festival Committee, we are pleased to invite your group to perform at this year's festival. The event will take place from July 18th to 20th, and we kindly invite you to prepare 2-3 wonderful performances. Should you require any assistance, please don't hesitate to contact us.\n\nLooking forward to your wonderful participation!\n\nBest regards,\nLi Hua"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

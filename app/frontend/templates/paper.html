@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 套卷模拟考试</title>
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body data-page="paper" data-subject="{{ subject }}" data-title="{{ title }}">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">套卷模拟</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper" class="active">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- 全局错误框：后端返回的 error 原文一律显示在这里（绝不白屏、不只进 console） -->
+  <div class="err-box" id="errBox" hidden></div>
+
+  <!-- ================================================== 视图 1：选题（默认） -->
+  <section id="viewPick">
+    <div class="card">
+      <h1>套卷模拟考试 <span class="muted small" id="pickCount"></span></h1>
+      <p class="muted small" id="pickNote">正在加载套卷清单…</p>
+      <div class="paper-tabs" id="paperTabs"></div>
+      <p class="paper-src" id="pickKindNote" hidden></p>
+    </div>
+    <div class="paper-cards" id="paperCards"></div>
+    <p class="muted small" id="pickMsg" hidden></p>
+  </section>
+
+  <!-- ================================================== 视图 2：考试 -->
+  <section id="viewExam" hidden>
+    <div class="exam-bar" id="examBar">
+      <span class="exam-title" id="exTitle">—</span>
+      <span class="pill" id="exKind">—</span>
+      <span class="pill" id="exProgress">已答 0 / 共 0</span>
+      <span class="exam-timer" id="exTimer" title="从进入考场开始计时">00:00</span>
+      <span class="spacer"></span>
+      <button class="btn btn-small" id="btnBackPick" type="button">换一套卷</button>
+      <button class="btn btn-primary" id="btnSubmitPaper" type="button">交卷</button>
+    </div>
+    <div class="err-box" id="examMsg" hidden></div>
+    <div class="pending-tip" id="examTrunc" hidden></div>
+    <!-- 考点分布（对照考纲权重）：由 paper.js 按每题的 chapter（形如「大模型微调·4.5」）统计 -->
+    <div class="pending-tip" id="examDist" hidden></div>
+    <div id="examList"></div>
+    <div class="card">
+      <div class="row">
+        <span class="muted small" id="examFoot"></span>
+        <span class="spacer"></span>
+        <button class="btn btn-primary btn-wide" id="btnSubmitPaper2" type="button">交卷并看成绩</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================== 视图 3：成绩报告 -->
+  <section id="viewReport" hidden>
+    <div class="err-box" id="reportMsg" hidden></div>
+    <div class="card" id="reportHead"></div>
+    <div class="card">
+      <h1>按题型统计</h1>
+      <div id="reportPerType"></div>
+    </div>
+    <div class="card">
+      <h1>逐题结果 <span class="muted small" id="reportListCount"></span></h1>
+      <div id="reportList"></div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <button class="btn btn-primary" id="btnRedoPaper" type="button">重做这套卷</button>
+        <button class="btn" id="btnAnotherPaper" type="button">换一套卷</button>
+        <a class="btn" href="/queue">去判分队列</a>
+        <a class="btn" href="/settings">去设置页配置 API key</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script src="/static/js/app.js"></script>
+<script src="/static/js/paper.js"></script>
+</body>
+</html>

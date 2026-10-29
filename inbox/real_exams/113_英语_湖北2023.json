@@ -1,0 +1,3340 @@
+{
+ "id": 113,
+ "title": "湖北2023",
+ "subject": "英语",
+ "createTime": "2026-04-07 10:25:16",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "2023 年湖北省普通高等学校专升本英语",
+   "subject": "英语",
+   "province": "湖北省",
+   "year": 2023,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "3ed4f86f-e403-49bb-8ad5-c6b6c3de9c3a"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "词汇与语法结构",
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "This part is to test your ability to use words and phrases correctly to construct meaningful and grammatically correct sentences. In this part, there are 25 incomplete sentences. You are required to complete each statement by choosing the appropriate answer from the 4 choices marked A, B, C and D."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Excuse me, can I use your umbrella? I can't find ______."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. I"
+        },
+        {
+         "key": "B",
+         "label": "B. me"
+        },
+        {
+         "key": "C",
+         "label": "C. mine"
+        },
+        {
+         "key": "D",
+         "label": "D. my"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "此处需要名词性物主代词作宾语，表示“我的那把伞”，应选 `mine`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. mine"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "This lake is ______ largest one in our city."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. a"
+        },
+        {
+         "key": "B",
+         "label": "B. an"
+        },
+        {
+         "key": "C",
+         "label": "C. the"
+        },
+        {
+         "key": "D",
+         "label": "D. /"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "形容词最高级前通常要加定冠词 `the`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. the"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Relax! There ______ still much time left before the deadline."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. be"
+        },
+        {
+         "key": "B",
+         "label": "B. is"
+        },
+        {
+         "key": "C",
+         "label": "C. are"
+        },
+        {
+         "key": "D",
+         "label": "D. were"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`there be` 句型中主语是不可数名词 `much time`，应使用 `is`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. is"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "______ of the buses in this area use new energy."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. One three"
+        },
+        {
+         "key": "B",
+         "label": "B. One threes"
+        },
+        {
+         "key": "C",
+         "label": "C. One third"
+        },
+        {
+         "key": "D",
+         "label": "D. One thirds"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "表示分数时用“基数词 + 序数词”，`one third` 表示“三分之一”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. One third"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My little nephew is often curious ______ everything."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. about"
+        },
+        {
+         "key": "B",
+         "label": "B. off"
+        },
+        {
+         "key": "C",
+         "label": "C. against"
+        },
+        {
+         "key": "D",
+         "label": "D. behind"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配 `be curious about` 表示“对……好奇”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. about"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "--Where's Jerry? --He ______ upstairs now."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. is reading"
+        },
+        {
+         "key": "B",
+         "label": "B. are reading"
+        },
+        {
+         "key": "C",
+         "label": "C. read"
+        },
+        {
+         "key": "D",
+         "label": "D. reads"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`now` 表示动作正在发生，主语 `He` 为第三人称单数，应用现在进行时 `is reading`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. is reading"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Who will be the first ______ a speech at the meeting?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. give"
+        },
+        {
+         "key": "B",
+         "label": "B. giving"
+        },
+        {
+         "key": "C",
+         "label": "C. gave"
+        },
+        {
+         "key": "D",
+         "label": "D. to give"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`the first` 后常接不定式作后置定语，故选 `to give`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. to give"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Susan smiled at me without ______ anything."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. say"
+        },
+        {
+         "key": "B",
+         "label": "B. saying"
+        },
+        {
+         "key": "C",
+         "label": "C. said"
+        },
+        {
+         "key": "D",
+         "label": "D. to say"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "介词 `without` 后应接动名词，故选 `saying`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. saying"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What's the name of the man ______ lent you the magazine?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. who"
+        },
+        {
+         "key": "B",
+         "label": "B. what"
+        },
+        {
+         "key": "C",
+         "label": "C. whose"
+        },
+        {
+         "key": "D",
+         "label": "D. when"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "先行词是 `the man`，定语从句缺主语，应用关系代词 `who`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. who"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The mountain is quite ______ than we thought."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. high"
+        },
+        {
+         "key": "B",
+         "label": "B. higher"
+        },
+        {
+         "key": "C",
+         "label": "C. highly"
+        },
+        {
+         "key": "D",
+         "label": "D. more highly"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "由 `than` 可知应用比较级，形容山的高低应选 `higher`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. higher"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Yesterday the kid ______ for helping sort the rubbish."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. is praised"
+        },
+        {
+         "key": "B",
+         "label": "B. praises"
+        },
+        {
+         "key": "C",
+         "label": "C. praised"
+        },
+        {
+         "key": "D",
+         "label": "D. was praised"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Yesterday` 表示过去时间，且孩子是“被表扬”，故用一般过去时的被动语态 `was praised`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. was praised"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The chief engineer ______ on the project for a year."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. work"
+        },
+        {
+         "key": "B",
+         "label": "B. has worked"
+        },
+        {
+         "key": "C",
+         "label": "C. have worked"
+        },
+        {
+         "key": "D",
+         "label": "D. working"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`for a year` 常与现在完成时连用，主语为单数，故选 `has worked`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. has worked"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "--Can I go home after the exam? --Yes, you ______ if you want."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. can"
+        },
+        {
+         "key": "B",
+         "label": "B. won't"
+        },
+        {
+         "key": "C",
+         "label": "C. mustn't"
+        },
+        {
+         "key": "D",
+         "label": "D. need"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "答语表示许可，“如果你想的话可以”，故选 `can`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. can"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It was by train ______ he travelled around the world."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. mustn't"
+        },
+        {
+         "key": "B",
+         "label": "B. whom"
+        },
+        {
+         "key": "C",
+         "label": "C. that"
+        },
+        {
+         "key": "D",
+         "label": "D. which"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这是强调句型 `It was ... that ...`，应选 `that`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. that"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Not only ______ but she can also do paper-cutting."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. she can draw"
+        },
+        {
+         "key": "B",
+         "label": "B. can she draw"
+        },
+        {
+         "key": "C",
+         "label": "C. can draw she"
+        },
+        {
+         "key": "D",
+         "label": "D. she draw can"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Not only` 置于句首时，后面的分句要部分倒装，故选 `can she draw`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. can she draw"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "______ Tory can't drive, he has bought a car."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. No matter what"
+        },
+        {
+         "key": "B",
+         "label": "B. As soon as"
+        },
+        {
+         "key": "C",
+         "label": "C. Even though"
+        },
+        {
+         "key": "D",
+         "label": "D. As if"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前后分句是转折关系，表示“尽管不会开车，他还是买了车”，应选 `Even though`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Even though"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My classmate helped me solve the difficult math ______."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. decision"
+        },
+        {
+         "key": "B",
+         "label": "B. email"
+        },
+        {
+         "key": "C",
+         "label": "C. problem"
+        },
+        {
+         "key": "D",
+         "label": "D. solution"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配是 `solve a problem`，`solution` 不能作该句宾语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. problem"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The ninety-year-old Chinese man is known for being ______ to his motherland all his life."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. usual"
+        },
+        {
+         "key": "B",
+         "label": "B. faithful"
+        },
+        {
+         "key": "C",
+         "label": "C. obvious"
+        },
+        {
+         "key": "D",
+         "label": "D. used"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`be faithful to` 表示“忠于”，符合句意。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. faithful"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The two birds look alike. How can you ______ one from the other?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. tell"
+        },
+        {
+         "key": "B",
+         "label": "B. kick"
+        },
+        {
+         "key": "C",
+         "label": "C. sell"
+        },
+        {
+         "key": "D",
+         "label": "D. stop"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配 `tell one from the other` 表示“区分两者”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. tell"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 21,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The actor ______ all his friends to his new TV show."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. taught"
+        },
+        {
+         "key": "B",
+         "label": "B. invited"
+        },
+        {
+         "key": "C",
+         "label": "C. changed"
+        },
+        {
+         "key": "D",
+         "label": "D. divided"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句意是“邀请朋友来看新电视节目”，应选 `invited`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. invited"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-21",
+      "no": 22,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The football teams have ______ to the date of their next game."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. agreed"
+        },
+        {
+         "key": "B",
+         "label": "B. led"
+        },
+        {
+         "key": "C",
+         "label": "C. added"
+        },
+        {
+         "key": "D",
+         "label": "D. written"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句意是“就下一场比赛日期达成一致”，应选 `agreed`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. agreed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 23,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Miss Lee gave me a form and told me to ______ it in."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. feel"
+        },
+        {
+         "key": "B",
+         "label": "B. find"
+        },
+        {
+         "key": "C",
+         "label": "C. fire"
+        },
+        {
+         "key": "D",
+         "label": "D. fill"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定短语 `fill in` 表示“填写”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. fill"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 24,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Michael stayed at home to ______ his sick father."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. come across"
+        },
+        {
+         "key": "B",
+         "label": "B. give away"
+        },
+        {
+         "key": "C",
+         "label": "C. look after"
+        },
+        {
+         "key": "D",
+         "label": "D. turn into"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句意是“照顾生病的父亲”，应选 `look after`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. look after"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 25,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Plant collecting has been ______ for a long time."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. going away"
+        },
+        {
+         "key": "B",
+         "label": "B. going about"
+        },
+        {
+         "key": "C",
+         "label": "C. going on"
+        },
+        {
+         "key": "D",
+         "label": "D. going out"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`go on` 表示“持续进行”，符合句意。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. going on"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "single_choice",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section 1 Passage 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four choices marked A, B, C and D. Choose the best answer."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "It's easy to see how to help some people, but what about those whose needs are not so clear? This story happened not long ago, but it is a lesson that has stayed with me and helped me ever since."
+       },
+       {
+        "type": "markdown",
+        "value": "It was Thanksgiving and I was volunteering with my parents at a shelter for the poor. We served hot food to whoever came in. Most of these people looked as if they had been having hard times; their clothes were worn out and dirty. Then a man came in who looked anything but poor. He was well dressed. I wondered what he was doing there and my jaw dropped in amazement when he joined the queue for food. What was this man doing? Surely he wasn't going to take food which was meant for those who were really in need!"
+       },
+       {
+        "type": "markdown",
+        "value": "Then my mother quietly took me to one side. She said, \"You have thought that the needs of the people who come here must be purely physical. But what if his needs are emotional? What if he needs comfort, friends, or just to be among other people?\" Her words hit me like a ton of bricks. I felt like I should apologize to the man, but I didn't."
+       },
+       {
+        "type": "markdown",
+        "value": "About a week later the shelter received a large donation from an anonymous donor. I couldn't help but wonder if it came from that man."
+       },
+       {
+        "type": "markdown",
+        "value": "Now, whenever I meet someone, I will remember my mother's lesson and try to send kindness to him according to his needs, no matter how he looks. Needs aren't always seen. But kindness always makes a difference."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-25",
+      "no": 26,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How did the author feel as the well-dressed man joined the queue for food?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Surprised."
+        },
+        {
+         "key": "B",
+         "label": "B. Excited."
+        },
+        {
+         "key": "C",
+         "label": "C. Nervous."
+        },
+        {
+         "key": "D",
+         "label": "D. Hopeless."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说作者的 `jaw dropped in amazement`，说明他很惊讶。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Surprised."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 27,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What the author's mother said shows that we ______."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. shouldn't judge a man by his appearance"
+        },
+        {
+         "key": "B",
+         "label": "B. shouldn't complain to others"
+        },
+        {
+         "key": "C",
+         "label": "C. should give others what they want"
+        },
+        {
+         "key": "D",
+         "label": "D. should accept everything we meet"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "母亲强调人的需求不一定能从外表看出来，因此不能以貌取人。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. shouldn't judge a man by his appearance"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 28,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What does the underlined word \"anonymous\" in Paragraph 4 probably mean?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Important."
+        },
+        {
+         "key": "B",
+         "label": "B. Unknown."
+        },
+        {
+         "key": "C",
+         "label": "C. Independent."
+        },
+        {
+         "key": "D",
+         "label": "D. Excellent."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`anonymous donor` 指“匿名捐赠者”，即身份未知的人。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Unknown."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 29,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "From the last paragraph, we learn that ______."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. seeing is believing"
+        },
+        {
+         "key": "B",
+         "label": "B. it's difficult to be kind to others"
+        },
+        {
+         "key": "C",
+         "label": "C. some rich people pretend to be poor"
+        },
+        {
+         "key": "D",
+         "label": "D. we should help people based on their needs"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段明确说应根据他人的需要给予善意和帮助。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. we should help people based on their needs"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 30,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What would be the best title for the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. My Mother's Influence on My Growth"
+        },
+        {
+         "key": "B",
+         "label": "B. The Importance of Volunteering"
+        },
+        {
+         "key": "C",
+         "label": "C. One of My Most Shameful Experiences"
+        },
+        {
+         "key": "D",
+         "label": "D. A Simple Lesson in Kindness"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文围绕作者从母亲那里学到的“按他人需要施予善意”这一教训展开，D 最概括。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. A Simple Lesson in Kindness"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "single_choice",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section 1 Passage 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Read the passage and choose the best answer to each question."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Red Dog was special."
+       },
+       {
+        "type": "markdown",
+        "value": "He was not one of those dogs who ran shouting into the wind in groups. He just loved walking with me. Sometimes, on the narrow road, he walked so close that his bright red fur brushed against my leg. \"Red Dog,\" I'd say, \"each morning when we meet for the first time, why do you always look so glad?\""
+       },
+       {
+        "type": "markdown",
+        "value": "Of course, Red Dog never made reply with words. If he wanted to say something, he spoke with his eyes, or the bend in his tail. However, since we were friends, that was enough."
+       },
+       {
+        "type": "markdown",
+        "value": "At night, Red Dog slept on the front porch, lying there and dreaming dreams of long summer days and endless walks. His night-world filled up with the moon and stars, hoot-owl hoots, and ghostly white fogs that crept silently into the fields."
+       },
+       {
+        "type": "markdown",
+        "value": "Between dreams, I think that Red Dog must have awakened, raised his head, and looked around. Maybe then he became a little lonely. And probably he wondered why I got to sleep inside, but he had to sleep on the porch."
+       },
+       {
+        "type": "markdown",
+        "value": "But, you see, Red Dog lived in a time when dogs such as he were not allowed to go inside their masters' homes. In those days, most people didn't even believe that dogs had feelings, though I did."
+       },
+       {
+        "type": "markdown",
+        "value": "Yes, during those days when we walked in the fields and woods, Red Dog and I helped one another see things in special ways. Weedy roadsides were like museums and the fields of corn and beans around us were like circuses with many rings."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-30",
+      "no": 31,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why was Red Dog special?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Because he loved walking with the author."
+        },
+        {
+         "key": "B",
+         "label": "B. Because he could swim."
+        },
+        {
+         "key": "C",
+         "label": "C. Because he loved playing with other dogs."
+        },
+        {
+         "key": "D",
+         "label": "D. Because he could play with kids."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段直接说明 Red Dog 特别之处在于他喜欢和作者一起散步。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Because he loved walking with the author."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-31",
+      "no": 32,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What would Red Dog do to express himself?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Raise his head."
+        },
+        {
+         "key": "B",
+         "label": "B. Use his eyes or tail."
+        },
+        {
+         "key": "C",
+         "label": "C. Lie down outside."
+        },
+        {
+         "key": "D",
+         "label": "D. Speak a human language."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说他如果想表达什么，会通过眼神或尾巴的弯曲来传达。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Use his eyes or tail."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 33,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How might Red Dog feel when he awakened at night?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Curious and excited."
+        },
+        {
+         "key": "B",
+         "label": "B. Terrified and lonely."
+        },
+        {
+         "key": "C",
+         "label": "C. Happy and excited."
+        },
+        {
+         "key": "D",
+         "label": "D. Lonely and puzzled."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作者推测他会有点孤单，并想为什么主人能睡屋里而自己只能睡门廊，因此是 lonely and puzzled。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Lonely and puzzled."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 34,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How did most people think about dogs in the story?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Dogs could speak with words."
+        },
+        {
+         "key": "B",
+         "label": "B. Dogs didn't have feelings."
+        },
+        {
+         "key": "C",
+         "label": "C. Dogs could enter masters' houses."
+        },
+        {
+         "key": "D",
+         "label": "D. Dogs were people's friends."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第五段明确说，当时大多数人甚至不相信狗有感情。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Dogs didn't have feelings."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 35,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is the passage mainly about?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Bedrooms and yards."
+        },
+        {
+         "key": "B",
+         "label": "B. Fields and woods."
+        },
+        {
+         "key": "C",
+         "label": "C. Red Dog and his master."
+        },
+        {
+         "key": "D",
+         "label": "D. Museums and circuses."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章主要写作者和 Red Dog 之间的陪伴、理解与友谊。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Red Dog and his master."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "single_choice",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section 1 Passage 3",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Read the passage and choose the best answer to each question."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "For the past 28 years, barber Liu Jianjun and his team have been volunteering in Changchun. He and his team, which has 3,700 volunteers, have given free haircuts to around 80,000 people. They also volunteer to help those in need, such as seniors who live alone, and send them daily necessities during festivals."
+       },
+       {
+        "type": "markdown",
+        "value": "The 53-year-old has been helping others since he opened his barber shop in 1994. \"I lost my mother when I was 6, and my father left home soon after,\" he said. \"I was raised by my grandmother and was looked after by my neighbors.\" So when he opened his barber shop, he decided to repay some of the kindness he had been shown."
+       },
+       {
+        "type": "markdown",
+        "value": "Every day he arrives at his shop an hour before opening to give free haircuts to people over 70. He also spends his spare time providing door-to-door service for those who have difficulty walking."
+       },
+       {
+        "type": "markdown",
+        "value": "His team members visit seniors to help them buy daily needs, move heavy objects and make repairs. They also offer free haircuts to deliverymen and sanitation workers. \"Fortunately, I got a lot of support from my team, friends and relatives,\" he said. \"The team is like a big family and its members care for and help each other. I really want to thank all of them.\""
+       },
+       {
+        "type": "markdown",
+        "value": "The youngest member of his team is 7. \"Several students have joined, and they volunteer with their parents,\" he said. \"When we visit nursing homes, they sing and dance, bringing the elderly a lot of pleasure.\""
+       },
+       {
+        "type": "markdown",
+        "value": "In 2014, Liu joined the Communist Party of China on the recommendation of his community. \"Being a Party member is not only about status, but also about a heavy responsibility and a lifelong commitment,\" he said. \"I am determined to progress further along the road of voluntary service.\""
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-35",
+      "no": 36,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What does the underlined word \"volunteering\" most probably mean?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Living alone."
+        },
+        {
+         "key": "B",
+         "label": "B. Building new houses."
+        },
+        {
+         "key": "C",
+         "label": "C. Raising children."
+        },
+        {
+         "key": "D",
+         "label": "D. Offering to do things."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合全文可知，Liu 和团队长期无偿帮助他人，因此 `volunteering` 指主动提供帮助。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Offering to do things."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 37,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why does barber Liu give free haircuts?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. To apologize to customers."
+        },
+        {
+         "key": "B",
+         "label": "B. To express his thanks."
+        },
+        {
+         "key": "C",
+         "label": "C. To practice technical skills."
+        },
+        {
+         "key": "D",
+         "label": "D. To increase business sales."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "他小时候受到邻里照顾，所以开店后想回报曾得到的善意。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. To express his thanks."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 38,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What does barber Liu do in his spare time?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Move heavy objects."
+        },
+        {
+         "key": "B",
+         "label": "B. Make repairs."
+        },
+        {
+         "key": "C",
+         "label": "C. Provide door-to-door service."
+        },
+        {
+         "key": "D",
+         "label": "D. Help people buy food."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段直接说他利用空闲时间上门为行动不便的人服务。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Provide door-to-door service."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 39,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is Liu's attitude towards his team?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Sad."
+        },
+        {
+         "key": "B",
+         "label": "B. Thankful."
+        },
+        {
+         "key": "C",
+         "label": "C. Strange."
+        },
+        {
+         "key": "D",
+         "label": "D. Angry."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "他说自己得到团队、朋友和亲人的支持，并明确表示“非常想感谢他们”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Thankful."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 40,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What can we learn from the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Barbers are few."
+        },
+        {
+         "key": "B",
+         "label": "B. Festivals have value."
+        },
+        {
+         "key": "C",
+         "label": "C. Service is expensive."
+        },
+        {
+         "key": "D",
+         "label": "D. Kindness has power."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文通过理发师多年志愿服务说明善意能持续影响和帮助他人。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Kindness has power."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "single_choice",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section 1 Passage 4",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Read the passage and choose the best answer to each question."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "The Sun is undoubtedly the powerhouse of the solar system. The energy released from the Sun is equivalent to about 36 octillion lumens, where a lumen is a measure of the total amount of visible light. All the energy radiates out from the center of our solar system in the form of light, heat, gamma rays and X-rays, and magnetic fields. But in fact, the Sun's energy is generated in its core and moves outward to its surface where it is released as electromagnetic radiation. The heat, light and radiation that come from the Sun are all examples of electromagnetic radiation."
+       },
+       {
+        "type": "markdown",
+        "value": "It takes about 8 minutes for the electromagnetic radiation from the Sun to travel 93 million miles to the Earth. When it arrives, some of that solar energy is blocked or absorbed by the atmosphere, but what isn't blocked is absorbed or reflected by the air, land, water, plants and other matter that covers the surface of our planet. When the molecules in matter gain energy, they move more, vibrating in place or even bouncing off one another."
+       },
+       {
+        "type": "markdown",
+        "value": "Unlike electromagnetic radiation, heat must be transferred or conducted through matter. Some types of matter, like water, are really good at holding onto this energy. Clouds of water particles and gases in the atmosphere absorb some of this heat too. This absorption of heat helps the Earth stay warm. It's one reason our planet stays at a livable temperature and doesn't change radically from freezing cold to blazing hot every day."
+       },
+       {
+        "type": "markdown",
+        "value": "Energy from the Sun makes it possible for life to exist on the Earth. It is responsible for photosynthesis in plants, vision in animals, and many other natural processes, such as the movements of air and water that create weather. Most plants need at least some sunlight to grow, so without light, there would be no plants, and without plants, there would not be oxygen for us to breathe. Infrared radiation from the Sun is responsible for heating the Earth's atmosphere and surface. Without energy from the Sun, the Earth would freeze. There would be no winds, ocean currents or clouds to transport water."
+       },
+       {
+        "type": "markdown",
+        "value": "What's more, every day the Sun shines on the Earth, driving many chemical and physical changes across the planet. Light, which travels fastest in the world, helps people on the Earth clearly see the world."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-40",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How far is the Sun from the Earth?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q41",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 8 miles."
+        },
+        {
+         "key": "B",
+         "label": "B. 11 million miles."
+        },
+        {
+         "key": "C",
+         "label": "C. 13 miles."
+        },
+        {
+         "key": "D",
+         "label": "D. 93 million miles."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q41",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段明确写到太阳辐射传播到地球需要跨越 93 million miles。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. 93 million miles."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-41",
+      "no": 42,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Light travels from the Sun to the Earth in the form of ______."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q42",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. waves"
+        },
+        {
+         "key": "B",
+         "label": "B. brain waves"
+        },
+        {
+         "key": "C",
+         "label": "C. sound waves"
+        },
+        {
+         "key": "D",
+         "label": "D. electromagnetic radiation"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q42",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中多次说明来自太阳的光和热都属于 `electromagnetic radiation`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. electromagnetic radiation"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-42",
+      "no": 43,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following travels fastest?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q43",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Car."
+        },
+        {
+         "key": "B",
+         "label": "B. Light."
+        },
+        {
+         "key": "C",
+         "label": "C. Plane."
+        },
+        {
+         "key": "D",
+         "label": "D. Wind."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q43",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段直接说光是世界上传播最快的东西。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Light."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-43",
+      "no": 44,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What are lumens used to describe?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q44",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Brightness."
+        },
+        {
+         "key": "B",
+         "label": "B. Darkness."
+        },
+        {
+         "key": "C",
+         "label": "C. Liquid."
+        },
+        {
+         "key": "D",
+         "label": "D. Speed."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q44",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第一段说 lumen 是衡量可见光总量的单位，因此用于表示亮度。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Brightness."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-44",
+      "no": 45,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What role does light play in life according to the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q45",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. To make people have a better life."
+        },
+        {
+         "key": "B",
+         "label": "B. To help people conduct experiments."
+        },
+        {
+         "key": "C",
+         "label": "C. To help improve the environment."
+        },
+        {
+         "key": "D",
+         "label": "D. To help people see the world."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q45",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "末段指出光帮助地球上的人清楚地看见世界。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. To help people see the world."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "reading_qa",
+    "displayName": "阅读填空",
+    "partLabel": "Part II Section 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Read the passage and complete the outline below it. Write your answers briefly in no more than three words."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "If you have something valuable in mind, a service to offer, or an idea to develop, then you should tell it to other people to widen its scope. Why not make full use of it?"
+       },
+       {
+        "type": "markdown",
+        "value": "The fact is that, when you have enough vision, you may have the courage. And then you simply have to pursue it, however crazy it might seem to others."
+       },
+       {
+        "type": "markdown",
+        "value": "Remember that everything starts from small things: Rome was not built in a day. Scientists say that everything in the universe comes from a smaller unit than you can possibly assume, so it doesn't matter where you are at present, because small beginnings become great things at last."
+       },
+       {
+        "type": "markdown",
+        "value": "Think big by enlisting others: To think big, you need to see yourself as a small part of a greater whole. Enlist people who are better than you. If you're not the most organized person, don't just be unhappy about it. You should find someone who is better."
+       },
+       {
+        "type": "markdown",
+        "value": "Big thinkers know their personal limitations. Gather people who can do what you can't do around you to make sure your dream will come true."
+       },
+       {
+        "type": "markdown",
+        "value": "Think big by focusing on future regrets: There is an old saying, \"We regret not the things we did do, but the things we didn't do.\" You'll never know how far it could go unless you see how far you can take something."
+       },
+       {
+        "type": "markdown",
+        "value": "If you have big plans, just close your eyes. And strongly imagine how regretful you will be if you don't try or attempt properly."
+       },
+       {
+        "type": "markdown",
+        "value": "Feel that it is your human duty to think big: When something is probably of real service to mankind, then it is a human duty to think and act big. Even if you don't succeed at last, it is still valuable to think big."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-45",
+      "no": 46,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Outline:"
+        },
+        {
+         "type": "markdown",
+         "value": "If you have "
+        },
+        {
+         "type": "blank",
+         "key": "b46",
+         "placeholder": "46"
+        },
+        {
+         "type": "markdown",
+         "value": " in mind, you should make full use of it."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b46"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b46",
+       "value": "something valuable"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段原文就是 `If you have something valuable in mind`，因此答案为 `something valuable`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "something valuable"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-46",
+      "no": 47,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How to train yourself to think big:"
+        },
+        {
+         "type": "markdown",
+         "value": "Remember that every big thing starts from a(n) "
+        },
+        {
+         "type": "blank",
+         "key": "b47",
+         "placeholder": "47"
+        },
+        {
+         "type": "markdown",
+         "value": " one."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b47"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b47",
+       "value": "small"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段明确指出 `everything starts from small things`，故填 `small`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "small"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-47",
+      "no": 48,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It is not important where you are "
+        },
+        {
+         "type": "blank",
+         "key": "b48",
+         "placeholder": "48"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b48"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b48",
+       "value": "at present"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文说 `it doesn't matter where you are at present`，答案为 `at present`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "at present"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-48",
+      "no": 49,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "See yourself as a small part of a greater whole."
+        },
+        {
+         "type": "markdown",
+         "value": "You should "
+        },
+        {
+         "type": "blank",
+         "key": "b49",
+         "placeholder": "49"
+        },
+        {
+         "type": "markdown",
+         "value": " better people around you to make sure of the realization of your dream."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b49"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b49",
+       "value": "enlist"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第四段使用祈使句 `Enlist people who are better than you`，故填 `enlist`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "enlist"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-49",
+      "no": 50,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If you don't try, you will never know how far your idea could go."
+        },
+        {
+         "type": "markdown",
+         "value": "Imagine how much regret you will have if you give up your big plans."
+        },
+        {
+         "type": "markdown",
+         "value": "It is your "
+        },
+        {
+         "type": "blank",
+         "key": "b50",
+         "placeholder": "50"
+        },
+        {
+         "type": "markdown",
+         "value": " to think big and it is worth trying."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b50"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b50",
+       "value": "duty"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "倒数第二段说 `it is a human duty to think and act big`，概括后填 `duty`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "duty"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "translation_choice",
+    "displayName": "英译汉选择",
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "For sentences 51 to 55, choose the best Chinese translation."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-50",
+      "no": 51,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We expect Li Lei to sing a song."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q51",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 我们期待李磊唱首歌。"
+        },
+        {
+         "key": "B",
+         "label": "B. 我们让李磊唱首歌。"
+        },
+        {
+         "key": "C",
+         "label": "C. 李磊让我们唱首歌。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q51",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`expect sb. to do sth.` 表示“期待某人做某事”，A 与原句对应最准确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. 我们期待李磊唱首歌。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-51",
+      "no": 52,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It is two years since she left her hometown."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q52",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 她离开家乡两年了。"
+        },
+        {
+         "key": "B",
+         "label": "B. 她回到家乡两年了。"
+        },
+        {
+         "key": "C",
+         "label": "C. 两年后她回到了家乡。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q52",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`It is/has been + 时间 + since ...` 表示“自从……以来已有多久”，A 符合句意。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. 她离开家乡两年了。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-52",
+      "no": 53,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "One man's meat is another man's poison."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q53",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 一个人买肉，一个人买药。"
+        },
+        {
+         "key": "B",
+         "label": "B. 萝卜白菜，各有所爱。"
+        },
+        {
+         "key": "C",
+         "label": "C. 买卖不成仁义在。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q53",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这是习语，表示“人各有所好”，B 是恰当的汉语对应。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 萝卜白菜，各有所爱。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-53",
+      "no": 54,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "China has taken steps to push green development."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q54",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 中国正在采取措施推动绿色发展。"
+        },
+        {
+         "key": "B",
+         "label": "B. 中国已经采取了措施推动绿色发展。"
+        },
+        {
+         "key": "C",
+         "label": "C. 中国将要采取措施推动绿色发展。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q54",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原句是现在完成时 `has taken`，表示已经采取了措施，故选 B。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 中国已经采取了措施推动绿色发展。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-54",
+      "no": 55,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "There can be no progress without sweat."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q55",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 没有汗水，就没有进步。"
+        },
+        {
+         "key": "B",
+         "label": "B. 没有汗水，就没有付出。"
+        },
+        {
+         "key": "C",
+         "label": "C. 没有汗水，就无法成功。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q55",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`progress` 对应“进步”，A 在意义和结构上都最贴切。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. 没有汗水，就没有进步。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-8",
+    "kind": "translation_paragraph",
+    "displayName": "段落翻译",
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Translate the following paragraph into Chinese."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-55",
+      "no": 56,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "During holidays, people tend to rush to popular places of interest. As a result, the tourists may suffer from traffic jams or find it difficult to book a hotel. In fact, there are better choices for people to avoid crowds and to spend a satisfying holiday. For example, they can choose to go camping somewhere or visit nearby areas. In those places, people can take beautiful photos, pick fruits or vegetables, try delicious local food and experience various activities. Whatever people choose, the most important thing is to enjoy the holiday."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "t56",
+       "placeholder": "请在此作答"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "翻译时要准确处理 `tend to`、`as a result`、`avoid crowds`、`whatever people choose` 等结构，并保持中文通顺自然。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "假期里，人们往往会涌向热门景点。结果，游客可能会遭遇交通拥堵，或者发现很难订到酒店。事实上，人们还有更好的选择，既能避开人群，又能度过一个令人满意的假期。例如，他们可以选择去某个地方露营，或者游览附近的地区。在那些地方，人们可以拍美丽的照片，采摘水果或蔬菜，品尝可口的当地食物，并体验各种活动。无论人们作何选择，最重要的是享受假期。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-9",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "Part IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Write a composition based on the following information. It should be no fewer than 60 words."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-56",
+      "no": 57,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "围绕 “It is wise to take advice, so learn to listen to others and become wiser.” 展开写作，内容应包括：1. 对这句话的理解；2. 听取别人意见的好处；3. 我的看法。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 60
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作文应围绕题干三点展开，结构完整，语言连贯，并紧扣“善于听取建议会让人更明智”这一中心。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It is wise to take advice, because no one can understand everything by himself. When we listen to others, we may discover our own problems and avoid making the same mistakes again. Good advice can also help us make better decisions and improve ourselves more quickly. In my opinion, we should keep an open mind, think carefully about others' suggestions, and learn from them so that we can become wiser and better."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

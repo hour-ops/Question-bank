@@ -1,0 +1,2074 @@
+{
+  "schema_version": "1.0",
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "what": "全部真题按「科目 / 题型」整理的样板库：题目 + 知识点 + 标准答案 + 解析，供 AI 生成题目时对照。",
+  "relation_to_old_reference": {
+    "old": {
+      "path": "data/generation_reference.json",
+      "bytes": 263126,
+      "built_at": "2026-10-11T16:18:49+00:00",
+      "schema_version": 1,
+      "subjects": [
+        "aca_llm",
+        "c_hbpu",
+        "c_wuhan",
+        "english"
+      ],
+      "types": 30,
+      "samples": 127,
+      "samples_per_type_rule": [
+        3,
+        5
+      ]
+    },
+    "relation": "本库是 data/generation_reference.json 的**超集与替代**：旧库每题型只取 3–5 条、丢弃 options、把材料里的空渲染成空白、知识点沿用库内未归一的原始章节名；本库每题型最多 40 条、保留原始 options/词库、空位显式标出且整组不拆、知识点已归一到三个既有知识点库。",
+    "old_file_kept": true,
+    "old_file_note": "旧文件按用户要求保留未删；如需下游只认一个入口，请以 data/exam_samples/_index.json 为准。"
+  },
+  "sources": {
+    "real_exams_dir": "inbox/real_exams/*.json",
+    "files_scanned": 52,
+    "records_extracted": 6420,
+    "raw_items_total": 6754,
+    "raw_items_by_subject": {
+      "english": 846,
+      "c_common": 5908
+    },
+    "logical_subitems_covered": 7556,
+    "logical_subitems_note": "1 个原始题项可能内含多个 {{__BLANK_n__}}，故本数可大于题项容器数",
+    "exams": [
+      {
+        "file": "014_英语_湖北专升本2025年英语真题.json",
+        "exam_id": 14,
+        "title": "湖北专升本2025年英语真题",
+        "subject": "english",
+        "structure": "questions",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 26723,
+        "records": 17,
+        "types": {
+          "grammar_fill": 1,
+          "reading_fill": 2,
+          "reading_qa": 2,
+          "sentence_build": 5,
+          "translation_fill": 6,
+          "writing": 1
+        }
+      },
+      {
+        "file": "015_英语_湖北专升本2024年英语真题.json",
+        "exam_id": 15,
+        "title": "湖北专升本2024年英语真题",
+        "subject": "english",
+        "structure": "questions",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 21401,
+        "records": 27,
+        "types": {
+          "grammar_fill": 10,
+          "reading_fill": 2,
+          "reading_qa": 2,
+          "sentence_build": 6,
+          "translation_fill": 6,
+          "writing": 1
+        }
+      },
+      {
+        "file": "017_英语_湖北专升本2023年英语真题.json",
+        "exam_id": 17,
+        "title": "湖北专升本2023年英语真题",
+        "subject": "english",
+        "structure": "questions",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 50704,
+        "records": 36,
+        "types": {
+          "reading_fill": 1,
+          "reading_qa": 4,
+          "single_choice": 24,
+          "translation": 1,
+          "translation_choice": 5,
+          "writing": 1
+        }
+      },
+      {
+        "file": "018_英语_湖北专升本2022年英语真题.json",
+        "exam_id": 18,
+        "title": "湖北专升本2022年英语真题",
+        "subject": "english",
+        "structure": "questions",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 41594,
+        "records": 37,
+        "types": {
+          "reading_fill": 1,
+          "reading_qa": 4,
+          "single_choice": 25,
+          "translation": 1,
+          "translation_choice": 5,
+          "writing": 1
+        }
+      },
+      {
+        "file": "019_英语_湖北专升本2021年英语真题.json",
+        "exam_id": 19,
+        "title": "湖北专升本2021年英语真题",
+        "subject": "english",
+        "structure": "questions",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 45271,
+        "records": 37,
+        "types": {
+          "reading_fill": 1,
+          "reading_qa": 4,
+          "single_choice": 25,
+          "translation": 1,
+          "translation_choice": 5,
+          "writing": 1
+        }
+      },
+      {
+        "file": "020_英语_湖北专升本2020年英语真题.json",
+        "exam_id": 20,
+        "title": "湖北专升本2020年英语真题",
+        "subject": "english",
+        "structure": "questions",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 44696,
+        "records": 37,
+        "types": {
+          "reading_fill": 1,
+          "reading_qa": 4,
+          "single_choice": 25,
+          "translation": 1,
+          "translation_choice": 5,
+          "writing": 1
+        }
+      },
+      {
+        "file": "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+        "exam_id": 22,
+        "title": "湖北师范大学专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北师范大学",
+        "bytes": 189146,
+        "records": 147,
+        "types": {
+          "program_fill": 98,
+          "single_choice": 47,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+        "exam_id": 24,
+        "title": "湖北大学知行学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北大学知行学院",
+        "bytes": 189674,
+        "records": 149,
+        "types": {
+          "program_fill": 99,
+          "single_choice": 48,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+        "exam_id": 25,
+        "title": "湖北恩施学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北恩施学院",
+        "bytes": 333055,
+        "records": 448,
+        "types": {
+          "code_correction": 6,
+          "program_fill": 133,
+          "programming": 23,
+          "reading_qa": 83,
+          "single_choice": 202,
+          "true_false": 1
+        }
+      },
+      {
+        "file": "026_程序设计语言_湖北工程学院专升本专业课考试.json",
+        "exam_id": 26,
+        "title": "湖北工程学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北工程学院",
+        "bytes": 189662,
+        "records": 149,
+        "types": {
+          "program_fill": 99,
+          "single_choice": 48,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "028_程序设计语言_湖北工业大学工程技术学院专升本专业课考试.json",
+        "exam_id": 28,
+        "title": "湖北工业大学工程技术学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北工业大学工程技术学院",
+        "bytes": 189698,
+        "records": 149,
+        "types": {
+          "program_fill": 99,
+          "single_choice": 48,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+        "exam_id": 29,
+        "title": "湖北经济学院法商学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北经济学院法商学院",
+        "bytes": 395919,
+        "records": 454,
+        "types": {
+          "code_correction": 9,
+          "program_fill": 109,
+          "programming": 56,
+          "reading_qa": 24,
+          "single_choice": 255,
+          "true_false": 1
+        }
+      },
+      {
+        "file": "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+        "exam_id": 30,
+        "title": "湖北理工学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_hbpu",
+        "school": "湖北理工学院",
+        "bytes": 190695,
+        "records": 168,
+        "types": {
+          "code_correction": 7,
+          "program_fill": 15,
+          "programming": 75,
+          "reading_qa": 21,
+          "single_choice": 49,
+          "true_false": 1
+        }
+      },
+      {
+        "file": "033_程序设计语言_三峡大学科技学院专升本专业课考试.json",
+        "exam_id": 33,
+        "title": "三峡大学科技学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "三峡大学科技学院",
+        "bytes": 333067,
+        "records": 448,
+        "types": {
+          "code_correction": 6,
+          "program_fill": 133,
+          "programming": 23,
+          "reading_qa": 83,
+          "single_choice": 202,
+          "true_false": 1
+        }
+      },
+      {
+        "file": "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+        "exam_id": 38,
+        "title": "武汉设计工程学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉设计工程学院",
+        "bytes": 200773,
+        "records": 173,
+        "types": {
+          "code_correction": 14,
+          "program_fill": 23,
+          "programming": 46,
+          "reading_qa": 25,
+          "single_choice": 61,
+          "true_false": 4
+        }
+      },
+      {
+        "file": "042_程序设计语言_武汉东湖学院专升本专业课考试.json",
+        "exam_id": 42,
+        "title": "武汉东湖学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉东湖学院",
+        "bytes": 189662,
+        "records": 149,
+        "types": {
+          "program_fill": 99,
+          "single_choice": 48,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "043_程序设计语言_武汉文理学院专升本专业课考试.json",
+        "exam_id": 43,
+        "title": "武汉文理学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉文理学院",
+        "bytes": 189662,
+        "records": 149,
+        "types": {
+          "program_fill": 99,
+          "single_choice": 48,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "044_程序设计语言_武汉生物工程学院专升本专业课考试.json",
+        "exam_id": 44,
+        "title": "武汉生物工程学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉生物工程学院",
+        "bytes": 189625,
+        "records": 149,
+        "types": {
+          "program_fill": 99,
+          "single_choice": 48,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "045_程序设计语言_湖北文理学院理工学院专升本专业课考试.json",
+        "exam_id": 45,
+        "title": "湖北文理学院理工学院专升本专业课考试",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北文理学院理工学院",
+        "bytes": 333079,
+        "records": 448,
+        "types": {
+          "code_correction": 6,
+          "program_fill": 133,
+          "programming": 23,
+          "reading_qa": 83,
+          "single_choice": 202,
+          "true_false": 1
+        }
+      },
+      {
+        "file": "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+        "exam_id": 48,
+        "title": "武汉工程大学邮电与信息工程学院专升本教材",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉工程大学邮电与信息工程学院",
+        "bytes": 163230,
+        "records": 139,
+        "types": {
+          "code_correction": 7,
+          "program_fill": 17,
+          "programming": 59,
+          "reading_qa": 13,
+          "single_choice": 41,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "051_程序设计语言_武汉晴川学院专升本.json",
+        "exam_id": 51,
+        "title": "武汉晴川学院专升本",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉晴川学院",
+        "bytes": 208668,
+        "records": 178,
+        "types": {
+          "code_correction": 7,
+          "program_fill": 15,
+          "programming": 85,
+          "reading_qa": 21,
+          "single_choice": 49,
+          "true_false": 1
+        }
+      },
+      {
+        "file": "058_程序设计语言_武汉城市学院软件工程.json",
+        "exam_id": 58,
+        "title": "武汉城市学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉城市学院",
+        "bytes": 178971,
+        "records": 161,
+        "types": {
+          "code_correction": 9,
+          "program_fill": 13,
+          "programming": 74,
+          "reading_qa": 18,
+          "single_choice": 47
+        }
+      },
+      {
+        "file": "059_程序设计语言_武汉传媒学院软件工程.json",
+        "exam_id": 59,
+        "title": "武汉传媒学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉传媒学院",
+        "bytes": 222245,
+        "records": 297,
+        "types": {
+          "code_correction": 10,
+          "program_fill": 73,
+          "programming": 20,
+          "reading_qa": 25,
+          "single_choice": 103,
+          "true_false": 66
+        }
+      },
+      {
+        "file": "060_程序设计语言_湖北商贸学院软件工程.json",
+        "exam_id": 60,
+        "title": "湖北商贸学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北商贸学院",
+        "bytes": 240333,
+        "records": 281,
+        "types": {
+          "code_correction": 10,
+          "program_fill": 39,
+          "programming": 41,
+          "reading_qa": 55,
+          "single_choice": 132,
+          "true_false": 4
+        }
+      },
+      {
+        "file": "062_程序设计语言_湖北工程学院软件工程.json",
+        "exam_id": 62,
+        "title": "湖北工程学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北工程学院",
+        "bytes": 225049,
+        "records": 181,
+        "types": {
+          "program_fill": 129,
+          "single_choice": 50,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "063_程序设计语言_武汉商学院软件工程.json",
+        "exam_id": 63,
+        "title": "武汉商学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉商学院",
+        "bytes": 163143,
+        "records": 139,
+        "types": {
+          "code_correction": 7,
+          "program_fill": 17,
+          "programming": 59,
+          "reading_qa": 13,
+          "single_choice": 41,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "064_程序设计语言_汉江师范学院软件工程.json",
+        "exam_id": 64,
+        "title": "汉江师范学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "汉江师范学院",
+        "bytes": 225049,
+        "records": 181,
+        "types": {
+          "program_fill": 129,
+          "single_choice": 50,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "065_程序设计语言_武汉生物工程学院软件工程.json",
+        "exam_id": 65,
+        "title": "武汉生物工程学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉生物工程学院",
+        "bytes": 225055,
+        "records": 181,
+        "types": {
+          "program_fill": 129,
+          "single_choice": 50,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "066_程序设计语言_武汉东湖学院软件工程.json",
+        "exam_id": 66,
+        "title": "武汉东湖学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉东湖学院",
+        "bytes": 225049,
+        "records": 181,
+        "types": {
+          "program_fill": 129,
+          "single_choice": 50,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "068_程序设计语言_湖北工业大学工程技术学院软件工程.json",
+        "exam_id": 68,
+        "title": "湖北工业大学工程技术学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北工业大学工程技术学院",
+        "bytes": 225067,
+        "records": 181,
+        "types": {
+          "program_fill": 129,
+          "single_choice": 50,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "069_程序设计语言_武汉工程大学邮电与信息工程学院软件工程.json",
+        "exam_id": 69,
+        "title": "武汉工程大学邮电与信息工程学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉工程大学邮电与信息工程学院",
+        "bytes": 163227,
+        "records": 139,
+        "types": {
+          "code_correction": 7,
+          "program_fill": 17,
+          "programming": 59,
+          "reading_qa": 13,
+          "single_choice": 41,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "070_程序设计语言_武汉纺织大学外经贸学院软件工程.json",
+        "exam_id": 70,
+        "title": "武汉纺织大学外经贸学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉纺织大学外经贸学院",
+        "bytes": 163215,
+        "records": 139,
+        "types": {
+          "code_correction": 7,
+          "program_fill": 17,
+          "programming": 59,
+          "reading_qa": 13,
+          "single_choice": 41,
+          "true_false": 2
+        }
+      },
+      {
+        "file": "071_程序设计语言_湖北恩施学院软件工程.json",
+        "exam_id": 71,
+        "title": "湖北恩施学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "湖北恩施学院",
+        "bytes": 178971,
+        "records": 161,
+        "types": {
+          "code_correction": 9,
+          "program_fill": 13,
+          "programming": 74,
+          "reading_qa": 18,
+          "single_choice": 47
+        }
+      },
+      {
+        "file": "072_程序设计语言_武汉晴川学院软件工程.json",
+        "exam_id": 72,
+        "title": "武汉晴川学院软件工程",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "武汉晴川学院",
+        "bytes": 208671,
+        "records": 178,
+        "types": {
+          "code_correction": 7,
+          "program_fill": 15,
+          "programming": 85,
+          "reading_qa": 21,
+          "single_choice": 49,
+          "true_false": 1
+        }
+      },
+      {
+        "file": "094_程序设计语言_大学生程序设计素养调研.json",
+        "exam_id": 94,
+        "title": "大学生程序设计素养调研",
+        "subject": "c_common",
+        "structure": "questions",
+        "trust": "textbook",
+        "origin_db": "c_wuhan",
+        "school": "大学生程序设计素养调研",
+        "bytes": 6369,
+        "records": 10,
+        "types": {
+          "single_choice": 10
+        }
+      },
+      {
+        "file": "101_英语_河北专升本英语16.json",
+        "exam_id": 101,
+        "title": "河北专升本英语16",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 57359,
+        "records": 11,
+        "types": {
+          "cloze": 1,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_qa": 2,
+          "word_fill": 1,
+          "writing": 1
+        }
+      },
+      {
+        "file": "102_英语_河北专升本英语17.json",
+        "exam_id": 102,
+        "title": "河北专升本英语17",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 51567,
+        "records": 11,
+        "types": {
+          "cloze": 1,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_fill": 1,
+          "reading_qa": 2,
+          "writing": 1
+        }
+      },
+      {
+        "file": "103_英语_河北专升本英语18.json",
+        "exam_id": 103,
+        "title": "河北专升本英语18",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 153796,
+        "records": 25,
+        "types": {
+          "cloze": 2,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_qa": 8,
+          "single_choice": 4,
+          "translation": 1,
+          "word_fill": 1,
+          "writing": 3
+        }
+      },
+      {
+        "file": "104_英语_河北专升本英语19.json",
+        "exam_id": 104,
+        "title": "河北专升本英语19",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 53853,
+        "records": 11,
+        "types": {
+          "cloze": 1,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_qa": 2,
+          "word_fill": 1,
+          "writing": 1
+        }
+      },
+      {
+        "file": "105_英语_河北专升本英语20.json",
+        "exam_id": 105,
+        "title": "河北专升本英语20",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 58591,
+        "records": 11,
+        "types": {
+          "cloze": 1,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_qa": 2,
+          "word_fill": 1,
+          "writing": 1
+        }
+      },
+      {
+        "file": "106_英语_河北专升本英语21.json",
+        "exam_id": 106,
+        "title": "河北专升本英语21",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 69374,
+        "records": 11,
+        "types": {
+          "cloze": 1,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_qa": 2,
+          "word_fill": 1,
+          "writing": 1
+        }
+      },
+      {
+        "file": "107_英语_河北专升本英语22.json",
+        "exam_id": 107,
+        "title": "河北专升本英语22",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 44708,
+        "records": 0,
+        "types": {}
+      },
+      {
+        "file": "108_英语_河北专升本英语23.json",
+        "exam_id": 108,
+        "title": "河北专升本英语23",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 53986,
+        "records": 11,
+        "types": {
+          "cloze": 1,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_qa": 2,
+          "word_fill": 1,
+          "writing": 1
+        }
+      },
+      {
+        "file": "109_英语_河北专升本英语24.json",
+        "exam_id": 109,
+        "title": "河北专升本英语24",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 58534,
+        "records": 11,
+        "types": {
+          "cloze": 1,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_qa": 2,
+          "word_fill": 1,
+          "writing": 1
+        }
+      },
+      {
+        "file": "110_英语_河北专升本英语25.json",
+        "exam_id": 110,
+        "title": "河北专升本英语25",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 58651,
+        "records": 11,
+        "types": {
+          "cloze": 1,
+          "dialogue": 1,
+          "phonetics": 5,
+          "reading_qa": 3,
+          "writing": 1
+        }
+      },
+      {
+        "file": "111_英语_湖北2025.json",
+        "exam_id": 111,
+        "title": "湖北2025",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 53400,
+        "records": 18,
+        "types": {
+          "grammar_fill": 1,
+          "reading_fill": 2,
+          "reading_qa": 2,
+          "sentence_build": 6,
+          "translation_fill": 6,
+          "writing": 1
+        }
+      },
+      {
+        "file": "112_英语_湖北2024.json",
+        "exam_id": 112,
+        "title": "湖北2024",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 51759,
+        "records": 26,
+        "types": {
+          "grammar_fill": 10,
+          "reading_fill": 1,
+          "reading_qa": 2,
+          "sentence_build": 6,
+          "sentence_completion": 6,
+          "writing": 1
+        }
+      },
+      {
+        "file": "113_英语_湖北2023.json",
+        "exam_id": 113,
+        "title": "湖北2023",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 77732,
+        "records": 36,
+        "types": {
+          "reading_fill": 1,
+          "reading_qa": 4,
+          "single_choice": 24,
+          "translation": 1,
+          "translation_choice": 5,
+          "writing": 1
+        }
+      },
+      {
+        "file": "114_英语_湖北2022.json",
+        "exam_id": 114,
+        "title": "湖北2022",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 78086,
+        "records": 37,
+        "types": {
+          "reading_fill": 1,
+          "reading_qa": 4,
+          "single_choice": 25,
+          "translation": 1,
+          "translation_choice": 5,
+          "writing": 1
+        }
+      },
+      {
+        "file": "115_英语_湖北2021.json",
+        "exam_id": 115,
+        "title": "湖北2021",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 80731,
+        "records": 37,
+        "types": {
+          "reading_fill": 1,
+          "reading_qa": 4,
+          "single_choice": 25,
+          "translation": 1,
+          "translation_choice": 5,
+          "writing": 1
+        }
+      },
+      {
+        "file": "116_英语_湖北2020.json",
+        "exam_id": 116,
+        "title": "湖北2020",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 81722,
+        "records": 37,
+        "types": {
+          "outline_fill": 1,
+          "reading_qa": 4,
+          "single_choice": 25,
+          "translation": 1,
+          "translation_choice": 5,
+          "writing": 1
+        }
+      },
+      {
+        "file": "128_英语_湖北2026.json",
+        "exam_id": 128,
+        "title": "湖北2026",
+        "subject": "english",
+        "structure": "sections",
+        "trust": "official_exam",
+        "origin_db": null,
+        "school": null,
+        "bytes": 51542,
+        "records": 18,
+        "types": {
+          "grammar_fill": 1,
+          "reading_fill": 2,
+          "reading_qa": 2,
+          "sentence_build": 6,
+          "translation_fill": 6,
+          "writing": 1
+        }
+      }
+    ]
+  },
+  "knowledge_bases": {
+    "english": {
+      "path": "subjects/english/knowledge_base.json",
+      "points": 48
+    },
+    "c_common": {
+      "path": "subjects/c_common/knowledge_base.json",
+      "points": 15
+    },
+    "aca_llm": {
+      "path": "subjects/aca_llm/knowledge_base.json",
+      "points": 252
+    }
+  },
+  "totals": {
+    "samples": 552,
+    "files": 21,
+    "by_subject": {
+      "c_common": 240,
+      "english": 312
+    },
+    "material_blocks": 112,
+    "total_blanks_in_material_blocks": 624,
+    "with_explanation": 552
+  },
+  "knowledge_point_coverage": {
+    "c_common/code_correction": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "c_common/program_fill": {
+      "samples": 40,
+      "mapped": 28,
+      "unmapped": 12,
+      "rate": 0.7
+    },
+    "c_common/programming": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "c_common/reading_qa": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "c_common/single_choice": {
+      "samples": 40,
+      "mapped": 30,
+      "unmapped": 10,
+      "rate": 0.75
+    },
+    "c_common/true_false": {
+      "samples": 40,
+      "mapped": 38,
+      "unmapped": 2,
+      "rate": 0.95
+    },
+    "english/cloze": {
+      "samples": 10,
+      "mapped": 10,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/dialogue": {
+      "samples": 9,
+      "mapped": 9,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/grammar_fill": {
+      "samples": 23,
+      "mapped": 23,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/outline_fill": {
+      "samples": 1,
+      "mapped": 1,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/phonetics": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/reading_fill": {
+      "samples": 17,
+      "mapped": 17,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/reading_qa": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/sentence_build": {
+      "samples": 23,
+      "mapped": 23,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/sentence_completion": {
+      "samples": 6,
+      "mapped": 6,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/single_choice": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/translation": {
+      "samples": 8,
+      "mapped": 8,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/translation_choice": {
+      "samples": 40,
+      "mapped": 40,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/translation_fill": {
+      "samples": 24,
+      "mapped": 24,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/word_fill": {
+      "samples": 7,
+      "mapped": 7,
+      "unmapped": 0,
+      "rate": 1.0
+    },
+    "english/writing": {
+      "samples": 24,
+      "mapped": 24,
+      "unmapped": 0,
+      "rate": 1.0
+    }
+  },
+  "unmapped": {
+    "reason_counts": {
+      "unmapped: 原题未标注教材章节（source.chapter 为空）": 1956
+    },
+    "explanation": "unmapped 一律如实记录，不猜测、不补造知识点。"
+  },
+  "by_subject_type": {
+    "c_common": {
+      "code_correction": {
+        "file": "c_common/code_correction.json",
+        "type_name_cn": "程序改错",
+        "samples": 40,
+        "source_records": 128,
+        "with_explanation": 40,
+        "material_blocks": 0,
+        "exams": [
+          "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+          "059_程序设计语言_武汉传媒学院软件工程.json",
+          "060_程序设计语言_湖北商贸学院软件工程.json",
+          "058_程序设计语言_武汉城市学院软件工程.json",
+          "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+          "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+          "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+          "025_程序设计语言_湖北恩施学院专升本专业课考试.json"
+        ],
+        "type_raw_values": [
+          "改错题",
+          "程序改错题"
+        ],
+        "knowledge_points": [
+          "C-03",
+          "C-08",
+          "C-05",
+          "C-02",
+          "C-10",
+          "C-09",
+          "C-11",
+          "C-06",
+          "C-01",
+          "C-04",
+          "C-13",
+          "C-07"
+        ]
+      },
+      "program_fill": {
+        "file": "c_common/program_fill.json",
+        "type_name_cn": "程序填空",
+        "samples": 40,
+        "source_records": 2119,
+        "with_explanation": 40,
+        "material_blocks": 24,
+        "exams": [
+          "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+          "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+          "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+          "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+          "059_程序设计语言_武汉传媒学院软件工程.json",
+          "060_程序设计语言_湖北商贸学院软件工程.json",
+          "062_程序设计语言_湖北工程学院软件工程.json",
+          "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+          "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+          "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+          "058_程序设计语言_武汉城市学院软件工程.json"
+        ],
+        "type_raw_values": [
+          "填空题",
+          "程序填空题"
+        ],
+        "knowledge_points": [
+          "C-05",
+          "C-04",
+          "C-09",
+          "C-02",
+          "C-08",
+          "C-12",
+          "C-07",
+          "C-01",
+          "C-03",
+          "C-11",
+          "C-06",
+          "C-10"
+        ]
+      },
+      "programming": {
+        "file": "c_common/programming.json",
+        "type_name_cn": "编程题",
+        "samples": 40,
+        "source_records": 861,
+        "with_explanation": 40,
+        "material_blocks": 0,
+        "exams": [
+          "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+          "058_程序设计语言_武汉城市学院软件工程.json",
+          "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+          "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+          "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+          "060_程序设计语言_湖北商贸学院软件工程.json",
+          "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+          "059_程序设计语言_武汉传媒学院软件工程.json",
+          "051_程序设计语言_武汉晴川学院专升本.json"
+        ],
+        "type_raw_values": [
+          "编程题"
+        ],
+        "knowledge_points": [
+          "C-03",
+          "C-05",
+          "C-09",
+          "C-06",
+          "C-02",
+          "C-10",
+          "C-15",
+          "C-12",
+          "C-07",
+          "C-08",
+          "C-04"
+        ]
+      },
+      "reading_qa": {
+        "file": "c_common/reading_qa.json",
+        "type_name_cn": "程序阅读题（读程序写结果）",
+        "samples": 40,
+        "source_records": 529,
+        "with_explanation": 40,
+        "material_blocks": 1,
+        "exams": [
+          "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+          "060_程序设计语言_湖北商贸学院软件工程.json",
+          "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+          "059_程序设计语言_武汉传媒学院软件工程.json",
+          "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+          "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+          "058_程序设计语言_武汉城市学院软件工程.json",
+          "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json"
+        ],
+        "type_raw_values": [
+          "程序阅读题"
+        ],
+        "knowledge_points": [
+          "C-05",
+          "C-07",
+          "C-03",
+          "C-06",
+          "C-02",
+          "C-11",
+          "C-09",
+          "C-04",
+          "C-01",
+          "C-08",
+          "C-15"
+        ]
+      },
+      "single_choice": {
+        "file": "c_common/single_choice.json",
+        "type_name_cn": "单选题",
+        "samples": 40,
+        "source_records": 2157,
+        "with_explanation": 40,
+        "material_blocks": 0,
+        "exams": [
+          "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+          "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+          "060_程序设计语言_湖北商贸学院软件工程.json",
+          "059_程序设计语言_武汉传媒学院软件工程.json",
+          "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+          "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+          "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+          "058_程序设计语言_武汉城市学院软件工程.json",
+          "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+          "094_程序设计语言_大学生程序设计素养调研.json",
+          "062_程序设计语言_湖北工程学院软件工程.json",
+          "024_程序设计语言_湖北大学知行学院专升本专业课考试.json"
+        ],
+        "type_raw_values": [
+          "单选题",
+          "选择题"
+        ],
+        "knowledge_points": [
+          "C-05",
+          "C-03",
+          "C-08",
+          "C-06",
+          "C-09",
+          "C-02",
+          "C-15",
+          "C-04",
+          "C-01",
+          "C-11"
+        ]
+      },
+      "true_false": {
+        "file": "c_common/true_false.json",
+        "type_name_cn": "判断题",
+        "samples": 40,
+        "source_records": 113,
+        "with_explanation": 40,
+        "material_blocks": 0,
+        "exams": [
+          "059_程序设计语言_武汉传媒学院软件工程.json",
+          "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+          "060_程序设计语言_湖北商贸学院软件工程.json",
+          "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+          "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+          "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+          "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+          "030_程序设计语言_湖北理工学院专升本专业课考试.json"
+        ],
+        "type_raw_values": [
+          "判断题"
+        ],
+        "knowledge_points": [
+          "C-01",
+          "C-09",
+          "C-10",
+          "C-11",
+          "C-08",
+          "C-02",
+          "C-14",
+          "C-06",
+          "C-03",
+          "C-04",
+          "C-15",
+          "C-07"
+        ]
+      }
+    },
+    "english": {
+      "cloze": {
+        "file": "english/cloze.json",
+        "type_name_cn": "完形填空",
+        "samples": 10,
+        "source_records": 10,
+        "with_explanation": 10,
+        "material_blocks": 10,
+        "exams": [
+          "103_英语_河北专升本英语18.json",
+          "101_英语_河北专升本英语16.json",
+          "102_英语_河北专升本英语17.json",
+          "104_英语_河北专升本英语19.json",
+          "105_英语_河北专升本英语20.json",
+          "106_英语_河北专升本英语21.json",
+          "108_英语_河北专升本英语23.json",
+          "109_英语_河北专升本英语24.json",
+          "110_英语_河北专升本英语25.json"
+        ],
+        "type_raw_values": [
+          "Cloze",
+          "完形填空"
+        ],
+        "knowledge_points": [
+          "E-T14",
+          "E-S13",
+          "E-S14"
+        ]
+      },
+      "dialogue": {
+        "file": "english/dialogue.json",
+        "type_name_cn": "情景对话",
+        "samples": 9,
+        "source_records": 9,
+        "with_explanation": 9,
+        "material_blocks": 9,
+        "exams": [
+          "101_英语_河北专升本英语16.json",
+          "102_英语_河北专升本英语17.json",
+          "103_英语_河北专升本英语18.json",
+          "104_英语_河北专升本英语19.json",
+          "105_英语_河北专升本英语20.json",
+          "106_英语_河北专升本英语21.json",
+          "108_英语_河北专升本英语23.json",
+          "109_英语_河北专升本英语24.json",
+          "110_英语_河北专升本英语25.json"
+        ],
+        "type_raw_values": [
+          "Situational Dialogue",
+          "情景对话"
+        ],
+        "knowledge_points": [
+          "E-T13",
+          "E-S12"
+        ]
+      },
+      "grammar_fill": {
+        "file": "english/grammar_fill.json",
+        "type_name_cn": "语法填空",
+        "samples": 23,
+        "source_records": 23,
+        "with_explanation": 23,
+        "material_blocks": 3,
+        "exams": [
+          "015_英语_湖北专升本2024年英语真题.json",
+          "112_英语_湖北2024.json",
+          "014_英语_湖北专升本2025年英语真题.json",
+          "111_英语_湖北2025.json",
+          "128_英语_湖北2026.json"
+        ],
+        "type_raw_values": [
+          "语法填空"
+        ],
+        "knowledge_points": [
+          "E-T01",
+          "E-G01",
+          "E-G02",
+          "E-G04",
+          "E-G05",
+          "E-G06",
+          "E-G07",
+          "E-G09",
+          "E-G10",
+          "E-G11",
+          "E-G12",
+          "E-G13"
+        ]
+      },
+      "outline_fill": {
+        "file": "english/outline_fill.json",
+        "type_name_cn": "提纲填空",
+        "samples": 1,
+        "source_records": 1,
+        "with_explanation": 1,
+        "material_blocks": 1,
+        "exams": [
+          "116_英语_湖北2020.json"
+        ],
+        "type_raw_values": [
+          "提纲填空"
+        ],
+        "knowledge_points": [
+          "E-T11",
+          "E-S07"
+        ]
+      },
+      "phonetics": {
+        "file": "english/phonetics.json",
+        "type_name_cn": "语音题",
+        "samples": 40,
+        "source_records": 45,
+        "with_explanation": 40,
+        "material_blocks": 0,
+        "exams": [
+          "101_英语_河北专升本英语16.json",
+          "102_英语_河北专升本英语17.json",
+          "103_英语_河北专升本英语18.json",
+          "104_英语_河北专升本英语19.json",
+          "105_英语_河北专升本英语20.json",
+          "106_英语_河北专升本英语21.json",
+          "108_英语_河北专升本英语23.json",
+          "109_英语_河北专升本英语24.json",
+          "110_英语_河北专升本英语25.json"
+        ],
+        "type_raw_values": [
+          "Phonetics",
+          "语音",
+          "语音知识",
+          "语音题"
+        ],
+        "knowledge_points": [
+          "E-T12",
+          "E-S01"
+        ]
+      },
+      "reading_fill": {
+        "file": "english/reading_fill.json",
+        "type_name_cn": "阅读填空",
+        "samples": 17,
+        "source_records": 17,
+        "with_explanation": 17,
+        "material_blocks": 17,
+        "exams": [
+          "014_英语_湖北专升本2025年英语真题.json",
+          "015_英语_湖北专升本2024年英语真题.json",
+          "111_英语_湖北2025.json",
+          "128_英语_湖北2026.json",
+          "017_英语_湖北专升本2023年英语真题.json",
+          "018_英语_湖北专升本2022年英语真题.json",
+          "019_英语_湖北专升本2021年英语真题.json",
+          "020_英语_湖北专升本2020年英语真题.json",
+          "102_英语_河北专升本英语17.json",
+          "112_英语_湖北2024.json",
+          "113_英语_湖北2023.json",
+          "114_英语_湖北2022.json",
+          "115_英语_湖北2021.json"
+        ],
+        "type_raw_values": [
+          "填空题",
+          "阅读填空",
+          "阅读填空 / 词汇填空",
+          "阅读填词"
+        ],
+        "knowledge_points": [
+          "E-T03",
+          "E-S07"
+        ]
+      },
+      "reading_qa": {
+        "file": "english/reading_qa.json",
+        "type_name_cn": "阅读理解",
+        "samples": 40,
+        "source_records": 67,
+        "with_explanation": 40,
+        "material_blocks": 40,
+        "exams": [
+          "103_英语_河北专升本英语18.json",
+          "017_英语_湖北专升本2023年英语真题.json",
+          "018_英语_湖北专升本2022年英语真题.json",
+          "019_英语_湖北专升本2021年英语真题.json",
+          "020_英语_湖北专升本2020年英语真题.json",
+          "113_英语_湖北2023.json",
+          "114_英语_湖北2022.json",
+          "115_英语_湖北2021.json",
+          "116_英语_湖北2020.json",
+          "110_英语_河北专升本英语25.json",
+          "014_英语_湖北专升本2025年英语真题.json",
+          "015_英语_湖北专升本2024年英语真题.json",
+          "101_英语_河北专升本英语16.json",
+          "102_英语_河北专升本英语17.json",
+          "104_英语_河北专升本英语19.json",
+          "105_英语_河北专升本英语20.json",
+          "106_英语_河北专升本英语21.json",
+          "108_英语_河北专升本英语23.json",
+          "109_英语_河北专升本英语24.json",
+          "111_英语_湖北2025.json",
+          "112_英语_湖北2024.json",
+          "128_英语_湖北2026.json"
+        ],
+        "type_raw_values": [
+          "Reading Comprehension",
+          "Reading Comprehension Passage 1",
+          "Reading Comprehension Passage 2",
+          "阅读理解",
+          "阅读理解 Passage 1",
+          "阅读理解 Passage 2",
+          "阅读理解 Section B"
+        ],
+        "knowledge_points": [
+          "E-T04",
+          "E-T16",
+          "E-S02",
+          "E-S03",
+          "E-S04",
+          "E-S05",
+          "E-S06",
+          "E-S08"
+        ]
+      },
+      "sentence_build": {
+        "file": "english/sentence_build.json",
+        "type_name_cn": "连词成句",
+        "samples": 23,
+        "source_records": 29,
+        "with_explanation": 23,
+        "material_blocks": 0,
+        "exams": [
+          "111_英语_湖北2025.json",
+          "128_英语_湖北2026.json",
+          "014_英语_湖北专升本2025年英语真题.json",
+          "112_英语_湖北2024.json",
+          "015_英语_湖北专升本2024年英语真题.json"
+        ],
+        "type_raw_values": [
+          "连词成句"
+        ],
+        "knowledge_points": [
+          "E-T02",
+          "E-G01",
+          "E-G02",
+          "E-G04",
+          "E-G05",
+          "E-G06"
+        ]
+      },
+      "sentence_completion": {
+        "file": "english/sentence_completion.json",
+        "type_name_cn": "完成句子",
+        "samples": 6,
+        "source_records": 6,
+        "with_explanation": 6,
+        "material_blocks": 0,
+        "exams": [
+          "112_英语_湖北2024.json"
+        ],
+        "type_raw_values": [
+          "完成句子"
+        ],
+        "knowledge_points": [
+          "E-T07",
+          "E-S09"
+        ]
+      },
+      "single_choice": {
+        "file": "english/single_choice.json",
+        "type_name_cn": "单选题",
+        "samples": 40,
+        "source_records": 202,
+        "with_explanation": 40,
+        "material_blocks": 0,
+        "exams": [
+          "018_英语_湖北专升本2022年英语真题.json",
+          "019_英语_湖北专升本2021年英语真题.json",
+          "020_英语_湖北专升本2020年英语真题.json",
+          "114_英语_湖北2022.json",
+          "115_英语_湖北2021.json",
+          "116_英语_湖北2020.json",
+          "017_英语_湖北专升本2023年英语真题.json",
+          "113_英语_湖北2023.json",
+          "103_英语_河北专升本英语18.json"
+        ],
+        "type_raw_values": [
+          "单选题",
+          "单项选择",
+          "词汇与结构",
+          "词汇与语法",
+          "词汇与语法结构"
+        ],
+        "knowledge_points": [
+          "E-T08",
+          "E-G01",
+          "E-G02",
+          "E-G03",
+          "E-G04",
+          "E-G05",
+          "E-G06",
+          "E-G07",
+          "E-G08",
+          "E-G09",
+          "E-G10",
+          "E-G11",
+          "E-G12",
+          "E-G13",
+          "E-G14",
+          "E-G15",
+          "E-G16",
+          "E-G17"
+        ]
+      },
+      "translation": {
+        "file": "english/translation.json",
+        "type_name_cn": "翻译（英译汉）",
+        "samples": 8,
+        "source_records": 9,
+        "with_explanation": 8,
+        "material_blocks": 0,
+        "exams": [
+          "017_英语_湖北专升本2023年英语真题.json",
+          "018_英语_湖北专升本2022年英语真题.json",
+          "019_英语_湖北专升本2021年英语真题.json",
+          "020_英语_湖北专升本2020年英语真题.json",
+          "103_英语_河北专升本英语18.json",
+          "113_英语_湖北2023.json",
+          "114_英语_湖北2022.json",
+          "115_英语_湖北2021.json"
+        ],
+        "type_raw_values": [
+          "段落翻译",
+          "翻译题",
+          "英译汉"
+        ],
+        "knowledge_points": [
+          "E-T10",
+          "E-S08"
+        ]
+      },
+      "translation_choice": {
+        "file": "english/translation_choice.json",
+        "type_name_cn": "英译汉选择",
+        "samples": 40,
+        "source_records": 40,
+        "with_explanation": 40,
+        "material_blocks": 0,
+        "exams": [
+          "017_英语_湖北专升本2023年英语真题.json",
+          "018_英语_湖北专升本2022年英语真题.json",
+          "019_英语_湖北专升本2021年英语真题.json",
+          "020_英语_湖北专升本2020年英语真题.json",
+          "113_英语_湖北2023.json",
+          "114_英语_湖北2022.json",
+          "115_英语_湖北2021.json",
+          "116_英语_湖北2020.json"
+        ],
+        "type_raw_values": [
+          "单选题",
+          "翻译题",
+          "英译汉选择"
+        ],
+        "knowledge_points": [
+          "E-T09",
+          "E-S08"
+        ]
+      },
+      "translation_fill": {
+        "file": "english/translation_fill.json",
+        "type_name_cn": "翻译填空",
+        "samples": 24,
+        "source_records": 24,
+        "with_explanation": 24,
+        "material_blocks": 0,
+        "exams": [
+          "014_英语_湖北专升本2025年英语真题.json",
+          "015_英语_湖北专升本2024年英语真题.json",
+          "111_英语_湖北2025.json",
+          "128_英语_湖北2026.json"
+        ],
+        "type_raw_values": [
+          "翻译填空",
+          "翻译题"
+        ],
+        "knowledge_points": [
+          "E-T05",
+          "E-S09",
+          "E-G07"
+        ]
+      },
+      "word_fill": {
+        "file": "english/word_fill.json",
+        "type_name_cn": "选词填空",
+        "samples": 7,
+        "source_records": 7,
+        "with_explanation": 7,
+        "material_blocks": 7,
+        "exams": [
+          "101_英语_河北专升本英语16.json",
+          "103_英语_河北专升本英语18.json",
+          "104_英语_河北专升本英语19.json",
+          "105_英语_河北专升本英语20.json",
+          "106_英语_河北专升本英语21.json",
+          "108_英语_河北专升本英语23.json",
+          "109_英语_河北专升本英语24.json"
+        ],
+        "type_raw_values": [
+          "Reading Comprehension Section B",
+          "词汇填空",
+          "选词填空"
+        ],
+        "knowledge_points": [
+          "E-T15",
+          "E-G06"
+        ]
+      },
+      "writing": {
+        "file": "english/writing.json",
+        "type_name_cn": "写作",
+        "samples": 24,
+        "source_records": 24,
+        "with_explanation": 24,
+        "material_blocks": 0,
+        "exams": [
+          "103_英语_河北专升本英语18.json",
+          "014_英语_湖北专升本2025年英语真题.json",
+          "015_英语_湖北专升本2024年英语真题.json",
+          "017_英语_湖北专升本2023年英语真题.json",
+          "018_英语_湖北专升本2022年英语真题.json",
+          "019_英语_湖北专升本2021年英语真题.json",
+          "020_英语_湖北专升本2020年英语真题.json",
+          "101_英语_河北专升本英语16.json",
+          "102_英语_河北专升本英语17.json",
+          "104_英语_河北专升本英语19.json",
+          "105_英语_河北专升本英语20.json",
+          "106_英语_河北专升本英语21.json",
+          "108_英语_河北专升本英语23.json",
+          "109_英语_河北专升本英语24.json",
+          "110_英语_河北专升本英语25.json",
+          "111_英语_湖北2025.json",
+          "112_英语_湖北2024.json",
+          "113_英语_湖北2023.json",
+          "114_英语_湖北2022.json",
+          "115_英语_湖北2021.json",
+          "116_英语_湖北2020.json",
+          "128_英语_湖北2026.json"
+        ],
+        "type_raw_values": [
+          "Writing",
+          "书信写作",
+          "书面表达",
+          "作文",
+          "写作",
+          "写作题"
+        ],
+        "knowledge_points": [
+          "E-T06",
+          "E-T17",
+          "E-S10",
+          "E-S11"
+        ]
+      }
+    },
+    "aca_llm": {
+      "_NO_REAL_EXAM.json": {
+        "samples": 0,
+        "status": "empty_no_real_exam",
+        "reason": "ACA 是机考认证，官方不公开真题；data/aca_llm.sqlite 里 source_type='real_exam' 为 0 条。"
+      }
+    }
+  },
+  "duplicate_representation_groups": [
+    {
+      "year": "2020",
+      "versions": [
+        {
+          "exam": "020_英语_湖北专升本2020年英语真题.json",
+          "title": "湖北专升本2020年英语真题",
+          "structure": "questions",
+          "records": 37
+        },
+        {
+          "exam": "116_英语_湖北2020.json",
+          "title": "湖北2020",
+          "structure": "sections",
+          "records": 37
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "versions": [
+        {
+          "exam": "019_英语_湖北专升本2021年英语真题.json",
+          "title": "湖北专升本2021年英语真题",
+          "structure": "questions",
+          "records": 37
+        },
+        {
+          "exam": "115_英语_湖北2021.json",
+          "title": "湖北2021",
+          "structure": "sections",
+          "records": 37
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "versions": [
+        {
+          "exam": "018_英语_湖北专升本2022年英语真题.json",
+          "title": "湖北专升本2022年英语真题",
+          "structure": "questions",
+          "records": 37
+        },
+        {
+          "exam": "114_英语_湖北2022.json",
+          "title": "湖北2022",
+          "structure": "sections",
+          "records": 37
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "versions": [
+        {
+          "exam": "017_英语_湖北专升本2023年英语真题.json",
+          "title": "湖北专升本2023年英语真题",
+          "structure": "questions",
+          "records": 36
+        },
+        {
+          "exam": "113_英语_湖北2023.json",
+          "title": "湖北2023",
+          "structure": "sections",
+          "records": 36
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "versions": [
+        {
+          "exam": "015_英语_湖北专升本2024年英语真题.json",
+          "title": "湖北专升本2024年英语真题",
+          "structure": "questions",
+          "records": 27
+        },
+        {
+          "exam": "112_英语_湖北2024.json",
+          "title": "湖北2024",
+          "structure": "sections",
+          "records": 26
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "versions": [
+        {
+          "exam": "014_英语_湖北专升本2025年英语真题.json",
+          "title": "湖北专升本2025年英语真题",
+          "structure": "questions",
+          "records": 17
+        },
+        {
+          "exam": "111_英语_湖北2025.json",
+          "title": "湖北2025",
+          "structure": "sections",
+          "records": 18
+        }
+      ]
+    }
+  ],
+  "duplicate_representation_note": "同一套湖北卷在 inbox/real_exams 里有**两个抓取版本**：sections 版（111–116/128，材料按块存、材料里的空位带 inline 标记）与 questions 版（014/015/017–020，小题干更完整、每题自带 options）。两版内容互补，本库**都保留**，未做跨格式去重 —— 下游生成时按 type_raw / 结构自行取舍；如需合并请以 sections 版为材料基准。",
+  "validation_issues": [
+    {
+      "exam": "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+      "where": "q163-sub0",
+      "issue": "无答案，已跳过"
+    },
+    {
+      "exam": "107_英语_河北专升本英语22.json",
+      "where": "107-s0-i0",
+      "issue": "无答案，已跳过"
+    },
+    {
+      "exam": "107_英语_河北专升本英语22.json",
+      "where": "107-s0-i1",
+      "issue": "无答案，已跳过"
+    },
+    {
+      "exam": "107_英语_河北专升本英语22.json",
+      "where": "107-s0-i2",
+      "issue": "无答案，已跳过"
+    },
+    {
+      "exam": "107_英语_河北专升本英语22.json",
+      "where": "107-s0-i3",
+      "issue": "无答案，已跳过"
+    },
+    {
+      "exam": "107_英语_河北专升本英语22.json",
+      "where": "107-s0-i4",
+      "issue": "无答案，已跳过"
+    },
+    {
+      "exam": "107_英语_河北专升本英语22.json",
+      "where": "107-s6-i0",
+      "issue": "无答案，已跳过"
+    }
+  ],
+  "source_data_gaps": {
+    "note": "源真题自身的缺口（不是本脚本的 bug）：这些题/组没有标准答案，已被排除，不拿空答案充数。",
+    "total": 5,
+    "by_exam": {
+      "107_英语_河北专升本英语22.json": 5
+    },
+    "items": [
+      {
+        "exam": "107_英语_河北专升本英语22.json",
+        "where": "107-s1",
+        "type": "dialogue",
+        "blanks": 5,
+        "reason": "整组无标准答案（源卷缺答案）"
+      },
+      {
+        "exam": "107_英语_河北专升本英语22.json",
+        "where": "107-s2",
+        "type": "reading_qa",
+        "blanks": 5,
+        "reason": "整组无标准答案（源卷缺答案）"
+      },
+      {
+        "exam": "107_英语_河北专升本英语22.json",
+        "where": "107-s3",
+        "type": "reading_qa",
+        "blanks": 5,
+        "reason": "整组无标准答案（源卷缺答案）"
+      },
+      {
+        "exam": "107_英语_河北专升本英语22.json",
+        "where": "107-s4",
+        "type": "word_fill",
+        "blanks": 10,
+        "reason": "整组无标准答案（源卷缺答案）"
+      },
+      {
+        "exam": "107_英语_河北专升本英语22.json",
+        "where": "107-s5",
+        "type": "cloze",
+        "blanks": 10,
+        "reason": "整组无标准答案（源卷缺答案）"
+      }
+    ]
+  },
+  "design_notes": [
+    "题干一律取自 inbox/real_exams/*.json 原始 JSON。**不从 SQLite 读题干**：scripts/import_real_exams.py 的 strip_html() 把 `#include <stdio.h>` 当成 HTML 标签删掉了，库里存的是 `#include `，原始 JSON 无此损伤。",
+    "材料型题（一篇短文 + 若干空）整组一条 sample：material = 整篇原文，material_blanks = 全部空。脚本对每组的空数做断言，不符的记入 validation_issues，不静默丢弃。",
+    "空位渲染：源里 {type:'blank'} 只是一个无字空白，本库显式写成 {{__BLANK_<n>__}}，否则材料读不通、也核对不出空数。文字内容一字未改。",
+    "连词成句保留真题 `词组 / 词组` 斜杠原格式（渲染层再切词卡）。",
+    "同题干跨校重复（如 042/043/044 字节完全相同）只留 1 条，其余来源写入 same_stem_exams，使每题型 40 条尽量覆盖不同考点。",
+    "取样按 exam 轮转，保证每套卷都有代表；上限只在样例富余时生效，唯一来源不会被丢掉。"
+  ]
+}

@@ -1,0 +1,2353 @@
+{
+ "id": 105,
+ "title": "河北专升本英语20",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:40:39",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省 2020 年普通高校专科接本科教育选拔考试",
+   "subject": "英语",
+   "province": "河北省",
+   "year": 2020,
+   "source": {
+    "fileName": "2020届公共课英语真题及答案.pdf",
+    "fileId": "49903644-2708-43f5-bed1-f40490c47d9e"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "语音",
+    "partLabel": "I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In each of the following groups of words, there are four underlined letters or letter combinations marked A, B, C and D. Compare the underlined parts and identify the ONE that is different from the others in pronunciation."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the word whose underlined part is pronounced differently from the others."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. s<u>u</u>ggest"
+        },
+        {
+         "key": "B",
+         "label": "B. s<u>u</u>dden"
+        },
+        {
+         "key": "C",
+         "label": "C. s<u>u</u>ffer"
+        },
+        {
+         "key": "D",
+         "label": "D. m<u>u</u>sic"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "其余三项中画线字母 u 发 /ʌ/，music 中的 u 发 /ju:/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. music"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the word whose underlined part is pronounced differently from the others."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. l<u>a</u>bel"
+        },
+        {
+         "key": "B",
+         "label": "B. l<u>a</u>ter"
+        },
+        {
+         "key": "C",
+         "label": "C. l<u>a</u>tter"
+        },
+        {
+         "key": "D",
+         "label": "D. l<u>a</u>zy"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A、B、D 中字母 a 发 /eɪ/，latter 中的 a 发 /æ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. latter"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the word whose underlined part is pronounced differently from the others."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. tea<u>ch</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. s<u>ch</u>ool"
+        },
+        {
+         "key": "C",
+         "label": "C. lun<u>ch</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. <u>ch</u>eat"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "school 中字母组合 ch 发 /k/，其余三项都发 /tʃ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. school"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the word whose underlined part is pronounced differently from the others."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. l<u>aug</u>h"
+        },
+        {
+         "key": "B",
+         "label": "B. t<u>aug</u>ht"
+        },
+        {
+         "key": "C",
+         "label": "C. c<u>aug</u>ht"
+        },
+        {
+         "key": "D",
+         "label": "D. d<u>aug</u>hter"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "laugh 中画线部分发 /æf/，其余三项画线部分都发 /ɔː/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. laugh"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the word whose underlined part is pronounced differently from the others."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. f<u>u</u>nction"
+        },
+        {
+         "key": "B",
+         "label": "B. str<u>u</u>cture"
+        },
+        {
+         "key": "C",
+         "label": "C. n<u>u</u>clear"
+        },
+        {
+         "key": "D",
+         "label": "D. m<u>u</u>scle"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "nuclear 中字母 u 发 /ju:/，其余三项中的 u 发 /ʌ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. nuclear"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "cloze",
+    "displayName": "情景对话",
+    "partLabel": "II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Note that there are two additional choices and you may not use any of the choices in the list more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. Only my vitamins"
+     },
+     {
+      "key": "B",
+      "label": "B. Ok, let me take your vital signs"
+     },
+     {
+      "key": "C",
+      "label": "C. When did you start having these symptoms (症状)"
+     },
+     {
+      "key": "D",
+      "label": "D. Did you suffer from insomnia (失眠)"
+     },
+     {
+      "key": "E",
+      "label": "E. What are your reasons for seeing Doctor Clark today"
+     },
+     {
+      "key": "F",
+      "label": "F. Please take a deep breath, hold your breath, and exhale (呼气)"
+     },
+     {
+      "key": "G",
+      "label": "G. Everything is good—normal blood pressure and no high temperature"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "John: Good Morning, I am John and I have an appointment with Doctor Clark at 8:30.\nNurse: Let me pull your record. In the meantime, please sign-in and have a seat.\nJohn: Ok, thank you.\nNurse: John, follow me to Room A please.\nJohn: Ok.\nNurse: Here we are. "
+       },
+       {
+        "type": "blank",
+        "key": "q6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": "\nJohn: Well, lately I have been feeling tired, and occasionally I have had really bad headaches and an upset stomach (胃不舒服). On top of that, I have had this persistent (持续的) cough for the last two weeks.\nNurse: "
+       },
+       {
+        "type": "blank",
+        "key": "q7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": "\nJohn: I started feeling tired about two months ago; then, a little bit after that the headaches came. I got the upset stomach long before feeling tired.\nNurse: Are you taking any medications?\nJohn: "
+       },
+       {
+        "type": "blank",
+        "key": "q8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": "\nNurse: What vitamins are you taking?\nJohn: I am taking a multi-vitamin tablet and extra Vitamin C every day.\nNurse: "
+       },
+       {
+        "type": "blank",
+        "key": "q9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": "\nJohn: How am I doing?\nNurse: "
+       },
+       {
+        "type": "blank",
+        "key": "q10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": ". Please wait here for a minute. Doctor Clark will be with you in a moment.\nJohn: Thank you."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后文 John 直接描述就诊原因和症状，因此此处应是询问来诊原因。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. What are your reasons for seeing Doctor Clark today"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "回答给出了疲劳、头痛和胃不适出现的时间顺序，所以应问症状何时开始。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. When did you start having these symptoms (症状)"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前句问是否在服药，后句继续追问具体吃哪些维生素，说明这里只能回答只在吃维生素。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Only my vitamins"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后面 John 问体征情况，下一句护士汇报血压和体温，所以这里应先测量生命体征。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Ok, let me take your vital signs"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前句问检查结果，后句应给出体征正常的反馈。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. Everything is good—normal blood pressure and no high temperature"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III Section A",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 1\nCars are an important part of life in the United States. Without a car most people feel that they are poor. And even if a person is poor he doesn't feel really poor when he has a car.\nHenry Ford was the man who first started making cars in large numbers. He probably didn't know how much the car was going to change American culture. The car made the United States a nation on wheels. And it helped make the United States what it is today.\nThere are three main reasons why the car became so popular in the United States. First of all, the country is a big one and Americans like to move around it. The car makes the travel the most comfortable and cheapest. With a car people can go to any place without spending a lot of money.\nThe second reason why cars are popular is the fact that the United States never really developed a practical and cheap public travel system. Long distance trains have never been as common in the United States as they are in other parts of the world. Now there is a good system of air service provided by planes. But it is too expensive to be used often.\nThe third reason is the most important one, though. The American spirit of independence is what really made cars popular. Americans don't like waiting for a bus, or a train or even a plane. They don't like to have to follow an exact timetable. A car gives them the freedom to plan their own time. And this is the freedom that Americans want most to have.\nLess oil has caused a big problem for Americans. But the answer will not be a bigger system of public transportation. The real answer will have to be a new kind of car, one that does not use so much oil."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is TRUE?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. In the United States only the rich own cars."
+        },
+        {
+         "key": "B",
+         "label": "B. In the United States all the poor have no cars."
+        },
+        {
+         "key": "C",
+         "label": "C. When an American has a car, he will never be poor."
+        },
+        {
+         "key": "D",
+         "label": "D. An American will feel poor unless he has a car."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段明确说没有车大多数人会觉得自己贫穷，因此 D 符合原文。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. An American will feel poor unless he has a car."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We can learn from this passage that Americans"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. spend a lot of money traveling by car"
+        },
+        {
+         "key": "B",
+         "label": "B. travel a lot in their cars"
+        },
+        {
+         "key": "C",
+         "label": "C. never travel by plane"
+        },
+        {
+         "key": "D",
+         "label": "D. use public traffic often"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章提到美国地域大且人们喜欢四处移动，所以美国人经常开车出行。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. travel a lot in their cars"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is not told in the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Buses, trains and planes are not comfortable."
+        },
+        {
+         "key": "B",
+         "label": "B. Traveling by car is not expensive"
+        },
+        {
+         "key": "C",
+         "label": "C. Americans have the spirit of independence"
+        },
+        {
+         "key": "D",
+         "label": "D. Americans often move from place to place"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中只说公共交通不够实用、飞机太贵，没有说公交、火车和飞机都不舒适。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Buses, trains and planes are not comfortable."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "In the writer's opinion, cars are popular in the United States mainly because"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Americans like planning their own time"
+        },
+        {
+         "key": "B",
+         "label": "B. America does not have enough public transportation"
+        },
+        {
+         "key": "C",
+         "label": "C. Americans will not feel poor when they travel in their cars"
+        },
+        {
+         "key": "D",
+         "label": "D. Americans cannot move around without their own cars"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作者强调第三点最重要，即美国人崇尚独立，汽车给予他们自由安排时间的自由。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Americans like planning their own time"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "\"A nation on wheels\" in the second paragraph means that"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. everyone in the United States owns a car"
+        },
+        {
+         "key": "B",
+         "label": "B. the United States produces most of the cars in the world"
+        },
+        {
+         "key": "C",
+         "label": "C. cars play an important part in American's life"
+        },
+        {
+         "key": "D",
+         "label": "D. the United States depended on car industry for its development"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "该短语结合上下文表示汽车深度进入美国社会生活，成为生活中的重要组成部分。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. cars play an important part in American's life"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III Section A",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 2\nPrior to the 20th century, many languages with small numbers of speakers survived for centuries. The increasingly interconnected modern world makes it much more difficult for small language communities to live in relative isolation, a key factor in language maintenance.\nIt remains to be seen whether the world can maintain its linguistic (语言的) and cultural diversity in the centuries ahead. Many powerful forces appear to work against it: Population growth, which pushes migrant populations into the world's last isolated locations; mass tourism; global telecommunications and mass media; and the spread of gigantic (巨大的) global corporations. All of these forces appear to indicate a future in which the language of advertising, popular culture, and consumer products become similar. Already English and a few other major tongues have emerged as global languages of commerce and communication. For many of the world's peoples, learning one of these languages is viewed as the key to education, economic opportunity, and a better way of life.\nOnly about 3,000 languages now in use are expected to survive the coming century. Are most of the rest doomed in the century after that? Whether most of these languages survive will probably depend on how strongly cultural groups wish to keep their identity alive through a native language. To do so will require an emphasis on bilingualism (mastery of two languages). Bilingual (双语的) speakers could use their own language in smaller spheres—at home, among friends, in community settings—and a global language at work, in dealing with government, and in commercial spheres. In this way, many small languages could sustain their cultural and linguistic integrity alongside global languages, rather than yield to the homogenizing (同化的) forces of globalization.\nIronically (讽刺地), the trend of technological innovation (创新) that has threatened minority languages could also help save them. For example, some experts predict that computer software translation tools will one day permit minority language speakers to browse the Internet using their native tongues. Linguists are currently using computer-aided learning tools to teach a variety of threatened languages."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the first paragraph, minority language can be best preserved"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. in the interconnected modern world"
+        },
+        {
+         "key": "B",
+         "label": "B. in relatively isolated language communities"
+        },
+        {
+         "key": "C",
+         "label": "C. if cultural groups wish to keep their native languages"
+        },
+        {
+         "key": "D",
+         "label": "D. if minority language speakers insist on using their own languages"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段指出相对隔离是语言得以维持的关键因素，因此少数语言最适合在相对隔离的社群中保存。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. in relatively isolated language communities"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the author, whether the linguistic and cultural diversity of the world can be maintained in the future is still a mystery because"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. globalization makes it possible for people to live without English and a few other major tongues"
+        },
+        {
+         "key": "B",
+         "label": "B. many migrants start to speak major languages to replace their mother tongue"
+        },
+        {
+         "key": "C",
+         "label": "C. major languages are gaining great popularity among people all over the world"
+        },
+        {
+         "key": "D",
+         "label": "D. languages with small numbers of speakers are useless in commerce and communication"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段说明英语等主要语言在教育、商业和交流中的地位不断上升，这使语言多样性前景不确定。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. major languages are gaining great popularity among people all over the world"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It can be inferred from the passage that the development of our world"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. makes the existing languages more popular"
+        },
+        {
+         "key": "B",
+         "label": "B. will make it possible that English is spoken by all the people"
+        },
+        {
+         "key": "C",
+         "label": "C. undermines the progress of culture"
+        },
+        {
+         "key": "D",
+         "label": "D. is killing the minority languages"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全球化、媒体和商业扩张都在压缩少数语言的生存空间，因此可推知世界发展正在加速其消亡。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. is killing the minority languages"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which is the closest meaning of the word \"sustain\" in the third paragraph?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. survive"
+        },
+        {
+         "key": "B",
+         "label": "B. maintain"
+        },
+        {
+         "key": "C",
+         "label": "C. thrive"
+        },
+        {
+         "key": "D",
+         "label": "D. exclude"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q19",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "sustain 在句中表示“维持、保持”文化和语言完整性，最接近 maintain。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. maintain"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Computer technology is helpful for preserving minority languages in that it"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. prevents the development of major languages"
+        },
+        {
+         "key": "B",
+         "label": "B. raises public awareness of saving those languages"
+        },
+        {
+         "key": "C",
+         "label": "C. makes it easier for linguists to study those languages"
+        },
+        {
+         "key": "D",
+         "label": "D. presents those languages before everyone"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "末段提到语言学家正借助计算机辅助学习工具教授濒危语言，说明技术让研究和教学更容易。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. makes it easier for linguists to study those languages"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "cloze",
+    "displayName": "选词填空",
+    "partLabel": "III Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. You may not use any of the words in the bank more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. schedule"
+     },
+     {
+      "key": "B",
+      "label": "B. loyal"
+     },
+     {
+      "key": "C",
+      "label": "C. reducing"
+     },
+     {
+      "key": "D",
+      "label": "D. competitive"
+     },
+     {
+      "key": "E",
+      "label": "E. worth"
+     },
+     {
+      "key": "F",
+      "label": "F. provides"
+     },
+     {
+      "key": "G",
+      "label": "G. popular"
+     },
+     {
+      "key": "H",
+      "label": "H. campus"
+     },
+     {
+      "key": "I",
+      "label": "I. basis"
+     },
+     {
+      "key": "J",
+      "label": "J. used"
+     },
+     {
+      "key": "K",
+      "label": "K. decisions"
+     },
+     {
+      "key": "L",
+      "label": "L. experience"
+     },
+     {
+      "key": "M",
+      "label": "M. limits"
+     },
+     {
+      "key": "N",
+      "label": "N. directed"
+     },
+     {
+      "key": "O",
+      "label": "O. achieve"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Sports are a great way to work on developing your physical skills and build your "
+       },
+       {
+        "type": "blank",
+        "key": "q21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": " spirit. There are many different sports to choose from, baseball, basketball, football, golf, hockey, and tennis. No matter what you choose, you'll treasure the "
+       },
+       {
+        "type": "blank",
+        "key": "q22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": " with the friends you meet and enrich your life. And they are really "
+       },
+       {
+        "type": "blank",
+        "key": "q23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": " the time and effort for many reasons!\nFirstly, it's an amazing stress reliever. Are you stressed about an upcoming exam? That group project? Your computer that just can't seem to print? Running around with a bunch of friends can do wonders for "
+       },
+       {
+        "type": "blank",
+        "key": "q24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": " your stress level.\nSecondly, it will provide great exercise. While most college students would like to go to the gym on a regular "
+       },
+       {
+        "type": "blank",
+        "key": "q25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": ", few actually do. With a predetermined time already in your "
+       },
+       {
+        "type": "blank",
+        "key": "q26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": " if you join in one of the intramural (校内的) sports teams, you workout (锻炼) is more likely to happen.\nThirdly, it is a great way to meet people. You may be getting "
+       },
+       {
+        "type": "blank",
+        "key": "q27",
+        "placeholder": "27"
+       },
+       {
+        "type": "markdown",
+        "value": " to seeing similar people in the courses for your major, in your residence hall, or at the events you go to on campus. Intramurals can be a great way to meet students that you may not otherwise even run into on "
+       },
+       {
+        "type": "blank",
+        "key": "q28",
+        "placeholder": "28"
+       },
+       {
+        "type": "markdown",
+        "value": ".\nLastly, you can do just for fun. Most things you'll do in college are very goal "
+       },
+       {
+        "type": "blank",
+        "key": "q29",
+        "placeholder": "29"
+       },
+       {
+        "type": "markdown",
+        "value": ": produce a paper, plan an event, meet a deadline. Playing an intramural sport "
+       },
+       {
+        "type": "blank",
+        "key": "q30",
+        "placeholder": "30"
+       },
+       {
+        "type": "markdown",
+        "value": " you with a great opportunity to head out and have some good, old-fashioned fun."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "competitive spirit 表示“竞争精神”，与前文 sports 和后文 spirit 搭配自然。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. competitive"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "L"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "treasure the experience with the friends you meet 表示珍惜与朋友共同拥有的经历。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "L. experience"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "be worth the time and effort 是固定表达，表示“值得投入时间和精力”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. worth"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "do wonders for reducing your stress level 表示“非常有助于降低压力水平”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. reducing"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "I"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "on a regular basis 是固定搭配，意为“定期地”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I. basis"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "predetermined time already in your schedule 表示时间已排进日程表。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. schedule"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "J"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "get used to doing 是固定搭配，意为“习惯于做某事”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "J. used"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "H"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "run into on campus 表示“在校园里偶遇”，语义完整。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "H. campus"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "N"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "goal-directed 表示“目标导向的”，符合后文举例。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "N. directed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "provide sb. with sth. 是固定搭配，主语为 sport，故用 provides。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "F. provides"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "完形填空",
+    "partLabel": "IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "It's not quite true that a great salesperson can sell anything to anyone. For a start, they might not need it—and selling is all about meeting needs. "
+       },
+       {
+        "type": "blank",
+        "key": "q31",
+        "placeholder": "31"
+       },
+       {
+        "type": "markdown",
+        "value": ", selling is one of those things that can happen to anyone, no "
+       },
+       {
+        "type": "blank",
+        "key": "q32",
+        "placeholder": "32"
+       },
+       {
+        "type": "markdown",
+        "value": " what their job description, so here are the basics.\nSTEP 1 Build trust\nYou need to "
+       },
+       {
+        "type": "blank",
+        "key": "q33",
+        "placeholder": "33"
+       },
+       {
+        "type": "markdown",
+        "value": " trust with the person to whom you are selling. They don't have to be your best friend but essentially people don't buy from people they hate or distrust.\nSTEP 2 Don't misunderstand the customer\nUnderstand the needs of the other person. Then it's up to the salesperson to demonstrate that the benefits of their goods or services match the requirements. Without that, you have no sale.\nSTEP 3 Ask clever questions\nAsk questions to find out what the customer's problems and issues are. Then think "
+       },
+       {
+        "type": "blank",
+        "key": "q34",
+        "placeholder": "34"
+       },
+       {
+        "type": "markdown",
+        "value": " what the needs must be. It's often more "
+       },
+       {
+        "type": "blank",
+        "key": "q35",
+        "placeholder": "35"
+       },
+       {
+        "type": "markdown",
+        "value": " than asking \"what do you need?\"\nSTEP 4 Know your stuff\nIt "
+       },
+       {
+        "type": "blank",
+        "key": "q36",
+        "placeholder": "36"
+       },
+       {
+        "type": "markdown",
+        "value": " without saying: know your product and understand the marketplace into which you are selling.\nSTEP 5 Don't overload people with details\nYou need to know every product specification but your customer doesn't. Essentially, he or she needs to know how it will make their life "
+       },
+       {
+        "type": "blank",
+        "key": "q37",
+        "placeholder": "37"
+       },
+       {
+        "type": "markdown",
+        "value": ". If later on they want more details, they will find it on your website.\nSTEP 6 Salespeople are not necessarily born\nThe classic "
+       },
+       {
+        "type": "blank",
+        "key": "q38",
+        "placeholder": "38"
+       },
+       {
+        "type": "markdown",
+        "value": " of a salesperson is someone who is outgoing. But like customers who come in all personality types, salespeople can vary. The main thing is to be able to reflect and react to a customer's personality.\nSTEP 7 Be prepared to fail\nIt doesn't matter how good you are, you will get "
+       },
+       {
+        "type": "blank",
+        "key": "q39",
+        "placeholder": "39"
+       },
+       {
+        "type": "markdown",
+        "value": ". Selling is full of setbacks, so don't get hung up on it. "
+       },
+       {
+        "type": "blank",
+        "key": "q40",
+        "placeholder": "40"
+       },
+       {
+        "type": "markdown",
+        "value": " on to the next customer."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. However"
+        },
+        {
+         "key": "B",
+         "label": "B. Although"
+        },
+        {
+         "key": "C",
+         "label": "C. Because"
+        },
+        {
+         "key": "D",
+         "label": "D. Whatever"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前句否定“好销售能卖任何东西”，后句转入另一层说明，需用表示转折的 However。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. However"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. much"
+        },
+        {
+         "key": "B",
+         "label": "B. more"
+        },
+        {
+         "key": "C",
+         "label": "C. way"
+        },
+        {
+         "key": "D",
+         "label": "D. matter"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "no matter what 是固定结构，意为“无论……什么”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. matter"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. put"
+        },
+        {
+         "key": "B",
+         "label": "B. find"
+        },
+        {
+         "key": "C",
+         "label": "C. establish"
+        },
+        {
+         "key": "D",
+         "label": "D. know"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "establish trust 是固定搭配，表示“建立信任”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. establish"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. along"
+        },
+        {
+         "key": "B",
+         "label": "B. through"
+        },
+        {
+         "key": "C",
+         "label": "C. out"
+        },
+        {
+         "key": "D",
+         "label": "D. across"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "think through 表示“仔细想清楚”，符合根据问题推断需求的语境。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. through"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. clear"
+        },
+        {
+         "key": "B",
+         "label": "B. vague"
+        },
+        {
+         "key": "C",
+         "label": "C. effective"
+        },
+        {
+         "key": "D",
+         "label": "D. distinct"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "与直接问“你需要什么”相比，这种提问方式更有效，effective 最贴切。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. effective"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. goes"
+        },
+        {
+         "key": "B",
+         "label": "B. moves"
+        },
+        {
+         "key": "C",
+         "label": "C. does"
+        },
+        {
+         "key": "D",
+         "label": "D. makes"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "it goes without saying 是固定表达，意为“不言而喻”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. goes"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. good"
+        },
+        {
+         "key": "B",
+         "label": "B. better"
+        },
+        {
+         "key": "C",
+         "label": "C. well"
+        },
+        {
+         "key": "D",
+         "label": "D. best"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "make their life better 是常见搭配，表示“让生活更好”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. better"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. vision"
+        },
+        {
+         "key": "B",
+         "label": "B. look"
+        },
+        {
+         "key": "C",
+         "label": "C. focus"
+        },
+        {
+         "key": "D",
+         "label": "D. image"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "the classic image of a salesperson 表示“销售人员的典型形象”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. image"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. sent back"
+        },
+        {
+         "key": "B",
+         "label": "B. recruited"
+        },
+        {
+         "key": "C",
+         "label": "C. turned down"
+        },
+        {
+         "key": "D",
+         "label": "D. contracts"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后文说销售充满挫折，因此这里应表示“被拒绝”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. turned down"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Phone"
+        },
+        {
+         "key": "B",
+         "label": "B. Try"
+        },
+        {
+         "key": "C",
+         "label": "C. Move"
+        },
+        {
+         "key": "D",
+         "label": "D. Contact"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "move on to the next customer 是固定搭配，表示“继续找下一个客户”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Move"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "V",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this part you are required to write a composition entitled My View on Online Courses in no less than 100 words according to the following Chinese outline."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Write a composition entitled **My View on Online Courses** in no less than 100 words according to the following Chinese outline:"
+        },
+        {
+         "type": "markdown",
+         "value": "1. 疫情期间网络课程愈发普及；\n2. 网络课程的优势及弊端；\n3. 对网络课程的建议。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 100
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "写作时应围绕“网络课程普及、利弊分析、提出建议”三点展开，保证结构完整、观点明确、语言连贯。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My View on Online Courses\nRecently, due to the impact of the epidemic, universities and educational institutions around the world have to take the form of online courses. But every coin has two sides, that is to say, online courses can have some shortcomings while providing convenience for everybody.\nOn the one hand, there are many advantages when students have a net lesson, for example, students can ask questions online at any time to solve doubts. What's more, teachers can keep track of what the students know in real time and solve problems better.\nOn the other hand, as mentioned in the beginning, there are several disadvantages to people. For instance, whoever attends class needs to have a proper network environment, otherwise he will have an uncomfortable course experience. Moreover, the students' questions at any time can interrupt the teachers' train of mind.\nAs far as I'm concerned, I consider it is wise to conduct online learning in a special situation and the teacher can make a correct guidance on online courses, so as to maintain good class order. And only in this way can we get better online experience."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

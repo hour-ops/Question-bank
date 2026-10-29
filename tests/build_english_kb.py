@@ -1,0 +1,410 @@
+# -*- coding: utf-8 -*-
+"""Build subjects/english/knowledge_base.{json,md} from real DB data + local materials."""
+import sqlite3, os, sys, io, json, collections, re, datetime
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+ROOT = r'C:\Users\win11_vmusers\Documents\deepseek-harness\default-workspace\题库项目'
+OUT  = os.path.join(ROOT, 'subjects', 'english')
+os.makedirs(OUT, exist_ok=True)
+def ro(p): return sqlite3.connect('file:%s?mode=ro' % p.replace('\\','/'), uri=True)
+def norm(x): return (x or '').strip().replace('\u2019',"'").replace('\u2018',"'").replace('\uff07',"'")
+
+con = ro(os.path.join(ROOT,'data','english.sqlite')); cur = con.cursor()
+
+cur.execute("SELECT question_type, trust_level, COUNT(*) FROM questions GROUP BY 1,2")
+TYPE_OFF = collections.Counter(); TYPE_OTHER = collections.Counter(); TYPE_ALL = collections.Counter()
+for t, tr, n in cur.fetchall():
+    TYPE_ALL[t] += n
+    (TYPE_OFF if tr == 'official_exam' else TYPE_OTHER)[t] += n
+cur.execute("SELECT exam_title, COUNT(*) FROM questions WHERE trust_level='official_exam' GROUP BY 1 ORDER BY 2 DESC")
+EXAMS = dict(cur.fetchall())
+cur.execute("SELECT COUNT(*) FROM questions");  TOTAL = cur.fetchone()[0]
+cur.execute("SELECT COUNT(*) FROM questions WHERE trust_level='official_exam'"); OFFICIAL = cur.fetchone()[0]
+cur.execute("SELECT COUNT(*) FROM questions WHERE TRIM(COALESCE(knowledge_point,''))<>''"); KP_FILLED = cur.fetchone()[0]
+
+# ---------- 语法知识标注（单选用逐题映射；语法填空按答案上下文） ----------
+SC_TAGS = [
+ ('湖北2020','D. made','E-G16'),('湖北2020','B. take','E-G16'),('湖北2020','A. qualified','E-G06'),
+ ('湖北2020','B. which','E-G05'),('湖北2020','C. writing','E-G04'),('湖北2020','D. in which','E-G05'),
+ ('湖北2020','D. has made','E-G01'),('湖北2020','C. had known','E-G03'),('湖北2020','B. run','E-G16'),
+ ('湖北2020','A. offers','E-G17'),('湖北2020','C. allowed','E-G02'),('湖北2020','D. played','E-G16'),
+ ('湖北2020','B. efficient','E-G06'),('湖北2020','C. affect','E-G17'),('湖北2020','A. put off','E-G16'),
+ ('湖北2020','D. to','E-G10'),('湖北2020','A. since','E-G11'),('湖北2020','D. using','E-G04'),
+ ('湖北2020','A. account for','E-G16'),('湖北2020','C. put','E-G04'),('湖北2020','B. working','E-G04'),
+ ('湖北2020','D. when','E-G11'),('湖北2020','A. that','E-G05'),('湖北2020','B. will have completed','E-G01'),
+ ('湖北2020','C. on','E-G10'),
+ ('湖北2021','A. a','E-G09'),('湖北2021','B. began','E-G01'),('湖北2021','A. will be improved','E-G02'),
+ ('湖北2021','C. how I can improve my listening','E-G05'),('湖北2021','D. fifth','E-G14'),
+ ('湖北2021','B. is watering','E-G01'),('湖北2021','C. would have died','E-G03'),('湖北2021','B. Although','E-G11'),
+ ('湖北2021','D. To work out','E-G04'),('湖北2021','C. your calling','E-G04'),('湖北2021','B. had studied','E-G03'),
+ ('湖北2021','C. by','E-G10'),('湖北2021','B. are','E-G08'),('湖北2021','A. that#2','E-G05'),
+ ('湖北2021',"B. wasn't it",'E-G15'),('湖北2021','D. any other','E-G07'),('湖北2021','B. treat','E-G16'),
+ ('湖北2021','A. matters','E-G17'),('湖北2021','D. promise','E-G17'),('湖北2021','C. impressed','E-G17'),
+ ('湖北2021','B. usual','E-G07'),('湖北2021','D. in short','E-G16'),('湖北2021','C. librarian','E-G06'),
+ ('湖北2021','D. went out','E-G16'),('湖北2021','A. steadily','E-G06'),
+ ('湖北2022',"A. won't",'E-G01'),('湖北2022','A. was shopping','E-G01'),('湖北2022','B. were taken','E-G02'),
+ ('湖北2022','C. to wait','E-G04'),('湖北2022','A. would','E-G03'),('湖北2022','B. the','E-G09'),
+ ('湖北2022','C. is','E-G08'),('湖北2022',"A. Could; can't",'E-G13'),('湖北2022','D. Although','E-G11'),
+ ('湖北2022','D. than','E-G07'),('湖北2022','C. as well as','E-G08'),('湖北2022','A. how I can improve my English','E-G05'),
+ ('湖北2022','C. yourself','E-G12'),('湖北2022','D. to#2','E-G10'),('湖北2022','A. act three','E-G14'),
+ ('湖北2022','B. forget','E-G17'),('湖北2022','B. tell','E-G17'),('湖北2022','A. made','E-G16'),
+ ('湖北2022','C. showing off','E-G16'),('湖北2022','D. looking for','E-G16'),('湖北2022','C. touch','E-G16'),
+ ('湖北2022','D. free','E-G16'),('湖北2022','C. spare','E-G17'),('湖北2022','D. rather','E-G07'),
+ ('湖北2022','D. whatever','E-G05'),
+ ('湖北2023','C. mine','E-G12'),('湖北2023','C. the','E-G09'),('湖北2023','B. is','E-G08'),
+ ('湖北2023','C. One third','E-G14'),('湖北2023','A. about','E-G10'),('湖北2023','A. is reading','E-G01'),
+ ('湖北2023','D. to give','E-G04'),('湖北2023','B. saying','E-G04'),('湖北2023','A. who','E-G05'),
+ ('湖北2023','B. higher','E-G07'),('湖北2023','D. was praised','E-G02'),('湖北2023','B. has worked','E-G01'),
+ ('湖北2023','A. can','E-G13'),('湖北2023','C. that','E-G15'),('湖北2023','B. can she draw','E-G15'),
+ ('湖北2023','C. Even though','E-G11'),('湖北2023','C. problem','E-G17'),('湖北2023','B. faithful','E-G06'),
+ ('湖北2023','A. tell','E-G17'),('湖北2023','B. invited','E-G17'),('湖北2023','A. agreed','E-G17'),
+ ('湖北2023','D. fill','E-G16'),('湖北2023','C. look after','E-G16'),('湖北2023','C. going on','E-G16'),
+ ('河北专升本英语18','B#1','E-G15'),('河北专升本英语18','B#2','E-G05'),
+ ('河北专升本英语18','A','E-G16'),('河北专升本英语18','A#2','E-G08'),
+]
+SC_MAP = collections.defaultdict(list)
+for t,a,k in SC_TAGS: SC_MAP[(t, norm(a.split('#')[0]))].append(k)
+cur.execute("SELECT id, exam_title, answer FROM questions WHERE question_type='single_choice' AND trust_level='official_exam' ORDER BY exam_title, id")
+sc_rows = cur.fetchall(); seen = collections.Counter(); G_FROM_SC = collections.Counter(); sc_miss = []
+for _id, t, a in sc_rows:
+    key = (t, norm(a)); i = seen[key]; seen[key] += 1
+    lst = SC_MAP.get(key) or []
+    if i >= len(lst): sc_miss.append((_id, t, norm(a))); continue
+    G_FROM_SC[lst[i]] += 1
+assert not sc_miss, sc_miss
+assert sum(G_FROM_SC.values()) == len(sc_rows) == TYPE_OFF['single_choice'], (sum(G_FROM_SC.values()), len(sc_rows))
+
+# grammar_fill（官方 31 题）逐题标注：答案 -> 考点（人工核对过真实题面/上下文）
+GF_TAGS = [
+ ('湖北2025','biggest','E-G07'),('湖北2025','for','E-G10'),('湖北2025','started','E-G01'),
+ ('湖北2025','and','E-G11'),('湖北2025','beautiful','E-G06'),('湖北2025','designs','E-G06'),
+ ('湖北2025','finished','E-G01'),('湖北2025','walking','E-G04'),('湖北2025','a','E-G09'),
+ ('湖北2025','happiness','E-G06'),
+ ('湖北2024','in','E-G10'),('湖北2024','How','E-G12'),('湖北2024','is','E-G01'),('湖北2024','many','E-G13'),
+ ('湖北2024','the','E-G09'),('湖北2024','yourself','E-G12'),('湖北2024','if','E-G11'),
+ ('湖北2024','greatly','E-G06'),('湖北2024','took','E-G01'),('湖北2024','will','E-G01'),
+ ('湖北2026','proudly','E-G06'),('湖北2026','was seen','E-G02'),('湖北2026','a','E-G09'),
+ ('湖北2026','focuses','E-G01'),('湖北2026','longer','E-G07'),('湖北2026','favoring','E-G04'),
+ ('湖北2026','in','E-G10'),('湖北2026','who','E-G05'),('湖北2026','and','E-G11'),('湖北2026','tourists','E-G06'),
+]
+GF_MAP = collections.defaultdict(list)
+for t,a,k in GF_TAGS: GF_MAP[(t, norm(a))].append(k)
+cur.execute("SELECT id, exam_title, answer FROM questions WHERE question_type='grammar_fill' AND trust_level='official_exam' ORDER BY exam_title, id")
+gf_rows = cur.fetchall(); gseen = collections.Counter(); G_FROM_GF = collections.Counter(); gf_miss = []
+gf_items = 0          # 计入标注的「空」数（含聚合行拆开后的 10 个空）
+for _id, t, a in gf_rows:
+    a = norm(a)
+    if ' | ' in a:
+        # 聚合行：整段语法填空 10 个答案挤在一行（id=708），按空格逐个计入
+        parts = [p.strip() for p in a.split(' | ') if p.strip()]
+        gf_items += len(parts)
+        for p in parts:
+            for k in (GF_MAP.get((t, p)) or GF_MAP.get(('湖北2025', p)) or ['E-G06']):
+                G_FROM_GF[k] += 1
+        continue
+    gf_items += 1
+    key = (t, a); i = gseen[key]; gseen[key] += 1
+    lst = GF_MAP.get(key) or []
+    if i >= len(lst): gf_miss.append((_id, t, a)); continue
+    G_FROM_GF[lst[i]] += 1
+print('grammar_fill rows=%d  blanks_tagged=%d  miss=%d' % (len(gf_rows), gf_items, len(gf_miss)))
+for m in gf_miss: print('   GF MISS', m)
+
+# ---------- 阅读技能标注（全部 240 道官方 reading_qa） ----------
+def tag_rq(stem, ans):
+    s = (stem or '').strip(); sl = s.lower()
+    if sl.startswith('translate'): return 'E-S08'
+    if 'main idea' in sl or 'mainly about' in sl or 'best title' in sl or 'suitable title' in sl or 'mainly' in sl: return 'E-S03'
+    if 'underlined' in sl or 'probably mean' in sl or 'most likely mean' in sl or 'closest meaning' in sl or 'refers to' in sl: return 'E-S05'
+    if sl.startswith('why') or 'in order to' in sl: return 'E-S06'
+    if 'we learn' in sl or 'suggest' in sl or 'author' in sl or 'infer' in sl or 'attitude' in sl or 'trying to' in sl or 'conclusion' in sl or 'title' in sl: return 'E-S04'
+    return 'E-S02'
+cur.execute("SELECT stem, answer FROM questions WHERE question_type='reading_qa' AND trust_level='official_exam'")
+S_FROM_RQ = collections.Counter()
+for s, a in cur.fetchall(): S_FROM_RQ[tag_rq(s, a)] += 1
+print('reading_qa skill tagging:', dict(S_FROM_RQ), 'total', sum(S_FROM_RQ.values()))
+
+# ---------- knowledge points ----------
+def qn(t): return TYPE_ALL.get(t, 0)
+def qo(t): return TYPE_OFF.get(t, 0)
+
+FORMAT_KPS = [
+ ('E-T01','语法填空','new_2024plus','一篇 150–200 词短文挖 10 个空：有括号提示词的变词形，没提示词的填功能词。','grammar_fill',
+  ['有提示词：动词时态/语态、非谓语、词性转换、比较级','无提示词：冠词、介词、连词、代词、关系词'],
+  '2024+ 湖北新格式 Part I（10 题 × 2 分 = 20 分），2024/2025/2026 三套均考，题型完全一致。'),
+ ('E-T02','连词成句','new_2024plus','给出打乱顺序的词组（用 / 分隔），排成语法正确、意思完整的句子。','sentence_build',
+  ['主+谓+宾','被动语态句','主+谓+宾+宾补（不定式）','主系表结构','现在完成时 / 含情态动词','时事话题句（2025 考 Deepseek、"Made in China 2025"）'],
+  '2024+ 湖北新格式 Part II（6 题 × 2 分 = 12 分）。2025 真题出现 Deepseek 与时事句，2026 出现「十五五规划」「高铁禁烟」。'),
+ ('E-T03','阅读填空','new_2024plus','读短文，按提纲/表格在每空填 1 个词，答案基本来自原文。','reading_fill',
+  ['原词定位','同义转换','信息归纳','词性适配'],
+  '2024+ 湖北新格式 Part III（10 题 2 篇 × 2 分 = 20 分）；2021–2023 老格式也有此题型（提纲填空型）。'),
+ ('E-T04','阅读理解（简答 + 英译汉）','new_2024plus','读 2 篇短文，用英语回答问题，每篇最后 1 题把画线句译成中文。','reading_qa',
+  ['事实细节题（约 60%）','原因/目的题','推理判断题','主旨大意题','词义猜测题','英译汉（每篇最后 1 题，2024 起新增）'],
+  '2024+ 湖北新格式 Part IV（10 题 2 篇 × 2 分 = 20 分）。2020–2023 老格式同一 question_type 下是四选一选择题。'),
+ ('E-T05','翻译填空','new_2024plus','给中文 + 不完整英文 + 提示词，补全英文。','translation_fill',
+  ['条件句时态（if 从句用一般现在时）','how to do 结构','词性转换（形→名 / 名→形）','so...that 结构','固定搭配（keep quiet / make sure）','进行时与被动语态','介词短语补全'],
+  '2024+ 湖北新格式 Part V（6 题 × 3 分 = 18 分），单题分值最高。2025/2026 使用；2024 该位置是「完成句子 sentence_completion」。'),
+ ('E-T06','书面表达','new_2024plus','按要点写一篇应用文（邮件/通知/短信），不少于 40 词。','writing',
+  ['邀请信/邀请邮件','通知','手机短信','感谢信','道歉信','建议信','申请信','投诉信'],
+  '2024+ 湖北 Part VI（1 题 × 10 分）。2024 考「给英国朋友 Tom 的手机短信」；2025 考「以东湖音乐节委员会名义邀请乐队」；2026 考「给交换生 Sarah 介绍学校变化」。'),
+ ('E-T07','完成句子','old_2020_2023','根据中文和括号提示词把英文句子补充完整。','sentence_completion',
+  ['how old 等疑问结构','宾语从句语序','by doing 结构','make sure 等固定搭配','不定式作定语','so...that 结构'],
+  '仅 2024 一套使用（6 题），2025 起被 E-T05 翻译填空取代。属新格式过渡期的独立题型。'),
+ ('E-T08','单项选择','old_2020_2023','四选一，考词汇与语法。','single_choice',
+  ['词汇辨析','短语动词与固定搭配','时态','非谓语动词','从句','虚拟语气','被动语态','情态动词','强调句与倒装','代词/冠词/介词/连词/数词'],
+  '2020–2023 湖北老格式每题 25 题；2023 起题量减为 24。2024 起湖北取消选择题，此题型绝迹。'),
+ ('E-T09','英译汉选择','old_2020_2023','从四个中文选项中选出与英文句子意思最贴近的一项。','translation_choice',
+  ['长句结构切分','固定表达意译（One man\'s meat is another man\'s poison → 萝卜白菜各有所爱）','否定与虚拟语气的中文表达'],
+  '2020–2023 湖北老格式（5 题）。2024 起取消。'),
+ ('E-T10','段落翻译','old_2020_2023','把英文段落译成通顺中文。','translation',
+  ['商务信函类长句','社会话题段落意译'],
+  '2020–2023 湖北老格式（1 题，5 分左右）。2024 起取消，改为阅读题内的句子翻译 E-S08。'),
+ ('E-T11','提纲填空','old_2020_2023','按文章内容补全提纲空白。','outline_fill',
+  ['原文信息定位','数字与名词提取'],
+  '仅 2020 一套出现（5 题）。2021 起被阅读填空 E-T03 取代。'),
+ ('E-T12','语音题','hebei_2016_2025','比较划线部分读音，选出与其他三项不同的一项。','phonetics',
+  ['元音字母及组合读音','辅音字母读音','-ed 结尾读音（/t/ /d/ /ɪd/）','-s/-es 结尾读音'],
+  '河北 2016–2025 各卷固定 5 题。属河北格式，湖北卷不考。'),
+ ('E-T13','情景对话','hebei_2016_2025','长对话挖 5 空，从给定选项中选句补全。','dialogue',
+  ['日常交际用语（预约、问路、购物、道别）','上下文逻辑衔接'],
+  '河北 2016–2025 各卷固定 5 题。'),
+ ('E-T14','完形填空','hebei_2016_2025','短文 10 空四选一（2021 卷出现 25 空）。','cloze',
+  ['语境逻辑与衔接','词汇辨析与搭配','介词与冠词','从句关系词','非谓语动词'],
+  '河北格式主力题型：通常 10 题，河北专升本英语21 卷为 25 题。'),
+ ('E-T15','选词填空','hebei_2016_2025','从方框给定词中选词填空，每词只用一次（注意词形变化）。','word_fill',
+  ['词性匹配','词形变化（时态/单复数/比较级）','句意搭配'],
+  '河北 2016–2020、2023、2024 各卷固定 10 题。'),
+ ('E-T16','阅读理解（选择题）','hebei_2016_2025','读短文后四选一。','reading_qa',
+  ['事实细节题','主旨大意题','推理判断题','词义猜测题','正误判断型（Which of the following is TRUE / NOT true）'],
+  '河北 2016–2025 主流形态；本库 河北 卷 reading_qa 记录中 42 题答案是选项字母、83 题是文字答案。'),
+ ('E-T17','写作（提纲作文）','hebei_2016_2025','按中文提纲写 100 词左右短文。','writing',
+  ['Haze and Air Pollution（环保议论文）','My Major（专业介绍）','My View on Happiness（议论文）','通知 Notice','介绍中国传统节日的邮件'],
+  '河北 2016–2025 各卷 1 题（18 卷 3 题）。词数要求 100 左右，高于湖北新格式的 40 词。'),
+]
+FORMAT_COUNT = {
+ 'E-T01': qn('grammar_fill'), 'E-T02': qn('sentence_build'), 'E-T03': qn('reading_fill'),
+ 'E-T04': qn('reading_qa'), 'E-T05': qn('translation_fill'), 'E-T06': qn('writing'),
+ 'E-T07': qn('sentence_completion'), 'E-T08': qn('single_choice'), 'E-T09': qn('translation_choice'),
+ 'E-T10': qn('translation'), 'E-T11': qn('outline_fill'), 'E-T12': qn('phonetics'),
+ 'E-T13': qn('dialogue'), 'E-T14': qn('cloze'), 'E-T15': qn('word_fill'),
+ 'E-T16': qn('reading_qa'), 'E-T17': qn('writing'),
+}
+# 湖北 vs 河北 拆分（用 exam_title 前缀）
+def split(types):
+    hebei = sum(TYPE_ALL[t] for t in types if t in ('phonetics','dialogue','cloze','word_fill'))
+    return hebei
+HEBEI_TYPES = ['phonetics','dialogue','cloze','word_fill']
+HUBEI_LIKE = ['grammar_fill','sentence_build','reading_fill','translation_fill','sentence_completion','translation_choice','translation','outline_fill','single_choice']
+
+GRAMMAR_KPS = [
+ ('E-G01','时态','一般现在时（第三人称单数）、一般过去时、一般将来时、现在完成时、过去进行时、将来完成时、过去完成时、现在完成进行。',
+  ['湖北2020 单选：Since 1949, our country ___ remarkable progress → has made','湖北2020 单选：By the time you get this letter, we ___ the project → will have completed','湖北2023 单选：The chief engineer ___ on the project for a year → has worked','湖北2024 语法填空：When I was young, Dad often ___ me to the museum → took','湖北2025 语法填空：In 1999, he ___ (start) his company → started / Liu also ___ (design) → designs','湖北2026 语法填空：focuses（一般现在时第三人称单数）'], G_FROM_GF, G_FROM_SC),
+ ('E-G02','被动语态','be + 过去分词；一般过去/一般将来/情态/完成各时态的被动；过去分词作定语。',
+  ['湖北2020 单选：Each passenger is ___ to carry one piece of hand luggage → allowed','湖北2022 单选：These pictures ___ on campus last week → were taken','湖北2023 单选：Yesterday the kid ___ for helping sort the rubbish → was praised','湖北2024 语法填空：A mural ___ (create) by the students last month → was created','湖北2026 语法填空：was seen'], G_FROM_GF, G_FROM_SC),
+ ('E-G03','虚拟语气','if 虚拟条件句（与现在/过去/将来相反）、wish/wished 后从句、but for、would rather。',
+  ['湖北2020 单选：If I ___ his telephone number, I would have turned to him for help → had known','湖北2021 单选：But for the Chinese People\u2019s Liberation Army, he ___ of hunger fifteen years ago → would have died','湖北2021 单选：Robert wished that he ___ business instead of history → had studied','湖北2022 单选：If I were you, I ___ book a ticket as soon as possible → would'], collections.Counter(), G_FROM_SC),
+ ('E-G04','非谓语动词','to do / doing / done 的选择与作用；介词与 enjoy/keep 后接 doing；不定式作目的、作定语；分词作状语/定语。',
+  ['湖北2020 单选：She found it difficult to concentrate while ___ her new novel → writing','湖北2020 单选：The time I spent ___ with the team → working','湖北2020 单选：If ___ in a hot place, these flowers will soon begin to die → put','湖北2022 单选：We missed the bus, so we decided ___ for the next one → to wait','湖北2023 单选：Who will be the first ___ a speech at the meeting → to give','湖北2023 单选：Susan smiled at me without ___ anything → saying','湖北2025 语法填空：paths for running, ___ (walk), and cycling → walking'], G_FROM_GF, G_FROM_SC),
+ ('E-G05','从句','定语从句（关系代词/关系副词、介词+which）、名词性从句（宾语/表语/同位语从句）、状语从句、how + 不定式。',
+  ['湖北2020 单选：some of ___ are particularly useful for small businesses → which','湖北2020 单选：one of the areas ___ the successes of AI have the greatest practical value → in which','湖北2020 单选：He expressed the hope ___ they could start a business relationship with us → that','湖北2022 单选：Could you tell me ___ ? → how I can improve my English','湖北2023 单选：What\u2019s the name of the man ___ lent you the magazine → who','湖北2026 语法填空：who（关系代词）'], G_FROM_GF, G_FROM_SC),
+ ('E-G06','词性转换与构词','形容词↔名词↔副词↔动词的派生；比较级/副词；名词复数；-ly 副词的句法位置。',
+  ['湖北2020 单选：William is considered as one of the most ___ employees → efficient','湖北2021 单选：The ___ will help you if you can\u2019t find the book you want → librarian','湖北2021 单选：shopping on the Internet has increased ___ → steadily','湖北2024 语法填空：The Internet has ___ changed the way we live → greatly','湖北2025 语法填空：make ___ (beauty) buildings → beautiful / People\u2019s ___ (happy) → happiness / Liu also ___ (design) → designs','湖北2026 语法填空：proudly / tourists'], G_FROM_GF, G_FROM_SC),
+ ('E-G07','比较级与最高级','单音节 -er/-est、多音节 more/most；标志词 than、of all / in + 范围；倍数与 any other。',
+  ['湖北2021 单选：English ... was more widely spoken and written than ___ language → any other','湖北2021 单选：go to bed earlier than ___ the day before → usual','湖北2022 单选：This classroom isn\u2019t good, but that one is ___ better → rather','湖北2023 单选：The mountain is quite ___ than we thought → higher','湖北2025 语法填空：This is the ___ (big) award of all → biggest','湖北2026 语法填空：longer'], G_FROM_GF, G_FROM_SC),
+ ('E-G08','主谓一致','单复数主语与谓语一致；动名词/不可数名词作主语用单数；neither...nor / as well as 的就近或附加原则；there be 句型。',
+  ['湖北2021 单选：Ten percent of the workers in this city now ___ working from home → are','湖北2022 单选：Doing Taichi exercises ___ one of the traditional Chinese ways → is','湖北2022 单选：Bob ___ his parents often takes a long walk in the evening → as well as','湖北2023 单选：Relax! There ___ still much time left before the deadline → is','语法填空：There are ___ ways to help others → many'], G_FROM_GF, G_FROM_SC),
+ ('E-G09','冠词与限定词','a / an / the 的选择；最高级与序数词前用 the；a/an 表泛指、the 表特指；限定词搭配。',
+  ['湖北2021 单选：Zootopia is such ___ wonderful movie that I want to see it a second time → a','湖北2022 单选：Liu Yang is ___ first Chinese woman who has worked in space → the','湖北2023 单选：This lake is ___ largest one in our city → the','湖北2024 语法填空：It is ___ first time that I have seen the sea → the','湖北2025 语法填空：create ___ pleasant and wonderful environment → a'], G_FROM_GF, G_FROM_SC),
+ ('E-G10','介词与介词短语','时间/地点/方式/对象介词；固定介词搭配（confident in、curious about、access to、prefer to）。',
+  ['湖北2020 单选：easy access ___ major attractions in the city → to','湖北2020 单选：lies ___ the hillside → on','湖北2021 单选：has increased 25% ___ the last year → by','湖北2023 单选：My little nephew is often curious ___ everything → about','湖北2024 语法填空：I have confidence ___ my future → in','湖北2025 语法填空：has worked ___ 40 years → for','湖北2026 语法填空：in'], G_FROM_GF, G_FROM_SC),
+ ('E-G11','连词与状语从句','并列连词 and/but/or；从属连词 if/when/because/although/since；such...that / hardly...when 等关联结构。',
+  ['湖北2020 单选：The sports meeting had hardly begun ___ heavy rain poured down → when','湖北2020 单选：It has been more than five years ___ they met last time → since','湖北2021 单选：___ she was very tired, she continued working → Although','湖北2022 单选：___ extremely tired, thousands of medical workers continued → Although','湖北2024 语法填空：I can lend my bike to you ___ you return it on time → if','湖北2025 语法填空：museums, big buildings, ___ city plans → and','湖北2026 语法填空：and'], G_FROM_GF, G_FROM_SC),
+ ('E-G12','代词与感叹结构','人称/物主/反身代词；名词性物主代词；by oneself；How + adj + 主谓 的感叹句。',
+  ['湖北2022 单选：Tom, please help ___ to some drinks → yourself','湖北2023 单选：can I use your umbrella? I can\u2019t find ___ → mine','湖北2024 语法填空：solve the problem by ___ → yourself','湖北2024 语法填空：___ beautiful the East Lake is! → How'], G_FROM_GF, G_FROM_SC),
+ ('E-G13','情态动词与限定词','can/could/must/should/may 表能力、许可、推测；many/much/few/little 等数量限定词。',
+  ['湖北2022 单选：___ you show me your health code? If you ___, you will not be allowed to get in → Could; can\u2019t','湖北2023 单选：Can I go home after the exam? Yes, you ___ if you want → can','湖北2024 语法填空：There are ___ ways to help others → many'], G_FROM_GF, G_FROM_SC),
+ ('E-G14','数词与序数词','序数词、分数、编号表达。',
+  ['湖北2021 单选：I live in the room right above theirs on the ___ floor → fifth','湖北2023 单选：___ of the buses in this area use new energy → One third','湖北2022 单选：they were playing ___ → act three'], collections.Counter(), G_FROM_SC),
+ ('E-G15','强调句与倒装','It is/was ... that 强调句；Not only 置于句首的部分倒装；反意疑问句。',
+  ['湖北2021 单选：Big news was sometimes announced half a day before it actually happened, ___ ? → wasn\u2019t it','湖北2023 单选：It was by train ___ he travelled around the world → that','湖北2023 单选：Not only ___ but she can also do paper-cutting → can she draw','河北专升本英语18 单选：Not only ___ the project on time, but he also stayed within the budget'], collections.Counter(), G_FROM_SC),
+ ('E-G16','固定搭配与短语动词','动词+介词/副词构成的短语动词；常用固定搭配。',
+  ['湖北2020 单选：the meeting had to be ___ until next Monday → put off','湖北2020 单选：a person\u2019s living conditions only ___ about 50 percent of his happiness → account for','湖北2020 单选：Those who have ___ big contributions to the company → made','湖北2022 单选：he was just ___ to impress his classmates → showing off','湖北2022 单选：We haven\u2019t been able to get in ___ with him since graduation → touch','湖北2023 单选：Plant collecting has been ___ for a long time → going on','湖北2023 单选：Michael stayed at home to ___ his sick father → look after'], collections.Counter(), G_FROM_SC),
+ ('E-G17','词汇辨析','近义词与形近词辨析；名词、动词、形容词、副词的选择。',
+  ['湖北2020 单选：If you have received several job ___ during your job searching → offers','湖北2020 单选：The recent earthquake may ___ our company\u2019s future business → affect','湖北2022 单选：People sometimes cross their arms and this gesture may ___ us that they want to protect themselves → tell','湖北2023 单选：The two birds look alike. How can you ___ one from the other → tell','湖北2023 单选：My classmate helped me solve the difficult math ___ → problem'], collections.Counter(), G_FROM_SC),
+]
+SKILL_KPS = [
+ ('E-S01','语音辨析','元音/辅音字母及组合的读音、-ed 与 -s 结尾读音。',
+  ['河北专升本英语16–25 语音题每题 5 题（本库 40 题）','题干原文：Compare the underlined parts and choose the one with a different pronunciation.','真题答案样本：great / expect / blood / hotel / shouted'], 'voice'),
+ ('E-S02','阅读·事实细节','在原文中直接定位答案；who/what/when/where/how many/how much 型问题。',
+  ['湖北2024：When did the story happen? / Who gave up the seat to the old lady?','湖北2025：What did Anna and her girl friends pack for their boat journey?','湖北2026：On which day did John meet Rose?','湖北2020：According to the first paragraph, most Americans now ___'], 'reading'),
+ ('E-S03','阅读·主旨大意','文章或段落的中心思想、最佳标题。',
+  ['湖北2020：The passage is mainly about ___','湖北2022：The passage is mainly about ___（多篇）','河北：What is the main idea of the passage? / A suitable title for this passage would be'], 'reading'),
+ ('E-S04','阅读·推理判断','需要基于原文推断、判断作者态度或言外之意；Which of the following is TRUE/NOT true。',
+  ['湖北2023：From the last paragraph, we learn that ___','湖北2021：By saying "you have done your homework", the writer means ___','河北：In this passage, the author is trying to ___ / Which of the following statements is TRUE according to the passage?'], 'reading'),
+ ('E-S05','阅读·词义猜测','根据上下文猜画线词/代词的含义。',
+  ['湖北2023：What does the underlined word "anonymous" in Paragraph 4 probably mean?','河北：The word "obsolete" in the text most likely means ___','河北：The underlined word "it" in the last paragraph refers to ___'], 'reading'),
+ ('E-S06','阅读·原因与目的','定位 because / so / in order to 等因果与目的句。',
+  ['湖北2024：Why did other passengers also get up?（答案：Because they were inspired by the little girl）','湖北2025：Why did Kath go to Prague?（答案：To set up a new regional office there）','湖北2026：When young and strong, why did the man need to catch a lot of fish?'], 'reading'),
+ ('E-S07','阅读填空·信息提取','原词定位 / 同义转换 / 信息归纳 / 词性适配四种填空能力。',
+  ['湖北2024：The word "free" means both "___" and "with no cost"（原文原词 unstructured）','湖北2024：Giraffes are quietly ___.（原文原词 disappearing）','湖北2025：原文 a unique musical tradition → 填空 a unique ___（原词）','湖北2025：You should ___ better people around you（同义转换 enlist）'], 'reading'),
+ ('E-S08','翻译·英译汉','把英文句子/段落译成通顺中文。',
+  ['湖北2024 阅读题内：Translate the sentence "What a lovely little girl!" into Chinese','湖北2025 阅读题内：Translate: "Afterwards, they continued their journey, discovering new sights."','湖北2025 阅读题内：The marriage ceremony is going to be at home in London in September.','湖北2020–2023 老格式另有独立段落翻译题（E-T10）'], 'translation'),
+ ('E-S09','翻译·汉译英（填空）','根据中文提示补全英文句子，提示词多以括号给出。',
+  ['湖北2025：如果下雪，他们会取消活动。They will cancel the event if ___ (snow) → it snows','湖北2025：小明教会了我如何使用英文词典。Xiaoming taught me how ___ an English dictionary. (use) → to use','湖北2026：A kind heart can be ___ than anything else (powerful) → more powerful','湖北2026：We must ___ to protect our environment (measure) → take measures','湖北2024（完成句子）：The snow is ___ that the whole world is covered in silver. (heavy) → so heavy'], 'translation'),
+ ('E-S10','写作·应用文（湖北新格式）','不少于 40 词的应用文：邮件、通知、短信。要点齐全＋格式正确。',
+  ['湖北2024：给英国朋友 Tom 写手机短信，请他代买英文书 On Reading，不少于 40 词','湖北2025：以东湖音乐节委员会名义写邀请邮件，说明 7.18–20 举行、请准备 2–3 个节目','湖北2026：给已回英国的交换生 Sarah 发信息，介绍学校变化，不少于 40 词','zsbzt_essay_review.md 题源库体裁清单（15 类）：通知 / 邀请信 / 建议信 / 感谢信 / 道歉信 / 请假条 / 便条 / 投诉信 / 求助信 / 申请信 / 祝贺信 / 介绍信 / 倡议书 / 回复信 / 推荐信','同文件内还能看到 2025 东湖音乐节邀请邮件、2024 给 Tom 的手机短信、2022 职业规划讲座通知、2021 N 公司面试通知、2020 项目经理 Jane Hart 信函 —— 与库内真题一致'], 'writing'),
+ ('E-S11','写作·提纲议论文（河北格式）','按中文提纲写 100 词左右短文，三段式结构。',
+  ['河北16：Write a composition entitled Haze and Air Pollution in no less than 100 words','河北21：My View on Happiness in no less than 100 words','河北25：My Major in no less than 100 words','河北18：写通知（环境保护英语讲座）／介绍中国传统节日的邮件'], 'writing'),
+ ('E-S12','情景对话与交际用语','长对话补全；日常交际（预约、问路、购物、道别、致谢）。',
+  ['河北16 对话答案：Can I help you? / Could I make an appointment for Tuesday morning? / May I have your name, please?','河北19：Hilton Hotel. Can I help you? ... with a bath from October 11 to October 14.','河北25：Why don\u2019t you join the college club? / I\u2019d like to see that.'], 'dialogue'),
+ ('E-S13','完形填空·语境逻辑','通过上下文承接、转折、因果选择正确选项。',
+  ['河北25 完形答案：它需要投入和关注细节，requires 最符合上下文 / 因为，说明前句原因','河北16：Enough sleep is important to health. The amount of sleep ___ depends on the age of the person','河北17 Directions: There are 10 blanks ... choose the ONE answer that best fits'], 'cloze'),
+ ('E-S14','完形填空·词汇与语法辨析','在语境中辨析词义、搭配与语法形式。',
+  ['河北16 完形答案：needed / generally / few / a day\u2019s / without / When / a most / worry / bed time / a doctor','河北25 完形答案：thinking / an / on / where / role / promoting / patiently'], 'cloze'),
+]
+BASIS_DIRECT = {  # question_type -> 直接取自真题内容
+ 'grammar_fill':'direct','sentence_build':'direct','reading_fill':'direct','reading_qa':'direct',
+ 'translation_fill':'direct','writing':'direct','sentence_completion':'direct','single_choice':'direct',
+ 'translation_choice':'direct','translation':'direct','outline_fill':'direct','phonetics':'direct',
+ 'dialogue':'direct','cloze':'direct','word_fill':'direct',
+}
+dist_grammar = collections.Counter()
+for k in GRAMMAR_KPS:
+    for c in (k[3], k[4]): dist_grammar.update(c)
+
+kps = []
+for kid, name, fmt, desc, qtype, subs, ev in FORMAT_KPS:
+    n = FORMAT_COUNT[kid]
+    if kid == 'E-T16': n = 42   # 河北选择题型 reading_qa（答案形如 "B. ..."）
+    if kid == 'E-T04': n = qn('reading_qa') - 42
+    kps.append({
+      'id': kid, 'dimension': 'format', 'name': name, 'format_era': fmt,
+      'desc': desc, 'question_type': qtype,
+      'question_count': n, 'question_count_official': (qo(qtype) if kid not in ('E-T04','E-T16') else None),
+      'count_basis': 'exact_sql',
+      'sub_points': subs, 'evidence': ev,
+      'count_note': ('河北卷 reading_qa 中答案是选项字母的 %d 题（question_type 仍是 reading_qa）' % 42) if kid == 'E-T16'
+                    else (('湖北/其他卷 reading_qa 中答案是文字或选项的 %d 题（= 总数 %d − 河北选择型 42）' % (FORMAT_COUNT[kid], qn('reading_qa'))) if kid == 'E-T04' else None),
+    })
+for kid, name, desc, ev, gf, sc in GRAMMAR_KPS:
+    c = gf.get(kid, 0) + sc.get(kid, 0)
+    basis = []
+    if gf.get(kid): basis.append('语法填空 %d 题' % gf[kid])
+    if sc.get(kid): basis.append('单项选择 %d 题' % sc[kid])
+    kps.append({
+      'id': kid, 'dimension': 'knowledge', 'category': 'grammar', 'name': name,
+      'desc': desc, 'question_count': c, 'count_basis': 'explicit_per_item_tag',
+      'tag_breakdown': basis, 'sub_points': [], 'evidence': ev,
+    })
+for kid, name, desc, ev, cat in SKILL_KPS:
+    kps.append({
+      'id': kid, 'dimension': 'knowledge', 'category': cat, 'name': name,
+      'desc': desc, 'question_count': None, 'count_basis': 'not_counted_individually',
+      'sub_points': [], 'evidence': ev,
+    })
+
+# reading skill counts for E-S02..E-S08
+for k in kps:
+    if k['id'] in S_FROM_RQ:
+        k['question_count'] = S_FROM_RQ[k['id']]
+        k['count_basis'] = 'explicit_per_item_tag'
+        k['tag_breakdown'] = ['官方 reading_qa 共 %d 题中标注为「%s」的题数' % (sum(S_FROM_RQ.values()), k['name'])]
+    if k['id'] == 'E-S01': k['question_count'] = qn('phonetics'); k['count_basis'] = 'exact_sql'
+    if k['id'] == 'E-S12': k['question_count'] = qn('dialogue'); k['count_basis'] = 'exact_sql'
+    if k['id'] in ('E-S13','E-S14'): k['question_count'] = None
+
+TYPE_TO_POINTS = {
+ 'grammar_fill': ['E-T01','E-G01','E-G02','E-G04','E-G05','E-G06','E-G07','E-G09','E-G10','E-G11','E-G12','E-G13'],
+ 'sentence_build': ['E-T02','E-G01','E-G02','E-G04','E-G05','E-G06'],
+ 'reading_fill': ['E-T03','E-S07'],
+ 'reading_qa': ['E-T04','E-T16','E-S02','E-S03','E-S04','E-S05','E-S06','E-S08'],
+ 'translation_fill': ['E-T05','E-S09','E-G07'],
+ 'writing': ['E-T06','E-T17','E-S10','E-S11'],
+ 'sentence_completion': ['E-T07','E-S09'],
+ 'single_choice': ['E-T08','E-G01','E-G02','E-G03','E-G04','E-G05','E-G06','E-G07','E-G08','E-G09','E-G10','E-G11','E-G12','E-G13','E-G14','E-G15','E-G16','E-G17'],
+ 'translation_choice': ['E-T09','E-S08'],
+ 'translation': ['E-T10','E-S08'],
+ 'outline_fill': ['E-T11','E-S07'],
+ 'phonetics': ['E-T12','E-S01'],
+ 'dialogue': ['E-T13','E-S12'],
+ 'cloze': ['E-T14','E-S13','E-S14'],
+ 'word_fill': ['E-T15','E-G06'],
+ 'program_fill': ['E-T16'],
+}
+
+all_types = set(TYPE_ALL)
+covered_types = set(TYPE_TO_POINTS)
+unmapped_types = sorted(all_types - covered_types)
+extra = sorted(covered_types - all_types)
+
+doc = {
+ 'subject': 'english',
+ 'built_at': datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),
+ 'schema_version': '1.0',
+ 'source': {
+   'dbs': ['data/english.sqlite'],
+   'questions': TOTAL,
+   'official_exam_questions': OFFICIAL,
+   'official_exam_titles': EXAMS,
+   'knowledge_point_field': {
+     'filled_rows': KP_FILLED,
+     'empty_rows': TOTAL - KP_FILLED,
+     'filled_values': ['阅读理解·事实细节','细节理解','英文邀请信写作'],
+     'conclusion': '官方真题的 knowledge_point 只有 %d/766 有值（%d 条为其他来源题目）；无法沿用，必须从题型与真题内容反推。' % (KP_FILLED, KP_FILLED),
+   },
+   'question_type_distribution': {
+     'all': dict(TYPE_ALL.most_common()),
+     'official_exam': dict(TYPE_OFF.most_common()),
+     'other_sources': dict(TYPE_OTHER.most_common()),
+   },
+   'question_type_mapping_source': 'config/display.json v2.0（20 种题型的展示名与作答说明）',
+   'materials': {
+     'exam_guide': {'path': 'inbox/english/zsbzt_exam_guide.md', 'origin': 'http://zsbzt.cn/assets/ExamGuide-pDvJF3qx.js',
+       'used_for': '2024+ 六大题型的卷面分值、语法填空 10 大考点、连词成句 5 种句型、阅读填空 4 种填空能力、翻译填空 6 种考法、写作体裁与模板'},
+     'essay_review': {'path': 'inbox/english/zsbzt_essay_review.md', 'origin': 'http://zsbzt.cn/assets/EssayReview-pVOJezrF.js',
+       'used_for': '写作体裁清单（通知/邀请信/建议信/感谢信/道歉信/请假条/便条/投诉信/求助信/申请信/祝贺信/介绍信/倡议书/回复信/推荐信）'},
+     'raw_exam_json': {'path': 'inbox/real_exams/*.json', 'files': 20,
+       'used_for': '真题原始 section 与题型（湖北 2020–2026 六套 + 河北 16–25 十套 + 2024/2025 单题版）'},
+     'cache_stub': {'path': 'inbox/real_exams/aihaoti_*.json', 'note': '6 个 99 字节占位文件，无内容'},
+   },
+   'caveat': 'zsbzt 的两份文档是站点自撰的备考解读（非官方考纲），引用时须标来源，不得当权威依据。',
+   'data_quality_notes': [
+     'exam_title 命名不统一：官方真题里同时存在「湖北2024」（43 题，完整卷）与「湖北专升本2024年英语真题」（1 题，散题），同一套卷被拆成两个标题；统计卷别时需合并。',
+     '官方真题中 湖北专升本*年英语真题 共 13 题散题，其中 2 题被标为 question_type=program_fill（疑似用户自建 profile 混入，非英语题型），本知识库将其归入 E-T16 并在此标注。',
+     '河北卷 reading_qa 的答案形态不统一：42 题是选项字母（选择题），83 题是文字答案；本知识库按 42/83 拆分给 E-T16 与 E-T04。',
+     'id=708 是「湖北专升本2025年英语真题」的聚合行，answer 字段把整段语法填空 10 个答案用 " | " 挤在一行；本知识库按 10 个空逐个计入语法标注（故语法填空标注口径为 40 个「空」而非 31 条记录）。',
+     'cloze 与 word_fill 的 stem 普遍为空，题干在 material_text 里；按空统计需回读 material_text。',
+   ],
+ },
+ 'dimensions': [
+   {'id':'format','name':'题型维度','desc':'考什么形式：2024+ 湖北全主观题新格式 / 2020–2023 湖北老格式（含客观题）/ 河北 2016–2025 格式'},
+   {'id':'knowledge','name':'语言知识维度','desc':'考什么内容：grammar（语法）、reading（阅读）、translation（翻译）、writing（写作）、voice（语音）、dialogue（交际）、cloze（完形）'},
+ ],
+ 'knowledge_points': kps,
+ 'question_type_to_points': TYPE_TO_POINTS,
+ 'unmapped_chapters': unmapped_types,
+ 'stats': {
+   'total_points': len(kps),
+   'format_points': sum(1 for k in kps if k['dimension']=='format'),
+   'knowledge_points': sum(1 for k in kps if k['dimension']=='knowledge'),
+   'grammar_points': sum(1 for k in kps if k.get('category')=='grammar'),
+   'reading_points': sum(1 for k in kps if k.get('category')=='reading'),
+   'translation_points': sum(1 for k in kps if k.get('category')=='translation'),
+   'writing_points': sum(1 for k in kps if k.get('category')=='writing'),
+   'other_skill_points': sum(1 for k in kps if k.get('category') in ('voice','dialogue','cloze')),
+   'question_types_total': len(all_types),
+   'question_types_mapped': len(covered_types & all_types),
+   'grammar_tagged_items': sum(G_FROM_GF.values()) + sum(G_FROM_SC.values()),
+   'reading_skill_tagged_items': sum(S_FROM_RQ.values()),
+   'covered_questions': TOTAL,
+ },
+}
+doc['source']['question_type_coverage_check'] = {'all_types': sorted(all_types), 'extra_in_map': extra}
+with open(os.path.join(OUT,'knowledge_base.json'),'w',encoding='utf-8') as f:
+    json.dump(doc, f, ensure_ascii=False, indent=2)
+print()
+print('unmapped question_types =', unmapped_types, '| extra =', extra)
+print('grammar tagged =', sum(G_FROM_GF.values()), '+', sum(G_FROM_SC.values()))
+print('reading tagged =', sum(S_FROM_RQ.values()), dict(S_FROM_RQ))
+print('points =', len(kps), '| format', doc['stats']['format_points'], '| knowledge', doc['stats']['knowledge_points'])
+print('written', os.path.join(OUT,'knowledge_base.json'))
+con.close()

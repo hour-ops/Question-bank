@@ -1,0 +1,3459 @@
+{
+ "id": 115,
+ "title": "湖北2021",
+ "subject": "英语",
+ "createTime": "2026-04-07 10:25:31",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "2021 年湖北省普通高等学校专升本英语",
+   "subject": "英语",
+   "province": "湖北",
+   "year": 2021,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "886d0b2a-a311-443f-b993-d541efc4497f"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "词汇与结构",
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "This part is to test the use of English. There are 25 incomplete sentences in it. For each sentence there are four choices marked A, B, C and D. Choose the one answer that best completes the sentence and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Zootopia is such "
+        },
+        {
+         "type": "blank",
+         "key": "q1",
+         "placeholder": "1"
+        },
+        {
+         "type": "markdown",
+         "value": " wonderful movie that I want to see it a second time."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. a"
+        },
+        {
+         "key": "B",
+         "label": "B. the"
+        },
+        {
+         "key": "C",
+         "label": "C. /"
+        },
+        {
+         "key": "D",
+         "label": "D. an"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "such a/an + adjective + singular countable noun 是固定结构。wonderful 以辅音音素开头，所以用 a。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. a"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Beijing and Zhangjiakou "
+        },
+        {
+         "type": "blank",
+         "key": "q2",
+         "placeholder": "2"
+        },
+        {
+         "type": "markdown",
+         "value": " applying to host the 2022 Winter Olympic Games in 2013."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. begin"
+        },
+        {
+         "key": "B",
+         "label": "B. began"
+        },
+        {
+         "key": "C",
+         "label": "C. have begun"
+        },
+        {
+         "key": "D",
+         "label": "D. had begun"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "时间状语是 in 2013，应用一般过去时。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. began"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We believe that the environment in Hubei "
+        },
+        {
+         "type": "blank",
+         "key": "q3",
+         "placeholder": "3"
+        },
+        {
+         "type": "markdown",
+         "value": " greatly through our hard work in the near future."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. will be improved"
+        },
+        {
+         "key": "B",
+         "label": "B. is improved"
+        },
+        {
+         "key": "C",
+         "label": "C. was improved"
+        },
+        {
+         "key": "D",
+         "label": "D. has been improved"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "in the near future 表示将来；environment 与 improve 之间是被动关系，所以用一般将来时的被动语态。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. will be improved"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Could you tell me "
+        },
+        {
+         "type": "blank",
+         "key": "q4",
+         "placeholder": "4"
+        },
+        {
+         "type": "markdown",
+         "value": "?\n\nYou'd better watch CCTV English news on a daily basis."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. when I can improve my listening"
+        },
+        {
+         "key": "B",
+         "label": "B. if I can improve my listening"
+        },
+        {
+         "key": "C",
+         "label": "C. how I can improve my listening"
+        },
+        {
+         "key": "D",
+         "label": "D. why I can improve my listening"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "回答给出的是方法，因此宾语从句应用 how 引导。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. how I can improve my listening"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My parents live in Room 406, I live in the room right above theirs on the "
+        },
+        {
+         "type": "blank",
+         "key": "q5",
+         "placeholder": "5"
+        },
+        {
+         "type": "markdown",
+         "value": " floor."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. three"
+        },
+        {
+         "key": "B",
+         "label": "B. five"
+        },
+        {
+         "key": "C",
+         "label": "C. third"
+        },
+        {
+         "key": "D",
+         "label": "D. fifth"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "406 在四楼，其正上方应是五楼。表示楼层要用序数词。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. fifth"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "May I speak to Jane, please?\n\nJust a minute! She "
+        },
+        {
+         "type": "blank",
+         "key": "q6",
+         "placeholder": "6"
+        },
+        {
+         "type": "markdown",
+         "value": " the flowers in the garden."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. waters"
+        },
+        {
+         "key": "B",
+         "label": "B. is watering"
+        },
+        {
+         "key": "C",
+         "label": "C. watered"
+        },
+        {
+         "key": "D",
+         "label": "D. will water"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Just a minute 说明 Jane 此刻正在忙，应用现在进行时。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. is watering"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "But for the Chinese People's Liberation Army, he "
+        },
+        {
+         "type": "blank",
+         "key": "q7",
+         "placeholder": "7"
+        },
+        {
+         "type": "markdown",
+         "value": " of hunger fifteen years ago."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. must have died"
+        },
+        {
+         "key": "B",
+         "label": "B. would die"
+        },
+        {
+         "key": "C",
+         "label": "C. would have died"
+        },
+        {
+         "key": "D",
+         "label": "D. must die"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "but for 表示与过去事实相反的虚拟条件，主句应用 would have done。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. would have died"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q8",
+         "placeholder": "8"
+        },
+        {
+         "type": "markdown",
+         "value": " she was very tired, she continued working on her homework."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Since"
+        },
+        {
+         "key": "B",
+         "label": "B. Although"
+        },
+        {
+         "key": "C",
+         "label": "C. Because"
+        },
+        {
+         "key": "D",
+         "label": "D. So"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前后分句构成让步关系：虽然很累，但仍继续写作业。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Although"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q9",
+         "placeholder": "9"
+        },
+        {
+         "type": "markdown",
+         "value": " the difficult math problems, I have asked Professor Russell several times for help."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Working out"
+        },
+        {
+         "key": "B",
+         "label": "B. Worked out"
+        },
+        {
+         "key": "C",
+         "label": "C. Work out"
+        },
+        {
+         "key": "D",
+         "label": "D. To work out"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "不定式可作目的状语，表示“为了做出这些难题”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. To work out"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I would appreciate "
+        },
+        {
+         "type": "blank",
+         "key": "q10",
+         "placeholder": "10"
+        },
+        {
+         "type": "markdown",
+         "value": " back this afternoon."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. you to call"
+        },
+        {
+         "key": "B",
+         "label": "B. you call"
+        },
+        {
+         "key": "C",
+         "label": "C. your calling"
+        },
+        {
+         "key": "D",
+         "label": "D. you're calling"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "appreciate 后接动名词，固定表达是 appreciate one's doing sth.。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. your calling"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Robert wished that he "
+        },
+        {
+         "type": "blank",
+         "key": "q11",
+         "placeholder": "11"
+        },
+        {
+         "type": "markdown",
+         "value": " business instead of history when he was in university."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. might have studied"
+        },
+        {
+         "key": "B",
+         "label": "B. had studied"
+        },
+        {
+         "key": "C",
+         "label": "C. would study"
+        },
+        {
+         "key": "D",
+         "label": "D. might study"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "wish 表示对过去的遗憾时，从句应用过去完成时。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. had studied"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The oil crop this year has increased 25% "
+        },
+        {
+         "type": "blank",
+         "key": "q12",
+         "placeholder": "12"
+        },
+        {
+         "type": "markdown",
+         "value": " the last year."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. to"
+        },
+        {
+         "key": "B",
+         "label": "B. in"
+        },
+        {
+         "key": "C",
+         "label": "C. by"
+        },
+        {
+         "key": "D",
+         "label": "D. for"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "increase by + 百分数 表示“增长了多少”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. by"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Ten percent of the workers in this city now "
+        },
+        {
+         "type": "blank",
+         "key": "q13",
+         "placeholder": "13"
+        },
+        {
+         "type": "markdown",
+         "value": " working from home due to COVID-19."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. is"
+        },
+        {
+         "key": "B",
+         "label": "B. are"
+        },
+        {
+         "key": "C",
+         "label": "C. is to be"
+        },
+        {
+         "key": "D",
+         "label": "D. are to be"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "percent of + 复数名词作主语时，谓语通常用复数。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. are"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It is the first book of this kind I've ever read "
+        },
+        {
+         "type": "blank",
+         "key": "q14",
+         "placeholder": "14"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. that"
+        },
+        {
+         "key": "B",
+         "label": "B. which"
+        },
+        {
+         "key": "C",
+         "label": "C. what"
+        },
+        {
+         "key": "D",
+         "label": "D. when"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "先行词被 the first 修饰时，定语从句关系代词通常用 that。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. that"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Big news was sometimes announced half a day before it actually happened, "
+        },
+        {
+         "type": "blank",
+         "key": "q15",
+         "placeholder": "15"
+        },
+        {
+         "type": "markdown",
+         "value": "?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. was it"
+        },
+        {
+         "key": "B",
+         "label": "B. wasn't it"
+        },
+        {
+         "key": "C",
+         "label": "C. did it"
+        },
+        {
+         "key": "D",
+         "label": "D. didn't it"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "陈述部分是肯定句且谓语是 was，反意疑问句应用 wasn't it。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. wasn't it"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "English at the end of the 20th century was more widely spoken and written than "
+        },
+        {
+         "type": "blank",
+         "key": "q16",
+         "placeholder": "16"
+        },
+        {
+         "type": "markdown",
+         "value": " language."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. one other"
+        },
+        {
+         "key": "B",
+         "label": "B. many other"
+        },
+        {
+         "key": "C",
+         "label": "C. some other"
+        },
+        {
+         "key": "D",
+         "label": "D. any other"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "more ... than any other + 单数名词，表示“比其他任何一种都更……”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. any other"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The 5G technology can help doctors "
+        },
+        {
+         "type": "blank",
+         "key": "q17",
+         "placeholder": "17"
+        },
+        {
+         "type": "markdown",
+         "value": " patients who are hundreds of miles away."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. care"
+        },
+        {
+         "key": "B",
+         "label": "B. treat"
+        },
+        {
+         "key": "C",
+         "label": "C. operate"
+        },
+        {
+         "key": "D",
+         "label": "D. recover"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据语义，5G 技术帮助医生远程治疗病人最恰当。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. treat"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "You can't change yourself by making empty talk all day long. What "
+        },
+        {
+         "type": "blank",
+         "key": "q18",
+         "placeholder": "18"
+        },
+        {
+         "type": "markdown",
+         "value": " is what you do, not what you say."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. matters"
+        },
+        {
+         "key": "B",
+         "label": "B. means"
+        },
+        {
+         "key": "C",
+         "label": "C. meets"
+        },
+        {
+         "key": "D",
+         "label": "D. minds"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句意是“重要的是你做什么，而不是你说什么”，matters 最符合语义。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. matters"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Jason made a "
+        },
+        {
+         "type": "blank",
+         "key": "q19",
+         "placeholder": "19"
+        },
+        {
+         "type": "markdown",
+         "value": " to his parents that he would study harder."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. plan"
+        },
+        {
+         "key": "B",
+         "label": "B. purpose"
+        },
+        {
+         "key": "C",
+         "label": "C. progress"
+        },
+        {
+         "key": "D",
+         "label": "D. promise"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q19",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "make a promise to sb. 是固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. promise"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It was at the first meeting that Mike "
+        },
+        {
+         "type": "blank",
+         "key": "q20",
+         "placeholder": "20"
+        },
+        {
+         "type": "markdown",
+         "value": " me with his good manners and sense of humor."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. admired"
+        },
+        {
+         "key": "B",
+         "label": "B. reminded"
+        },
+        {
+         "key": "C",
+         "label": "C. impressed"
+        },
+        {
+         "key": "D",
+         "label": "D. shared"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "impress sb. with sth. 表示“以某事给某人留下深刻印象”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. impressed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If you have to travel a very long distance, try to go to bed earlier than "
+        },
+        {
+         "type": "blank",
+         "key": "q21",
+         "placeholder": "21"
+        },
+        {
+         "type": "markdown",
+         "value": " the day before the journey."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. common"
+        },
+        {
+         "key": "B",
+         "label": "B. usual"
+        },
+        {
+         "key": "C",
+         "label": "C. ordinary"
+        },
+        {
+         "key": "D",
+         "label": "D. normal"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "than usual 是固定搭配，表示“比平时更早”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. usual"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The train is leaving. There is not much time left, so I'll tell you about it "
+        },
+        {
+         "type": "blank",
+         "key": "q22",
+         "placeholder": "22"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. in detail"
+        },
+        {
+         "key": "B",
+         "label": "B. in time"
+        },
+        {
+         "key": "C",
+         "label": "C. in all"
+        },
+        {
+         "key": "D",
+         "label": "D. in short"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "时间不多，所以只能“简短地说”，固定表达是 in short。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. in short"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The "
+        },
+        {
+         "type": "blank",
+         "key": "q23",
+         "placeholder": "23"
+        },
+        {
+         "type": "markdown",
+         "value": " will help you if you can't find the book you want in the library."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. agent"
+        },
+        {
+         "key": "B",
+         "label": "B. manager"
+        },
+        {
+         "key": "C",
+         "label": "C. librarian"
+        },
+        {
+         "key": "D",
+         "label": "D. operator"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "在图书馆找不到书时，最可能提供帮助的人是 librarian。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. librarian"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "All of a sudden, there was a loud noise and all the lights "
+        },
+        {
+         "type": "blank",
+         "key": "q24",
+         "placeholder": "24"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. came out"
+        },
+        {
+         "key": "B",
+         "label": "B. wore out"
+        },
+        {
+         "key": "C",
+         "label": "C. looked out"
+        },
+        {
+         "key": "D",
+         "label": "D. went out"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "表示“灯灭了”用 go out。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. went out"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "In the last 20 years shopping on the Internet has increased "
+        },
+        {
+         "type": "blank",
+         "key": "q25",
+         "placeholder": "25"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. steadily"
+        },
+        {
+         "key": "B",
+         "label": "B. closely"
+        },
+        {
+         "key": "C",
+         "label": "C. safely"
+        },
+        {
+         "key": "D",
+         "label": "D. suddenly"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合时间跨度可知应表示持续稳定增长，steadily 最符合语境。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. steadily"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II / Section 1 / Passage 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four answers marked A, B, C and D. Choose the best answer to the question and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 1\n\nMobile phones have become a part of everyone's life. Most people have at least one mobile phone. And every month, new models appear in the stores. They offer exciting new features like cameras, MP3 players, and the ability to connect with the Internet. Now mobile phone users can do more on the Internet than ever before. They are able to do almost all the things on their mobile phones that they used to do on their computers. Moreover, some mobile phones now have voice recognition software, so people do not even have to use the buttons on their phones. They can simply tell their phones what they want to see or do.\n\nOne problem with mobile phones is that they have small screens. However, this problem could be solved in the future by making phones that project pictures and movies onto a wall or a sheet of paper. Mobile phones will also be used with 'e-paper' (large screens that can be folded and easily stored and carried) as well as personal video screens that look like pairs of sunglasses.\n\nAs you can see, the mobile phone has a promising future, and its features will change in ways that we cannot even imagine."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is NOT an exciting new feature of today's mobile phones?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. cameras"
+        },
+        {
+         "key": "B",
+         "label": "B. MP3 players"
+        },
+        {
+         "key": "C",
+         "label": "C. CD players"
+        },
+        {
+         "key": "D",
+         "label": "D. Internet connection"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文列举了 cameras、MP3 players 和 Internet connection，并未提到 CD players。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. CD players"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What allows people to tell their phones what they want to see or do?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. An overhead projector"
+        },
+        {
+         "key": "B",
+         "label": "B. A personal video screen"
+        },
+        {
+         "key": "C",
+         "label": "C. A button on the phone"
+        },
+        {
+         "key": "D",
+         "label": "D. Voice recognition software"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文明确说 mobile phones now have voice recognition software。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Voice recognition software"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the passage, what is the problem with mobile phones?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Their screens are small."
+        },
+        {
+         "key": "B",
+         "label": "B. They connect with the Internet."
+        },
+        {
+         "key": "C",
+         "label": "C. New models appear all the time."
+        },
+        {
+         "key": "D",
+         "label": "D. They do many things a computer does."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段开头直接指出 One problem with mobile phones is that they have small screens。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Their screens are small."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "All the following are features of e-paper EXCEPT that it can"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. be stored"
+        },
+        {
+         "key": "B",
+         "label": "B. be folded"
+        },
+        {
+         "key": "C",
+         "label": "C. be carried"
+        },
+        {
+         "key": "D",
+         "label": "D. be printed"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说 e-paper can be folded and easily stored and carried，没有提到 be printed。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. be printed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What can we infer from the last paragraph?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The mobile phone has a sad future."
+        },
+        {
+         "key": "B",
+         "label": "B. The mobile phone has a bright future."
+        },
+        {
+         "key": "C",
+         "label": "C. The mobile phone has a certain future."
+        },
+        {
+         "key": "D",
+         "label": "D. The mobile phone has a difficult future."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段说 mobile phone has a promising future，promising 对应 bright。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. The mobile phone has a bright future."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II / Section 1 / Passage 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four answers marked A, B, C and D. Choose the best answer to the question and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 2\n\nMars is the fourth planet from the Sun. For many centuries, Mars has also been called the 'Red Planet'. Ancient Greeks and Romans thought of Mars as the god of war. Some people imagined that Mars was like the Earth and inhabited with many strange creatures.\n\nGalileo was the first person to view Mars through a telescope. As telescopes improved, astronomers found that the red planet is about half as big as the Earth. From 1965 through 1972, the American Mariner series of robot spacecraft took many close-up television images of Mars. In 1976 two American spacecraft arrived on the Martian surface. Each carried two color television cameras, a 3-meter-long retractable arm, a small laboratory, and other instruments. They helped scientists discover exciting new knowledge about Mars.\n\nMars is mostly a vast desert with immense mountains, extremely deep canyons, and enormous dust storms. Ice covers the Martian polar regions, and buried ice exists in other areas. Some regions can get warm, but $-60^{\\circ}\\mathrm{C}$ is the average Martian temperature.\n\nSome scientists believe a global warming gas could be produced on Mars. This gas could help to warm the cold red planet and make it more like the Earth.\n\nThe future is full of exciting changes, and some day Mars will have human explorers, colonists, and tourists hiking across its surface. Maybe one of these people will be you."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is NOT true according to the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Mars is like the Earth."
+        },
+        {
+         "key": "B",
+         "label": "B. Strange creatures live on Mars."
+        },
+        {
+         "key": "C",
+         "label": "C. Mars is also called the 'Red Planet'."
+        },
+        {
+         "key": "D",
+         "label": "D. Ancient Greeks believed Mars was the god of peace."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文说 Ancient Greeks and Romans thought of Mars as the god of war。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Ancient Greeks believed Mars was the god of peace."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The Earth is about ______ Mars."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. twice as big as"
+        },
+        {
+         "key": "B",
+         "label": "B. four times as big as"
+        },
+        {
+         "key": "C",
+         "label": "C. as big as"
+        },
+        {
+         "key": "D",
+         "label": "D. half as big as"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文说 Mars is about half as big as the Earth，换算后即 Earth is about twice as big as Mars。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. twice as big as"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "You'll find all the following on Mars EXCEPT"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. dust storms"
+        },
+        {
+         "key": "B",
+         "label": "B. mountains"
+        },
+        {
+         "key": "C",
+         "label": "C. canyons"
+        },
+        {
+         "key": "D",
+         "label": "D. lakes"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中提到 mountains、canyons 和 dust storms，没有提到 lakes。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. lakes"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What do we know about Mars from the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. It's cold on Mars."
+        },
+        {
+         "key": "B",
+         "label": "B. It's warm on Mars."
+        },
+        {
+         "key": "C",
+         "label": "C. Ice exists everywhere."
+        },
+        {
+         "key": "D",
+         "label": "D. Ice only exists in polar regions."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中指出平均气温约为 $-60^{\\circ}\\mathrm{C}$，可知火星总体很冷。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. It's cold on Mars."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Scientists believe a global warming gas could"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. warm up the Earth"
+        },
+        {
+         "key": "B",
+         "label": "B. make Mars more like the Earth"
+        },
+        {
+         "key": "C",
+         "label": "C. discover knowledge about Mars"
+        },
+        {
+         "key": "D",
+         "label": "D. protect the environment on Mars"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文直接说 This gas could help to warm the cold red planet and make it more like the Earth。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. make Mars more like the Earth"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II / Section 1 / Passage 3",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four answers marked A, B, C and D. Choose the best answer to the question and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 3\n\nMany people believe that Sigmund Freud's work marked the beginning of modern psychology. He developed new ways to study the human personality. Some people disagreed with his ideas, and others thought he was a genius.\n\nSigmund Freud was born in 1856 in Moravia, which is now the Czech Republic. His family moved to Vienna when Sigmund was four years old. He was the oldest of his mother's eight children and her favorite. Sigmund loved to read and he was always at the top of his class. He had no interest in sports or outdoor activities, except walking. The family apartment had only four bedrooms, but Sigmund's mother gave him his own room so he could study in peace. He rarely joined the family for meals. Instead, he ate alone in his room, surrounded by his favorite books.\n\nSigmund first thought about studying law, but then he decided to study medicine. He enrolled at the University of Vienna in 1873. He loved working in the laboratory and studying the scientific side of medicine rather than helping the patients. In fact, he stayed in school for seven years instead of the usual five because he spent so much time working in the laboratory of a famous professor."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following about Sigmund Freud is NOT true?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. He loved reading."
+        },
+        {
+         "key": "B",
+         "label": "B. He was a top student."
+        },
+        {
+         "key": "C",
+         "label": "C. He was his mother's favorite child."
+        },
+        {
+         "key": "D",
+         "label": "D. He enjoyed having meals with his family."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文说 He rarely joined the family for meals，因此 D 错误。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. He enjoyed having meals with his family."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "When did Sigmund's family move to Vienna?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. In 1873."
+        },
+        {
+         "key": "B",
+         "label": "B. In 1864."
+        },
+        {
+         "key": "C",
+         "label": "C. In 1860."
+        },
+        {
+         "key": "D",
+         "label": "D. In 1856."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Freud 出生于 1856 年，四岁时搬到 Vienna，所以时间是 1860 年。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. In 1860."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Sigmund Freud didn't like"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. sports"
+        },
+        {
+         "key": "B",
+         "label": "B. books"
+        },
+        {
+         "key": "C",
+         "label": "C. walking"
+        },
+        {
+         "key": "D",
+         "label": "D. studying"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文明确说 He had no interest in sports or outdoor activities, except walking。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. sports"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It took Sigmund seven years to get his medical degree because"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. he helped the patients"
+        },
+        {
+         "key": "B",
+         "label": "B. he spent lots of time in the lab"
+        },
+        {
+         "key": "C",
+         "label": "C. he went to law school first"
+        },
+        {
+         "key": "D",
+         "label": "D. school was difficult for him"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一句说明他多待两年是 because he spent so much time working in the laboratory。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. he spent lots of time in the lab"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the passage, what is people's opinion about Sigmund Freud?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. They all think of him as crazy."
+        },
+        {
+         "key": "B",
+         "label": "B. They all regard him as a genius."
+        },
+        {
+         "key": "C",
+         "label": "C. People know little about him."
+        },
+        {
+         "key": "D",
+         "label": "D. People's opinions are divided."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第一段说 Some people disagreed with his ideas, and others thought he was a genius。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. People's opinions are divided."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II / Section 1 / Passage 4",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four answers marked A, B, C and D. Choose the best answer to the question and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 4\n\nAn early attempt to find a technological breakthrough for high speed rail traveling in China was the Shanghai Maglev, which opened to the public in 2004. As the first commercial magnetic levitation train in the world, it connects Shanghai's Pudong International Airport with the Shanghai subway system, traveling a distance of 30 kilometers in 8 minutes, at speeds as high as 430 kilometers per hour. It is the fastest commercially operated train anywhere in the world.\n\nChina now has two more maglevs, one in Changsha and the other in Beijing. However, both of these only cover short distances and the trains travel at speeds of around 100 kilometers per hour, which is not much faster than trains on many conventional rail lines.\n\nApart from the complex technical and safety issues involved with maglev trains, another big drawback with having a maglev line appears to be the high cost. Thus although maglev technology will continue to be used in the future, a train that is capable of reaching speeds of 600 kilometers per hour is being developed, the focus has been on more conventional, off-the-shelf technology in the development of China's high speed rail network."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The first commercial magnetic-levitation train in the world is in"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q41",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Changsha"
+        },
+        {
+         "key": "B",
+         "label": "B. Beijing"
+        },
+        {
+         "key": "C",
+         "label": "C. Shanghai"
+        },
+        {
+         "key": "D",
+         "label": "D. Wuhan"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q41",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第一段指出 Shanghai Maglev is the first commercial magnetic levitation train in the world。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Shanghai"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-42",
+      "no": 42,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements about Shanghai Maglev is true?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q42",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. It is the fastest train in the world."
+        },
+        {
+         "key": "B",
+         "label": "B. It opened to the public in 2004."
+        },
+        {
+         "key": "C",
+         "label": "C. It travels 600 kilometers per hour."
+        },
+        {
+         "key": "D",
+         "label": "D. It is not very expensive to build."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q42",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文直接给出 opened to the public in 2004。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. It opened to the public in 2004."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-43",
+      "no": 43,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Trains on China's conventional rail lines most probably travel at speeds of about ______ kilometers per hour."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q43",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 30"
+        },
+        {
+         "key": "B",
+         "label": "B. 100"
+        },
+        {
+         "key": "C",
+         "label": "C. 430"
+        },
+        {
+         "key": "D",
+         "label": "D. 600"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q43",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说短程磁悬浮时速 around 100 km/h，not much faster than trains on many conventional rail lines。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 100"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-44",
+      "no": 44,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is NOT a drawback with building a maglev line?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q44",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Cost."
+        },
+        {
+         "key": "B",
+         "label": "B. Safety."
+        },
+        {
+         "key": "C",
+         "label": "C. Speed."
+        },
+        {
+         "key": "D",
+         "label": "D. Technology."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q44",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中列出的缺点是 technical issues、safety issues 和 high cost，速度并不是缺点。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Speed."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-45",
+      "no": 45,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The focus of the development of China's high speed rail network has been on all of the following EXCEPT"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q45",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. maglev technology"
+        },
+        {
+         "key": "B",
+         "label": "B. traditional technology"
+        },
+        {
+         "key": "C",
+         "label": "C. off-the-shelf technology"
+        },
+        {
+         "key": "D",
+         "label": "D. conventional technology"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q45",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一句说 the focus has been on more conventional, off-the-shelf technology。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. maglev technology"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "阅读填空",
+    "partLabel": "Part II / Section 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "There is one passage in this section. Read the passage and fill in each blank (No.46 to No.50) with no more than three words. Write your answers in the corresponding space on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 5\n\nWhy is hot pot so popular in China? It shows the Chinese cultural values of openness and sharing. With a hot pot, you can put in any ingredient that you like: vegetables as well as meat. The same pot can serve any number of different meals to the people sitting around the table. No one is left out, and everyone gets to eat as much - or as little - as they want.\n\nHot pot creates a cozy, warm atmosphere and really brings people together as you sit around a pot, cooking, eating, talking, and relaxing. The food is important but also important are the feels. In China, people like to joke that there is no problem that a hot pot can't solve. The fire from the hot pot can melt just about any icy disagreement and warm just about any heart. Over a hot pot people can talk and share not just food, but friendship. While the food may soon be forgotten, these friendships stay with us forever.\n\nPopularity of hot Pot\n\nCultural values:\n\n(1) Openness: putting in any "
+       },
+       {
+        "type": "blank",
+        "key": "q46",
+        "placeholder": "46"
+       },
+       {
+        "type": "markdown",
+        "value": " that you like\n(2) Sharing: serving any "
+       },
+       {
+        "type": "blank",
+        "key": "q47",
+        "placeholder": "47"
+       },
+       {
+        "type": "markdown",
+        "value": " of different meals to the people\n\nAtmosphere: cozy and "
+       },
+       {
+        "type": "blank",
+        "key": "q48",
+        "placeholder": "48"
+       },
+       {
+        "type": "markdown",
+        "value": "\n\nSocial functions: melting any "
+       },
+       {
+        "type": "blank",
+        "key": "q49",
+        "placeholder": "49"
+       },
+       {
+        "type": "markdown",
+        "value": " and warming any "
+       },
+       {
+        "type": "blank",
+        "key": "q50",
+        "placeholder": "50"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-46",
+      "no": 46,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "q46"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q46",
+       "value": "ingredient"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文是 put in any ingredient that you like，空格位于 any 后面，应填 ingredient。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "ingredient"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-47",
+      "no": 47,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "q47"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q47",
+       "value": "number"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文是 The same pot can serve any number of different meals，固定搭配 any number of。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "number"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-48",
+      "no": 48,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "q48"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q48",
+       "value": "warm"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文对应 cozy, warm atmosphere，应填 warm。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "warm"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-49",
+      "no": 49,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "q49"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q49",
+       "value": "icy disagreement"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文是 melt just about any icy disagreement，且题目要求不超过三个词。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "icy disagreement"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-50",
+      "no": 50,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "q50"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q50",
+       "value": "heart"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文是 warm just about any heart，空格前已有 any，因此只填 heart。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "heart"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "translation_choice",
+    "displayName": "英译汉选择",
+    "partLabel": "Part III / Section 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "There are 5 sentences numbered 51 to 55. You will read three suggested translations marked A, B and C. Choose the best one and blacken the corresponding letter on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-51",
+      "no": 51,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Many good suggestions were not fully understood when they were first brought up."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q51",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 许多好的建议在最初提出时完全不被理解。"
+        },
+        {
+         "key": "B",
+         "label": "B. 很多好的建议在第一次提出时没有被误解。"
+        },
+        {
+         "key": "C",
+         "label": "C. 许多好的建议刚开始提出时未能被充分理解。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q51",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "fully understood 对应“被充分理解”，brought up 对应“提出”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. 许多好的建议刚开始提出时未能被充分理解。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-52",
+      "no": 52,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Well, a couple of years later, they became enemies. But we are getting ahead of the story."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q52",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 几年之后，他们反目成仇，唉，不过这是后话了。"
+        },
+        {
+         "key": "B",
+         "label": "B. 过了几年，他们成了敌人，唉，说到故事前面去了。"
+        },
+        {
+         "key": "C",
+         "label": "C. 两年之后，他们成仇人了，唉，这只是预测罢了。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q52",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "getting ahead of the story 表示“这是后话了”或“先说到后面了”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. 几年之后，他们反目成仇，唉，不过这是后话了。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-53",
+      "no": 53,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "You should check every item before you pay for the goods. You can't be too careful."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q53",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 在收货款前，你要仔细检查每个条目。你一定要小心。"
+        },
+        {
+         "key": "B",
+         "label": "B. 你应在付款之前逐项检查每个条款。你不能太小心。"
+        },
+        {
+         "key": "C",
+         "label": "C. 付货款之前，应仔细检查每个项目。你再小心也不为过。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q53",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "You can't be too careful 是固定译法“再小心也不为过”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. 付货款之前，应仔细检查每个项目。你再小心也不为过。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-54",
+      "no": 54,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "There is so much happening this morning, I don't know whether I'm coming or going."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q54",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 今天上午发生了太多事情，搞得我晕头转向。"
+        },
+        {
+         "key": "B",
+         "label": "B. 今天上午发生了很多事情，我不知道该不该来。"
+        },
+        {
+         "key": "C",
+         "label": "C. 今天上午发生了一些事情，我不知道自己该不该离开。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q54",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I don't know whether I'm coming or going 是习语，表示“忙得晕头转向”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. 今天上午发生了太多事情，搞得我晕头转向。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-55",
+      "no": 55,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Human beings are interesting in that they tend to first see good in a new acquaintance."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q55",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 人们往往对他们初次交往时会首先看到对方优点这件事很感兴趣。"
+        },
+        {
+         "key": "B",
+         "label": "B. 人之所以有趣是因为他们刚接触一个人时，首先看到的往往都是他或她的优点。"
+        },
+        {
+         "key": "C",
+         "label": "C. 人是很有意思的，他们接触熟人时，看到的往往都是他或她的第一个优点。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q55",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "in that 表示“因为”，new acquaintance 是“新认识的人”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 人之所以有趣是因为他们刚接触一个人时，首先看到的往往都是他或她的优点。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-8",
+    "kind": "translation_paragraph",
+    "displayName": "英译汉",
+    "partLabel": "Part III / Section 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Write your translation in the corresponding space on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-56",
+      "no": 56,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Everybody knows that people all wear masks during the COVID-19 pandemic. But we also have to throw the masks away after they are used. This could become a serious environmental problem, scientists have warned. Researchers in the US and some European countries did a study. They estimated that people around the world are now using 129 billion face masks every month. That is to say we use 2.8 million masks every minute!"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "q56",
+       "placeholder": "请输入译文"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "翻译时要处理好被动含义和数字表达。throw the masks away 可译为“把口罩丢弃”，129 billion 和 2.8 million 需准确换算为“1290 亿”和“280 万”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "众所周知，在新冠疫情期间，人们都戴着口罩。但口罩使用后也必须被丢弃。科学家警告说，这可能会成为一个严重的环境问题。美国和一些欧洲国家的研究人员做了一项研究。他们估计，如今全世界每个月要使用 1290 亿只口罩。也就是说，我们每分钟要使用 280 万只口罩！"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-9",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "Part IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "This part is to test your writing ability. Write a letter based on the following information given in Chinese. Write in the corresponding space on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-57",
+      "no": 57,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "假定你是 N 公司人力资源部 Human Resources 的 Andy White，根据以下内容，给 Peter Black 先生写一封信，字数不少于 100 个单词，内容包括：\n\n(1) 感谢他上周发来求职信和简历；\n(2) 公司让他 6 月 19 日上午九点参加面试；\n(3) 面试地点是公司总部大楼 26 层 T3 会议室；\n(4) 请他携带本人有效证件，提前半小时到达，做好准备。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "q57",
+       "placeholder": "请在此作答",
+       "minWords": 100
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "正文应覆盖感谢、面试时间、地点和注意事项四项信息，体裁需保持正式书信语气，并注意落款身份一致。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Dear Mr. Peter Black,\n\nThank you for your application letter and resume that you sent to our company last week. We have carefully reviewed your materials and would like to invite you to attend an interview at 9:00 a.m. on June 19.\n\nThe interview will be held in Meeting Room T3 on the 26th floor of the headquarters building of N Company. Please bring your valid personal identification with you. In order to complete the registration process smoothly and prepare for the interview, you are advised to arrive at least thirty minutes early.\n\nIf you have any questions before the interview, please feel free to contact us. We look forward to meeting you.\n\nYours sincerely,\nAndy White\nHuman Resources\nN Company"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

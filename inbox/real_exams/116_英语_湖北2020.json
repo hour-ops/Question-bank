@@ -1,0 +1,3593 @@
+{
+ "id": 116,
+ "title": "湖北2020",
+ "subject": "英语",
+ "createTime": "2026-04-07 10:25:38",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "2020 年湖北省普通高等学校专升本英语",
+   "subject": "英语",
+   "province": "湖北省",
+   "year": 2020,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "cdcf2764-9448-4647-b040-d585d67ea495"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "单选题",
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: This part is to test your ability to use words and phrases correctly to construct meaningful and grammatically correct sentences. In this part, there are 25 incomplete sentences. You are required to complete each statement by choosing the appropriate answer from the 4 choices marked A), B), C) and D)."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Those who have "
+        },
+        {
+         "type": "blank",
+         "key": "q1",
+         "placeholder": "1"
+        },
+        {
+         "type": "markdown",
+         "value": " big contributions to the company should be awarded."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. afforded"
+        },
+        {
+         "key": "B",
+         "label": "B. given"
+        },
+        {
+         "key": "C",
+         "label": "C. included"
+        },
+        {
+         "key": "D",
+         "label": "D. made"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配 make contributions to 表示“对……作出贡献”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. made"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "As a parent, you will "
+        },
+        {
+         "type": "blank",
+         "key": "q2",
+         "placeholder": "2"
+        },
+        {
+         "type": "markdown",
+         "value": " full responsibility for what you say and do to your kids."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. commit"
+        },
+        {
+         "key": "B",
+         "label": "B. take"
+        },
+        {
+         "key": "C",
+         "label": "C. give"
+        },
+        {
+         "key": "D",
+         "label": "D. do"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配 take responsibility for，表示“对……负责”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. take"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I believe that I am "
+        },
+        {
+         "type": "blank",
+         "key": "q3",
+         "placeholder": "3"
+        },
+        {
+         "type": "markdown",
+         "value": " for the position because of my education background and work experience."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. qualified"
+        },
+        {
+         "key": "B",
+         "label": "B. demanded"
+        },
+        {
+         "key": "C",
+         "label": "C. applied"
+        },
+        {
+         "key": "D",
+         "label": "D. collected"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "qualified for the position 表示“胜任该职位”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. qualified"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We supply different telephone communication products, some of "
+        },
+        {
+         "type": "blank",
+         "key": "q4",
+         "placeholder": "4"
+        },
+        {
+         "type": "markdown",
+         "value": " are particularly useful for small businesses."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. what"
+        },
+        {
+         "key": "B",
+         "label": "B. which"
+        },
+        {
+         "key": "C",
+         "label": "C. whom"
+        },
+        {
+         "key": "D",
+         "label": "D. these"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "介词 of 后接关系代词 which，引导非限制性定语从句。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. which"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "She found it difficult to concentrate while "
+        },
+        {
+         "type": "blank",
+         "key": "q5",
+         "placeholder": "5"
+        },
+        {
+         "type": "markdown",
+         "value": " her new novel."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. write"
+        },
+        {
+         "key": "B",
+         "label": "B. wrote"
+        },
+        {
+         "key": "C",
+         "label": "C. writing"
+        },
+        {
+         "key": "D",
+         "label": "D. written"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "while writing 为省略结构，完整形式为 while she was writing。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. writing"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Healthcare is one of the areas "
+        },
+        {
+         "type": "blank",
+         "key": "q6",
+         "placeholder": "6"
+        },
+        {
+         "type": "markdown",
+         "value": " the successes of AI have the greatest practical value."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. from that"
+        },
+        {
+         "key": "B",
+         "label": "B. of whom"
+        },
+        {
+         "key": "C",
+         "label": "C. by them"
+        },
+        {
+         "key": "D",
+         "label": "D. in which"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "in which 引导定语从句，表示“在这些领域中”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. in which"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Since 1949, our country "
+        },
+        {
+         "type": "blank",
+         "key": "q7",
+         "placeholder": "7"
+        },
+        {
+         "type": "markdown",
+         "value": " remarkable progress in reducing poverty."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. make"
+        },
+        {
+         "key": "B",
+         "label": "B. made"
+        },
+        {
+         "key": "C",
+         "label": "C. is making"
+        },
+        {
+         "key": "D",
+         "label": "D. has made"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "since 引导的时间状语通常与现在完成时连用。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. has made"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If I "
+        },
+        {
+         "type": "blank",
+         "key": "q8",
+         "placeholder": "8"
+        },
+        {
+         "type": "markdown",
+         "value": " his telephone number, I would have turned to him for help."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. have known"
+        },
+        {
+         "key": "B",
+         "label": "B. will know"
+        },
+        {
+         "key": "C",
+         "label": "C. had known"
+        },
+        {
+         "key": "D",
+         "label": "D. knew"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这是与过去事实相反的虚拟条件句，if 从句用过去完成时。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. had known"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A good business plan helps you "
+        },
+        {
+         "type": "blank",
+         "key": "q9",
+         "placeholder": "9"
+        },
+        {
+         "type": "markdown",
+         "value": " and grow your business."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. set"
+        },
+        {
+         "key": "B",
+         "label": "B. run"
+        },
+        {
+         "key": "C",
+         "label": "C. excise"
+        },
+        {
+         "key": "D",
+         "label": "D. relate"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "run your business 表示“经营企业”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. run"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If you have received several job "
+        },
+        {
+         "type": "blank",
+         "key": "q10",
+         "placeholder": "10"
+        },
+        {
+         "type": "markdown",
+         "value": " during your job searching, how do you choose the best one?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. offers"
+        },
+        {
+         "key": "B",
+         "label": "B. regulations"
+        },
+        {
+         "key": "C",
+         "label": "C. benefits"
+        },
+        {
+         "key": "D",
+         "label": "D. answers"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "job offer 表示“工作邀请、录用通知”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. offers"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Each passenger is "
+        },
+        {
+         "type": "blank",
+         "key": "q11",
+         "placeholder": "11"
+        },
+        {
+         "type": "markdown",
+         "value": " to carry one piece of hand luggage."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. decided"
+        },
+        {
+         "key": "B",
+         "label": "B. designed"
+        },
+        {
+         "key": "C",
+         "label": "C. allowed"
+        },
+        {
+         "key": "D",
+         "label": "D. brought"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "be allowed to do 表示“被允许做某事”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. allowed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We all believe that the role he has "
+        },
+        {
+         "type": "blank",
+         "key": "q12",
+         "placeholder": "12"
+        },
+        {
+         "type": "markdown",
+         "value": " in this project is very important."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. put"
+        },
+        {
+         "key": "B",
+         "label": "B. reached"
+        },
+        {
+         "key": "C",
+         "label": "C. offered"
+        },
+        {
+         "key": "D",
+         "label": "D. played"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配 play a role in，意为“在……中发挥作用”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. played"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "William is considered as one of the most "
+        },
+        {
+         "type": "blank",
+         "key": "q13",
+         "placeholder": "13"
+        },
+        {
+         "type": "markdown",
+         "value": " employees in this company."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. fluent"
+        },
+        {
+         "key": "B",
+         "label": "B. efficient"
+        },
+        {
+         "key": "C",
+         "label": "C. convenient"
+        },
+        {
+         "key": "D",
+         "label": "D. sufficient"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "efficient employees 表示“高效率的员工”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. efficient"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The recent earthquake in this area may "
+        },
+        {
+         "type": "blank",
+         "key": "q14",
+         "placeholder": "14"
+        },
+        {
+         "type": "markdown",
+         "value": " our company's future business."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. arrange"
+        },
+        {
+         "key": "B",
+         "label": "B. achieve"
+        },
+        {
+         "key": "C",
+         "label": "C. affect"
+        },
+        {
+         "key": "D",
+         "label": "D. approve"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "地震会“影响”未来业务，affect 语义正确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. affect"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "As so many people were absent, the meeting had to be "
+        },
+        {
+         "type": "blank",
+         "key": "q15",
+         "placeholder": "15"
+        },
+        {
+         "type": "markdown",
+         "value": " until next Monday."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. put off"
+        },
+        {
+         "key": "B",
+         "label": "B. set up"
+        },
+        {
+         "key": "C",
+         "label": "C. given away"
+        },
+        {
+         "key": "D",
+         "label": "D. taken over"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "put off 表示“推迟”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. put off"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The newly-built hotel is ideally placed for easy access "
+        },
+        {
+         "type": "blank",
+         "key": "q16",
+         "placeholder": "16"
+        },
+        {
+         "type": "markdown",
+         "value": " major attractions in the city."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. at"
+        },
+        {
+         "key": "B",
+         "label": "B. by"
+        },
+        {
+         "key": "C",
+         "label": "C. with"
+        },
+        {
+         "key": "D",
+         "label": "D. to"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配 access to，表示“通往……的便利”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. to"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It has been more than five years "
+        },
+        {
+         "type": "blank",
+         "key": "q17",
+         "placeholder": "17"
+        },
+        {
+         "type": "markdown",
+         "value": " they met last time in Wuhan."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. since"
+        },
+        {
+         "key": "B",
+         "label": "B. although"
+        },
+        {
+         "key": "C",
+         "label": "C. for"
+        },
+        {
+         "key": "D",
+         "label": "D. until"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It has been + 时间段 + since... 是固定句型。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. since"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Nowadays, it seems that no one can ever avoid "
+        },
+        {
+         "type": "blank",
+         "key": "q18",
+         "placeholder": "18"
+        },
+        {
+         "type": "markdown",
+         "value": " the Internet."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. being used"
+        },
+        {
+         "key": "B",
+         "label": "B. to use"
+        },
+        {
+         "key": "C",
+         "label": "C. used"
+        },
+        {
+         "key": "D",
+         "label": "D. using"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "avoid 后接动名词作宾语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. using"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A recent study shows that a person's living conditions only "
+        },
+        {
+         "type": "blank",
+         "key": "q19",
+         "placeholder": "19"
+        },
+        {
+         "type": "markdown",
+         "value": " about 50 percent of his or her happiness."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. account for"
+        },
+        {
+         "key": "B",
+         "label": "B. turn on"
+        },
+        {
+         "key": "C",
+         "label": "C. take off"
+        },
+        {
+         "key": "D",
+         "label": "D. send out"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q19",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "account for 表示“占据、解释”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. account for"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If "
+        },
+        {
+         "type": "blank",
+         "key": "q20",
+         "placeholder": "20"
+        },
+        {
+         "type": "markdown",
+         "value": " in a hot place, these flowers will soon begin to die and fall."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. be put"
+        },
+        {
+         "key": "B",
+         "label": "B. to put"
+        },
+        {
+         "key": "C",
+         "label": "C. put"
+        },
+        {
+         "key": "D",
+         "label": "D. putting"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "条件状语从句省略主语和 be 动词后，用过去分词 put。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. put"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The time I spent "
+        },
+        {
+         "type": "blank",
+         "key": "q21",
+         "placeholder": "21"
+        },
+        {
+         "type": "markdown",
+         "value": " with the team has enabled me to learn more about business management."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. work"
+        },
+        {
+         "key": "B",
+         "label": "B. working"
+        },
+        {
+         "key": "C",
+         "label": "C. to work"
+        },
+        {
+         "key": "D",
+         "label": "D. worked"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "spend time doing sth. 为固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. working"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The sports meeting had hardly begun "
+        },
+        {
+         "type": "blank",
+         "key": "q22",
+         "placeholder": "22"
+        },
+        {
+         "type": "markdown",
+         "value": " heavy rain poured down."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. as"
+        },
+        {
+         "key": "B",
+         "label": "B. than"
+        },
+        {
+         "key": "C",
+         "label": "C. while"
+        },
+        {
+         "key": "D",
+         "label": "D. when"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "hardly... when... 表示“刚……就……”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. when"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "He expressed the hope "
+        },
+        {
+         "type": "blank",
+         "key": "q23",
+         "placeholder": "23"
+        },
+        {
+         "type": "markdown",
+         "value": " they could start a business relationship with us."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. that"
+        },
+        {
+         "key": "B",
+         "label": "B. whether"
+        },
+        {
+         "key": "C",
+         "label": "C. what"
+        },
+        {
+         "key": "D",
+         "label": "D. which"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "that 引导同位语从句，说明 hope 的具体内容。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. that"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "By the time you get this letter, we "
+        },
+        {
+         "type": "blank",
+         "key": "q24",
+         "placeholder": "24"
+        },
+        {
+         "type": "markdown",
+         "value": " the project."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. were completing"
+        },
+        {
+         "key": "B",
+         "label": "B. will have completed"
+        },
+        {
+         "key": "C",
+         "label": "C. had completed"
+        },
+        {
+         "key": "D",
+         "label": "D. are completing"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "by the time 引导将来时间点时，主句常用将来完成时。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. will have completed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The small village where we spent our holiday lies "
+        },
+        {
+         "type": "blank",
+         "key": "q25",
+         "placeholder": "25"
+        },
+        {
+         "type": "markdown",
+         "value": " the hillside."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. for"
+        },
+        {
+         "key": "B",
+         "label": "B. in"
+        },
+        {
+         "key": "C",
+         "label": "C. on"
+        },
+        {
+         "key": "D",
+         "label": "D. with"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "表示村庄位于山坡上，用介词 on。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. on"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section I Passage I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 4 passages in this section. After each passage there are 5 questions. Each question is followed by four choices A), B), C) and D). You should choose the best answer."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Most Americans switch careers at least three times throughout their lives. Gone are the days when people retired from the company where they first worked. The progressive mentality regarding business and technology often ensures that people move from position to position as they try to find the right career for them."
+       },
+       {
+        "type": "markdown",
+        "value": "Recent college graduates ask \"what career is right for me?\" many times in the months before and after graduation. Now more than ever, people are also asking this question into their thirties, forties and fifties. Even baby boomers are asking \"what job is right for me?\" as they retire and reenter the workforce in their sixties and seventies. It seems that every employee in America is wondering which career path fits him or her best."
+       },
+       {
+        "type": "markdown",
+        "value": "When you find yourself asking \"what career is best for me?\", follow some of these simple tips to set yourself straight on the best path for you.\n1. Consult a website and take its test to see which career path might be right for you.\n2. Think about whether you are happy with your current job.\n3. Emphasize your skills in your resume.\n4. Do more research about the new career."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the first paragraph, most Americans now"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. are more satisfied with their career than their parents"
+        },
+        {
+         "key": "B",
+         "label": "B. change their careers at least three times in their life"
+        },
+        {
+         "key": "C",
+         "label": "C. move their home more frequently than ever before"
+        },
+        {
+         "key": "D",
+         "label": "D. retire from the company where they first worked"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段首句直接说 Most Americans switch careers at least three times throughout their lives。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. change their careers at least three times in their life"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "People change their position frequently in order to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. find a right career"
+        },
+        {
+         "key": "B",
+         "label": "B. support their families"
+        },
+        {
+         "key": "C",
+         "label": "C. start their own business"
+        },
+        {
+         "key": "D",
+         "label": "D. adapt to the new technology"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段末句说明他们频繁换岗位是为了找到适合自己的职业。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. find a right career"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "All American employees seem to be asking about"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. which company they will retire from"
+        },
+        {
+         "key": "B",
+         "label": "B. when they should change a position"
+        },
+        {
+         "key": "C",
+         "label": "C. what career path is right for them"
+        },
+        {
+         "key": "D",
+         "label": "D. where they can find another job"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段末句指出 every employee in America is wondering which career path fits best。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. what career path is right for them"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why are you advised to consult a website and take its test?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. To find information about job fairs."
+        },
+        {
+         "key": "B",
+         "label": "B. To improve your professional skills."
+        },
+        {
+         "key": "C",
+         "label": "C. To decide the right career path."
+        },
+        {
+         "key": "D",
+         "label": "D. To get in touch with a potential boss."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中明确说 take its test to see which career path might be right for you。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. To decide the right career path."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The last part of the passage is mainly about"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. ways to build a website"
+        },
+        {
+         "key": "B",
+         "label": "B. steps to take an online test"
+        },
+        {
+         "key": "C",
+         "label": "C. courses to train resume writing"
+        },
+        {
+         "key": "D",
+         "label": "D. tips to find a right career path"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段后列出四条建议，核心是在讲寻找合适职业路径的方法。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. tips to find a right career path"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section I Passage II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Read the passage and choose the best answer to each question."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Being your own boss is the dream of most people, but it comes with a price. Since you do not have to answer to someone else, you have to be responsible for your own business. In this sense, the business becomes the new boss. Here are some tips for you to observe."
+       },
+       {
+        "type": "markdown",
+        "value": "Work-life balance: Starting a business will consume a lot of time and energy. Not letting the business prevent you from having personal time is a challenge. The failure to manage a work-life balance can lead to health problems and lost relationships with family and friends."
+       },
+       {
+        "type": "markdown",
+        "value": "Making decisions: Since you are the owner, you have the final decision. This can be a tough challenge because you know that you alone have to bear the consequences of your decisions."
+       },
+       {
+        "type": "markdown",
+        "value": "Self-doubt and criticism: In the beginning, customers and competitors will not take you seriously. Everyone will be quick to share their opinions on what you are doing wrong and why it will not work."
+       },
+       {
+        "type": "markdown",
+        "value": "With all this, self-doubt will start to occur. Maybe they are all right. Maybe starting this business was a bad idea. If you have done your homework, this is the moment to overcome the fear of failure and have the confidence in yourself to keep going."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the first paragraph, being your own boss means that you should"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. meet your customers' demand"
+        },
+        {
+         "key": "B",
+         "label": "B. take responsibility of your own business"
+        },
+        {
+         "key": "C",
+         "label": "C. have the freedom to do what you like"
+        },
+        {
+         "key": "D",
+         "label": "D. take other people's needs into consideration"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段明确指出你需要对自己的企业负责。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. take responsibility of your own business"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The writer believes that not being able to manage a work-life balance can result in"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. big debts"
+        },
+        {
+         "key": "B",
+         "label": "B. lost profits"
+        },
+        {
+         "key": "C",
+         "label": "C. legal issues"
+        },
+        {
+         "key": "D",
+         "label": "D. health problems"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段直接说 failure to manage a work-life balance can lead to health problems。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. health problems"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Making a final decision can be a tough challenge to business owners because"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. they have to be responsible for its consequences"
+        },
+        {
+         "key": "B",
+         "label": "B. they are unable to turn to others for advice"
+        },
+        {
+         "key": "C",
+         "label": "C. they find it hard to achieve a work-life balance"
+        },
+        {
+         "key": "D",
+         "label": "D. they are prevented from having their personal time"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说 owner alone has to bear the consequences of decisions。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. they have to be responsible for its consequences"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What will your competitors react at the very beginning of your business?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. They will not accept your products."
+        },
+        {
+         "key": "B",
+         "label": "B. They will not take you seriously."
+        },
+        {
+         "key": "C",
+         "label": "C. They will criticize your business strongly."
+        },
+        {
+         "key": "D",
+         "label": "D. They will congratulate you on your success."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Self-doubt and criticism 一段中原话是 customers and competitors will not take you seriously。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. They will not take you seriously."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "By saying “you have done your homework”, the writer means"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. you are well-prepared"
+        },
+        {
+         "key": "B",
+         "label": "B. you are fully satisfied"
+        },
+        {
+         "key": "C",
+         "label": "C. you are highly confident"
+        },
+        {
+         "key": "D",
+         "label": "D. you are less worried"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这里表示前期调研和准备已经做足，即 well-prepared。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. you are well-prepared"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section I Passage III",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Read the passage and choose the best answer to each question."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "When people move from one city or country to another, the spread of diseases may result. People often bring in germs that may not have been present there before. These new germs can spread quickly and cause previously unknown diseases. If a germ is completely new to a region, people who already live there have no natural protection against it. As a result, they become ill more easily and die more often. In turn, newcomers may catch diseases that were not present in their own country. If they go back, they may carry the diseases with them and spread the diseases there, too."
+       },
+       {
+        "type": "markdown",
+        "value": "Changes in the heating system of a building can also lead to disease. In the 1970s, there was a worldwide shortage of heating oil. As a result, hotels in the United States lowered the temperature in their heating systems in order to save fuel. This low temperature led to a deadly germ that grows in heating pipes. When the heated air was blown into the rooms of a hotel, it carried the germs. Many visitors became ill and several died."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The spread of new diseases may result from the move of people who"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. carry the germs"
+        },
+        {
+         "key": "B",
+         "label": "B. have no protection"
+        },
+        {
+         "key": "C",
+         "label": "C. become ill more easily"
+        },
+        {
+         "key": "D",
+         "label": "D. work in a crowded place"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段说人们搬迁时常把当地原本没有的病菌带入新地区。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. carry the germs"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "When a new germ is spread to a region,"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. it will cause the whole region to suffer from a deadly disease"
+        },
+        {
+         "key": "B",
+         "label": "B. newcomers are seldom affected by the newly-spread germ"
+        },
+        {
+         "key": "C",
+         "label": "C. people there usually have no natural protection against it"
+        },
+        {
+         "key": "D",
+         "label": "D. people in that region can hardly escape from the disease"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中直接说当地人对全新的病菌通常没有自然免疫力。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. people there usually have no natural protection against it"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "From the passage we learn that changes in the heating system of a building can result in"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. an oil shortage"
+        },
+        {
+         "key": "B",
+         "label": "B. certain diseases"
+        },
+        {
+         "key": "C",
+         "label": "C. the air pollution"
+        },
+        {
+         "key": "D",
+         "label": "D. a high temperature"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段首句明确指出 changes in the heating system can also lead to disease。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. certain diseases"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What caused the growth of a deadly germ in the heating pipes of the hotels?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The dry air."
+        },
+        {
+         "key": "B",
+         "label": "B. The polluted oil."
+        },
+        {
+         "key": "C",
+         "label": "C. The heated pipes."
+        },
+        {
+         "key": "D",
+         "label": "D. The low temperature."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "酒店为节油降低供暖温度，而低温导致了致命病菌滋生。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. The low temperature."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage is mainly about"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. the protection against new diseases"
+        },
+        {
+         "key": "B",
+         "label": "B. the danger of visiting new places"
+        },
+        {
+         "key": "C",
+         "label": "C. the spread of new diseases"
+        },
+        {
+         "key": "D",
+         "label": "D. the worldwide shortage of fuel"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文围绕疾病传播的原因与案例展开，中心是新疾病的传播。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. the spread of new diseases"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part II Section I Passage IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Read the passage and choose the best answer to each question."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Some workplace stress is normal, but when stress at work begins to weaken your ability to perform in your job, it's time for you to take action. Start by paying attention to your physical and emotional health."
+       },
+       {
+        "type": "markdown",
+        "value": "Get moving\nRegular exercise is an effective way to help you relax both your mind and body. Try to get at least 30 minutes of activity on most days. If it's easier to fit into your schedule, break up the activity into two or three shorter periods of time each day."
+       },
+       {
+        "type": "markdown",
+        "value": "Get enough sleep\nA lack of sleep can make you suffer from more stress. When you're well-rested, it is much easier to keep your emotional balance. Try to improve the quality of your sleep by keeping a sleep schedule and aiming for 8 hours a night."
+       },
+       {
+        "type": "markdown",
+        "value": "Get support\nClose relationships are important to helping you through times of stress. Simply sharing your feelings face to face with another person can help relieve some of the stress. Accepting support is not a sign of weakness and it won't mean you're a burden to others. In fact, most friends will be willing to help you reduce your stress, and this will only strengthen your relationship."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "You should take action to handle your workplace stress when"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q41",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. it affects your job performance"
+        },
+        {
+         "key": "B",
+         "label": "B. it begins to damage your health"
+        },
+        {
+         "key": "C",
+         "label": "C. it influences your emotion"
+        },
+        {
+         "key": "D",
+         "label": "D. it shows its first signs"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q41",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段指出当工作压力开始削弱你的工作表现时，就该采取行动。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. it affects your job performance"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-42",
+      "no": 42,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If possible, you are advised to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q42",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. exercise before you start your work each day"
+        },
+        {
+         "key": "B",
+         "label": "B. do exercise together with your friends"
+        },
+        {
+         "key": "C",
+         "label": "C. arrange your activities based on your health"
+        },
+        {
+         "key": "D",
+         "label": "D. divide your activity into shorter periods of time"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q42",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Get moving 一段建议把活动时间拆成两到三个更短时段。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. divide your activity into shorter periods of time"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-43",
+      "no": 43,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "If you follow an 8-hour sleep schedule, you are more likely to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q43",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. get used to getting up early"
+        },
+        {
+         "key": "B",
+         "label": "B. improve your sleep quality"
+        },
+        {
+         "key": "C",
+         "label": "C. achieve positive effects of exercise"
+        },
+        {
+         "key": "D",
+         "label": "D. be able to work longer every day"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q43",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说保持睡眠规律并保证八小时，有助于提升睡眠质量。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. improve your sleep quality"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-44",
+      "no": 44,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "To relieve your stress, you are encouraged to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q44",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. show your weaknesses to your friends"
+        },
+        {
+         "key": "B",
+         "label": "B. avoid becoming a burden to others"
+        },
+        {
+         "key": "C",
+         "label": "C. make as many friends as possible"
+        },
+        {
+         "key": "D",
+         "label": "D. share your feelings with others"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q44",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Get support 一段明确建议 face to face 分享感受以缓解压力。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. share your feelings with others"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-45",
+      "no": 45,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The passage is mainly about"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q45",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. how to do exercise regularly"
+        },
+        {
+         "key": "B",
+         "label": "B. how to seek help from others"
+        },
+        {
+         "key": "C",
+         "label": "C. how to deal with workplace stress"
+        },
+        {
+         "key": "D",
+         "label": "D. how to keep your emotional balance"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q45",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "四段建议都围绕应对 workplace stress 展开。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. how to deal with workplace stress"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "提纲填空",
+    "partLabel": "Part II Section II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There is 1 passage in this section. Read the passage and complete the outline below it (No. 46 to No. 50). You should write your answers briefly in no more than three words."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Booster Seats (幼儿保护座椅) are more than a good idea. It is the law. Until children are 8 years old or 4.9 feet tall, they can be too big for a child car seat but too small for a safety belt. A booster seat makes safety belts fit properly and reduces the risk of injury in a crash."
+       },
+       {
+        "type": "markdown",
+        "value": "Which seat should I use? Either a proper-fitting child safety seat or booster seat installed correctly will meet the requirements of Michigan's new law for children under the age of 8 or not yet 4.9 feet tall. This includes using a booster seat with both a lap and shoulder belt."
+       },
+       {
+        "type": "markdown",
+        "value": "Where do I get a booster seat, and how much do they cost? Booster seats are available at many stores. They cost between $15 and $100 depending on the style."
+       },
+       {
+        "type": "markdown",
+        "value": "Important: All booster seats are safest when used in the back seat and with both the car's lap and shoulder belt. Never use a lap belt only."
+       },
+       {
+        "type": "markdown",
+        "value": "Booster Seats\nPurposes: used for children under "
+       },
+       {
+        "type": "blank",
+        "key": "b46",
+        "placeholder": "46"
+       },
+       {
+        "type": "markdown",
+        "value": " or 4.9 feet tall\nAdvantages:\n1. making safety belts fit properly\n2. reducing the risk of "
+       },
+       {
+        "type": "blank",
+        "key": "b47",
+        "placeholder": "47"
+       },
+       {
+        "type": "markdown",
+        "value": " in a crash\nPlaces to buy: available at "
+       },
+       {
+        "type": "blank",
+        "key": "b48",
+        "placeholder": "48"
+       },
+       {
+        "type": "markdown",
+        "value": "\nPrices: between "
+       },
+       {
+        "type": "blank",
+        "key": "b49",
+        "placeholder": "49"
+       },
+       {
+        "type": "markdown",
+        "value": "\nProper way of use: with both a lap and "
+       },
+       {
+        "type": "blank",
+        "key": "b50",
+        "placeholder": "50"
+       },
+       {
+        "type": "markdown",
+        "value": " belt"
+       },
+       {
+        "type": "image",
+        "src": "images/690e5367c749a2e740e13ca8a5d56dfc4ed049d4611edd6520f09d36e3395769.jpg",
+        "alt": "Booster Seats outline"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-46",
+      "no": 46,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b46"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b46",
+       "values": [
+        "8 years old",
+        "8"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文首段明确给出年龄条件为 8 years old。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "8 years old"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-47",
+      "no": 47,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b47"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b47",
+       "values": [
+        "injury",
+        "injuries"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段原句为 reduces the risk of injury in a crash。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "injury"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-48",
+      "no": 48,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b48"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b48",
+       "value": "many stores"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段写到 Booster seats are available at many stores。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "many stores"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-49",
+      "no": 49,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b49"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "b49",
+       "values": [
+        "$15 and $100",
+        "15 and 100 dollars",
+        "15 and 100"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段给出的价格范围是 between $15 and $100。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "$15 and $100"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-50",
+      "no": 50,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "b50"
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b50",
+       "value": "shoulder"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段与第二段都强调要同时使用 lap and shoulder belt。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "shoulder"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "translation_choice",
+    "displayName": "英译汉选择",
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Translate the English sentences into Chinese by choosing the best translation from A, B and C."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-51",
+      "no": 51,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Please let me know your schedule in advance, and I'll have my secretary book a ticket for you."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q51",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 请告诉我您旅行的日程，秘书将会为您提前订票。"
+        },
+        {
+         "key": "B",
+         "label": "B. 请提前告知您的日程表，我会让我秘书为您订票。"
+        },
+        {
+         "key": "C",
+         "label": "C. 请告诉我您的行程，我的秘书会为您解决机票的问题。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q51",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "in advance 表示“提前”，book a ticket for you 表示“为你订票”，B最贴切。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 请提前告知您的日程表，我会让我秘书为您订票。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-52",
+      "no": 52,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "First impression is so important that a hotel may win or lose its reputation at the front desk."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q52",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 第一印象如此之重要，以致前台就会让宾馆赢得或失去声誉。"
+        },
+        {
+         "key": "B",
+         "label": "B. 对前台工作的第一印象，直接关系到宾馆声誉的高低与好坏。"
+        },
+        {
+         "key": "C",
+         "label": "C. 为了给顾客留下良好的印象，需要提高宾馆前台的服务质量。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q52",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原句强调宾馆声誉在前台接待这一环节就可能得失，A与原意最接近。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. 第一印象如此之重要，以致前台就会让宾馆赢得或失去声誉。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-53",
+      "no": 53,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I think it would be necessary to have another meeting to talk about our further business cooperation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q53",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 我认为只有讨论了下一步的生产后，我们才需要见面。"
+        },
+        {
+         "key": "B",
+         "label": "B. 我认为必须要开会，以便进一步讨论我们之间的联系。"
+        },
+        {
+         "key": "C",
+         "label": "C. 我认为有必要再次开会，商谈我们进一步的业务合作。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q53",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "another meeting 对应“再次开会”，further business cooperation 对应“进一步的业务合作”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. 我认为有必要再次开会，商谈我们进一步的业务合作。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-54",
+      "no": 54,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It took half an hour for her to understand thoroughly all the items in the contract."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q54",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 半个小时已足够她就合同中的内容进行逐一核对。"
+        },
+        {
+         "key": "B",
+         "label": "B. 她花了半个小时才彻底弄明白合同上的全部条款。"
+        },
+        {
+         "key": "C",
+         "label": "C. 她只用了半个小时来逐一研究合同上的各项内容。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q54",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "核心是 understand thoroughly all the items in the contract，B对“彻底弄明白”表达最准确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 她花了半个小时才彻底弄明白合同上的全部条款。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-55",
+      "no": 55,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We couldn't have succeeded in the market competition without your strong support."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q55",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 若不是得到了你们的大力支持，我们就不会参与市场竞争。"
+        },
+        {
+         "key": "B",
+         "label": "B. 若无你们强有力的支持，我们在市场竞争中本不可能成功。"
+        },
+        {
+         "key": "C",
+         "label": "C. 因为你们的支持强大有力，我们有信心在市场竞争中获胜。"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q55",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "couldn't have succeeded without... 表示“若无……本不可能成功”，B对应虚拟语气。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. 若无你们强有力的支持，我们在市场竞争中本不可能成功。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-8",
+    "kind": "translation_paragraph",
+    "displayName": "英译汉",
+    "partLabel": "Part III",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Translate the following paragraph into Chinese."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-56",
+      "no": 56,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Thank you for your letter and resume of April 16th. I have sent your resume to the proper department, and it will be considered soon."
+        },
+        {
+         "type": "markdown",
+         "value": "We will get in touch with you and possibly arrange an interview with you some day next week. If there is no suitable position for you at present, we'll also let you know as soon as possible. Thank you for your interest in our company."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "t56",
+       "placeholder": "请在此作答"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "需准确译出商务书信中的固定表达，如 resume、proper department、get in touch with 和 suitable position。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "感谢您4月16日的来信和简历。我已将您的简历转交给有关部门，不久便会予以考虑。"
+        },
+        {
+         "type": "markdown",
+         "value": "我们将与您联系，并可能在下周的某一天安排对您的面试。如果目前没有适合您的职位，我们也会尽快通知您。感谢您对本公司的关注。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-9",
+    "kind": "writing",
+    "displayName": "书信写作",
+    "partLabel": "Part IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Write a letter based on the information given in Chinese. Pay attention to letter format."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-57",
+      "no": 57,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "说明：假设你是项目经理 Jane Hart。写信时间为 2020 年 7 月 25 日。根据以下内容给 John Smith 先生写一封信："
+        },
+        {
+         "type": "markdown",
+         "value": "1. 感谢他上周发来的邮件。"
+        },
+        {
+         "type": "markdown",
+         "value": "2. 告诉他工程进度很顺利，有可能提前完成。"
+        },
+        {
+         "type": "markdown",
+         "value": "3. 对当地员工的培训还未完成，预计下月底可结束。"
+        },
+        {
+         "type": "markdown",
+         "value": "4. 随信附上一份参加培训的员工名单。"
+        },
+        {
+         "type": "markdown",
+         "value": "请注意信函格式。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay57",
+       "placeholder": "请在此作答"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "写作时需要覆盖四个信息点，并保持正式商务书信格式，包括日期、称呼、正文和落款。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "July 25, 2020"
+        },
+        {
+         "type": "markdown",
+         "value": "Dear Mr. Smith,"
+        },
+        {
+         "type": "markdown",
+         "value": "Thank you for your email last week. I am glad to tell you that the project is progressing smoothly and it is likely to be completed ahead of schedule."
+        },
+        {
+         "type": "markdown",
+         "value": "However, the training for the local staff has not been finished yet, and it is expected to be completed by the end of next month."
+        },
+        {
+         "type": "markdown",
+         "value": "Enclosed is a list of the employees who are taking part in the training."
+        },
+        {
+         "type": "markdown",
+         "value": "Yours sincerely,"
+        },
+        {
+         "type": "markdown",
+         "value": "Jane Hart"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

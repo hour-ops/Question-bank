@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 复盘对比</title>
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body data-page="compare" data-subject="{{ subject }}" data-date="{{ date }}">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">复盘</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare" class="active">复盘</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <form class="card filters" method="get" action="/compare">
+    <label>科目
+      <select name="subject">
+        <option value="">全部</option>
+        {% for k, v in subject_labels.items() %}
+        <option value="{{ k }}" {% if subject == k %}selected{% endif %}>{{ v }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>日期 <input type="date" name="date" value="{{ date }}"></label>
+    <button class="btn btn-primary" type="submit">对比</button>
+    <span class="muted small">本次 = {{ date }}，历史 = 其余全部记录</span>
+  </form>
+
+  <section class="grid grid-2">
+    <div class="card">
+      <h1>本次（{{ date }}）</h1>
+      {% if data.today %}
+      <table class="data">
+        <thead><tr><th>科目</th><th>题量</th><th>正确</th><th>错误</th><th>未判分</th><th>正确率</th></tr></thead>
+        <tbody>
+        {% for k, b in data.today.items() %}
+          <tr><td>{{ b.name }}</td><td>{{ b.total }}</td><td class="ok-text">{{ b.correct }}</td>
+              <td class="err-text">{{ b.wrong }}</td><td class="muted">{{ b.unjudged }}</td>
+              <td><strong>{{ (b.accuracy * 100) | round(1) }}%</strong></td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% else %}<p class="muted">该日没有答题记录。</p>{% endif %}
+    </div>
+
+    <div class="card">
+      <h1>历史（不含本次）</h1>
+      {% if data.history %}
+      <table class="data">
+        <thead><tr><th>科目</th><th>题量</th><th>正确</th><th>错误</th><th>未判分</th><th>正确率</th></tr></thead>
+        <tbody>
+        {% for k, b in data.history.items() %}
+          <tr><td>{{ b.name }}</td><td>{{ b.total }}</td><td class="ok-text">{{ b.correct }}</td>
+              <td class="err-text">{{ b.wrong }}</td><td class="muted">{{ b.unjudged }}</td>
+              <td><strong>{{ (b.accuracy * 100) | round(1) }}%</strong></td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% else %}<p class="muted">暂无历史记录。</p>{% endif %}
+    </div>
+  </section>
+
+  <section class="card">
+    <h1>错题对照 <span class="muted small">（wrong_book）</span></h1>
+    {% if data.wrong_book %}
+    <table class="data">
+      <thead><tr><th>科目</th><th>题干</th><th>知识点</th><th>错次</th><th>连对</th><th>上次答错</th><th>下次复习</th></tr></thead>
+      <tbody>
+      {% for w in data.wrong_book %}
+        <tr>
+          <td class="small muted">{{ w.subject_label }}</td>
+          <td class="stem-cell">{{ w.stem[:70] }}{% if w.stem | length > 70 %}…{% endif %}</td>
+          <td class="small">{{ w.knowledge_point }}</td>
+          <td><span class="wrong-count">{{ w.wrong_count }}</span></td>
+          <td>{{ w.correct_streak }}</td>
+          <td class="small muted">{{ w.last_wrong_at or '—' }}</td>
+          <td class="small due-text">{{ w.next_review_at or '—' }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}<p class="muted">错题本为空。</p>{% endif %}
+  </section>
+
+  <section class="card">
+    <h1>最近 30 条作答</h1>
+    {% if data.recent %}
+    <table class="data">
+      <thead><tr><th>时间</th><th>科目</th><th>题号</th><th>得分</th><th>判定</th><th>队列状态</th></tr></thead>
+      <tbody>
+      {% for r in data.recent %}
+        <tr>
+          <td class="small muted">{{ r.created_at }}</td>
+          <td class="small">{{ r.name }}</td>
+          <td class="small mono">{{ r.question_uid }}</td>
+          <td>{{ r.judge_score if r.judge_score is not none else '—' }}</td>
+          <td>{% if r.judge_score is none %}<span class="muted">未判分</span>
+              {% elif r.correct %}<span class="ok-text">正确</span>
+              {% else %}<span class="err-text">错误</span>{% endif %}</td>
+          <td><span class="badge badge-{{ r.judge_status or 'pending' }}">{{ r.judge_status or 'pending' }}</span></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}<p class="muted">暂无作答记录。</p>{% endif %}
+  </section>
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

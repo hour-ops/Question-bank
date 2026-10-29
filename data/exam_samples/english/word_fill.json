@@ -1,0 +1,1000 @@
+{
+  "schema_version": "1.0",
+  "subject": "english",
+  "subject_name_cn": "英语（湖北专升本）",
+  "type": "word_fill",
+  "type_name_cn": "选词填空",
+  "how": "从方框/上面给出的词中选词填空，**每个词只能用一次**（注意词形变化）。",
+  "answer_label": "正确答案",
+  "knowledge_points": [
+    {
+      "id": "E-T15",
+      "name": "选词填空",
+      "dimension": "format",
+      "question_type": "word_fill",
+      "format_era": "hebei_2016_2025"
+    },
+    {
+      "id": "E-G06",
+      "name": "词性转换与构词",
+      "dimension": "knowledge"
+    }
+  ],
+  "knowledge_point_basis": "题型维度(E-T*) + 语言知识维度(E-G*/E-S*)，映射取自 knowledge_base.json 的 question_type_to_points",
+  "knowledge_base": "subjects/english/knowledge_base.json",
+  "source": "inbox/real_exams/*.json（只读；不从 SQLite 取题干）",
+  "type_raw_values": [
+    "Reading Comprehension Section B",
+    "词汇填空",
+    "选词填空"
+  ],
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "rules": {
+    "trust_priority": [
+      "official_exam",
+      "textbook",
+      "third_party"
+    ],
+    "exclude": [
+      "ai_generated",
+      "source_type='generate'"
+    ],
+    "prefer": "有解析者优先；其次解析更长、空更多、材料更长",
+    "sampling": "按 exam 轮转（每套卷先取 1 条再取第 2 条…），上限 40 条",
+    "dedupe": "同题干（去空白差异）只留解析最好的一条，其余来源记在 same_stem_exams",
+    "material_rule": "材料型题整组存：material 存整篇原文、material_blanks 存该组全部空（空数经断言校验）；材料型 sample 的 stem 为空串，题干在各空的 stem 里",
+    "zero_rewrite": "题干/材料/答案/解析零改写；唯一渲染是把源里的 {type:'blank'} 块显式写成 {{__BLANK_<n>__}}；连词成句保留 `词组 / 词组` 斜杠格式",
+    "deterministic": "不使用随机数；排序键固定为 (exam, 组内 rank)"
+  },
+  "stats": {
+    "samples": 7,
+    "source_records": 7,
+    "with_explanation": 7,
+    "material_blocks": 7,
+    "total_blanks_in_material_blocks": 70,
+    "blanks_with_own_stem": 0,
+    "usable_records": 7,
+    "exams_in_type": 7,
+    "duplicated_records_removed": 0,
+    "cap": 40,
+    "truncated": false,
+    "unique_sources_kept": 7,
+    "unique_sources_available": 7
+  },
+  "exams": [
+    {
+      "exam": "101_英语_河北专升本英语16.json",
+      "samples": 1
+    },
+    {
+      "exam": "103_英语_河北专升本英语18.json",
+      "samples": 1
+    },
+    {
+      "exam": "104_英语_河北专升本英语19.json",
+      "samples": 1
+    },
+    {
+      "exam": "105_英语_河北专升本英语20.json",
+      "samples": 1
+    },
+    {
+      "exam": "106_英语_河北专升本英语21.json",
+      "samples": 1
+    },
+    {
+      "exam": "108_英语_河北专升本英语23.json",
+      "samples": 1
+    },
+    {
+      "exam": "109_英语_河北专升本英语24.json",
+      "samples": 1
+    }
+  ],
+  "samples": [
+    {
+      "stem": "",
+      "answer": "E | L | J | I | D | H | A | O | K | G",
+      "explanation": "固定搭配是 range anywhere from ... to ...，表示范围从一人到三人不等。\n\n此处需要形容词修饰 setting，common 表示“常见的”，语义最通顺。\n\nkey to success 是固定搭配，意为“成功的关键”。\n\nschedule and activities 搭配自然，指了解室友的作息安排和活动。\n\nand 连接并列动作，此处应是 ask your roommate to do the same。\n\n后文谈到把贵重物品锁好，说明这里讨论的是是否值得信任，trustworthy 最恰当。\n\n固定短语是 go by，表示“遵循，依据”。\n\n固定结构 keep sb. from doing sth.，表示防止某人做某事。\n\n主语是两个 schedule，后面说导致没有时间学习，所以应填 conflict，表示时间安排冲突。\n\n结合上下文谈宿舍环境，dormitories 表示宿舍楼，符合句意。",
+      "exam": "101_英语_河北专升本英语16.json",
+      "exam_title": "河北专升本英语16",
+      "trust": "official_exam",
+      "knowledge_point": "E-T15 选词填空；E-G06 词性转换与构词",
+      "material": "It is common for new students to share a room with other university students. The number of roommates will range {{__BLANK_21__}} from one to three. The most {{__BLANK_22__}} setting is for two students to share one room. The room will have beds, desks, closets and storage drawers for personal items. The furnishings will be plain but adequate.\n\nA key to {{__BLANK_23__}} in your studies is a good understanding and a positive relationship with your roommate. You will need to learn your roommate's {{__BLANK_24__}} and activities in order to have a positive experience from the beginning. Your roommate may become your close friend or you may not spend much time together. It all depends on you and your roommate. Respect your roommate's possessions and privacy and {{__BLANK_25__}} your roommate to do the same for you. Some roommates are very {{__BLANK_26__}} and some are not. A good rule to go {{__BLANK_27__}} is \"If you value something, keep it out of sight and under lock and key.\" This will keep your roommate {{__BLANK_28__}} being to take something that belongs to you.\n\nIf you discover that your schedule and your roommate's schedule {{__BLANK_29__}} and you have little time to study, you will find the library a nice quiet place to get away and study. Some {{__BLANK_30__}} are not very quiet and if you need a quiet place to study, you may need to go to the library.",
+      "type": "word_fill",
+      "type_raw": "词汇填空",
+      "kind": "material",
+      "group_uid": "101-s4",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. by",
+        "B. loyal",
+        "C. succeed",
+        "D. ask",
+        "E. anywhere",
+        "F. truthfully",
+        "G. dormitories",
+        "H. trustworthy",
+        "I. schedule",
+        "J. success",
+        "K. conflict",
+        "L. common",
+        "M. intimate",
+        "N. charged",
+        "O. from"
+      ],
+      "directions": "Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choice. Each choice in blank is identified by a letter. Please mark the corresponding letter for each item on the answer sheet with a single line through the center. You may not use any of the words in the bank more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "固定搭配是 range anywhere from ... to ...，表示范围从一人到三人不等。",
+          "options": []
+        },
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "",
+          "answer": "L",
+          "explanation": "此处需要形容词修饰 setting，common 表示“常见的”，语义最通顺。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "",
+          "answer": "J",
+          "explanation": "key to success 是固定搭配，意为“成功的关键”。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "",
+          "answer": "I",
+          "explanation": "schedule and activities 搭配自然，指了解室友的作息安排和活动。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "and 连接并列动作，此处应是 ask your roommate to do the same。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "",
+          "answer": "H",
+          "explanation": "后文谈到把贵重物品锁好，说明这里讨论的是是否值得信任，trustworthy 最恰当。",
+          "options": []
+        },
+        {
+          "no": 27,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "固定短语是 go by，表示“遵循，依据”。",
+          "options": []
+        },
+        {
+          "no": 28,
+          "placeholder": null,
+          "stem": "",
+          "answer": "O",
+          "explanation": "固定结构 keep sb. from doing sth.，表示防止某人做某事。",
+          "options": []
+        },
+        {
+          "no": 29,
+          "placeholder": null,
+          "stem": "",
+          "answer": "K",
+          "explanation": "主语是两个 schedule，后面说导致没有时间学习，所以应填 conflict，表示时间安排冲突。",
+          "options": []
+        },
+        {
+          "no": 30,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "结合上下文谈宿舍环境，dormitories 表示宿舍楼，符合句意。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T15",
+        "E-G06"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[word_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "D | F | J | O | L | C | M | E | G | A",
+      "explanation": "be aware of 是固定搭配，意为“意识到”。\n\nhave a significant impact on 是固定搭配，意为“对……有重大影响”。\n\n介词 By 后面接动名词形式，表示通过某种手段。developing self-awareness 意为“培养自我意识”。\n\n此处需要副词修饰动词短语 deal with stressful situations，successfully 意为“成功地”。\n\n情态动词 can 后接动词原形。communicate effectively 意为“有效地沟通”。\n\nand 连接并列成分，efficient 是形容词，此处也应填形容词。respected 意为“受尊敬的”。\n\nplay a critical part in 是固定搭配，意为“在……中起关键作用”。\n\nthe ability to do sth 是固定用法，意为“做某事的能力”。\n\nhelp 后面接宾语，此处填名词 individuals，指代“个人”。\n\n此处填形容词作表语描述 responses。thoughtful 意为“深思熟虑的”。",
+      "exam": "103_英语_河北专升本英语18.json",
+      "exam_title": "河北专升本英语18",
+      "trust": "official_exam",
+      "knowledge_point": "E-T15 选词填空；E-G06 词性转换与构词",
+      "material": "Emotional intelligence, often referred to as EQ or EI, is the ability to recognize and understand our own emotions. It goes beyond simple self-awareness and involves being{{__BLANK_21__}}of how our emotions impact ourselves and others.\n\nDeveloping emotional intelligence is the first step towards better self-management and relationship management skills. Having a high EQ can have a significant{{__BLANK_22__}}on job satisfaction and workplace morale. By{{__BLANK_23__}}self-awareness, self-regulation, and social awareness, individuals with high emotional intelligence can deal with stressful situations{{__BLANK_24__}}provide constructive advice, and demonstrate sympathy towards others. Business leaders with strong emotional intelligence can{{__BLANK_25__}}effectively, and manage setbacks, biases, and even workplace gossip. Leaders who possess high emotional intelligence tend to be more efficient and{{__BLANK_26__}}in the workplace. EI not only enhances communication but also reduces conflicts among team members. It plays a{{__BLANK_27__}}part in helping professionals express themselves clearly and concisely, enabling them to build strong relationships with clients and prospects.\n\nEI can be formed and enhanced over time. It differs from intellectual intelligence, or IQ, as it centers around social skills and the{{__BLANK_28__}}to understand and manage emotions effectively. Developing and improving EI skills can help{{__BLANK_29__}}recover from communication barriers and promote healthier relationships in both personal and professional settings.\n\nAll in all, emotional intelligence equips you with the tools and awareness needed for more effective communication, ensuring your messages are clear, your responses are{{__BLANK_30__}}and your interactions are more meaningful.",
+      "type": "word_fill",
+      "type_raw": "选词填空",
+      "kind": "material",
+      "group_uid": "103-s16",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. thoughtful",
+        "B. able",
+        "C. respected",
+        "D. aware",
+        "E. ability",
+        "F. impact",
+        "G. individuals",
+        "H. unfortunately",
+        "I. difficult",
+        "J. developing",
+        "K. Attitude",
+        "L. communicate",
+        "M. critical",
+        "N. developed",
+        "O. successfully"
+      ],
+      "directions": "In this section there is a passage with 10 blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choice. Each choice in the blank is identified by a letter. Please mark the corresponding letter for each item on the Answer Sheet with a single line through the center. You may not use any of the words in the bank more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "be aware of 是固定搭配，意为“意识到”。",
+          "options": []
+        },
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "",
+          "answer": "F",
+          "explanation": "have a significant impact on 是固定搭配，意为“对……有重大影响”。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "",
+          "answer": "J",
+          "explanation": "介词 By 后面接动名词形式，表示通过某种手段。developing self-awareness 意为“培养自我意识”。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "",
+          "answer": "O",
+          "explanation": "此处需要副词修饰动词短语 deal with stressful situations，successfully 意为“成功地”。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "",
+          "answer": "L",
+          "explanation": "情态动词 can 后接动词原形。communicate effectively 意为“有效地沟通”。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "and 连接并列成分，efficient 是形容词，此处也应填形容词。respected 意为“受尊敬的”。",
+          "options": []
+        },
+        {
+          "no": 27,
+          "placeholder": null,
+          "stem": "",
+          "answer": "M",
+          "explanation": "play a critical part in 是固定搭配，意为“在……中起关键作用”。",
+          "options": []
+        },
+        {
+          "no": 28,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "the ability to do sth 是固定用法，意为“做某事的能力”。",
+          "options": []
+        },
+        {
+          "no": 29,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "help 后面接宾语，此处填名词 individuals，指代“个人”。",
+          "options": []
+        },
+        {
+          "no": 30,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "此处填形容词作表语描述 responses。thoughtful 意为“深思熟虑的”。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T15",
+        "E-G06"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[word_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "L | N | B | I | M | C | F | A | J | E",
+      "explanation": "固定搭配为 very likely，表示“很可能”。\n\n结合后文 careers，可知人们在职业生涯中会多次更换雇主。\n\nbe certain to involve some writing 表示“几乎肯定会涉及一些写作”。\n\nexcellent indicator 表示“极好的衡量标志”，搭配自然。\n\npersonal interview 表示“面试”。\n\nachieve its goal 是固定搭配，表示“达到目的”。\n\nclosely matches 表示“非常接近、紧密符合”。\n\nconsists of 是固定搭配，表示“由……组成”。\n\nenable you to do sth. 是固定结构。\n\nthe job you are seeking 表示“你正在寻求的工作”。",
+      "exam": "104_英语_河北专升本英语19.json",
+      "exam_title": "河北专升本英语19",
+      "trust": "official_exam",
+      "knowledge_point": "E-T15 选词填空；E-G06 词性转换与构词",
+      "material": "An application letter - the letter you write to apply for a job - will probably be the most important kind of letter you will ever write. Very {{__BLANK_21__}}, it is a letter that you will write several times, as most people change {{__BLANK_22__}} several times during their business careers. Your first job, as well as each of those that follow, is almost certain to {{__BLANK_23__}} some writing and most employers look upon an application letter as an {{__BLANK_24__}} indicator (标志物) of an applicant's writing and other communication skills.\nThe purpose of your application letter, which should go together with your resume, is to get you a {{__BLANK_25__}} interview with the employer. If the letter is a good one, it most likely will achieve its {{__BLANK_26__}}.\nThe general plan of an application letter {{__BLANK_27__}} matches that of a sales letter. For an application letter, the \"product\" you are selling {{__BLANK_28__}} of your knowledge, your skills, and your personality - everything about you that will {{__BLANK_29__}} you to perform the job to the satisfaction of the employer. As a result, you must understand the employer's needs, know the specific requirements of the job you are {{__BLANK_30__}}, and know what you have to \"sell\".",
+      "type": "word_fill",
+      "type_raw": "选词填空",
+      "kind": "material",
+      "group_uid": "104-s4",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. consists",
+        "B. involve",
+        "C. goal",
+        "D. subject",
+        "E. seeking",
+        "F. closely",
+        "G. employee",
+        "H. apply",
+        "I. excellent",
+        "J. enable",
+        "K. benefits",
+        "L. likely",
+        "M. personal",
+        "N. employers",
+        "O. succeeded"
+      ],
+      "directions": "Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. You may not use any of the words in the bank more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "",
+          "answer": "L",
+          "explanation": "固定搭配为 very likely，表示“很可能”。",
+          "options": []
+        },
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "",
+          "answer": "N",
+          "explanation": "结合后文 careers，可知人们在职业生涯中会多次更换雇主。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "be certain to involve some writing 表示“几乎肯定会涉及一些写作”。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "",
+          "answer": "I",
+          "explanation": "excellent indicator 表示“极好的衡量标志”，搭配自然。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "",
+          "answer": "M",
+          "explanation": "personal interview 表示“面试”。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "achieve its goal 是固定搭配，表示“达到目的”。",
+          "options": []
+        },
+        {
+          "no": 27,
+          "placeholder": null,
+          "stem": "",
+          "answer": "F",
+          "explanation": "closely matches 表示“非常接近、紧密符合”。",
+          "options": []
+        },
+        {
+          "no": 28,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "consists of 是固定搭配，表示“由……组成”。",
+          "options": []
+        },
+        {
+          "no": 29,
+          "placeholder": null,
+          "stem": "",
+          "answer": "J",
+          "explanation": "enable you to do sth. 是固定结构。",
+          "options": []
+        },
+        {
+          "no": 30,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "the job you are seeking 表示“你正在寻求的工作”。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T15",
+        "E-G06"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[word_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "D | L | E | C | I | A | J | H | N | F",
+      "explanation": "competitive spirit 表示“竞争精神”，与前文 sports 和后文 spirit 搭配自然。\n\ntreasure the experience with the friends you meet 表示珍惜与朋友共同拥有的经历。\n\nbe worth the time and effort 是固定表达，表示“值得投入时间和精力”。\n\ndo wonders for reducing your stress level 表示“非常有助于降低压力水平”。\n\non a regular basis 是固定搭配，意为“定期地”。\n\npredetermined time already in your schedule 表示时间已排进日程表。\n\nget used to doing 是固定搭配，意为“习惯于做某事”。\n\nrun into on campus 表示“在校园里偶遇”，语义完整。\n\ngoal-directed 表示“目标导向的”，符合后文举例。\n\nprovide sb. with sth. 是固定搭配，主语为 sport，故用 provides。",
+      "exam": "105_英语_河北专升本英语20.json",
+      "exam_title": "河北专升本英语20",
+      "trust": "official_exam",
+      "knowledge_point": "E-T15 选词填空；E-G06 词性转换与构词",
+      "material": "Sports are a great way to work on developing your physical skills and build your {{__BLANK_21__}} spirit. There are many different sports to choose from, baseball, basketball, football, golf, hockey, and tennis. No matter what you choose, you'll treasure the {{__BLANK_22__}} with the friends you meet and enrich your life. And they are really {{__BLANK_23__}} the time and effort for many reasons!\nFirstly, it's an amazing stress reliever. Are you stressed about an upcoming exam? That group project? Your computer that just can't seem to print? Running around with a bunch of friends can do wonders for {{__BLANK_24__}} your stress level.\nSecondly, it will provide great exercise. While most college students would like to go to the gym on a regular {{__BLANK_25__}}, few actually do. With a predetermined time already in your {{__BLANK_26__}} if you join in one of the intramural (校内的) sports teams, you workout (锻炼) is more likely to happen.\nThirdly, it is a great way to meet people. You may be getting {{__BLANK_27__}} to seeing similar people in the courses for your major, in your residence hall, or at the events you go to on campus. Intramurals can be a great way to meet students that you may not otherwise even run into on {{__BLANK_28__}}.\nLastly, you can do just for fun. Most things you'll do in college are very goal {{__BLANK_29__}}: produce a paper, plan an event, meet a deadline. Playing an intramural sport {{__BLANK_30__}} you with a great opportunity to head out and have some good, old-fashioned fun.",
+      "type": "word_fill",
+      "type_raw": "选词填空",
+      "kind": "material",
+      "group_uid": "105-s4",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. schedule",
+        "B. loyal",
+        "C. reducing",
+        "D. competitive",
+        "E. worth",
+        "F. provides",
+        "G. popular",
+        "H. campus",
+        "I. basis",
+        "J. used",
+        "K. decisions",
+        "L. experience",
+        "M. limits",
+        "N. directed",
+        "O. achieve"
+      ],
+      "directions": "Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. You may not use any of the words in the bank more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "competitive spirit 表示“竞争精神”，与前文 sports 和后文 spirit 搭配自然。",
+          "options": []
+        },
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "",
+          "answer": "L",
+          "explanation": "treasure the experience with the friends you meet 表示珍惜与朋友共同拥有的经历。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "be worth the time and effort 是固定表达，表示“值得投入时间和精力”。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "do wonders for reducing your stress level 表示“非常有助于降低压力水平”。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "",
+          "answer": "I",
+          "explanation": "on a regular basis 是固定搭配，意为“定期地”。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "predetermined time already in your schedule 表示时间已排进日程表。",
+          "options": []
+        },
+        {
+          "no": 27,
+          "placeholder": null,
+          "stem": "",
+          "answer": "J",
+          "explanation": "get used to doing 是固定搭配，意为“习惯于做某事”。",
+          "options": []
+        },
+        {
+          "no": 28,
+          "placeholder": null,
+          "stem": "",
+          "answer": "H",
+          "explanation": "run into on campus 表示“在校园里偶遇”，语义完整。",
+          "options": []
+        },
+        {
+          "no": 29,
+          "placeholder": null,
+          "stem": "",
+          "answer": "N",
+          "explanation": "goal-directed 表示“目标导向的”，符合后文举例。",
+          "options": []
+        },
+        {
+          "no": 30,
+          "placeholder": null,
+          "stem": "",
+          "answer": "F",
+          "explanation": "provide sb. with sth. 是固定搭配，主语为 sport，故用 provides。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T15",
+        "E-G06"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[word_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "D | H | C | N | I | E | A | K | J | B",
+      "explanation": "空格前面是 has deeply,后面是 you, 空格处填的是动词的过去分词形式，根据句意，前面说的是原谅是一种美德，但没人说这很简单，所以当别人伤害你了，很难去放下怨恨。所以选择 D。\n\n空格前面是 be extremely,后面是 to，空格处填形容词，根据句意，原谅对身体和精神健康是有益的，bebeneficial to。所以选择 H。\n\n空格前面是 to，空格处填动词原形，句意是怎样开始原谅呢？试一试下面这些步骤。所以选择 C。\n\n空格前面是情态动词 can,空格处填动词原形，句意是你可以深呼吸，takebreaths是固定搭配，所以选择 N。\n\n空格前面是 you 作主语，空格处填谓语动词，句意如果你等待某人来道歉,wait forsb 是固定搭配。所以选择 I。\n\n空格前面是助动词 doesn’t，后面是动词原形 mean，中间缺少副词，句意是记住，原谅不是必须意味着和惹你生气的人做朋友。\n\n空格前面是介词 of，要用动词 ing形式，focus onsb/sth,关注某人、某物，固定搭配。\n\n空格前面是 and，连接相同的词性的单词，前面是 love, beautiful 名词，所以选择 K，kindness 善良。\n\n空格前面是形容词性物主代词 your，后面跟名词，句意是如果你理解你的冒犯者，你就会注意到到他没有意识，害怕和爱。\n\n空格前面是 biggest,形容词最高级,空格处填名词,句意是对于一些人来说，原谅他们自己是最大的挑战。\n# Ⅳ. Cloze (20 points)\n# 【文章大意】\n英语有句谚语:“笑是最好的药。”直到最近，很少有人把这句话当真。然而，现在医生们已开始研究笑及其对人体的影响。他们发现笑真的可以改善人们的健康。\n人们进行了一些实验来研究笑对身体的影响。当医生检查他们的心脏、血压、呼吸和肌肉时，让人们观看有趣的电影。人们发现笑和体育锻炼有类似的效果。它会增加血压、心跳和呼吸;它还能锻炼面部、胃部甚至脚部的几组肌肉。如果笑可以锻炼身体，那一定是有益的。\n其他测试表明，笑似乎能够减轻身体疼痛的影响。在一项实验中，医生让一组听不同广播节目的学生感到疼痛。忍受疼痛时间最长的一组是听搞笑节目的那一组。笑可以减轻疼痛的原因似乎是它有助于大脑中产生一种化学物质，这种化学物质可以减轻压力和疼痛。\n由于这些发现，美国的一些医生现在开设了“大笑诊所”，通过鼓励病人笑来帮助他们改善病情。他们发现，即使他们的病人不是真的想笑，让他们微笑也足以产生与大笑类似的有益效果。",
+      "exam": "106_英语_河北专升本英语21.json",
+      "exam_title": "河北专升本英语21",
+      "trust": "official_exam",
+      "knowledge_point": "E-T15 选词填空；E-G06 词性转换与构词",
+      "material": "To forgive is a virtue, but no one has ever said it is easy. When someone has deeply{{__BLANK_21__}}you, it can be extremely difficult to let go of your hate. However, forgiveness is possible, and it can be surprisingly{{__BLANK_22__}}to your physical and mental health. People who forgive show less sadness, anger and stress and more hopefulness, according to a recent research.\nHow should you start to{{__BLANK_23__}}? Try the following steps:\nCalm yourself. To make your anger die away, try a simple stress-management technique.\nYou can{{__BLANK_24__}}a couple of breaths and think of something that gives you pleasure: a beautiful scene in nature, or someone you love.\nDon’t wait for an apology. Many times the person who hurt you does not intend to apologize. They may have wanted to hurt you or they just don’t see things the same way. If you{{__BLANK_25__}}for people to apologize, you could be waiting an awfully long time. Keep in mind that forgiveness does not{{__BLANK_26__}}mean becoming friends again with the person who upset you.\nTake the control away from your offender ( 冒 犯 者 ). Rethinking about your hurt gives power to the person who caused you pain. Instead of{{__BLANK_27__}}on your wounded feelings, learn to look for the love, beauty and{{__BLANK_28__}}around you .\nTry to see things from your offender’s angle. If you understand your{{__BLANK_29__}}, you may realize that he or she was acting out of unawareness, fear, and even love, You may want to write a letter to yourself from your offender’s point of view.\nDon’t forget to forgive yourself. For some people, forgiving themselves is the biggest{{__BLANK_30__}}. But it can rob you of your self-confidence if you don’t do it.",
+      "type": "word_fill",
+      "type_raw": "Reading Comprehension Section B",
+      "kind": "material",
+      "group_uid": "106-s4",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. focusing",
+        "D. hurt",
+        "G. friend",
+        "J. offender",
+        "M. recognize",
+        "B. challenge",
+        "E. necessarily",
+        "H. beneficial",
+        "K. kindness",
+        "N. take",
+        "C. forgive",
+        "F. start",
+        "I. wait",
+        "L. ignoring",
+        "O. anger"
+      ],
+      "directions": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter on the Answer Sheet with a single line through the centre. You may not use any of the words in the bank more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "空格前面是 has deeply,后面是 you, 空格处填的是动词的过去分词形式，根据句意，前面说的是原谅是一种美德，但没人说这很简单，所以当别人伤害你了，很难去放下怨恨。所以选择 D。",
+          "options": []
+        },
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "",
+          "answer": "H",
+          "explanation": "空格前面是 be extremely,后面是 to，空格处填形容词，根据句意，原谅对身体和精神健康是有益的，bebeneficial to。所以选择 H。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "空格前面是 to，空格处填动词原形，句意是怎样开始原谅呢？试一试下面这些步骤。所以选择 C。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "",
+          "answer": "N",
+          "explanation": "空格前面是情态动词 can,空格处填动词原形，句意是你可以深呼吸，takebreaths是固定搭配，所以选择 N。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "",
+          "answer": "I",
+          "explanation": "空格前面是 you 作主语，空格处填谓语动词，句意如果你等待某人来道歉,wait forsb 是固定搭配。所以选择 I。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "空格前面是助动词 doesn’t，后面是动词原形 mean，中间缺少副词，句意是记住，原谅不是必须意味着和惹你生气的人做朋友。",
+          "options": []
+        },
+        {
+          "no": 27,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "空格前面是介词 of，要用动词 ing形式，focus onsb/sth,关注某人、某物，固定搭配。",
+          "options": []
+        },
+        {
+          "no": 28,
+          "placeholder": null,
+          "stem": "",
+          "answer": "K",
+          "explanation": "空格前面是 and，连接相同的词性的单词，前面是 love, beautiful 名词，所以选择 K，kindness 善良。",
+          "options": []
+        },
+        {
+          "no": 29,
+          "placeholder": null,
+          "stem": "",
+          "answer": "J",
+          "explanation": "空格前面是形容词性物主代词 your，后面跟名词，句意是如果你理解你的冒犯者，你就会注意到到他没有意识，害怕和爱。",
+          "options": []
+        },
+        {
+          "no": 30,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "空格前面是 biggest,形容词最高级,空格处填名词,句意是对于一些人来说，原谅他们自己是最大的挑战。\n# Ⅳ. Cloze (20 points)\n# 【文章大意】\n英语有句谚语:“笑是最好的药。”直到最近，很少有人把这句话当真。然而，现在医生们已开始研究笑及其对人体的影响。他们发现笑真的可以改善人们的健康。\n人们进行了一些实验来研究笑对身体的影响。当医生检查他们的心脏、血压、呼吸和肌肉时，让人们观看有趣的电影。人们发现笑和体育锻炼有类似的效果。它会增加血压、心跳和呼吸;它还能锻炼面部、胃部甚至脚部的几组肌肉。如果笑可以锻炼身体，那一定是有益的。\n其他测试表明，笑似乎能够减轻身体疼痛的影响。在一项实验中，医生让一组听不同广播节目的学生感到疼痛。忍受疼痛时间最长的一组是听搞笑节目的那一组。笑可以减轻疼痛的原因似乎是它有助于大脑中产生一种化学物质，这种化学物质可以减轻压力和疼痛。\n由于这些发现，美国的一些医生现在开设了“大笑诊所”，通过鼓励病人笑来帮助他们改善病情。他们发现，即使他们的病人不是真的想笑，让他们微笑也足以产生与大笑类似的有益效果。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T15",
+        "E-G06"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[word_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "L | I | N | G | C | E | A | B | D | K",
+      "explanation": "`it is essential to do sth.` 是固定表达。\n\n根据上下文，这里强调过去的企业“只是”关注这些差异。\n\n转折后表示现代贸易提出了更多要求，按题面词库应选 `requests`。\n\n`deal with` 是固定搭配。\n\n`In short` 表示“总之”。\n\n`result in` 表示“导致”。\n\n`conduct meetings` 表示“召开、主持会议”。\n\n`fully exploit` 表示“充分发挥”。\n\n`take into account` 是固定短语。\n\n`working relationships` 表示“工作关系”。",
+      "exam": "108_英语_河北专升本英语23.json",
+      "exam_title": "河北专升本英语23",
+      "trust": "official_exam",
+      "knowledge_point": "E-T15 选词填空；E-G06 词性转换与构词",
+      "material": "To succeed in the world market, it is {{__BLANK_21__}} to learn as much as possible about conditions in overseas markets. In the past, companies with international ambitions {{__BLANK_22__}} familiarized themselves with any differences in the legal system or in the procedures used in day-to-day business of import and export.\nModern trade, however, {{__BLANK_23__}} more. Today the company seeking international success must also understand the people who live and work in countries they {{__BLANK_24__}} with, how they think, behave and do business. In {{__BLANK_25__}}, today's market leaders must acquire greater cultural awareness.\nBusiness people operating in foreign markets often fail to consider that cultural differences can {{__BLANK_26__}} in a variety of approaches to everyday business activities such as the way a cross-cultural team cooperates or how it {{__BLANK_27__}} its meetings.\nOne of the main benefits of investing in our cultural awareness programs is that they help you to {{__BLANK_28__}} exploit your business potential, leaving you better prepared to succeed. Our cultural awareness training classes will demonstrate the importance of taking into {{__BLANK_29__}} how other nationalities think and behave and how they might see you. We can also help you develop the skills you need to construct effective working {{__BLANK_30__}} and overcome difficulties that may arise when working with colleagues or customers from different nationalities and cultures.",
+      "type": "word_fill",
+      "type_raw": "词汇填空",
+      "kind": "material",
+      "group_uid": "108-s4",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. conducts",
+        "B. fully",
+        "C. short",
+        "D. account",
+        "E. result",
+        "F. find",
+        "G. deal",
+        "H. finishes",
+        "I. only",
+        "J. careful",
+        "K. relationships",
+        "L. essential",
+        "M. strength",
+        "N. requests",
+        "O. slowly"
+      ],
+      "directions": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. You may not use any of the words in the bank more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "",
+          "answer": "L",
+          "explanation": "`it is essential to do sth.` 是固定表达。",
+          "options": []
+        },
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "",
+          "answer": "I",
+          "explanation": "根据上下文，这里强调过去的企业“只是”关注这些差异。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "",
+          "answer": "N",
+          "explanation": "转折后表示现代贸易提出了更多要求，按题面词库应选 `requests`。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "`deal with` 是固定搭配。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "`In short` 表示“总之”。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "`result in` 表示“导致”。",
+          "options": []
+        },
+        {
+          "no": 27,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "`conduct meetings` 表示“召开、主持会议”。",
+          "options": []
+        },
+        {
+          "no": 28,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "`fully exploit` 表示“充分发挥”。",
+          "options": []
+        },
+        {
+          "no": 29,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "`take into account` 是固定短语。",
+          "options": []
+        },
+        {
+          "no": 30,
+          "placeholder": null,
+          "stem": "",
+          "answer": "K",
+          "explanation": "`working relationships` 表示“工作关系”。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T15",
+        "E-G06"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[word_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "F | I | N | A | G | B | D | O | M | H",
+      "explanation": "句中是在补充说明 eight habits 的内容，用 including 表示“包括”，最自然。\n\nlong, healthy life 是固定且通顺的搭配，符合句意。\n\nlive up to 是固定结构，表示“多达”，因此应选 to。\n\nstudy analyzed the data 表示“研究分析了数据”，语义完整。\n\ncompare A with B 是固定搭配，表示将数据与死亡情况进行比较。\n\nbe likely to do sth. 是固定结构，表示“很可能……”，故选 likely。\n\n这里是比较级结构，live 21 years longer than...，应填 longer。\n\ndrink heavily 表示“酗酒、喝得很多”，与前文健康习惯一致。\n\n睡前避免使用电子设备更符合 sleep hygiene，且 and 后应接动名词 avoiding。\n\n全文讨论的是生活习惯，因此 lifestyle factors 搭配最合适。",
+      "exam": "109_英语_河北专升本英语24.json",
+      "exam_title": "河北专升本英语24",
+      "trust": "official_exam",
+      "knowledge_point": "E-T15 选词填空；E-G06 词性转换与构词",
+      "material": "These 8 simple habits will help you live longer, suggest scientists.\nThe eight habits, {{__BLANK_21__}} sleeping well and avoiding binge drinking, lengthened life span by over 20 years.\nThere are just eight key steps to a long, {{__BLANK_22__}} life, medical research by scientists suggests.\nUsing the health data of army veterans, health science specialists have discovered that adopting these eight healthy habits by middle age makes people live up {{__BLANK_23__}} 24 years longer.\nThe study {{__BLANK_24__}} the data of over 700,000 army veterans aged 40-99 who were in the Veteran Program. The scientists then {{__BLANK_25__}} this data with the deaths of 33,000 people in this group.\nThey found that men who had all eight of the habits by age 40 are {{__BLANK_26__}} to live an average of 24 years longer than men with none of the habits. For women, those with all eight habits are predicted to live 21 years {{__BLANK_27__}} than women with none.\nSo what are the habits? They include: being physically active; not having a drug addiction; not smoking; managing your stress; having a good diet; not drinking {{__BLANK_28__}}; having good sleep hygiene; having positive social relationships.\nSleep hygiene means the routine that you do before bed to help you get to sleep, including relaxing, going to bed at the same time every night, and {{__BLANK_29__}} electronic devices before bed.\n\"We were really surprised by just how much could be gained with the adoption of one, two, three, or all eight {{__BLANK_30__}} factors,\" said Xuan-Mai T Nguyen of Carle Illinois College of Medicine, who presented the findings at the Society for Nutrition's 2023 conference.",
+      "type": "word_fill",
+      "type_raw": "选词填空",
+      "kind": "material",
+      "group_uid": "109-s4",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. analyzed",
+        "B. likely",
+        "C. brain",
+        "D. longer",
+        "E. lonely",
+        "F. including",
+        "G. compared",
+        "H. lifestyle",
+        "I. healthy",
+        "J. stronger",
+        "K. protected",
+        "L. immediately",
+        "M. avoiding",
+        "N. to",
+        "O. heavily"
+      ],
+      "directions": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter on the Answer Sheet with a single line through the centre. You may not use any of the words in the bank more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 10,
+      "material_blanks": [
+        {
+          "no": 21,
+          "placeholder": null,
+          "stem": "",
+          "answer": "F",
+          "explanation": "句中是在补充说明 eight habits 的内容，用 including 表示“包括”，最自然。",
+          "options": []
+        },
+        {
+          "no": 22,
+          "placeholder": null,
+          "stem": "",
+          "answer": "I",
+          "explanation": "long, healthy life 是固定且通顺的搭配，符合句意。",
+          "options": []
+        },
+        {
+          "no": 23,
+          "placeholder": null,
+          "stem": "",
+          "answer": "N",
+          "explanation": "live up to 是固定结构，表示“多达”，因此应选 to。",
+          "options": []
+        },
+        {
+          "no": 24,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "study analyzed the data 表示“研究分析了数据”，语义完整。",
+          "options": []
+        },
+        {
+          "no": 25,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "compare A with B 是固定搭配，表示将数据与死亡情况进行比较。",
+          "options": []
+        },
+        {
+          "no": 26,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "be likely to do sth. 是固定结构，表示“很可能……”，故选 likely。",
+          "options": []
+        },
+        {
+          "no": 27,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "这里是比较级结构，live 21 years longer than...，应填 longer。",
+          "options": []
+        },
+        {
+          "no": 28,
+          "placeholder": null,
+          "stem": "",
+          "answer": "O",
+          "explanation": "drink heavily 表示“酗酒、喝得很多”，与前文健康习惯一致。",
+          "options": []
+        },
+        {
+          "no": 29,
+          "placeholder": null,
+          "stem": "",
+          "answer": "M",
+          "explanation": "睡前避免使用电子设备更符合 sleep hygiene，且 and 后应接动名词 avoiding。",
+          "options": []
+        },
+        {
+          "no": 30,
+          "placeholder": null,
+          "stem": "",
+          "answer": "H",
+          "explanation": "全文讨论的是生活习惯，因此 lifestyle factors 搭配最合适。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T15",
+        "E-G06"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[word_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+ "id": 19,
+ "title": "湖北专升本2021年英语真题",
+ "subject": "英语",
+ "createTime": "2026-01-21 22:36:35",
+ "exam": {
+  "meta": {
+   "title": "2021 年湖北省普通高等学校专升本英语",
+   "subject": "英语"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "单选题",
+    "content": "This part is to test the use of English, there are 25 incomplete sentences in it. For each sentence there are four choices marked A.B.C and D. Choose the one answer that best completes the sentence and blacken the corresponding letter on the Answer Sheet",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "1",
+      "content": "Zootopia is {{__SELECT_1__}} such wonderful movie that I want to see it a second time.",
+      "options": [
+       "a",
+       "the",
+       "/",
+       "an"
+      ],
+      "answer": "A",
+      "analysis": "考查冠词的用法。'such a/an + adj. + n.' 是固定搭配，表示“如此一个……的……”。movie是可数名词单数，wonderful以辅音音素开头，故用不定冠词a。"
+     },
+     {
+      "id": "2",
+      "content": "Beijing and Zhangjiakou {{__SELECT_1__}} applying to host the 2022 Winter Olympic Games in 2013.",
+      "options": [
+       "begin",
+       "began",
+       "have begun",
+       "had begun"
+      ],
+      "answer": "B",
+      "analysis": "考查动词时态。句中有明确的过去时间状语'in 2013'，因此谓语动词应该使用一般过去时。故选B。"
+     },
+     {
+      "id": "3",
+      "content": "We believe that the environment in Hubei {{__SELECT_1__}} greatly through our hard work in the near future.",
+      "options": [
+       "will be improved",
+       "is improved",
+       "was improved",
+       "has been improved"
+      ],
+      "answer": "A",
+      "analysis": "考查时态和语态。时间状语'in the near future'（在不远的将来）提示了句子应该使用将来时。主语the environment与动词improve之间是被动关系，即环境“被改善”，所以要用被动语态。因此选择一般将来时的被动语态'will be improved'。"
+     },
+     {
+      "id": "4",
+      "content": "---Could you tell me {{__SELECT_1__}} ?\n---You'd better watch CCTV English news on a daily basis.",
+      "options": [
+       "when I can improve my listening",
+       "if I can improve my listening",
+       "how I can improve my listening",
+       "why I can improve my listening"
+      ],
+      "answer": "C",
+      "analysis": "考查宾语从句。根据答语“你最好每天看中央电视台的英语新闻”，可知对方在提供一个提高听力的方法。因此，问句应该询问“如何”提高听力。how引导宾语从句，表示方式。故选C。"
+     },
+     {
+      "id": "5",
+      "content": "My parents live in Room 406,I live in the room right above theirs on the {{__SELECT_1__}} floor.",
+      "options": [
+       "three",
+       "five",
+       "third",
+       "fifth"
+      ],
+      "answer": "D",
+      "analysis": "考查数词的用法。表示楼层时，应该使用序数词。父母住在406房间（第四层），我住在他们正上方的房间，也就是在第五层。故用序数词fifth。"
+     },
+     {
+      "id": "6",
+      "content": "-May I speak to Jane, please?\n---Just a minute!she {{__SELECT_1__}} the flowers in the garden.",
+      "options": [
+       "waters",
+       "is watering",
+       "watered",
+       "will water"
+      ],
+      "answer": "B",
+      "analysis": "考查动词时态。根据答语“Just a minute!”（请稍等！），可以判断出Jane此刻正在做某事，因此应该使用现在进行时，表示正在进行的动作。故选B。"
+     },
+     {
+      "id": "7",
+      "content": "But for the Chinese People's Liberation Army, he {{__SELECT_1__}} of hunger fifteen years ago.",
+      "options": [
+       "must have died",
+       "would die",
+       "would have died",
+       "must die"
+      ],
+      "answer": "C",
+      "analysis": "考查虚拟语气。'But for...'意为“要不是……”，引导一个与过去事实相反的虚拟条件。主句应该使用'would/could/should/might + have + 过去分词'的形式。句意为：要不是中国人民解放军，他十五年前就饿死了。故选C。"
+     },
+     {
+      "id": "8",
+      "content": "{{__SELECT_1__}} she was very tired, she continued working on her homework.",
+      "options": [
+       "Since",
+       "Although",
+       "Because",
+       "So"
+      ],
+      "answer": "B",
+      "analysis": "考查连词。前半句“她很累”和后半句“她继续做作业”之间是转折关系。Although意为“虽然，尽管”，引导让步状语从句。Since和Because表示原因，So表示结果。故选B。"
+     },
+     {
+      "id": "9",
+      "content": "{{__SELECT_1__}} the difficult math problems, I have asked Professor Russell several times for help.",
+      "options": [
+       "Working out",
+       "Worked out",
+       "Work out",
+       "To work out"
+      ],
+      "answer": "D",
+      "analysis": "考查非谓语动词。分析句子结构可知，主句是'I have asked... for help'。逗号前的部分是状语，表示“为了解决这些难题”。不定式短语'To work out...'作目的状语最符合句意。Working out作状语通常表示伴随或原因。故选D。"
+     },
+     {
+      "id": "10",
+      "content": "I would appreciate {{__SELECT_1__}} back this afternoon.",
+      "options": [
+       "you to call",
+       "you call",
+       "your calling",
+       "you're calling"
+      ],
+      "answer": "C",
+      "analysis": "考查动词用法。动词appreciate后面通常接名词或动名词作宾语。当动名词的逻辑主语与句子主语不一致时，需在动名词前加上物主代词或名词所有格。此处动名词calling的逻辑主语是you，因此用'your calling'。句意：如果您今天下午能回电话，我将不胜感激。故选C。"
+     },
+     {
+      "id": "11",
+      "content": "Robert wished that he {{__SELECT_1__}} business instead of history when he was in university.",
+      "options": [
+       "might have studied",
+       "had studied",
+       "would study",
+       "might study"
+      ],
+      "answer": "B",
+      "analysis": "考查虚拟语气。wish后的宾语从句用虚拟语气。表示与过去事实相反的愿望时，从句谓语用'had + 过去分词'。根据'when he was in university'可知，这是对过去事情的愿望。故选B。"
+     },
+     {
+      "id": "12",
+      "content": "The oil crop this year has increased {{__SELECT_1__}} 25% over the last year.",
+      "options": [
+       "to",
+       "in",
+       "by",
+       "for"
+      ],
+      "answer": "C",
+      "analysis": "考查介词搭配。'increase by + 百分比/数量'表示“增加了……”，强调增长的幅度。'increase to + 数量'表示“增加到……”，强调增长后的结果。句意为今年的油料作物比去年增产了25%，应该用by。故选C。"
+     },
+     {
+      "id": "13",
+      "content": "Ten percent of the workers in this city now {{__SELECT_1__}} working from home due to COVID- 19.",
+      "options": [
+       "is",
+       "are",
+       "is to be",
+       "are to be"
+      ],
+      "answer": "B",
+      "analysis": "考查主谓一致。'百分比/分数 + of + a noun'作主语时，谓语动词的单复数取决于of后面的名词。本句中of后面的名词是workers，是复数形式，所以谓语动词也用复数are。故选B。"
+     },
+     {
+      "id": "14",
+      "content": "It is the first book of this kind {{__SELECT_1__}} I've ever read.",
+      "options": [
+       "that",
+       "which",
+       "what",
+       "when"
+      ],
+      "answer": "A",
+      "analysis": "考查定语从句和强调句型。本句可以看作是强调句型'It is...that...'，强调的是'the first book of this kind'。也可以看作是定语从句，当先行词被序数词（如first, second）或形容词最高级修饰时，关系代词通常用that。故选A。"
+     },
+     {
+      "id": "15",
+      "content": "Big news was sometimes announced half a day before it actually happened, {{__SELECT_1__}} ?",
+      "options": [
+       "was it",
+       "wasn't it",
+       "did it",
+       "didn't it"
+      ],
+      "answer": "B",
+      "analysis": "考查反意疑问句。陈述部分'Big news was sometimes announced...'是肯定句，且谓语动词是was，所以反意疑问句部分应该用否定形式wasn't。主语Big news用it来指代。故选B。"
+     },
+     {
+      "id": "16",
+      "content": "English at the end of the 20th century was more widely spoken and written than {{__SELECT_1__}} language.",
+      "options": [
+       "one other",
+       "many other",
+       "some other",
+       "any other"
+      ],
+      "answer": "D",
+      "analysis": "考查比较级。'形容词比较级 + than any other + 单数名词'是固定用法，表示“比任何其他……都更……”，用于强调主语在同类事物中的突出地位。句意：20世纪末，英语比任何其他语言都更广泛地被说和写。故选D。"
+     },
+     {
+      "id": "17",
+      "content": "The 5G technology can help doctors {{__SELECT_1__}} patients who are hundreds of miles away.",
+      "options": [
+       "care",
+       "treat",
+       "operate",
+       "recover"
+      ],
+      "answer": "B",
+      "analysis": "考查动词辨析。treat patients意为“治疗病人”，符合句意。care for patients意为“照顾病人”。operate on patients意为“给病人做手术”。recover意为“恢复”，主语通常是病人。在远程医疗的语境下，“治疗”是最合适的词。故选B。"
+     },
+     {
+      "id": "18",
+      "content": "You can't change yourself by making empty talk all day long. What {{__SELECT_1__}} is what you do, not what you say.",
+      "options": [
+       "matters",
+       "means",
+       "meets",
+       "minds"
+      ],
+      "answer": "A",
+      "analysis": "考查动词辨析。matter作动词意为“要紧，重要”。'What matters is...'意为“重要的是……”，符合句意。句意：你不能整天通过空谈来改变自己。重要的是你做什么，而不是你说什么。means意为“意味着”，meets意为“遇见”，minds意为“介意”。故选A。"
+     },
+     {
+      "id": "19",
+      "content": "Jason made a {{__SELECT_1__}} to his parents that he would study harder.",
+      "options": [
+       "plan",
+       "purpose",
+       "progress",
+       "promise"
+      ],
+      "answer": "D",
+      "analysis": "考查名词辨析。'make a promise'是固定搭配，意为“做出承诺”。that引导的是promise的同位语从句，解释承诺的内容。plan意为“计划”，purpose意为“目的”，progress意为“进步”。故选D。"
+     },
+     {
+      "id": "20",
+      "content": "It was at the first meeting that Mike {{__SELECT_1__}} me with his good manners and sense of humor.",
+      "options": [
+       "admired",
+       "reminded",
+       "impressed",
+       "shared"
+      ],
+      "answer": "C",
+      "analysis": "考查动词辨析。'impress sb with sth'意为“用某物给某人留下深刻印象”，符合句意。句意：正是在第一次会议上，迈克用他良好的礼貌和幽默感给我留下了深刻的印象。admired意为“钦佩”，reminded意为“提醒”，shared意为“分享”。故选C。"
+     },
+     {
+      "id": "21",
+      "content": "If you have to travel a very long distance, try to go to bed earlier than {{__SELECT_1__}} the day before the journey.",
+      "options": [
+       "common",
+       "usual",
+       "ordinary",
+       "normal"
+      ],
+      "answer": "B",
+      "analysis": "考查形容词辨析。'than usual'是固定搭配，意为“比平常”。句意：如果你要长途旅行，试着在旅途前一天比平常早点睡觉。common意为“普遍的”，ordinary意为“普通的”，normal意为“正常的”，它们都不与than构成固定搭配。故选B。"
+     },
+     {
+      "id": "22",
+      "content": "The train is leaving. There is not much time left, so I'll tell you about it {{__SELECT_1__}}.",
+      "options": [
+       "in detail",
+       "in time",
+       "in all",
+       "in short"
+      ],
+      "answer": "D",
+      "analysis": "考查介词短语。in short意为“简而言之，总而言之”。根据前文“火车要开了，时间不多了”，可知说话人只能简要地说明情况。in detail意为“详细地”，in time意为“及时”，in all意为“总共”。故选D。"
+     },
+     {
+      "id": "23",
+      "content": "The {{__SELECT_1__}} will help you if you can't find the book you want in the library.",
+      "options": [
+       "agent",
+       "manager",
+       "librarian",
+       "operator"
+      ],
+      "answer": "C",
+      "analysis": "考查名词辨析。librarian意为“图书管理员”，是在图书馆工作的人。agent意为“代理人”，manager意为“经理”，operator意为“操作员，接线员”。根据句意，在图书馆里提供帮助的人是图书管理员。故选C。"
+     },
+     {
+      "id": "24",
+      "content": "All of a sudden, there was a loud noise and all the lights {{__SELECT_1__}}.",
+      "options": [
+       "came out",
+       "wore out",
+       "looked out",
+       "went out"
+      ],
+      "answer": "D",
+      "analysis": "考查动词短语。go out意为“（灯、火等）熄灭”。句意：突然传来一声巨响，所有的灯都熄灭了。came out意为“出来，出版”，wore out意为“穿破，耗尽”，looked out意为“向外看，当心”。故选D。"
+     },
+     {
+      "id": "25",
+      "content": "In the last 20 years shopping on the Internet has increased {{__SELECT_1__}}.",
+      "options": [
+       "steadily",
+       "closely",
+       "safely",
+       "suddenly"
+      ],
+      "answer": "A",
+      "analysis": "考查副词辨析。steadily意为“稳定地，持续地”，符合网上购物在过去20年里的发展趋势。closely意为“紧密地”，safely意为“安全地”，suddenly意为“突然地”。故选A。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "Part I"
+    },
+    "originalNumber": 1
+   },
+   {
+    "id": 2,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability.\n\nMobile phones have become a part of everyone's life. Most people have at least one mobile phone. And every month, new models appear in the stores. They offer exciting new features like cameras. MP3 players. and the ability to connect with the Internet. Now mobile phone users can do more on the Internet than ever before. They are able to do almost all the things on their mobile phones that they used to do on their computers. Moreover, some mobile phones now have voice\n\nrecognition software, so people do not even have to use the buttons on their phones. They can simply tell their phones what they want to see or do.\n\nOne problem with mobile phones is that they have small screens. However, this problem could be solved in the future by making phones that project pictures and movies onto a wall or a sheet of paper. Mobile phones will also be used with \"e-paper\" (large screens that can be folded and easily stored and carried) as well as personal video screens that look like pairs of sunglasses.\n\nAs you can see, the mobile phone has a promising future, and its features will change in ways that we cannot even imagine.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "26",
+      "content": "Which of the following is NOT an exciting new feature of today's mobile phones? {{__SELECT_1__}}",
+      "options": [
+       "C cameras.",
+       "MP3 players",
+       "CD players.",
+       "Internet connection"
+      ],
+      "answer": "C",
+      "analysis": "细节题。根据第一段第三句“They offer exciting new features like cameras. MP3 players. and the ability to connect with the Internet.”可知，文章提到的新功能包括相机、MP3播放器和网络连接。没有提到CD播放器。故选C。"
+     },
+     {
+      "id": "27",
+      "content": "{{__SELECT_1__}} allows people to tell their phones what they want to see or do.",
+      "options": [
+       "An overhead projector",
+       "A personal video screen",
+       "A button on the phone",
+       "Voice recognition software"
+      ],
+      "answer": "D",
+      "analysis": "细节题。根据第一段末尾“Moreover, some mobile phones now have voice recognition software, so people do not even have to use the buttons on their phones. They can simply tell their phones what they want to see or do.”可知，是语音识别软件让人们可以告诉手机他们想看什么或做什么。故选D。"
+     },
+     {
+      "id": "28",
+      "content": "According to the passage, what is the problem with mobile phones? {{__SELECT_1__}}",
+      "options": [
+       "Their screens are small.",
+       "They connect with the Internet.",
+       "New models appear all the time.",
+       "They do many things a computer does."
+      ],
+      "answer": "A",
+      "analysis": "细节题。根据第二段第一句“One problem with mobile phones is that they have small screens.”可知，手机的一个问题是屏幕小。故选A。"
+     },
+     {
+      "id": "29",
+      "content": "All the following are features of e-paper EXCEPT that {{__SELECT_1__}}",
+      "options": [
+       "it can be stored",
+       "it can be folded",
+       "it can be carried",
+       "it can be printed"
+      ],
+      "answer": "D",
+      "analysis": "细节题。根据第二段倒数第二句对“e-paper”的描述“large screens that can be folded and easily stored and carried”可知，电子纸可以折叠、储存和携带。文章没有提到它可以被打印。故选D。"
+     },
+     {
+      "id": "30",
+      "content": "What can we infer from the last paragraph? {{__SELECT_1__}}",
+      "options": [
+       "The mobile phone has a sad future",
+       "The mobile phone has a bright future.",
+       "The mobile phone has a certain future.",
+       "The mobile phone has a difficult future."
+      ],
+      "answer": "B",
+      "analysis": "推断题。根据最后一段“As you can see, the mobile phone has a promising future, and its features will change in ways that we cannot even imagine.”可知，手机有一个“promising future”，即充满希望的、光明的未来。故选B。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "Passage 1"
+    },
+    "originalNumber": 2
+   },
+   {
+    "id": 3,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability.\n\nMars is the fourth planet from the Sun. For many centuries, Mars has also been called the “Red Planet”. Ancient Greeks and Romans thought of Mars as the god of war. Some people imagined that Mars was like the Earth and inhabited with many strange creatures.\n\nGalileo was the first person to view Mars through a telescope. As telescopes improve, astronomers find that the red planet is about half as big as the Earth. From 1965 through 1972, The American Mariner series of robot spacecraft took many close-up television images of Mars. In 1976 two American spacecraft arrived on the Martian surface. Each carried two color television cameras, a 3-meter-long retractable (可伸缩的) arm, a small laboratory, and other instruments. They helped scientists discover exciting new knowledge about Mars.\n\nMars is mostly a vast desert with immense mountains,extremely deep canyons,and enormous dust storms. Ice covers the Martian polar-regions,and buried ice exists in other areas.Some regions can get warm,but a  $-60^{\\circ}\\mathrm{C}$  is the average Martian temperature.\n\nSome scientists believe a global warming gas could be produced on Mars. This gas could help to warm the cold red planet and make it more like the Earth.\n\nThe future is full of exciting changes, and some day Mars will have human explorers, colonists, and tourists hiking across its surface. Maybe one of these people will be you.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "31",
+      "content": "Which of the following is not true according to the passage? {{__SELECT_1__}}",
+      "options": [
+       "Mars is like the Earth.",
+       "Strange creatures live on Mars.",
+       "Mars is also called the \"Red Planet\".",
+       "Ancient Greeks believed Mars was the god of peace."
+      ],
+      "answer": "D",
+      "analysis": "细节题。根据第一段第三句“Ancient Greeks and Romans thought of Mars as the god of war.”可知，古希腊人认为火星是战神，而不是和平之神。选项D与原文不符。选项A和B是第一段提到的“Some people imagined”，选项C在第一段第二句明确提到。故选D。"
+     },
+     {
+      "id": "32",
+      "content": "The Earth is about {{__SELECT_1__}} Mars.",
+      "options": [
+       "twice as big as",
+       "four times as big as",
+       "as big as",
+       "half as big as"
+      ],
+      "answer": "A",
+      "analysis": "细节题。根据第二段第二句“astronomers find that the red planet is about half as big as the Earth.”可知，火星大约是地球的一半大，反过来说，地球大约是火星的两倍大。故选A。"
+     },
+     {
+      "id": "33",
+      "content": "You'll find all the following on Mars EXCEPT {{__SELECT_1__}}",
+      "options": [
+       "dust storms",
+       "mountains",
+       "canyons",
+       "lakes"
+      ],
+      "answer": "D",
+      "analysis": "细节题。根据第三段第一句“Mars is mostly a vast desert with immense mountains,extremely deep canyons,and enormous dust storms.”可知，火星上有巨大的山脉、极深的峡谷和巨大的沙尘暴。文章没有提到湖泊（lakes）。故选D。"
+     },
+     {
+      "id": "34",
+      "content": "What do we know about Mas from the passage? {{__SELECT_1__}}",
+      "options": [
+       "It's cold on Mars.",
+       "It's warm on Mars.",
+       "Ice exists everywhere.",
+       "Ice only exists in polar-regions."
+      ],
+      "answer": "A",
+      "analysis": "细节题。根据第三段末尾“but a -60°C is the average Martian temperature.”可知，火星的平均温度是零下60摄氏度，这说明火星很冷。B选项错误。C选项说冰无处不在，但原文是说极地有冰盖，其他地区有埋藏的冰，并非无处不在。D选项说冰只存在于极地，也与“buried ice exists in other areas”矛盾。故选A。"
+     },
+     {
+      "id": "35",
+      "content": "Scientists believe a global warming gas could {{__SELECT_1__}}",
+      "options": [
+       "warm up the Earth",
+       "make Mars more like the Earth",
+       "discover knowledge about Mars",
+       "protect the environment on Mars"
+      ],
+      "answer": "B",
+      "analysis": "细节题。根据第四段第二句“This gas could help to warm the cold red planet and make it more like the Earth.”可知，科学家认为这种气体可以帮助温暖火星，使其更像地球。故选B。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "Passage 2"
+    },
+    "originalNumber": 3
+   },
+   {
+    "id": 4,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability.\n\nMany people believe that Sigmund Freud's work marked the beginning of modern psychology. He developed new ways to study the human personality. Some people disagreed with his ideas, and others thought he was a genius.\n\nSigmund Freud was born in 1856 in Moravia, which is now the Czech Republic. His family moved to Vienna when Sigmund was four years old. He was the oldest of his mother's eight children and her favorite. Sigmund loved to read and he was always at the top of his class. He had no interest in sports or outdoor activities, except walking. The family apartment had only four bedrooms, but Sigmund's mother gave him his own room so he could study in peace. He rarely joined the family for meals. Instead, he ate alone in his room, surrounded by his favorite books.\n\nSigmund first thought about studying law, but then he decided to study medicine. He enrolled at the University of Vienna in 1873. He loved working in the laboratory and studying the scientific side of medicine rather than helping the patients. In fact, he stayed in school for seven years instead of the usual five because he spent so much time working in the laboratory of a famous professor.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "36",
+      "content": "Which of the following about Sigmund Freud is NOT true? {{__SELECT_1__}}",
+      "options": [
+       "He loved reading.",
+       "He was a top student.",
+       "He was his mother's favorite child",
+       "He enjoyed having meals with his family."
+      ],
+      "answer": "D",
+      "analysis": "细节题。根据第二段末尾“He rarely joined the family for meals. Instead, he ate alone in his room...”可知，他很少和家人一起吃饭，而是独自在房间里吃。因此，“他喜欢和家人一起吃饭”是错误的。故选D。"
+     },
+     {
+      "id": "37",
+      "content": "When did Sigmund's family move to Vienna? {{__SELECT_1__}}",
+      "options": [
+       "In 1873.",
+       "In 1864.",
+       "In 1860.",
+       "In 1856."
+      ],
+      "answer": "C",
+      "analysis": "细节题。根据第二段第一、二句“Sigmund Freud was born in 1856... His family moved to Vienna when Sigmund was four years old.”可知，弗洛伊德出生于1856年，四岁时搬家，所以搬家年份是1856 + 4 = 1860年。故选C。"
+     },
+     {
+      "id": "38",
+      "content": "Sigmund Freud didn't like {{__SELECT_1__}}",
+      "options": [
+       "sports",
+       "books",
+       "walking",
+       "studying"
+      ],
+      "answer": "A",
+      "analysis": "细节题。根据第二段第五句“He had no interest in sports or outdoor activities, except walking.”可知，他对运动和户外活动没有兴趣，除了散步。因此他不喜欢运动。故选A。"
+     },
+     {
+      "id": "39",
+      "content": "It took Sigmund seven years to get his medical degree because {{__SELECT_1__}}",
+      "options": [
+       "he helped the patients",
+       "he spent lots of time in the lab",
+       "he went to law school first",
+       "school was difficult for him"
+      ],
+      "answer": "B",
+      "analysis": "细节题。根据第三段最后一句“he stayed in school for seven years instead of the usual five because he spent so much time working in the laboratory of a famous professor.”可知，他花了七年才毕业是因为他在实验室里花了太多时间。故选B。"
+     },
+     {
+      "id": "40",
+      "content": "According to the passage, what is people's opinion about Sigmund Freud? {{__SELECT_1__}}",
+      "options": [
+       "They all think of him as crazy.",
+       "They all regard him as a genius.",
+       "People know little about him.",
+       "People's opinions are divided."
+      ],
+      "answer": "D",
+      "analysis": "细节题。根据第一段最后一句“Some people disagreed with his ideas, and others thought he was a genius.”可知，人们对他的看法是分裂的：一些人不同意他的观点，另一些人认为他是天才。故选D。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "Passage 3"
+    },
+    "originalNumber": 4
+   },
+   {
+    "id": 5,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability.\n\nAn early attempt to find a technological breakthrough for high speed rail travelling China was the Shanghai Maglev,which opened to the public in 2004. As the first commercial magnetic Levitation(磁悬浮)train in the world,it connects Shanghai's Pudong International Airport with the Shanghai subway system,traveling a distance of 30 kilometers in 8 minutes,at speeds as high as 430 kilometers per hour.It is the fastest commercially operated train anywhere in the world.\n\nChina now has two more maglevs. One in Changsha and the other in Beijing. However, both of these only cover short distances and the trains travel at speeds of around 100 kilometers per hour, which is not much faster than trains on many conventional rail lines.\n\nApart from the complex technical and safety issues involved with maglev trains. Another big drawback with having a maglev line appears to be the high cost. Thus although maglev technology will continue to be used in the future - a train that is capable of reaching speeds of 600 kilometers per hour is being developed - the focus has been on ore conventional, off-the-shelf technology in the development of China's high speed rail network.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "41",
+      "content": "The first commercial magnetic-levitation train in the world is in {{__SELECT_1__}}",
+      "options": [
+       "Changsha",
+       "Beijing",
+       "Shanghai",
+       "Wuhan"
+      ],
+      "answer": "C",
+      "analysis": "细节题。根据第一段第一句和第二句“...the Shanghai Maglev... As the first commercial magnetic Levitation(磁悬浮)train in the world...”可知，世界上第一条商业磁悬浮列车在上海。故选C。"
+     },
+     {
+      "id": "42",
+      "content": "Which of the following statements about Shanghai Maglev is true? {{__SELECT_1__}}",
+      "options": [
+       "It is the fastest train in the world.",
+       "It opened to the public in 2004.",
+       "It travels 600 kilometers per hour",
+       "It is not very expensive to build."
+      ],
+      "answer": "B",
+      "analysis": "细节题。根据第一段第一句“...the Shanghai Maglev, which opened to the public in 2004.”可知，B选项是正确的。A选项说它是世界上最快的火车，但原文是“the fastest commercially operated train”（商业运营中最快的），不一定是所有火车中最快的。C选项600公里/小时是未来研发的目标，不是上海磁悬浮的速度。D选项与第三段提到的“high cost”相矛盾。故选B。"
+     },
+     {
+      "id": "43",
+      "content": "Trains on China's conventional rail lines most probably travel at speeds of about {{__SELECT_1__}} kilometers per hour.",
+      "options": [
+       "30",
+       "100",
+       "430",
+       "600"
+      ],
+      "answer": "B",
+      "analysis": "推断题。根据第二段最后“...travel at speeds of around 100 kilometers per hour, which is not much faster than trains on many conventional rail lines.”可知，长沙和北京的磁悬浮时速约100公里，这并不比许多传统铁路线上的火车快多少。由此可以推断，传统火车的时速大约在100公里/小时左右。故选B。"
+     },
+     {
+      "id": "44",
+      "content": "Which of the following is NOT a drawback with building a maglev line? {{__SELECT_1__}}",
+      "options": [
+       "Cost.",
+       "Safety",
+       "Speed",
+       "Technology."
+      ],
+      "answer": "C",
+      "analysis": "细节题。根据第三段第一、二句“Apart from the complex technical and safety issues... Another big drawback... appears to be the high cost.”可知，建造磁悬浮线路的缺点包括复杂的技术问题、安全问题和高昂的成本。速度是磁悬浮的主要优点，而不是缺点。故选C。"
+     },
+     {
+      "id": "45",
+      "content": "The focus of the development of China's high speed rail network has been on all of the following EXCEPT {{__SELECT_1__}}",
+      "options": [
+       "maglev technology",
+       "traditional technology",
+       "off-the-shelf technology",
+       "conventional technology"
+      ],
+      "answer": "A",
+      "analysis": "细节题。根据第三段最后一句“...the focus has been on more conventional, off-the-shelf technology in the development of China's high speed rail network.”可知，中国高铁网络发展的重点是更传统的、现成的技术。conventional和traditional是近义词。因此，发展重点不包括磁悬浮技术（maglev technology）。故选A。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "Passage 4"
+    },
+    "originalNumber": 5
+   },
+   {
+    "id": 6,
+    "type": "阅读填空",
+    "content": "Directions: Read the following passage carefully and fill in the blanks with the correct words or phrases based on the passage. Write your answers in the corresponding spaces on the Answer Sheet.\n\nWhy is hot pot so popular in China? It shows the Chinese cultural values of openness and sharing. With a hot pot, you can put in any ingredient that you like: vegetables as well as meat. The same pot can serve any number of different meals to the people sitting around the table. No one is left out, and everyone gets to eat as much -or as little-as they want.\n\nHot pot creates a cozy, warm atmosphere and really brings people together as you sit around a pot, cooking, eating, talking, and relaxing. The food is important but also important are the feels. In China, people like to joke that there is no problem that a hot pot can't solve. The fire from the hot pot can melt just about any icy disagreement and warm just about any heart. Over a hot pot people can talk and share not just food, but friendship. While the food may soon be forgotten, these friendships stay with us forever.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "46-50",
+      "content": "Popularity of hot Pot\n\nCultural values:\n\n(1) Openness: putting in any {{__BLANK_1__}} that you like  \n(2) Sharing: serving any {{__BLANK_2__}} of different meals to the people\n\nAtmosphere:cozy and {{__BLANK_3__}}\n\nSocial functions:melting any {{__BLANK_4__}}\n\nand warming any {{__BLANK_5__}}",
+      "options": [],
+      "answer": [
+       "ingredient",
+       "number",
+       "warm",
+       "icy disagreement",
+       "heart"
+      ],
+      "analysis": "这是一道基于文章内容的表格填空题。\n46. 根据第一段“With a hot pot, you can put in any ingredient that you like”可知，开放性体现在可以放入任何你喜欢的食材(ingredient)。\n47. 根据第一段“The same pot can serve any number of different meals to the people”可知，分享性体现在同一锅可以为人们提供任意数量(number)的不同餐食。\n48. 根据第二段第一句“Hot pot creates a cozy, warm atmosphere”可知，火锅营造了舒适和温暖(warm)的氛围。\n49. 根据第二段“The fire from the hot pot can melt just about any icy disagreement”可知，火锅的社交功能之一是融化任何冰冷的分歧(icy disagreement)。\n50. 根据第二段“...and warm just about any heart”可知，火锅的社交功能之二是温暖任何心灵(heart)。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "Passage 5"
+    },
+    "originalNumber": 6
+   },
+   {
+    "id": 7,
+    "type": "翻译题",
+    "content": "Directions: For each sentence, choose the best Chinese translation from the given options A, B, C, D. Mark your choice on the Answer Sheet.\n\nThere are 5 sentences numbered 51 to 55. You will read three suggested translations marked A.B, and C Choose the best one and blacken the corresponding letter on the Answer Sheet.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "51",
+      "content": "Many good suggestions were not fully understood when they were first brought up. {{__SELECT_1__}}",
+      "options": [
+       "许多好的建议在最初提出时完全不被理解。",
+       "很多好的建议在第一次提出时没有被误解。",
+       "许多好的建议刚开始提出时未能被充分理解。"
+      ],
+      "answer": "C",
+      "analysis": "考查对词义和程度的准确翻译。'not fully understood' 意为“没有被完全理解”或“未能被充分理解”，C选项的翻译最准确。A选项的“完全不被理解”将程度绝对化了，与'not fully'不符。B选项的“没有被误解”改变了原意。'brought up' 在此意为“提出”。故选C。"
+     },
+     {
+      "id": "52",
+      "content": "Well, a couple of years later, they became enemies. But we are getting ahead of the story. {{__SELECT_1__}}",
+      "options": [
+       "几年之后，他们反目成仇，唉，不过这是后话了。",
+       "过了几年，他们成了敌人，唉，说到故事前面去了。",
+       "两年之后，他们成仇人了，唉，这只是预测罢了。"
+      ],
+      "answer": "A",
+      "analysis": "考查对习语的理解和翻译。'getting ahead of the story' 是一个习语，意思是“过早地透露了后面的情节”或“说的太快了”，可以引申为“这是后话”。A选项的“这是后话了”是对这个习语非常地道和贴切的翻译。B选项是字面直译，不自然。C选项的“预测”是错误理解。故选A。"
+     },
+     {
+      "id": "53",
+      "content": "You should check every item before you pay for the goods. You can't be too careful. {{__SELECT_1__}}",
+      "options": [
+       "在收货款前，你要仔细检查每个条目。你一定要小心。",
+       "你应在付款之前逐项检查每个条款。你不能太小心。",
+       "付货款之前，应仔细检查每个项目。你再小心也不为过。"
+      ],
+      "answer": "C",
+      "analysis": "考查对'can't...too...'句型的理解。'can't be too careful'是一个固定句型，意为“无论怎么小心也不为过”或“越小心越好”。C选项的“你再小心也不为过”准确地表达了这个意思。A选项和B选项都错误地理解了这个句型，将其翻译成了“不能太小心”或“一定要小心”，失去了原有的强调意味。故选C。"
+     },
+     {
+      "id": "54",
+      "content": "There is so much happening this morning, I don't know whether I'm coming or going. {{__SELECT_1__}}",
+      "options": [
+       "今天上午发生了太多事情，搞得我晕头转向。",
+       "今天上午发生了很多事情，我不知道该不该来。",
+       "今天上午发生了一些事情，我不知道自己该不该离开。"
+      ],
+      "answer": "A",
+      "analysis": "考查对习语的理解和翻译。'not know whether one is coming or going' 是一个习语，意思是因事情太多或情况复杂而“感到困惑、糊涂、晕头转向”。A选项的“搞得我晕头转向”非常形象地翻译出了这个习语的含义。B和C选项都是对'coming or going'的字面翻译，完全曲解了原意。故选A。"
+     },
+     {
+      "id": "55",
+      "content": "Human beings are interesting in that they tend to first see good in a new acquaintance. {{__SELECT_1__}}",
+      "options": [
+       "人们往往对他们初次交往时会首先看到对方优点这件事很感兴趣。",
+       "人之所以有趣是因为他们刚接触一个人时，首先看到的往往都是他或她的优点。",
+       "人是很有意思的，他们接触熟人时，看到的往往都是他或她的第一个优点。"
+      ],
+      "answer": "B",
+      "analysis": "考查对'in that'结构的理解。'in that'意为“因为，在于”，用来解释前面一句话的原因或具体内容。B选项的“人之所以有趣是因为...”准确地翻译了这个结构。A选项的翻译逻辑混乱。C选项将'a new acquaintance'（一个新认识的人）错译为“熟人”，并且“第一个优点”的翻译也不准确。故选B。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "Part III Section 1"
+    },
+    "originalNumber": 7
+   },
+   {
+    "id": 8,
+    "type": "翻译题",
+    "content": "Directions: Translate the following English sentences/paragraph into Chinese. Write your translation in the corresponding space on the Answer Sheet.\n\nEverybody knows that people all wear masks during the COVID- 19 pandemic. But we also have to throw the masks away after they are used. This could become a serious environmental problem, scientists have warned. Researchers in the US and some European countries did a study. They estimated that people around the world are now using 129 billion face masks every month. That is to say we use 2.8 million masks every minute!",
+    "options": [],
+    "answer": "众所周知，在新冠疫情期间，人们都戴着口罩。但使用后，我们也必须将口罩丢弃。科学家警告说，这可能成为一个严重的环境问题。美国和一些欧洲国家的研究人员进行了一项研究。他们估计，现在全世界的人们每月使用1290亿个口罩。也就是说，我们每分钟使用280万个口罩！",
+    "analysis": "本段翻译的关键在于保持句子的流畅性和信息的准确性。\n1. 'COVID-19 pandemic'：可翻译为“新冠疫情大流行”或简化为“新冠疫情”。\n2. 'throw the masks away'：翻译为“丢弃口罩”。\n3. 'This could become a serious environmental problem, scientists have warned.'：注意语序，可以将“科学家警告说”提前，使中文表达更自然。\n4. 'Researchers...did a study'：翻译为“研究人员进行了一项研究”。\n5. 'They estimated that...'：翻译为“他们估计...”。\n6. '129 billion'：billion是十亿，129 billion是1290亿。\n7. 'That is to say'：翻译为“也就是说”，用于解释说明。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "56"
+    },
+    "originalNumber": 8
+   },
+   {
+    "id": 9,
+    "type": "写作题",
+    "content": "假定你是N公司人力资源部HumanResources的AndyWhite，根据以下内容，给PeterBlack先生写一封信，字数不少于100个单词，内容包括：\n\n(1) 感谢他上周发来求职信和简历；  \n(2) 公司让他6月19日上午九点参加面试；  \n(3) 面试地点是公司总部大楼 26 层 T3 会议室；  \n(4) 请他携带本人有效证件，提前半小时到达，做好准备。",
+    "options": [],
+    "answer": "Dear Mr. Peter Black,\n\nThank you for your application letter and resume for the position you sent to our company last week. We were very impressed with your qualifications and experience.\n\nWe are pleased to invite you for an interview at 9:00 a.m. on June 19th. The interview will be held in Conference Room T3, which is located on the 26th floor of our company's headquarters building. \n\nPlease bring your valid identification documents with you to the interview. We would also appreciate it if you could arrive half an hour early to complete some necessary paperwork and prepare for the interview. \n\nWe look forward to meeting you and discussing your application in more detail.\n\nSincerely,\nAndy White\nHuman Resources Department\nN Company",
+    "analysis": "本题为应用文写作，要求写一封面试通知信。写作时应注意以下几点：\n1.  **格式**：遵循正式信函的格式，包括称呼、正文、结束语和署名。\n2.  **内容**：必须包含题目要求的所有信息点：\n    -   感谢信和简历（Thank you for your application letter and resume...）。\n    -   面试时间（at 9:00 a.m. on June 19th）。\n    -   面试地点（in Conference Room T3 on the 26th floor of our company's headquarters building）。\n    -   携带证件并提前到达（Please bring your valid identification documents... arrive half an hour early）。\n3.  **语言**：使用正式、礼貌的商务英语。例如，使用“We are pleased to invite you...”、“We would appreciate it if you could...”等表达方式。\n4.  **结构**：\n    -   第一段：开门见山，感谢对方的申请，并表达对其资历的肯定。\n    -   第二段：明确告知面试的时间和地点，信息需清晰准确。\n    -   第三段：提出具体要求，如携带证件、提前到达等。\n    -   第四段：表达期待，作为礼貌的结尾。\n5.  **字数**：确保不少于100个单词。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2021真题卷(1).pdf",
+     "fileId": "2013984097274142721",
+     "originalNumber": "57"
+    },
+    "originalNumber": 9
+   }
+  ]
+ }
+}

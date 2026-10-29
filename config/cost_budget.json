@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "currency": "CNY",
+  "total": 20.0,
+  "warning": 0.8,
+  "stop": 1.0,
+  "subjects": {
+    "english": 6.0,
+    "c_wuhan": 4.0,
+    "c_hbpu": 4.0,
+    "aca_llm": 3.0,
+    "judge_calibration": 3.0
+  },
+  "notes": "官方 API 以人民币计价。高峰时段（北京时间工作日 9-12 / 14-18）价格翻倍，大批量生成请排空闲时段。余额实测入口：GET /user/balance。"
+}

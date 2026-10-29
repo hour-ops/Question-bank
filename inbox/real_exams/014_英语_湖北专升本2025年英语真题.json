@@ -1,0 +1,376 @@
+{
+ "id": 14,
+ "title": "湖北专升本2025年英语真题",
+ "subject": "英语",
+ "createTime": "2026-01-21 22:07:52",
+ "exam": {
+  "meta": {
+   "title": "2025 年湖北省普通高等学校专升本英语",
+   "subject": "英语"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "语法填空",
+    "content": "阅读下面短文，在题号(第1-10题)空白处填入括号内提示词的正确形式，若无提示词则填入一个适当的单词，并将答案写在答题卡相应题号后的横线上。\n\nChinese architect, Liu Jiakun, won the 2025 Pritzker Architecture Prize on the 4th of March. This is the {{__BLANK_1__}} (big) award of all in architecture. He is the second person from China to win it.\n\nLiu lives in Chengdu and has worked {{__BLANK_2__}} 40 years. In 1999, he {{__BLANK_3__}} (start) his company, Jiakun Architects, and has completed over 30 projects, including small museums, big buildings, {{__BLANK_4__}} city plans.\n\nLiu does not follow one style. He uses local materials and simple designs to make {{__BLANK_5__}} (beauty) buildings. After the 2008 Wenchuan earthquake, Liu made \"rebirth bricks\" from broken buildings-- a symbol of hope.\n\nLiu also {{__BLANK_6__}} (design) for ordinary people. For example, west village in Chengdu, {{__BLANK_7__}} (finish) in 2015, has a soccer field, a market, and paths for running, {{__BLANK_8__}} (walk), and cycling. Grass grows through the bricks, showing the beauty of daily life. Many people enjoy visiting this place.\n\n\"The purpose of architecture is to create {{__BLANK_9__}} pleasant and wonderful environment. People's {{__BLANK_10__}} (happy) is what we work for,\" he said.",
+    "options": [],
+    "answer": [
+     "biggest",
+     "for",
+     "started",
+     "and",
+     "beautiful",
+     "designs",
+     "finished",
+     "walking",
+     "a",
+     "happiness"
+    ],
+    "analysis": "1. **biggest**: 提示词是 `big`。根据句子中的 `the ... of all` 结构，此处需要使用形容词的最高级形式。\n2. **for**: 此处表示一段时间，固定搭配 `work for + 时间` 表示工作了多久。\n3. **started**: 提示词是 `start`。根据时间状语 `In 1999`，可知动作发生在过去，应用一般过去时。\n4. **and**: 此处需要一个并列连词，连接名词短语 `big buildings` 和 `city plans`。\n5. **beautiful**: 提示词是 `beauty`（名词）。此处需要一个形容词来修饰名词 `buildings`，所以用 `beautiful`。\n6. **designs**: 提示词是 `design`。主语是 `Liu`（第三人称单数），且上下文描述的是一般性事实，应用一般现在时第三人称单数形式。\n7. **finished**: 提示词是 `finish`。`west village` 与 `finish` 之间是被动关系，且动作已在 `2015` 年完成，此处使用过去分词作后置定语，修饰 `west village`。\n8. **walking**: 提示词是 `walk`。根据并列结构 `running, ..., and cycling`，此处需要填入动名词形式，与前后保持一致。\n9. **a**: 此处泛指一个“令人愉快的和美妙的环境”，`environment` 是可数名词单数，且以辅音音素开头的 `pleasant` 修饰，故用不定冠词 `a`。\n10. **happiness**: 提示词是 `happy`（形容词）。根据所有格 `People's`，后面需要接名词，故用 `happiness`。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2025湖北普通专升本英语真题答案.pdf",
+     "fileId": "2013977015879958529",
+     "originalNumber": "Part I"
+    },
+    "originalNumber": 1
+   },
+   {
+    "id": 2,
+    "type": "连词成句",
+    "content": "将所给词正确排列顺序连成一个句子",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "2_sub_0",
+      "content": "her homework/she /has completed",
+      "options": [],
+      "answer": "She has completed her homework.",
+      "analysis": "本题考查现在完成时的句子结构。主语是 `She`，谓语是 `has completed`，宾语是 `her homework`。句子结构为主谓宾。"
+     },
+     {
+      "id": "2_sub_1",
+      "content": "your plan /tell me/ can you",
+      "options": [],
+      "answer": "Can you tell me your plan?",
+      "analysis": "本题考查含情态动词 `can` 的一般疑问句。`Can` 提前，后跟主语 `you` 和动词原形 `tell`。`tell` 后面跟双宾语 `me` 和 `your plan`。"
+     },
+     {
+      "id": "2_sub_2",
+      "content": "me /explain /let /how this works",
+      "options": [],
+      "answer": "Let me explain how this works.",
+      "analysis": "本题考查 `let` 的用法和宾语从句。`Let sb do sth` 是固定句型。`explain` 后跟一个由 `how` 引导的宾语从句 `how this works`。"
+     },
+     {
+      "id": "2_sub_3",
+      "content": "went to /and l/my friends /the same lecture",
+      "options": [],
+      "answer": "My friends and I went to the same lecture.",
+      "analysis": "本题考查并列主语和一般过去时。主语是 `My friends and I`（注意 `I` 通常放在并列成分的最后）。谓语是 `went to`，宾语是 `the same lecture`。"
+     },
+     {
+      "id": "2_sub_4",
+      "content": "young people /Deepseek/ was established in 2023/ by a group of",
+      "options": [],
+      "answer": "Deepseek was established in 2023 by a group of young people.",
+      "analysis": "本题考查被动语态。主语是 `Deepseek`，谓语是被动语态 `was established`，后面跟时间状语 `in 2023` 和施动者 `by a group of young people`。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2025湖北普通专升本英语真题答案.pdf",
+     "fileId": "2013977015879958529",
+     "originalNumber": "Part II"
+    },
+    "originalNumber": 2
+   },
+   {
+    "id": 3,
+    "type": "阅读填空",
+    "content": "根据文章内容填空,每空1个词\n\nThe Dong Grand Choir is a unique musical tradition of the Dong people in China. For centuries, the Dong people, who live in mountain villages of Guizhou, Guangxi and Hunan, have used these songs to share stories, teach moral values, and celebrate nature. Unlike most choirs, there is no conductor or written music—the harmony is created naturally by singers of all ages.\n\nThe songs are divided into two types: Galao and Gaxia. Galao are performed at festivals and tell stories about history or love, while Gaxia are short tunes people sing during daily work. The most amazing part is their singing style, combining different voice parts. Traditionally, children learn these songs by listening to elders while sitting around a big fire at night.\n\nHowever, this tradition faces challenges. With many young people moving to cities for jobs, fewer villages are there to keep the singing tradition alive. To protect the tradition, local schools have started choir classes. The Dong Grand Festival now attracts tourists worldwide every year.\n\nThe Dong people believe that \"a song is more valuable than rice\", showing how deeply music is rooted in their culture.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "3_sub_0",
+      "content": "Type of Tradition: The Dong Grand Choir is a unique {{__BLANK_1__}} tradition of the Dong people in China.",
+      "options": [],
+      "answer": "musical",
+      "analysis": "根据文章第一句 “The Dong Grand Choir is a unique musical tradition of the Dong people in China.” 可知，此处应填入 `musical`。"
+     },
+     {
+      "id": "3_sub_1",
+      "content": "Unique Feature: Unlike most choirs, the Dong Grand Choir has no conductor or {{__BLANK_1__}} music.",
+      "options": [],
+      "answer": "written",
+      "analysis": "根据文章第一段末句 “Unlike most choirs, there is no conductor or written music...” 可知，此处应填入 `written`。"
+     },
+     {
+      "id": "3_sub_2",
+      "content": "Passing-down of Tradition: Children learn the songs by {{__BLANK_1__}} to elders around a big fire at night.",
+      "options": [],
+      "answer": "listening",
+      "analysis": "根据文章第二段末句 “Traditionally, children learn these songs by listening to elders while sitting around a big fire at night.” 可知，此处应填入 `listening`。"
+     },
+     {
+      "id": "3_sub_3",
+      "content": "Challenges: There are {{__BLANK_1__}} villagers to keep the tradition alive.",
+      "options": [],
+      "answer": "fewer",
+      "analysis": "根据文章第三段第二句 “...fewer villages are there to keep the singing tradition alive.” 可知，此处应填入 `fewer`。"
+     },
+     {
+      "id": "3_sub_4",
+      "content": "Action Taken: Local schools have started choir {{__BLANK_1__}} to protect the tradition.",
+      "options": [],
+      "answer": "classes",
+      "analysis": "根据文章第三段第三句 “To protect the tradition, local schools have started choir classes.” 可知，此处应填入 `classes`。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2025湖北普通专升本英语真题答案.pdf",
+     "fileId": "2013977015879958529",
+     "originalNumber": "Part III"
+    },
+    "originalNumber": 3
+   },
+   {
+    "id": 4,
+    "type": "阅读填空",
+    "content": "根据文章内容填空,每空1个词\n\nWhen people disagree, it can be hard to find common ground. Research on how people handle differences has uncovered useful ways to make communication better.\n\nWhat the studies Found\n\nA survey of 1,912 people found that we often guess other's feelings wrong. For example, we often think that others want to argue, but the fact is that they just want to learn. This proves that most people are more open than we think.\n\nEasy steps to try\n\nAsking questions: can you tell me why you feel that way! Asking a question like this makes other feel more willing to share their ideas. In a Stanford test, this simple question helped  40% more people listen to different ideas.  \nTelling stories: sharing your life stories works very well. In the 2018 US elections, volunteers talked to voters about immigration. Those who shared both personal stories and facts changed  5%  more voters' minds in just 11 minutes.  \nBeing polite: Being rude makes people stop listening, staying calm and kind helps other understand your ideas. Remember: Being polite costs nothing but wins everything.\n\nThe Final Thought: As a famous thinker said, different opinions aren't just noise, they're teachers. By asking questions, sharing stories, and being polite, we turn differences into chances to grow.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "4_sub_0",
+      "content": "Finding: A survey of 1912 people found that we often guess other's feeling {{__BLANK_1__}}.",
+      "options": [],
+      "answer": "wrong",
+      "analysis": "根据文章“What the studies Found”部分第一句 “A survey of 1,912 people found that we often guess other's feelings wrong.” 可知，此处应填入 `wrong`。"
+     },
+     {
+      "id": "4_sub_1",
+      "content": "Solutions: The three easy steps to try include {{__BLANK_1__}} questions, telling stories and being polite.",
+      "options": [],
+      "answer": "asking",
+      "analysis": "根据文章“Easy steps to try”部分列出的第一个要点 “Asking questions” 可知，此处应填入 `asking`。"
+     },
+     {
+      "id": "4_sub_2",
+      "content": "Solutions: The three easy steps to try include asking questions, telling stories and being {{__BLANK_1__}}.",
+      "options": [],
+      "answer": "polite",
+      "analysis": "根据文章“Easy steps to try”部分列出的第三个要点 “Being polite” 可知，此处应填入 `polite`。"
+     },
+     {
+      "id": "4_sub_3",
+      "content": "Example: Volunteers who shared both personal stories and facts changed  $5\\%$  more voters' minds about {{__BLANK_1__}}.",
+      "options": [],
+      "answer": "immigration",
+      "analysis": "根据文章“Telling stories”部分第二句 “In the 2018 US elections, volunteers talked to voters about immigration.” 可知，此处应填入 `immigration`。"
+     },
+     {
+      "id": "4_sub_4",
+      "content": "Final thought: Since different opinions are teachers, we can turn differences into chances to {{__BLANK_1__}}.",
+      "options": [],
+      "answer": "grow",
+      "analysis": "根据文章最后一段末句 “...we turn differences into chances to grow.” 可知，此处应填入 `grow`。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2025湖北普通专升本英语真题答案.pdf",
+     "fileId": "2013977015879958529",
+     "originalNumber": "Part III"
+    },
+    "originalNumber": 4
+   },
+   {
+    "id": 5,
+    "type": "阅读理解",
+    "content": "根据文章内容完成问答\n\nAnna and her friends decided to take a journey along the river's path. They rented a small boat and packed food, drinks, and blankets for the day.\n\nThe sun was shining brightly, making the river glitter like a sea of stars. The gentle breeze carried the scent of blooming flowers from the riverbanks nearby. As they paddled, birds flew overhead, chirping songs that echoed in the air. They enjoyed watching the ducks swim and play in the clear, sparkling water. Anna loved the calming sound of the river as it flowed past them. It felt like a perfect escape from the busy world they knew so well.\n\nSoon, they reached a secluded spot where they decided to stop for lunch. They spread out the blankets and sat down, enjoying sandwiches and fresh fruit. Laughter filled the air as they shared stories and recalled past adventures together. The river flowed gently by, listening quietly to their cheerful conversations.\n\nAfter lunch, they continued their journey, discovering new sights and sounds. They saw a family of turtles basking on rocks under the warm afternoon sun. Anna felt grateful for this peaceful day spent with nature and good friends. As evening approached, they knew it was time to head back home. They rowed slowly, watching the sunset paint the sky with shades of red and gold. The river shimmered one last time before the stars began to twinkle above. Anna and her friends promised to return to the river for another journey soon. Their hearts were full of joy and gratitude for this unforgettable day together.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "5_sub_0",
+      "content": "What did Anna and her girl friends pack for their boat journey?",
+      "options": [],
+      "answer": "Food, drinks, and blankets.\n\n或 They packed food, drinks, and blankets.",
+      "analysis": "根据文章第一段第二句 “They rented a small boat and packed food, drinks, and blankets for the day.” 可知，她们打包了食物、饮料和毯子。"
+     },
+     {
+      "id": "5_sub_1",
+      "content": "How did Anna feel about the calming sound of the river?",
+      "options": [],
+      "answer": "Anna(She) loved the calming sound of the river.\n\n或 Anna(She) loved the calming sound of the river (as it flowed past them).\n\n或 Anna(She) loved it.",
+      "analysis": "根据文章第二段倒数第二句 “Anna loved the calming sound of the river as it flowed past them.” 可知，安娜很喜欢河水平静的声音。"
+     },
+     {
+      "id": "5_sub_2",
+      "content": "Where did Anna and her friends stop for lunch?",
+      "options": [],
+      "answer": "In a secluded spot.\n\n或 Anna and her friends stopped for lunch in a secluded spot.\n\n或 They stopped for lunch in a secluded spot.",
+      "analysis": "根据文章第三段第一句 “Soon, they reached a secluded spot where they decided to stop for lunch.” 可知，她们在一个僻静的地方停下来吃午餐。"
+     },
+     {
+      "id": "5_sub_3",
+      "content": "What promised did Anna and her friends make at the end of their journey?",
+      "options": [],
+      "answer": "Anna and her friends promised to return to the river for another journey soon.\n\n或 They promised to return to the river for another journey soon.",
+      "analysis": "根据文章最后一段倒数第二句 “Anna and her friends promised to return to the river for another journey soon.” 可知，她们承诺很快会再来河边旅行。"
+     },
+     {
+      "id": "5_sub_4",
+      "content": "Translate \"Afterwards, they continued their journey, discovering new sights.\"",
+      "options": [],
+      "answer": "之后（后来），他们继续他们的旅程，发现新的风景。",
+      "analysis": "`Afterwards` 意为“之后，后来”。`continued their journey` 意为“继续他们的旅程”。`discovering new sights` 意为“发现新的风景/景象”，在此作伴随状语。整个句子翻译为：之后（后来），他们继续他们的旅程，发现新的风景。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2025湖北普通专升本英语真题答案.pdf",
+     "fileId": "2013977015879958529",
+     "originalNumber": "PartIV"
+    },
+    "originalNumber": 5
+   },
+   {
+    "id": 6,
+    "type": "阅读理解",
+    "content": "根据文章内容完成问答\n\nHi Jane!\n\nI've been meaning to write for ages, and finally, today I'm actually doing something about it. It's been really hard to sit down and write since I've been moving around so much. Since we last saw each other, I've unpacked my bags in four different cities.\n\nI went from London to Prague to set up a new regional office there. You know I'd always wanted to go, but maybe I was imagining Prague in spring when I used to talk about it. Winter was really hard, with minus 15 degrees in the mornings and it got dark really early in the evening. But at least it was blue skies and white snow and not days on end of grey skies and rain, like at home.\n\nFrom there, I was on another three-month mission to oversee the set-up of the office in New York. Loved, loved, loved New York! It's like being in one big TV show, as everywhere looks just a little bit familiar. I did every tourist thing you can think of when I wasn't working and must have spent most of my salary on eating out. It was really hard to leave for the next job, especially as I kind of met someone (!) More about Michael later ...\n\nSo then I was posted to LA, which felt like a whole other country compared with the East Coast. I could definitely get used to that kind of outdoor, beach lifestyle, but I didn't spend as much time getting to know California as I could have because I was flying back to see Michael every other weekend. He came to see me when he could, but his job means he's often working at weekends, so he couldn't make the flight very often. Those three months flew by and then I was off again, to Frankfurt, which is where I am now. And ... so is Michael! He got a month off work and we're trying to work out how we can be in the same place at the same time for a while. We figure the first step in that direction is getting married, which is also why I wanted to write – I can't get married without my oldest friend there! The marriage ceremony is going to be at home in London in September and I hope you can come!\n\nAnyway, tell me all your news and I promise not to leave it so long this time!\n\nLots of love,\n\nKath",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "6_sub_0",
+      "content": "For what did Kath feel sorry?",
+      "options": [],
+      "answer": "The late reply",
+      "analysis": "根据信件开头第一句 “I've been meaning to write for ages, and finally, today I'm actually doing something about it.” (我早就想写信了，今天终于动笔了) 和结尾的 “I promise not to leave it so long this time!” (我保证这次不会隔这么久了)，可以推断出 Kath 为很晚才回信感到抱歉。"
+     },
+     {
+      "id": "6_sub_1",
+      "content": "Why did Kath go to Prague?",
+      "options": [],
+      "answer": "To set up a new regional office there",
+      "analysis": "根据文章第三段第一句 “I went from London to Prague to set up a new regional office there.” 可知，Kath 去布拉格是为了在那里建立一个新的区域办事处。"
+     },
+     {
+      "id": "6_sub_2",
+      "content": "On what did Kath spend most of her salary in New York?",
+      "options": [],
+      "answer": "Eating out",
+      "analysis": "根据文章第四段中 “I did every tourist thing you can think of when I wasn't working and must have spent most of my salary on eating out.” 可知，她在纽约把大部分薪水花在了外出就餐上。"
+     },
+     {
+      "id": "6_sub_3",
+      "content": "Why did Kath have to fly back to London every other week?",
+      "options": [],
+      "answer": "To meet/see Michael /her boyfriend",
+      "analysis": "根据文章第五段 “I was flying back to see Michael every other weekend.” 可知，她每隔一个周末飞回去是为了见 Michael。注意，问题中的“London”是错误的，根据上下文，她当时在洛杉矶（LA），而 Michael 可能在纽约（East Coast），所以她是在美国国内飞，而不是飞回伦敦。"
+     },
+     {
+      "id": "6_sub_4",
+      "content": "Translate: The marriage ceremony is going to be at home in London in September.",
+      "options": [],
+      "answer": "婚礼（结婚典礼/结婚庆典/婚礼仪式）将于九月在伦敦的家中举行。",
+      "analysis": "`The marriage ceremony` 意为“婚礼、结婚典礼”。`is going to be` 表示将来时。`at home in London` 表示地点“在伦敦的家中”。`in September` 表示时间“在九月”。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2025湖北普通专升本英语真题答案.pdf",
+     "fileId": "2013977015879958529",
+     "originalNumber": "PartIV"
+    },
+    "originalNumber": 6
+   },
+   {
+    "id": 7,
+    "type": "翻译填空",
+    "content": "使用括号单词根据汉语提示完成句子",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "7_sub_0",
+      "content": "如果下雪，他们会取消活动。\n\nThey will cancel the event if {{__BLANK_1__}}. (snow)",
+      "options": [],
+      "answer": "it snows",
+      "analysis": "本题考查 `if` 引导的条件状语从句。主句是将来时 `will cancel`，从句要用一般现在时表示将来，且主语 `it` 是第三人称单数，所以动词 `snow` 要用第三人称单数形式 `snows`。"
+     },
+     {
+      "id": "7_sub_1",
+      "content": "这完美的日出将天空染成了粉橙交织的画卷。\n\nThis {{__BLANK_1__}} painted the sky in pink and orange hues. (sunrise)",
+      "options": [],
+      "answer": "perfect sunrise",
+      "analysis": "根据中文提示，“这完美的日出”是句子的主语。`sunrise` 是名词“日出”，`perfect` 是形容词“完美的”，因此填入 `perfect sunrise`。"
+     },
+     {
+      "id": "7_sub_2",
+      "content": "午饭后，我该喝养生茶，不喝咖啡了。\n\nI started drinking herbal tea instead of coffee {{__BLANK_1__}}. (lunch)",
+      "options": [],
+      "answer": "after lunch",
+      "analysis": "根据中文提示，“午饭后”是时间状语。`after` 是介词“在...之后”，所以填入 `after lunch`。"
+     },
+     {
+      "id": "7_sub_3",
+      "content": "小明教会了我如何使用英文词典。\n\nXiaoming taught me how {{__BLANK_1__}} an English dictionary.(use)",
+      "options": [],
+      "answer": "to use",
+      "analysis": "本题考查 “疑问词 + to do” 结构，在句中作宾语。`how to use` 表示“如何使用”。"
+     },
+     {
+      "id": "7_sub_4",
+      "content": "你能保持安静吗?我需要集中精力。\n\nCan you {{__BLANK_1__}}?I need to concentrate.(quiet)",
+      "options": [],
+      "answer": "keep/be quiet",
+      "analysis": "`keep quiet` 和 `be quiet` 都是“保持安静”的固定搭配。`quiet` 是形容词。"
+     },
+     {
+      "id": "7_sub_5",
+      "content": "依靠每天用语言应用软件打卡，詹姆斯的汉语水平稳步提升。\n\nJame's Chinese is {{__BLANK_1__}} through daily practice with language apps.(improve)",
+      "options": [],
+      "answer": "steadily improving/improving steadily",
+      "analysis": "根据中文“稳步提升”，表示一个正在进行的、持续的进步，应用现在进行时 `is improving`。`steadily` 是副词“稳步地”，可以放在动词前或动词后。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2025湖北普通专升本英语真题答案.pdf",
+     "fileId": "2013977015879958529",
+     "originalNumber": "PartV"
+    },
+    "originalNumber": 7
+   },
+   {
+    "id": 8,
+    "type": "写作题",
+    "content": "国外某乐队想参加在东湖举办的音乐节，请你以委员会成员李华的名义写一封邮件，要求如下：\n\n1. 表示欢迎。\n2. 说明音乐会将在7.18-20举行。\n3. 请艺术团准备2-3个节目参加表演。",
+    "options": [],
+    "answer": "Dear Music Artists,\n\nOn behalf of the East Lake Music Festival Committee, we are pleased to invite your group to perform at this year's festival. The event will take place from July 18th to 20th, and we kindly invite you to prepare 2-3 wonderful performances. Should you require any assistance, please don't hesitate to contact us.\n\nLooking forward to your wonderful participation!\n\nBest regards, Li Hua",
+    "analysis": "这是一篇邀请邮件，结构应清晰，包含所有要点。\n1. **称呼**: `Dear Music Artists,`，对乐队的礼貌称呼。\n2. **开篇及欢迎**: `On behalf of the East Lake Music Festival Committee, we are pleased to invite your group to perform at this year's festival.` 开门见山，代表委员会表示欢迎和邀请。\n3. **告知活动详情**: `The event will take place from July 18th to 20th,` 明确说明音乐节的时间。\n4. **提出要求**: `...and we kindly invite you to prepare 2-3 wonderful performances.` 告知对方需要准备的节目数量。\n5. **提供帮助与结束语**: `Should you require any assistance, please don't hesitate to contact us.` 提供帮助的途径，表示友好。`Looking forward to your wonderful participation!` 表达期待。\n6. **落款**: `Best regards, Li Hua`，使用标准的邮件结尾和署名。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2025湖北普通专升本英语真题答案.pdf",
+     "fileId": "2013977015879958529",
+     "originalNumber": "43"
+    },
+    "originalNumber": 8
+   }
+  ]
+ }
+}

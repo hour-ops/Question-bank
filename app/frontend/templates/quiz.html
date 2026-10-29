@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 刷题</title>
+<link rel="stylesheet" href="/static/css/app.css">
+<style>
+  /* 进度条：让"我在第几题、还剩多少"一眼可见 */
+  .progbar{height:6px;background:#e8eaee;border-radius:3px;overflow:hidden;margin:2px 0 12px}
+  .progbar > i{display:block;height:100%;width:0;background:#1f5fa8;transition:width .25s ease}
+  .score-big{font-size:19px;font-weight:700;margin:6px 0}
+  .score-big .ok{color:#2f7d47}
+  .score-big .bad{color:#c9302c}
+  .kbd{display:inline-block;border:1px solid #c9ced6;border-bottom-width:2px;border-radius:4px;
+       padding:0 5px;font-family:Consolas,Menlo,monospace;font-size:12px;background:#fafbfc}
+  /* 「这题要干嘛」——每题必显的作答指引 */
+  .howto{background:#fffbf0;border-left:3px solid #e8b53a;padding:8px 12px;border-radius:5px;
+         font-size:14px;color:#7a5a10;margin:0 0 12px}
+  /* 连词成句：单词以**空格分隔的词卡**呈现（源站用逗号分隔，不符合英语书写规范）；
+     词卡**可点击**直接填入作答框（用户要求不用每个单词都手打），键盘输入同样保留。 */
+  .wordchips{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 10px}
+  .wordchips span.chip{background:#eef3fa;border:1px solid #cfe0f5;border-radius:6px;
+                  padding:5px 13px;font-size:17px;font-family:Consolas,Menlo,monospace;
+                  cursor:pointer;user-select:none;transition:background .12s,transform .06s}
+  .wordchips span.chip:hover{background:#dceafc;border-color:#9dc0ea}
+  .wordchips span.chip:active{transform:scale(.96)}
+  .wordchips span.chip:focus{outline:2px solid #1f5fa8;outline-offset:1px}
+  .wordchips span.chip.used{background:#eef7f0;border-color:#a9d5b6;color:#4a7a58}
+  .wordchips span.blank{border-style:dashed;color:#9aa3b0;font-size:13px;padding:6px 10px;cursor:default}
+  /* 阅读材料整块显示（用户要求：阅读填空这类本身就是整块，不要拆开） */
+  .material{background:#f7f9fc;border:1px solid #dbe3ee;border-radius:8px;padding:12px 15px;
+            margin:0 0 12px;max-height:46vh;overflow:auto;font-size:15px;line-height:1.85;white-space:pre-wrap}
+  .material-head{font-size:12.5px;color:#5b6b85;font-weight:600;margin-bottom:8px;display:flex;gap:10px;flex-wrap:wrap}
+  .material-body{white-space:pre-wrap;word-break:break-word}
+  /* 需求 5：来源徽标「显示/隐藏」开关 —— 勾选时正常显示，取消勾选只隐藏徽标本身，
+     科目/题型/难度/知识点照旧。分隔符由 ::before 生成，所以徽标藏起来后不会留下多余的「·」。 */
+  #qMeta .meta-item + .meta-item::before{content:" · "}
+  body.hide-badges #qMeta .src-badge{display:none}
+  /* 需求 3：本轮错题列表（每行=题号+题型+题干前 30 字+跳回按钮） */
+  .wrong-list{list-style:none;margin:0;padding:0}
+  .wrong-list li{display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+                 padding:7px 0;border-top:1px solid #eef1f5}
+  .wrong-list li:first-child{border-top:0}
+  .wrong-no{font-size:12px;font-weight:600;color:#c9302c;min-width:56px}
+  .wrong-stem{flex:1 1 220px;min-width:0;font-size:13px;word-break:break-word}
+  /* 需求 7：解析被隐藏时（非真题 / 用户关了开关）只留参考答案 + 一行浅色小字，
+     说清"为什么没有解析"，避免让人误以为题目缺数据。 */
+  #qExplain.explain-hidden{background:transparent;border-style:dotted;color:#8a93a3;
+                           font-size:12.5px;font-weight:400;line-height:1.75}
+</style>
+</head>
+<body data-page="quiz"
+      data-subject="{{ subject }}" data-type="{{ qtype }}"
+      data-difficulty="{{ difficulty }}" data-status="{{ status }}" data-trust="{{ trust }}"
+      data-kp="{{ kp }}" data-exam="{{ exam }}" data-wrong="{{ wrong }}">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">刷题</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz" class="active">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <form class="card filters" method="get" action="/quiz">
+    {% if exam %}<input type="hidden" name="exam" value="{{ exam }}">{% endif %}
+    <label>科目
+      <select name="subject">
+        <option value="">全部</option>
+        {% for k, v in subject_labels.items() %}
+        <option value="{{ k }}" {% if subject == k %}selected{% endif %}>{{ v }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>题型
+      <select name="type">
+        <option value="">全部</option>
+        {% for k, lst in qtypes.items() %}
+        <optgroup label="{{ subject_labels.get(k, k) }}">
+          {% for t in lst %}
+          <option value="{{ t.key }}" {% if qtype == t.key %}selected{% endif %}>{{ t.name }}</option>
+          {% endfor %}
+        </optgroup>
+        {% endfor %}
+      </select>
+    </label>
+    <label>难度
+      <select name="difficulty">
+        <option value="">全部</option>
+        {% for d in ["易", "中", "难"] %}
+        <option value="{{ d }}" {% if difficulty == d %}selected{% endif %}>{{ d }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>状态
+      <select name="status">
+        <option value="">全部</option>
+        {% for s in question_statuses %}
+        <option value="{{ s }}" {% if status == s %}selected{% endif %}>{{ s }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>来源
+      <select name="trust">
+        <option value="">全部来源</option>
+        <option value="real" {% if trust == 'real' %}selected{% endif %}>✅ 只看真题/教材题</option>
+        <option value="generated" {% if trust == 'generated' %}selected{% endif %}>🤖 只看 AI 生成题</option>
+        {% for k, v in trust_levels.items() %}
+        <option value="{{ k }}" {% if trust == k %}selected{% endif %}>— {{ v }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <button class="btn btn-primary" type="submit">筛选</button>
+    <!-- 需求 5：来源徽标的显示开关（默认勾选）。不带 name，所以不会作为筛选参数提交给后端。 -->
+    <label class="chk" title="取消勾选只是不显示来源徽标，科目 / 题型 / 难度 / 知识点照常显示">
+      <input type="checkbox" id="chkShowBadge" checked> 显示来源徽标（真题/模拟/生成）
+    </label>
+    <span class="muted small">单选即跳 · Ctrl+Enter 提交 · 回车下一题 · 45px 最小点击区</span>
+  </form>
+
+  {% if exam %}
+  <p class="mock-banner">
+    <b>模拟题模式</b>：当前只出「{{ exam }}」这份题库里的题（题库作者：考试宝用户上传）。
+    答案与解析来自该题库，<b>解析是网站用 AI 生成的，不是阿里云官方答案</b>，请以官方考纲为准。
+    <a href="/quiz?subject=aca_llm">退出模拟题</a>
+  </p>
+  {% endif %}
+
+  <section class="card" id="quizCard">
+    <div class="quiz-head">
+      <span class="pill" id="qIndex">—</span>
+      <span class="pill" id="qMeta">加载中…</span>
+      <span class="due-flag" id="qDue" hidden>待复习</span>
+      <span class="spacer"></span>
+      <!-- 需求 7：解析显示开关（默认勾选，状态存 localStorage `tku.showExplanation`）。
+           不带 name，所以不会被筛选表单当成参数提交；与上面的「显示来源徽标」是两回事。 -->
+      <label class="chk" title="解析只在真题 / 教材校考真题上显示；取消勾选后即便是真题也只显示参考答案">
+        <input type="checkbox" id="chkShowExplain" checked> 显示解释（仅真题有）
+      </label>
+      <button class="btn btn-small" id="btnZh" type="button" hidden>显示译文</button>
+      <button class="btn btn-small" id="btnPrev" type="button">← 上一题</button>
+      <button class="btn btn-small" id="btnSkip" type="button">跳过</button>
+    </div>
+
+    <div class="progbar"><i id="qProgBarFill"></i></div>
+
+    <div class="quiz-body">
+      <div class="material" id="qMaterial" hidden></div>
+      <div class="howto" id="qHow" hidden></div>
+      <p class="stem" id="qStem">正在加载题目…</p>
+      <div class="zh-box" id="qZh" hidden></div>
+      <div class="wordchips" id="qWords" hidden></div>
+      <div id="qOptions" class="options"></div>
+      <div id="qSubjective" class="subjective" hidden>
+        <textarea id="qAnswer" rows="6" placeholder="在此作答（写作 / 翻译 / 改错 / 编程题）"></textarea>
+        <p class="row">
+          <button class="btn btn-primary btn-wide" id="btnSubmitText" type="button">提交本题</button>
+        </p>
+        <p class="muted small">
+          快捷键：<span class="kbd">Ctrl</span>+<span class="kbd">Enter</span> 提交 ·
+          提交后 <span class="kbd">Enter</span> 直接下一题 · 输入框已自动聚焦，手不用碰鼠标
+        </p>
+        <p class="muted small">提交后会**当场 AI 判分**并显示得分与参考答案（不再需要另外触发）。</p>
+      </div>
+      <div id="qFeedback" class="feedback" hidden></div>
+      <div id="qExplain" class="explain" hidden></div>
+    </div>
+
+    <div class="quiz-foot">
+      <span class="muted small" id="qProgress"></span>
+      <span class="spacer"></span>
+      <span class="muted small" id="qStatus">就绪</span>
+    </div>
+  </section>
+
+  <!-- 需求 3：本轮错题列表（答错的题一键跳回；内容由 quiz.js 的 renderWrongList() 渲染） -->
+  <section class="card" id="wrongListCard">
+    <h1>本轮错题 <span class="muted small" id="wrongListCount"></span></h1>
+    <ul class="wrong-list" id="wrongList"><li class="muted small">本轮暂无错题</li></ul>
+    <p class="muted small">答错的题会出现在这里，点「跳回」直接回到那道题看参考答案（解析只在真题 / 教材真题上显示）。</p>
+  </section>
+
+  <section class="card" id="roundSummary" hidden>
+    <h1>本轮战果</h1>
+    <div id="roundSummaryBody"></div>
+    <p class="row">
+      <button class="btn btn-primary" id="btnRedoWrong" type="button">重做本轮错题</button>
+      <button class="btn" id="btnNewRound" type="button">再来一轮</button>
+      <a class="btn" href="/history">看判分记录</a>
+    </p>
+  </section>
+
+  <section class="card">
+    <h1>本次答题记录</h1>
+    <table class="data">
+      <thead><tr><th>题号</th><th>科目</th><th>作答</th><th>提交状态</th><th>时间</th></tr></thead>
+      <tbody id="attemptLog"><tr><td colspan="5" class="muted">尚无</td></tr></tbody>
+    </table>
+  </section>
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script>window.TKU_TYPE_NAMES = {{ type_names | tojson }};
+window.TKU_TYPE_META = {{ type_meta | tojson }};</script>
+<script src="/static/js/app.js"></script>
+<script src="/static/js/quiz.js"></script>
+</body>
+</html>

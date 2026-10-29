@@ -1,0 +1,2412 @@
+{
+ "id": 110,
+ "title": "河北专升本英语25",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:41:32",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省 2025 年普通高校专科接本科教育选拔考试",
+   "subject": "英语",
+   "province": "河北省",
+   "year": 2025,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "63ea36dd-7da9-431b-88b8-69cc8cab9201"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "语音题",
+    "partLabel": "I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In each of the following groups of words, there are 4 underlined letters or letter combinations marked A, B, C and D. Compare the underlined parts and identify the ONE that is different from the others in pronunciation. Then mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q1",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. m<u>a</u>tch"
+        },
+        {
+         "key": "B",
+         "label": "B. b<u>a</u>lance"
+        },
+        {
+         "key": "C",
+         "label": "C. d<u>a</u>nger"
+        },
+        {
+         "key": "D",
+         "label": "D. intern<u>a</u>tional"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q1",
+       "type": "exact",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "danger 中对应字母组合发 /eɪ/，其余三项对应部分发 /æ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. danger"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q2",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. h<u>ea</u>vy"
+        },
+        {
+         "key": "B",
+         "label": "B. br<u>ea</u>the"
+        },
+        {
+         "key": "C",
+         "label": "C. s<u>ea</u>son"
+        },
+        {
+         "key": "D",
+         "label": "D. ch<u>ea</u>p"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q2",
+       "type": "exact",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "heavy 中对应字母组合发 /e/，其余三项发 /iː/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. heavy"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q3",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. pr<u>i</u>de"
+        },
+        {
+         "key": "B",
+         "label": "B. surpr<u>i</u>se"
+        },
+        {
+         "key": "C",
+         "label": "C. fl<u>i</u>ght"
+        },
+        {
+         "key": "D",
+         "label": "D. br<u>i</u>dge"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q3",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "bridge 中对应字母发 /ɪ/，其余三项都发 /aɪ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. bridge"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q4",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. lam<u>b</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. clu<u>b</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. clim<u>b</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. de<u>b</u>t"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q4",
+       "type": "exact",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "club 中词尾 b 发音，其余三项词尾 b 不发音。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. club"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q5",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. explain<u>ed</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. hop<u>ed</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. chang<u>ed</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. dream<u>ed</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q5",
+       "type": "exact",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "hoped 的 -ed 发 /t/，其余三项的 -ed 都发 /d/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. hoped"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "cloze",
+    "displayName": "情景对话",
+    "partLabel": "II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Then mark the corresponding letter on the Answer Sheet with a single line through the centre. Note that there are two additional choices and you can not use any of the choices in the list more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. When was the last time you went out with friends?"
+     },
+     {
+      "key": "B",
+      "label": "B. That's why I do it online."
+     },
+     {
+      "key": "C",
+      "label": "C. I'd like to see that."
+     },
+     {
+      "key": "D",
+      "label": "D. Why don't you join the college club?"
+     },
+     {
+      "key": "E",
+      "label": "E. I'm going out with some people from our course on Saturday."
+     },
+     {
+      "key": "F",
+      "label": "F. Which one do you like better?"
+     },
+     {
+      "key": "G",
+      "label": "G. I'm just playing an online game."
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Li Hua: Hi, Wang Jun. What are you doing?"
+       },
+       {
+        "type": "blank",
+        "key": "q6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": "Li Hua: You always sit inside playing games and going online. When was the last time you had a day without going online?\n\nWang Jun: I don't know. Probably six months ago.\n\nLi Hua: You should go out more. I'm meeting some friends for coffee now. Why don't you come?\n\nWang Jun: Thanks, but I'm fine here.\n\nLi Hua:"
+       },
+       {
+        "type": "blank",
+        "key": "q7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": "Wang Jun: Um. I went to Liu Ming's birthday party four weeks ago.\n\nLi Hua: And you haven't been out since then?\n\nWang Jun: No. I don't really enjoy it. I get nervous.\n\nLi Hua:"
+       },
+       {
+        "type": "blank",
+        "key": "q8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": "We're going for dinner. How about joining us?\n\nWang Jun: That's my worst nightmare! I feel nervous sitting in a small group making conversations.\n\nLi Hua: You could do something where you don't have to talk too much. You are a good football player."
+       },
+       {
+        "type": "blank",
+        "key": "q9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": "Wang Jun: Actually, that sounds like a good idea.\n\nLi Hua: OK, I'll pick up some information for you. Also, we're going to see the new movie Nezha II on Sunday.\n\nWang Jun:"
+       },
+       {
+        "type": "blank",
+        "key": "q10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": "I do need to get out more! Thank you.\n\nLi Hua: Welcome."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q6",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q6",
+       "type": "exact",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "上文问对方正在做什么，下文批评其总在室内打游戏上网，因此 G 最符合语境。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. I'm just playing an online game."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q7",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q7",
+       "type": "exact",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后文回答上次和朋友外出是在四周前，因此这里应询问上次和朋友出去是什么时候。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. When was the last time you went out with friends?"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q8",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q8",
+       "type": "exact",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "下一句紧接着说 We are going for dinner，可知这里先提出周六和同学一起外出的安排。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. I'm going out with some people from our course on Saturday."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q9",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q9",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前一句提到你足球踢得好，后一句说这个主意不错，因此应是建议加入学校俱乐部。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Why don't you join the college club?"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q10",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q10",
+       "type": "exact",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前文提到周日去看电影《哪吒 II》，空后说自己确实需要多出门，因此应答表示愿意去看。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. I'd like to see that."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III Section A Passage 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. Choose the ONE that best fits into the statement."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Questions 11-15 are based on the following passage."
+       },
+       {
+        "type": "markdown",
+        "value": "Diamond is the hardest material on Earth. Yet, gem cutters shape them. If diamonds are so hard, how do they cut them into shape? They use other diamonds of course!"
+       },
+       {
+        "type": "markdown",
+        "value": "Not all diamonds are the same. Some are harder than others. The hardness of a diamond depends on two things: its purity and its structure. Let's discuss purity first."
+       },
+       {
+        "type": "markdown",
+        "value": "Diamonds come in many colors: grey, white, yellow, blue, pink, purple, orange and black."
+       },
+       {
+        "type": "markdown",
+        "value": "Red diamonds are the rarest of all. This makes them worth a lot of money. Yet, pure diamonds are colorless. They are all carbon. They are transparent like glass."
+       },
+       {
+        "type": "markdown",
+        "value": "Colors found in diamonds come from impurities. They have another element besides carbon. They have a carbon defect. For example, yellow diamonds have nitrogen in them. The nitrogen is yellow. Blue diamonds have boron trapped in their crystal structure. The boron is blue."
+       },
+       {
+        "type": "markdown",
+        "value": "The purity or color of a diamond is important to its hardness. Pure diamonds are harder than impure diamonds. But purity isn't the only thing that matters. Structure also affects hardness."
+       },
+       {
+        "type": "markdown",
+        "value": "The carbon atoms in a diamond are arranged in a crystal structure. Some crystal structures are perfect. A diamond with a perfect crystal structure is harder than one with flaws. So pure, colorless crystal diamonds are the hardest of all."
+       },
+       {
+        "type": "markdown",
+        "value": "Good gemstones should be hard. This is what makes diamonds so great for jewelry. Some gems, such as azurite, are soft and easy to scratch. Azurite looks pretty, but it will scratch if worn daily. Diamonds do not scratch easily. Only a diamond can scratch another diamond."
+       },
+       {
+        "type": "markdown",
+        "value": "That's why you can wear a diamond ring while doing chores, if you want. The gem will not need polishing. Just don't go fist bumping other people with fancy engagement rings. It will end badly."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What are the two factors that determine a diamond's hardness according to the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q11",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Structure and shape."
+        },
+        {
+         "key": "B",
+         "label": "B. Color and shape."
+        },
+        {
+         "key": "C",
+         "label": "C. Purity and structure."
+        },
+        {
+         "key": "D",
+         "label": "D. Purity and color."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q11",
+       "type": "exact",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段直接指出 diamond 的 hardness depends on its purity and its structure。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Purity and structure."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why are red diamonds worth so much money?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q12",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. They have the highest purity of all diamonds."
+        },
+        {
+         "key": "B",
+         "label": "B. They are the rarest of all diamonds."
+        },
+        {
+         "key": "C",
+         "label": "C. They are soft and easy to shape."
+        },
+        {
+         "key": "D",
+         "label": "D. They are the hardest diamond of all."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q12",
+       "type": "exact",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章明确说 Red diamonds are the rarest of all, 所以价值很高。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. They are the rarest of all diamonds."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which type of diamond does not have a carbon defect?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q13",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Red diamond."
+        },
+        {
+         "key": "B",
+         "label": "B. Blue diamond."
+        },
+        {
+         "key": "C",
+         "label": "C. Yellow diamond."
+        },
+        {
+         "key": "D",
+         "label": "D. Pure diamond."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q13",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说 pure diamonds are all carbon，而带颜色的钻石含有杂质或 defect。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Pure diamond."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is TRUE according to the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q14",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Azurite is much harder than diamond."
+        },
+        {
+         "key": "B",
+         "label": "B. Diamond is much prettier than azurite."
+        },
+        {
+         "key": "C",
+         "label": "C. Azurite is much prettier than diamond."
+        },
+        {
+         "key": "D",
+         "label": "D. Diamond is much harder than azurite."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q14",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章说 azurite is soft and easy to scratch，而 diamond is the hardest material on Earth。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Diamond is much harder than azurite."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "In this passage, the author is trying to"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q15",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. explain features of diamonds."
+        },
+        {
+         "key": "B",
+         "label": "B. persuade readers to purchase diamonds."
+        },
+        {
+         "key": "C",
+         "label": "C. describe how diamonds are mined."
+        },
+        {
+         "key": "D",
+         "label": "D. argue that diamonds cost too much money."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q15",
+       "type": "exact",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文围绕钻石的硬度、纯度、结构和用途展开，是说明性文字。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. explain features of diamonds."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III Section A Passage 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. Choose the ONE that best fits into the statement."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Questions 16-20 are based on the following passage."
+       },
+       {
+        "type": "markdown",
+        "value": "Imagine that you get an email one morning. You click the link in the email. It takes you to a site that looks very much like your bank's. You enter your username and password. You submit the form. You've just been phished!"
+       },
+       {
+        "type": "markdown",
+        "value": "Phishing is a type of attack that happens over the Internet. Users receive an email or text message that seems like it came from a trusted source. These users are being cheated. They are interacting with dangerous hackers. The attackers copy trusted companies. They send users to web pages that look like the ones we use every day. When users login or provide sensitive information, the attackers steal this data."
+       },
+       {
+        "type": "markdown",
+        "value": "Attackers want your data for many reasons. They may use your data to commit identity fraud. This is when they use your identity to buy something with your credit. Then they receive the goods and you receive the bill. Or they may want your password to take over a computer network. They may want access to private emails. They may want customer records. They gain access by tricking people into giving them their login information."
+       },
+       {
+        "type": "markdown",
+        "value": "Phishing attacks are dangerous, but you can spot them if you pay attention. One thing to watch is your address bar in your browser. Attackers use domains that look like the ones that we trust, but they are not the same. If you are unsure, search for the site and login from the root domain."
+       },
+       {
+        "type": "markdown",
+        "value": "An even better way to secure your account against phishing attacks is to use 2FA: two factor authentication. 2FA means that your account is secured with two keys. The first is your password. The second key is a random code that changes every few minutes."
+       },
+       {
+        "type": "markdown",
+        "value": "Phishing attacks are scary and common. The reason why they are common is that they are effective. Many people accept appearances with no doubt. Browsing the Internet safely requires a healthy amount of suspicion. Nobody is trying to give you free money."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How do phishing attackers obtain users' data?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q16",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. When users receive an email from the attackers."
+        },
+        {
+         "key": "B",
+         "label": "B. When users are interested in the web pages."
+        },
+        {
+         "key": "C",
+         "label": "C. When users login or provide sensitive information."
+        },
+        {
+         "key": "D",
+         "label": "D. When users click the link in an email from the attackers."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q16",
+       "type": "exact",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段明确指出，当用户登录或提供敏感信息时，攻击者就会窃取数据。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. When users login or provide sensitive information."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which is NOT a motive or reason for phishing mentioned in the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q17",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. To steal customer records."
+        },
+        {
+         "key": "B",
+         "label": "B. To commit identity fraud."
+        },
+        {
+         "key": "C",
+         "label": "C. To gain control of someone else's computer network."
+        },
+        {
+         "key": "D",
+         "label": "D. To attack the dangerous hackers."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q17",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章列举了身份盗用、控制网络、获取私密邮件和客户记录，没有提到攻击黑客本身。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. To attack the dangerous hackers."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is the main idea of Paragraph 4?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q18",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. To describe the reasons for phishing attacks."
+        },
+        {
+         "key": "B",
+         "label": "B. To teach readers how to spot phishing attacks."
+        },
+        {
+         "key": "C",
+         "label": "C. To help users design their passwords."
+        },
+        {
+         "key": "D",
+         "label": "D. To tell readers phishing attacks happen every day."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q18",
+       "type": "exact",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第四段讲的是如何识别钓鱼网站，比如观察地址栏、从根域名重新登录。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. To teach readers how to spot phishing attacks."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How can 2FA protect users from phishing attacks?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q19",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Users need two keys to login, and the user can't give away one of the keys."
+        },
+        {
+         "key": "B",
+         "label": "B. The attacker needs a fingerprint or eyeball scan to access the account."
+        },
+        {
+         "key": "C",
+         "label": "C. Nobody can log into the account under any circumstances."
+        },
+        {
+         "key": "D",
+         "label": "D. Two people have to approve the login, so the attacker can't do it alone."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q19",
+       "type": "exact",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "2FA 需要密码和动态验证码两把钥匙，攻击者即使骗到密码也更难完成登录。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Users need two keys to login, and the user can't give away one of the keys."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is TRUE according to the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "q20",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Every phishing attack involves deleting the victim's identity to commit fraud."
+        },
+        {
+         "key": "B",
+         "label": "B. In a phishing attack, an attacker controls a victim with a stronger computer."
+        },
+        {
+         "key": "C",
+         "label": "C. You should check your bank account carefully before submitting your data."
+        },
+        {
+         "key": "D",
+         "label": "D. If a phishing attack is successful, users willingly give attackers sensitive data."
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q20",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中强调攻击者通过伪装和诱导让用户自己提交登录信息和敏感数据。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. If a phishing attack is successful, users willingly give attackers sensitive data."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "cloze",
+    "displayName": "阅读理解 Section B",
+    "partLabel": "III Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a passage with 10 blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choice. Each choice in the blank is identified by a letter. You may not use any of the words in the bank more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. thoughtful"
+     },
+     {
+      "key": "B",
+      "label": "B. able"
+     },
+     {
+      "key": "C",
+      "label": "C. respected"
+     },
+     {
+      "key": "D",
+      "label": "D. aware"
+     },
+     {
+      "key": "E",
+      "label": "E. ability"
+     },
+     {
+      "key": "F",
+      "label": "F. impact"
+     },
+     {
+      "key": "G",
+      "label": "G. individuals"
+     },
+     {
+      "key": "H",
+      "label": "H. unfortunately"
+     },
+     {
+      "key": "I",
+      "label": "I. difficult"
+     },
+     {
+      "key": "J",
+      "label": "J. developing"
+     },
+     {
+      "key": "K",
+      "label": "K. attitude"
+     },
+     {
+      "key": "L",
+      "label": "L. communicate"
+     },
+     {
+      "key": "M",
+      "label": "M. critical"
+     },
+     {
+      "key": "N",
+      "label": "N. developed"
+     },
+     {
+      "key": "O",
+      "label": "O. successfully"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Emotional intelligence, often referred to as EQ or EI, is the ability to recognize and understand our own emotions. It goes beyond simple self-awareness and involves being"
+       },
+       {
+        "type": "blank",
+        "key": "q21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": "of how our emotions impact ourselves and others."
+       },
+       {
+        "type": "markdown",
+        "value": "Developing emotional intelligence is the first step towards better self-management and relationship management skills. Having a high EQ can have a significant"
+       },
+       {
+        "type": "blank",
+        "key": "q22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": "on job satisfaction and workplace morale. By"
+       },
+       {
+        "type": "blank",
+        "key": "q23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": "self-awareness, self-regulation, and social awareness, individuals with high emotional intelligence can deal with stressful situations"
+       },
+       {
+        "type": "blank",
+        "key": "q24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": "provide constructive advice, and demonstrate sympathy towards others. Business leaders with strong emotional intelligence can"
+       },
+       {
+        "type": "blank",
+        "key": "q25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": "effectively, and manage setbacks, biases, and even workplace gossip. Leaders who possess high emotional intelligence tend to be more efficient and"
+       },
+       {
+        "type": "blank",
+        "key": "q26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": "in the workplace. EI not only enhances communication but also reduces conflicts among team members. It plays a"
+       },
+       {
+        "type": "blank",
+        "key": "q27",
+        "placeholder": "27"
+       },
+       {
+        "type": "markdown",
+        "value": "part in helping professionals express themselves clearly and concisely, enabling them to build strong relationships with clients and prospects."
+       },
+       {
+        "type": "markdown",
+        "value": "EI can be formed and enhanced over time. It differs from intellectual intelligence, or IQ, as it centers around social skills and the"
+       },
+       {
+        "type": "blank",
+        "key": "q28",
+        "placeholder": "28"
+       },
+       {
+        "type": "markdown",
+        "value": "to understand and manage emotions effectively. Developing and improving EI skills can help"
+       },
+       {
+        "type": "blank",
+        "key": "q29",
+        "placeholder": "29"
+       },
+       {
+        "type": "markdown",
+        "value": "recover from communication barriers and promote healthier relationships in both personal and professional settings."
+       },
+       {
+        "type": "markdown",
+        "value": "All in all, emotional intelligence equips you with the tools and awareness needed for more effective communication, ensuring your messages are clear, your responses are"
+       },
+       {
+        "type": "blank",
+        "key": "q30",
+        "placeholder": "30"
+       },
+       {
+        "type": "markdown",
+        "value": "and your interactions are more meaningful."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q21",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q21",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "be aware of 是固定搭配，表示"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "意识到。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q22",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q22",
+       "type": "exact",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "have a significant impact on 是固定搭配，表示"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "对……有重大影响。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q23",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q23",
+       "type": "exact",
+       "value": "J"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "介词 By 后接动名词，developing self-awareness 语法和语义都成立。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "J. developing"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q24",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q24",
+       "type": "exact",
+       "value": "O"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空处需要副词修饰 deal with stressful situations，successfully 最合适。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "O. successfully"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q25",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q25",
+       "type": "exact",
+       "value": "L"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "can 后接动词原形，communicate effectively 表意完整。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "L. communicate"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q26",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q26",
+       "type": "exact",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "be efficient and respected 搭配自然，表示在职场中更高效、更受尊重。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. respected"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q27",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q27",
+       "type": "exact",
+       "value": "M"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "play a critical part in 是固定表达，表示"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "起关键作用。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q28",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q28",
+       "type": "exact",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "the ability to do sth. 表示"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "做某事的能力。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q29",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q29",
+       "type": "exact",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "help individuals recover from communication barriers 语义最完整。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. individuals"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q30",
+       "type": "single_choice"
+      },
+      "answerSpec": {
+       "target": "q30",
+       "type": "exact",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "responses are thoughtful 表示回应周到审慎，与后文更有意义的交流呼应。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. thoughtful"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "完形填空",
+    "partLabel": "IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Have you ever been in a conversation where the other person wasn't really listening to what you were saying? Maybe they were distracted"
+       },
+       {
+        "type": "blank",
+        "key": "q31",
+        "placeholder": "31"
+       },
+       {
+        "type": "markdown",
+        "value": "about their own response, or just not interested. It is annoying and even discouraging. But active listening is a way to ensure that all parties are heard and understood."
+       },
+       {
+        "type": "markdown",
+        "value": "Active listening is a skill that requires focus, patience, and"
+       },
+       {
+        "type": "blank",
+        "key": "q32",
+        "placeholder": "32"
+       },
+       {
+        "type": "markdown",
+        "value": "open mind. Here, we will discuss the basic elements of active listening, techniques to become an active listener, and why it's important in our daily life."
+       },
+       {
+        "type": "markdown",
+        "value": "Active listening is a practice that promotes mutual understanding and effective communication. It involves focusing"
+       },
+       {
+        "type": "blank",
+        "key": "q33",
+        "placeholder": "33"
+       },
+       {
+        "type": "markdown",
+        "value": "the speaker and fully comprehending their message. This goes beyond just hearing; it"
+       },
+       {
+        "type": "blank",
+        "key": "q34",
+        "placeholder": "34"
+       },
+       {
+        "type": "markdown",
+        "value": "engagement and attention to detail. By actively listening, we show respect to the speaker and create an environment"
+       },
+       {
+        "type": "blank",
+        "key": "q35",
+        "placeholder": "35"
+       },
+       {
+        "type": "markdown",
+        "value": "open and honest communication can continue smoothly."
+       },
+       {
+        "type": "markdown",
+        "value": "Being present is vital when practicing active listening,"
+       },
+       {
+        "type": "blank",
+        "key": "q36",
+        "placeholder": "36"
+       },
+       {
+        "type": "markdown",
+        "value": "it involves being fully engaged in the conversation. Non-verbal clues, such as body language and facial expressions, play a significant"
+       },
+       {
+        "type": "blank",
+        "key": "q37",
+        "placeholder": "37"
+       },
+       {
+        "type": "markdown",
+        "value": "in enhancing active listening by providing context and aiding in the explanation of the speaker's message. Maintaining eye contact demonstrates respect, interest, and attentiveness towards the speaker, while body language can show emotions, attitudes, and intentions that words may not express. Active listening calls for giving undivided attention and avoiding distractions, ensuring that the speaker feels"
+       },
+       {
+        "type": "blank",
+        "key": "q38",
+        "placeholder": "38"
+       },
+       {
+        "type": "markdown",
+        "value": "and heard. By using these basic elements, we can truly connect with others and make effective communication."
+       },
+       {
+        "type": "markdown",
+        "value": "Active listening techniques are essential for"
+       },
+       {
+        "type": "blank",
+        "key": "q39",
+        "placeholder": "39"
+       },
+       {
+        "type": "markdown",
+        "value": "deeper conversations and effective problem-solving. These techniques include:\n- Asking open-ended questions;\n- Reflecting on and paraphrasing what is heard;\n- Listening"
+       },
+       {
+        "type": "blank",
+        "key": "q40",
+        "placeholder": "40"
+       },
+       {
+        "type": "markdown",
+        "value": "without interrupting.\n\nThese techniques, when practiced, enhance the quality of interactions and strengthen relationships. Adding these techniques to your listening skills can have a great influence on your communication abilities."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q31",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. think"
+        },
+        {
+         "key": "B",
+         "label": "B. thinking"
+        },
+        {
+         "key": "C",
+         "label": "C. thinks"
+        },
+        {
+         "key": "D",
+         "label": "D. thought"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q31",
+       "type": "exact",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "be distracted thinking about sth. 符合句意，动名词作伴随状态。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. thinking"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q32",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. a"
+        },
+        {
+         "key": "B",
+         "label": "B. the"
+        },
+        {
+         "key": "C",
+         "label": "C. an"
+        },
+        {
+         "key": "D",
+         "label": "D. /"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q32",
+       "type": "exact",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "open 以元音音素开头，前面应用 an。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. an"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q33",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. in"
+        },
+        {
+         "key": "B",
+         "label": "B. by"
+        },
+        {
+         "key": "C",
+         "label": "C. at"
+        },
+        {
+         "key": "D",
+         "label": "D. on"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q33",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "focus on the speaker 是固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. on"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q34",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. requires"
+        },
+        {
+         "key": "B",
+         "label": "B. retires"
+        },
+        {
+         "key": "C",
+         "label": "C. acquires"
+        },
+        {
+         "key": "D",
+         "label": "D. admires"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q34",
+       "type": "exact",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句意是"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "它需要投入和关注细节，requires 最符合上下文。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q35",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. why"
+        },
+        {
+         "key": "B",
+         "label": "B. where"
+        },
+        {
+         "key": "C",
+         "label": "C. which"
+        },
+        {
+         "key": "D",
+         "label": "D. what"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q35",
+       "type": "exact",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "先行词是 environment，关系副词 where 引导定语从句。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. where"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q36",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. as"
+        },
+        {
+         "key": "B",
+         "label": "B. whether"
+        },
+        {
+         "key": "C",
+         "label": "C. but"
+        },
+        {
+         "key": "D",
+         "label": "D. if"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q36",
+       "type": "exact",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "as 在此表示"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "因为，说明前句原因。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q37",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. choice"
+        },
+        {
+         "key": "B",
+         "label": "B. advice"
+        },
+        {
+         "key": "C",
+         "label": "C. benefit"
+        },
+        {
+         "key": "D",
+         "label": "D. role"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q37",
+       "type": "exact",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "play a significant role in 是固定表达。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. role"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q38",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. value"
+        },
+        {
+         "key": "B",
+         "label": "B. valued"
+        },
+        {
+         "key": "C",
+         "label": "C. valuing"
+        },
+        {
+         "key": "D",
+         "label": "D. valuable"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q38",
+       "type": "exact",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "feel valued and heard 是常见搭配，表示"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "感到被重视、被倾听。"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q39",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. promoted"
+        },
+        {
+         "key": "B",
+         "label": "B. promotion"
+        },
+        {
+         "key": "C",
+         "label": "C. promoting"
+        },
+        {
+         "key": "D",
+         "label": "D. promote"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q39",
+       "type": "exact",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "for 后接动名词，promoting deeper conversations 语法正确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. promoting"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "target": "q40",
+       "type": "single_choice",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. patiently"
+        },
+        {
+         "key": "B",
+         "label": "B. obviously"
+        },
+        {
+         "key": "C",
+         "label": "C. immediately"
+        },
+        {
+         "key": "D",
+         "label": "D. apparently"
+        }
+       ]
+      },
+      "answerSpec": {
+       "target": "q40",
+       "type": "exact",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Listening patiently without interrupting 与主动倾听主题完全一致。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. patiently"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "V",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this part you are required to write a composition entitled My Major in no less than 100 words according to the given Chinese outline."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Write a composition entitled **My Major** in no less than 100 words according to the following Chinese outline:\n1. 简单描述你所学的专业；\n2. 你选择该专业的原因；\n3. 你的努力方向。"
+        }
+       ]
+      },
+      "interaction": {
+       "target": "essay1",
+       "minWords": 100,
+       "type": "long_text",
+       "placeholder": "请在此作答"
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作文需覆盖专业介绍、选择原因和今后努力方向三点，语言连贯、结构完整、词数达到要求。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My Major\n\nMy major is English. It focuses on language skills, literature, translation and practical communication. Through my courses, I learn how to listen, speak, read and write better, and I also gain a broader understanding of different cultures.\n\nI chose this major because I have always been interested in languages. English is widely used in study, work and international communication, so I believe it can open more doors for my future. I also enjoy expressing ideas clearly and helping others communicate.\n\nIn the future, I will work harder on vocabulary, speaking and translation. I hope to build solid professional skills and become a useful person in education, trade or cultural exchange."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

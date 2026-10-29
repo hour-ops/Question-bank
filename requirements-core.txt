@@ -1,0 +1,30 @@
+# 题库项目 · 核心运行依赖（**做题 / 组卷 / 判分 / 统计全都够用**）
+#
+# 用途：便携版「安装依赖.bat」装这一份即可，比旧的 requirements.txt（77 个包、含
+# onnxruntime/pandas/numpy/sympy/magika 等 500+ MB 的无关依赖）小得多、快得多。
+#
+# 版本号与 requirements.txt 保持一致（避免版本漂移）。
+# 依赖关系说明（谁需要谁）：
+#   Flask        ← app/backend/app.py（网页版）
+#   openai       ← 判分/生成（scripts/sync_outbox.py、auto_review.py、validate_and_fill.py…）
+#   requests     ← scripts/fetch.py 抓取
+#   beautifulsoup4 / lxml / chardet / RapidFuzz ← 解析与去重（parse_inbox.py、fetch.py）
+#   python-docx / python-pptx / openpyxl / reportlab / genanki / pdfplumber ← 组卷导出与素材解析
+#
+# ⚠️ pdfplumber 只在「导入 PDF 素材」这条路用（scripts/parse_inbox.py 里 try/except 导入），
+#    不需要导入 PDF 的话可以不装，见 requirements-parsing.txt。
+
+# jieba ← 知识库检索的中文分词（kb.py）；缺了它会 500，必须装
+jieba==0.42.1
+Flask==3.1.3
+openai==3.28.0
+requests==2.34.2
+beautifulsoup4==4.15.0
+lxml==6.1.3
+chardet==7.6.0
+RapidFuzz==3.14.6
+python-docx==1.2.0
+python-pptx==1.0.2
+openpyxl==3.1.5
+reportlab==5.0.1
+genanki==0.13.1

@@ -1,0 +1,830 @@
+{
+  "schema_version": "1.0",
+  "subject": "english",
+  "subject_name_cn": "英语（湖北专升本）",
+  "type": "dialogue",
+  "type_name_cn": "情景对话",
+  "how": "根据对话情境，从选项中选择最恰当的应答，把对话补全。",
+  "answer_label": "正确答案",
+  "knowledge_points": [
+    {
+      "id": "E-T13",
+      "name": "情景对话",
+      "dimension": "format",
+      "question_type": "dialogue",
+      "format_era": "hebei_2016_2025"
+    },
+    {
+      "id": "E-S12",
+      "name": "情景对话与交际用语",
+      "dimension": "knowledge"
+    }
+  ],
+  "knowledge_point_basis": "题型维度(E-T*) + 语言知识维度(E-G*/E-S*)，映射取自 knowledge_base.json 的 question_type_to_points",
+  "knowledge_base": "subjects/english/knowledge_base.json",
+  "source": "inbox/real_exams/*.json（只读；不从 SQLite 取题干）",
+  "type_raw_values": [
+    "Situational Dialogue",
+    "情景对话"
+  ],
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "rules": {
+    "trust_priority": [
+      "official_exam",
+      "textbook",
+      "third_party"
+    ],
+    "exclude": [
+      "ai_generated",
+      "source_type='generate'"
+    ],
+    "prefer": "有解析者优先；其次解析更长、空更多、材料更长",
+    "sampling": "按 exam 轮转（每套卷先取 1 条再取第 2 条…），上限 40 条",
+    "dedupe": "同题干（去空白差异）只留解析最好的一条，其余来源记在 same_stem_exams",
+    "material_rule": "材料型题整组存：material 存整篇原文、material_blanks 存该组全部空（空数经断言校验）；材料型 sample 的 stem 为空串，题干在各空的 stem 里",
+    "zero_rewrite": "题干/材料/答案/解析零改写；唯一渲染是把源里的 {type:'blank'} 块显式写成 {{__BLANK_<n>__}}；连词成句保留 `词组 / 词组` 斜杠格式",
+    "deterministic": "不使用随机数；排序键固定为 (exam, 组内 rank)"
+  },
+  "stats": {
+    "samples": 9,
+    "source_records": 9,
+    "with_explanation": 9,
+    "material_blocks": 9,
+    "total_blanks_in_material_blocks": 45,
+    "blanks_with_own_stem": 5,
+    "usable_records": 9,
+    "exams_in_type": 9,
+    "duplicated_records_removed": 0,
+    "cap": 40,
+    "truncated": false,
+    "unique_sources_kept": 9,
+    "unique_sources_available": 9
+  },
+  "exams": [
+    {
+      "exam": "101_英语_河北专升本英语16.json",
+      "samples": 1
+    },
+    {
+      "exam": "102_英语_河北专升本英语17.json",
+      "samples": 1
+    },
+    {
+      "exam": "103_英语_河北专升本英语18.json",
+      "samples": 1
+    },
+    {
+      "exam": "104_英语_河北专升本英语19.json",
+      "samples": 1
+    },
+    {
+      "exam": "105_英语_河北专升本英语20.json",
+      "samples": 1
+    },
+    {
+      "exam": "106_英语_河北专升本英语21.json",
+      "samples": 1
+    },
+    {
+      "exam": "108_英语_河北专升本英语23.json",
+      "samples": 1
+    },
+    {
+      "exam": "109_英语_河北专升本英语24.json",
+      "samples": 1
+    },
+    {
+      "exam": "110_英语_河北专升本英语25.json",
+      "samples": 1
+    }
+  ],
+  "samples": [
+    {
+      "stem": "",
+      "answer": "C | E | G | B | D",
+      "explanation": "对方一开口就询问来意，前台或接待场景里最自然的表达是 Can I help you?\n\nTom 之后提出预约下周见面，说明 Smith 现在不在公司，因此 out on business today 最合语境。\n\n后一句提到查看了时间安排，所以应先说 Let me check Mr. Smith's diary。\n\nMike 给出周二上午和周五下午两个时间后，Tom 接着选择周二上午，故用 Could I make an appointment for Tuesday morning?\n\nTom 随后递上名片，因此 Mike 此处应是索要姓名或联系方式，May I have your name, please? 最合适。",
+      "exam": "101_英语_河北专升本英语16.json",
+      "exam_title": "河北专升本英语16",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "Mike: Good morning! {{__BLANK_6__}}?\n\nTom: Yes, may I see your production manager, Mr. Smith, please?\n\nMike: I am sorry. Mr. Smith is {{__BLANK_7__}}\n\nTom: Well, I'd like to make an appointment to see him sometime next week.\n\nMike: {{__BLANK_8__}}. Yes, Mr. Smith doesn't seem to be busy on Tuesday morning and Friday afternoon.\n\nTom: {{__BLANK_9__}}\n\nMike: Would 9:30 be convenient?\n\nTom: Yes, that'll be fine.\n\nMike: I'll make a note of that. {{__BLANK_10__}}?\n\nTom: Yes, this is my name card. You can contact me any day.\n\nMike: OK.\n\nTom: Thank you very much! Goodbye!\n\nMike: Goodbye!",
+      "type": "dialogue",
+      "type_raw": "情景对话",
+      "kind": "material",
+      "group_uid": "101-s1",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. Yes, he does.",
+        "B. Could I make an appointment for Tuesday morning?",
+        "C. Can I help you?",
+        "D. May I have your name, please?",
+        "E. out on business today.",
+        "F. It won't be long.",
+        "G. Let me check Mr. Smith's diary."
+      ],
+      "directions": "Directions: In this section there is a long conversation with 5 missing sentences. At the end of the conversation, there is a list of given choices. You are required to select the ONE that best fits into the conversation. Then mark the corresponding letter on the Answer Sheet with a single line through the center. Note that there are two additional choices and you can not use any of the choices in the list more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "对方一开口就询问来意，前台或接待场景里最自然的表达是 Can I help you?",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "Tom 之后提出预约下周见面，说明 Smith 现在不在公司，因此 out on business today 最合语境。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "后一句提到查看了时间安排，所以应先说 Let me check Mr. Smith's diary。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "Mike 给出周二上午和周五下午两个时间后，Tom 接着选择周二上午，故用 Could I make an appointment for Tuesday morning?",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "Tom 随后递上名片，因此 Mike 此处应是索要姓名或联系方式，May I have your name, please? 最合适。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "G | E | A | F | C",
+      "explanation": "结合上下文语义与对话逻辑，空格处应选 G。\n\n结合上下文语义与对话逻辑，空格处应选 E。\n\n结合上下文语义与对话逻辑，空格处应选 A。\n\n结合上下文语义与对话逻辑，空格处应选 F。\n\n结合上下文语义与对话逻辑，空格处应选 C。",
+      "exam": "102_英语_河北专升本英语17.json",
+      "exam_title": "河北专升本英语17",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "Directions: In this section there is a long conversation with 5 missing sentences. At the end of the conversation, there is a list of given choices. You are required to select the ONE that best fits into the conversation. Then mark the corresponding letter on the Answer Sheet with a single line through the center. Note that there are two additional choices and you can not use any of the choices in the list more than once.\n\nMary: Hello! 6 ?\n\nJohn: Sure, my name is John Smith and I’m from a small town called Brentwood in Essex which is in England.\n\nMary: OK, Essex. 7 ?\n\nJohn: That’s in the southeast.\n\nMary: Southeast.\n\nJohn: Yeah, yeah. It’s attached to London, just next to London.\n\nMary: Oh, OK, but you said it’s a small town.\n\nJohn: It’s relatively small. 8\n\nMary: Oh, when I think of a small British town, you know, I think of really old houses, and nothing’s changed, 9 ?\n\nJohn: The cinema in Brentwood actually closed down, but it does have a very nice health centre and, as I said, lots of parks to play in.\n\nMary: Wow, 10",
+      "type": "dialogue",
+      "type_raw": "情景对话",
+      "kind": "material",
+      "group_uid": "102-s1",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. The population is only about 50,000",
+        "C. sounds like a nice place to live in",
+        "D. Thank you very much",
+        "F. so do you have modern stuff, like a health club, a movie theatre or things like that"
+      ],
+      "directions": "Directions: Select the sentence that best fits each blank in the dialogue.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "{{__BLANK_6__}}",
+          "answer": "G",
+          "explanation": "结合上下文语义与对话逻辑，空格处应选 G。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "{{__BLANK_7__}}",
+          "answer": "E",
+          "explanation": "结合上下文语义与对话逻辑，空格处应选 E。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "{{__BLANK_8__}}",
+          "answer": "A",
+          "explanation": "结合上下文语义与对话逻辑，空格处应选 A。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "{{__BLANK_9__}}",
+          "answer": "F",
+          "explanation": "结合上下文语义与对话逻辑，空格处应选 F。",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "{{__BLANK_10__}}",
+          "answer": "C",
+          "explanation": "结合上下文语义与对话逻辑，空格处应选 C。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "G | A | E | D | C",
+      "explanation": "对话开头李华询问“What are you doing?”（你在做什么？），王军应回答正在进行的活动。选项G“I'm just playing an online game.”（我只是在玩网络游戏）符合语境。\n\n王军回答“Um. I went to Liu Ming's birthday party four weeks ago.”（嗯，我四周前去了刘明的生日聚会），说明李华问的是关于上一次出门社交的时间。选项A“When was the last time you went out with friends?”（你上一次和朋友出去是什么时候？）与之衔接最自然。\n\n空后提到“We're going for dinner. How about joining us?”（我们要去吃晚饭，一起去吗？），选项E“I'm going out with some people from our course on Saturday.”（这周六我要和课上的几个人出去）交代了活动的背景和时间，引导出后面的邀请。\n\n李华提到“You are a good football player.”（你是个优秀的足球运动员），建议他参加不需要太多交流的活动，选项D“Why don't you join the college club?”（你为什么不加入大学俱乐部呢？）是基于足球特长的合理建议。\n\n李华提到周日去看新电影《哪吒2》，王军紧接着说“I do need to get out more!”（我确实需要多出门走走），说明他接受了提议。选项C“I'd like to see that.”（我想看那部电影）表达了兴趣。",
+      "exam": "103_英语_河北专升本英语18.json",
+      "exam_title": "河北专升本英语18",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "Li Hua: Hi, Wang Jun. What are you doing?\n\nWang Jun: {{__BLANK_6__}}\n\nLi Hua: You always sit inside playing games and going online. When was the last time you had a day without going online?\n\nWang Jun: I don't know. Probably six months ago.\n\nLi Hua: You should go out more. I'm meeting some friends for coffee now. Why don't you come?\n\nWang Jun: Thanks, but I'm fine here.\n\nLi Hua: OK. {{__BLANK_7__}}\n\nWang Jun: Um. I went to Liu Ming's birthday party four weeks ago.\n\nLi Hua: And you haven't been out since then?\n\nWang Jun: No. I don't really enjoy it. I get nervous.\n\nLi Hua: {{__BLANK_8__}} We're going for dinner. How about joining us?\n\nWang Jun: That's my worst nightmare! I feel nervous sitting in a small group making conversations.\n\nLi Hua: You could do something where you don't have to talk too much. You are a good football player. {{__BLANK_9__}}\n\nWang Jun: Actually, that sounds like a good idea.\n\nLi Hua: OK, I'll pick up some information for you. Also, we're going to see the new movie Nezha II on Sunday.\n\nWang Jun: {{__BLANK_10__}} I do need to get out more! Thank you.\n\nLi Hua: Welcome.",
+      "type": "dialogue",
+      "type_raw": "情景对话",
+      "kind": "material",
+      "group_uid": "103-s7",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. When was the last time you went out with friends?",
+        "B. That's why I do it online.",
+        "C. I'd like to see that.",
+        "D. Why don't you join the college club?",
+        "E. I'm going out with some people from our course on Saturday.",
+        "F. Which one do you like better?",
+        "G. I'm just playing an online game."
+      ],
+      "directions": "In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Note that there are two additional choices and you can not use any of the choices in the list more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "对话开头李华询问“What are you doing?”（你在做什么？），王军应回答正在进行的活动。选项G“I'm just playing an online game.”（我只是在玩网络游戏）符合语境。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "王军回答“Um. I went to Liu Ming's birthday party four weeks ago.”（嗯，我四周前去了刘明的生日聚会），说明李华问的是关于上一次出门社交的时间。选项A“When was the last time you went out with friends?”（你上一次和朋友出去是什么时候？）与之衔接最自然。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "空后提到“We're going for dinner. How about joining us?”（我们要去吃晚饭，一起去吗？），选项E“I'm going out with some people from our course on Saturday.”（这周六我要和课上的几个人出去）交代了活动的背景和时间，引导出后面的邀请。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "李华提到“You are a good football player.”（你是个优秀的足球运动员），建议他参加不需要太多交流的活动，选项D“Why don't you join the college club?”（你为什么不加入大学俱乐部呢？）是基于足球特长的合理建议。",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "李华提到周日去看新电影《哪吒2》，王军紧接着说“I do need to get out more!”（我确实需要多出门走走），说明他接受了提议。选项C“I'd like to see that.”（我想看那部电影）表达了兴趣。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "D | G | A | F | B",
+      "explanation": "前台接线后，女士紧接着提出订房需求；后文又出现 double room，可知此处应是提出预订双人房。\n\n后一句回答每晚 130 美元，说明这里询问的是房价。\n\n女士问“Does that include tax?”，最自然的回应是是否包含税费，A 与语境完全对应。\n\n女士追问房费包含什么服务，后句又补充可以上网，因此这里应先说明房内配套服务。\n\n女士询问游泳池，服务员先确认有，再说明开放时间，最后补充免费，B 最连贯。",
+      "exam": "104_英语_河北专升本英语19.json",
+      "exam_title": "河北专升本英语19",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "M: Hilton Hotel. Can I help you?\nW: Yes, {{__BLANK_6__}} with a bath from October 11 to October 14.\nM: We have one double room available now.\nW: {{__BLANK_7__}}?\nM: 130 dollars a night, including breakfast.\nW: Does that include tax?\nM: {{__BLANK_8__}}.\nW: What service comes with that?\nM: {{__BLANK_9__}}. You can also go online in your room.\nW: Do you have a swimming pool in the hotel?\nM: Sure. {{__BLANK_10__}}. It's free.\nW: Good. Thank you for the information.",
+      "type": "dialogue",
+      "type_raw": "情景对话",
+      "kind": "material",
+      "group_uid": "104-s1",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. No, it doesn't.",
+        "B. You may go swimming from 14:00 to 20:00 every day.",
+        "C. What time would you like to leave",
+        "D. I'd like to book a double room",
+        "E. Could I make an appointment for Sunday afternoon",
+        "F. We provide a telephone and a cable TV",
+        "G. What's the rate"
+      ],
+      "directions": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Note that there are two additional choices and you may not use any of the choices in the list more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "前台接线后，女士紧接着提出订房需求；后文又出现 double room，可知此处应是提出预订双人房。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "后一句回答每晚 130 美元，说明这里询问的是房价。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "女士问“Does that include tax?”，最自然的回应是是否包含税费，A 与语境完全对应。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "",
+          "answer": "F",
+          "explanation": "女士追问房费包含什么服务，后句又补充可以上网，因此这里应先说明房内配套服务。",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "女士询问游泳池，服务员先确认有，再说明开放时间，最后补充免费，B 最连贯。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "E | C | A | B | G",
+      "explanation": "后文 John 直接描述就诊原因和症状，因此此处应是询问来诊原因。\n\n回答给出了疲劳、头痛和胃不适出现的时间顺序，所以应问症状何时开始。\n\n前句问是否在服药，后句继续追问具体吃哪些维生素，说明这里只能回答只在吃维生素。\n\n后面 John 问体征情况，下一句护士汇报血压和体温，所以这里应先测量生命体征。\n\n前句问检查结果，后句应给出体征正常的反馈。",
+      "exam": "105_英语_河北专升本英语20.json",
+      "exam_title": "河北专升本英语20",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "John: Good Morning, I am John and I have an appointment with Doctor Clark at 8:30.\nNurse: Let me pull your record. In the meantime, please sign-in and have a seat.\nJohn: Ok, thank you.\nNurse: John, follow me to Room A please.\nJohn: Ok.\nNurse: Here we are. {{__BLANK_6__}}\nJohn: Well, lately I have been feeling tired, and occasionally I have had really bad headaches and an upset stomach (胃不舒服). On top of that, I have had this persistent (持续的) cough for the last two weeks.\nNurse: {{__BLANK_7__}}\nJohn: I started feeling tired about two months ago; then, a little bit after that the headaches came. I got the upset stomach long before feeling tired.\nNurse: Are you taking any medications?\nJohn: {{__BLANK_8__}}\nNurse: What vitamins are you taking?\nJohn: I am taking a multi-vitamin tablet and extra Vitamin C every day.\nNurse: {{__BLANK_9__}}\nJohn: How am I doing?\nNurse: {{__BLANK_10__}}. Please wait here for a minute. Doctor Clark will be with you in a moment.\nJohn: Thank you.",
+      "type": "dialogue",
+      "type_raw": "情景对话",
+      "kind": "material",
+      "group_uid": "105-s1",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. Only my vitamins",
+        "B. Ok, let me take your vital signs",
+        "C. When did you start having these symptoms (症状)",
+        "D. Did you suffer from insomnia (失眠)",
+        "E. What are your reasons for seeing Doctor Clark today",
+        "F. Please take a deep breath, hold your breath, and exhale (呼气)",
+        "G. Everything is good—normal blood pressure and no high temperature"
+      ],
+      "directions": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Note that there are two additional choices and you may not use any of the choices in the list more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "后文 John 直接描述就诊原因和症状，因此此处应是询问来诊原因。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "回答给出了疲劳、头痛和胃不适出现的时间顺序，所以应问症状何时开始。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "前句问是否在服药，后句继续追问具体吃哪些维生素，说明这里只能回答只在吃维生素。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "后面 John 问体征情况，下一句护士汇报血压和体温，所以这里应先测量生命体征。",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "前句问检查结果，后句应给出体征正常的反馈。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "C | E | B | G | D",
+      "explanation": "根据下一句的内容，李华是在介绍自己的名字，身份和来意，所以选择 C请允许我介绍一下自己。\n\n根据上一句，在介绍这两个成员的名字，所以选择 E 他们两个都是你的代表团成员。\n\n上一句问的是这是你第一次来中国吗，他回答不是，空格后面是这的确是我们第一次来石家庄，很荣幸被你邀请来参观这座美丽的城市。所以选择 B，我们经常来中国参观拜访。\n\n根据前半句，在介绍石家庄，是河北的省会城市，是中国北方美丽的城市之一，回答是感谢你，我们肯定所有人都会在石家庄玩得很开心。所以选择 G，在表示祝愿，希望所有人在这里都能玩得开心。\n\n根据回答，是时间，大约一周，可以得知空格处是在进行提问，并且是问时间的特殊疑问句。所以选择 D，你们打算待多久。\n# Ⅲ.Reading Comprehension (50 points)\nSection A\nPassage 1\n# 【文章大意】\n关于大一学生的调查告诉我们为什么大多数学生都上大学： $8 8 \\%$ 想要“一个找到一份好工作的更好的机会”， $8 1 \\%$ 想要变“富有和有钱”。然而，现在大多数学生不能实现这些目标。有一个仔细的研究发现，在校大学生在学习上花费的时间更少了——从 20 世纪 60年代早期的每周 25 小时变成了现在的 15 小时。\n学习也能导致更好的学习成绩。获得更好的学习成绩意味着变得“有钱”的更高的机会。一份关于毕业 15 年的 20000 名校友的研究发现了下面的结果。那些班级前三名的学生比中间三名的学生挣得多得多。中间三名的学生又比倒数三名的学生挣得多。不必惊奇，那些在大学里成绩不好的人都希望他们能够在学校学习更多。\n学生是应该独自学习还是和别人一起学习这个问题比较复杂。如果老师把问题留给学生解决，如果学生首先尝试自己学习，小组学习往往是有帮助的。但是仅仅和同学在一起而不单独学习似乎不利于学习。在选课方面，很多学生更喜欢作业少、评分容易的课程。\n然而，选择难度更大、阅读时间更长、论文更多的课程有助于提高学习。\n在大学里，仍然有大量的时间来玩。然而，研究人员再次发现，并非所有的户外活动都是有益的。一般来说，活动，如参加学生组织和与同学交谈可以更有成效。\n最后，大学是一个美妙的地方，有新的兴趣，丰富你的经验，并设定你的目标。这样做的时候，你可能会重新考虑“富有和富有”是否应该是你在大学学习的主要原因。据几位调查人员称，追求金钱的人通常对他们的生活不太满意。也许他们更容易忽视更重要的事情，如家庭，朋友和工作。",
+      "exam": "106_英语_河北专升本英语21.json",
+      "exam_title": "河北专升本英语21",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "Li Hua: Excuse me, sir, are you Mr. John Green from Australia?\nJohn Green: Oh, yes, I’m John Green from Australia Trading Company Ltd.\nLi Hua:{{__BLANK_6__}}I’m Li Hua, the director of Shijiazhuang Import & Export Company. And I come here specially to meet you.\nJohn Green: How do you do, Miss Li? It’s very kind of you to come here to meet us.\nLi Hua: How do you do? (They shake hands) And how many people are there in your party? Three?\nJohn Green: Yes, three people altogether. This is Mr. Burns and this is Ms. Jones.{{__BLANK_7__}}Li Hua: Welcome to Shijiazhuang. Is this your first trip to China?\nJohn Green: No.{{__BLANK_8__}}But this is indeed our first trip to Shijiazhuang. We take it our great honor being invited by you to visit your beautiful city.\nLi Hua: Well, every city has something of its own. Shijiazhuang, the capital city of Hebei province, is one of the beautiful cities in Northern China.{{__BLANK_9__}}John Green: Thank you, Li Hua. I’m sure all of us will have a wonderful time in Shijiazhuang.\nLi Hua:{{__BLANK_10__}}John Green: About a week.\nLi Hua: Good. We will have enough time for our business talks. And in the interval between talks, we'll arrange a visit to the Great Wall.\nJohn Green: Wonderful! I must say nothing would please me more. Thank you!\nLi Hua: My pleasure. Let’s go to the hotel now. This way please.",
+      "type": "dialogue",
+      "type_raw": "Situational Dialogue",
+      "kind": "material",
+      "group_uid": "106-s1",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. I’m sure you need a good rest after your long journey.",
+        "B. We visit China frequently.",
+        "C. Allow me to introduce myself.",
+        "D. How long do you intend to stay?",
+        "E. Both are our delegation members.",
+        "F. When will you leave for Australia?",
+        "G. And I hope all of you will have a pleasant stay here."
+      ],
+      "directions": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Then mark the corresponding letter on the Answer Sheet with a single line through the centre. Note that there are two additional choices and you may not use any of the choices in the list more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "根据下一句的内容，李华是在介绍自己的名字，身份和来意，所以选择 C请允许我介绍一下自己。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "根据上一句，在介绍这两个成员的名字，所以选择 E 他们两个都是你的代表团成员。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "",
+          "answer": "B",
+          "explanation": "上一句问的是这是你第一次来中国吗，他回答不是，空格后面是这的确是我们第一次来石家庄，很荣幸被你邀请来参观这座美丽的城市。所以选择 B，我们经常来中国参观拜访。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "根据前半句，在介绍石家庄，是河北的省会城市，是中国北方美丽的城市之一，回答是感谢你，我们肯定所有人都会在石家庄玩得很开心。所以选择 G，在表示祝愿，希望所有人在这里都能玩得开心。",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "根据回答，是时间，大约一周，可以得知空格处是在进行提问，并且是问时间的特殊疑问句。所以选择 D，你们打算待多久。\n# Ⅲ.Reading Comprehension (50 points)\nSection A\nPassage 1\n# 【文章大意】\n关于大一学生的调查告诉我们为什么大多数学生都上大学： $8 8 \\%$ 想要“一个找到一份好工作的更好的机会”， $8 1 \\%$ 想要变“富有和有钱”。然而，现在大多数学生不能实现这些目标。有一个仔细的研究发现，在校大学生在学习上花费的时间更少了——从 20 世纪 60年代早期的每周 25 小时变成了现在的 15 小时。\n学习也能导致更好的学习成绩。获得更好的学习成绩意味着变得“有钱”的更高的机会。一份关于毕业 15 年的 20000 名校友的研究发现了下面的结果。那些班级前三名的学生比中间三名的学生挣得多得多。中间三名的学生又比倒数三名的学生挣得多。不必惊奇，那些在大学里成绩不好的人都希望他们能够在学校学习更多。\n学生是应该独自学习还是和别人一起学习这个问题比较复杂。如果老师把问题留给学生解决，如果学生首先尝试自己学习，小组学习往往是有帮助的。但是仅仅和同学在一起而不单独学习似乎不利于学习。在选课方面，很多学生更喜欢作业少、评分容易的课程。\n然而，选择难度更大、阅读时间更长、论文更多的课程有助于提高学习。\n在大学里，仍然有大量的时间来玩。然而，研究人员再次发现，并非所有的户外活动都是有益的。一般来说，活动，如参加学生组织和与同学交谈可以更有成效。\n最后，大学是一个美妙的地方，有新的兴趣，丰富你的经验，并设定你的目标。这样做的时候，你可能会重新考虑“富有和富有”是否应该是你在大学学习的主要原因。据几位调查人员称，追求金钱的人通常对他们的生活不太满意。也许他们更容易忽视更重要的事情，如家庭，朋友和工作。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "F | G | A | C | D",
+      "explanation": "售票员先问旅客需要什么帮助，最自然的回应是说明出行目的地。\n\n上一句询问吸烟区还是无烟区，因此应回答座位偏好。\n\n旅客拿到座位信息后继续问证件事项，随后售票员回答“No, sir.”，与查看护照吻合。\n\n售票员询问是否托运行李，回答应体现数量。\n\n前文已经给出登机口和起飞时间，此处礼貌致谢最连贯。",
+      "exam": "108_英语_河北专升本英语23.json",
+      "exam_title": "河北专升本英语23",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "Clerk: Can I help you this evening, sir?\nTraveler: {{__BLANK_6__}}\nClerk: OK, do you have your tickets already this evening?\nTraveler: Yes, I do.\nClerk: OK, sir, would you like smoking or non-smoking seats?\nTraveler: {{__BLANK_7__}}\nClerk: OK, this evening you're going to be traveling out on flight 317. Your seat is 17A, non-smoking, window.\nTraveler: Thank you. {{__BLANK_8__}}\nClerk: No, sir.\nTraveler: Thank you very much.\nClerk: Were there any bags you'd like checked this evening?\nTraveler: {{__BLANK_9__}}\nClerk: OK. Is your name and address on your bag, sir?\nTraveler: Yes, it is.\nClerk: OK, that will be one bag checked to Shanghai. Your flight will be departing out of Gate 22 this evening. Boarding time is 6:40 and your flight leaves at 7 o'clock.\nTraveler: {{__BLANK_10__}}\nClerk: Have an enjoyable flight this evening.",
+      "type": "dialogue",
+      "type_raw": "情景对话",
+      "kind": "material",
+      "group_uid": "108-s1",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. Do you need to see my passport?",
+        "B. A cup of coffee, please.",
+        "C. Yes please, only one.",
+        "D. Thank you very much indeed.",
+        "E. When are you planning on traveling?",
+        "F. I'm traveling to Shanghai.",
+        "G. No smoking please."
+      ],
+      "directions": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Note that there are two additional choices and you may not use any of the choices in the list more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "",
+          "answer": "F",
+          "explanation": "售票员先问旅客需要什么帮助，最自然的回应是说明出行目的地。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "上一句询问吸烟区还是无烟区，因此应回答座位偏好。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "旅客拿到座位信息后继续问证件事项，随后售票员回答“No, sir.”，与查看护照吻合。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "售票员询问是否托运行李，回答应体现数量。",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "前文已经给出登机口和起飞时间，此处礼貌致谢最连贯。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "D | A | F | E | C",
+      "explanation": "Dan 回答 'Not yet'，说明前一句应是询问备考情况，只有 D 与后文逻辑完全衔接。\n\nJean 提到制定时间表，Dan 接着说自己以前做过，但效果不够好，A 与 However 后的转折最自然。\n\n后一句在解释把大任务拆开可避免拖延，因此此处应填表示举例说明的 F。\n\n后文 Dan 说会多做练习，说明 Jean 此处补充的是自己仍大量练习，故选 E。\n\n对话结束前 Dan 与 Jean 告别，最合适的是 C。",
+      "exam": "109_英语_河北专升本英语24.json",
+      "exam_title": "河北专升本英语24",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "Dan: Hi, Jean. How's it going?\nJean: Oh, hello Dan. Pretty well, thanks. {{__BLANK_6__}}\nDan: Not yet. Would you like to give me some advice?\nJean: Well, the first thing is to find out exactly what's required in the exams.\nDan: Right, I'll do that. Then what?\nJean: Then you can organize your learning, based on what's probably coming up.\nDan: Uhuh.\nJean: But that isn't enough in itself. You also need a timetable, to see how you can fit everything in the time available. Then keep it in front of you while you're studying.\nDan: {{__BLANK_7__}} However, it wasn't enough!\nJean: Maybe you need to do something different every day. {{__BLANK_8__}} With big topics, it might be possible for you to put off starting.\nDan: Good idea.\nJean: And after I review each topic, I read it quickly, and it helps fix things in my mind.\nDan: That's helpful.\nJean: {{__BLANK_9__}} It's hard to make myself do it, though.\nDan: Well, I'll try to do more exercises. Thanks a lot, Jean. That's a great help.\nJean: No problem.\nDan: {{__BLANK_10__}}\nJean: Bye.",
+      "type": "dialogue",
+      "type_raw": "情景对话",
+      "kind": "material",
+      "group_uid": "109-s1",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. I've done that before.",
+        "B. Are you doing anything else?",
+        "C. See you soon.",
+        "D. Have you managed to prepare your exams?",
+        "E. I still practice a lot for the exams.",
+        "F. For example, you can break down all of your work into small tasks.",
+        "G. I also do some sports."
+      ],
+      "directions": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Then mark the corresponding letter on the Answer Sheet with a single line through the centre. Note that there are two additional choices and you may not use any of the choices in the list more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "Dan 回答 'Not yet'，说明前一句应是询问备考情况，只有 D 与后文逻辑完全衔接。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "Jean 提到制定时间表，Dan 接着说自己以前做过，但效果不够好，A 与 However 后的转折最自然。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "",
+          "answer": "F",
+          "explanation": "后一句在解释把大任务拆开可避免拖延，因此此处应填表示举例说明的 F。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "后文 Dan 说会多做练习，说明 Jean 此处补充的是自己仍大量练习，故选 E。",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "对话结束前 Dan 与 Jean 告别，最合适的是 C。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "G | A | E | D | C",
+      "explanation": "上文问对方正在做什么，下文批评其总在室内打游戏上网，因此 G 最符合语境。\n\n后文回答上次和朋友外出是在四周前，因此这里应询问上次和朋友出去是什么时候。\n\n下一句紧接着说 We are going for dinner，可知这里先提出周六和同学一起外出的安排。\n\n前一句提到你足球踢得好，后一句说这个主意不错，因此应是建议加入学校俱乐部。\n\n前文提到周日去看电影《哪吒 II》，空后说自己确实需要多出门，因此应答表示愿意去看。",
+      "exam": "110_英语_河北专升本英语25.json",
+      "exam_title": "河北专升本英语25",
+      "trust": "official_exam",
+      "knowledge_point": "E-T13 情景对话；E-S12 情景对话与交际用语",
+      "material": "Li Hua: Hi, Wang Jun. What are you doing?{{__BLANK_6__}}Li Hua: You always sit inside playing games and going online. When was the last time you had a day without going online?\n\nWang Jun: I don't know. Probably six months ago.\n\nLi Hua: You should go out more. I'm meeting some friends for coffee now. Why don't you come?\n\nWang Jun: Thanks, but I'm fine here.\n\nLi Hua:{{__BLANK_7__}}Wang Jun: Um. I went to Liu Ming's birthday party four weeks ago.\n\nLi Hua: And you haven't been out since then?\n\nWang Jun: No. I don't really enjoy it. I get nervous.\n\nLi Hua:{{__BLANK_8__}}We're going for dinner. How about joining us?\n\nWang Jun: That's my worst nightmare! I feel nervous sitting in a small group making conversations.\n\nLi Hua: You could do something where you don't have to talk too much. You are a good football player.{{__BLANK_9__}}Wang Jun: Actually, that sounds like a good idea.\n\nLi Hua: OK, I'll pick up some information for you. Also, we're going to see the new movie Nezha II on Sunday.\n\nWang Jun:{{__BLANK_10__}}I do need to get out more! Thank you.\n\nLi Hua: Welcome.",
+      "type": "dialogue",
+      "type_raw": "情景对话",
+      "kind": "material",
+      "group_uid": "110-s1",
+      "no": null,
+      "options": [],
+      "word_bank": [
+        "A. When was the last time you went out with friends?",
+        "B. That's why I do it online.",
+        "C. I'd like to see that.",
+        "D. Why don't you join the college club?",
+        "E. I'm going out with some people from our course on Saturday.",
+        "F. Which one do you like better?",
+        "G. I'm just playing an online game."
+      ],
+      "directions": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Then mark the corresponding letter on the Answer Sheet with a single line through the centre. Note that there are two additional choices and you can not use any of the choices in the list more than once.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 6,
+          "placeholder": null,
+          "stem": "",
+          "answer": "G",
+          "explanation": "上文问对方正在做什么，下文批评其总在室内打游戏上网，因此 G 最符合语境。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": null,
+          "stem": "",
+          "answer": "A",
+          "explanation": "后文回答上次和朋友外出是在四周前，因此这里应询问上次和朋友出去是什么时候。",
+          "options": []
+        },
+        {
+          "no": 8,
+          "placeholder": null,
+          "stem": "",
+          "answer": "E",
+          "explanation": "下一句紧接着说 We are going for dinner，可知这里先提出周六和同学一起外出的安排。",
+          "options": []
+        },
+        {
+          "no": 9,
+          "placeholder": null,
+          "stem": "",
+          "answer": "D",
+          "explanation": "前一句提到你足球踢得好，后一句说这个主意不错，因此应是建议加入学校俱乐部。",
+          "options": []
+        },
+        {
+          "no": 10,
+          "placeholder": null,
+          "stem": "",
+          "answer": "C",
+          "explanation": "前文提到周日去看电影《哪吒 II》，空后说自己确实需要多出门，因此应答表示愿意去看。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T13",
+        "E-S12"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[dialogue]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    }
+  ]
+}

@@ -1,0 +1,2324 @@
+{
+ "id": 108,
+ "title": "河北专升本英语23",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:41:07",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省 2023 年普通高校专科接本科教育选拔考试",
+   "subject": "英语",
+   "province": "河北省",
+   "year": 2023,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "e9e1ee72-e16a-40a9-b3e6-0a7d7969a739"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "语音题",
+    "partLabel": "I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In each of the following groups of words, there are four underlined letters or letter combinations marked A, B, C and D. Compare the underlined parts and identify the ONE that is different from the others in pronunciation."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. r<u>o</u>se"
+        },
+        {
+         "key": "B",
+         "label": "B. p<u>o</u>st"
+        },
+        {
+         "key": "C",
+         "label": "C. sm<u>o</u>ke"
+        },
+        {
+         "key": "D",
+         "label": "D. c<u>o</u>me"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`come` 中对应字母发 /ʌ/，其余三项发 /oʊ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. sugges<u>tion</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. condi<u>tion</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. congratula<u>tion</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. emo<u>tion</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`suggestion` 中对应字母组合读 /tʃən/，其余三项读 /ʃən/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. ha<u>ng</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. a<u>ng</u>ry"
+        },
+        {
+         "key": "C",
+         "label": "C. you<u>ng</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. wro<u>ng</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`angry` 中对应字母组合读 /ŋɡ/，其余三项读 /ŋ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. b<u>ow</u>l"
+        },
+        {
+         "key": "B",
+         "label": "B. c<u>ow</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. cr<u>ow</u>d"
+        },
+        {
+         "key": "D",
+         "label": "D. d<u>ow</u>n"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`bowl` 中对应字母组合读 /oʊ/，其余三项读 /aʊ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. stamp<u>s</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. duck<u>s</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. dog<u>s</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. giraffe<u>s</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`dogs` 词尾 `-s` 发 /z/，其余三项词尾 `-s/-es` 发 /s/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "cloze",
+    "displayName": "情景对话",
+    "partLabel": "II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Note that there are two additional choices and you may not use any of the choices in the list more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. Do you need to see my passport?"
+     },
+     {
+      "key": "B",
+      "label": "B. A cup of coffee, please."
+     },
+     {
+      "key": "C",
+      "label": "C. Yes please, only one."
+     },
+     {
+      "key": "D",
+      "label": "D. Thank you very much indeed."
+     },
+     {
+      "key": "E",
+      "label": "E. When are you planning on traveling?"
+     },
+     {
+      "key": "F",
+      "label": "F. I'm traveling to Shanghai."
+     },
+     {
+      "key": "G",
+      "label": "G. No smoking please."
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Clerk: Can I help you this evening, sir?\nTraveler: "
+       },
+       {
+        "type": "blank",
+        "key": "q6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": "\nClerk: OK, do you have your tickets already this evening?\nTraveler: Yes, I do.\nClerk: OK, sir, would you like smoking or non-smoking seats?\nTraveler: "
+       },
+       {
+        "type": "blank",
+        "key": "q7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": "\nClerk: OK, this evening you're going to be traveling out on flight 317. Your seat is 17A, non-smoking, window.\nTraveler: Thank you. "
+       },
+       {
+        "type": "blank",
+        "key": "q8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": "\nClerk: No, sir.\nTraveler: Thank you very much.\nClerk: Were there any bags you'd like checked this evening?\nTraveler: "
+       },
+       {
+        "type": "blank",
+        "key": "q9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": "\nClerk: OK. Is your name and address on your bag, sir?\nTraveler: Yes, it is.\nClerk: OK, that will be one bag checked to Shanghai. Your flight will be departing out of Gate 22 this evening. Boarding time is 6:40 and your flight leaves at 7 o'clock.\nTraveler: "
+       },
+       {
+        "type": "blank",
+        "key": "q10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": "\nClerk: Have an enjoyable flight this evening."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "售票员先问旅客需要什么帮助，最自然的回应是说明出行目的地。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "F. I'm traveling to Shanghai."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "上一句询问吸烟区还是无烟区，因此应回答座位偏好。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. No smoking please."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "旅客拿到座位信息后继续问证件事项，随后售票员回答“No, sir.”，与查看护照吻合。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Do you need to see my passport?"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "售票员询问是否托运行李，回答应体现数量。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Yes please, only one."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前文已经给出登机口和起飞时间，此处礼貌致谢最连贯。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Thank you very much indeed."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III Section A / Passage 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 1\nOn our 18th birthdays we might get a cake and a card, maybe a special gift.\nBut there is an unwanted and sometimes painful present that many of us get at that time of life: wisdom teeth.\nThey usually come between the ages of 17 and 25 and there are usually four at the back of your mouth. They're known as wisdom teeth because they arrive at a time when we might be beginning to feel wise.\nAlthough some studies have said that only a little more than half of people get their wisdom teeth at all.\nFor those that do, they can cause a lot of pain as they break through the gums and try to find a space in the corners of our mouths, and dentists may recommend removing them.\nSo if we don't really need them, why do we have them?\nWell, the answer that most experts give is that we may not need them now, but our ancestors did.\nThat's because they ate tough, uncooked foods, things like meat, plants, and nuts. So having wisdom teeth helped them grind the foods down to make them easier to eat.\nOf course, now we cook many of these tougher foods to make them softer, so we don't need to work so hard with our teeth.\nAnd over time, our jaws have become smaller. There's often still space for the wisdom teeth to grow in the jaw yet not quite enough for them to erupt in the mouth, and that's often the reason for the pain.\nCan we choose the cake and the card instead?"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Passage 1: According to the passage, wisdom teeth most probably come at the age of"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 16"
+        },
+        {
+         "key": "B",
+         "label": "B. 24"
+        },
+        {
+         "key": "C",
+         "label": "C. 35"
+        },
+        {
+         "key": "D",
+         "label": "D. 26"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中明确说智齿通常在 17 到 25 岁之间长出，24 岁落在这一范围内。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Passage 1: According to the passage, ____ may have their wisdom teeth."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. At most half of people"
+        },
+        {
+         "key": "B",
+         "label": "B. No more than half of people"
+        },
+        {
+         "key": "C",
+         "label": "C. Much more than half of people"
+        },
+        {
+         "key": "D",
+         "label": "D. More than half of people"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说略多于一半的人会长智齿。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Passage 1: What does \"do\" in the sentence \"For those that do...\" stand for?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Get wisdom teeth."
+        },
+        {
+         "key": "B",
+         "label": "B. Remove wisdom teeth."
+        },
+        {
+         "key": "C",
+         "label": "C. Grind wisdom teeth."
+        },
+        {
+         "key": "D",
+         "label": "D. Break wisdom teeth."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "代词 `do` 回指前文“get their wisdom teeth at all”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Passage 1: Which of the following statement is NOT true?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Usually wisdom teeth break through the gums and erupt in the corners of our mouths."
+        },
+        {
+         "key": "B",
+         "label": "B. Our ancestors' jaws were bigger than ours."
+        },
+        {
+         "key": "C",
+         "label": "C. Our teeth do not need to work hard now because our jaws have become smaller."
+        },
+        {
+         "key": "D",
+         "label": "D. Our ancestors needed wisdom teeth to chew hard foods."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "现在牙齿不用那么费力咀嚼，是因为食物经过烹饪变软；不是因为下颌变小。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Passage 1: According to the passage, the reason for the pain is"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. There's fairly enough space for the wisdom teeth"
+        },
+        {
+         "key": "B",
+         "label": "B. There's not enough space for the wisdom teeth"
+        },
+        {
+         "key": "C",
+         "label": "C. There's no space for the wisdom teeth"
+        },
+        {
+         "key": "D",
+         "label": "D. The foods are becoming harder"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "口腔内没有足够位置萌出，因此会疼痛。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III Section A / Passage 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 2\nDid you like reading at school? Well, according to recent research, reading fiction at a young age could give us a more complex view of the world, and allow us to better understand other people's lives.\nThis is particularly true for literary fiction, which focuses on people's lives and the social issues that may affect them.\nThe researchers based their conclusions on four surveys of adults in the country.\nIn all four studies, participants were asked about the type of reading they do, as well as about a different aspect of the way in which they see the world and see themselves.\nThe first study found that among more than 350 people, increased reading of literary fiction when growing up was connected with greater “psychological richness.” This might mean having an open mind and trying to gain wisdom in life.\nIn the second study, the researchers said that among around 2,200 university students, those who read literary fiction were less likely to simply accept authority.\nThe third study found that reading any fiction as a young person gave people a sense of perspective and empathy. Around 1,500 participants were involved in this one.\nFinally, based on results from the fourth study, of around 1,000 people, the researchers concluded that people who read literary fiction early in life were more likely to have a complex worldview.\nWhether or not participants reported that they were currently reading literary fiction did not affect how complex their worldview was. This suggests that reading as a young person has more of an impact.\nThe authors said that fiction is a useful tool for understanding that the world is a complex place, full of differences.\nThey believe it could even provide us with skills to live in societies that include all sorts of different people."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Participants in the research were"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. babies"
+        },
+        {
+         "key": "B",
+         "label": "B. pupils"
+        },
+        {
+         "key": "C",
+         "label": "C. adults"
+        },
+        {
+         "key": "D",
+         "label": "D. teenagers"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章明确说研究结论基于对 adults 的四项调查。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What's the best explanation for “psychological richness” in the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Skills to live."
+        },
+        {
+         "key": "B",
+         "label": "B. Mode of thinking."
+        },
+        {
+         "key": "C",
+         "label": "C. The world full of differences."
+        },
+        {
+         "key": "D",
+         "label": "D. Open-mindedness and life wisdom."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文解释该概念可能意味着开放心态和人生智慧。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the passage, university students who read literary fiction would"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. not easily accept authority"
+        },
+        {
+         "key": "B",
+         "label": "B. probably accept authority"
+        },
+        {
+         "key": "C",
+         "label": "C. certainly not accept authority"
+        },
+        {
+         "key": "D",
+         "label": "D. simply accept authority"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二项研究指出这些学生不太会轻易接受权威。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is supported by the fourth study?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Participants were greatly affected by their current reading."
+        },
+        {
+         "key": "B",
+         "label": "B. Our worldview tends to be simpler if we read literary fiction in our adult life."
+        },
+        {
+         "key": "C",
+         "label": "C. Participants were slightly influenced by their current reading."
+        },
+        {
+         "key": "D",
+         "label": "D. Our worldview tends to be more affected if we read literary fiction at a young age."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q19",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第四项研究强调，年轻时阅读文学作品对复杂世界观的影响更明显。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which can be the best title for this passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Reading Fiction Promotes Our Literacy"
+        },
+        {
+         "key": "B",
+         "label": "B. Reading Fiction Helps Us Understand Others"
+        },
+        {
+         "key": "C",
+         "label": "C. Reading Fiction Makes Us More Complex"
+        },
+        {
+         "key": "D",
+         "label": "D. Reading Fiction Improves Our Reading Skills"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文核心在于年轻时阅读小说会形成更复杂的世界观。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "cloze",
+    "displayName": "词汇填空",
+    "partLabel": "III Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. You may not use any of the words in the bank more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. conducts"
+     },
+     {
+      "key": "B",
+      "label": "B. fully"
+     },
+     {
+      "key": "C",
+      "label": "C. short"
+     },
+     {
+      "key": "D",
+      "label": "D. account"
+     },
+     {
+      "key": "E",
+      "label": "E. result"
+     },
+     {
+      "key": "F",
+      "label": "F. find"
+     },
+     {
+      "key": "G",
+      "label": "G. deal"
+     },
+     {
+      "key": "H",
+      "label": "H. finishes"
+     },
+     {
+      "key": "I",
+      "label": "I. only"
+     },
+     {
+      "key": "J",
+      "label": "J. careful"
+     },
+     {
+      "key": "K",
+      "label": "K. relationships"
+     },
+     {
+      "key": "L",
+      "label": "L. essential"
+     },
+     {
+      "key": "M",
+      "label": "M. strength"
+     },
+     {
+      "key": "N",
+      "label": "N. requests"
+     },
+     {
+      "key": "O",
+      "label": "O. slowly"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "To succeed in the world market, it is "
+       },
+       {
+        "type": "blank",
+        "key": "q21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": " to learn as much as possible about conditions in overseas markets. In the past, companies with international ambitions "
+       },
+       {
+        "type": "blank",
+        "key": "q22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": " familiarized themselves with any differences in the legal system or in the procedures used in day-to-day business of import and export.\nModern trade, however, "
+       },
+       {
+        "type": "blank",
+        "key": "q23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": " more. Today the company seeking international success must also understand the people who live and work in countries they "
+       },
+       {
+        "type": "blank",
+        "key": "q24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": " with, how they think, behave and do business. In "
+       },
+       {
+        "type": "blank",
+        "key": "q25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": ", today's market leaders must acquire greater cultural awareness.\nBusiness people operating in foreign markets often fail to consider that cultural differences can "
+       },
+       {
+        "type": "blank",
+        "key": "q26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": " in a variety of approaches to everyday business activities such as the way a cross-cultural team cooperates or how it "
+       },
+       {
+        "type": "blank",
+        "key": "q27",
+        "placeholder": "27"
+       },
+       {
+        "type": "markdown",
+        "value": " its meetings.\nOne of the main benefits of investing in our cultural awareness programs is that they help you to "
+       },
+       {
+        "type": "blank",
+        "key": "q28",
+        "placeholder": "28"
+       },
+       {
+        "type": "markdown",
+        "value": " exploit your business potential, leaving you better prepared to succeed. Our cultural awareness training classes will demonstrate the importance of taking into "
+       },
+       {
+        "type": "blank",
+        "key": "q29",
+        "placeholder": "29"
+       },
+       {
+        "type": "markdown",
+        "value": " how other nationalities think and behave and how they might see you. We can also help you develop the skills you need to construct effective working "
+       },
+       {
+        "type": "blank",
+        "key": "q30",
+        "placeholder": "30"
+       },
+       {
+        "type": "markdown",
+        "value": " and overcome difficulties that may arise when working with colleagues or customers from different nationalities and cultures."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "L"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`it is essential to do sth.` 是固定表达。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "L. essential"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "I"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据上下文，这里强调过去的企业“只是”关注这些差异。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I. only"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "N"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "转折后表示现代贸易提出了更多要求，按题面词库应选 `requests`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "N. requests"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`deal with` 是固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. deal"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`In short` 表示“总之”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. short"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`result in` 表示“导致”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. result"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`conduct meetings` 表示“召开、主持会议”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. conducts"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`fully exploit` 表示“充分发挥”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. fully"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`take into account` 是固定短语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. account"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "K"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`working relationships` 表示“工作关系”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "K. relationships"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "完形填空",
+    "partLabel": "IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C, and D. You are required to choose the ONE that best fits into the passage."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "As early as our late "
+       },
+       {
+        "type": "blank",
+        "key": "q31",
+        "placeholder": "31"
+       },
+       {
+        "type": "markdown",
+        "value": ", our brains start losing neurons and even start to become weaker once we reach 65. This may sound "
+       },
+       {
+        "type": "blank",
+        "key": "q32",
+        "placeholder": "32"
+       },
+       {
+        "type": "markdown",
+        "value": ", but it happens to everyone. The good news is that there are many things we can do to age-proof our brains. The more active our brains are, the "
+       },
+       {
+        "type": "blank",
+        "key": "q33",
+        "placeholder": "33"
+       },
+       {
+        "type": "markdown",
+        "value": " they'll be affected by aging. Here are four simple suggestions that will give your brain good exercise.\n## Be social\nResearch has found that being social is one of the keys to living a long and happy life. "
+       },
+       {
+        "type": "blank",
+        "key": "q34",
+        "placeholder": "34"
+       },
+       {
+        "type": "markdown",
+        "value": " does socializing help to improve one's mood and mental well-being, it can also prevent memory loss in later life. Social interaction keeps our brains mentally engaged.\n## Play sports and go dancing\nIt's important to develop the areas of the brain that "
+       },
+       {
+        "type": "blank",
+        "key": "q35",
+        "placeholder": "35"
+       },
+       {
+        "type": "markdown",
+        "value": " it to the body. Movement improves brain function "
+       },
+       {
+        "type": "blank",
+        "key": "q36",
+        "placeholder": "36"
+       },
+       {
+        "type": "markdown",
+        "value": " a number of levels and helps to develop motor skills. It also boosts our memories and strengthens neuronal networks.\n## Play an instrument\nResearch has shown a person who has played an instrument for more than 10 years will have a much better memory than someone who hasn't. It also helps children become more self-disciplined, attentive, and better at planning. Playing an instrument makes us better at processing sound, "
+       },
+       {
+        "type": "blank",
+        "key": "q37",
+        "placeholder": "37"
+       },
+       {
+        "type": "markdown",
+        "value": " musicians are very good at understanding how people feel based on the tone of their voice.\n## Learn another language\nBilingual brains work much harder than monolingual brains. Learning another language builds gray matter in the brain, "
+       },
+       {
+        "type": "blank",
+        "key": "q38",
+        "placeholder": "38"
+       },
+       {
+        "type": "markdown",
+        "value": " controls many of the brain's functions, including sensory perception, memory, and "
+       },
+       {
+        "type": "blank",
+        "key": "q39",
+        "placeholder": "39"
+       },
+       {
+        "type": "markdown",
+        "value": " making.\nThe most important thing is to challenge your brain as often as you can. Studies have shown that "
+       },
+       {
+        "type": "blank",
+        "key": "q40",
+        "placeholder": "40"
+       },
+       {
+        "type": "markdown",
+        "value": " brushing your teeth with your \"wrong\" hand stimulates your brain!"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. twelfths"
+        },
+        {
+         "key": "B",
+         "label": "B. twentieths"
+        },
+        {
+         "key": "C",
+         "label": "C. twenties"
+        },
+        {
+         "key": "D",
+         "label": "D. twenty"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`in one's late twenties` 为固定表达。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. frightening"
+        },
+        {
+         "key": "B",
+         "label": "B. fright"
+        },
+        {
+         "key": "C",
+         "label": "C. frightened"
+        },
+        {
+         "key": "D",
+         "label": "D. frighten"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`sound + 形容词`，且这里表示“听起来令人害怕”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. more"
+        },
+        {
+         "key": "B",
+         "label": "B. much"
+        },
+        {
+         "key": "C",
+         "label": "C. better"
+        },
+        {
+         "key": "D",
+         "label": "D. less"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结构是 “the more..., the less...”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Not only"
+        },
+        {
+         "key": "B",
+         "label": "B. Not until"
+        },
+        {
+         "key": "C",
+         "label": "C. As if"
+        },
+        {
+         "key": "D",
+         "label": "D. If so"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`Not only ... but also ...` 为固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. control"
+        },
+        {
+         "key": "B",
+         "label": "B. compare"
+        },
+        {
+         "key": "C",
+         "label": "C. connect"
+        },
+        {
+         "key": "D",
+         "label": "D. concentrate"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`connect ... to ...` 符合语义与搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. on"
+        },
+        {
+         "key": "B",
+         "label": "B. with"
+        },
+        {
+         "key": "C",
+         "label": "C. under"
+        },
+        {
+         "key": "D",
+         "label": "D. above"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`on a number of levels` 是固定说法。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. however"
+        },
+        {
+         "key": "B",
+         "label": "B. so"
+        },
+        {
+         "key": "C",
+         "label": "C. since"
+        },
+        {
+         "key": "D",
+         "label": "D. though"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前后句是因果递进关系。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. what"
+        },
+        {
+         "key": "B",
+         "label": "B. where"
+        },
+        {
+         "key": "C",
+         "label": "C. that"
+        },
+        {
+         "key": "D",
+         "label": "D. which"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "逗号后是非限制性定语从句，只能用 `which`。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. position"
+        },
+        {
+         "key": "B",
+         "label": "B. emotion"
+        },
+        {
+         "key": "C",
+         "label": "C. decision"
+        },
+        {
+         "key": "D",
+         "label": "D. occasion"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`decision making` 是固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. only"
+        },
+        {
+         "key": "B",
+         "label": "B. even"
+        },
+        {
+         "key": "C",
+         "label": "C. whether"
+        },
+        {
+         "key": "D",
+         "label": "D. also"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "`even` 表示“甚至”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "V",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this part you are required to write a composition entitled My Dream in the New Era in no less than 100 words according to the following Chinese outline."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Write a composition entitled **My Dream in the New Era** in no less than 100 words according to the following outline:\n1. 新时代你的梦想是什么；\n2. 请具体加以解释；\n3. 你如何为实现梦想而奋斗。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 100
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "写作时应覆盖三个要点：梦想内容、梦想意义或原因、实现梦想的具体行动。评分重点通常包括内容完整性、语言准确性、连贯性和词数是否达标。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My Dream in the New Era\nEveryone has a dream, and my dream in the new era is to become an English teacher. English helps people open a window to the world, so I hope I can help more students learn it well and gain confidence.\nTo realize this dream, I need to work hard from now on. First, I should improve my English in listening, speaking, reading and writing. Second, I should read more books so that I can broaden my mind and learn how to teach others patiently. Third, I should take every chance to communicate with people and practice expressing myself clearly.\nI believe that dreams can come true if we keep moving forward. In the new era, I will study hard and make my dream a reality."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

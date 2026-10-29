@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "schedules": {
+    "fetch": { "interval": "2h" },
+    "parse": { "interval": "4h" },
+    "validate_and_fill": { "interval": "24h" },
+    "export": { "interval": "24h" },
+    "sync_outbox": { "interval": "10min" },
+    "update_progress": { "interval": "1h" },
+    "sm2_scheduler": { "interval": "1h" },
+    "backup": { "interval": "7d" }
+  },
+  "generate": {
+    "aca_choice":      { "model": "deepseek-flash",  "batch": 8, "effort": "low" },
+    "english_grammar": { "model": "deepseek-flash",  "batch": 5, "effort": "low" },
+    "english_writing": { "model": "deepseek-v4-pro", "batch": 3, "effort": "high" },
+    "c_error":         { "model": "deepseek-flash",  "batch": 5, "effort": "low" },
+    "c_program":       { "model": "deepseek-v4-pro", "batch": 3, "effort": "high" }
+  },
+  "notes": "复核修正：thinking→effort；medium 档不存在（改为 low）；model 用官方真实 ID。定时任务仅跑 --dry-run，生成保持人工触发。"
+}

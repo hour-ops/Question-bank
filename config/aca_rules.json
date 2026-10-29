@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "single_choice": {
+    "correct": 2.0,
+    "wrong": 0.0
+  },
+  "multiple_choice": {
+    "all_correct": 2.0,
+    "partial": 0.0,
+    "wrong": 0.0
+  },
+  "notes": "多选为 all-or-nothing，不设部分分（与 DESIGN.md 第 10 节一致）。ACA 全部本地规则判分，不调用 LLM。"
+}

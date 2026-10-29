@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-10-11T13:05:22+00:00",
+  "modules": [
+    {
+      "no": 1,
+      "name": "大模型概念（18%，≈9 题）",
+      "weight": "18%",
+      "points": [
+        {
+          "code": "1.1",
+          "knowledge_point": "大模型\"是什么、能做什么\"",
+          "syllabus_ref": "大模型概念（18%，≈9 题）",
+          "source": "理解大模型是什么，能做什么"
+        },
+        {
+          "code": "1.2",
+          "knowledge_point": "大模型**不能直接替人决定什么**（能力边界）",
+          "syllabus_ref": "大模型概念（18%，≈9 题）",
+          "source": "不能直接替人决定什么"
+        },
+        {
+          "code": "1.3",
+          "knowledge_point": "基于**上下文生成内容**的基本工作方式",
+          "syllabus_ref": "大模型概念（18%，≈9 题）",
+          "source": "理解大模型基于上下文生成内容的基本方式"
+        },
+        {
+          "code": "1.4",
+          "knowledge_point": "**幻觉**的成因",
+          "syllabus_ref": "大模型概念（18%，≈9 题）",
+          "source": "由此带来的幻觉"
+        },
+        {
+          "code": "1.5",
+          "knowledge_point": "**训练数据时间范围**限制",
+          "syllabus_ref": "大模型概念（18%，≈9 题）",
+          "source": "训练数据时间范围"
+        },
+        {
+          "code": "1.6",
+          "knowledge_point": "**上下文长度**限制",
+          "syllabus_ref": "大模型概念（18%，≈9 题）",
+          "source": "上下文限制"
+        },
+        {
+          "code": "1.7",
+          "knowledge_point": "能力边界判断：何时适合**生成/总结/分析**",
+          "syllabus_ref": "大模型概念（18%，≈9 题）",
+          "source": "掌握能力边界判断"
+        },
+        {
+          "code": "1.8",
+          "knowledge_point": "何时需要**知识库、工具或人工确认**",
+          "syllabus_ref": "大模型概念（18%，≈9 题）",
+          "source": "什么时候需要知识库、工具或人工确认"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "提示词工程（20%，≈10 题）",
+      "weight": "20%",
+      "points": [
+        {
+          "code": "2.1",
+          "knowledge_point": "说明**目标**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "掌握如何说明目标"
+        },
+        {
+          "code": "2.2",
+          "knowledge_point": "说明**背景**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "…背景"
+        },
+        {
+          "code": "2.3",
+          "knowledge_point": "说明**角色**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "…角色"
+        },
+        {
+          "code": "2.4",
+          "knowledge_point": "说明**约束**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "…约束"
+        },
+        {
+          "code": "2.5",
+          "knowledge_point": "提供**示例**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "…示例"
+        },
+        {
+          "code": "2.6",
+          "knowledge_point": "指定**输出格式**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "…输出格式"
+        },
+        {
+          "code": "2.7",
+          "knowledge_point": "给出**评价标准**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "…和评价标准"
+        },
+        {
+          "code": "2.8",
+          "knowledge_point": "复杂任务：**先列计划与关键信息、确认后再生成**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "面对复杂任务，先列计划和关键信息，确认后再生成"
+        },
+        {
+          "code": "2.9",
+          "knowledge_point": "翻译/改写/总结/分类任务：补充**受众、目的、术语、不可改写信息**",
+          "syllabus_ref": "提示词工程（20%，≈10 题）",
+          "source": "补充受众、目的、术语和不可改写信息"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "name": "增强大模型应用的能力（22%，≈11 题）",
+      "weight": "22%",
+      "points": [
+        {
+          "code": "3.1",
+          "knowledge_point": "选型原则：**查企业资料用 RAG**",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "查企业资料用 RAG"
+        },
+        {
+          "code": "3.2",
+          "knowledge_point": "选型原则：**需要实时数据/确定性计算/业务动作时用工具**",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "需要实时数据、确定性计算或业务动作时用工具"
+        },
+        {
+          "code": "3.3",
+          "knowledge_point": "RAG 的**解析**影响答案质量",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "RAG 的解析…会影响答案质量"
+        },
+        {
+          "code": "3.4",
+          "knowledge_point": "RAG 的**切分**影响答案质量",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "…切分…"
+        },
+        {
+          "code": "3.5",
+          "knowledge_point": "RAG 的**检索**影响答案质量",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "…检索…"
+        },
+        {
+          "code": "3.6",
+          "knowledge_point": "RAG 的**重排序**影响答案质量",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "…重排序…"
+        },
+        {
+          "code": "3.7",
+          "knowledge_point": "RAG 的**评测**影响答案质量",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "…和评测会影响答案质量"
+        },
+        {
+          "code": "3.8",
+          "knowledge_point": "**MCP** 的作用（不要求协议细节）",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "了解 MCP 的作用，不要求掌握协议细节"
+        },
+        {
+          "code": "3.9",
+          "knowledge_point": "知识库服务的**基本原理**",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "RAG、知识库服务和知识问答系统的基本原理"
+        },
+        {
+          "code": "3.10",
+          "knowledge_point": "知识问答系统的**质量改进方法**",
+          "syllabus_ref": "增强大模型应用的能力（22%，≈11 题）",
+          "source": "…与质量改进方法"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "name": "大模型微调（12%，≈6 题）",
+      "weight": "12%",
+      "points": [
+        {
+          "code": "4.1",
+          "knowledge_point": "微调适合**稳定行为**",
+          "syllabus_ref": "大模型微调（12%，≈6 题）",
+          "source": "掌握微调适合什么：稳定行为"
+        },
+        {
+          "code": "4.2",
+          "knowledge_point": "微调适合**格式**与**风格**",
+          "syllabus_ref": "大模型微调（12%，≈6 题）",
+          "source": "…格式、风格"
+        },
+        {
+          "code": "4.3",
+          "knowledge_point": "微调适合**分类能力**",
+          "syllabus_ref": "大模型微调（12%，≈6 题）",
+          "source": "…分类能力"
+        },
+        {
+          "code": "4.4",
+          "knowledge_point": "微调用于**支持轻量模型部署**",
+          "syllabus_ref": "大模型微调（12%，≈6 题）",
+          "source": "或支持轻量模型部署"
+        },
+        {
+          "code": "4.5",
+          "knowledge_point": "基本流程：**定义目标 → 准备样本 → 选择基模 → 控制数据质量 → 评估效果**",
+          "syllabus_ref": "大模型微调（12%，≈6 题）",
+          "source": "微调的基本流程"
+        },
+        {
+          "code": "4.6",
+          "knowledge_point": "**选型边界**：查知识用 RAG、做动作靠工具、**稳行为才考虑微调**",
+          "syllabus_ref": "大模型微调（12%，≈6 题）",
+          "source": "能区分：查知识用 RAG，做动作靠工具，稳行为才考虑微调"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "name": "大模型 Agent（16%，≈8 题）",
+      "weight": "16%",
+      "points": [
+        {
+          "code": "5.1",
+          "knowledge_point": "Agent 的价值：从\"回答问题\"到\"**完成任务**\"",
+          "syllabus_ref": "大模型 Agent（16%，≈8 题）",
+          "source": "Agent 的价值是把\"回答问题\"推进到\"完成任务\""
+        },
+        {
+          "code": "5.2",
+          "knowledge_point": "给 Agent 明确**目标**",
+          "syllabus_ref": "大模型 Agent（16%，≈8 题）",
+          "source": "掌握如何给 Agent 明确目标"
+        },
+        {
+          "code": "5.3",
+          "knowledge_point": "给 Agent **资料来源**",
+          "syllabus_ref": "大模型 Agent（16%，≈8 题）",
+          "source": "…资料来源"
+        },
+        {
+          "code": "5.4",
+          "knowledge_point": "界定 Agent **工具边界**",
+          "syllabus_ref": "大模型 Agent（16%，≈8 题）",
+          "source": "…工具边界"
+        },
+        {
+          "code": "5.5",
+          "knowledge_point": "设置**阶段检查点**",
+          "syllabus_ref": "大模型 Agent（16%，≈8 题）",
+          "source": "…和阶段检查点"
+        },
+        {
+          "code": "5.6",
+          "knowledge_point": "**Skill** 用于固化重复工作方法",
+          "syllabus_ref": "大模型 Agent（16%，≈8 题）",
+          "source": "Skill 用来固化重复工作方法"
+        },
+        {
+          "code": "5.7",
+          "knowledge_point": "**自检清单**要具体、可核对、有证据",
+          "syllabus_ref": "大模型 Agent（16%，≈8 题）",
+          "source": "自检清单要具体、可核对、有证据"
+        },
+        {
+          "code": "5.8",
+          "knowledge_point": "**高风险动作必须人工确认**",
+          "syllabus_ref": "大模型 Agent（16%，≈8 题）",
+          "source": "高风险动作必须人工确认"
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "name": "大模型安全合规（12%，≈6 题）",
+      "weight": "12%",
+      "points": [
+        {
+          "code": "6.1",
+          "knowledge_point": "**内容安全**",
+          "syllabus_ref": "大模型安全合规（12%，≈6 题）",
+          "source": "掌握内容安全"
+        },
+        {
+          "code": "6.2",
+          "knowledge_point": "**数据安全**",
+          "syllabus_ref": "大模型安全合规（12%，≈6 题）",
+          "source": "…数据安全"
+        },
+        {
+          "code": "6.3",
+          "knowledge_point": "**权限控制**",
+          "syllabus_ref": "大模型安全合规（12%，≈6 题）",
+          "source": "…权限控制"
+        },
+        {
+          "code": "6.4",
+          "knowledge_point": "**生成内容标识**",
+          "syllabus_ref": "大模型安全合规（12%，≈6 题）",
+          "source": "…生成内容标识"
+        },
+        {
+          "code": "6.5",
+          "knowledge_point": "**来源留存**与**审计追踪**",
+          "syllabus_ref": "大模型安全合规（12%，≈6 题）",
+          "source": "…来源留存、审计追踪"
+        },
+        {
+          "code": "6.6",
+          "knowledge_point": "**人工复核**；高风险场景（医疗/金融/合同/对外发布）AI 只可辅助，**不能替代最终责任人**",
+          "syllabus_ref": "大模型安全合规（12%，≈6 题）",
+          "source": "人工复核…不能替代最终责任人"
+        }
+      ]
+    }
+  ],
+  "source_files": [
+    "inbox\\aca_llm\\aca_v24_knowledge_points.md",
+    "inbox\\aca_llm\\aca_v24_lessons.md"
+  ],
+  "total_points": 47
+}

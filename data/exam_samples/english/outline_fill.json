@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "subject": "english",
+  "subject_name_cn": "英语（湖北专升本）",
+  "type": "outline_fill",
+  "type_name_cn": "提纲填空",
+  "how": "根据文章内容，把下面提纲中的空白处补充完整。",
+  "answer_label": "参考答案",
+  "knowledge_points": [
+    {
+      "id": "E-T11",
+      "name": "提纲填空",
+      "dimension": "format",
+      "question_type": "outline_fill",
+      "format_era": "old_2020_2023"
+    },
+    {
+      "id": "E-S07",
+      "name": "阅读填空·信息提取",
+      "dimension": "knowledge"
+    }
+  ],
+  "knowledge_point_basis": "题型维度(E-T*) + 语言知识维度(E-G*/E-S*)，映射取自 knowledge_base.json 的 question_type_to_points",
+  "knowledge_base": "subjects/english/knowledge_base.json",
+  "source": "inbox/real_exams/*.json（只读；不从 SQLite 取题干）",
+  "type_raw_values": [
+    "提纲填空"
+  ],
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "rules": {
+    "trust_priority": [
+      "official_exam",
+      "textbook",
+      "third_party"
+    ],
+    "exclude": [
+      "ai_generated",
+      "source_type='generate'"
+    ],
+    "prefer": "有解析者优先；其次解析更长、空更多、材料更长",
+    "sampling": "按 exam 轮转（每套卷先取 1 条再取第 2 条…），上限 40 条",
+    "dedupe": "同题干（去空白差异）只留解析最好的一条，其余来源记在 same_stem_exams",
+    "material_rule": "材料型题整组存：material 存整篇原文、material_blanks 存该组全部空（空数经断言校验）；材料型 sample 的 stem 为空串，题干在各空的 stem 里",
+    "zero_rewrite": "题干/材料/答案/解析零改写；唯一渲染是把源里的 {type:'blank'} 块显式写成 {{__BLANK_<n>__}}；连词成句保留 `词组 / 词组` 斜杠格式",
+    "deterministic": "不使用随机数；排序键固定为 (exam, 组内 rank)"
+  },
+  "stats": {
+    "samples": 1,
+    "source_records": 1,
+    "with_explanation": 1,
+    "material_blocks": 1,
+    "total_blanks_in_material_blocks": 5,
+    "blanks_with_own_stem": 0,
+    "usable_records": 1,
+    "exams_in_type": 1,
+    "duplicated_records_removed": 0,
+    "cap": 40,
+    "truncated": false,
+    "unique_sources_kept": 1,
+    "unique_sources_available": 1
+  },
+  "exams": [
+    {
+      "exam": "116_英语_湖北2020.json",
+      "samples": 1
+    }
+  ],
+  "samples": [
+    {
+      "stem": "",
+      "answer": "8 years old | 8 | injury | injuries | many stores | $15 and $100 | 15 and 100 dollars | 15 and 100 | shoulder",
+      "explanation": "原文首段明确给出年龄条件为 8 years old。\n\n首段原句为 reduces the risk of injury in a crash。\n\n第三段写到 Booster seats are available at many stores。\n\n第三段给出的价格范围是 between $15 and $100。\n\n最后一段与第二段都强调要同时使用 lap and shoulder belt。",
+      "exam": "116_英语_湖北2020.json",
+      "exam_title": "湖北2020",
+      "trust": "official_exam",
+      "knowledge_point": "E-T11 提纲填空；E-S07 阅读填空·信息提取",
+      "material": "Booster Seats (幼儿保护座椅) are more than a good idea. It is the law. Until children are 8 years old or 4.9 feet tall, they can be too big for a child car seat but too small for a safety belt. A booster seat makes safety belts fit properly and reduces the risk of injury in a crash.\n\nWhich seat should I use? Either a proper-fitting child safety seat or booster seat installed correctly will meet the requirements of Michigan's new law for children under the age of 8 or not yet 4.9 feet tall. This includes using a booster seat with both a lap and shoulder belt.\n\nWhere do I get a booster seat, and how much do they cost? Booster seats are available at many stores. They cost between $15 and $100 depending on the style.\n\nImportant: All booster seats are safest when used in the back seat and with both the car's lap and shoulder belt. Never use a lap belt only.\n\nBooster Seats\nPurposes: used for children under {{__BLANK_46__}} or 4.9 feet tall\nAdvantages:\n1. making safety belts fit properly\n2. reducing the risk of {{__BLANK_47__}} in a crash\nPlaces to buy: available at {{__BLANK_48__}}\nPrices: between {{__BLANK_49__}}\nProper way of use: with both a lap and {{__BLANK_50__}} belt",
+      "type": "outline_fill",
+      "type_raw": "提纲填空",
+      "kind": "material",
+      "group_uid": "116-s5",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "Directions: There is 1 passage in this section. Read the passage and complete the outline below it (No. 46 to No. 50). You should write your answers briefly in no more than three words.",
+      "explanation_source": "blanks_joined",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 46,
+          "placeholder": null,
+          "stem": "",
+          "answer": "8 years old | 8",
+          "explanation": "原文首段明确给出年龄条件为 8 years old。",
+          "options": []
+        },
+        {
+          "no": 47,
+          "placeholder": null,
+          "stem": "",
+          "answer": "injury | injuries",
+          "explanation": "首段原句为 reduces the risk of injury in a crash。",
+          "options": []
+        },
+        {
+          "no": 48,
+          "placeholder": null,
+          "stem": "",
+          "answer": "many stores",
+          "explanation": "第三段写到 Booster seats are available at many stores。",
+          "options": []
+        },
+        {
+          "no": 49,
+          "placeholder": null,
+          "stem": "",
+          "answer": "$15 and $100 | 15 and 100 dollars | 15 and 100",
+          "explanation": "第三段给出的价格范围是 between $15 and $100。",
+          "options": []
+        },
+        {
+          "no": 50,
+          "placeholder": null,
+          "stem": "",
+          "answer": "shoulder",
+          "explanation": "最后一段与第二段都强调要同时使用 lap and shoulder belt。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "E-T11",
+        "E-S07"
+      ],
+      "knowledge_point_how": "english.question_type_to_points[outline_fill]",
+      "origin_db": null,
+      "school": null,
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    }
+  ]
+}

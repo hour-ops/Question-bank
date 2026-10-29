@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 判分队列</title>
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body data-page="queue" data-status="{{ status }}">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">判分队列</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/queue" class="active">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <h1>判分状态机 <span class="muted small">judge_queue.judge_status 四态</span></h1>
+    <p class="badge-row" id="stateLegend">
+      <span class="badge badge-pending">pending · 待判</span>
+      <span class="badge badge-submitted">submitted · 处理中</span>
+      <span class="badge badge-synced">synced · 已完成</span>
+      <span class="badge badge-failed">failed · 失败</span>
+    </p>
+    <p class="muted small">
+      官方 API 无 Batch → <code>submitted</code> 的含义是「已进入本地串行判分队列」；
+      失败重试 3 次后置 <code>failed</code>，必须能在本页<b>手动重投</b>。
+    </p>
+    <div class="kpis">
+      <div class="kpi"><span class="kpi-num">{{ counters.pending }}</span><span class="kpi-label">pending</span></div>
+      <div class="kpi"><span class="kpi-num">{{ counters.submitted }}</span><span class="kpi-label">submitted</span></div>
+      <div class="kpi kpi-ok"><span class="kpi-num">{{ counters.synced }}</span><span class="kpi-label">synced</span></div>
+      <div class="kpi kpi-err"><span class="kpi-num">{{ counters.failed }}</span><span class="kpi-label">failed</span></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h1>队列明细</h1>
+    <p class="row">
+      <a class="btn {% if not status %}btn-primary{% endif %}" href="/queue">全部</a>
+      {% for s in judge_statuses %}
+      <a class="btn {% if status == s %}btn-primary{% endif %}" href="/queue?status={{ s }}">{{ s }}</a>
+      {% endfor %}
+      <span class="spacer"></span>
+      <button class="btn btn-small" id="btnRefresh" type="button">刷新</button>
+    </p>
+
+    {% if rows %}
+    <table class="data" id="queueTable">
+      <thead>
+        <tr><th>#</th><th>状态</th><th>科目</th><th>题号</th><th>题目</th><th>作答</th><th>得分</th><th>原因</th><th>创建时间</th><th>操作</th></tr>
+      </thead>
+      <tbody id="queueBody">
+      {% for r in rows %}
+        <tr data-status="{{ r.judge_status }}" data-attempt-id="{{ r.attempt_id }}">
+          <td class="mono small">{{ r.id }}</td>
+          <td><span class="badge badge-{{ r.judge_status }}">{{ r.judge_status }}</span></td>
+          <td class="small">{{ r.subject }}</td>
+          <td class="mono small">{{ r.question_uid }}</td>
+          <td class="q-cell">
+            {% if r.stem %}
+            <div class="q-stem">{{ r.stem[:60] }}{% if r.stem|length > 60 %}…{% endif %}</div>
+            {% else %}
+            <span class="muted small">（题面缺失）</span>
+            {% endif %}
+            {% if r.options_parsed %}
+            <details class="q-det">
+              <summary>看选项与答案</summary>
+              <ul class="res-opts">
+                {% for o in r.options_parsed %}
+                <li class="res-opt{% if o.key in r.answer_keys %} opt-correct{% endif %}{% if o.key in (r.user_answer or '') %} opt-mine{% endif %}">
+                  <b>{{ o.key }}</b> {{ o.text }}
+                  {% if o.key in r.answer_keys %}<span class="opt-tag">正确</span>{% endif %}
+                  {% if o.key in (r.user_answer or '') %}<span class="opt-tag mine">你选的</span>{% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+              {% if r.answer_text %}<p class="small"><b>参考答案：</b>{{ r.answer_text }}</p>{% endif %}
+              {% if r.explanation %}<p class="small muted">{{ r.explanation[:240] }}</p>{% endif %}
+            </details>
+            {% endif %}
+          </td>
+          <td class="answer-cell">{{ (r.user_answer or '')[:40] }}</td>
+          <td>{% if r.judge_score is not none %}{{ r.judge_score }}{% else %}<span class="muted">—</span>{% endif %}</td>
+          <td class="small muted">{{ (r.judge_reason or '')[:60] }}</td>
+          <td class="small muted">{{ r.created_at }}</td>
+          <td>
+            {% if r.judge_status == 'failed' %}
+            <button class="btn btn-small btn-danger requeue" data-attempt-id="{{ r.attempt_id }}" type="button">手动重投</button>
+            {% else %}<span class="muted small">—</span>{% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="muted">当前筛选下没有队列记录。答题后 <code>/api/submit</code> 会写入 <code>judge_queue(pending)</code>。</p>
+    {% endif %}
+  </section>
+
+  <section class="card">
+    <h1>判分同步 <span class="muted small">POST /api/sync → scripts/sync_outbox.py</span></h1>
+    <p class="row">
+      <label class="chk"><input type="checkbox" id="syncMock" checked> mock 模式（不联网、零花费）</label>
+      <button class="btn btn-primary" id="btnSync" type="button">立即同步</button>
+    </p>
+    <p class="muted small">
+      真实判分会调用付费 API，必须取消 mock 并在 <code>/api/sync</code> 里显式带 <code>confirm_paid=true</code>；本页只走 mock。
+    </p>
+    <pre class="json-preview" id="syncResult">尚未执行。</pre>
+  </section>
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script src="/static/js/app.js"></script>
+<script src="/static/js/queue.js"></script>
+</body>
+</html>

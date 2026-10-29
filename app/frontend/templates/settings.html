@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 设置</title>
+<link rel="stylesheet" href="/static/css/app.css">
+<style>
+  /* 需求 9：只补两个公共样式没覆盖到的点（password 输入框、置顶卡片的视觉强调）。
+     公共样式在 /static/css/app.css，不在此处重复定义。 */
+  #apiKeyCard { border-left: 4px solid var(--primary); }
+  #apiKeyInput {
+    flex: 1 1 280px;
+    min-height: 44px;            /* 与公共表单控件一致的最小点击区 */
+    padding: 8px 10px;
+    border: 1px solid var(--line-strong);
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    color: var(--text);
+    background: #fff;
+  }
+</style>
+</head>
+<body data-page="settings">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">设置</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings" class="active">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- 需求 9：API key 配置卡片（放最上面，不进表格；必须用户点按钮才提交） -->
+  <section class="card" id="apiKeyCard">
+    <h1>AI 判分 / API key（可选）<span class="muted small">不填也能正常做题、组卷、看统计</span></h1>
+    <p class="small">
+      「判分同步」＝把本地<strong>还没判分</strong>的作答送去大模型判分，再把分数<strong>回写</strong>到本地题库。
+      <strong>做题、组卷、统计全部离线可用，不填 API key 也照样能用</strong>；
+      现在<strong>只有写作 / 整段翻译这类主观题</strong>需要它 —— 客观题、填空、连词成句已由本地规则判分、
+      当场出分、不花钱。
+    </p>
+    <p class="small">
+      当前状态：<span id="apiKeyState" class="{% if data.api_key_configured %}ok-text{% else %}err-text{% endif %}">{% if data.api_key_configured %}已配置（不回显内容）{% else %}未配置{% endif %}</span>
+      <span id="apiKeyHint" class="muted small"></span>
+      <span id="apiKeySyncNote" class="muted small"></span>
+    </p>
+    <p class="row">
+      <input type="password" id="apiKeyInput" autocomplete="off" spellcheck="false"
+             placeholder="sk-xxxx（粘贴你的 API key；不会自动提交，也不会回显内容）">
+      <button class="btn btn-primary" id="btnSaveApiKey" type="button">保存 API key</button>
+      <button class="btn" id="btnClearApiKey" type="button">清空</button>
+    </p>
+    <p class="muted small">
+      只有点击上面两个按钮才会提交，光标离开输入框<strong>不会</strong>自动保存。
+      key 写入本机 <code id="apiKeyEnvFile">.env</code>，页面只显示掩码、绝不回显完整 key。
+      没想好就先不填：主观题会留在 <a href="/queue">判分队列</a> 里，等配好 key 再判也不迟。
+    </p>
+  </section>
+
+  <section class="grid grid-2">
+    <div class="card">
+      <h1>服务与端口</h1>
+      <table class="data kv">
+        <tbody>
+          <tr><th>绑定地址</th><td class="mono">127.0.0.1（仅回环，debug=False）</td></tr>
+          <tr><th>实际端口</th><td class="mono">{{ data.port if data.port else '尚未写入' }}</td></tr>
+          <tr><th>port.txt</th><td class="mono small break">{{ data.port_file }}</td></tr>
+          <tr><th>项目根</th><td class="mono small break">{{ data.root }}</td></tr>
+          <tr><th>数据目录</th><td class="mono small break">{{ data.data_dir }}</td></tr>
+          <tr><th>API key</th><td>{% if data.api_key_configured %}<span class="ok-text">已配置（不回显内容）</span>{% else %}<span class="err-text">未配置</span>{% endif %}<div class="muted small">在页面最上方的「AI 判分 / API key（可选）」卡片里配置</div></td></tr>
+          <tr><th>BASE_URL</th><td>{% if data.base_url_configured %}<span class="ok-text">已配置</span>{% else %}<span class="muted">未配置</span>{% endif %}</td></tr>
+        </tbody>
+      </table>
+      <p class="muted small">端口 5000 被占用时自动回退 5001；验收脚本必须读 <code>app/port.txt</code>，不得硬编码 5000。</p>
+    </div>
+
+    <div class="card">
+      <h1>预算</h1>
+      <p class="kpi-num">{{ data.spent_cny }} <span class="muted small">CNY 已花费</span></p>
+      <p class="muted small">总预算 {{ data.budget.get('total', '—') }} {{ data.budget.get('currency', '') }} ·
+        警告线 {{ ((data.budget.get('warning', 0.8)) * 100) | round(0) }}%</p>
+      <p class="bar"><span style="width: {{ (data.used_ratio * 100) | round(1) }}%"></span></p>
+      {% if data.over_warning %}<p class="err-text">已超过警告线，请按决策记录第 5 节停止付费调用。</p>{% endif %}
+      <p class="muted small">数据源：<code>logs/cost_ledger.jsonl</code> + <code>config/cost_budget.json</code></p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h1>模型档位与批量大小 <span class="muted small">config/routing.json</span></h1>
+    <table class="data">
+      <thead><tr><th>任务</th><th>模型</th><th>批量</th><th>档位</th></tr></thead>
+      <tbody>
+      {% for key, cfg in data.routing.get('generate', {}).items() %}
+        <tr>
+          <td class="mono small">{{ key }}</td>
+          <td class="mono small">{{ cfg.model }}</td>
+          <td>{{ cfg.batch }}</td>
+          <td>{% if cfg.effort == 'low' %}<span class="muted">low（省钱）</span>{% else %}<span class="due-text">{{ cfg.effort }}</span>{% endif %}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <p class="muted small">档位只有 low / high / max（无 off、无 medium）；判分与批量生成一律 low。</p>
+    <h2>定时任务频率</h2>
+    <table class="data">
+      <thead><tr><th>任务</th><th>间隔</th></tr></thead>
+      <tbody>
+      {% for key, cfg in data.routing.get('schedules', {}).items() %}
+        <tr><td class="mono small">{{ key }}</td><td>{{ cfg.interval }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="grid grid-2">
+    <div class="card">
+      <h1>数据库</h1>
+      <table class="data">
+        <thead><tr><th>库</th><th>状态</th><th></th></tr></thead>
+        <tbody>
+        {% for d in data.db %}
+          <tr>
+            <td class="mono small">{{ d.name }}.sqlite</td>
+            <td>{% if d.exists %}<span class="ok-text">存在</span>{% else %}<span class="err-text">缺失</span>{% endif %}</td>
+            <td><a class="btn btn-small" href="/api/questions?subject={{ d.name }}&limit=5">试读</a></td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h1>枚举（两套不混用）</h1>
+      <h2>judge_queue.judge_status</h2>
+      <p class="badge-row">
+        {% for s in data.judge_statuses %}<span class="badge badge-{{ s }}">{{ s }}</span> {% endfor %}
+      </p>
+      <h2>questions.status</h2>
+      <p class="badge-row">
+        {% for s in data.question_statuses %}<span class="pill">{{ s }}</span> {% endfor %}
+      </p>
+      <p class="muted small">判分队列页必须呈现 failed 态并可手动重投（<code>POST /api/requeue</code>）。</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h1>接口自检</h1>
+    <p class="row">
+      <button class="btn" id="btnProgress" type="button">/api/progress</button>
+      <button class="btn" id="btnPapers" type="button">/api/papers</button>
+      <button class="btn" id="btnQueue" type="button">/api/queue</button>
+    </p>
+    <pre class="json-preview" id="apiOut">点击按钮查看返回 JSON。</pre>
+  </section>
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script src="/static/js/app.js"></script>
+<script src="/static/js/settings.js"></script>
+</body>
+</html>

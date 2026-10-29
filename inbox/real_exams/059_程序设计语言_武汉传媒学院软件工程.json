@@ -1,0 +1,6009 @@
+{
+ "id": 59,
+ "title": "武汉传媒学院软件工程",
+ "subject": "程序设计语言",
+ "createTime": "2026-02-06 00:46:06",
+ "exam": {
+  "meta": {
+   "title": "武汉传媒学院软件工程",
+   "subject": "C语言程序设计",
+   "source": "C语言开发基础教程(Dev-C++)(第2版)-黑马程序员",
+   "generatedAt": "2026-02-06 01:18:30",
+   "isbn": "9787115502025",
+   "file": "D:\\project\\题目\\C语言题库\\书籍\\9787115502025.md"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "填空题",
+    "content": "计算机语言按照高低级别可分为机器语言、汇编语言和 {{__BLANK_1__}} 三大类。",
+    "options": [],
+    "answer": [
+     "高级语言"
+    ],
+    "analysis": "计算机语言根据功能和实现方式可分为3类：机器语言、汇编语言和高级语言。机器语言是计算机直接识别的二进制指令；汇编语言用符号替代机器指令；高级语言更贴近人类语言，具有良好的可移植性。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 1,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 2,
+    "type": "填空题",
+    "content": "C语言中源文件的后缀名为 {{__BLANK_1__}} 。",
+    "options": [],
+    "answer": [
+     ".c"
+    ],
+    "analysis": "C语言源程序文件的标准后缀名为 `.c`。在编译过程中，预处理后生成 `.i`，汇编后生成 `.s`，目标文件为 `.obj` (Windows) 或 `.o` (Linux)。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 2,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 3,
+    "type": "填空题",
+    "content": "在程序中，如果使用 `printf()` 函数，应该包含 {{__BLANK_1__}} 头文件。",
+    "options": [],
+    "answer": [
+     "stdio.h"
+    ],
+    "analysis": "`printf()` 是标准输入输出库中的函数，定义在 `stdio.h` (Standard Input Output) 头文件中。使用该函数前必须通过 `#include <stdio.h>` 引入该头文件。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 3,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 4,
+    "type": "填空题",
+    "content": "在 `main()` 函数中，用于返回函数执行结果的是 {{__BLANK_1__}} 语句。",
+    "options": [],
+    "answer": [
+     "return"
+    ],
+    "analysis": "`return` 语句用于从函数返回。在 `main()` 函数中，`return 0;` 通常表示程序正常结束并退出。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 4,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 5,
+    "type": "填空题",
+    "content": "C语言程序在Windows平台下经过编译、链接后生成的可执行文件后缀是 {{__BLANK_1__}} 。",
+    "options": [],
+    "answer": [
+     ".exe"
+    ],
+    "analysis": "在Windows操作系统中，可执行文件的标准后缀是 `.exe`。在Linux系统中，可执行文件通常没有特定的后缀限制，默认为 `a.out`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 5,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 6,
+    "type": "判断题",
+    "content": "C语言并不属于高级语言。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "C语言是一种高级语言。它虽然具有直接操作硬件的能力（类似汇编），但它具备高级语言的特性，如结构化编程、数据类型检查、良好的可移植性等，且贴近人类语言习惯。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 6,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 7,
+    "type": "判断题",
+    "content": "计算机语言（Computer Language）是人与计算机之间通信的语言。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "计算机语言是人与计算机之间传递信息的媒介，由指令（数字、符号、语法）组成，编程人员通过它指挥计算机工作。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 7,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 8,
+    "type": "判断题",
+    "content": "C语言并不能实现汇编语言的大部分功能。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "C语言被称为“高级汇编语言”，它允许直接访问物理地址，进行位操作，能实现汇编语言的大部分底层功能，同时保持了高级语言的开发效率。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 8,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 9,
+    "type": "判断题",
+    "content": "Eclipse工具和Visual Studio工具都可以开发C语言。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "Visual Studio 是微软推出的强大IDE，支持C/C++；Eclipse 虽然最初为Java设计，但通过安装CDT插件也可以很好地支持C/C++开发。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 9,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 10,
+    "type": "判断题",
+    "content": "C语言是UNIX和其衍生版本的主要开发语言。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "C语言的设计初衷就是为了编写UNIX操作系统。Dennis Ritchie和Ken Thompson使用C语言重写了UNIX内核，使其具备了良好的可移植性。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 10,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 11,
+    "type": "单选题",
+    "content": "C语言属于下列哪类计算机语言？ {{__SELECT_1__}}",
+    "options": [
+     "汇编语言",
+     "高级语言",
+     "机器语言",
+     "以上均不属于"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "C语言属于高级语言。它比汇编语言更易于理解和记忆，且不依赖于特定的硬件架构，具有良好的可移植性。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 11,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 12,
+    "type": "单选题",
+    "content": "下列关于主函数说法错误的是（多选） {{__SELECT_1__}}",
+    "options": [
+     "一个C程序中只能包含一个主函数",
+     "主函数是C程序的入口",
+     "C程序中可以包含多个主函数",
+     "主函数只能包含输出语句"
+    ],
+    "answer": [
+     "C,D"
+    ],
+    "analysis": "A正确：标准C程序必须且只能有一个 `main` 函数；B正确：程序执行从 `main` 开始；C错误：多个 `main` 会导致链接错误；D错误：主函数可以包含各种合法的C语言语句，不仅仅是输出。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 12,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 13,
+    "type": "单选题",
+    "content": "下列选项中，不属于C语言优点的是 {{__SELECT_1__}}",
+    "options": [
+     "不依赖计算机硬件",
+     "简洁、高效",
+     "可移植",
+     "面向对象"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "C语言是**面向过程**的编程语言，不是面向对象的。面向对象是C++、Java等语言的特性。C语言的优点包括高效、灵活、可移植性强等。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 13,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 14,
+    "type": "单选题",
+    "content": "下列选项中，哪一个是多行注释？ {{__SELECT_1__}}",
+    "options": [
+     "//",
+     "/**/",
+     "\\",
+     "以上均不属于"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`//` 是单行注释；`/* ... */` 是多行注释，可以跨越多行代码。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 14,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 15,
+    "type": "单选题",
+    "content": "C语言是一种 {{__SELECT_1__}} 的编程语言。",
+    "options": [
+     "面向对象",
+     "面向过程",
+     "可视化",
+     "组件导向"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "C语言是一种通用的、**过程式**（面向过程）的编程语言。它关注的是解决问题的步骤（算法）和过程。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 15,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 16,
+    "type": "单选题",
+    "content": "printf() 函数的主要作用是 {{__SELECT_1__}}",
+    "options": [
+     "从键盘读取数据",
+     "向控制台输出格式化信息",
+     "进行数值运算",
+     "结束程序运行"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "根据简答题改编。`printf()` 是C语言标准库中的格式化输出函数，主要用于向标准输出设备（通常是控制台/屏幕）打印文本和数据。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 16,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 17,
+    "type": "单选题",
+    "content": "关于C语言中 main() 函数的作用，下列描述正确的是 {{__SELECT_1__}}",
+    "options": [
+     "它是程序的执行入口，程序从这里开始运行",
+     "它是用于定义变量的特殊函数",
+     "它是用于输出信息的函数",
+     "它是编译器自动生成的函数"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "根据简答题改编。`main()` 函数是C程序的入口点。无论程序包含多少个函数，执行始终从 `main()` 开始，并在 `main()` 结束（通常情况下）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 17,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 18,
+    "type": "编程题",
+    "content": "使用开发工具编写一个控制台程序，要求在控制台上输出一句话：“我喜欢C语言”。\n\n请写出完整的代码。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    printf(\"我喜欢C语言\\n\");\n    return 0;\n}",
+    "analysis": "1. 引入标准输入输出头文件 `stdio.h`。\n2. 定义 `main` 函数作为程序入口。\n3. 使用 `printf` 函数输出指定字符串。\n4. 返回 0 表示程序正常结束。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 18,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 19,
+    "type": "单选题",
+    "content": "计算机科学家尼基劳斯·沃思（Nikiklaus Wirth）提出的著名公式是 {{__SELECT_1__}}",
+    "options": [
+     "程序 = 数据结构 + 算法",
+     "程序 = 算法 + 逻辑",
+     "程序 = 对象 + 消息",
+     "程序 = 输入 + 输出"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "尼基劳斯·沃思提出了“程序 = 数据结构 + 算法”的观点，强调了算法和数据结构在程序设计中的核心地位。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 19,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 20,
+    "type": "单选题",
+    "content": "在算法的流程图表示中，菱形框（◇）通常用于表示 {{__SELECT_1__}}",
+    "options": [
+     "开始或结束",
+     "输入或输出",
+     "条件判断",
+     "程序处理"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "在流程图中：\n- 圆角矩形：开始/结束\n- 平行四边形：输入/输出\n- **菱形：条件判断**\n- 矩形：程序处理（如赋值、计算）",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 20,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 21,
+    "type": "程序填空题",
+    "content": "以下是一个C语言程序的编译过程，请按照正确顺序填空：\n源程序(*.c) $\\rightarrow$ {{__BLANK_1__}} $\\rightarrow$ 编译 $\\rightarrow$ {{__BLANK_2__}} $\\rightarrow$ 链接 $\\rightarrow$ 可执行文件",
+    "options": [],
+    "answer": [
+     "预处理",
+     "汇编"
+    ],
+    "analysis": "C语言程序的完整生成过程为：\n1. **预处理**（Preprocessing）：处理宏定义、头文件包含等，生成 `.i` 文件。\n2. 编译（Compilation）：将预处理后的代码转换为汇编代码，生成 `.s` 文件。\n3. **汇编**（Assembly）：将汇编代码转换为机器码（二进制目标文件），生成 `.o` 或 `.obj` 文件。\n4. 链接（Linking）：将目标文件与库文件链接，生成可执行文件。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 21,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 22,
+    "type": "改错题",
+    "content": "找出以下程序中注释嵌套的错误并改正（假设意图是注释掉整段代码）：\n```c\n#include <stdio.h>\nint main() {\n    /* \n       printf(\"Line 1\\n\"); \n       /* printf(\"Line 2\\n\"); */ \n       printf(\"Line 3\\n\"); \n    */\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\nint main() {\n    /* \n       printf(\"Line 1\\n\"); \n       // printf(\"Line 2\\n\"); \n       printf(\"Line 3\\n\"); \n    */\n    return 0;\n}",
+    "analysis": "C语言的标准多行注释 `/* ... */` **不支持嵌套**。在原代码中，外层的 `/*` 会与内部第一个出现的 `*/`（即 Line 2 后面的那个）进行匹配，导致 Line 3 及后面的 `*/` 暴露在注释之外，引发编译错误。\n\n**修正方法**：将内部的注释改为单行注释 `//`，或者使用预处理指令 `#if 0 ... #endif` 来注释大段包含注释的代码。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 22,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 23,
+    "type": "单选题",
+    "content": "关于算法的特征，下列说法错误的是 {{__SELECT_1__}}",
+    "options": [
+     "有穷性：算法必须在执行有限个步骤后结束",
+     "确定性：算法的每一步必须有确切的定义，无二义性",
+     "可行性：算法中的步骤都应是可执行的",
+     "零输入性：算法必须至少有一个输入"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "算法的特征包括：有穷性、确定性、可行性、输入项和输出项。\n- 输入项：一个算法可以有 **0个** 或多个输入。\n- 输出项：一个算法必须有 **1个** 或多个输出（没有输出的算法没有意义）。\n因此D选项错误。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 23,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 24,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main()\n{\n    printf(\"Hello,\\n\");\n    printf(\"world!\");\n    return 0;\n}\n```\n运行结果：\n{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "Hello,\nworld!"
+    ],
+    "analysis": "程序中有两个 `printf` 语句。\n第一句 `printf(\"Hello,\\n\");` 输出 \"Hello,\" 后遇到了换行符 `\\n`，光标移至下一行开头。\n第二句 `printf(\"world!\");` 在新的一行输出 \"world!\"。\n因此结果分为两行。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 24,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 25,
+    "type": "单选题",
+    "content": "下列哪个是C语言中合法的预处理命令？ {{__SELECT_1__}}",
+    "options": [
+     "include <stdio.h>",
+     "#include <stdio.h>",
+     "@include <stdio.h>",
+     "import <stdio.h>"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "C语言中的预处理命令均以 `#` 开头，如 `#include`、`#define` 等。A选项缺少 `#`，C选项符号错误，D选项是Java/Python等语言的语法。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 25,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计与C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 26,
+    "type": "填空题",
+    "content": "关键字 {{__BLANK_1__}} 用于声明一个整型变量。",
+    "options": [],
+    "answer": [
+     "int"
+    ],
+    "analysis": "C语言中，`int` 是用于声明基本整型变量的关键字。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 26,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 27,
+    "type": "填空题",
+    "content": "标识符只能由 {{__BLANK_1__}} 组成。",
+    "options": [],
+    "answer": [
+     "字母、数字和下划线"
+    ],
+    "analysis": "C语言规定标识符只能由字母（A-Z, a-z）、数字（0-9）和下划线（_）组成，且不能以数字开头。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 27,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 28,
+    "type": "填空题",
+    "content": "关键字 {{__BLANK_1__}} 可以修饰一个变量，使其成为常变量。",
+    "options": [],
+    "answer": [
+     "const"
+    ],
+    "analysis": "使用 `const` 关键字修饰的变量称为常变量，其值在初始化后不能被修改。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 28,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 29,
+    "type": "填空题",
+    "content": "浮点型数据包括 {{__BLANK_1__}} 两种。",
+    "options": [],
+    "answer": [
+     "float和double"
+    ],
+    "analysis": "C语言中的浮点型数据主要分为单精度浮点型（`float`）和双精度浮点型（`double`）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 29,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 30,
+    "type": "填空题",
+    "content": "关键字 {{__BLANK_1__}} 用于定义结构体数据类型。",
+    "options": [],
+    "answer": [
+     "struct"
+    ],
+    "analysis": "结构体是一种构造数据类型，使用关键字 `struct` 进行定义。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 30,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 31,
+    "type": "填空题",
+    "content": "逻辑运算符包括 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "!、&&、||"
+    ],
+    "analysis": "C语言提供了三种逻辑运算符：逻辑非（`!`）、逻辑与（`&&`）和逻辑或（`||`）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 31,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 32,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nint a = 10;\na += 3;\n```\n结果a的值为：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "13"
+    ],
+    "analysis": "表达式 `a += 3` 等价于 `a = a + 3`。初始 `a` 为 10，执行后 `a` 变为 13。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 32,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 33,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nint a = 1, b = 3, c = 12;\nint res = b != c <= a;\n```\n结果res的值为：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "1"
+    ],
+    "analysis": "根据运算符优先级，关系运算符 `<=` 的优先级高于 `!=`。先计算 `c <= a` 即 `12 <= 1`，结果为 0（假）。然后计算 `b != 0` 即 `3 != 0`，结果为 1（真）。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 33,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 34,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nint a = 10, b = 2, c = 0;\nint res = a && c ? a + b || c : !b;\n```\n结果res的值为：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "0"
+    ],
+    "analysis": "首先判断条件表达式 `?` 前的条件 `a && c`。`10 && 0` 结果为 0（假）。因此执行冒号后的表达式 `!b`。`!2` 的结果为 0。所以最终结果为 0。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 34,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 35,
+    "type": "判断题",
+    "content": "关键字不可以作为标识符使用。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "关键字在C语言中有特殊含义，不能用作变量名、函数名等标识符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 35,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 36,
+    "type": "判断题",
+    "content": "标识符可以使用数字开头。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "标识符的命名规则明确规定不能以数字作为第一个字符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 36,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 37,
+    "type": "判断题",
+    "content": "浮点型属于构造类型。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "浮点型（float, double）属于基本数据类型。构造类型包括数组、结构体、共用体和枚举。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 37,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 38,
+    "type": "判断题",
+    "content": "数组中的元素类型必须相同。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "数组是一组具有相同数据类型的变量集合。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 38,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 39,
+    "type": "判断题",
+    "content": "枚举使用关键字union定义。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "枚举类型使用 `enum` 关键字定义；`union` 用于定义共用体。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 39,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 40,
+    "type": "判断题",
+    "content": "有定义 `int a = 1.2;`，则输出 a 时，a 的值为 1.0。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "将浮点数 1.2 赋值给整型变量 `a` 时，会发生隐式类型转换，小数部分被截断，`a` 的值为整数 1。输出时通常也是输出整数格式。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 40,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 41,
+    "type": "判断题",
+    "content": "有定义 `char ch = 'a'; int i = 0;`，则表达式 `ch && i` 的结果为真。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "`ch` 的值为 'a'（ASCII码97，非0），`i` 的值为 0。逻辑与运算 `&&` 要求两边都为真结果才为真。因为 `i` 为 0（假），所以 `ch && i` 的结果为 0（假）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 41,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 42,
+    "type": "单选题",
+    "content": "下列选项中，哪一项是字符 'a' 对应的二进制数值？ {{__SELECT_1__}}",
+    "options": [
+     "1001001",
+     "1100001",
+     "1110010",
+     "1010001"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "字符 'a' 的 ASCII 码值是 97。将 97 转换为二进制：$64 + 32 + 1 = 2^6 + 2^5 + 2^0$，即 `1100001`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 42,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 43,
+    "type": "单选题",
+    "content": "关于标识符，下列选项中描述错误的是 {{__SELECT_1__}}",
+    "options": [
+     "标识符只能由字母、数字和下划线组成",
+     "标识符不能以数字作为第一个字符",
+     "标识符不能以下划线作为第一个字符",
+     "标识符不区分大小写字母"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "C语言中，标识符是严格区分大小写的，例如 `add` 和 `Add` 是两个不同的标识符。此外，选项C也存在描述错误，因为标识符是可以以下划线开头的（如 `_name`），但在单选题中，选项D“不区分大小写”是C语言语法的根本性错误，是最符合题意的选项。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 43,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 44,
+    "type": "单选题",
+    "content": "下列选项中，不合法的变量定义是 {{__SELECT_1__}}",
+    "options": [
+     "int X = 3;",
+     "char ch = 'c';",
+     "float f;",
+     "case c;"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "`case` 是C语言的关键字，用于 `switch` 语句，不能用作变量名或类型名。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 44,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 45,
+    "type": "单选题",
+    "content": "下列选项中，哪一项是合法的短整型（short int）常数？ {{__SELECT_1__}}",
+    "options": [
+     "0L",
+     "4962",
+     "2.1869e10",
+     "00602006"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "A是长整型（后缀L）；C是浮点型；D以0开头是八进制，但数值过大可能超出short范围或格式不常用。B选项 4962 是一个普通的整数，在 `short int` 的取值范围（通常-32768到32767）内。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 45,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 46,
+    "type": "单选题",
+    "content": "下列选项中，哪一个类型是构造数据类型？ {{__SELECT_1__}}",
+    "options": [
+     "整型",
+     "浮点型",
+     "数组",
+     "字符型"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "整型、浮点型、字符型属于基本类型。数组、结构体、共用体、枚举属于构造类型。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 46,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 47,
+    "type": "单选题",
+    "content": "有定义如下：\n```c\nint a = 10, b = 20;\nchar ch = 'c';\n```\n则表达式 `a%b || !ch` 的结果为 {{__SELECT_1__}}",
+    "options": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "先计算 `a % b` 即 `10 % 20`，结果为 10（真）。由于逻辑或运算符 `||` 具有短路特性，左侧为真，则整个表达式结果为真（1），右侧不再计算。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 47,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 48,
+    "type": "单选题",
+    "content": "下列哪个标识符是合法的？ {{__SELECT_1__}}",
+    "options": [
+     "3a",
+     "long",
+     "_name",
+     "ab.c"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误，不能以数字开头；B错误，`long`是关键字；D错误，不能包含点号。`_name` 由下划线和字母组成，是合法的。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 48,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 49,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nint a = 1;\nint b = ++a;\nint c = a++;\nprintf(\"%d,%d,%d\", a, b, c);\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "3,2,2"
+    ],
+    "analysis": "1. `b = ++a`：`a` 先自增变为 2，然后赋值给 `b`，所以 `b` 是 2，`a` 是 2。\n2. `c = a++`：先将 `a` 的当前值（2）赋值给 `c`，然后 `a` 自增变为 3。所以 `c` 是 2，`a` 是 3。\n3. 最终输出 `3,2,2`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 49,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 50,
+    "type": "编程题",
+    "content": "设有一个圆，其半径为5，请编写一段程序，计算该圆的面积与周长。（圆周率取3.14）",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    double r = 5.0;\n    double pi = 3.14;\n    double area = pi * r * r;\n    double perimeter = 2 * pi * r;\n    \n    printf(\"半径: %.2f\\n\", r);\n    printf(\"面积: %.2f\\n\", area);\n    printf(\"周长: %.2f\\n\", perimeter);\n    \n    return 0;\n}",
+    "analysis": "需要定义浮点型变量存储半径、PI、面积和周长。面积公式 $S = \\pi r^2$，周长公式 $C = 2\\pi r$。使用 `printf` 输出结果。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 50,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 51,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nint a = 5, b = 2;\ndouble c = a / b;\nprintf(\"%.1f\", c);\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "2.0"
+    ],
+    "analysis": "在C语言中，两个整数相除的结果仍为整数。`5 / 2` 的结果是 `2`（小数部分被舍弃）。然后将整数 `2` 赋值给 `double` 类型的 `c`，`c` 变为 `2.0`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 51,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 52,
+    "type": "单选题",
+    "content": "表达式 `1 << 3` 的值是 {{__SELECT_1__}}",
+    "options": [
+     "1",
+     "3",
+     "4",
+     "8"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "`<<` 是左移运算符。将二进制 `00000001` 向左移动 3 位，得到 `00001000`，即十进制的 8。相当于 $1 \\times 2^3$。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 52,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 53,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nchar c = 'A' + 2;\nprintf(\"%c\", c);\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "C"
+    ],
+    "analysis": "字符 'A' 的 ASCII 码是 65。`'A' + 2` 等于 67。67 对应的字符是 'C'。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 53,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 54,
+    "type": "单选题",
+    "content": "下列转义字符中，表示换行的是 {{__SELECT_1__}}",
+    "options": [
+     "\\t",
+     "\\n",
+     "\\r",
+     "\\b"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`\\n` 表示换行（Newline）；`\\t` 是制表符；`\\r` 是回车；`\\b` 是退格。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 54,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 55,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nint a = 12;\na %= 5;\nprintf(\"%d\", a);\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "2"
+    ],
+    "analysis": "`a %= 5` 等价于 `a = a % 5`。`12 % 5` 的商是 2，余数是 2。所以结果为 2。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 55,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第2章 数据类型与运算符",
+     "chapterId": 2
+    }
+   },
+   {
+    "id": 56,
+    "type": "填空题",
+    "content": "通常情况下使用 {{__BLANK_1__}} 语句来跳出当前循环。",
+    "options": [],
+    "answer": [
+     "break"
+    ],
+    "analysis": "在循环语句中，break语句用于立即终止当前循环，跳出循环体。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 56,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 57,
+    "type": "填空题",
+    "content": "for关键字后面()中包括了3部分内容，分别是初始化表达式、{{__BLANK_1__}} 和操作表达式。",
+    "options": [],
+    "answer": [
+     "循环条件"
+    ],
+    "analysis": "for循环的语法格式为：`for(初始化表达式; 循环条件; 操作表达式)`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 57,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 58,
+    "type": "填空题",
+    "content": "if条件语句分为3种语法格式，分别是 {{__BLANK_1__}}、{{__BLANK_2__}} 和 {{__BLANK_3__}}。",
+    "options": [],
+    "answer": [
+     "if语句",
+     "if...else语句",
+     "if...else if语句"
+    ],
+    "analysis": "C语言中if语句有三种形式：单分支if语句、双分支if...else语句、多分支if...else if语句。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 58,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 59,
+    "type": "填空题",
+    "content": "结构化程序有 {{__BLANK_1__}}、{{__BLANK_2__}} 和 {{__BLANK_3__}} 3种。",
+    "options": [],
+    "answer": [
+     "顺序结构",
+     "选择结构",
+     "循环结构"
+    ],
+    "analysis": "结构化程序设计的核心是三种基本控制结构：顺序结构、选择结构（分支结构）和循环结构。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 59,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 60,
+    "type": "程序填空题",
+    "content": "假设瓜农有一百个西瓜，第一天卖掉一半多两个，以后卖掉剩下的一半多两个，完善以下代码，求解瓜将会在第几天卖完。\n```c\nint main() \n{ \n    int day = 1, sum = 100, num; \n    while (sum != 0) \n    { \n        {{__BLANK_1__}}\n        day++; \n    } \n    printf(\"%d\\n\", day); \n}\n```",
+    "options": [],
+    "answer": [
+     "num = sum / 2 + 2; sum = sum - num;"
+    ],
+    "analysis": "根据题意，每次卖掉的数量 `num` 是当前总数 `sum` 的一半加2，即 `num = sum / 2 + 2`。卖掉后剩余数量为 `sum = sum - num`。这两步操作需要在循环体内执行，直到 `sum` 为0。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 60,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 61,
+    "type": "判断题",
+    "content": "程序的运行流程图中，处理框用平行四边形来表示。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "在流程图中，处理框（执行计算或赋值等操作）通常使用**矩形**表示，而平行四边形通常用于表示输入/输出。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 61,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 62,
+    "type": "判断题",
+    "content": "在C语言中，跳转语句有break语句、goto语句和continue语句。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "C语言提供了break、continue和goto三种跳转语句，用于改变程序的执行流程。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 62,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 63,
+    "type": "判断题",
+    "content": "do…while循环语句中的循环体至少会执行一次。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "do...while循环是先执行循环体，再判断循环条件。因此，无论条件是否成立，循环体至少会被执行一次。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 63,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 64,
+    "type": "判断题",
+    "content": "while循环中不能再定义另一个循环。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "C语言支持循环嵌套，while循环中完全可以嵌套while、do...while或for循环。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 64,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 65,
+    "type": "判断题",
+    "content": "switch条件语句中，default语句可用于处理和前面的case都不匹配的值。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "在switch语句中，当表达式的值与所有case标签都不匹配时，会执行default子句后的语句。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 65,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 66,
+    "type": "单选题",
+    "content": "C语言if语句嵌套时，if…else语句配对关系是 {{__SELECT_1__}}。",
+    "options": [
+     "每个else总是与它最上边的最近的if配对",
+     "每个else总是与最外边的if配对",
+     "每个else与任意if配对",
+     "每个else总是与它上边的最近的if配对"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "C语言规定，else子句总是与它上面最近的、且尚未与else配对的if语句配对（就近原则）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 66,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 67,
+    "type": "单选题",
+    "content": "当执行如下程序时，{{__SELECT_1__}}。\n```c\nint x = -1;\ndo \n{ \n    x = x * x; \n} while(!x);\n```",
+    "options": [
+     "循环体执行一次",
+     "循环体执行两次",
+     "循环体执行无数次",
+     "编译提示语法错误"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "1. 初始 `x = -1`。\n2. 进入 `do` 循环，执行 `x = x * x`，即 `x = (-1)*(-1) = 1`。\n3. 判断 `while(!x)`。此时 `x` 为 1，`!x` 为 0 (假)。\n4. 循环条件不成立，退出循环。\n因此循环体只执行了一次。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 67,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 68,
+    "type": "单选题",
+    "content": "以下选项中哪些描述是正确的？（多选） {{__SELECT_1__}}",
+    "options": [
+     "循环语句必须要有终止条件否则不能编译",
+     "break关键字用于跳出当前循环",
+     "continue用于终止本次循环，执行下一次循环",
+     "switch条件语句中可以使用break"
+    ],
+    "answer": [
+     "B,C,D"
+    ],
+    "analysis": "A错误：死循环（如 `while(1)`）是合法的，可以编译通过。\nB正确：break用于跳出当前所在的循环结构。\nC正确：continue用于跳过本次循环剩余代码，进入下一次循环。\nD正确：switch中通常使用break来防止case穿透。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 68,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 69,
+    "type": "单选题",
+    "content": "以下程序没有构成死循环的是 {{__SELECT_1__}}。",
+    "options": [
+     "A. int i = 100; while(1) { i=1%100+1; if(i>100); break; }",
+     "B. for(;;)",
+     "C. int i = 100; do { i = i + 1; } while(i>=1000);",
+     "D. int i = 100; while(i); s = s + 1;"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A. 代码中 `if(i>100);` 后有一个分号，这使得if语句体为空。紧接着的 `break;` 实际上是在if之外，因此会执行break跳出循环。虽然它不是死循环，但这种写法极易被误读（通常题目意图可能是 `if(i>100) break;` 从而构成死循环）。\nB. `for(;;)` 是标准的死循环写法。\nC. `i` 初始为100，`do` 块执行一次后 `i` 变为101。检查条件 `while(i>=1000)`，即 `101 >= 1000` 为假，循环结束。这是一个正常的有限循环。\nD. `while(i);` 的循环体为空，且 `i` 始终为100（非0），因此构成死循环。\n综合来看，C是最清晰明确的非死循环。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 69,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 70,
+    "type": "程序阅读题",
+    "content": "请先阅读下面的代码：\n```c\nint a = 1, b = 7;\ndo \n{ \n    b = b / 2; \n    a = a + b; \n} while(b > 1);\n```\n上面一段程序运行结束时，变量a的值为 {{__SELECT_1__}}。",
+    "options": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "初始：a=1, b=7\n第1次循环：\n- b = 7 / 2 = 3\n- a = 1 + 3 = 4\n- 条件 b > 1 (3 > 1) 成立，继续\n\n第2次循环：\n- b = 3 / 2 = 1\n- a = 4 + 1 = 5\n- 条件 b > 1 (1 > 1) 不成立，退出\n\n最终 a 的值为 5。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 70,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 71,
+    "type": "单选题",
+    "content": "关于C语言中的跳转语句，下列说法正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "break语句只能用于循环语句中",
+     "continue语句可以用于switch语句中",
+     "break语句用于终止包含它的最内层循环或switch语句",
+     "continue语句的作用是终止整个循环的执行"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误，break也可用于switch。B错误，continue只能用于循环。D错误，continue只结束本次循环迭代，不终止整个循环。C正确，break跳出当前层。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 71,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 72,
+    "type": "单选题",
+    "content": "关于while循环与for循环的区别，下列描述恰当的是 {{__SELECT_1__}}。",
+    "options": [
+     "for循环比while循环执行效率更高",
+     "while循环适用于循环次数已知的情况，for循环适用于循环次数未知的情况",
+     "for循环通常适用于循环次数已知的情况，while循环通常适用于循环次数未知的情况",
+     "for循环不能被改写为while循环"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "虽然两者在功能上可以互换，但习惯上for循环更适合循环次数确定的场景（结构紧凑），while循环更适合循环次数不确定、只知道终止条件的场景。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 72,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 73,
+    "type": "编程题",
+    "content": "编程写出斐波那契数列前12项。\n斐波那契数列定义：$F(1)=1, F(2)=1, F(n) = F(n-1) + F(n-2)$ (n>2)。\n数列前几项为：1, 1, 2, 3, 5, 8, 13...",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int f1 = 1, f2 = 1, f3;\n    int i;\n    \n    printf(\"%d\\t%d\\t\", f1, f2);\n    \n    for(i = 3; i <= 12; i++) {\n        f3 = f1 + f2;\n        printf(\"%d\\t\", f3);\n        f1 = f2;\n        f2 = f3;\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "使用三个变量f1, f2, f3。f1和f2初始化为1。从第3项开始循环，每次计算f3 = f1 + f2，输出f3，然后更新f1和f2（f1=f2, f2=f3）以便计算下一项。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 73,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 74,
+    "type": "编程题",
+    "content": "请编写程序，实现对 $1 + 3 + 5 + 7 + ... + 99$ 的求和功能。\n要求：使用循环遍历1~99的自然数，并在循环中使用 `continue` 语句跳过偶数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int sum = 0;\n    int i;\n    for(i = 1; i <= 99; i++) {\n        if(i % 2 == 0) {\n            continue; // 如果是偶数，跳过本次循环\n        }\n        sum += i;\n    }\n    printf(\"sum = %d\\n\", sum);\n    return 0;\n}",
+    "analysis": "使用for循环遍历1到99。在循环体内，使用 `if(i % 2 == 0)` 判断是否为偶数，如果是则执行 `continue` 跳过累加步骤；否则执行 `sum += i`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 74,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 75,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int x = 10, y = 10;\n    if (x > 5)\n        if (y > 5)\n            printf(\"A\");\n    else\n        printf(\"B\");\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "A"
+    ],
+    "analysis": "这是一个经典的 \"dangling else\"（悬挂else）问题。C语言规定 `else` 总是与最近的未配对的 `if` 结合。代码缩进具有误导性，实际上 `else` 是与 `if (y > 5)` 配对的。因为 `x=10 > 5` 为真，进入内层判断；`y=10 > 5` 为真，执行 `printf(\"A\")`。`else` 分支不会执行。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 75,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 76,
+    "type": "单选题",
+    "content": "在switch语句中，如果case后面没有break语句，程序会继续执行下一个case的内容，这种现象称为 {{__SELECT_1__}}。",
+    "options": [
+     "死循环",
+     "语法错误",
+     "case穿透 (Fall-through)",
+     "条件短路"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "这被称为case穿透（Fall-through）。如果省略break，程序会忽略后续的case标签，直接执行下面的语句，直到遇到break或switch结束。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 76,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 77,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int i, j;\n    for(i = 0; i < 3; i++) {\n        for(j = 0; j < 2; j++) {\n            if(i == j) break;\n            printf(\"%d%d \", i, j);\n        }\n    }\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "10 20 21 "
+    ],
+    "analysis": "外层i=0: 内层j=0 -> i==j(0==0) break(跳出内层)。\n外层i=1: \n  内层j=0 -> 1!=0 -> 打印 \"10 \"\n  内层j=1 -> 1==1 -> break。\n外层i=2:\n  内层j=0 -> 2!=0 -> 打印 \"20 \"\n  内层j=1 -> 2!=1 -> 打印 \"21 \"\n  内层j=2 (循环结束)。\n结果为 \"10 20 21 \"。",
+    "difficulty": "提高",
+    "isFromTextbook": false,
+    "originalNumber": 77,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 78,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正（要求计算1到10的和）：\n```c\n#include <stdio.h>\nint main() {\n    int i = 1, sum = 0;\n    while (i <= 10);\n    {\n        sum += i;\n        i++;\n    }\n    printf(\"%d\", sum);\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\nint main() {\n    int i = 1, sum = 0;\n    while (i <= 10) // 去掉了这里的分号\n    {\n        sum += i;\n        i++;\n    }\n    printf(\"%d\", sum);\n    return 0;\n}",
+    "analysis": "错误在于 `while (i <= 10);` 后的分号。这个分号构成了空循环体，由于 `i` 在循环判断中始终为1（且不发生变化），程序会陷入死循环。应去掉分号。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 78,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 79,
+    "type": "单选题",
+    "content": "以下关于 `break` 和 `continue` 的区别，描述错误的是 {{__SELECT_1__}}。",
+    "options": [
+     "break 可以用于 switch 语句，continue 不能",
+     "break 结束整个循环，continue 结束本次循环",
+     "在嵌套循环中，break 跳出所有循环，continue 跳出当前循环",
+     "continue 语句执行后，程序将跳转到循环条件的判断部分（对于for循环是跳转到操作表达式）"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "C选项描述错误。在嵌套循环中，break 只能跳出包含它的**最内层**循环，而不是所有循环。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 79,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 流程控制",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 80,
+    "type": "填空题",
+    "content": "数组的下标是从 {{__BLANK_1__}} 开始的。",
+    "options": [],
+    "answer": [
+     "0"
+    ],
+    "analysis": "在C语言中，数组元素的下标（索引）是从0开始计数的。例如，数组的第一项是 `x[0]`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 80,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 81,
+    "type": "填空题",
+    "content": "定义数组 `int arr[10]`，则数组的大小为 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "10"
+    ],
+    "analysis": "定义数组时，方括号内的常量表达式表示数组的长度（即元素的个数）。`int arr[10]` 表示该数组包含10个整型元素。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 81,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 82,
+    "type": "填空题",
+    "content": "数组的下标是用 {{__BLANK_1__}} 括起来的。",
+    "options": [],
+    "answer": [
+     "方括号"
+    ],
+    "analysis": "C语言中，数组的下标访问操作符是方括号 `[]`，而不是圆括号 `()` 或花括号 `{}`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 82,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 83,
+    "type": "填空题",
+    "content": "定义二维数组 `int arr[2][3]`，则该数组最多可存放 {{__BLANK_1__}} 个元素。",
+    "options": [],
+    "answer": [
+     "6"
+    ],
+    "analysis": "二维数组的元素总数等于行数乘以列数。`2 * 3 = 6`，所以该数组共有6个元素。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 83,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 84,
+    "type": "填空题",
+    "content": "若数组 `int a[]={1, 4, 9, 4, 23}`，则 `a[2]` = {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "9"
+    ],
+    "analysis": "数组下标从0开始。`a[0]=1`, `a[1]=4`, `a[2]=9`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 84,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 85,
+    "type": "填空题",
+    "content": "若定义二维数组 `int arr[3][3] = {46, 3, 100, 44, 89, 26, 38, 99, 0}`，则 `arr[1][2]` = {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "26"
+    ],
+    "analysis": "二维数组按行存储。`arr[3][3]` 分为3行3列：\n第0行：46, 3, 100\n第1行：44, 89, 26\n第2行：38, 99, 0\n`arr[1][2]` 指的是第2行（下标1）的第3列（下标2），即26。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 85,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 86,
+    "type": "判断题",
+    "content": "数组中的元素数据类型必须相同。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "数组是一组具有相同数据类型的变量集合。在定义数组时，类型说明符决定了数组中所有元素的类型。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 86,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 87,
+    "type": "判断题",
+    "content": "一维数组的元素在内存中是连续排列的。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "数组在内存中占用的是一段连续的存储空间，数组元素按照下标顺序依次存储。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 87,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 88,
+    "type": "判断题",
+    "content": "二维数组的元素在内存中并不是连续的。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "二维数组（以及多维数组）在内存中也是连续存储的。C语言中的二维数组按行排列，先存放第一行，紧接着存放第二行，以此类推。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 88,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 89,
+    "type": "判断题",
+    "content": "数组不同于变量，它的名字可以使用关键字。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "数组名也是一种标识符，其命名规则与变量相同，不能使用C语言的关键字。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 89,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 90,
+    "type": "判断题",
+    "content": "数组在初始化时不可以只赋值一部分，必须全部赋值初始化。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "数组初始化时可以只对一部分元素赋值。如果只对前几个元素赋值，剩余未赋值的元素会被系统自动初始化为0。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 90,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 91,
+    "type": "判断题",
+    "content": "二维数组进行定义与初始化时，行下标与列下标均不能省略。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "如果对全部数组元素赋初值，二维数组的行下标可以省略，系统会自动根据元素总数和列数计算行数。但是，列下标绝对不能省略。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 91,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 92,
+    "type": "单选题",
+    "content": "若 `int a[2][3] = {{1, 2, 3}, {4, 5, 6}}`，则 `a[1][1]` 的值为 {{__SELECT_1__}}。",
+    "options": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "`a[1][1]` 表示访问数组的第2行（下标1）第2列（下标1）的元素。第2行的数据是 `{4, 5, 6}`，其中下标为1的元素是5。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 92,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 93,
+    "type": "单选题",
+    "content": "关于数组类型的定义，下列描述中正确的是 {{__SELECT_1__}}。（注：原题为多选，此处请选择所有正确的描述，若有多个正确选项，解析中会说明）",
+    "options": [
+     "数组的大小一旦定义就是固定的",
+     "一个数组中的各元素类型可以不一样",
+     "数组的下标类型为整型",
+     "数组元素的下标从1开始"
+    ],
+    "answer": [
+     "AC"
+    ],
+    "analysis": "A正确：在标准C语言（C89/90）中，数组长度通常由常量表达式定义，大小固定（虽然C99引入了变长数组，但通常教学中强调数组大小固定）；B错误：数组必须由相同类型的元素组成；C正确：数组下标必须是整数；D错误：数组下标从0开始。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 93,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 94,
+    "type": "单选题",
+    "content": "若 `int i[5] = {1, 2, 3}`，则 `i[2]` 的值为 {{__SELECT_1__}}。",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "null"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "初始化列表为 `{1, 2, 3}`，对应 `i[0]=1`, `i[1]=2`, `i[2]=3`。未初始化的 `i[3]` 和 `i[4]` 默认为0。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 94,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 95,
+    "type": "单选题",
+    "content": "下面关于二维数组的定义，正确的是 {{__SELECT_1__}}。（注：原题为多选）",
+    "options": [
+     "int a[2][3] = {{1,2,3},{4,5,6}};",
+     "int a[2][3] = {1,2,3,4,5,6};",
+     "int b[3][4] = {{1},{4,3},{2,1,2}};",
+     "int a[][3] = {1,2,3,4,5,6};"
+    ],
+    "answer": [
+     "ABCD"
+    ],
+    "analysis": "A正确：按行分段赋值；B正确：按顺序连续赋值；C正确：对部分元素赋值；D正确：省略行下标，由系统自动推导（6个元素/3列=2行）。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 95,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 96,
+    "type": "单选题",
+    "content": "关于数组的定义与初始化，下列哪一项是错误的？ {{__SELECT_1__}}",
+    "options": [
+     "int arr[5] = {1, 2, 3, 4, 5};",
+     "int arr[] = {1, 2, 3, 4, 5};",
+     "int arr[5] = {1, 2, 3};",
+     "int arr[5] = {1, 2, 3, 4, 5, 6};"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "D选项中，数组定义长度为5，但初始化列表中提供了6个数据，超出了数组的容量，会导致编译错误。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 96,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 97,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nint a[4][4] = {{1, 3, 5}, {2, 4, 6}, {3, 5, 7}};\nprintf(\"%d%d%d%d\\n\", a[0][0], a[1][1], a[2][2], a[3][3]);\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "1470"
+    ],
+    "analysis": "数组初始化情况：\n第0行：1, 3, 5, 0 (未赋值补0)\n第1行：2, 4, 6, 0\n第2行：3, 5, 7, 0\n第3行：0, 0, 0, 0 (整行未赋值补0)\n\n输出：\n`a[0][0]` = 1\n`a[1][1]` = 4\n`a[2][2]` = 7\n`a[3][3]` = 0\n拼接后为 1470。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 97,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 98,
+    "type": "编程题",
+    "content": "有10名学生的成绩，分别为98.5, 90, 67, 86.5, 77.5, 66, 100, 92, 83, 78。请编写一个程序，通过冒泡排序算法对这10个学生的成绩进行从大到小的排序。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    double scores[10] = {98.5, 90, 67, 86.5, 77.5, 66, 100, 92, 83, 78};\n    double temp;\n    int i, j;\n\n    // 冒泡排序（从大到小）\n    for (i = 0; i < 10 - 1; i++) {\n        for (j = 0; j < 10 - 1 - i; j++) {\n            // 如果前一个元素小于后一个元素，交换位置\n            if (scores[j] < scores[j + 1]) {\n                temp = scores[j];\n                scores[j] = scores[j + 1];\n                scores[j + 1] = temp;\n            }\n        }\n    }\n\n    // 输出排序后的结果\n    printf(\"排序后的成绩：\\n\");\n    for (i = 0; i < 10; i++) {\n        printf(\"%.1f \", scores[i]);\n    }\n    printf(\"\\n\");\n\n    return 0;\n}",
+    "analysis": "本题考查冒泡排序算法。由于要求从大到小排序，内层循环的比较条件应为 `arr[j] < arr[j+1]`，若满足则交换，将较小的值向后移动。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 98,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 99,
+    "type": "编程题",
+    "content": "现有5名学生（张、王、李、赵、周）的语数英三门成绩。请编写程序，计算每个学生的总成绩，以及小组的各科总成绩和平均成绩。\n数据如下：\n张：{88, 70, 90}\n王：{80, 80, 60}\n李：{89, 60, 85}\n赵：{80, 75, 78}\n周：{70, 80, 80}",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    // 定义二维数组存储成绩，5行3列\n    // 列0: 语文, 列1: 数学, 列2: 英语\n    int scores[5][3] = {\n        {88, 70, 90},\n        {80, 80, 60},\n        {89, 60, 85},\n        {80, 75, 78},\n        {70, 80, 80}\n    };\n    \n    char *names[] = {\"张同学\", \"王同学\", \"李同学\", \"赵同学\", \"周同学\"};\n    int studentSum;\n    int subjectSum[3] = {0, 0, 0}; // 存储各科总分\n    int i, j;\n\n    // 计算每个学生的总成绩\n    for (i = 0; i < 5; i++) {\n        studentSum = 0;\n        for (j = 0; j < 3; j++) {\n            studentSum += scores[i][j];\n            subjectSum[j] += scores[i][j]; // 累加科目的总分\n        }\n        printf(\"%s的总成绩: %d\\n\", names[i], studentSum);\n    }\n\n    printf(\"-------------------\\n\");\n    \n    // 计算并输出各科统计数据\n    char *subjects[] = {\"语文\", \"数学\", \"英语\"};\n    for (j = 0; j < 3; j++) {\n        printf(\"%s总成绩: %d, 平均分: %.2f\\n\", \n               subjects[j], \n               subjectSum[j], \n               subjectSum[j] / 5.0);\n    }\n\n    return 0;\n}",
+    "analysis": "本题考查二维数组的遍历与统计。外层循环遍历学生（行），内层循环遍历科目（列）。在遍历过程中同时计算行和（学生总分）与列和（科目总分）。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 99,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 100,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正（该程序试图遍历数组并打印）：\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {10, 20, 30, 40, 50};\n    for(int i = 0; i <= 5; i++) {\n        printf(\"%d\\n\", arr[i]);\n    }\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\nint main() {\n    int arr[5] = {10, 20, 30, 40, 50};\n    // 错误在循环条件 i <= 5，会导致数组越界访问 arr[5]\n    // 应改为 i < 5\n    for(int i = 0; i < 5; i++) {\n        printf(\"%d\\n\", arr[i]);\n    }\n    return 0;\n}",
+    "analysis": "数组 `arr` 定义长度为5，有效下标为 0 到 4。原代码中循环条件 `i <= 5` 会导致 `i` 增加到 5，此时访问 `arr[5]` 发生数组越界错误。正确的循环条件应为 `i < 5`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 100,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 101,
+    "type": "程序填空题",
+    "content": "以下代码使用选择排序对数组进行升序排序，请填空：\n```c\nint x[5] = {9, 8, 3, 5, 2};\nint i, j, min, temp;\nfor (i = 0; i < 4; i++) {\n    min = i;\n    for (j = i + 1; j < 5; j++) {\n        if ({{__BLANK_1__}}) {\n            min = j;\n        }\n    }\n    if (min != i) {\n        temp = x[i];\n        x[i] = x[min];\n        x[min] = temp;\n    }\n}\n```",
+    "options": [],
+    "answer": [
+     "x[j] < x[min]"
+    ],
+    "analysis": "选择排序的核心思想是在未排序部分找到最小值的下标。内层循环中，如果当前遍历到的元素 `x[j]` 小于当前记录的最小值 `x[min]`，则更新 `min` 为 `j`。因此填空处应为 `x[j] < x[min]`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 101,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 102,
+    "type": "单选题",
+    "content": "对于冒泡排序算法，若数组中有 `n` 个元素，则外层循环通常需要进行的轮数为 {{__SELECT_1__}}。",
+    "options": [
+     "n",
+     "n - 1",
+     "n / 2",
+     "n + 1"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "冒泡排序每轮将一个最大（或最小）的元素归位。对于 `n` 个元素的数组，只需要进行 `n-1` 轮比较即可完成排序，因为当前 `n-1` 个元素归位后，最后一个元素自然也就归位了。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 102,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 103,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nint a[3][2] = {1, 2, 3, 4, 5, 6};\nprintf(\"%d\", a[1][0] + a[0][1]);\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "5"
+    ],
+    "analysis": "数组 `a` 为3行2列。初始化后元素排列为：\nRow 0: 1, 2\nRow 1: 3, 4\nRow 2: 5, 6\n`a[1][0]` 是第2行第1列的元素，值为 3。\n`a[0][1]` 是第1行第2列的元素，值为 2。\n结果为 `3 + 2 = 5`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 103,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 104,
+    "type": "编程题",
+    "content": "编写一个程序，找出一个整型数组 `int arr[8] = {12, 5, 89, 32, 4, 10, 23, 56}` 中的最大值及其下标。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int arr[8] = {12, 5, 89, 32, 4, 10, 23, 56};\n    int max = arr[0];\n    int index = 0;\n    \n    for(int i = 1; i < 8; i++) {\n        if(arr[i] > max) {\n            max = arr[i];\n            index = i;\n        }\n    }\n    \n    printf(\"最大值: %d, 下标: %d\\n\", max, index);\n    return 0;\n}",
+    "analysis": "本题考查数组遍历和条件判断。首先假设第一个元素为最大值，然后遍历剩余元素，如果发现比当前最大值更大的元素，则更新最大值和对应的下标。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 104,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 数组",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 105,
+    "type": "填空题",
+    "content": "在C语言中，用于结束函数并返回函数值的是 {{__BLANK_1__}} 关键字。",
+    "options": [],
+    "answer": [
+     "return"
+    ],
+    "analysis": "return语句用于结束函数的执行，并将计算结果（如果有）返回给调用该函数的语句。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 105,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 106,
+    "type": "填空题",
+    "content": "根据函数的参数列表是否为空，可以将函数分为 {{__BLANK_1__}} 函数和 {{__BLANK_2__}} 函数。",
+    "options": [],
+    "answer": [
+     "无参",
+     "有参"
+    ],
+    "analysis": "函数定义时，如果参数列表为空，称为无参函数；如果参数列表包含参数，称为有参函数。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 106,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 107,
+    "type": "填空题",
+    "content": "C语言变量的默认存储类别是 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "auto"
+    ],
+    "analysis": "在函数内部定义的局部变量，如果没有指定存储类别，默认是自动变量（auto），即在进入代码块时创建，退出时销毁。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 107,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 108,
+    "type": "填空题",
+    "content": "函数内部调用自身的过程称为函数的 {{__BLANK_1__}} 调用。",
+    "options": [],
+    "answer": [
+     "递归"
+    ],
+    "analysis": "递归是指函数直接或间接地调用自身的过程，通常用于解决可以将大问题分解为相似子问题的情况。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 108,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 109,
+    "type": "填空题",
+    "content": "C语言中的变量，按作用域范围不同可分为 {{__BLANK_1__}} 变量和 {{__BLANK_2__}} 变量。",
+    "options": [],
+    "answer": [
+     "局部",
+     "全局"
+    ],
+    "analysis": "根据变量定义的位置和作用域，变量分为局部变量（在函数或代码块内定义）和全局变量（在所有函数外部定义）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 109,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 110,
+    "type": "判断题",
+    "content": "递归调用时必须有结束条件，不然就会陷入无限递归的状态。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "递归函数必须包含边界条件（终止条件），当满足该条件时停止调用自身并返回，否则会导致无限递归，最终引发栈溢出。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 110,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 111,
+    "type": "判断题",
+    "content": "C语言中不允许嵌套调用函数。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "C语言允许函数的嵌套调用，即在一个函数中可以调用另一个函数。但是，C语言不允许函数的嵌套定义（即不能在一个函数内部定义另一个函数）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 111,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 112,
+    "type": "判断题",
+    "content": "在定义函数时，必须要指定函数中的参数列表。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "定义函数时，如果是无参函数，参数列表可以为空（或者写void）。并不是所有函数都必须有参数。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 112,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 113,
+    "type": "判断题",
+    "content": "当函数没有返回值时，其返回值类型必须声明为void。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "如果函数不需要返回任何值，应当将其返回值类型声明为void，表示无类型或空类型。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 113,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 114,
+    "type": "判断题",
+    "content": "局部变量就是在函数内部声明的变量。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "局部变量是定义在函数内部或复合语句（代码块）内部的变量，其作用域仅限于定义它的函数或代码块。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 114,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 115,
+    "type": "单选题",
+    "content": "下列函数返回值的类型是 {{__SELECT_1__}}。\n```c\nfunc(float x)\n{\n    float y;\n    y = 3 * x - 1;\n    return y;\n}\n```",
+    "options": [
+     "int",
+     "void",
+     "float",
+     "不确定"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "在C语言（特别是早期标准C89/90）中，如果函数定义时省略了返回值类型，默认隐含为 `int` 类型。虽然函数体内部返回了 `float` 类型的 `y`，但编译器会尝试将其转换为隐含的 `int` 类型返回。注意：在现代C标准（C99及以后）中，不建议省略返回类型。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 115,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 116,
+    "type": "单选题",
+    "content": "定义内部函数时，必须使用下列哪个关键字？ {{__SELECT_1__}}",
+    "options": [
+     "extern",
+     "void",
+     "return",
+     "static"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "内部函数（又称静态函数）是指只能在当前源文件中被调用的函数，定义时需要在函数返回值类型前添加 `static` 关键字。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 116,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 117,
+    "type": "单选题",
+    "content": "下列说法不正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "主函数main中定义的变量在整个文件或程序中有效",
+     "不同的函数中可以使用相同的变量名",
+     "形式参数是局部变量",
+     "在一个函数内部的复合语句中定义变量，这些变量只在本复合语句中有效"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "主函数 `main` 中定义的变量也是局部变量，其作用域仅限于 `main` 函数内部，并不是在整个文件或程序中有效。全局变量才是在整个程序运行期间有效的（除非被static修饰限制了文件作用域）。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 117,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 118,
+    "type": "单选题",
+    "content": "下列说法不正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "函数中的自动变量可以赋初值，每调用一次，赋值一次",
+     "在调用函数时，实参和对应的形参在类型上只需复制兼容",
+     "外部变量的隐含类别是自动存储类型",
+     "函数形参不可以使用修饰符"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "外部变量（全局变量）的存储类别是静态存储类别（static storage duration），而不是自动存储类型（auto）。它们在程序运行期间一直存在。自动变量（auto）通常指函数内的局部变量。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 118,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 119,
+    "type": "单选题",
+    "content": "下列关于函数的说法中，正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "必须要有形参",
+     "可以有形参也可以没有",
+     "数组名不能作形参",
+     "形参必须是变量名"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "函数可以有参数（有参函数），也可以没有参数（无参函数）。数组名可以作为形参（本质是传递地址）。形参在函数定义中必须有变量名，但在函数声明中可以省略变量名只写类型。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 119,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 120,
+    "type": "单选题",
+    "content": "关于局部变量和全局变量的区别，下列描述错误的是 {{__SELECT_1__}}。",
+    "options": [
+     "全局变量定义在所有函数外部，局部变量定义在函数内部",
+     "全局变量的作用域通常从定义处开始到源程序结束",
+     "局部变量在函数调用结束后会被释放（非static修饰）",
+     "当局部变量与全局变量同名时，全局变量优先使用"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "当局部变量和全局变量同名时，在局部变量的作用域内，全局变量会被“屏蔽”，即优先使用局部变量。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 120,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 121,
+    "type": "单选题",
+    "content": "关于外部函数和内部函数，下列说法正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "内部函数可以被项目中的其他源文件调用",
+     "使用 extern 关键字定义的函数是内部函数",
+     "内部函数使用 static 关键字定义，只能在当前源文件中使用",
+     "所有函数默认都是内部函数"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "内部函数使用 `static` 修饰，限制了其作用域仅在当前源文件。外部函数（默认或用 `extern` 修饰）可以被其他源文件调用。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 121,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 122,
+    "type": "单选题",
+    "content": "使用 static 关键字修饰局部变量的作用是 {{__SELECT_1__}}。",
+    "options": [
+     "使变量变为全局变量",
+     "延长变量的生命周期至整个程序运行结束，但作用域仍限于函数内",
+     "使变量可以被其他文件访问",
+     "使变量的值在每次函数调用时重置"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`static` 修饰局部变量会改变其存储类别为静态存储，使其生命周期贯穿整个程序运行期，但其作用域（可见性）依然局限于定义它的函数内部。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 122,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 123,
+    "type": "单选题",
+    "content": "相对于动态库，使用静态库的主要缺点是 {{__SELECT_1__}}。",
+    "options": [
+     "执行速度慢",
+     "不能包含多个目标文件",
+     "容易造成内存和磁盘空间的浪费",
+     "无法在Windows平台使用"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "静态库在链接时会将代码复制到每个可执行程序中，如果多个程序使用同一个库，会导致代码重复占用磁盘和内存空间。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 123,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 124,
+    "type": "编程题",
+    "content": "请编写一个递归函数 `reverse_print`，用于将输入的字符串以反序的方式打印出来。主函数中读取用户输入的字符串并调用该函数。\n\n示例输入：\nabcde\n\n示例输出：\nedcba",
+    "options": [],
+    "answer": "#include <stdio.h>\n\n// 递归函数：反序打印字符串\nvoid reverse_print(char *str) {\n    if (*str == '\\0') {\n        return;\n    }\n    reverse_print(str + 1); // 递归调用，指向下一个字符\n    printf(\"%c\", *str);     // 归来时打印当前字符\n}\n\nint main() {\n    char s[100];\n    printf(\"请输入字符串：\");\n    scanf(\"%s\", s);\n    printf(\"反序结果：\");\n    reverse_print(s);\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "递归的核心在于先递归深入到字符串末尾（`\\0`），然后在函数返回（归）的过程中执行打印操作。这样最后进入的字符（末尾字符）会最先被打印。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 124,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 125,
+    "type": "编程题",
+    "content": "请分别编写两个函数，一个使用**循环**，一个使用**递归**，实现将输入的十进制正整数转换为八进制数并输出。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\n// 循环方法\nvoid decimalToOctalLoop(int n) {\n    int octalNum[100];\n    int i = 0;\n    if (n == 0) {\n        printf(\"0\");\n        return;\n    }\n    while (n > 0) {\n        octalNum[i] = n % 8;\n        n = n / 8;\n        i++;\n    }\n    for (int j = i - 1; j >= 0; j--)\n        printf(\"%d\", octalNum[j]);\n}\n\n// 递归方法\nvoid decimalToOctalRecursive(int n) {\n    if (n > 0) {\n        decimalToOctalRecursive(n / 8);\n        printf(\"%d\", n % 8);\n    }\n}\n\nint main() {\n    int num;\n    printf(\"请输入一个十进制数: \");\n    scanf(\"%d\", &num);\n\n    printf(\"循环方式输出八进制: \");\n    decimalToOctalLoop(num);\n    printf(\"\\n\");\n\n    printf(\"递归方式输出八进制: \");\n    if (num == 0) printf(\"0\");\n    else decimalToOctalRecursive(num);\n    printf(\"\\n\");\n\n    return 0;\n}",
+    "analysis": "十进制转八进制采用“除8取余，逆序排列”的方法。循环法通常使用数组存储余数然后倒序输出；递归法利用栈的特性，先递归除8，再在回归时打印余数，自然实现逆序输出。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 125,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 126,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\n\nvoid change(int x, int y) {\n    int temp = x;\n    x = y;\n    y = temp;\n}\n\nint main() {\n    int a = 10, b = 20;\n    change(a, b);\n    printf(\"a=%d, b=%d\\n\", a, b);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "a=10, b=20"
+    ],
+    "analysis": "这是C语言函数调用中“值传递”的典型示例。`change` 函数接收的是 `a` 和 `b` 的副本（实参传给形参）。在函数内部交换 `x` 和 `y` 的值只会影响形参，不会影响 `main` 函数中的实参 `a` 和 `b`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 126,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 127,
+    "type": "单选题",
+    "content": "若有函数声明 `void func(int n);`，以下关于递归调用该函数的描述中，正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "函数体内必须包含 `func(n-1);`",
+     "函数体内必须包含 `if` 语句来控制递归结束",
+     "递归调用的次数可以无限多",
+     "递归函数不能有返回值"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "递归函数必须包含终止条件（通常通过 `if` 语句实现），否则会导致无限递归和栈溢出。递归的具体参数变化不一定是 `n-1`，也可以是其他缩小问题规模的操作。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 127,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 128,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\n\nint func(int n) {\n    static int s = 1;\n    s = s * n;\n    return s;\n}\n\nint main() {\n    int i;\n    for(i = 1; i <= 3; i++) {\n        printf(\"%d \", func(i));\n    }\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "1 2 6"
+    ],
+    "analysis": "`s` 是静态局部变量（static），其值在函数调用结束后会保留。过程如下：\ni=1: s = 1 * 1 = 1, 返回 1\ni=2: s = 1 * 2 = 2, 返回 2 (s初始值为上一次的1)\ni=3: s = 2 * 3 = 6, 返回 6 (s初始值为上一次的2)",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 128,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 129,
+    "type": "单选题",
+    "content": "在 `printf` 函数的格式控制字符中，用于输出保留两位小数的浮点数的是 {{__SELECT_1__}}。",
+    "options": [
+     "%f",
+     "%.2f",
+     "%2f",
+     "%d"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`%f` 用于输出浮点数，`.2` 表示精度控制，即保留小数点后两位。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 129,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 130,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正（实现计算两个整数之和）：\n```c\n#include <stdio.h>\n\nvoid add(int x, int y) {\n    return x + y;\n}\n\nint main() {\n    int res = add(3, 5);\n    printf(\"%d\", res);\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint add(int x, int y) {  // 错误点：返回值类型应为int，而非void\n    return x + y;\n}\n\nint main() {\n    int res = add(3, 5);\n    printf(\"%d\", res);\n    return 0;\n}",
+    "analysis": "函数 `add` 中使用了 `return x + y;` 返回一个整数值，因此函数的返回值类型不能定义为 `void`（无返回值），而应该定义为 `int`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 130,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 函数",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 131,
+    "type": "填空题",
+    "content": "获取指针指向的变量的值可以使用 {{__BLANK_1__}} 运算符。",
+    "options": [],
+    "answer": [
+     "*"
+    ],
+    "analysis": "根据指针运算规则，取值运算符“*”用于获取指针指向的内存地址中存储的值。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 131,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 132,
+    "type": "填空题",
+    "content": "在C语言中，运算符 {{__BLANK_1__}} 可以获取变量的地址。",
+    "options": [],
+    "answer": [
+     "&"
+    ],
+    "analysis": "取址运算符“&”用于获取变量在内存中的地址。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 132,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 133,
+    "type": "填空题",
+    "content": "当使用指针指向一个函数时，这个指针就称作 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "函数指针"
+    ],
+    "analysis": "指向存放函数代码的存储空间起始地址（入口地址）的指针称为函数指针。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 133,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 134,
+    "type": "填空题",
+    "content": "指向指针的指针被称为 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "二级指针"
+    ],
+    "analysis": "若一个指针变量存放的是另一个指针变量的地址，则称该指针为二级指针（或指向指针的指针）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 134,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 135,
+    "type": "填空题",
+    "content": "有如下定义：\n```c\nint a[3] = {1,2,3};\nint *p = a;\n```\n则 `p[0]` 的值为 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "1"
+    ],
+    "analysis": "指针 `p` 指向数组 `a` 的首地址，`p[0]` 等价于 `a[0]`，即数组的第一个元素 1。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 135,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 136,
+    "type": "填空题",
+    "content": "有如下定义：\n```c\nint a[2][3] = {23,45,100,66,2,18};\nint (*p)[3] = a;\n```\n则 `*(*(p+1)+2)` 的值为 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "18"
+    ],
+    "analysis": "`p` 是指向包含3个元素的数组的指针。`p+1` 指向二维数组的第2行（即 `a[1]`）。`*(p+1)` 获取第2行的首地址。`*(p+1)+2` 指向第2行第3个元素（即 `a[1][2]`）。最外层 `*` 取出该元素的值。`a[1][2]` 对应初始化列表中的最后一个值 18。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 136,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 137,
+    "type": "填空题",
+    "content": "用来存放 {{__BLANK_1__}} 的数组称为指针数组。",
+    "options": [],
+    "answer": [
+     "指针"
+    ],
+    "analysis": "指针数组是指数组中的每个元素都是指针类型的变量，用于存放地址。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 137,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 138,
+    "type": "填空题",
+    "content": "值为0的指针称为 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "空指针"
+    ],
+    "analysis": "空指针（NULL）是没有指向任何存储单元的指针，其值通常为0。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 138,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 139,
+    "type": "判断题",
+    "content": "指针变量实际上存储的并不是具体的值，而是变量的内存地址。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "指针变量的定义就是用来存储地址的变量。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 139,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 140,
+    "type": "判断题",
+    "content": "数组名是一个普通的指针。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "数组名在表达式中通常转换为指向数组首元素的指针常量，但它不是普通的指针变量，不能进行赋值操作（如 `a = p` 是非法的），且对数组名取地址得到的是整个数组的地址。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 140,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 141,
+    "type": "判断题",
+    "content": "二级指针所占内存大小为8字节。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "指针变量所占的内存大小取决于系统架构。在32位系统中通常是4字节，在64位系统中通常是8字节。题目表述过于绝对。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 141,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 142,
+    "type": "判断题",
+    "content": "函数指针所占内存大小根据函数的代码量多少而不同。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "函数指针存储的是函数的入口地址，其大小是固定的（取决于系统架构，如4字节或8字节），与函数体的代码量无关。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 142,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 143,
+    "type": "判断题",
+    "content": "如果希望程序中的数据不能被修改或者防止非法篡改，可以使用const来修饰指针变量。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "使用 `const` 修饰指针（如 `const int *p`）可以防止通过该指针修改其指向的数据。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 143,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 144,
+    "type": "判断题",
+    "content": "如果通过二级指针访问变量的值，则需要使用两个“*”运算符。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "二级指针指向一级指针，一级指针指向变量。第一次 `*` 得到一级指针，第二次 `*` 得到最终变量的值。例如 `**p`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 144,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 145,
+    "type": "单选题",
+    "content": "下列关于指针说法的选项中，正确的是 {{__SELECT_1__}}",
+    "options": [
+     "指针是用来存储变量值的类型",
+     "指针类型只有一种",
+     "指针变量可以与整数进行相加或相减",
+     "指针不可以指向函数"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误，指针存储的是地址；B错误，指针有多种类型（如 `int*`, `char*` 等）；D错误，指针可以指向函数；C正确，指针可以进行加减整数运算（移动指针位置）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 145,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 146,
+    "type": "单选题",
+    "content": "下列哪一项运算符，指针不能使用？ {{__SELECT_1__}}",
+    "options": [
+     "&",
+     "+",
+     "++",
+     "%"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "指针可以使用 `&`（取地址）、`+`（加整数）、`++`（自增），但不能使用 `%`（取模），取模运算通常用于整数。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 146,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 147,
+    "type": "单选题",
+    "content": "下列选项中哪一个是取地址运算符？ {{__SELECT_1__}}",
+    "options": [
+     "*",
+     "&",
+     "#",
+     "$"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`&` 是取地址运算符，`*` 是取值（解引用）运算符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 147,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 148,
+    "type": "单选题",
+    "content": "若有以下定义和语句：\n```c\ndouble r = 99, *p = &r;\n*p = r;\n```\n则下列描述正确的是 {{__SELECT_1__}}",
+    "options": [
+     "两处*p含义相同，都说明给指针变量p赋值",
+     "在“double r=99, *p=&r”中，把r的地址赋值给了p所指向的存储单元",
+     "语句*p=r把变量r的值赋给指针变量p",
+     "语句*p=r取变量r的值放回r中"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "A错误，第一处 `*` 是类型说明符，第二处 `*` 是运算符；B错误，初始化时是将 `r` 的地址赋值给变量 `p`，而不是赋值给 `p` 指向的单元；C错误，是将 `r` 的值赋给 `p` 指向的变量（即 `r`）；D正确，`*p` 就是 `r`，所以 `*p=r` 相当于 `r=r`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 148,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 149,
+    "type": "单选题",
+    "content": "有一个数组 `int a[3]`，下列哪一项不能定义指向一维数组的指针？ {{__SELECT_1__}}",
+    "options": [
+     "int *p = a;",
+     "int *p = a[0];",
+     "int *p = &a;",
+     "int *p = &a[0];"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "A和D正确，`a` 和 `&a[0]` 都是数组首元素的地址；C虽然类型不完全匹配（`&a`是数组指针 `int (*)[3]`），但在某些编译器下可能只报警告，地址值是一样的；B错误，`a[0]` 是一个整数值，不能直接赋值给指针变量。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 149,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 150,
+    "type": "单选题",
+    "content": "关于C语言中的二级指针，下列描述中正确的是 {{__SELECT_1__}}",
+    "options": [
+     "二级指针中存储的是指针变量的地址",
+     "二级指针可以指向任何类型的指针",
+     "若有定义“int a = 10，**p；”，则“p = &&a；”成立",
+     "若有定义“int a = 10，**p；”，则“p =&（&a）；”成立"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "A正确，二级指针是指向指针的指针，存储的是一级指针的地址；B错误，二级指针也有基类型，如 `int **` 只能指向 `int *`；C和D错误，`&a` 是右值（地址常量），不能再对右值取地址。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 150,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 151,
+    "type": "单选题",
+    "content": "下列哪种运算对于指针而言是非法的？ {{__SELECT_1__}}",
+    "options": [
+     "指针与整数相加",
+     "同类型指针相减",
+     "指针与整数相乘",
+     "指针赋值"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "指针可以进行加减整数（移动）、同类相减（求距离）、赋值运算，但指针与整数相乘没有物理意义，是非法的。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 151,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 152,
+    "type": "单选题",
+    "content": "关于数组指针和指针数组，下列描述正确的是 {{__SELECT_1__}}",
+    "options": [
+     "int *p[4] 定义的是一个指向数组的指针",
+     "int (*p)[4] 定义的是一个包含4个指针的数组",
+     "指针数组本质上是一个数组，其元素是指针",
+     "数组指针本质上是一个数组"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`int *p[4]` 是指针数组（数组元素是 `int*`）；`int (*p)[4]` 是数组指针（指向包含4个int的数组）。C正确，指针数组本质是数组。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 152,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 153,
+    "type": "编程题",
+    "content": "编写一个程序，实现对两个整数值的交换。\n要求：\n1. 定义一个函数 `swap` 实现交换功能，该函数接收两个 `int` 指针类型的变量作为参数；\n2. 在 `main` 函数中调用该函数并输出交换后的结果。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\n// 定义交换函数，接收两个整型指针\nvoid swap(int *p1, int *p2) {\n    int temp = *p1;\n    *p1 = *p2;\n    *p2 = temp;\n}\n\nint main() {\n    int a = 10, b = 20;\n    printf(\"交换前: a = %d, b = %d\\n\", a, b);\n    \n    // 传递变量的地址\n    swap(&a, &b);\n    \n    printf(\"交换后: a = %d, b = %d\\n\", a, b);\n    return 0;\n}",
+    "analysis": "本题考查指针作为函数参数的应用。通过传递变量的地址，函数内部可以通过解引用（`*p`）直接修改主调函数中变量的值，从而实现交换。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 153,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 154,
+    "type": "编程题",
+    "content": "编写一个程序，实现 $3 \\times 4$ 的二维数组矩阵转置。\n提示：\n1. 定义两个数组，一个存储原矩阵，另一个存储转置后的数据；\n2. 原数组的行索引对应新数组的列索引，原数组的列索引对应新数组的行索引。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a[3][4] = {\n        {1, 2, 3, 4},\n        {5, 6, 7, 8},\n        {9, 10, 11, 12}\n    };\n    int b[4][3]; // 转置后的矩阵为 4x3\n    int i, j;\n\n    // 进行转置\n    for(i = 0; i < 3; i++) {\n        for(j = 0; j < 4; j++) {\n            b[j][i] = a[i][j];\n        }\n    }\n\n    // 输出转置后的矩阵\n    printf(\"转置后的矩阵：\\n\");\n    for(i = 0; i < 4; i++) {\n        for(j = 0; j < 3; j++) {\n            printf(\"%d\\t\", b[i][j]);\n        }\n        printf(\"\\n\");\n    }\n\n    return 0;\n}",
+    "analysis": "矩阵转置的核心是将矩阵的行和列互换。对于 $3 \\times 4$ 的矩阵 `a`，其转置矩阵 `b` 的大小为 $4 \\times 3$。逻辑上 `b[j][i] = a[i][j]`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 154,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 155,
+    "type": "单选题",
+    "content": "若有定义 `int *p, m = 5, n;`，且 `p = &m;`，则执行语句 `n = *p++;` 后，`n` 和 `p` 的状态是 {{__SELECT_1__}}",
+    "options": [
+     "n=5, p指向m",
+     "n=6, p指向m",
+     "n=5, p指向m之后的地址",
+     "n=6, p指向m之后的地址"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`*p++` 中 `++` 的优先级高于 `*`，但 `++` 是后缀运算，所以表达式的值是 `p` 原来指向的值（即 `m` 的值 5），然后 `p` 自增指向下一个地址。所以 `n=5`，`p` 指向 `m` 后面。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 155,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 156,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int a[] = {10, 20, 30, 40, 50};\n    int *p = a;\n    printf(\"%d\", *(p + 2));\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "30"
+    ],
+    "analysis": "`p` 指向数组首地址 `a[0]`。`p+2` 指向 `a[2]`。`*(p+2)` 取出 `a[2]` 的值，即 30。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 156,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 157,
+    "type": "单选题",
+    "content": "关于 `const int *p` 和 `int * const q`，下列说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "p 是常量指针，p 的指向不能修改",
+     "q 是指向常量的指针，*q 的值不能修改",
+     "p 指向的数据是常量，不能通过 *p 修改",
+     "q 指向的数据是常量，不能通过 *q 修改"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`const int *p` 是指向常量的指针，表示不能通过 `p` 修改其指向的数据，但 `p` 本身可以指向别处。`int * const q` 是指针常量，表示 `q` 的指向不能修改，但可以通过 `*q` 修改数据。故C正确。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 157,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 158,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正：\n```c\n#include <stdio.h>\nint main() {\n    int *p;\n    *p = 100;\n    printf(\"%d\", *p);\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\nint main() {\n    int a;\n    int *p = &a; // 或使用 malloc 分配内存\n    *p = 100;\n    printf(\"%d\", *p);\n    return 0;\n}",
+    "analysis": "原程序中定义了指针 `p` 但未初始化，`p` 是野指针，指向随机地址。直接对野指针赋值 `*p = 100` 会导致非法内存访问。应先让 `p` 指向合法的内存空间（如变量地址或动态分配的内存）。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 158,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 159,
+    "type": "单选题",
+    "content": "若有函数声明 `int func(int a, int b);`，则定义一个指向该函数的函数指针 `p`，正确的写法是 {{__SELECT_1__}}",
+    "options": [
+     "int *p(int, int);",
+     "int (*p)(int, int);",
+     "int *p(int a, int b);",
+     "int p(int, int);"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "定义函数指针需要将 `*p` 用括号括起来，否则 `int *p(int, int)` 会被解析为返回 `int*` 的函数声明。正确格式为 `返回值类型 (*指针变量名)(参数列表)`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 159,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 160,
+    "type": "程序填空题",
+    "content": "以下程序通过指针遍历输出数组元素，请填空：\n```c\n#include <stdio.h>\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int *p;\n    for(p = arr; p < {{__BLANK_1__}}; p++) {\n        printf(\"%d \", *p);\n    }\n    return 0;\n}\n```",
+    "options": [],
+    "answer": [
+     "arr + 5"
+    ],
+    "analysis": "循环条件应确保指针 `p` 不越界。数组 `arr` 有5个元素，首地址是 `arr`，最后一个有效元素的地址是 `arr+4`。循环结束条件通常是指向数组末尾的下一个位置，即 `arr + 5`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 160,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 指针",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 161,
+    "type": "填空题",
+    "content": "在C语言中，用于获取字符串长度的函数是 {{__BLANK_1__}}。",
+    "answer": [
+     "strlen"
+    ],
+    "analysis": "strlen()函数用于计算字符串的长度，不包括结束符'\\0'。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 161,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 162,
+    "type": "填空题",
+    "content": "数组 `char c[3] = {'a', 'b', 'c'}`，表达式 `c[1]` 的值是 {{__BLANK_1__}}。",
+    "answer": "'b'",
+    "analysis": "数组下标从0开始，c[0]为'a'，c[1]为'b'，c[2]为'c'。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 162,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 163,
+    "type": "填空题",
+    "content": "在C语言中，系统会默认在字符串末尾加上 {{__BLANK_1__}}。",
+    "answer": "\\0",
+    "analysis": "C语言中字符串以空字符'\\0'作为结束标志。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 163,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 164,
+    "type": "填空题",
+    "content": "在C语言中，{{__BLANK_1__}} 函数用来查找指定字符在指定字符串中第一次出现的位置。",
+    "answer": [
+     "strchr"
+    ],
+    "analysis": "strchr()函数用于查找字符在字符串中第一次出现的位置，strrchr()用于查找最后一次出现的位置。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 164,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 165,
+    "type": "填空题",
+    "content": "当字符数组中的初值个数小于数组长度时，没有赋值的元素会默认赋值为 {{__BLANK_1__}}。",
+    "answer": "\\0",
+    "analysis": "字符数组初始化时，如果提供的初始值少于数组长度，剩余元素会被自动初始化为'\\0'（即ASCII码0）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 165,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 166,
+    "type": "填空题",
+    "content": "在C语言中，{{__BLANK_1__}} 函数可以读取一个字符串，并将字符串存储在数组中。",
+    "answer": [
+     "gets"
+    ],
+    "analysis": "gets()函数用于从标准输入读取一行字符串并存储到字符数组中。虽然scanf(\"%s\")也可以，但gets是专门用于读取整行字符串的函数（注意：gets在现代C标准中因安全问题已被废弃，但在此处作为教材知识点考察）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 166,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 167,
+    "type": "判断题",
+    "content": "在C语言中，字符串可以用string类型定义，例如，`string s = \"abc\"`。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "C语言中没有内置的 `string` 类型，字符串是通过字符数组或字符指针来表示的。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 167,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 168,
+    "type": "判断题",
+    "content": "字符型指针用 `char*` 来定义，它不仅可以指向一个字符型常量，还可以指向一个字符串。",
+    "answer": [
+     "正确"
+    ],
+    "analysis": "字符指针可以指向单个字符的地址，也可以指向字符串常量的首地址。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 168,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 169,
+    "type": "判断题",
+    "content": "字符串操作函数都位于 `string.h` 文件中。",
+    "answer": [
+     "正确"
+    ],
+    "analysis": "C语言的标准字符串处理函数（如strcpy, strcmp, strlen等）的声明都包含在 `string.h` 头文件中。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 169,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 170,
+    "type": "判断题",
+    "content": "`getchar()` 函数只能从键盘中读取字符。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "`getchar()` 从标准输入（stdin）读取字符。虽然默认情况下标准输入是键盘，但可以通过重定向将文件或其他输入流作为标准输入。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 170,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 171,
+    "type": "判断题",
+    "content": "字符串也可以像基本数据类型一样进行比较相等的操作（如使用 `==`）。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "使用 `==` 比较两个字符串实际上是在比较它们的内存地址，而不是比较内容。比较字符串内容必须使用 `strcmp()` 函数。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 171,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 172,
+    "type": "判断题",
+    "content": "`strcpy()` 函数用于实现字符串的复制。",
+    "answer": [
+     "正确"
+    ],
+    "analysis": "`strcpy(dest, src)` 将 src 指向的字符串复制到 dest 指向的空间。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 172,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 173,
+    "type": "判断题",
+    "content": "指向字符串的指针，以整型格式化输出指针时，结果为字符串的地址。",
+    "answer": [
+     "正确"
+    ],
+    "analysis": "如果直接输出指针变量的值（地址），得到的是字符串在内存中的首地址。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 173,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 174,
+    "type": "单选题",
+    "content": "下列选项中，关于字符指针的说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "字符指针实际上存储的是字符串首元素的地址",
+     "字符指针实际上存储的是字符串中所有元素的地址",
+     "字符指针与字符数组的唯一区别是字符指针可以进行加减运算",
+     "字符指针实际上存储的是字符串常量值"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "字符指针是一个变量，存储的是一个地址，通常指向字符串的第一个字符。它不存储整个字符串的内容，也不存储所有元素的地址。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 174,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 175,
+    "type": "单选题",
+    "content": "代码 `char *ch = \"abcdef\"; printf(\"%s\", ch);` 在控制台输出的结果是 {{__SELECT_1__}}",
+    "options": [
+     "*ch",
+     "abcdef",
+     "字符'a'的地址",
+     "ab"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "使用 `%s` 格式说明符输出字符指针时，会从指针指向的地址开始输出字符，直到遇到 `\\0` 为止，因此输出整个字符串 \"abcdef\"。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 175,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 176,
+    "type": "单选题",
+    "content": "下列选项中，哪一个是表示字符串的末尾？ {{__SELECT_1__}}",
+    "options": [
+     "'\\n'",
+     "'\\r'",
+     "'\\0'",
+     "NULL"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "C语言字符串以空字符 `\\0` 结尾。`NULL` 是空指针，`\\n` 是换行符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 176,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 177,
+    "type": "单选题",
+    "content": "下列选项中，哪个函数可以读取一个字符串？ {{__SELECT_1__}}",
+    "options": [
+     "gets()",
+     "getc()",
+     "puts()",
+     "putchar()"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "`gets()` 用于读取字符串；`getc()` 读取单个字符；`puts()` 输出字符串；`putchar()` 输出单个字符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 177,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 178,
+    "type": "单选题",
+    "content": "若有定义 `char str1[] = \"abc\"; char str2[] = \"dkgabcls\";`，调用 `strstr(str1, str2)` 函数，则下列描述中正确的是 {{__SELECT_1__}}",
+    "options": [
+     "调用strstr(str1, str2)是在字符串str2中查找字符串str1第一次出现的位置",
+     "strstr(str1, str2)输出结果为abc",
+     "strstr(str1, str2)输出结果为abcls",
+     "strstr(str1, str2)输出结果为NULL"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "`strstr(haystack, needle)` 在 haystack 中查找 needle。本题中 `strstr(str1, str2)` 试图在 \"abc\" 中查找 \"dkgabcls\"。由于 \"abc\" 比 \"dkgabcls\" 短且不包含后者，查找失败，返回 NULL。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 178,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 179,
+    "type": "单选题",
+    "content": "关于字符串与字符数组的区别，下列说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "字符数组中存储的始终是字符串",
+     "字符串本质上是必须以'\\0'结尾的字符数组",
+     "字符数组的长度就是字符串的长度",
+     "定义字符数组时必须显式包含'\\0'"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "字符数组可以不包含 `\\0`（此时它只是普通的字符集合），但字符串必须以 `\\0` 结尾。字符串长度是有效字符个数（不含 `\\0`），往往小于数组长度。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 179,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 180,
+    "type": "单选题",
+    "content": "关于 `atoi()` 和 `itoa()` 函数，下列说法错误的是 {{__SELECT_1__}}",
+    "options": [
+     "atoi() 用于将数字字符串转换为整数",
+     "itoa() 用于将整数转换为字符串",
+     "atoi() 是标准库函数，包含在 stdlib.h 中",
+     "itoa() 是标准库函数，在所有平台上都能直接使用"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "`itoa()` 不是C语言标准库函数（非标准），在某些平台（如Linux）可能无法使用，建议使用 `sprintf()` 替代。`atoi()` 是标准库函数。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 180,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 181,
+    "type": "编程题",
+    "content": "编写一个函数 `int my_strcmp(const char *str1, const char *str2)`，实现与标准库函数 `strcmp` 相同的功能。\n\n要求：\n1. 如果 str1 等于 str2，返回 0\n2. 如果 str1 大于 str2，返回正数\n3. 如果 str1 小于 str2，返回负数",
+    "answer": "```c\n#include <stdio.h>\n\nint my_strcmp(const char *str1, const char *str2) {\n    while (*str1 && *str2 && *str1 == *str2) {\n        str1++;\n        str2++;\n    }\n    return *str1 - *str2;\n}\n\nint main() {\n    char s1[] = \"hello\";\n    char s2[] = \"hello\";\n    char s3[] = \"world\";\n    \n    printf(\"%d\\n\", my_strcmp(s1, s2)); // 输出 0\n    printf(\"%d\\n\", my_strcmp(s1, s3)); // 输出 负数\n    return 0;\n}\n```",
+    "analysis": "通过循环逐个比较两个字符串的字符，当遇到结束符或字符不相等时停止循环，返回当前字符的差值。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 181,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 182,
+    "type": "编程题",
+    "content": "现有一个字符串 \"Spring, the sweet Spring, is the year's pleasantking.\"。请编写一个程序，将字符串中的所有 \"Spring\" 子串替换为 \"Summer\"。\n\n提示：\n1. 假设目标缓冲区足够大。\n2. \"Spring\" 和 \"Summer\" 长度相同，可以直接覆盖。",
+    "answer": "```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char str[] = \"Spring, the sweet Spring, is the year's pleasantking.\";\n    char *target = \"Spring\";\n    char *replace = \"Summer\";\n    char *p = str;\n    \n    // 循环查找并替换\n    while ((p = strstr(p, target)) != NULL) {\n        // 因为长度相同，可以使用 strncpy 或逐字符赋值\n        strncpy(p, replace, strlen(replace));\n        // 移动指针继续查找\n        p += strlen(replace);\n    }\n    \n    printf(\"%s\\n\", str);\n    return 0;\n}\n```",
+    "analysis": "使用 `strstr` 查找子串位置，由于替换词和原词长度相同（都是6），可以直接在原内存位置进行覆盖，不需要移动后续字符。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 182,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 183,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char str[10] = \"Hello\";\n    printf(\"%d,%d\", sizeof(str), strlen(str));\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "10,5"
+    ],
+    "analysis": "`sizeof(str)` 计算的是数组分配的总内存大小，即10字节。`strlen(str)` 计算的是字符串的有效长度（不含`\\0`），\"Hello\"长度为5。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 183,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 184,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char s1[20] = \"World\";\n    char *s2 = \"Hello\";\n    strcat(s1, s2);\n    printf(\"%s\", s1);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "WorldHello"
+    ],
+    "analysis": "`strcat` 将 `s2` 连接到 `s1` 的末尾。`s1` 变为 \"WorldHello\"。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 184,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 185,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正：\n```c\n#include <stdio.h>\nint main() {\n    char str[5];\n    str = \"Hello\";\n    printf(\"%s\", str);\n    return 0;\n}\n```",
+    "answer": "```c\n#include <stdio.h>\n#include <string.h>\nint main() {\n    char str[6]; // 增加空间以容纳\\0\n    strcpy(str, \"Hello\"); // 使用strcpy赋值，不能直接用=\n    printf(\"%s\", str);\n    return 0;\n}\n```",
+    "analysis": "1. 数组名 `str` 是常量指针，不能直接使用 `=` 赋值，应使用 `strcpy`。2. 数组大小为5，无法容纳 \"Hello\" 加 `\\0`（共6个字符），会导致溢出，应至少定义为6。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 185,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 186,
+    "type": "单选题",
+    "content": "若有定义 `char *p = \"Hello\";`，执行语句 `p[0] = 'h';` 会导致什么后果？ {{__SELECT_1__}}",
+    "options": [
+     "字符串变为 \"hello\"",
+     "编译错误",
+     "运行时错误（段错误）",
+     "没有任何变化"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`p` 指向的是字符串常量，通常存储在只读内存区（常量区）。尝试修改只读内存会导致运行时错误（Segmentation Fault）。",
+    "difficulty": "提高",
+    "isFromTextbook": false,
+    "originalNumber": 186,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 187,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\n\nint main() {\n    char str[] = \"123456789\";\n    char *p = str;\n    printf(\"%s\", p + 3);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "456789"
+    ],
+    "analysis": "`p` 指向字符串首地址，`p+3` 指向第4个字符（索引为3，即 '4'）。`%s` 从该位置开始输出直到遇到 `\\0`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 187,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 188,
+    "type": "单选题",
+    "content": "使用 `scanf(\"%s\", str)` 读取字符串时，输入 \"Hello World\"，`str` 中存储的内容是 {{__SELECT_1__}}",
+    "options": [
+     "Hello World",
+     "Hello",
+     "World",
+     "Hello\\0World"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`scanf` 使用 `%s` 读取字符串时，遇到空格、制表符或换行符会停止读取。因此只读取了 \"Hello\"。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 188,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 字符串",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 189,
+    "type": "填空题",
+    "content": "在C语言中，结构体类型属于 {{__BLANK_1__}} 类型。",
+    "answer": [
+     "构造"
+    ],
+    "analysis": "C语言的数据类型分为基本类型、构造类型、指针类型和空类型。结构体（struct）、共用体（union）和枚举（enum）都属于构造类型，是由基本类型或其他构造类型组合而成的。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 189,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 190,
+    "type": "填空题",
+    "content": "结构体变量a包含一个 `int` 类型的成员和一个 `float` 类型的成员，那么，系统为变量a分配的内存是 {{__BLANK_1__}} 字节。（假设在32位系统中，int和float均为4字节，且满足对齐要求）",
+    "answer": [
+     "8"
+    ],
+    "analysis": "结构体变量所占内存大小通常是各成员所占内存之和（需考虑内存对齐）。`int` 占4字节，`float` 占4字节。由于两者大小相同，且总大小8字节是4的倍数，通常不需要额外的填充字节，所以总共分配 4 + 4 = 8 字节。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 190,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 191,
+    "type": "填空题",
+    "content": "以下定义中结构体名是 {{__BLANK_1__}}，结构体变量是 {{__BLANK_2__}}，结构体类型标识符是 {{__BLANK_3__}}。\n```c\nstruct apple\n{\n    char *colour;\n}attr;\n```",
+    "answer": [
+     "apple",
+     "attr",
+     "struct apple"
+    ],
+    "analysis": "在声明 `struct apple { ... } attr;` 中，`struct` 是关键字，`apple` 是结构体标签（结构体名），`struct apple` 构成了完整的结构体类型标识符，而 `attr` 是定义在该类型下的结构体变量名。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 191,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 192,
+    "type": "填空题",
+    "content": "下面定义的语句中，`sizeof(a)` 的值是 {{__BLANK_1__}}，`sizeof(a.salary)` 的值是 {{__BLANK_2__}}。\n```c\nstruct date\n{\n    int day;\n    int month;\n    int year;\n    union\n    {\n        double salary;\n        char city[24];\n    }\n} a;\n```",
+    "answer": [
+     "40",
+     "8"
+    ],
+    "analysis": "1. `union` 的大小取决于最大成员，即 `city[24]`，故 union 大小为 24 字节。由于 union 中包含 `double`，其对齐要求为 8 字节。\n2. 结构体成员 `day`, `month`, `year` 各占 4 字节，共 12 字节。\n3. 接下来的 union 需要 8 字节对齐，因此在 `year` 之后需要填充 4 字节（12 + 4 = 16）。\n4. Union 从偏移量 16 开始，占用 24 字节，结束于 40 字节。\n5. 结构体总大小必须是最大对齐模数（double 的 8 字节）的倍数，40 是 8 的倍数，故 `sizeof(a)` 为 40。\n6. `a.salary` 是 `double` 类型，大小为 8 字节。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 192,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 193,
+    "type": "填空题",
+    "content": "程序中定义了一个指向结构体变量的指针后，可以通过 {{__BLANK_1__}} 的方式访问结构体变量中的成员（请填写运算符）。",
+    "answer": [
+     "->"
+    ],
+    "analysis": "使用结构体指针访问成员有两种方式：`(*p).成员名` 或 `p->成员名`。题目问“方式”，通常指 `->` 运算符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 193,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 194,
+    "type": "判断题",
+    "content": "结构体类型是由不同类型的数据组成的。",
+    "answer": [
+     "正确"
+    ],
+    "analysis": "结构体是一种构造数据类型，它允许将不同类型的数据（如整型、字符型、数组等）组合在一起作为一个整体来处理。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 194,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 195,
+    "type": "判断题",
+    "content": "若已知指向结构体变量 `stu` 的指针 `p`，在引用结构体成员时，有3种等价的形式，即 `stu.成员名`、`*p.成员名`、`p->成员名`。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "`.` 运算符的优先级高于 `*` 运算符，所以 `*p.成员名` 等价于 `*(p.成员名)`，这是错误的语法（除非 `p` 是结构体且有成员是指针）。正确的等价形式是 `(*p).成员名`。因此题目描述错误。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 195,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 196,
+    "type": "判断题",
+    "content": "结构体指针作为函数参数，是将结构体的首地址传递给函数。",
+    "answer": [
+     "正确"
+    ],
+    "analysis": "指针变量存储的是地址。当结构体指针作为参数传递时，传递的是该结构体变量在内存中的起始地址，函数内部可以通过该地址访问或修改原结构体数据。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 196,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 197,
+    "type": "判断题",
+    "content": "在定义一个结构体变量时，系统分配给它的存储空间是该结构体中占有最大存储空间的成员所需的存储空间。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "这是共用体（Union）的特性。对于结构体（Struct），系统分配的内存大致是各成员所占内存之和（考虑字节对齐），而不是仅分配最大成员的空间。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 197,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 198,
+    "type": "判断题",
+    "content": "结构体变量在程序运行期间只有一个成员驻留在内存。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "这也是共用体（Union）的特性。结构体变量的所有成员同时存在于内存中，各自占用独立的存储空间。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 198,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 199,
+    "type": "单选题",
+    "content": "在C语言中，系统为一个结构体变量分配的内存是 {{__SELECT_1__}}。",
+    "options": [
+     "各成员所需内存量的总和（含对齐填充）",
+     "结构体第一个成员所需的内存量",
+     "成员中占内存量最大者所需的容量",
+     "结构体中最后一个成员所需的内存量"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "结构体变量的内存大小等于所有成员占用空间加上可能的填充字节之和。选项C描述的是共用体。选项A最符合结构体的特征。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 199,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 200,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nstruct data\n{\n    int a, b, c;\n};\nstruct data d[2] = {1, 2, 3, 4, 5, 6};\nint t;\nt = d[0].a + d[1].b;\nprintf(\"%d\\n\", t);\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "6"
+    ],
+    "analysis": "数组 `d` 初始化如下：\n`d[0] = {1, 2, 3}`，即 `d[0].a=1`, `d[0].b=2`, `d[0].c=3`。\n`d[1] = {4, 5, 6}`，即 `d[1].a=4`, `d[1].b=5`, `d[1].c=6`。\n表达式 `t = d[0].a + d[1].b` 即 `t = 1 + 5 = 6`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 200,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 201,
+    "type": "单选题",
+    "content": "关于结构体作为函数参数，下列描述中错误的是 {{__SELECT_1__}}。",
+    "options": [
+     "结构体可以作为函数参数",
+     "结构体数组可以作为函数参数",
+     "结构体指针可以作为函数参数",
+     "结构体成员变量不可以作为函数参数"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "结构体的成员变量本质上就是普通的变量（如int, char等），完全可以像普通变量一样作为函数参数传递。因此D选项描述错误。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 201,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 202,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\nmain(){\n    struct cmplx\n    {\n        int x;\n        int y;\n    } com[2] = {1, 3, 2, 7};\n    printf(\"%d\\n\", com[0].y / com[0].x * com[1].x);\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "6"
+    ],
+    "analysis": "初始化：`com[0] = {1, 3}` (x=1, y=3), `com[1] = {2, 7}` (x=2, y=7)。\n计算表达式：`com[0].y` 是 3，`com[0].x` 是 1，`com[1].x` 是 2。\n`3 / 1 * 2`，根据结合性从左到右，先算除法 3/1=3，再算乘法 3*2=6。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 202,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 203,
+    "type": "单选题",
+    "content": "有结构体定义如下：\n```c\nstruct s {\n    int a;\n    float b;\n} data, *p;\n```\n若有 `p = &data;` 则以下对结构体成员引用正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "(*p).data.a",
+     "(*p).a",
+     "p->data.a",
+     "p.data.a"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "A错误：`data` 是变量名，不是成员名，`*p` 就是 `data` 变量本身，应写为 `(*p).a`。\nB正确：`*p` 解引用得到结构体变量，然后用 `.` 访问成员 `a`。\nC错误：`p` 是指针，`p->` 后应直接跟成员名，且无 `data` 成员。\nD错误：`p` 是指针，不能直接用 `.` 运算符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 203,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 204,
+    "type": "单选题",
+    "content": "（改编自简答题）以下关于结构体类型定义的语法格式，正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "struct 结构体名 { 类型 成员名; ... }",
+     "struct 结构体名 { 类型 成员名; ... };",
+     "struct { 类型 成员名; ... } 结构体名",
+     "definition struct 结构体名 { 类型 成员名; ... };"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "结构体类型定义的标准格式是以 `struct` 关键字开头，后跟结构体名，大括号内定义成员，最后必须以分号 `;` 结束。选项A缺少分号。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 204,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 205,
+    "type": "单选题",
+    "content": "（改编自简答题）关于结构体变量的内存分配，下列说法正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "结构体变量在内存中是连续存放的，各成员之间没有空隙",
+     "结构体变量的地址等于其最后一个成员的地址",
+     "编译器为了提高访问效率，可能会在结构体成员之间进行字节对齐填充",
+     "结构体变量的大小等于所有成员大小的简单相加，不考虑对齐"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "为了保证CPU读取数据的效率，编译器通常会遵循字节对齐（Byte Alignment）规则。这意味着结构体成员之间或结构体末尾可能会填充无用的字节，使得结构体的大小可能大于各成员大小的简单之和。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 205,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 206,
+    "type": "编程题",
+    "content": "某班有20个学生，每名学生的数据包括学号、姓名、3门课成绩。请编写程序，从键盘输入20名学生数据，要求打印出3门课的总平均成绩（每门课的平均分），以及最高分的学生数据（包括学号、姓名、3门课成绩、平均成绩）。\n\n注意：假设最高分是指个人平均成绩最高的学生。",
+    "answer": "#include <stdio.h>\n\nstruct Student {\n    int id;\n    char name[20];\n    float scores[3];\n    float avg;\n};\n\nint main() {\n    struct Student stus[20];\n    float sum[3] = {0}; // 用于存储3门课的总分\n    int maxIdx = 0;\n    \n    // 输入数据\n    for(int i = 0; i < 20; i++) {\n        printf(\"请输入第%d个学生的学号 姓名 3门课成绩: \", i+1);\n        scanf(\"%d %s %f %f %f\", &stus[i].id, stus[i].name, &stus[i].scores[0], &stus[i].scores[1], &stus[i].scores[2]);\n        \n        // 计算个人平均分\n        stus[i].avg = (stus[i].scores[0] + stus[i].scores[1] + stus[i].scores[2]) / 3.0;\n        \n        // 累加每门课的总分\n        sum[0] += stus[i].scores[0];\n        sum[1] += stus[i].scores[1];\n        sum[2] += stus[i].scores[2];\n        \n        // 寻找最高平均分学生下标\n        if(stus[i].avg > stus[maxIdx].avg) {\n            maxIdx = i;\n        }\n    }\n    \n    // 输出3门课的平均成绩\n    printf(\"\\n3门课的平均成绩分别为: %.2f %.2f %.2f\\n\", sum[0]/20, sum[1]/20, sum[2]/20);\n    \n    // 输出最高分学生信息\n    printf(\"\\n最高分学生信息:\\n\");\n    printf(\"学号: %d\\n\", stus[maxIdx].id);\n    printf(\"姓名: %s\\n\", stus[maxIdx].name);\n    printf(\"成绩: %.2f %.2f %.2f\\n\", stus[maxIdx].scores[0], stus[maxIdx].scores[1], stus[maxIdx].scores[2]);\n    printf(\"个人平均分: %.2f\\n\", stus[maxIdx].avg);\n    \n    return 0;\n}",
+    "analysis": "1. 定义结构体 `Student`，包含学号、姓名、3门课成绩数组和个人平均分。\n2. 定义结构体数组 `stus[20]` 存储学生信息。\n3. 使用循环录入数据，同时计算每个学生的个人平均分，并累加每门课程的总分。\n4. 在循环中通过比较 `avg` 实时更新最高分学生的索引 `maxIdx`。\n5. 循环结束后，计算并输出3门课程的平均分（总分/20）。\n6. 根据 `maxIdx` 输出最高分学生的详细信息。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 206,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 207,
+    "type": "单选题",
+    "content": "使用 `typedef` 关键字的作用是 {{__SELECT_1__}}。",
+    "options": [
+     "定义一种新的数据类型",
+     "为已存在的数据类型定义一个别名",
+     "定义一个结构体变量",
+     "定义一个宏"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`typedef` 并不创建新的数据类型，而是为已有的数据类型（如基本类型、结构体、指针等）取一个新的名字（别名），以增加代码的可读性或移植性。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 207,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 208,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nstruct Point {\n    int x;\n    int y;\n};\nstruct Rect {\n    struct Point p1;\n    struct Point p2;\n};\n\nint main() {\n    struct Rect r = {{0, 0}, {10, 20}};\n    printf(\"%d\", r.p2.x * r.p2.y);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "200"
+    ],
+    "analysis": "这是一个嵌套结构体的例子。`r` 是 `Rect` 类型，包含两个 `Point` 类型的成员 `p1` 和 `p2`。\n初始化时：`r.p1` 为 `{0, 0}`，`r.p2` 为 `{10, 20}`。\n`r.p2.x` 是 10，`r.p2.y` 是 20。\n输出结果为 `10 * 20 = 200`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 208,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 209,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正：\n```c\nstruct Student {\n    char name[20];\n    int age;\n}\n\nint main() {\n    struct Student s;\n    s.age = 18;\n    return 0;\n}\n```",
+    "answer": [
+     "#include <stdio.h>\nstruct Student {\n    char name[20];\n    int age;\n}; // 错误点：结构体定义结束缺少分号\n\nint main() {\n    struct Student s;\n    s.age = 18;\n    return 0;\n}"
+    ],
+    "analysis": "在C语言中，结构体类型声明的末尾（右大括号之后）必须加分号 `;`。这是初学者常犯的错误。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 209,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 210,
+    "type": "程序填空题",
+    "content": "以下程序用于输出结构体数组中所有学生的姓名。请填空。\n```c\n#include <stdio.h>\nstruct Stu {\n    char name[20];\n    int num;\n};\n\nint main() {\n    struct Stu s[3] = {{\"Tom\", 1}, {\"Jerry\", 2}, {\"Mickey\", 3}};\n    struct Stu *p;\n    for (p = s; p < {{__BLANK_1__}}; p++) {\n        printf(\"%s\\n\", {{__BLANK_2__}});\n    }\n    return 0;\n}\n```",
+    "answer": [
+     "s + 3",
+     "p->name"
+    ],
+    "analysis": "1. 指针 `p` 指向数组首地址 `s`。数组有3个元素，循环条件应为 `p` 小于数组末尾地址，即 `s + 3`。\n2. 在循环中，`p` 是指向结构体元素的指针，访问成员应使用 `->` 运算符，即 `p->name`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 210,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 211,
+    "type": "单选题",
+    "content": "设有定义 `struct {int n; char c;} *p;`，以下操作中非法的是 {{__SELECT_1__}}。",
+    "options": [
+     "p = &(struct {int n; char c;}){10, 'a'};",
+     "p->n = 10;",
+     "(*p).c = 'a';",
+     "p.n = 10;"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "`p` 是一个指针变量，访问其指向的结构体成员必须使用 `->` 运算符（如 `p->n`）或者先解引用再用 `.` 运算符（如 `(*p).n`）。直接使用 `p.n` 是错误的，因为 `.` 运算符要求左操作数必须是结构体变量，而不是指针。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 211,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 结构体",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 212,
+    "type": "填空题",
+    "content": "预处理指令 {{__BLANK_1__}} 用于定义宏。",
+    "answer": [
+     "#define"
+    ],
+    "analysis": "在C语言中，`#define` 指令用于定义宏，可以将一个标识符定义为一个字符串、常量或表达式。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 212,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 213,
+    "type": "填空题",
+    "content": "预处理指令 {{__BLANK_1__}} 用于取消宏定义。",
+    "answer": [
+     "#undef"
+    ],
+    "analysis": "`#undef` 指令与 `#define` 指令功能相反，用于取消已定义的宏。例如 `#undef PI` 会取消之前定义的 PI 宏。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 213,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 214,
+    "type": "填空题",
+    "content": "条件编译指令主要包括 {{__BLANK_1__}}、{{__BLANK_2__}} 和 {{__BLANK_3__}} 三种格式（请填写指令关键字组合）。",
+    "answer": [
+     "#if/#else/#endif",
+     "#ifdef/#else/#endif",
+     "#ifndef/#else/#endif"
+    ],
+    "analysis": "C语言中常用的条件编译指令有三种形式：\n1. `#if` ... `#else` ... `#endif`\n2. `#ifdef` ... `#else` ... `#endif`\n3. `#ifndef` ... `#else` ... `#endif`",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 214,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 215,
+    "type": "填空题",
+    "content": "预处理指令 {{__BLANK_1__}} 用于文件包含。",
+    "answer": [
+     "#include"
+    ],
+    "analysis": "`#include` 指令用于将一个源文件的内容包含到另一个源文件中，常用于引入头文件。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 215,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 216,
+    "type": "填空题",
+    "content": "设有以下宏定义：\n```c\n#define WIDTH 80\n#define LENGTH WIDTH+40\n```\n则执行语句 `v = LENGTH * 20;` 后，v的值为 {{__BLANK_1__}}。",
+    "answer": [
+     "880"
+    ],
+    "analysis": "宏定义是简单的字符串替换。\n`LENGTH` 被替换为 `WIDTH+40`，即 `80+40`。\n语句 `v = LENGTH * 20;` 替换后变为 `v = 80+40 * 20;`。\n根据运算符优先级，先乘除后加减，计算过程为 $80 + (40 \\times 20) = 80 + 800 = 880$。\n注意：如果希望结果为 $(80+40) \\times 20$，宏定义应写为 `#define LENGTH (WIDTH+40)`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 216,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 217,
+    "type": "填空题",
+    "content": "在C语言中，断言由 {{__BLANK_1__}} 宏实现。",
+    "answer": [
+     "assert"
+    ],
+    "analysis": "C语言中的断言通过 `assert()` 宏实现，该宏声明在 `<assert.h>` 头文件中。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 217,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 218,
+    "type": "填空题",
+    "content": "宏定义 {{__BLANK_1__}} 用于取消断言。",
+    "answer": [
+     "NDEBUG"
+    ],
+    "analysis": "在包含 `<assert.h>` 之前定义宏 `NDEBUG`（即 `#define NDEBUG`），可以禁用程序中的 `assert()` 断言。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 218,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 219,
+    "type": "判断题",
+    "content": "带参数的宏定义中，形参的个数只能是一个，不能是多个。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "带参数的宏定义可以有一个或多个参数，多个参数之间用逗号分隔。例如 `#define MAX(a, b) ((a)>(b)?(a):(b))` 就有两个参数。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 219,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 220,
+    "type": "判断题",
+    "content": "文件包含命令中，只能包含扩展名为 .h 的文件。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "虽然通常使用 `#include` 包含 `.h` 头文件，但实际上可以包含任何文本文件（如 `.c` 文件），只要文件内容符合C语言语法或预处理要求即可。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 220,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 221,
+    "type": "判断题",
+    "content": "宏定义在程序预处理阶段被处理。",
+    "answer": [
+     "正确"
+    ],
+    "analysis": "宏定义属于预处理指令，在编译之前的预处理阶段由预处理器进行文本替换。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 221,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 222,
+    "type": "判断题",
+    "content": "文件包含也是一种预处理语句，它的作用是将一个源程序文件包含到另外一个源程序文件中。",
+    "answer": [
+     "正确"
+    ],
+    "analysis": "这是文件包含指令 `#include` 的基本定义和功能。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 222,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 223,
+    "type": "判断题",
+    "content": "断言可以代替条件检测。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "断言（assert）用于在调试阶段捕获不应该发生的逻辑错误（假设条件），而条件检测（if）用于处理运行时可能出现的各种情况（包括错误输入）。断言在发布版本中通常会被禁用，因此不能代替正常的条件检测。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 223,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 224,
+    "type": "判断题",
+    "content": "宏定义一旦定义就不能再取消。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "可以使用 `#undef` 指令取消已定义的宏。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 224,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 225,
+    "type": "判断题",
+    "content": "断言可以使用 `#define DEBUG` 语句取消。",
+    "answer": [
+     "错误"
+    ],
+    "analysis": "取消断言使用的是 `#define NDEBUG`，而不是 `DEBUG`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 225,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    },
+    "options": [
+     "正确",
+     "错误"
+    ]
+   },
+   {
+    "id": 226,
+    "type": "单选题",
+    "content": "下列命令中，哪一项是正确的预处理命令？ {{__SELECT_1__}}",
+    "options": [
+     "define PI 3.14159",
+     "#define P(a，b) strcpy(a，b)",
+     "#define stdio.h",
+     "#define PI 3.14159"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "A选项缺少 `#`；B选项语法上是合法的，但作为标准答案，D选项是标准的常量宏定义格式；C选项定义了一个宏名为 `stdio.h`，语法正确但通常不这样使用。结合常规用法，D最为标准。注意：B选项虽然语法正确，但通常作为选项干扰项出现，且 `strcpy` 涉及函数调用开销，宏定义通常用于常量或简单表达式。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 226,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 227,
+    "type": "单选题",
+    "content": "在宏定义 `#define MAX 30` 中，用宏名 `MAX` 代替一个 {{__SELECT_1__}}。",
+    "options": [
+     "常量",
+     "字符串",
+     "整数",
+     "长整数"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "宏定义的本质是字符串替换。预处理器将源代码中的 `MAX` 替换为字符串 `30`。虽然 `30` 代表一个整数，但在预处理阶段，它被视为替换文本（字符串）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 227,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 228,
+    "type": "单选题",
+    "content": "阅读下列程序：\n```c\n#define MA(x) x*(x-1)\nmain()\n{\n    int a = 1, b = 2;\n    printf(\"%d\\n\", MA(1+a+b));\n}\n```\n程序的运行结果是 {{__SELECT_1__}}。",
+    "options": [
+     "6",
+     "8",
+     "10",
+     "12"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "1. 宏展开：`MA(1+a+b)` 被替换为 `1+a+b*(1+a+b-1)`。\n2. 变量代入：`a=1`, `b=2`。\n3. 表达式变为：`1 + 1 + 2 * (1 + 1 + 2 - 1)`。\n4. 计算括号内：`1 + 1 + 2 - 1 = 3`。\n5. 表达式变为：`1 + 1 + 2 * 3`。\n6. 先乘法：`2 * 3 = 6`。\n7. 加法：`1 + 1 + 6 = 8`。\n注意：由于宏定义中 `x` 没有加括号，导致了优先级问题。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 228,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 229,
+    "type": "单选题",
+    "content": "关于预处理，下列描述中正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "每个C程序必须在开头使用预处理命令 #include<stdio.h>",
+     "预处理命令必须位于C程序的开头",
+     "在C语言中，预处理命令都以#开头",
+     "C语言的预处理命令只能实现宏定义和条件编译的功能"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误：并非必须包含 `stdio.h`，只有使用输入输出函数时才需要；B错误：预处理命令可以出现在程序任何位置，只是通常习惯放在开头；C正确：所有预处理指令（如 `#define`, `#include`, `#if` 等）都以 `#` 开头；D错误：预处理还包括文件包含、行号控制、错误指令等功能。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 229,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 230,
+    "type": "单选题",
+    "content": "在宏定义 `#define PI 3.14` 中，用宏名 PI 代替一个 {{__SELECT_1__}}。",
+    "options": [
+     "单精度数",
+     "双精度数",
+     "常量",
+     "字符串"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "宏定义的本质是字符串替换。预处理器将 `PI` 替换为字符串 `3.14`。虽然在编译阶段它会被解析为浮点数，但在预处理阶段，它只是被定义的替换字符串。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 230,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 231,
+    "type": "单选题",
+    "content": "关于断言，下列说法中正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "在C语言中，断言是由函数assert()实现",
+     "断言一次只能检测多个条件",
+     "断言失败，程序就终止运行",
+     "断言无法被取消"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误：`assert` 是宏，不是函数；B错误：一次通常检测一个逻辑条件；C正确：如果断言条件为假（失败），程序会打印错误信息并终止；D错误：可以通过定义 `NDEBUG` 宏来取消断言。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 231,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 232,
+    "type": "单选题",
+    "content": "C语言中常用的预处理指令主要包括哪三种？ {{__SELECT_1__}}",
+    "options": [
+     "宏定义、文件包含、条件编译",
+     "宏定义、结构体定义、条件编译",
+     "变量定义、文件包含、断言",
+     "宏定义、函数声明、条件编译"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "C语言提供的预处理功能主要包括：宏定义（`#define`）、文件包含（`#include`）和条件编译（`#if`等）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 232,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 233,
+    "type": "编程题",
+    "content": "定义一个带参的宏，求两个整数的余数，通过宏调用，输出计算的结果。",
+    "answer": "#include <stdio.h>\n\n// 定义求余数的宏\n#define REMINDER(a, b) ((a) % (b))\n\nint main() {\n    int x = 10;\n    int y = 3;\n    \n    // 调用宏计算余数\n    int result = REMINDER(x, y);\n    \n    printf(\"%d %% %d = %d\\n\", x, y, result);\n    return 0;\n}",
+    "analysis": "需要定义一个带参数的宏，宏体应使用取模运算符 `%`。为了保证运算优先级正确，宏参数和整个表达式都应该用括号包裹，即 `((a) % (b))`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 233,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 234,
+    "type": "编程题",
+    "content": "定义一个大小为10的int类型数组，如果定义指定宏 `DESC`，则按从大到小输出，否则按从小到大输出。",
+    "answer": "#include <stdio.h>\n\n// 定义宏 DESC，注释掉这行则执行从小到大排序\n#define DESC\n\nint main() {\n    int arr[10] = {12, 5, 8, 9, 1, 3, 7, 10, 4, 6};\n    int i, j, temp;\n    int n = 10;\n\n    // 冒泡排序\n    for (i = 0; i < n - 1; i++) {\n        for (j = 0; j < n - 1 - i; j++) {\n            // 使用条件编译决定排序方向\n#ifdef DESC\n            // 从大到小：如果前一个小于后一个，则交换\n            if (arr[j] < arr[j + 1])\n#else\n            // 从小到大：如果前一个大于后一个，则交换\n            if (arr[j] > arr[j + 1])\n#endif\n            {\n                temp = arr[j];\n                arr[j] = arr[j + 1];\n                arr[j + 1] = temp;\n            }\n        }\n    }\n\n    // 输出结果\n    printf(\"排序结果: \");\n    for (i = 0; i < n; i++) {\n        printf(\"%d \", arr[i]);\n    }\n    printf(\"\\n\");\n\n    return 0;\n}",
+    "analysis": "本题考查条件编译 `#ifdef ... #else ... #endif` 的使用。在排序算法的比较逻辑处使用条件编译，根据是否定义了 `DESC` 宏来决定使用 `>` 还是 `<` 进行比较。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 234,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 235,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\n#define SQ(y) (y)*(y)\n\nint main() {\n    int a = 1;\n    int b = 2;\n    printf(\"%d\", SQ(a + b));\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "9"
+    ],
+    "analysis": "宏 `SQ(y)` 定义为 `(y)*(y)`。调用 `SQ(a+b)` 时，预处理器将其展开为 `(a+b)*(a+b)`。代入 $a=1, b=2$，表达式为 `(1+2)*(1+2)` 即 $3 \\times 3 = 9$。注意这里因为宏定义中使用了括号，所以优先级正确，不会出现类似 $1+2 \\times 1+2$ 的错误。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 235,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 236,
+    "type": "单选题",
+    "content": "在使用 `#include` 指令包含头文件时，使用尖括号 `< >` 和双引号 `\" \"` 的主要区别是 {{__SELECT_1__}}。",
+    "options": [
+     "尖括号只能包含系统头文件，双引号只能包含用户自定义头文件",
+     "尖括号包含的文件必须是.h后缀，双引号包含的可以是任意后缀",
+     "尖括号直接在系统指定路径查找，双引号先在当前目录查找，找不到再到系统路径查找",
+     "双引号直接在系统指定路径查找，尖括号先在当前目录查找"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "使用 `< >` 时，编译器直接在系统指定的包含文件目录中查找；使用 `\" \"` 时，编译器首先在用户当前源文件所在的目录中查找，如果找不到，再按系统指定的路径进行搜索。通常系统头文件用 `< >`，自定义头文件用 `\" \"`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 236,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 237,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正（注意宏定义的副作用）：\n```c\n#include <stdio.h>\n#define ABS(x) ((x) >= 0 ? (x) : -(x))\n\nint main() {\n    int a = -5;\n    // 希望计算a自增后的绝对值\n    int result = ABS(++a);\n    printf(\"%d\", result);\n    return 0;\n}\n```",
+    "answer": "#include <stdio.h>\n#define ABS(x) ((x) >= 0 ? (x) : -(x))\n\nint main() {\n    int a = -5;\n    // 改正：先自增，再调用宏，避免宏展开导致的多次自增\n    ++a;\n    int result = ABS(a);\n    printf(\"%d\", result);\n    return 0;\n}",
+    "analysis": "原程序中 `ABS(++a)` 展开后变为 `((++a) >= 0 ? (++a) : -(++a))`。变量 `a` 会被执行两次自增操作，导致结果错误（副作用）。在使用带有参数的宏时，应避免在参数中使用自增、自减等会有副作用的表达式。修正方法是将自增操作移到宏调用之前。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 237,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 238,
+    "type": "单选题",
+    "content": "下列关于 `#if` 表达式的限制，说法正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "#if 后面的表达式可以使用变量，如 #if a > 0",
+     "#if 后面的表达式必须是常量表达式，不能包含变量",
+     "#if 后面的表达式可以使用 sizeof 运算符",
+     "#if 后面的表达式可以是函数调用"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "条件编译是在预处理阶段执行的，此时程序尚未编译和运行，因此变量的值、`sizeof`（在某些编译器标准中预处理阶段不可用或有限制，通常是在编译阶段计算）、函数调用等运行时或编译时概念都不存在。`#if` 后面必须是预处理阶段可计算的常量表达式。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 238,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 预处理",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 239,
+    "type": "填空题",
+    "content": "流实际上是 {{__BLANK_1__}} 序列。",
+    "answer": [
+     "字节"
+    ],
+    "analysis": "在C语言中，流（Stream）被抽象为字节序列。输入程序的字节序列被称为输入流，从程序输出的字节序列被称为输出流。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 239,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 240,
+    "type": "填空题",
+    "content": "C语言预定义的3个流为 {{__BLANK_1__}}、{{__BLANK_2__}} 和 {{__BLANK_3__}}。",
+    "answer": [
+     "stdin",
+     "stdout",
+     "stderr"
+    ],
+    "analysis": "C语言系统预定义了3个流，分别为标准输入流（stdin）、标准输出流（stdout）和标准错误输出流（stderr）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 240,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 241,
+    "type": "填空题",
+    "content": "C语言中根据数据的存储方式，把文件分为 {{__BLANK_1__}} 和 {{__BLANK_2__}} 两种。",
+    "answer": [
+     "文本文件",
+     "二进制文件"
+    ],
+    "analysis": "计算机中的文件根据存储方式分为两类：文本文件（又称ASCII文件）和二进制文件（内存数据的映像）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 241,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 242,
+    "type": "填空题",
+    "content": "在C语言中，将文件指针置于文件开头的函数是 {{__BLANK_1__}}。",
+    "answer": [
+     "rewind()"
+    ],
+    "analysis": "`rewind(FILE *fp)` 函数的作用是将文件位置指针重置为文件开头。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 242,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 243,
+    "type": "填空题",
+    "content": "{{__BLANK_1__}} 函数用于从文件中读取一行字符串，或读取指定长度的字符串。",
+    "answer": [
+     "fgets()"
+    ],
+    "analysis": "`fgets(char *buf, int count, FILE *fp)` 函数用于从文件中读取一行或指定长度的字符串。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 243,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 244,
+    "type": "填空题",
+    "content": "{{__BLANK_1__}} 函数可以二进制的形式从文件中读取数据。",
+    "answer": [
+     "fread()"
+    ],
+    "analysis": "`fread()` 函数用于以二进制形式从文件中读取数据块，它不会对换行符等特殊字符进行转换。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 244,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 245,
+    "type": "判断题",
+    "content": "C语言预定义的流不需要初始化之后就能使用。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "stdin、stdout 和 stderr 定义在 `stdio.h` 中，程序开始执行时自动打开，程序结束时自动关闭，无需手动初始化。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 245,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 246,
+    "type": "判断题",
+    "content": "文件位置指针是指向文件有关信息的指针。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "指向文件有关信息的指针是文件指针（`FILE *`）。文件位置指针是系统设置的，用来标识当前文件读写位置的一个内部指示器。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 246,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 247,
+    "type": "判断题",
+    "content": "文件标识就是我们通常说的文件名。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "文件标识包含三个部分：文件路径、文件名主干、文件扩展名。通常所说的文件名只是文件标识的一部分。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 247,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 248,
+    "type": "判断题",
+    "content": "调用fclose()函数后原有的文件指针仍然可以进行文件操作。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "调用 `fclose()` 关闭文件后，文件指针与文件的关联被断开，缓冲区被释放，不能再通过该指针进行文件操作。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 248,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 249,
+    "type": "判断题",
+    "content": "函数fputc()在向文件中写入数据时只能覆盖掉原有数据。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "是否覆盖取决于文件的打开模式。如果使用追加模式（如 `\"a\"` 或 `\"a+\"`），`fputc()` 会在文件末尾追加数据，而不是覆盖原有数据。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 249,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 250,
+    "type": "判断题",
+    "content": "C语言中，fseek()函数的作用是移动文件位置指针。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "`fseek()` 函数用于将文件位置指针移动到指定的位置，从而实现文件的随机读写。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 250,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 251,
+    "type": "单选题",
+    "content": "C语言中，文件有哪几种存储类型？ {{__SELECT_1__}}",
+    "options": [
+     "A. 文本文件和数据文件",
+     "B. 文本文件和二进制文件",
+     "C. 数据文件和二进制文件",
+     "D. 数据代码文件"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "C语言中的文件主要分为文本文件（ASCII文件）和二进制文件两种存储类型。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 251,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 252,
+    "type": "单选题",
+    "content": "若 `fp` 是某文件的指针，且已读到文件的末尾，则表达式 `fgetc(fp)` 的返回值是 {{__SELECT_1__}}。（注：原题为fputc，根据题意修正为fgetc）",
+    "options": [
+     "A. EOF",
+     "B. -1",
+     "C. 非零值",
+     "D. NULL"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "当 `fgetc(fp)` 读到文件末尾时，会返回文件结束符 `EOF`。虽然 `EOF` 的值通常定义为 -1，但在选项中出现 `EOF` 时，应优先选择符号常量 `EOF`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 252,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 253,
+    "type": "单选题",
+    "content": "关于文件操作，下列说法中正确的是 {{__SELECT_1__}}",
+    "options": [
+     "A. 文本文件以ASCII码形式存储数据",
+     "B. 文件只能单个字符进行读取",
+     "C. 文件随机读写不适用于二进制文件",
+     "D. 顺序读写方式不使用于二进制文件"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "文本文件又称ASCII文件，以ASCII码形式存储数据。文件可以通过 `fgets`、`fread` 等函数进行多字符或块读取，不仅仅是单字符。随机读写通常更适用于二进制文件。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 253,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 254,
+    "type": "单选题",
+    "content": "关于 `fgets(str, n, fp)` 函数，下列描述中正确的是 {{__SELECT_1__}}",
+    "options": [
+     "A. 从文件fp中读取长度为n的字符串存入str指向的内存",
+     "B. 从文件fp中读取长度不超过n-1的字符串存入str指向的内存",
+     "C. 从文件fp中读取n个字符存入str指向的内存",
+     "D. 从str读取至多n个字符到文件fp中"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`fgets` 每次最多读取 `n-1` 个字符，因为最后一个位置需要留给字符串结束符 `\\0`。如果遇到换行符或文件结束，读取也会提前停止。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 254,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 255,
+    "type": "单选题",
+    "content": "关于 `fseek(fp, -20, 2)` 的含义，下列描述正确的是 {{__SELECT_1__}}",
+    "options": [
+     "A. 将文件位置指针移到距离文件头20个字节处",
+     "B. 将文件位置指针从当前位置向后移动20个字节",
+     "C. 将文件位置指针从文件末尾处后退20个字节",
+     "D. 将文件位置指针移到离当前位置20个字节处"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`fseek` 的第三个参数 `2` 代表 `SEEK_END`（文件末尾）。偏移量 `-20` 表示向文件头方向（后退）移动20个字节。因此是将指针从文件末尾处后退20个字节。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 255,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 256,
+    "type": "单选题",
+    "content": "关于文件，下列描述中错误的是 {{__SELECT_1__}}",
+    "options": [
+     "A. 二进制文件打开后可以先读文件的末尾",
+     "B. 在程序结束时，应当用fclose()函数关闭已打开的文件",
+     "C. 在利用fread()函数从二进制文件中读取数据时，可以用数组名给数组中的所有元素读入数据",
+     "D. 不可以用FILE定义指向二进制文件指针"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "D选项错误，`FILE *` 指针是通用的文件指针类型，既可以指向文本文件，也可以指向二进制文件。A选项虽然操作少见，但通过 `fseek` 定位到末尾是可以实现的。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 256,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 257,
+    "type": "单选题",
+    "content": "关于C语言中“流”的概念，以下描述错误的是 {{__SELECT_1__}}",
+    "options": [
+     "A. 流实际上是一个字节序列",
+     "B. 输入程序的字节序列被称为输入流",
+     "C. 流分为文本流和二进制流",
+     "D. 流必须对应物理磁盘上的文件，不能是键盘或屏幕"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "流是数据传输的抽象，不仅可以对应磁盘文件，也可以对应键盘（标准输入流）、屏幕（标准输出流）等设备。题目原为简答题，已改编为单选题。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 257,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 258,
+    "type": "单选题",
+    "content": "要实现文件的随机读写，主要依赖于对文件位置指针的操作。以下哪组函数是实现随机读写最关键的函数？ {{__SELECT_1__}}",
+    "options": [
+     "A. fopen, fclose, fgetc",
+     "B. fseek, ftell, rewind",
+     "C. fread, fwrite, fgets",
+     "D. printf, scanf, fprintf"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`fseek` 用于移动指针，`ftell` 用于获取当前位置，`rewind` 用于重置指针到开头，这三个函数是控制文件位置指针、实现随机读写的核心。题目原为简答题，已改编为单选题。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 258,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 259,
+    "type": "编程题",
+    "content": "请编写一个程序，通过单行读写文件方式实现文件的复制操作。\n要求：\n1. 使用 `fopen()` 打开源文件 `src.txt` 和目标文件 `dst.txt`；\n2. 使用 `fgets()` 和 `fputs()` 进行读写；\n3. 关闭文件。",
+    "answer": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    FILE *fp_src, *fp_dst;\n    char buf[1024];\n\n    // 打开源文件\n    fp_src = fopen(\"src.txt\", \"r\");\n    if (fp_src == NULL) {\n        printf(\"无法打开源文件\\n\");\n        exit(1);\n    }\n\n    // 打开目标文件\n    fp_dst = fopen(\"dst.txt\", \"w\");\n    if (fp_dst == NULL) {\n        printf(\"无法创建目标文件\\n\");\n        fclose(fp_src);\n        exit(1);\n    }\n\n    // 循环读取并写入\n    while (fgets(buf, sizeof(buf), fp_src) != NULL) {\n        fputs(buf, fp_dst);\n    }\n\n    // 关闭文件\n    fclose(fp_src);\n    fclose(fp_dst);\n    \n    printf(\"文件复制完成\\n\");\n    return 0;\n}",
+    "analysis": "程序首先分别以只读和只写模式打开文件，并进行判空处理。然后定义一个字符数组作为缓冲区，使用 `fgets` 循环读取源文件内容，直到返回 `NULL`（表示结束），每次读取后立即用 `fputs` 写入目标文件。最后关闭两个文件指针。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 259,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 260,
+    "type": "编程题",
+    "content": "请编写一个程序，演示文件的随机读写。\n要求：\n1. 在文件 `test.txt` 中写入字符串 \"Hello World\"；\n2. 将文件位置指针移动到开头，读取并打印当前位置；\n3. 将指针向后移动6个字节，读取并打印剩余字符串。",
+    "answer": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    FILE *fp;\n    char buf[100];\n    long pos;\n\n    // 以读写模式打开/创建文件\n    fp = fopen(\"test.txt\", \"w+\");\n    if (fp == NULL) {\n        perror(\"打开文件失败\");\n        return 1;\n    }\n\n    // 写入数据\n    fputs(\"Hello World\", fp);\n\n    // 1. 重置指针到开头\n    rewind(fp);\n    pos = ftell(fp);\n    printf(\"当前位置: %ld\\n\", pos);\n\n    // 2. 移动指针：从开头向后偏移6个字节\n    fseek(fp, 6, SEEK_SET);\n    pos = ftell(fp);\n    printf(\"移动后位置: %ld\\n\", pos);\n\n    // 3. 读取剩余内容\n    fgets(buf, sizeof(buf), fp);\n    printf(\"读取内容: %s\\n\", buf);\n\n    fclose(fp);\n    return 0;\n}",
+    "analysis": "本题考察 `fseek`, `ftell`, `rewind` 的综合使用。首先写入数据，此时指针在末尾。使用 `rewind` 回到开头，`ftell` 应返回0。使用 `fseek(fp, 6, SEEK_SET)` 跳过 \"Hello \"，指向 'W'。随后 `fgets` 读取将得到 \"World\"。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 260,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 261,
+    "type": "单选题",
+    "content": "若要以“追加”的方式打开一个二进制文件，如果文件不存在则创建，应使用的打开模式字符串是 {{__SELECT_1__}}",
+    "options": [
+     "\"r+\"",
+     "\"wb\"",
+     "\"ab\"",
+     "\"a+\""
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "'a' 表示追加 (append)，'b' 表示二进制 (binary)。\"ab\" 模式表示以二进制追加方式打开，若文件不存在则创建。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 261,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 262,
+    "type": "单选题",
+    "content": "当 `fopen()` 函数打开文件失败时，其返回的指针值是 {{__SELECT_1__}}",
+    "options": [
+     "EOF",
+     "-1",
+     "NULL",
+     "0"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`fopen` 函数在文件打开失败时（如文件不存在且为只读模式，或无权限）会返回空指针 `NULL`。程序中通常通过判断返回值是否为 `NULL` 来处理错误。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 262,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 263,
+    "type": "单选题",
+    "content": "在文本文件中存储整数 `123`，它在磁盘上占用的字节数通常是 {{__SELECT_1__}}；若在二进制文件中存储 `int` 型整数 `123`（假设int为4字节），它占用的字节数是 {{__SELECT_1__}}。",
+    "options": [
+     "3, 4",
+     "4, 3",
+     "1, 4",
+     "3, 2"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "文本文件存储整数 `123` 是存储其字符形式 '1', '2', '3'，占用3个字节。二进制文件直接存储整数的内存映像，`int` 通常占用4个字节。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 263,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 264,
+    "type": "程序填空题",
+    "content": "以下程序用于将数组 `arr` 中的数据以二进制形式写入文件，请补全代码。\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {1, 2, 3, 4, 5};\n    FILE *fp = fopen(\"data.bin\", \"wb\");\n    if(fp != NULL) {\n        // 将整个数组写入文件\n        fwrite(arr, {{__BLANK_1__}}, {{__BLANK_2__}}, fp);\n        fclose(fp);\n    }\n    return 0;\n}\n```",
+    "answer": [
+     "sizeof(int)",
+     "5"
+    ],
+    "analysis": "`fwrite` 的原型为 `size_t fwrite(const void *ptr, size_t size, size_t count, FILE *stream)`。这里 `size` 是每个元素的大小 `sizeof(int)`，`count` 是元素的个数 5。也可以写成 `sizeof(arr), 1`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 264,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 265,
+    "type": "判断题",
+    "content": "使用 `fprintf(fp, ...)` 向文件写入数据时，数据会直接写入磁盘，不会经过文件缓冲区。 {{__SELECT_1__}}",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "C语言采用缓冲文件系统，`fprintf` 写入的数据会先存放在内存的缓冲区中，只有当缓冲区满、调用 `fflush` 或 `fclose` 时，数据才会被真正写入磁盘。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 265,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 266,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正（程序目的是统计文件字符数）：\n```c\n#include <stdio.h>\nint main() {\n    FILE *fp = fopen(\"test.txt\", \"r\");\n    int count = 0;\n    while (!feof(fp)) {\n        fgetc(fp);\n        count++;\n    }\n    printf(\"Chars: %d\", count);\n    fclose(fp);\n    return 0;\n}\n```",
+    "answer": "#include <stdio.h>\nint main() {\n    FILE *fp = fopen(\"test.txt\", \"r\");\n    if (fp == NULL) return 1;\n    int count = 0;\n    int ch;\n    // 错误点：feof在读取失败前不会返回真，导致多统计一次\n    // 改正：先读，判断是否为EOF，再计数\n    while ((ch = fgetc(fp)) != EOF) {\n        count++;\n    }\n    printf(\"Chars: %d\", count);\n    fclose(fp);\n    return 0;\n}",
+    "analysis": "原程序使用 `while(!feof(fp))` 循环。`feof` 只有在读取操作尝试读取文件末尾之后才会返回真。因此，最后一次 `fgetc` 读取 EOF 后，循环体内 `count` 仍会增加，导致统计结果多 1。正确的做法是检查 `fgetc` 的返回值是否为 `EOF`。",
+    "difficulty": "提高",
+    "isFromTextbook": false,
+    "originalNumber": 266,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 文件操作",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 267,
+    "type": "填空题",
+    "content": "链表中的每一个节点都分为两个部分，分别为 {{__BLANK_1__}} 和 {{__BLANK_2__}}。",
+    "options": [],
+    "answer": [
+     "数据域",
+     "指针域"
+    ],
+    "analysis": "链表节点通常包含两部分：一部分用于存储数据元素的值，称为数据域；另一部分用于存储下一个节点的地址，称为指针域。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 267,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 268,
+    "type": "填空题",
+    "content": "在定义链表时，用 {{__BLANK_1__}} 来存放节点的地址。",
+    "options": [],
+    "answer": [
+     "指针"
+    ],
+    "analysis": "链表是通过指针将不连续的内存块连接起来的结构，因此节点中需要包含一个指针变量来存放下一个节点的地址。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 268,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 269,
+    "type": "填空题",
+    "content": "栈中允许插入和删除操作的一端称为 {{__BLANK_1__}}，不允许插入和删除操作的一端称为 {{__BLANK_2__}}。",
+    "options": [],
+    "answer": [
+     "栈顶",
+     "栈底"
+    ],
+    "analysis": "栈是一种受限的线性表，其操作只允许在表的一端进行。允许操作的一端叫栈顶（Top），另一端叫栈底（Bottom）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 269,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 270,
+    "type": "填空题",
+    "content": "在C语言中，满足“后进先出”原则的数据结构是 {{__BLANK_1__}}。",
+    "options": [],
+    "answer": [
+     "栈"
+    ],
+    "analysis": "栈（Stack）遵循后进先出（Last In First Out, LIFO）的原则，即最后放入的元素最先被取出。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 270,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 271,
+    "type": "填空题",
+    "content": "习惯上我们把队列的插入称为 {{__BLANK_1__}}，删除称为 {{__BLANK_2__}}。",
+    "options": [],
+    "answer": [
+     "入队",
+     "出队"
+    ],
+    "analysis": "队列的操作术语中，向队列尾部添加元素称为入队（Enqueue），从队列头部移除元素称为出队（Dequeue）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 271,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 272,
+    "type": "判断题",
+    "content": "链表中节点的下标是从1开始的。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "链表不是数组，没有“下标”的概念。链表通过指针访问后续节点，虽然逻辑上可以说“第1个节点”，但不支持像数组那样的随机下标访问。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 272,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 273,
+    "type": "判断题",
+    "content": "栈是一种限定只能在一端进行插入和删除操作的数组或链表。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "栈是一种抽象数据类型，它限制了线性表的操作方式。其底层实现既可以使用数组（顺序栈），也可以使用链表（链栈）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 273,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 274,
+    "type": "判断题",
+    "content": "执行入栈操作之前，首先需要判断该栈是否已满。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "对于基于数组实现的顺序栈，空间是有限的，入栈前必须判断栈是否已满以防止溢出。虽然链栈通常受限于内存大小而不常判满，但作为通用栈操作规范，判满是必要的步骤之一（尤其是顺序结构）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 274,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 275,
+    "type": "判断题",
+    "content": "队列的插入操作在表的两端都可以进行。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "队列严格遵循先进先出原则，只允许在队尾（Rear）进行插入，在队头（Front）进行删除，不允许在两端都进行插入。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 275,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 276,
+    "type": "判断题",
+    "content": "在进行清空队列操作时，只需要将头指针和尾指针重新置为0即可。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "对于链式队列，清空队列不仅需要重置指针，更重要的是必须遍历队列，释放每一个节点所占用的动态内存，否则会造成内存泄漏。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 276,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 277,
+    "type": "单选题",
+    "content": "设单链表中节点的结构为 `(data, link)`，已知指针 `p` 所指向的节点不是尾节点，若在节点 `p` 之后插入节点 `s`，则应执行下列哪一个操作？ {{__SELECT_1__}}",
+    "options": [
+     "s->link = p; p->link = s;",
+     "s->link = p->link; p->link = s;",
+     "s->link = p->link; p = s;",
+     "p->link = s; s->link = p;"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "在单链表中 p 节点后插入 s 节点，需要两步：\n1. 将 s 的后继指向 p 原来的后继：`s->link = p->link`\n2. 将 p 的后继指向 s：`p->link = s`\n顺序不能颠倒，否则会丢失 p 后面节点的地址。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 277,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 278,
+    "type": "单选题",
+    "content": "在一个用数组实现的队列中，假定数组长度为 `maxsize`，队列长度为 `length`，队头元素位置为 `front`，则队尾元素的位置为 {{__SELECT_1__}}",
+    "options": [
+     "length + 1",
+     "first + length",
+     "(first + length - 1) % MS",
+     "(first + length) % MS"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "在循环队列中，队尾位置的计算需要考虑数组下标的循环特性。通常队尾指针指向下一个可用位置，其位置计算公式为 `(front + length) % maxsize`。如果题目指指向最后一个元素，则是 `(front + length - 1) % maxsize`。根据常见教材习惯和选项设置，通常考查队尾指针（下一个插入位置）或逻辑位置，D选项 `(first + length) % MS` 是最常见的计算队尾指针（或下一个空位）的公式。注意原题选项C和D中使用了MS（MaxSize）缩写。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 278,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 279,
+    "type": "单选题",
+    "content": "假设有一个栈，元素入栈次序为A，B，C，D，E，那么其出栈序列不可能是 {{__SELECT_1__}}",
+    "options": [
+     "A，B，C，D，E",
+     "B，A，D，E，C",
+     "E，A，B，C，D",
+     "E，D，C，B，A"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "栈遵循后进先出原则。\nC选项中，E第一个出栈，说明A, B, C, D都已经入栈且未出栈。此时栈顶元素应为D。因此E出栈后，下一个必须是D，而不可能是A。所以C是不可能的序列。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 279,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 280,
+    "type": "单选题",
+    "content": "假设栈 `stack` 的最大个数为 `size`，那么下列条件中可以用来判断 `stack` 已满的是 {{__SELECT_1__}}",
+    "options": [
+     "stack->top == -1",
+     "stack->top == size",
+     "stack->top == 0",
+     "stack->top == size - 1"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "在基于数组实现的栈中，如果 `top` 指针指向当前栈顶元素，且下标从0开始，那么当 `top` 达到 `size - 1` 时，表示数组已满。如果 `top` 指向下一个空位，则通常是 `top == size`。结合常见C语言教材习惯，选项D `stack->top == size - 1` 是最常见的判满条件。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 280,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 281,
+    "type": "单选题",
+    "content": "下列选项中，属于栈和队列共同点的是 {{__SELECT_1__}}",
+    "options": [
+     "都是先进先出",
+     "都是先进后出",
+     "没有共同点",
+     "只允许在端点处插入和删除元素"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "栈和队列都是受限的线性表。栈只允许在栈顶操作，队列只允许在队头删除、队尾插入。它们的共同点是都只允许在端点处进行插入和删除，不能像普通线性表那样在中间位置操作。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 281,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 282,
+    "type": "单选题",
+    "content": "关于链表的描述，下列说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "链表的内存空间必须是连续的",
+     "链表可以随机访问任意位置的元素",
+     "链表的插入和删除操作不需要移动元素",
+     "链表的大小必须在创建时确定"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误：链表节点的内存空间可以是不连续的；B错误：链表只能顺序访问，不能随机访问；D错误：链表支持动态增长，大小不需要预先确定；C正确：链表插入删除只需修改指针，不需要像数组那样移动大量元素。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 282,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 283,
+    "type": "单选题",
+    "content": "关于栈和队列的区别，下列描述正确的是 {{__SELECT_1__}}",
+    "options": [
+     "栈是先进先出，队列是后进先出",
+     "栈允许在两端操作，队列只允许在一端操作",
+     "栈是后进先出，队列是先进先出",
+     "栈和队列都可以随机访问元素"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "栈遵循后进先出（LIFO）原则，队列遵循先进先出（FIFO）原则。两者都是受限的线性表，不支持随机访问。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 283,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 284,
+    "type": "程序填空题",
+    "content": "以下代码实现了向单链表头部插入新节点的功能（头插法），请补全代码。\n```c\ntypedef struct linkNode {\n    int data;\n    struct linkNode *next;\n} ListNode, pHead;\n\nint insertHead(pHead *ph, int data) {\n    ListNode *newNode = (ListNode *)malloc(sizeof(ListNode));\n    if (NULL == newNode) return -1;\n    newNode->data = data;\n    // 插入新节点\n    {{__BLANK_1__}};\n    {{__BLANK_2__}};\n    ph->data++; // 假设头节点data存储长度\n    return 0;\n}\n```",
+    "options": [],
+    "answer": [
+     "newNode->next = ph->next",
+     "ph->next = newNode"
+    ],
+    "analysis": "头插法的核心步骤是：1. 让新节点的next指向当前头节点指向的第一个节点（`ph->next`）；2. 让头节点的next指向新节点。顺序不能反，否则会丢失原链表。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 284,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 285,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\n#include <stdlib>\n\ntypedef struct Node {\n    int data;\n    struct Node *next;\n} Node;\n\nint main() {\n    Node n1, n2, n3;\n    n1.data = 10; n1.next = &n2;\n    n2.data = 20; n2.next = &n3;\n    n3.data = 30; n3.next = NULL;\n    \n    Node *p = &n1;\n    while (p != NULL) {\n        printf(\"%d \", p->data);\n        p = p->next;\n    }\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "10 20 30 "
+    ],
+    "analysis": "程序手动构建了一个包含三个节点的简单链表：n1 -> n2 -> n3。循环从n1开始遍历，依次打印每个节点的data值，直到指针为NULL。因此输出为10 20 30。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 285,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 286,
+    "type": "程序填空题",
+    "content": "以下代码实现了链式队列的出队操作，请补全代码。\n```c\nint Del(LQueue *Lq) {\n    if (isEmpty(Lq)) {\n        return 0;\n    }\n    // pTmp指向待删除的第一个节点\n    pNode *pTmp = Lq->front;\n    // 修改队头指针指向下一个节点\n    {{__BLANK_1__}};\n    int delData = pTmp->data;\n    free(pTmp);\n    Lq->length--;\n    return delData;\n}\n```",
+    "options": [],
+    "answer": [
+     "Lq->front = pTmp->next"
+    ],
+    "analysis": "出队操作需要删除队头元素。`pTmp` 已经指向了当前的队头节点 `Lq->front`。删除该节点后，新的队头应该是原队头的下一个节点，即 `pTmp->next`。因此需要将 `Lq->front` 更新为 `pTmp->next`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 286,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 287,
+    "type": "编程题",
+    "content": "请编写一个函数 `int countNodes(pHead *ph)`，用于计算单链表中节点的个数（不包含头节点）。\n\n要求：\n1. `ph` 为指向带有头节点的单链表的指针。\n2. 头节点的数据域 `ph->data` 中**不**直接存储长度，需要通过遍历计算。\n3. 返回链表中实际数据节点的数量。",
+    "options": [],
+    "answer": [
+     "```c\nint countNodes(pHead *ph) {\n    int count = 0;\n    // ph是头节点，ph->next是第一个数据节点\n    ListNode *p = ph->next;\n    while (p != NULL) {\n        count++;\n        p = p->next;\n    }\n    return count;\n}\n```"
+    ],
+    "analysis": "题目要求通过遍历计算链表长度。定义一个计数器 `count` 初始化为0。定义指针 `p` 指向第一个实际数据节点（即 `ph->next`）。使用 `while` 循环遍历链表，每当 `p` 不为空时，计数器加1，并将 `p` 移动到下一个节点。循环结束后返回 `count`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 287,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见的数据结构",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 288,
+    "type": "单选题",
+    "content": "在C语言的多文件项目开发中，通常用于声明函数、宏定义和结构体定义的文件后缀名是 {{__SELECT_1__}}。",
+    "options": [
+     ".c",
+     ".h",
+     ".exe",
+     ".obj"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "在C语言项目开发中，头文件（后缀名为.h）通常用于存放函数声明、宏定义、结构体定义等，而源文件（后缀名为.c）用于存放函数的具体实现代码。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 288,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 289,
+    "type": "单选题",
+    "content": "在Windows控制台程序开发中，用于定位光标位置的API函数 `SetConsoleCursorPosition` 需要传入一个表示坐标的结构体，该结构体类型是 {{__SELECT_1__}}。",
+    "options": [
+     "POINT",
+     "RECT",
+     "COORD",
+     "POSITION"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`COORD` 是Windows API中定义的结构体类型，包含X和Y两个成员，用于指定控制台屏幕缓冲区中的字符坐标。`SetConsoleCursorPosition` 函数使用该结构体来设置光标位置。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 289,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 290,
+    "type": "单选题",
+    "content": "在贪吃蛇游戏中，如果使用链表来存储蛇身，当蛇向某个方向移动一步且未吃到食物时，链表的操作逻辑通常是 {{__SELECT_1__}}。",
+    "options": [
+     "仅在链表头部添加一个新节点",
+     "仅删除链表尾部的一个节点",
+     "在链表头部添加一个新节点，并删除链表尾部的一个节点",
+     "修改链表中所有节点的坐标数据"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "蛇移动的视觉效果是通过在移动方向的前方（头部）增加一个新节点，同时移除尾部最后一个节点来实现的，这样保持了蛇身长度不变且位置发生了整体位移。如果吃到食物，则只在头部添加节点而不删除尾部节点，从而实现身体增长。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 290,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 291,
+    "type": "单选题",
+    "content": "若要生成一个范围在 $[2, 53]$ 之间的随机整数（包含2和53）作为食物的X坐标，下列代码正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "`rand() % 52 + 2`",
+     "`rand() % 53 + 2`",
+     "`rand() % 51 + 2`",
+     "`rand() % 54 + 2`"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "`rand() % N` 生成的是 $0$ 到 $N-1$ 的随机数。要生成 $[min, max]$ 范围的随机数，公式为 `rand() % (max - min + 1) + min`。此处 $min=2, max=53$，则模数为 $53 - 2 + 1 = 52$，基数为 $2$。因此正确代码为 `rand() % 52 + 2`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 291,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 292,
+    "type": "判断题",
+    "content": "在程序调试过程中，“逐语句”调试会进入函数内部逐行执行，而“逐过程”调试会将函数调用视为一步执行，不进入函数内部。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "正确"
+    ],
+    "analysis": "这是调试器中单步调试的两种基本模式。逐语句（Step Into）用于深入函数内部查看细节，逐过程（Step Over）用于快速跳过已知正确的函数调用。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 292,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 293,
+    "type": "程序填空题",
+    "content": "以下代码用于在Windows控制台的指定位置 $(x, y)$ 输出字符。请补全代码。\n\n```c\n#include <windows.h>\n\nvoid posShow(int x, int y)\n{\n    COORD pos;\n    HANDLE hOutput;\n    pos.X = x;\n    pos.Y = y;\n    // 获取标准输出句柄\n    hOutput = GetStdHandle({{__BLANK_1__}});\n    // 设置控制台光标位置\n    SetConsoleCursorPosition(hOutput, {{__BLANK_2__}});\n}\n```",
+    "options": [
+     "STD_OUTPUT_HANDLE",
+     "pos"
+    ],
+    "answer": [
+     "STD_OUTPUT_HANDLE",
+     "pos"
+    ],
+    "analysis": "1. `GetStdHandle` 函数需要传入标准设备标识，标准输出句柄的标识符为 `STD_OUTPUT_HANDLE`。\n2. `SetConsoleCursorPosition` 函数的第二个参数需要传入 `COORD` 类型的结构体变量，即代码中定义的 `pos`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 293,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 294,
+    "type": "程序填空题",
+    "content": "在贪吃蛇项目中，使用链表初始化蛇身。以下代码片段用于创建一个新节点并将其链接到链表头部。请补全代码。\n\n```c\ntypedef struct snake {\n    int x;\n    int y;\n    struct snake *next;\n} SNAKE;\n\nSNAKE *head = NULL; // 蛇头指针\n\nvoid addHead(int x, int y) {\n    SNAKE *newNode = (SNAKE*)malloc({{__BLANK_1__}});\n    if (newNode == NULL) return;\n    \n    newNode->x = x;\n    newNode->y = y;\n    newNode->next = {{__BLANK_2__}};\n    {{__BLANK_3__}} = newNode;\n}\n```",
+    "options": [
+     "sizeof(SNAKE)",
+     "head",
+     "head"
+    ],
+    "answer": [
+     "sizeof(SNAKE)",
+     "head",
+     "head"
+    ],
+    "analysis": "1. 使用 `malloc` 分配内存时，大小应为结构体的大小 `sizeof(SNAKE)`。\n2. 头插法操作：新节点的 `next` 指针应指向当前的头节点 `head`。\n3. 更新头指针：将 `head` 指针指向新创建的节点 `newNode`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 294,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 295,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\ntypedef struct node {\n    int data;\n    struct node *next;\n} Node;\n\nint main() {\n    Node *head = NULL, *p;\n    // 创建链表 1 -> 2 -> 3\n    for(int i = 3; i >= 1; i--) {\n        p = (Node*)malloc(sizeof(Node));\n        p->data = i;\n        p->next = head;\n        head = p;\n    }\n    \n    // 模拟蛇移动：删除尾节点\n    Node *temp = head;\n    while(temp->next->next != NULL) {\n        temp = temp->next;\n    }\n    free(temp->next);\n    temp->next = NULL;\n    \n    // 打印链表\n    p = head;\n    while(p != NULL) {\n        printf(\"%d \", p->data);\n        p = p->next;\n    }\n    return 0;\n}\n```\n\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "1 2 "
+    ],
+    "analysis": "程序首先创建了一个链表 `1 -> 2 -> 3`（头插法，先插3，再插2，再插1）。\n接着执行删除尾节点的操作：`temp` 遍历到倒数第二个节点（值为2的节点），`temp->next->next` 为 `NULL` 时停止。此时 `temp` 指向节点2。\n`free(temp->next)` 释放了节点3，然后 `temp->next = NULL` 将节点2设为新的尾节点。\n最后打印链表，输出 `1 2 `。",
+    "difficulty": "提高",
+    "isFromTextbook": false,
+    "originalNumber": 295,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 296,
+    "type": "改错题",
+    "content": "以下函数旨在将玩家得分追加保存到文件中，但存在一处错误。请找出并改正。\n\n```c\n#include <stdio.h>\n\nvoid saveScore(int score) {\n    FILE *fp;\n    // 错误：希望追加内容，但使用了错误的模式\n    fp = fopen(\"score.txt\", \"r\"); \n    if (fp != NULL) {\n        fprintf(fp, \"Score: %d\\n\", score);\n        fclose(fp);\n    }\n}\n```",
+    "options": [],
+    "answer": "void saveScore(int score) {\n    FILE *fp;\n    // 改正：使用 \"a\" 或 \"a+\" 模式进行追加写入\n    fp = fopen(\"score.txt\", \"a\"); \n    if (fp != NULL) {\n        fprintf(fp, \"Score: %d\\n\", score);\n        fclose(fp);\n    }\n}",
+    "analysis": "`fopen` 函数的模式字符串 `\"r\"` 表示只读模式，无法向文件写入数据。若要向文件末尾追加数据，应使用 `\"a\"` (append) 模式。如果还需要读取，可以使用 `\"a+\"`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 296,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   },
+   {
+    "id": 297,
+    "type": "编程题",
+    "content": "在贪吃蛇游戏中，经常需要判断两个位置坐标是否重合（例如判断蛇头是否吃到食物，或者蛇头是否撞到身体）。请定义一个结构体 `Point`，并编写一个函数 `isSamePos`，如果两个点的坐标相同返回 1，否则返回 0。",
+    "options": [],
+    "answer": [
+     "#include <stdio.h>\n\n// 定义坐标结构体\ntypedef struct {\n    int x;\n    int y;\n} Point;\n\n// 判断坐标是否重合的函数\nint isSamePos(Point p1, Point p2) {\n    if (p1.x == p2.x && p1.y == p2.y) {\n        return 1;\n    } else {\n        return 0;\n    }\n}"
+    ],
+    "analysis": "本题考察结构体的定义和基本的逻辑判断。首先定义包含 `x` 和 `y` 成员的结构体，然后在函数中比较两个结构体实例的 `x` 和 `y` 成员是否分别相等。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 297,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第12章 综合项目——贪吃蛇控制台游戏",
+     "chapterId": 12
+    }
+   }
+  ]
+ }
+}

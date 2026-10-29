@@ -1,0 +1,3115 @@
+{
+ "id": 30,
+ "title": "湖北理工学院专升本专业课考试",
+ "subject": "程序设计语言",
+ "createTime": "2026-01-24 14:05:49",
+ "exam": {
+  "meta": {
+   "title": "湖北理工学院计算机科学与技术",
+   "subject": "C语言程序设计",
+   "source": "C程序设计(第四版)-谭浩强",
+   "generatedAt": "2026-02-04 22:19:14",
+   "isbn": "9787302224464",
+   "file": "D:\\project\\题目\\C语言题库\\书籍\\9787302224464.md"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "单选题",
+    "content": "关于计算机程序，以下说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "计算机不需要程序也能自动完成复杂的思维工作",
+     "程序就是一组计算机能识别和执行的指令",
+     "计算机天生就是“万能”的，程序只是辅助工具",
+     "只有高级语言编写的指令序列才被称为程序"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "计算机的本质是程序的机器，计算机的一切操作都是由程序控制的。程序是一组计算机能识别和执行的指令，每一条指令使计算机执行特定的操作。离开程序，计算机将无法完成任何有意义的工作。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 1,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 2,
+    "type": "单选题",
+    "content": "相较于机器语言，以下哪项不是计算机高级语言的特点？ {{__SELECT_1__}}",
+    "options": [
+     "程序中的运算符和表达式与日常数学式子相似，容易理解",
+     "不依赖于具体的机器硬件，可移植性好",
+     "计算机可以直接识别并执行高级语言程序",
+     "编写的程序通常称为源程序，需要经过编译才能执行"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "计算机硬件只能直接识别和接受二进制代码（机器语言）。高级语言虽然接近自然语言和数学语言，但计算机不能直接识别，必须通过编译程序翻译成机器指令（目标程序）后才能执行。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 2,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 3,
+    "type": "单选题",
+    "content": "C语言源程序经过编译后，生成的目标程序文件的扩展名（后缀）通常是 {{__SELECT_1__}}",
+    "options": [
+     ".c",
+     ".exe",
+     ".obj",
+     ".cpp"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "C语言源程序的后缀是 `.c`。经过编译后，生成二进制形式的目标程序文件，其后缀在Windows环境下通常为 `.obj`。目标程序再经过连接处理，与库函数结合后，才会生成可执行程序 `.exe`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 3,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 4,
+    "type": "编程题",
+    "content": "编写一个C程序，在屏幕上输出以下图形信息：\n```txt\n**************************\nVery good!\n**************************\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main()\n{\n    printf(\"**************************\\n\");\n    printf(\"Very good!\\n\");\n    printf(\"**************************\\n\");\n    return 0;\n}",
+    "analysis": "本题考查基本的输出语句 `printf` 的使用。需要注意换行符 `\\n` 的运用，以确保每一行信息在输出时正确分行。可以使用多个 `printf` 语句，也可以在一个 `printf` 中通过 `\\n` 连接字符串。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 4,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 5,
+    "type": "编程题",
+    "content": "编写一个C程序，从键盘输入 $a, b, c$ 三个整数，输出其中最大者。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main()\n{\n    int a, b, c, max;\n    printf(\"Please enter three integers (a, b, c): \");\n    scanf(\"%d,%d,%d\", &a, &b, &c);\n    \n    max = a;\n    if (b > max) max = b;\n    if (c > max) max = c;\n    \n    printf(\"The maximum number is: %d\\n\", max);\n    return 0;\n}",
+    "analysis": "本题考查变量定义、`scanf` 输入函数以及基本的逻辑判断。解题思路是首先假设第一个数 $a$ 是最大的，然后依次与 $b$ 和 $c$ 进行比较，如果发现更大的数则更新最大值 `max`。也可以使用自定义函数来实现求最大值的逻辑。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 5,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 6,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main()\n{\n    printf(\" // How do you do! \\n\");\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     " // How do you do! "
+    ],
+    "analysis": "在C语言中，双引号字符串内部的 `//` 或 `/*` 都会被视为字符串内容的一部分，而不会被当作注释符处理。因此，`printf` 会原样输出双引号内的所有字符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 6,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 7,
+    "type": "单选题",
+    "content": "一个C程序的执行总是从 {{__SELECT_1__}} 开始。",
+    "options": [
+     "本程序文件的第一个函数",
+     "main函数",
+     "本程序文件的最后一个函数",
+     "包含文件的第一个函数"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "C语言规定，main函数是程序的入口点。无论main函数在源程序中的位置如何（在其他函数之前或之后），程序总是从main函数开始执行。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 7,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 8,
+    "type": "单选题",
+    "content": "以下关于C语言注释的描述中，错误的是 {{__SELECT_1__}}",
+    "options": [
+     "注释内容不会被编译，不产生目标代码",
+     "块式注释 `/* ... */` 可以跨越多行",
+     "单行注释 `//` 的有效范围是从 `//` 开始到本行结束",
+     "在字符串常量中出现的 `//` 也会被当作注释开始"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "字符串常量（即双引号括起来的内容）中的 `//` 或 `/*` 只是字符串的一部分，会被当作普通字符处理，而不会被编译器识别为注释开始符。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 8,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 9,
+    "type": "程序填空题",
+    "content": "以下是一个最简单的C语言程序，请在空白处填入正确的内容，使程序完整。\n```c\n#include <stdio.h>\n\n{{__BLANK_1__}} // 定义主函数\n{\n    printf(\"This is a C program.\\n\");\n    {{__BLANK_2__}} 0; // 函数返回\n}\n```",
+    "options": [],
+    "answer": [
+     "int main()",
+     "return"
+    ],
+    "analysis": "C程序的标准入口是 `int main()` 函数。函数执行完毕后，通常使用 `return` 语句返回一个整数值（如0）给操作系统，表示程序正常结束。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 9,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 10,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正：\n```c\ninclude <stdio.h>\nint main()\n{\n    printf(\"Hello, World!\\n\")\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\nint main()\n{\n    printf(\"Hello, World!\\n\");\n    return 0;\n}",
+    "analysis": "该程序有两个错误：\n1. 预处理指令 `#include` 漏掉了前面的 `#` 符号。\n2. `printf` 语句末尾缺少分号 `;`。C语言中，语句必须以分号结束。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 10,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第1章 程序设计和C语言",
+     "chapterId": 1
+    }
+   },
+   {
+    "id": 11,
+    "type": "单选题",
+    "content": "广义地说，为解决一个问题而采取的方法和步骤，就称为{{__SELECT_1__}}。",
+    "options": [
+     "程序",
+     "算法",
+     "文档",
+     "数据结构"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "算法是解决“做什么”和“怎么做”的问题。广义上说，为解决一个问题而采取的方法和步骤，就称为算法。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 11,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 12,
+    "type": "单选题",
+    "content": "关于结构化算法，下列说法错误的是{{__SELECT_1__}}。",
+    "options": [
+     "结构化算法由三种基本结构顺序组成",
+     "结构化算法中允许存在无规律的跳转",
+     "结构化算法便于编写、阅读、修改和维护",
+     "结构化算法中基本结构之间不存在向前或向后的跳转"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "结构化算法的特点之一是限制流程的无规律任意转向，不存在无规律的跳转（如任意的goto语句），流程的转移只存在于一个基本结构范围之内。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 12,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 13,
+    "type": "单选题",
+    "content": "下列哪项不是结构化程序设计三种基本结构（顺序、选择、循环）的共同特点？{{__SELECT_1__}}",
+    "options": [
+     "只有一个入口",
+     "只有一个出口",
+     "结构内的每一部分都有机会被执行到",
+     "结构内可以存在死循环"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "三种基本结构的共同特点是：(1)只有一个入口；(2)只有一个出口；(3)结构内的每一部分都有机会被执行到；(4)结构内不存在“死循环”。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 13,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 14,
+    "type": "程序填空题",
+    "content": "以下程序代码实现了将两个变量 `a` 和 `b` 的值互换（即a原来盛醋，现改盛酱油，b则相反），请填空：\n```c\n#include <stdio.h>\nint main() {\n    int a = 5, b = 10, t;\n    // 开始交换\n    {{__BLANK_1__}}\n    printf(\"a=%d, b=%d\", a, b);\n    return 0;\n}\n```",
+    "answer": [
+     "t = a; a = b; b = t;"
+    ],
+    "analysis": "交换两个变量的值通常需要借助第三个中间变量 `t`。步骤为：1. 将 `a` 的值暂存到 `t`；2. 将 `b` 的值赋给 `a`；3. 将 `t` 中暂存的原 `a` 的值赋给 `b`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 14,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 15,
+    "type": "程序填空题",
+    "content": "以下程序实现了依次输入10个数，输出其中最大的数。请填空：\n```c\n#include <stdio.h>\nint main() {\n    int max, x, i;\n    scanf(\"%d\", &max); // 先读入第一个数作为最大值\n    for(i = 1; i < 10; i++) {\n        scanf(\"%d\", &x);\n        if({{__BLANK_1__}}) {\n            max = x;\n        }\n    }\n    printf(\"Max = %d\", max);\n    return 0;\n}\n```",
+    "answer": [
+     "x > max"
+    ],
+    "analysis": "算法思路是先假设第一个输入的数为最大值，然后依次读入剩下的9个数。每读入一个数 `x`，就将其与当前的最大值 `max` 进行比较，如果 `x` 大于 `max`，则更新 `max` 的值为 `x`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 15,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 16,
+    "type": "程序填空题",
+    "content": "以下程序用于将输入的3个数 `a`、`b`、`c` 按从小到大的顺序输出。请填空：\n```c\n#include <stdio.h>\nint main() {\n    int a, b, c, t;\n    scanf(\"%d%d%d\", &a, &b, &c);\n    if(a > b) { t = a; a = b; b = t; } // 保证 a <= b\n    if({{__BLANK_1__}}) { t = a; a = c; c = t; } // 保证 a <= c，此时 a 是最小值\n    if({{__BLANK_2__}}) { t = b; b = c; c = t; } // 保证 b <= c\n    printf(\"%d %d %d\", a, b, c);\n    return 0;\n}\n```",
+    "answer": [
+     "a > c",
+     "b > c"
+    ],
+    "analysis": "排序算法逻辑：首先比较 `a` 和 `b`，若 `a > b` 则交换，保证 `a` 比 `b` 小。接着比较 `a` 和 `c`，若 `a > c` 则交换，此时 `a` 必定是三个数中最小的。最后比较 `b` 和 `c`，若 `b > c` 则交换，保证 `b` 小于等于 `c`。这样输出顺序即为 `a, b, c`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 16,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 17,
+    "type": "程序填空题",
+    "content": "以下程序用于求 $1 + 2 + 3 + \\dots + 100$ 的和。请填空：\n```c\n#include <stdio.h>\nint main() {\n    int sum = 0, i = 1;\n    while({{__BLANK_1__}}) {\n        sum = sum + i;\n        {{__BLANK_2__}};\n    }\n    printf(\"%d\", sum);\n    return 0;\n}\n```",
+    "answer": [
+     "i <= 100",
+     "i = i + 1"
+    ],
+    "analysis": "这是一个典型的累加算法。循环变量 `i` 从1开始，只要 `i` 小于等于100，就将其加入到 `sum` 中，每次循环后 `i` 自增1，直到 `i` 超过100循环结束。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 17,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 18,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果（假设输入为15）：\n```c\n#include <stdio.h>\nint main() {\n    int n;\n    scanf(\"%d\", &n);\n    if(n % 3 == 0 && n % 5 == 0)\n        printf(\"Yes\");\n    else\n        printf(\"No\");\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "Yes"
+    ],
+    "analysis": "程序判断输入的数 `n` 是否能同时被3和5整除。条件 `n % 3 == 0` 检查是否被3整除，`n % 5 == 0` 检查是否被5整除，`&&` 表示两个条件需同时满足。输入15，同时满足这两个条件，故输出Yes。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 18,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 19,
+    "type": "程序填空题",
+    "content": "以下程序用于求两个整数 `m` 和 `n` 的最大公约数（使用辗转相除法）。请填空：\n```c\n#include <stdio.h>\nint main() {\n    int m, n, r;\n    scanf(\"%d%d\", &m, &n);\n    r = m % n;\n    while(r != 0) {\n        m = n;\n        {{__BLANK_1__}};\n        r = m % n;\n    }\n    printf(\"GCD = %d\", n);\n    return 0;\n}\n```",
+    "answer": [
+     "n = r"
+    ],
+    "analysis": "辗转相除法（欧几里得算法）的步骤：用 `m` 除以 `n` 得到余数 `r`。若 `r` 不为0，则将 `n` 的值赋给 `m`，将 `r` 的值赋给 `n`，继续相除，直到余数为0。此时的除数 `n` 即为最大公约数。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 19,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 20,
+    "type": "单选题",
+    "content": "结构化程序设计方法的基本思路是{{__SELECT_1__}}。",
+    "options": [
+     "自下而上，逐步积累",
+     "自顶向下，逐步细化",
+     "中心突破，发散思维",
+     "随机编码，后期调试"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "结构化程序设计方法的基本思路是：把一个复杂问题的求解过程分阶段进行，每个阶段处理的问题都控制在人们容易理解和处理的范围内。具体方法包括：自顶向下、逐步细化、模块化设计、结构化编码。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 20,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 21,
+    "type": "单选题",
+    "content": "著名计算机科学家沃思(Nikiklaus Wirth)提出的一个著名公式是{{__SELECT_1__}}。",
+    "options": [
+     "程序 = 算法 + 数据结构",
+     "程序 = 语言 + 方法",
+     "算法 = 逻辑 + 控制",
+     "数据结构 = 数组 + 指针"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "沃思提出的公式是：算法 + 数据结构 = 程序。这表明算法（操作的描述）和数据结构（数据的描述）是程序的两个主要要素。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 21,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 22,
+    "type": "单选题",
+    "content": "一个有效算法应具有的特点中，不包括{{__SELECT_1__}}。",
+    "options": [
+     "有穷性",
+     "确定性",
+     "有效性",
+     "无限性"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "一个有效算法应具有5个特点：有穷性（步骤有限）、确定性（无歧义）、有零个或多个输入、有一个或多个输出、有效性（步骤可执行）。无限性显然与有穷性矛盾。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 22,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 23,
+    "type": "单选题",
+    "content": "在流程图中，菱形框通常用于表示{{__SELECT_1__}}。",
+    "options": [
+     "输入/输出",
+     "处理/运算",
+     "判断/分支",
+     "起止"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "在传统流程图中，矩形框表示处理（如赋值、计算），平行四边形框表示输入/输出，圆角矩形表示起止，菱形框表示判断（根据条件是否成立选择不同路径）。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 23,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 24,
+    "type": "单选题",
+    "content": "关于“当型”循环（while型）和“直到型”循环（until型），以下说法正确的是{{__SELECT_1__}}。",
+    "options": [
+     "当型循环先执行循环体，后判断条件",
+     "直到型循环先判断条件，后执行循环体",
+     "当型循环的循环体至少被执行一次",
+     "当型循环是先判断条件，条件成立时才执行循环体"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "当型循环（while型）的特点是先判断条件，若条件成立则执行循环体，若一开始条件就不成立，循环体一次也不执行。直到型循环（until型）是先执行一次循环体，然后判断条件。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 24,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 25,
+    "type": "程序填空题",
+    "content": "判断一个大于等于3的正整数 `n` 是否为素数。请填空完成算法逻辑：\n```c\n#include <stdio.h>\n#include <math.h>\nint main() {\n    int n, i, isPrime = 1;\n    scanf(\"%d\", &n);\n    for(i = 2; i <= sqrt(n); i++) {\n        if({{__BLANK_1__}}) {\n            isPrime = 0;\n            break;\n        }\n    }\n    if(isPrime) printf(\"是素数\");\n    else printf(\"不是素数\");\n    return 0;\n}\n```",
+    "answer": [
+     "n % i == 0"
+    ],
+    "analysis": "判断素数的方法是检查 `n` 能否被 `2` 到 `sqrt(n)` 之间的任何整数整除。如果在循环中发现 `n` 能被 `i` 整除（即 `n % i == 0`），则说明 `n` 不是素数，将标志位 `isPrime` 置为0并跳出循环。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 25,
+    "source": {
+     "chapter": "第2章 算法——程序的灵魂",
+     "chapterId": 2
+    },
+    "subQuestions": []
+   },
+   {
+    "id": 26,
+    "type": "编程题",
+    "content": "假如我国国民生产总值的年增长率为 $9\\%$ ，计算10年后我国国民生产总值与现在相比增长多少百分比。计算公式为 $p = (1 + r) ^ {n}$ ，其中 $r$ 为年增长率， $n$ 为年数， $p$ 为与现在相比的倍数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    double r = 0.09;\n    int n = 10;\n    double p = pow(1 + r, n);\n    printf(\"10年后增长的百分比为: %f%%\\n\", (p - 1) * 100);\n    return 0;\n}",
+    "analysis": "本题考查指数运算。在C语言中，求 $x$ 的 $y$ 次方需要使用 `math.h` 头文件中的 `pow(x, y)` 函数。已知 $r = 0.09$ ， $n = 10$ ，则 $p = \\text{pow}(1.09, 10)$ 。题目要求计算“增长多少百分比”，即 $(p - 1) \\times 100\\%$ 。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 26,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 27,
+    "type": "编程题",
+    "content": "存款利息的计算。有1000元，想存5年，可按以下5种办法存：\n1. 一次存5年期。\n2. 先存2年期，到期后将本息再存3年期。\n3. 先存3年期，到期后将本息再存2年期。\n4. 存1年期，到期后将本息再存1年期，连续存5次。\n5. 存活期存款。活期利息每一季度结算一次。\n\n2007年12月的银行存款利息如下：\n- 1年期定期存款利息为 $4.14\\%$\n- 2年期定期存款利息为 $4.68\\%$\n- 3年期定期存款利息为 $5.4\\%$\n- 5年期定期存款利息为 $5.85\\%$\n- 活期存款利息为 $0.72\\%$ （活期存款每一季度结算一次利息）\n\n请编写程序计算并输出各种存款方式5年后的本息和。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    double p0 = 1000.0;\n    double r1 = 0.0414, r2 = 0.0468, r3 = 0.054, r5 = 0.0585, r0 = 0.0072;\n    double p1, p2_3, p3_2, p1_5, p0_5;\n\n    // 1. 一次存5年期\n    p1 = p0 * (1 + 5 * r5);\n\n    // 2. 先存2年期，再存3年期\n    p2_3 = (p0 * (1 + 2 * r2)) * (1 + 3 * r3);\n\n    // 3. 先存3年期，再存2年期\n    p3_2 = (p0 * (1 + 3 * r3)) * (1 + 2 * r2);\n\n    // 4. 连续存5次1年期\n    p1_5 = p0 * pow(1 + r1, 5);\n\n    // 5. 活期存款，5年共20个季度\n    p0_5 = p0 * pow(1 + r0 / 4, 4 * 5);\n\n    printf(\"方法1本息和: %.2f\\n\", p1);\n    printf(\"方法2本息和: %.2f\\n\", p2_3);\n    printf(\"方法3本息和: %.2f\\n\", p3_2);\n    printf(\"方法4本息和: %.2f\\n\", p1_5);\n    printf(\"方法5本息和: %.2f\\n\", p0_5);\n\n    return 0;\n}",
+    "analysis": "本题主要考查数学公式转化为C语言表达式的能力。需要注意：\n1. 定期存款的利息通常是单利计算（除非题目暗示复利，但通常银行定期到期自动转存才算复利，题目中“将本息再存”暗示了分段计算）。\n2. 公式 $P = P0 \\times (1 + n \\times r)$ 适用于单次定期。\n3. 对于连续存取（如连续5次1年期），相当于复利，使用 `pow` 函数。\n4. 活期存款按季度结算，5年共有20个季度，每季度利率为年利率除以4，适用复利公式。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 27,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 28,
+    "type": "编程题",
+    "content": "购房从银行贷了一笔款 $d$ ，准备每月还款额为 $p$ ，月利率为 $r$ ，计算多少月能还清。设 $d$ 为 300000 元， $p$ 为 6000 元， $r$ 为 $1\\%$ 。对求得的月份取小数点后一位，对第 2 位按四舍五入处理。\n\n计算还清月数 $m$ 的公式如下：\n$$m = \\frac {\\log (p) - \\log (p - d \\times r)}{\\log (1 + r)}$$\n\n提示：C库函数 `log10(x)` 计算以10为底的对数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    double d = 300000.0;\n    double p = 6000.0;\n    double r = 0.01;\n    double m;\n\n    // 使用公式计算 m\n    m = (log10(p) - log10(p - d * r)) / log10(1 + r);\n\n    // 输出结果，%.1f 会自动四舍五入到小数点后一位\n    printf(\"需要还款的月数 m = %.1f\\n\", m);\n\n    return 0;\n}",
+    "analysis": "本题考查数学函数的调用。C语言中 `log10()` 函数用于计算以10为底的对数（即常用对数），`log()` 函数用于计算自然对数（以 $e$ 为底）。题目公式中给出的是通用对数形式，在编程时使用 `log10` 或 `log` 均可，只要分子分母保持一致即可（换底公式原理）。`printf` 的格式控制符 `%.1f` 会自动对下一位进行四舍五入。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 28,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 29,
+    "type": "程序阅读题",
+    "content": "分析并写出以下程序的运行结果（假设系统使用signed char，且ASCII码 'a' 为 97）：\n\n```c\n#include <stdio.h>\nint main()\n{\n    char c1, c2;\n    c1 = 97;\n    c2 = 98;\n    printf(\"c1=%c,c2=%c\\n\", c1, c2);\n    printf(\"c1=%d,c2=%d\\n\", c1, c2);\n    return 0;\n}\n```\n\n运行结果：\n{{__BLANK_1__}}\n\n**进阶思考**：如果将第4、5行改为 `c1 = 197; c2 = 198;`，则第二个 `printf` 输出的整数值分别是多少？",
+    "options": [],
+    "answer": [
+     "c1=a,c2=b\nc1=97,c2=98\n进阶思考答案：c1=-59,c2=-58"
+    ],
+    "analysis": "1. **基础部分**：`c1` 赋值 97，对应 ASCII 字符 'a'；`c2` 赋值 98，对应 'b'。`%c` 格式输出字符 'a'和'b'，`%d` 格式输出其整数值 97 和 98。\n2. **进阶部分**：`char` 类型通常占用 1 个字节（8位）。如果是有符号 `signed char`，取值范围是 -128 到 127。赋值 197（二进制 `1100 0101`）超过了最大正数 127。在计算机中，它会被解析为负数的补码。`1100 0101`（补码） -> `1011 1010`（反码） -> `1011 1011`（原码），即 -59。同理 198 对应 -58。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 29,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 30,
+    "type": "单选题",
+    "content": "若有以下程序段，要求输入数据使 `a=3`, `b=7`, `x=8.5`, `y=71.82`, `c1='A'`, `c2='a'`，则在键盘上正确的输入格式是（其中 $\\text{\\textvisiblespace}$ 代表空格，$\\leftarrow$ 代表回车）： {{__SELECT_1__}}\n\n```c\nint a, b;\nfloat x, y;\nchar c1, c2;\nscanf(\"a=%db=%d\", &a, &b);\nscanf(\"%f%f\", &x, &y);\nscanf(\"%c%c\", &c1, &c2);\n```",
+    "options": [
+     "a=3b=7 8.5 71.82Aa",
+     "a=3 b=7 8.5 71.82 Aa",
+     "3 7 8.5 71.82 Aa",
+     "a=3b=7 8.5 71.82 A a"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "1. `scanf(\"a=%db=%d\", ...)`：格式控制字符串中包含普通字符 `a=` 和 `b=`，输入时必须原样输入，且两个 `%d` 之间没有空格，所以必须输入 `a=3b=7`。\n2. `scanf(\"%f%f\", ...)`：数值输入之间可以用空白字符（空格、回车、Tab）分隔，所以 `a=3b=7` 后可以加空格，然后输入 `8.5 71.82`。\n3. `scanf(\"%c%c\", ...)`：`%c` 会读取任何字符，包括空格和回车。如果在 `71.82` 和 `A` 之间有空格，第一个 `%c` 就会读入空格而不是 'A'。因此 `71.82` 后必须紧跟 `Aa`，或者在 `71.82` 后的回车会被读入（但这通常不是题目意图，题目要求精确匹配）。选项 A `a=3b=7 8.5 71.82Aa` 中，数值后的空格被 `%f` 消耗或作为分隔符，紧接着的 `A` 被 `%c` 读取。注意：严谨的输入通常要在 `%c` 前加空格忽略空白，但本题代码未加，因此必须紧挨着写或考虑缓冲区残留的换行符。但在给出的选项中，只有 A 满足 `a=3b=7` 的严格格式且字符间无多余空格。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 30,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 31,
+    "type": "编程题",
+    "content": "请编程序将“China”译成密码，密码规律是：用原来的字母后面第4个字母代替原来的字母。例如，字母“A”后面第4个字母是“E”，用“E”代替“A”。因此，“China”应译为“Glmre”。\n\n要求：\n1. 用赋初值的方法使 `c1, c2, c3, c4, c5` 这5个变量的值分别为 'C', 'h', 'i', 'n', 'a'。\n2. 经过运算，使 `c1, c2, c3, c4, c5` 分别变为 'G', 'l', 'm', 'r', 'e'。\n3. 分别用 `putchar` 函数和 `printf` 函数输出这5个字符。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    char c1 = 'C', c2 = 'h', c3 = 'i', c4 = 'n', c5 = 'a';\n\n    // 加密\n    c1 += 4;\n    c2 += 4;\n    c3 += 4;\n    c4 += 4;\n    c5 += 4;\n\n    // 使用 putchar 输出\n    printf(\"使用 putchar 输出: \");\n    putchar(c1);\n    putchar(c2);\n    putchar(c3);\n    putchar(c4);\n    putchar(c5);\n    putchar('\\n');\n\n    // 使用 printf 输出\n    printf(\"使用 printf 输出: %c%c%c%c%c\\n\", c1, c2, c3, c4, c5);\n\n    return 0;\n}",
+    "analysis": "本题考查字符变量的运算和输入输出。字符在内存中以 ASCII 码存储，可以进行算术运算。`c1 = c1 + 4` 即将 'C' 的 ASCII 码加 4，得到 'G'。`putchar` 用于输出单个字符，`printf` 配合 `%c` 可格式化输出字符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 31,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 32,
+    "type": "编程题",
+    "content": "设圆半径 $r = 1.5$ ，圆柱高 $h = 3$ ，求圆周长、圆面积、圆球表面积、圆球体积、圆柱体积。用 `scanf` 输入数据，输出计算结果，输出时要求有文字说明，取小数点后2位数字。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#define PI 3.1415926\n\nint main() {\n    float r, h;\n    float l, s, sq, vq, vz;\n\n    printf(\"请输入圆半径r和圆柱高h (例如: 1.5 3): \");\n    scanf(\"%f%f\", &r, &h);\n\n    l = 2 * PI * r;          // 圆周长\n    s = PI * r * r;          // 圆面积\n    sq = 4 * PI * r * r;     // 圆球表面积\n    vq = (4.0 / 3.0) * PI * r * r * r; // 圆球体积\n    vz = PI * r * r * h;     // 圆柱体积\n\n    printf(\"圆周长: %.2f\\n\", l);\n    printf(\"圆面积: %.2f\\n\", s);\n    printf(\"圆球表面积: %.2f\\n\", sq);\n    printf(\"圆球体积: %.2f\\n\", vq);\n    printf(\"圆柱体积: %.2f\\n\", vz);\n\n    return 0;\n}",
+    "analysis": "本题练习基本的算术运算和输入输出。\n1. 需要定义 `PI`，可以使用 `#define` 或 `const`。\n2. 注意整数除法问题：计算圆球体积时，`4/3` 会等于 `1`，必须写成 `4.0/3.0` 才能得到浮点数结果。\n3. 使用 `%.2f` 控制输出精度。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 32,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 33,
+    "type": "编程题",
+    "content": "编程序，用 `getchar` 函数读入两个字符给 `c1` 和 `c2`，然后分别用 `putchar` 函数和 `printf` 函数输出这两个字符。并回答：\n1. 变量 `c1` 和 `c2` 应定义为字符型还是整型？或二者皆可？\n2. 要求输出 `c1` 和 `c2` 值的 ASCII 码，应如何处理？",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int c1, c2; // 也可以定义为 char c1, c2;\n\n    printf(\"请输入两个字符: \");\n    c1 = getchar();\n    c2 = getchar();\n\n    printf(\"用 putchar 输出: \");\n    putchar(c1);\n    putchar(c2);\n    putchar('\\n');\n\n    printf(\"用 printf 输出字符: %c %c\\n\", c1, c2);\n    printf(\"输出 ASCII 码: %d %d\\n\", c1, c2);\n\n    return 0;\n}",
+    "analysis": "1. `getchar` 返回的是读取字符的 ASCII 码（整数），且为了能处理 EOF（通常为-1），标准规定 `getchar` 返回类型为 `int`。因此定义为 `int` 是最规范的，但由于通常字符 ASCII 码在 `char` 范围内，定义为 `char` 也能正常工作（只要不发生溢出或需要判断 EOF）。\n2. 要输出 ASCII 码，使用 `printf` 函数并将格式说明符指定为 `%d` 即可。`putchar` 只能输出字符形式。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 33,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 34,
+    "type": "单选题",
+    "content": "下列关于C语言标识符的叙述中，正确的是 {{__SELECT_1__}}",
+    "options": [
+     "标识符可以由字母、数字、下划线和美元符号组成",
+     "标识符的第一个字符必须是字母或数字",
+     "标识符区分大小写，例如 `Sum` 和 `sum` 是不同的标识符",
+     "关键字（如 `int`、`if`）也可以作为用户标识符使用"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误：C语言标识符只能由字母、数字和下划线组成，不能包含美元符号。B错误：标识符的第一个字符必须是字母或下划线，不能是数字。C正确：C语言是大小写敏感的。D错误：关键字具有特殊含义，不能作为用户标识符。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 34,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 35,
+    "type": "单选题",
+    "content": "下列常量的类型描述错误的是 {{__SELECT_1__}}",
+    "options": [
+     "`123` 是 `int` 型常量",
+     "`3.14` 是 `float` 型常量",
+     "`'a'` 是 `char` 型（或 `int` 型）常量",
+     "`\"abc\"` 是字符串常量"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "在C语言中，不带后缀的浮点数常量（如 `3.14`）默认是 `double` 类型，而不是 `float` 类型。若要表示 `float` 类型常量，需要加后缀 `f` 或 `F`（如 `3.14f`）。`123` 默认为 `int`；`'a'` 是字符常量；`\"abc\"` 是字符串常量。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 35,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 36,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n\n```c\n#include <stdio.h>\nint main()\n{\n    int a = 5, b = 2;\n    float c = a / b;\n    float d = (float)a / b;\n    printf(\"c=%f, d=%f\", c, d);\n    return 0;\n}\n```\n\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "c=2.000000, d=2.500000"
+    ],
+    "analysis": "1. `a / b`：两个整数相除，执行整除运算，结果为整数部分，即 `5 / 2 = 2`。然后赋值给浮点型 `c`，`c` 变为 `2.000000`。\n2. `(float)a / b`：先将 `a` 强制转换为 `float` (5.0)，然后与 `b` 进行运算。由于运算符两侧类型不同，`b` 也会自动转换为 `float`，执行浮点除法，结果为 `2.5`，赋值给 `d`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 36,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 37,
+    "type": "单选题",
+    "content": "已知 `int a = 12;`，执行语句 `a += a -= a * a;` 后，`a` 的值是 {{__SELECT_1__}}",
+    "options": [
+     "-264",
+     "264",
+     "144",
+     "-132"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "赋值运算符具有右结合性，即从右向左运算。\n1. 先计算 `a -= a * a`：相当于 `a = a - (a * a) = 12 - 144 = -132`。此时 `a` 的值变为 -132。\n2. 再计算 `a += ...`：此时表达式右侧的值是 -132，左侧的 `a` 也是 -132。相当于 `a = a + (-132) = -132 - 132 = -264`。",
+    "difficulty": "提高",
+    "isFromTextbook": false,
+    "originalNumber": 37,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 38,
+    "type": "程序填空题",
+    "content": "以下程序用于输出一个圆的面积，要求输出宽度为7位，保留2位小数。请补全代码：\n\n```c\n#include <stdio.h>\nint main()\n{\n    double r = 2.5;\n    double s = 3.14159 * r * r;\n    printf(\"Area = {{__BLANK_1__}}\", s);\n    return 0;\n}\n```",
+    "options": [],
+    "answer": [
+     "%7.2f"
+    ],
+    "analysis": "`printf` 格式控制符 `%m.nf` 中，`m` 表示总宽度（包含小数点），`n` 表示小数位数。题目要求宽度7位、保留2位小数，且变量 `s` 为 `double` 类型，应使用 `%7.2f`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 38,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 39,
+    "type": "单选题",
+    "content": "下列转义字符中，错误的是 {{__SELECT_1__}}",
+    "options": [
+     "`'\\n'`",
+     "`'\\101'`",
+     "`'\\x41'`",
+     "`'\\80'`"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "A是换行符；B是八进制转义字符（101对应的ASCII字符）；C是十六进制转义字符（41对应的ASCII字符）；D错误，因为八进制转义字符 `\\ddd` 中的数字只能是 0-7，不能出现 8。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 39,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 40,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n\n```c\n#include <stdio.h>\nint main()\n{\n    int x = 10, y = 10;\n    printf(\"%d %d\\n\", x--, --y);\n    return 0;\n}\n```\n\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "10 9"
+    ],
+    "analysis": "`x--` 是后置自减，先使用 `x` 的值（10）参与输出，然后再自减；所以输出 10。\n`--y` 是前置自减，先将 `y` 自减（变为9），再使用 `y` 的值参与输出；所以输出 9。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 40,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第3章 最简单的C程序设计——顺序程序设计",
+     "chapterId": 3
+    }
+   },
+   {
+    "id": 41,
+    "type": "单选题",
+    "content": "关于C语言中的逻辑值，以下说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "C语言提供专门的逻辑类型boolean，只有true和false两个值",
+     "在C语言中，逻辑“真”必须用整数1表示",
+     "在C语言中，逻辑“假”用整数0表示，非0的数都表示逻辑“真”",
+     "逻辑表达式的值可以是任意整数"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "C语言（C90标准）中没有专门的逻辑类型，逻辑运算的结果用整数1表示“真”，用0表示“假”。但在判断一个量是否为“真”时，系统判定0为“假”，任何非0值都判定为“真”。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 41,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 42,
+    "type": "填空题",
+    "content": "设 $a=3, b=4, c=5$，请写出下列逻辑表达式的值（均为整数0或1）：\n1. `a + b > c && b == c` 的值为 {{__BLANK_1__}}\n2. `a || b + c && b - c` 的值为 {{__BLANK_2__}}\n3. `!(a > b) && !c || 1` 的值为 {{__BLANK_3__}}\n4. `!(x = a) && (y = b) && 0` 的值为 {{__BLANK_4__}}\n5. `!(a + b) + c - 1 && b + c / 2` 的值为 {{__BLANK_5__}}",
+    "answer": [
+     "0",
+     "1",
+     "1",
+     "0",
+     "1"
+    ],
+    "analysis": "1. `7 > 5` 为真(1)，`4 == 5` 为假(0)，`1 && 0` 结果为 0。\n2. `&&` 优先级高于 `||`。但 `a` 为 3 (真)，对于 `||` 运算，左操作数为真则发生短路，结果直接为 1。\n3. `!(0)` 为 1，`!5` 为 0。表达式变为 `1 && 0 || 1` -> `0 || 1` -> 1。\n4. `x=a` 赋值为 3，`!3` 为 0。`&&` 左侧为 0，发生短路，结果为 0。\n5. `!(a+b)` 即 `!7` 为 0。左边算术表达式 `0 + 5 - 1 = 4`。右边 `4 + 5/2 = 4 + 2 = 6`。`4 && 6` 均为非0，结果为 1。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 42,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 43,
+    "type": "编程题",
+    "content": "编写程序，从键盘输入3个整数 $a, b, c$，输出其中最大的数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a, b, c, max;\n    printf(\"请输入三个整数(a,b,c): \");\n    scanf(\"%d,%d,%d\", &a, &b, &c);\n    \n    max = a;\n    if (b > max) max = b;\n    if (c > max) max = c;\n    \n    printf(\"最大的数是: %d\\n\", max);\n    return 0;\n}",
+    "analysis": "思路：假设第一个数 $a$ 是最大的，将其赋给变量 `max`。然后依次用 $b$ 和 $c$ 与 `max` 比较，如果大于 `max` 则更新 `max` 的值。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 43,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 44,
+    "type": "编程题",
+    "content": "从键盘输入一个小于1000的正数，要求输出它的平方根（如果平方根不是整数，则输出其整数部分）。要求在输入数据后先对其进行检查是否为小于1000的正数。若不是，则要求重新输入。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    int num;\n    double root;\n    \n    do {\n        printf(\"请输入一个小于1000的正数: \");\n        scanf(\"%d\", &num);\n        if (num <= 0 || num >= 1000) {\n            printf(\"输入无效，请重新输入。\\n\");\n        }\n    } while (num <= 0 || num >= 1000);\n    \n    root = sqrt(num);\n    printf(\"该数的平方根整数部分是: %d\\n\", (int)root);\n    \n    return 0;\n}",
+    "analysis": "本题需要使用循环结构来实现“输入错误重新输入”的功能（虽然本章主要讲选择结构，但用 `goto` 或简单的递归也可实现，不过 `do-while` 最合适）。计算平方根需要包含 `math.h` 头文件，并使用 `sqrt` 函数。最后强制类型转换为 `int` 输出整数部分。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 44,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 45,
+    "type": "程序阅读题",
+    "content": "阅读下面的程序，当输入 x 的值为 -5 时，y 的值是多少？\n```c\n#include <stdio.h>\nint main() {\n    int x, y;\n    scanf(\"%d\", &x);\n    y = -1;\n    if (x != 0)\n        if (x > 0)\n            y = 1;\n    else\n        y = 0;\n    printf(\"x=%d,y=%d\\n\", x, y);\n    return 0;\n}\n```\n运行结果：x=-5,y={{__BLANK_1__}}",
+    "answer": [
+     "0"
+    ],
+    "analysis": "这是一个经典的“悬挂else”问题。C语言规定 `else` 总是与它前面最近的未配对的 `if` 配对。程序中的 `else` 是与 `if(x>0)` 配对的，而不是与 `if(x!=0)` 配对。当输入 -5 时：\n1. `x != 0` 成立，进入第一个 if。\n2. `x > 0` 不成立，执行对应的 `else` 分支。\n3. 执行 `y = 0`。\n因此输出 y=0。这与题目预期的逻辑（x<0时y=-1）是不符的，属于逻辑错误，但程序的实际运行结果是 0。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 45,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 46,
+    "type": "编程题",
+    "content": "给出一百分制成绩，要求输出成绩等级 'A', 'B', 'C', 'D', 'E'。90分以上为 'A'，80~89分为 'B'，70~79分为 'C'，60~69分为 'D'，60分以下为 'E'。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    float score;\n    char grade;\n    printf(\"请输入成绩: \");\n    scanf(\"%f\", &score);\n    \n    if (score > 100 || score < 0) {\n        printf(\"输入成绩无效\\n\");\n        return 1;\n    }\n    \n    switch((int)(score / 10)) {\n        case 10:\n        case 9:\n            grade = 'A';\n            break;\n        case 8:\n            grade = 'B';\n            break;\n        case 7:\n            grade = 'C';\n            break;\n        case 6:\n            grade = 'D';\n            break;\n        default:\n            grade = 'E';\n    }\n    \n    printf(\"成绩等级: %c\\n\", grade);\n    return 0;\n}",
+    "analysis": "本题既可以用 `if-else` 实现，也可以用 `switch` 实现。使用 `switch` 时，技巧是将成绩除以10取整，这样可以将分数段映射到整数 Case 上（10, 9, 8, 7, 6 等）。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 46,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 47,
+    "type": "编程题",
+    "content": "给一个不多于5位的正整数，要求：\n1. 求出它是几位数；\n2. 分别输出每一位数字；\n3. 按逆序输出各位数字，例如原数为321，应输出123。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    long int num;\n    int digit, places = 0;\n    int ten_thousands, thousands, hundreds, tens, ones;\n    \n    printf(\"请输入一个不多于5位的正整数: \");\n    scanf(\"%ld\", &num);\n    \n    if (num > 99999 || num < 0) {\n        printf(\"输入无效\\n\");\n        return 1;\n    }\n    \n    if (num > 9999) places = 5;\n    else if (num > 999) places = 4;\n    else if (num > 99) places = 3;\n    else if (num > 9) places = 2;\n    else places = 1;\n    \n    printf(\"它是 %d 位数\\n\", places);\n    \n    ten_thousands = num / 10000;\n    thousands = (num / 1000) % 10;\n    hundreds = (num / 100) % 10;\n    tens = (num / 10) % 10;\n    ones = num % 10;\n    \n    printf(\"每一位数字为: \");\n    switch(places) {\n        case 5: printf(\"%d,%d,%d,%d,%d\", ten_thousands, thousands, hundreds, tens, ones); break;\n        case 4: printf(\"%d,%d,%d,%d\", thousands, hundreds, tens, ones); break;\n        case 3: printf(\"%d,%d,%d\", hundreds, tens, ones); break;\n        case 2: printf(\"%d,%d\", tens, ones); break;\n        case 1: printf(\"%d\", ones); break;\n    }\n    printf(\"\\n\");\n    \n    printf(\"逆序输出为: \");\n    switch(places) {\n        case 5: printf(\"%d%d%d%d%d\", ones, tens, hundreds, thousands, ten_thousands); break;\n        case 4: printf(\"%d%d%d%d\", ones, tens, hundreds, thousands); break;\n        case 3: printf(\"%d%d%d\", ones, tens, hundreds); break;\n        case 2: printf(\"%d%d\", ones, tens); break;\n        case 1: printf(\"%d\", ones); break;\n    }\n    printf(\"\\n\");\n    \n    return 0;\n}",
+    "analysis": "由于限制了位数不多于5位，可以通过比较范围来确定位数。通过整除和取模运算提取出每一位数字。利用 `switch` 语句根据位数选择不同的格式输出。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 47,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 48,
+    "type": "编程题",
+    "content": "企业发放的奖金根据利润提成。利润 I 低于或等于100000元的，奖金可提10%；利润高于100000元，低于200000元时，低于100000元的部分按10%提成，高于100000元的部分，可提成7.5%；以此类推（详见题目描述）。从键盘输入当月利润 I，求应发奖金总数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    double i, bonus;\n    printf(\"请输入当月利润 I: \");\n    scanf(\"%lf\", &i);\n    \n    if (i <= 100000)\n        bonus = i * 0.1;\n    else if (i <= 200000)\n        bonus = 100000 * 0.1 + (i - 100000) * 0.075;\n    else if (i <= 400000)\n        bonus = 100000 * 0.1 + 100000 * 0.075 + (i - 200000) * 0.05;\n    else if (i <= 600000)\n        bonus = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + (i - 400000) * 0.03;\n    else if (i <= 1000000)\n        bonus = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + (i - 600000) * 0.015;\n    else\n        bonus = 100000 * 0.1 + 100000 * 0.075 + 200000 * 0.05 + 200000 * 0.03 + 400000 * 0.015 + (i - 1000000) * 0.01;\n        \n    printf(\"应发奖金总数: %.2f\\n\", bonus);\n    return 0;\n}",
+    "analysis": "这属于典型的阶梯税率/奖金计算问题。关键是理清每个区间的基数和税率。可以使用 `if-else` 逐层判断，累加前面所有区间的满额奖金加上当前区间超额部分的提成。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 48,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 49,
+    "type": "编程题",
+    "content": "输入4个整数，要求按由小到大的顺序输出。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a, b, c, d, t;\n    printf(\"请输入4个整数: \");\n    scanf(\"%d%d%d%d\", &a, &b, &c, &d);\n    \n    if (a > b) { t = a; a = b; b = t; }\n    if (a > c) { t = a; a = c; c = t; }\n    if (a > d) { t = a; a = d; d = t; }\n    // 此时 a 是最小的\n    \n    if (b > c) { t = b; b = c; c = t; }\n    if (b > d) { t = b; b = d; d = t; }\n    // 此时 b 是第二小的\n    \n    if (c > d) { t = c; c = d; d = t; }\n    // 排序完成\n    \n    printf(\"排序结果: %d %d %d %d\\n\", a, b, c, d);\n    return 0;\n}",
+    "analysis": "对于少量数字的排序，可以直接使用交换排序的思想。先确定第一个数（最小），再确定第二个数，依此类推。通过一系列 `if` 语句交换变量的值，使得 `a` 存放最小值，`b` 次之，... `d` 最大。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 49,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 50,
+    "type": "编程题",
+    "content": "有4个圆塔，圆心分别为 $(2,2), (-2,2), (-2,-2), (2,-2)$，圆半径为1。这4个塔的高度为 10m，塔以外无建筑物。今输入任一点的坐标，求该点的建筑高度（塔外的高度为零）。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    double x, y, h;\n    int in_circle = 0;\n    \n    printf(\"请输入点坐标(x,y): \");\n    scanf(\"%lf,%lf\", &x, &y);\n    \n    // 判断是否在四个圆中任意一个圆内\n    // 点到圆心的距离平方 d^2 = (x-a)^2 + (y-b)^2，如果 d^2 <= r^2 (1^2=1)，则在圆内\n    if ((pow(x-2, 2) + pow(y-2, 2) <= 1) || \n        (pow(x+2, 2) + pow(y-2, 2) <= 1) || \n        (pow(x+2, 2) + pow(y+2, 2) <= 1) || \n        (pow(x-2, 2) + pow(y+2, 2) <= 1)) {\n        in_circle = 1;\n    }\n    \n    if (in_circle) h = 10;\n    else h = 0;\n    \n    printf(\"该点高度为: %.1f\\n\", h);\n    return 0;\n}",
+    "analysis": "核心是判断点 $(x,y)$ 是否在四个圆的任意一个内部。圆的方程为 $(x-a)^2 + (y-b)^2 = r^2$。因为半径是1，所以只需判断 $(x-a)^2 + (y-b)^2 \\le 1$。使用逻辑或运算符 `||` 连接四个圆的判断条件。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 50,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 51,
+    "type": "单选题",
+    "content": "若有定义 `int a = 1, b = 2, c = 3;`，则执行表达式 `(a > b) && (c = 4)` 后，c 的值为 {{__SELECT_1__}}",
+    "options": [
+     "3",
+     "4",
+     "1",
+     "0"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "本题考查逻辑运算符的“短路”特性。`&&` 运算符的左侧表达式 `(a > b)` 即 `1 > 2` 为假（0）。一旦确认左侧为假，整个逻辑与表达式的结果必为假，系统不再计算右侧的表达式。因此 `c = 4` 不会被执行，`c` 保持原值 3。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 51,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 52,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int a = 2, b = 7, c = 5;\n    switch (a > 0) {\n        case 1:\n            switch (b < 0) {\n                case 1: printf(\"@\"); break;\n                case 0: printf(\"!\"); break;\n            }\n        case 0:\n            switch (c == 5) {\n                case 0: printf(\"*\"); break;\n                case 1: printf(\"#\"); break;\n                default: printf(\"$\");\n            }\n            break;\n        default: printf(\"&\");\n    }\n    printf(\"\\n\");\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "!#"
+    ],
+    "analysis": "1. 外层 switch：`a > 0` (2 > 0) 为真 (1)，匹配 `case 1`。\n2. 进入内层 switch (b < 0)：`b < 0` (7 < 0) 为假 (0)，匹配 `case 0`，输出 `!`，执行 `break` 跳出内层 switch。\n3. **关键点**：外层 switch 的 `case 1` 后面没有 `break`，因此会发生“case 穿透”，继续执行 `case 0` 下的代码。\n4. 进入 `case 0` 的内层 switch (c == 5)：`c == 5` (5 == 5) 为真 (1)，匹配 `case 1`，输出 `#`，执行 `break` 跳出内层 switch。\n5. 执行外层 switch 的 `break`，结束。\n最终输出 `!#`。",
+    "difficulty": "提高",
+    "isFromTextbook": false,
+    "originalNumber": 52,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 53,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正。该程序的目的是判断输入的浮点数 x 是否等于 0，若是则输出 \"Zero\"。\n```c\n#include <stdio.h>\nint main() {\n    double x;\n    scanf(\"%lf\", &x);\n    if (x == 0.0)\n        printf(\"Zero\\n\");\n    return 0;\n}\n```",
+    "answer": "#include <stdio.h>\n#include <math.h>\nint main() {\n    double x;\n    scanf(\"%lf\", &x);\n    if (fabs(x) < 1e-6)\n        printf(\"Zero\\n\");\n    return 0;\n}",
+    "analysis": "浮点数在计算机中存储存在精度误差，直接使用 `==` 判断两个浮点数是否相等通常是不可靠的。正确的做法是判断它们的差的绝对值是否小于一个极小的阈值（如 `1e-6`）。修正代码使用了 `math.h` 中的 `fabs` 函数。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 53,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 54,
+    "type": "单选题",
+    "content": "以下关于 `if` 语句和 `switch` 语句的叙述中，错误的是 {{__SELECT_1__}}",
+    "options": [
+     "if 语句有3种常见形式：单分支、双分支和多分支嵌套",
+     "switch 语句中的 case 后面只能是常量或常量表达式",
+     "switch 语句必须包含 default 分支，否则会报错",
+     "在 switch 语句中，多个 case 可以共用一组执行语句"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "C语言规定，`switch` 语句可以没有 `default` 标号，此时如果没有匹配的 `case`，则不执行任何操作直接跳出 `switch`。因此 C 选项叙述错误。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 54,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第4章 选择结构程序设计",
+     "chapterId": 4
+    }
+   },
+   {
+    "id": 55,
+    "type": "程序阅读题",
+    "content": "阅读以下程序，写出程序的运行结果。\n\n```c\n#include <stdio.h>\nint main() {\n    int i, j, n = 0;\n    for (i = 1; i <= 4; i++)\n        for (j = 1; j <= 5; j++, n++) {\n            if (n % 5 == 0) printf(\"\\n\");\n            if (i == 3 && j == 1) break;\n            printf(\"%d\\t\", i * j);\n        }\n    printf(\"\\n\");\n    return 0;\n}\n```\n\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "1\t2\t3\t4\t5\t\n2\t4\t6\t8\t10\t\n\n4\t8\t12\t16\t20"
+    ],
+    "analysis": "本题考察`break`语句在嵌套循环中的作用。程序是一个双重循环，外层`i`从1到4，内层`j`从1到5。正常情况下会输出4行5列的矩阵。当`i=3`且`j=1`时，执行`break`语句。`break`语句会跳出最近的一层循环（即内层循环），因此第3行的其余数据（包括`3*1`）都不会被输出，流程直接进入下一次外层循环（`i=4`），继续输出第4行的数据。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 55,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 56,
+    "type": "程序填空题",
+    "content": "下面的程序用于统计在计算 $\\pi$ 的近似值时，当最后一项的绝对值小于 $10^{-6}$ 时，循环体执行的次数。请填空。\n\n```c\n#include <stdio.h>\n#include <math.h>\nint main() {\n    int sign = 1, count = 0;\n    double pi = 0.0, n = 1.0, term = 1.0;\n    while (fabs(term) >= 1e-6) {\n        pi = pi + term;\n        n = n + 2;\n        sign = -sign;\n        term = sign / n;\n        {{__BLANK_1__}}; // 统计执行次数\n    }\n    pi = pi * 4;\n    printf(\"pi = %10.8f\\n\", pi);\n    printf(\"count = %d\\n\", count);\n    return 0;\n}\n```",
+    "answer": [
+     "count++"
+    ],
+    "analysis": "本题要求统计循环体的执行次数。需要在循环体内部增加一个计数器变量的自增操作。`count`变量已初始化为0，因此每次进入循环体时执行`count++`即可统计次数。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 56,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 57,
+    "type": "编程题",
+    "content": "输入两个正整数 $m$ 和 $n$，编写程序求其最大公约数和最小公倍数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int m, n, a, b, t, gcd, lcm;\n    printf(\"请输入两个正整数 m 和 n: \");\n    scanf(\"%d%d\", &m, &n);\n    a = m;\n    b = n;\n    // 使用辗转相除法求最大公约数\n    while (b != 0) {\n        t = a % b;\n        a = b;\n        b = t;\n    }\n    gcd = a;\n    lcm = m * n / gcd; // 最小公倍数 = 两数之积 / 最大公约数\n    printf(\"最大公约数: %d\\n\", gcd);\n    printf(\"最小公倍数: %d\\n\", lcm);\n    return 0;\n}",
+    "analysis": "求最大公约数（GCD）通常使用辗转相除法（欧几里得算法）：用较大数除以较小数，再用除数除以出现的余数，如此反复，直到余数为0，最后的除数即为最大公约数。最小公倍数（LCM）可以通过公式 $LCM(m, n) = (m \\times n) / GCD(m, n)$ 计算。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 57,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 58,
+    "type": "编程题",
+    "content": "输入一行字符，分别统计出其中英文字母、空格、数字和其他字符的个数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    char c;\n    int letters = 0, spaces = 0, digits = 0, others = 0;\n    printf(\"请输入一行字符: \\n\");\n    while ((c = getchar()) != '\\n') {\n        if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))\n            letters++;\n        else if (c == ' ')\n            spaces++;\n        else if (c >= '0' && c <= '9')\n            digits++;\n        else\n            others++;\n    }\n    printf(\"字母数: %d\\n空格数: %d\\n数字数: %d\\n其他字符数: %d\\n\", letters, spaces, digits, others);\n    return 0;\n}",
+    "analysis": "使用`getchar()`函数循环读取字符，直到读入换行符`\\n`为止。在循环体内，利用条件判断语句（if-else）根据字符的ASCII码范围将其分类，并更新相应的计数器。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 58,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 59,
+    "type": "编程题",
+    "content": "求 $S_n = a + aa + aaa + \\dots + aa\\dots a$ 之值，其中 $a$ 是一个数字，$n$ 表示 $a$ 的位数。$n$ 由键盘输入。例如：$2 + 22 + 222 + 2222 + 22222$（此时 $n=5$）。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a, n, i;\n    long int sn = 0, tn = 0;\n    printf(\"请输入 a 和 n: \");\n    scanf(\"%d%d\", &a, &n);\n    for (i = 1; i <= n; i++) {\n        tn = tn * 10 + a; // 计算当前项 aa...a\n        sn = sn + tn;     // 累加到总和\n    }\n    printf(\"Sn = %ld\\n\", sn);\n    return 0;\n}",
+    "analysis": "关键在于构造每一项的值。第 $i$ 项的值 `tn` 可以通过前一项的值乘以10再加上 $a$ 得到（例如 $22 = 2 \\times 10 + 2$）。使用循环计算每一项并累加到总和 `sn` 中。考虑到结果可能较大，使用 `long int` 类型。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 59,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 60,
+    "type": "编程题",
+    "content": "求 $\\sum_{n=1}^{20} n!$ （即求 $1! + 2! + 3! + \\dots + 20!$）。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    double s = 0, t = 1;\n    int n;\n    for (n = 1; n <= 20; n++) {\n        t = t * n; // 计算 n!\n        s = s + t; // 累加阶乘\n    }\n    printf(\"1!+2!+...+20! = %22.15e\\n\", s);\n    return 0;\n}",
+    "analysis": "本题需要计算阶乘的和。利用循环，每次循环计算 $n!$。注意到 $n! = (n-1)! \\times n$，因此可以在上一次阶乘的基础上直接乘 $n$ 得到本次阶乘，无需每次重新从1乘起。由于 $20!$ 的数值非常大（超过了 `long long` 的范围），建议使用 `double` 类型来存储结果以防止溢出。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 60,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 61,
+    "type": "编程题",
+    "content": "求 $\\sum_{k=1}^{100} k + \\sum_{k=1}^{50} k^2 + \\sum_{k=1}^{10} \\frac{1}{k}$。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int k;\n    double s1 = 0, s2 = 0, s3 = 0, total;\n    for (k = 1; k <= 100; k++) s1 += k;\n    for (k = 1; k <= 50; k++) s2 += k * k;\n    for (k = 1; k <= 10; k++) s3 += 1.0 / k;\n    total = s1 + s2 + s3;\n    printf(\"sum = %f\\n\", total);\n    return 0;\n}",
+    "analysis": "本题包含三部分求和，每部分的上限不同。可以分别用三个循环计算，也可以用一个循环（取最大上限100）并在内部通过 `if` 判断来分别累加，但分别写三个循环逻辑更清晰。注意第三部分是倒数和，需要使用浮点运算 `1.0 / k`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 61,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 62,
+    "type": "编程题",
+    "content": "输出所有的“水仙花数”，所谓“水仙花数”是指一个3位数，其各位数字立方和等于该数本身。例如，153是一个水仙花数，因为 $153 = 1^3 + 5^3 + 3^3$。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int i, a, b, c;\n    printf(\"水仙花数有: \");\n    for (i = 100; i <= 999; i++) {\n        a = i / 100;     // 百位\n        b = (i / 10) % 10; // 十位\n        c = i % 10;      // 个位\n        if (i == a * a * a + b * b * b + c * c * c)\n            printf(\"%d \", i);\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "遍历100到999之间的所有整数。对于每个数，分离出百位、十位和个位数字，计算它们的立方和，并与原数比较。如果相等，则输出该数。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 62,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 63,
+    "type": "编程题",
+    "content": "一个数如果恰好等于它的因子之和，这个数就称为“完数”。例如，6的因子为1,2,3，而 $6 = 1 + 2 + 3$，因此6是“完数”。编程序找出1000之内的所有完数，并按下面格式输出其因子：`6 its factors are 1,2,3`",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int m, s, i;\n    for (m = 2; m < 1000; m++) {\n        s = 0;\n        // 寻找因子并累加\n        for (i = 1; i < m; i++)\n            if (m % i == 0) s = s + i;\n        \n        // 判断是否为完数\n        if (s == m) {\n            printf(\"%d its factors are \", m);\n            for (i = 1; i < m; i++)\n                if (m % i == 0) printf(\"%d,\", i);\n            printf(\"\\b \\n\"); // \\b用于删除最后一个多余的逗号\n        }\n    }\n    return 0;\n}",
+    "analysis": "双重循环结构。外层循环遍历2到999的每个数 `m`。内层循环用于寻找 `m` 的所有真因子（即除了它本身以外的约数）并求和。如果因子和等于 `m`，则再次循环输出其因子。注意输出格式的处理。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 63,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 64,
+    "type": "编程题",
+    "content": "有一个分数序列 $\\frac{2}{1}, \\frac{3}{2}, \\frac{5}{3}, \\frac{8}{5}, \\frac{13}{8}, \\frac{21}{13}, \\dots$ 求出这个数列的前20项之和。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int i, n = 20;\n    double a = 2, b = 1, s = 0, t;\n    for (i = 1; i <= n; i++) {\n        s = s + a / b;\n        t = a;\n        a = a + b; // 下一项的分子 = 前一项分子 + 前一项分母\n        b = t;     // 下一项的分母 = 前一项的分子\n    }\n    printf(\"sum = %16.10f\\n\", s);\n    return 0;\n}",
+    "analysis": "观察数列规律：后一项的分子是前一项分子与分母之和，后一项的分母是前一项的分子。类似于斐波那契数列。使用变量 `a` 和 `b` 分别存储分子和分母，在循环中更新它们的值并累加。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 64,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 65,
+    "type": "编程题",
+    "content": "一个球从 $100\\mathrm{m}$ 高度自由落下，每次落地后反跳回原高度的一半，再落下，再反弹。求它在第10次落地时，共经过多少米？第10次反弹多高？",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    double sn = 100.0, hn = sn / 2;\n    int n;\n    for (n = 2; n <= 10; n++) {\n        sn = sn + 2 * hn; // 第n次落地时，经过的距离累加（包含弹起和落下的双倍高度）\n        hn = hn / 2;      // 第n次反弹的高度\n    }\n    printf(\"第10次落地时共经过: %f 米\\n\", sn);\n    printf(\"第10次反弹高度: %f 米\\n\", hn);\n    return 0;\n}",
+    "analysis": "初始下落100米。第一次反弹高度为50米。从第二次落地开始，每次经过的距离是前一次反弹高度的两倍（弹起+落下）。反弹高度每次减半。循环计算10次即可。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 65,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 66,
+    "type": "编程题",
+    "content": "猴子吃桃问题。猴子第1天摘下若干个桃子，当即吃了一半，还不过瘾，又多吃了一个。第2天早上又将剩下的桃子吃掉一半，又多吃了一个。以后每天早上都吃了前一天剩下的一半零一个。到第10天早上想再吃时，就只剩一个桃子了。求第1天共摘多少个桃子。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int day, x1, x2;\n    day = 9;\n    x2 = 1; // 第10天的桃子数\n    while (day > 0) {\n        x1 = (x2 + 1) * 2; // 逆推公式：前一天 = (后一天 + 1) * 2\n        x2 = x1;\n        day--;\n    }\n    printf(\"total = %d\\n\", x1);\n    return 0;\n}",
+    "analysis": "这是一个典型的逆推问题。第10天剩余1个。第9天剩余 = (第10天 + 1) * 2。公式为 $x_{day} = (x_{day+1} + 1) \\times 2$。使用循环从第9天逆推到第1天。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 66,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 67,
+    "type": "编程题",
+    "content": "用迭代法求 $x = \\sqrt{a}$。求平方根的迭代公式为 $x_{n+1} = \\frac{1}{2} (x_n + \\frac{a}{x_n})$。要求前后两次求出的 $x$ 的差的绝对值小于 $10^{-5}$。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    float a, x0, x1;\n    printf(\"请输入一个正数 a: \");\n    scanf(\"%f\", &a);\n    x0 = a / 2; // 初始猜测值\n    x1 = (x0 + a / x0) / 2;\n    while (fabs(x1 - x0) >= 1e-5) {\n        x0 = x1;\n        x1 = (x0 + a / x0) / 2;\n    }\n    printf(\"平方根的近似值为: %8.5f\\n\", x1);\n    return 0;\n}",
+    "analysis": "迭代法的核心是利用旧值计算新值，直到新旧值的差值满足精度要求。使用 `do-while` 或 `while` 循环均可。注意需要包含 `<math.h>` 以使用 `fabs` 函数。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 67,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 68,
+    "type": "编程题",
+    "content": "用牛顿迭代法求下面方程在 1.5 附近的根：$2x^3 - 4x^2 + 3x - 6 = 0$。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    double x1, x0, f, f1;\n    x1 = 1.5;\n    do {\n        x0 = x1;\n        f = 2 * x0 * x0 * x0 - 4 * x0 * x0 + 3 * x0 - 6; // f(x)\n        f1 = 6 * x0 * x0 - 8 * x0 + 3;                   // f'(x)\n        x1 = x0 - f / f1;                                // 牛顿迭代公式\n    } while (fabs(x1 - x0) >= 1e-5);\n    printf(\"方程的根为: %7.5f\\n\", x1);\n    return 0;\n}",
+    "analysis": "牛顿迭代法公式为 $x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}$。首先计算函数值 $f(x)$ 和导数值 $f'(x)$。$f'(x) = 6x^2 - 8x + 3$。然后利用循环不断更新 $x$ 的值直到收敛。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 68,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 69,
+    "type": "编程题",
+    "content": "用二分法求下面方程在 $(-10, 10)$ 之间的根：$2x^3 - 4x^2 + 3x - 6 = 0$。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    double x1 = -10, x2 = 10, x, f1, f2, f;\n    f1 = 2 * x1 * x1 * x1 - 4 * x1 * x1 + 3 * x1 - 6;\n    f2 = 2 * x2 * x2 * x2 - 4 * x2 * x2 + 3 * x2 - 6;\n    \n    if (f1 * f2 > 0) {\n        printf(\"该区间内无根或有偶数个根\\n\");\n        return 0;\n    }\n    \n    do {\n        x = (x1 + x2) / 2;\n        f = 2 * x * x * x - 4 * x * x + 3 * x - 6;\n        if (f * f1 > 0) {\n            x1 = x;\n            f1 = f;\n        } else {\n            x2 = x;\n            f2 = f;\n        }\n    } while (fabs(f) >= 1e-5);\n    \n    printf(\"方程的根为: %7.5f\\n\", x);\n    return 0;\n}",
+    "analysis": "二分法通过不断缩小区间来逼近根。取区间中点 $x$，计算 $f(x)$。如果 $f(x)$ 与端点 $f(x_1)$ 同号，则根在另一半区间，更新 $x_1$；否则更新 $x_2$。重复直至满足精度。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 69,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 70,
+    "type": "编程题",
+    "content": "编写程序输出以下菱形图案：\n```\n   *\n  ***\n *****\n*******\n *****\n  ***\n   *\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int i, j, k;\n    // 上半部分（包括中间最长的一行）\n    for (i = 0; i <= 3; i++) {\n        for (j = 0; j <= 2 - i; j++) printf(\" \");\n        for (k = 0; k <= 2 * i; k++) printf(\"*\");\n        printf(\"\\n\");\n    }\n    // 下半部分\n    for (i = 0; i <= 2; i++) {\n        for (j = 0; j <= i; j++) printf(\" \");\n        for (k = 0; k <= 4 - 2 * i; k++) printf(\"*\");\n        printf(\"\\n\");\n    }\n    return 0;\n}",
+    "analysis": "将图案分为上半部分（前4行）和下半部分（后3行）。分别寻找空格数和星号数与行号的规律。上半部分第 `i` 行（从0开始）有 `3-i` 个空格和 `2*i+1` 个星号。下半部分类似逆向推导。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 70,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 71,
+    "type": "编程题",
+    "content": "两个乒乓球队进行比赛，各出3人。甲队为A，B，C 3人，乙队为X，Y，Z 3人。已抽签决定比赛名单。有人向队员打听比赛的名单，A说他不和X比，C说他不和X，Z比，请编程序找出3对赛手的名单。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    char i, j, k; // i, j, k 分别对应 A, B, C 的对手\n    for (i = 'X'; i <= 'Z'; i++) {\n        for (j = 'X'; j <= 'Z'; j++) {\n            if (i != j) {\n                for (k = 'X'; k <= 'Z'; k++) {\n                    if (i != k && j != k) {\n                        // A不和X比 (i != 'X')\n                        // C不和X, Z比 (k != 'X' && k != 'Z')\n                        if (i != 'X' && k != 'X' && k != 'Z') {\n                            printf(\"A -- %c\\nB -- %c\\nC -- %c\\n\", i, j, k);\n                        }\n                    }\n                }\n            }\n        }\n    }\n    return 0;\n}",
+    "analysis": "使用三重循环穷举A、B、C的对手（分别为i, j, k）。由于每人只能比一次，因此 `i!=j`, `i!=k`, `j!=k`。在此基础上加入题目给出的约束条件：`i != 'X'` 以及 `k != 'X' && k != 'Z'`。满足所有条件的组合即为答案。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 71,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 72,
+    "type": "单选题",
+    "content": "关于 `do...while` 循环和 `while` 循环，下列说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "while 循环体的执行次数至少为 1 次",
+     "do...while 循环体的执行次数至少为 1 次",
+     "在条件一开始就不满足的情况下，两种循环的结果完全相同",
+     "do...while 循环先判断条件，后执行循环体"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`while` 循环是先判断后执行，如果条件一开始就不满足，循环体一次也不执行；`do...while` 循环是先执行后判断，因此循环体至少执行一次。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 72,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 73,
+    "type": "单选题",
+    "content": "若有定义 `int i = 0;`，则执行语句 `while(i > 0) printf(\"%d\", i);` 后，输出结果是 {{__SELECT_1__}}",
+    "options": [
+     "0",
+     "1",
+     "无输出",
+     "无限循环"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`while` 循环首先判断条件 `i > 0`。由于初始 `i=0`，条件不成立，循环体不执行，因此无输出。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 73,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 74,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int y = 10;\n    while (y--) {\n        ;\n    }\n    printf(\"y=%d\", y);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "y=-1"
+    ],
+    "analysis": "`while(y--)` 的执行逻辑是：先取 `y` 的值判断真假，然后 `y` 自减。当 `y` 变为 1 时，条件为真（1），进入循环（空语句），`y` 变为 0。再次判断时，`y` 值为 0（假），循环结束，但判断后 `y` 仍会自减，变成 -1。输出结果为 -1。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 74,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 75,
+    "type": "单选题",
+    "content": "以下 `for` 循环语句中，会导致无限循环（死循环）的是 {{__SELECT_1__}}",
+    "options": [
+     "for (i = 0; i < 10; i++)",
+     "for ( ; ; )",
+     "for (i = 0; i < 0; i++)",
+     "for (i = 0; i < 10; i--) { i++; }"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`for(;;)` 表示三个表达式都省略，其中表达式2省略被默认为真，因此构成无限循环。A是正常循环；C条件一开始就不满足，不执行；D中循环体内 `i++` 抵消了 `i--`，但如果 `i` 初始为0，条件 `i<10` 成立，`i` 始终为0，也是死循环，但题目中最典型表示死循环的形式通常指 `for(;;)`。若D也算，则题目可能有歧义，但在C语言规范中 `for(;;)` 是标准的死循环写法。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 75,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 76,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正，使其能输出 1 到 100 之间的所有偶数：\n```c\n#include <stdio.h>\nint main() {\n    int i = 1;\n    while (i <= 100) {\n        if (i % 2 == 0)\n            printf(\"%d \", i);\n    }\n    return 0;\n}\n```",
+    "answer": "#include <stdio.h>\nint main() {\n    int i = 1;\n    while (i <= 100) {\n        if (i % 2 == 0)\n            printf(\"%d \", i);\n        i++; // 增加循环变量更新\n    }\n    return 0;\n}",
+    "analysis": "原程序在 `while` 循环体内缺少循环变量 `i` 的更新语句（`i++`），导致 `i` 始终为 1，条件 `i <= 100` 永远为真，形成死循环且不断重复判断。需要在循环体最后添加 `i++;`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 76,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第5章 循环结构程序设计",
+     "chapterId": 5
+    }
+   },
+   {
+    "id": 77,
+    "type": "编程题",
+    "content": "用筛选法求100之内的素数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#include <math.h>\n\nint main() {\n    int i, j, n = 100;\n    int a[101]; // 0-100\n\n    // 初始化数组，1表示素数，0表示非素数\n    for (i = 1; i <= n; i++)\n        a[i] = 1;\n    \n    a[1] = 0; // 1不是素数\n\n    // 筛选法\n    for (i = 2; i <= sqrt(n); i++) {\n        if (a[i]) {\n            for (j = i * i; j <= n; j += i)\n                a[j] = 0;\n        }\n    }\n\n    // 输出结果\n    for (i = 1; i <= n; i++) {\n        if (a[i]) {\n            printf(\"%d \", i);\n        }\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "筛选法（Sieve of Eratosthenes）的基本思想是：先把N个自然数按次序排列起来。1不是质数，也不是合数，要划去。第二个数2是质数留下来，而把2后面所有能被2整除的数都划去。2后面第一个没划去的数是3，把3留下，再把3后面所有能被3整除的数都划去。这样一直做下去，就会把不超过N的全部合数都筛掉，留下的就是质数。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 77,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 78,
+    "type": "编程题",
+    "content": "用选择法对10个整数排序。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a[10], i, j, min, temp;\n    printf(\"请输入10个整数：\\n\");\n    for (i = 0; i < 10; i++)\n        scanf(\"%d\", &a[i]);\n\n    // 选择排序核心代码\n    for (i = 0; i < 9; i++) {\n        min = i;\n        for (j = i + 1; j < 10; j++) {\n            if (a[j] < a[min])\n                min = j;\n        }\n        if (min != i) {\n            temp = a[i];\n            a[i] = a[min];\n            a[min] = temp;\n        }\n    }\n\n    printf(\"排序后的结果：\\n\");\n    for (i = 0; i < 10; i++)\n        printf(\"%d \", a[i]);\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "选择排序的基本思想是：每一趟在n-i+1个记录中选取关键字最小的记录作为有序序列的第i个记录。例如第1趟，在10个数中找出最小的与第1个数交换；第2趟，在剩下的9个数中找出最小的与第2个数交换，以此类推。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 78,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 79,
+    "type": "编程题",
+    "content": "求一个 $3 \\times 3$ 的整型矩阵对角线元素之和。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a[3][3], sum = 0;\n    int i, j;\n\n    printf(\"请输入3x3矩阵的元素：\\n\");\n    for (i = 0; i < 3; i++) {\n        for (j = 0; j < 3; j++) {\n            scanf(\"%d\", &a[i][j]);\n        }\n    }\n\n    // 计算主对角线之和\n    for (i = 0; i < 3; i++)\n        sum += a[i][i];\n\n    // 如果需要包含副对角线且不重复计算中心元素（题目通常指主对角线，若含副对角线需额外处理）\n    // 此处按通常理解计算主对角线\n    \n    printf(\"主对角线元素之和为：%d\\n\", sum);\n    return 0;\n}",
+    "analysis": "矩阵的主对角线元素特点是行下标等于列下标，即 `a[i][i]`。只需遍历一次循环即可求和。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 79,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 80,
+    "type": "编程题",
+    "content": "有一个已排好序的数组，要求输入一个数后，按原来排序的规律将它插入数组中。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a[11] = {1, 4, 6, 9, 13, 16, 19, 28, 40, 100};\n    int temp1, temp2, number, end, i, j;\n    \n    printf(\"原数组: \");\n    for (i = 0; i < 10; i++) printf(\"%5d\", a[i]);\n    printf(\"\\n\");\n\n    printf(\"请输入要插入的数: \");\n    scanf(\"%d\", &number);\n    \n    end = a[9];\n    if (number > end)\n        a[10] = number;\n    else {\n        for (i = 0; i < 10; i++) {\n            if (a[i] > number) {\n                temp1 = a[i];\n                a[i] = number;\n                for (j = i + 1; j < 11; j++) {\n                    temp2 = a[j];\n                    a[j] = temp1;\n                    temp1 = temp2;\n                }\n                break;\n            }\n        }\n    }\n\n    printf(\"插入后的数组: \");\n    for (i = 0; i < 11; i++)\n        printf(\"%5d\", a[i]);\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "核心逻辑是找到第一个大于插入数的位置，将该位置及其后的所有元素后移一位，然后将新数放入该位置。若新数比所有元素都大，则直接放在最后。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 80,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 81,
+    "type": "编程题",
+    "content": "将一个数组中的值按逆序重新存放。例如，原来顺序为8,6,5,4,1。要求改为1,4,5,6,8。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a[5] = {8, 6, 5, 4, 1};\n    int i, temp;\n    int n = 5;\n\n    printf(\"原数组: \");\n    for(i = 0; i < n; i++) printf(\"%d \", a[i]);\n    printf(\"\\n\");\n\n    for (i = 0; i < n / 2; i++) {\n        temp = a[i];\n        a[i] = a[n - 1 - i];\n        a[n - 1 - i] = temp;\n    }\n\n    printf(\"逆序后: \");\n    for(i = 0; i < n; i++) printf(\"%d \", a[i]);\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "逆序可以通过交换数组首尾对应的元素实现。只需遍历数组的前半部分，第 `i` 个元素与第 `n-1-i` 个元素交换即可。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 81,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 82,
+    "type": "编程题",
+    "content": "输出杨辉三角形（要求输出10行）。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a[10][10];\n    int i, j;\n\n    for (i = 0; i < 10; i++) {\n        a[i][0] = 1;\n        a[i][i] = 1;\n    }\n\n    for (i = 2; i < 10; i++) {\n        for (j = 1; j < i; j++) {\n            a[i][j] = a[i-1][j-1] + a[i-1][j];\n        }\n    }\n\n    for (i = 0; i < 10; i++) {\n        for (j = 0; j <= i; j++) {\n            printf(\"%5d\", a[i][j]);\n        }\n        printf(\"\\n\");\n    }\n    return 0;\n}",
+    "analysis": "杨辉三角的规律是：每一行的第一个和最后一个元素为1，中间的元素等于上一行该位置元素与上一行前一个位置元素之和，即 `a[i][j] = a[i-1][j-1] + a[i-1][j]`。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 82,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 83,
+    "type": "编程题",
+    "content": "输出“魔方阵”。要求输出 $1 \\sim n^2$ 的自然数构成的魔方阵（以3阶为例）。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a[15][15] = {0};\n    int i, j, k, n;\n    \n    printf(\"请输入魔方阵的阶数(1-15的奇数): \");\n    scanf(\"%d\", &n);\n\n    i = 0;\n    j = n / 2;\n    a[i][j] = 1;\n\n    for (k = 2; k <= n * n; k++) {\n        i = i - 1;\n        j = j + 1;\n        if ((i < 0) && (j == n)) {\n            i = i + 2;\n            j = j - 1;\n        }\n        else {\n            if (i < 0) i = n - 1;\n            if (j > n - 1) j = 0;\n        }\n        if (a[i][j] == 0)\n            a[i][j] = k;\n        else {\n            i = i + 2;\n            j = j - 1;\n            a[i][j] = k;\n        }\n    }\n\n    for (i = 0; i < n; i++) {\n        for (j = 0; j < n; j++)\n            printf(\"%4d\", a[i][j]);\n        printf(\"\\n\");\n    }\n    return 0;\n}",
+    "analysis": "魔方阵（奇数阶）的生成规则：\n1. 将1放在第一行的中间。\n2. 后面的数放在前一个数的右上角（行减1，列加1）。\n3. 如果超出上边界，则移到最后一行；如果超出右边界，则移到第一列。\n4. 如果右上角已有数，则放在前一个数的正下方。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 83,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 84,
+    "type": "编程题",
+    "content": "找出一个二维数组中的鞍点，即该位置上的元素在该行上最大、在该列上最小。也可能没有鞍点。",
+    "options": [],
+    "answer": "#include <stdio.h>\n#define M 3\n#define N 4\n\nint main() {\n    int a[M][N] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};\n    int i, j, k, max, maxj, flag;\n\n    for (i = 0; i < M; i++) {\n        flag = 1;\n        max = a[i][0];\n        maxj = 0;\n        // 找出第i行最大的数\n        for (j = 0; j < N; j++) {\n            if (a[i][j] > max) {\n                max = a[i][j];\n                maxj = j;\n            }\n        }\n        // 判断该数是否为该列最小\n        for (k = 0; k < M; k++) {\n            if (a[k][maxj] < max) {\n                flag = 0;\n                continue;\n            }\n        }\n        if (flag) {\n            printf(\"鞍点: a[%d][%d] = %d\\n\", i, maxj, max);\n            break;\n        }\n    }\n    if (!flag)\n        printf(\"无鞍点\\n\");\n    return 0;\n}",
+    "analysis": "鞍点的定义是行最大且列最小。算法步骤：\n1. 遍历每一行，找出该行的最大值及其列下标。\n2. 检查该最大值是否是其所在列的最小值。\n3. 如果满足条件，则为鞍点。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 84,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 85,
+    "type": "编程题",
+    "content": "有15个数按由大到小顺序存放在一个数组中，输入一个数，要求用折半查找法找出该数是数组中第几个元素的值。如果该数不在数组中，则输出“无此数”。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int a[15] = {100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 5, 3, 2, 1, 0};\n    int number, top, bott, mid, loca, sign;\n    \n    printf(\"请输入要查找的数: \");\n    scanf(\"%d\", &number);\n\n    sign = 0;\n    top = 0;\n    bott = 14;\n\n    if ((number < a[14]) || (number > a[0]))\n        loca = -1;\n    else {\n        while ((sign == 0) && (top <= bott)) {\n            mid = (bott + top) / 2;\n            if (number == a[mid]) {\n                loca = mid;\n                printf(\"找到了，是第 %d 个元素，值为 %d\\n\", loca + 1, number);\n                sign = 1;\n            } else if (number < a[mid]) // 注意数组是从大到小排列\n                top = mid + 1;\n            else\n                bott = mid - 1;\n        }\n    }\n\n    if (sign == 0 || loca == -1)\n        printf(\"无此数\\n\");\n    \n    return 0;\n}",
+    "analysis": "折半查找的前提是数组有序。本题中数组由大到小排列，因此当目标数小于中间值时，应在右半区（下标较大的部分）查找，即 `top = mid + 1`，反之亦然。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 85,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 86,
+    "type": "编程题",
+    "content": "有一篇文章，共有3行文字，每行有80个字符。要求分别统计出其中英文大写字母、小写字母、数字、空格以及其他字符的个数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int i, j, upp = 0, low = 0, dig = 0, spa = 0, oth = 0;\n    char text[3][80];\n\n    for (i = 0; i < 3; i++) {\n        printf(\"请输入第 %d 行:\\n\", i + 1);\n        gets(text[i]);\n        for (j = 0; j < 80 && text[i][j] != '\\0'; j++) {\n            if (text[i][j] >= 'A' && text[i][j] <= 'Z')\n                upp++;\n            else if (text[i][j] >= 'a' && text[i][j] <= 'z')\n                low++;\n            else if (text[i][j] >= '0' && text[i][j] <= '9')\n                dig++;\n            else if (text[i][j] == ' ')\n                spa++;\n            else\n                oth++;\n        }\n    }\n\n    printf(\"\\n大写字母: %d\\n\", upp);\n    printf(\"小写字母: %d\\n\", low);\n    printf(\"数字: %d\\n\", dig);\n    printf(\"空格: %d\\n\", spa);\n    printf(\"其他字符: %d\\n\", oth);\n    return 0;\n}",
+    "analysis": "定义一个二维字符数组 `char text[3][80]` 存储文本。使用嵌套循环遍历字符，利用ASCII码范围判断字符类型并统计。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 86,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 87,
+    "type": "编程题",
+    "content": "输出以下图案：\n```\n* * * * *\n * * * * *\n  * * * * *\n   * * * * *\n    * * * * *\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    char a[5] = {'*', '*', '*', '*', '*'};\n    int i, j, k;\n    char space = ' ';\n\n    for (i = 0; i < 5; i++) {\n        printf(\"\\n\");\n        for (j = 1; j <= i; j++)\n            printf(\"%c\", space);\n        for (k = 0; k < 5; k++)\n            printf(\"%c \", a[k]);\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "可以通过控制每行前面的空格数量来实现。第 `i` 行（从0开始）前面有 `i` 个空格。然后输出5个星号，星号之间可以带空格或不带，题目图案显示星号间有间隔。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 87,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 88,
+    "type": "编程题",
+    "content": "有一行电文，已按下面规律译成密码：\n即第1个字母变成第26个字母，第i个字母变成第 $(26 - i + 1)$ 个字母，非字母字符不变。要求编程序将密码译回原文，并输出密码和原文。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int j, n;\n    char ch[80];\n    \n    printf(\"请输入密码: \\n\");\n    gets(ch);\n    printf(\"密码为: %s\\n\", ch);\n\n    j = 0;\n    while (ch[j] != '\\0') {\n        if ((ch[j] >= 'A') && (ch[j] <= 'Z'))\n            ch[j] = 155 - ch[j];\n        else if ((ch[j] >= 'a') && (ch[j] <= 'z'))\n            ch[j] = 219 - ch[j];\n        j++;\n    }\n    \n    n = j;\n    printf(\"原文为: \");\n    for (j = 0; j < n; j++)\n        printf(\"%c\", ch[j]);\n    printf(\"\\n\");\n    return 0;\n}",
+    "analysis": "根据规律，字母的ASCII码转换公式为：`新值 = 'A' + 'Z' - 原值` (大写) 或 `新值 = 'a' + 'z' - 原值` (小写)。\n'A'+'Z' = 65+90 = 155。\n'a'+'z' = 97+122 = 219。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 88,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 89,
+    "type": "编程题",
+    "content": "编一程序，将两个字符串连接起来，不要用 strcat函数。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    char s1[80], s2[40];\n    int i, j;\n\n    printf(\"请输入字符串1: \");\n    gets(s1);\n    printf(\"请输入字符串2: \");\n    gets(s2);\n\n    i = 0;\n    while (s1[i] != '\\0')\n        i++;\n    \n    j = 0;\n    while (s2[j] != '\\0') {\n        s1[i] = s2[j];\n        i++;\n        j++;\n    }\n    s1[i] = '\\0';\n\n    printf(\"连接后的字符串: %s\\n\", s1);\n    return 0;\n}",
+    "analysis": "首先遍历第一个字符串直到找到结束符 `\\0`，记录该位置。然后从该位置开始，依次将第二个字符串的字符复制过去，最后别忘了添加结束符 `\\0`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 89,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 90,
+    "type": "编程题",
+    "content": "编一个程序, 将两个字符串 s1 和 s2 比较, 若 $s1 > s2$ , 输出一个正数; 若 $s1 = s2$ , 输出 0; 若 $s1 < s2$ , 输出一个负数。不要用 strcpy 函数。两个字符串用 gets 函数读入。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int i, res;\n    char s1[100], s2[100];\n\n    printf(\"请输入s1: \");\n    gets(s1);\n    printf(\"请输入s2: \");\n    gets(s2);\n\n    i = 0;\n    while ((s1[i] == s2[i]) && (s1[i] != '\\0'))\n        i++;\n    \n    if (s1[i] == '\\0' && s2[i] == '\\0')\n        res = 0;\n    else\n        res = s1[i] - s2[i];\n\n    printf(\"比较结果: %d\\n\", res);\n    return 0;\n}",
+    "analysis": "注意题目要求不用strcpy，这里比较用的是strcmp的逻辑（题目可能笔误写成strcpy，但描述是比较，所以实现strcmp逻辑）。逐个字符比较，当出现不同字符或遇到结束符时停止，返回当前位置字符ASCII码的差值。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 90,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 91,
+    "type": "编程题",
+    "content": "编写一个程序，将字符数组s2中的全部字符复制到字符数组s1中。不用strcpy函数。复制时，\\0'也要复制过去。\\0'后面的字符不复制。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    char s1[80], s2[80];\n    int i;\n\n    printf(\"请输入s2: \");\n    gets(s2);\n\n    for (i = 0; s2[i] != '\\0'; i++)\n        s1[i] = s2[i];\n    s1[i] = '\\0';\n\n    printf(\"s1: %s\\n\", s1);\n    return 0;\n}",
+    "analysis": "遍历 `s2`，将每个字符赋给 `s1` 对应位置，循环条件是 `s2[i] != '\\0'`。循环结束后，手动在 `s1` 末尾添加 `\\0`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 91,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 92,
+    "type": "单选题",
+    "content": "若有定义 `int a[10];`，则对数组 `a` 元素的引用合法的是 {{__SELECT_1__}}。",
+    "options": [
+     "a[10]",
+     "a[3.5]",
+     "a[0]",
+     "a[-1]"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "数组下标从0开始，对于 `int a[10]`，合法下标范围是0到9。`a[10]` 越界，`a[3.5]` 下标必须是整数，`a[-1]` 下标不能为负（标准C中）。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 92,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 93,
+    "type": "单选题",
+    "content": "以下对一维数组 `a` 的定义中正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "char a;",
+     "int a[0..100];",
+     "int a[5];",
+     "int k=10; int a[k];"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A是定义字符变量；B的语法 `0..100` 不正确；D中数组长度不能用变量定义（注：在C99之前的标准或本书语境下，数组大小需为常量表达式）；C是正确的定义方式。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 93,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 94,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};\n    printf(\"%d\", a[a[2]]);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "4"
+    ],
+    "analysis": "首先计算 `a[2]`，数组从0开始，`a[0]=1, a[1]=2, a[2]=3`。所以 `a[a[2]]` 相当于 `a[3]`，其值为 4。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 94,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 95,
+    "type": "单选题",
+    "content": "定义 `int a[3][4]={{1,2},{0},{4,6,8,10}};`，则 `a[2][1]` 的值为 {{__SELECT_1__}}。",
+    "options": [
+     "6",
+     "4",
+     "8",
+     "0"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "第一行初始化为 `{1,2,0,0}`，第二行初始化为 `{0,0,0,0}`，第三行初始化为 `{4,6,8,10}`。`a[2][1]` 表示第三行第二列的元素，即 6。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 95,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 96,
+    "type": "程序填空题",
+    "content": "以下程序的功能是计算字符串 `s` 的长度。请填空。\n```c\n#include <stdio.h>\nint main() {\n    char s[] = \"China\";\n    int i = 0;\n    while (s[i] != {{__BLANK_1__}})\n        i++;\n    printf(\"%d\", i);\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "'\\0'",
+    "analysis": "字符串以 `\\0` 作为结束标志。计算长度时，应循环遍历字符直到遇到 `\\0` 为止。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 96,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 97,
+    "type": "单选题",
+    "content": "若有定义 `char s1[10]=\"abc\", s2[10]=\"xyz\";`，则执行 `strcpy(s1, s2);` 后，`s1` 中的内容是 {{__SELECT_1__}}。",
+    "options": [
+     "abcxyz",
+     "xyz",
+     "xy",
+     "xyz\\0c"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`strcpy` 会将源字符串 `s2` 包括结束符 `\\0` 复制到目标数组 `s1` 中。虽然 `s1` 后面的空间可能还保留着原数据，但字符串处理函数遇到 `\\0` 即停止，所以在逻辑上 `s1` 的内容变为 \"xyz\"。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 97,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 98,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正：\n```c\n#include <stdio.h>\nint main() {\n    int a[5] = {1, 2, 3, 4, 5};\n    int i;\n    for(i = 1; i <= 5; i++)\n        printf(\"%d\", a[i]);\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "#include <stdio.h>\nint main() {\n    int a[5] = {1, 2, 3, 4, 5};\n    int i;\n    for(i = 0; i < 5; i++) // 改正：下标从0开始，到4结束\n        printf(\"%d\", a[i]);\n    return 0;\n}",
+    "analysis": "数组下标是从0开始的。对于 `a[5]`，有效下标是 `0, 1, 2, 3, 4`。原程序中循环变量 `i` 从1到5，导致访问了 `a[5]`（越界）且漏掉了 `a[0]`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 98,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第6章 利用数组处理批量数据",
+     "chapterId": 6
+    }
+   },
+   {
+    "id": 99,
+    "type": "编程题",
+    "content": "写两个函数，分别求两个整数的最大公约数和最小公倍数，用主函数调用这两个函数，并输出结果。两个整数由键盘输入。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\n// 求最大公约数\nint gcd(int a, int b) {\n    int temp;\n    while (b != 0) {\n        temp = a % b;\n        a = b;\n        b = temp;\n    }\n    return a;\n}\n\n// 求最小公倍数\nint lcm(int a, int b) {\n    return (a * b) / gcd(a, b);\n}\n\nint main() {\n    int num1, num2;\n    printf(\"请输入两个整数: \");\n    scanf(\"%d %d\", &num1, &num2);\n    printf(\"最大公约数: %d\\n\", gcd(num1, num2));\n    printf(\"最小公倍数: %d\\n\", lcm(num1, num2));\n    return 0;\n}\n```",
+    "analysis": "最大公约数（GCD）可以使用辗转相除法求解。最小公倍数（LCM）可以通过公式 $LCM(a, b) = (a * b) / GCD(a, b)$ 计算。程序中定义了两个函数分别实现这两个功能，并在主函数中进行调用。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 99,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 100,
+    "type": "编程题",
+    "content": "求方程 $ax^2 + bx + c = 0$ 的根，用3个函数分别求当 $b^2 - 4ac$ 大于0、等于0和小于0时的根并输出结果。从主函数输入 $a, b, c$ 的值。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <math.h>\n\ndouble x1, x2, disc;\n\nvoid greater_than_zero(double a, double b) {\n    x1 = (-b + sqrt(disc)) / (2 * a);\n    x2 = (-b - sqrt(disc)) / (2 * a);\n    printf(\"有两个不相等的实根: x1=%.2f, x2=%.2f\\n\", x1, x2);\n}\n\nvoid equal_to_zero(double a, double b) {\n    x1 = x2 = (-b) / (2 * a);\n    printf(\"有两个相等的实根: x1=x2=%.2f\\n\", x1);\n}\n\nvoid smaller_than_zero(double a, double b) {\n    double p = -b / (2 * a);\n    double q = sqrt(-disc) / (2 * a);\n    printf(\"有两个共轭复根: x1=%.2f+%.2fi, x2=%.2f-%.2fi\\n\", p, q, p, q);\n}\n\nint main() {\n    double a, b, c;\n    printf(\"请输入a, b, c: \");\n    scanf(\"%lf %lf %lf\", &a, &b, &c);\n    disc = b * b - 4 * a * c;\n    if (disc > 0) greater_than_zero(a, b);\n    else if (disc == 0) equal_to_zero(a, b);\n    else smaller_than_zero(a, b);\n    return 0;\n}\n```",
+    "analysis": "根据判别式 $\\Delta = b^2 - 4ac$ 的值，方程的根分为三种情况。程序通过全局变量或传参的方式将计算结果传递给不同的函数处理。本题展示了模块化设计处理不同逻辑分支的方法。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 100,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 101,
+    "type": "编程题",
+    "content": "写一个判素数的函数，在主函数输入一个整数，输出是否为素数的信息。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <math.h>\n\nint is_prime(int n) {\n    if (n <= 1) return 0;\n    int k = (int)sqrt(n);\n    for (int i = 2; i <= k; i++) {\n        if (n % i == 0) return 0;\n    }\n    return 1;\n}\n\nint main() {\n    int num;\n    printf(\"请输入一个整数: \");\n    scanf(\"%d\", &num);\n    if (is_prime(num))\n        printf(\"%d 是素数\\n\", num);\n    else\n        printf(\"%d 不是素数\\n\", num);\n    return 0;\n}\n```",
+    "analysis": "判断素数的标准算法是：对于大于1的整数 $n$，如果它不能被 $2$ 到 $\\sqrt{n}$ 之间的任何整数整除，则它为素数。函数返回1表示是素数，0表示不是。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 101,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 102,
+    "type": "编程题",
+    "content": "写一个函数，使给定的一个 $3 \\times 3$ 的二维整型数组转置，即行列互换。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\nvoid transpose(int arr[3][3]) {\n    int temp;\n    for (int i = 0; i < 3; i++) {\n        for (int j = i + 1; j < 3; j++) {\n            temp = arr[i][j];\n            arr[i][j] = arr[j][i];\n            arr[j][i] = temp;\n        }\n    }\n}\n\nint main() {\n    int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n    printf(\"转置前:\\n\");\n    for(int i=0; i<3; i++) {\n        for(int j=0; j<3; j++) printf(\"%d \", matrix[i][j]);\n        printf(\"\\n\");\n    }\n    \n    transpose(matrix);\n    \n    printf(\"转置后:\\n\");\n    for(int i=0; i<3; i++) {\n        for(int j=0; j<3; j++) printf(\"%d \", matrix[i][j]);\n        printf(\"\\n\");\n    }\n    return 0;\n}\n```",
+    "analysis": "矩阵转置的核心是将 $a[i][j]$ 与 $a[j][i]$ 交换。为了避免重复交换导致变回原样，内层循环的 $j$ 应从 $i+1$ 开始。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 102,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 103,
+    "type": "编程题",
+    "content": "写一个函数，使输入的一个字符串按反序存放，在主函数中输入和输出字符串。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <string.h>\n\nvoid reverse_string(char str[]) {\n    int len = strlen(str);\n    char temp;\n    for (int i = 0; i < len / 2; i++) {\n        temp = str[i];\n        str[i] = str[len - 1 - i];\n        str[len - 1 - i] = temp;\n    }\n}\n\nint main() {\n    char s[100];\n    printf(\"请输入字符串: \");\n    gets(s); // 注意：gets在现代C标准中已废弃，但在教材语境下常用于读取带空格字符串，实际可用fgets\n    reverse_string(s);\n    printf(\"反序后的字符串: %s\\n\", s);\n    return 0;\n}\n```",
+    "analysis": "字符串反序可以通过交换首尾对称位置的字符来实现。循环只需要进行到字符串长度的一半即可。利用 `strlen` 获取长度，通过 `temp` 变量进行交换。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 103,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 104,
+    "type": "编程题",
+    "content": "写一个函数，将两个字符串连接。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\nvoid string_concat(char s1[], char s2[]) {\n    int i = 0, j = 0;\n    while (s1[i] != '\\0') {\n        i++;\n    }\n    while (s2[j] != '\\0') {\n        s1[i] = s2[j];\n        i++;\n        j++;\n    }\n    s1[i] = '\\0';\n}\n\nint main() {\n    char str1[200], str2[100];\n    printf(\"请输入第一个字符串: \");\n    scanf(\"%s\", str1);\n    printf(\"请输入第二个字符串: \");\n    scanf(\"%s\", str2);\n    string_concat(str1, str2);\n    printf(\"连接后的字符串: %s\\n\", str1);\n    return 0;\n}\n```",
+    "analysis": "自定义字符串连接函数的核心逻辑是先找到第一个字符串的结束符 `\\0` 的位置，然后从该位置开始依次将被连接字符串的字符复制过去，最后别忘了添加字符串结束符 `\\0`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 104,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 105,
+    "type": "编程题",
+    "content": "写一个函数，将一个字符串中的元音字母复制到另一字符串，然后输出。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\nvoid copy_vowels(char source[], char dest[]) {\n    int i = 0, j = 0;\n    while (source[i] != '\\0') {\n        char c = source[i];\n        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||\n            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {\n            dest[j] = source[i];\n            j++;\n        }\n        i++;\n    }\n    dest[j] = '\\0';\n}\n\nint main() {\n    char s1[100], s2[100];\n    printf(\"请输入字符串: \");\n    gets(s1);\n    copy_vowels(s1, s2);\n    printf(\"元音字母字符串: %s\\n\", s2);\n    return 0;\n}\n```",
+    "analysis": "遍历源字符串，判断每个字符是否为元音（包括大小写）。如果是，则将其存入目标字符串数组中，最后在目标字符串末尾手动添加 `\\0`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 105,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 106,
+    "type": "编程题",
+    "content": "写一个函数，输入一个4位数字，要求输出这4个数字字符，但每两个数字间空一个空格。如输入1990，应输出“1 9 9 0”。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\nvoid insert_spaces(int n) {\n    int d1, d2, d3, d4;\n    d1 = n / 1000;\n    d2 = (n % 1000) / 100;\n    d3 = (n % 100) / 10;\n    d4 = n % 10;\n    printf(\"%d %d %d %d\\n\", d1, d2, d3, d4);\n}\n\nint main() {\n    int number;\n    printf(\"请输入一个4位数字: \");\n    scanf(\"%d\", &number);\n    insert_spaces(number);\n    return 0;\n}\n```",
+    "analysis": "可以通过数学运算（除法和取模）分离出每一位数字，然后在打印格式中插入空格。也可以将输入作为字符串处理，输出时在字符间插入空格。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 106,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 107,
+    "type": "编程题",
+    "content": "编写一个函数，由实参传来一个字符串，统计此字符串中字母、数字、空格和其他字符的个数，在主函数中输入字符串以及输出上述的结果。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <ctype.h>\n\nint letters = 0, digits = 0, spaces = 0, others = 0;\n\nvoid count_chars(char str[]) {\n    int i = 0;\n    while (str[i] != '\\0') {\n        if (isalpha(str[i])) letters++;\n        else if (isdigit(str[i])) digits++;\n        else if (isspace(str[i])) spaces++;\n        else others++;\n        i++;\n    }\n}\n\nint main() {\n    char s[100];\n    printf(\"请输入字符串: \");\n    gets(s);\n    count_chars(s);\n    printf(\"字母: %d, 数字: %d, 空格: %d, 其他: %d\\n\", letters, digits, spaces, others);\n    return 0;\n}\n```",
+    "analysis": "利用 `<ctype.h>` 库提供的 `isalpha`、`isdigit`、`isspace` 等函数可以方便地判断字符类型。使用全局变量或者通过指针参数返回统计结果。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 107,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 108,
+    "type": "编程题",
+    "content": "写一个函数, 输入一行字符, 将此字符串中最长的单词输出。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <string.h>\n#include <ctype.h>\n\nint main() {\n    int is_alpha(char c);\n    char line[100];\n    printf(\"输入一行字符: \");\n    gets(line);\n    \n    int i = 0, max_len = 0, current_len = 0;\n    int word_start = 0, max_start = 0;\n    int in_word = 0;\n\n    while (line[i] != '\\0') {\n        if (isalpha(line[i])) {\n            if (!in_word) {\n                in_word = 1;\n                word_start = i;\n            }\n            current_len++;\n        } else {\n            if (in_word) {\n                if (current_len > max_len) {\n                    max_len = current_len;\n                    max_start = word_start;\n                }\n                current_len = 0;\n                in_word = 0;\n            }\n        }\n        i++;\n    }\n    // 检查最后一个单词\n    if (in_word && current_len > max_len) {\n        max_len = current_len;\n        max_start = word_start;\n    }\n\n    printf(\"最长的单词是: \");\n    for(i = max_start; i < max_start + max_len; i++) {\n        printf(\"%c\", line[i]);\n    }\n    printf(\"\\n\");\n    return 0;\n}\n```",
+    "analysis": "遍历字符串，通过标记变量判断是否处于单词中。记录当前单词的长度和起始位置，每当单词结束时与最大长度比较，更新最大长度和起始位置。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 108,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 109,
+    "type": "编程题",
+    "content": "写一个函数，用“起泡法”对输入的 10 个字符按由小到大顺序排列。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\nvoid bubble_sort(char str[], int n) {\n    char temp;\n    for (int i = 0; i < n - 1; i++) {\n        for (int j = 0; j < n - 1 - i; j++) {\n            if (str[j] > str[j + 1]) {\n                temp = str[j];\n                str[j] = str[j + 1];\n                str[j + 1] = temp;\n            }\n        }\n    }\n}\n\nint main() {\n    char s[11];\n    printf(\"请输入10个字符: \");\n    for(int i=0; i<10; i++) scanf(\" %c\", &s[i]);\n    s[10] = '\\0';\n    \n    bubble_sort(s, 10);\n    \n    printf(\"排序后的字符: \");\n    for(int i=0; i<10; i++) printf(\"%c\", s[i]);\n    printf(\"\\n\");\n    return 0;\n}\n```",
+    "analysis": "起泡法（冒泡排序）的原理是重复扫描待排序序列，比较相邻元素，如果顺序错误就交换。对于字符数组，直接比较字符ASCII码大小即可。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 109,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 110,
+    "type": "编程题",
+    "content": "用牛顿迭代法求根。方程为 $ax^3 + bx^2 + cx + d = 0$ ，系数 $a, b, c, d$ 的值依次为1，2，3，4，由主函数输入。求 $x$ 在1附近的一个实根。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <math.h>\n\ndouble solution(double a, double b, double c, double d) {\n    double x = 1.0, x0, f, f_prime;\n    do {\n        x0 = x;\n        f = ((a * x0 + b) * x0 + c) * x0 + d;  // ax^3 + bx^2 + cx + d\n        f_prime = (3 * a * x0 + 2 * b) * x0 + c; // 3ax^2 + 2bx + c\n        x = x0 - f / f_prime;\n    } while (fabs(x - x0) >= 1e-5);\n    return x;\n}\n\nint main() {\n    double a, b, c, d;\n    printf(\"请输入系数 a, b, c, d: \");\n    scanf(\"%lf %lf %lf %lf\", &a, &b, &c, &d);\n    printf(\"x 在 1 附近的根为: %.5f\\n\", solution(a, b, c, d));\n    return 0;\n}\n```",
+    "analysis": "牛顿迭代公式为 $x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}$。定义 $f(x) = ax^3+bx^2+cx+d$，导数 $f'(x) = 3ax^2+2bx+c$。循环迭代直到两次近似值之差小于阈值。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 110,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 111,
+    "type": "编程题",
+    "content": "输入 10 个学生 5 门课的成绩, 分别用函数实现下列功能：\n① 计算每个学生的平均分；\n② 计算每门课的平均分；\n③ 找出所有 50 个分数中最高的分数所对应的学生和课程；\n④ 计算平均分方差。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\n#define STU 10\n#define COURSE 5\n\nvoid stu_avg(float score[STU][COURSE], float avg[STU]) {\n    for (int i = 0; i < STU; i++) {\n        float sum = 0;\n        for (int j = 0; j < COURSE; j++) sum += score[i][j];\n        avg[i] = sum / COURSE;\n    }\n}\n\nvoid course_avg(float score[STU][COURSE], float avg[COURSE]) {\n    for (int j = 0; j < COURSE; j++) {\n        float sum = 0;\n        for (int i = 0; i < STU; i++) sum += score[i][j];\n        avg[j] = sum / STU;\n    }\n}\n\nvoid find_max(float score[STU][COURSE]) {\n    float max = score[0][0];\n    int stu_idx = 0, course_idx = 0;\n    for (int i = 0; i < STU; i++) {\n        for (int j = 0; j < COURSE; j++) {\n            if (score[i][j] > max) {\n                max = score[i][j];\n                stu_idx = i;\n                course_idx = j;\n            }\n        }\n    }\n    printf(\"最高分: %.2f, 学生: %d, 课程: %d\\n\", max, stu_idx + 1, course_idx + 1);\n}\n\nfloat variance(float avg_stu[STU]) {\n    float sum_sq = 0, sum = 0;\n    for (int i = 0; i < STU; i++) {\n        sum_sq += avg_stu[i] * avg_stu[i];\n        sum += avg_stu[i];\n    }\n    return (sum_sq / STU) - (sum / STU) * (sum / STU);\n}\n\nint main() {\n    float score[STU][COURSE], avg_s[STU], avg_c[COURSE];\n    // 简化输入，实际运行需手动输入50个数据\n    printf(\"请输入10个学生5门课成绩:\\n\");\n    for(int i=0; i<STU; i++)\n        for(int j=0; j<COURSE; j++) scanf(\"%f\", &score[i][j]);\n        \n    stu_avg(score, avg_s);\n    course_avg(score, avg_c);\n    \n    printf(\"学生平均分: \");\n    for(int i=0; i<STU; i++) printf(\"%.2f \", avg_s[i]);\n    printf(\"\\n\");\n    \n    find_max(score);\n    printf(\"平均分方差: %.2f\\n\", variance(avg_s));\n    return 0;\n}\n```",
+    "analysis": "本题主要考察二维数组作为函数参数的使用。需要分别对行和列进行遍历求和。方差计算利用公式 $\\sigma = \\frac{1}{n}\\sum x_i^2 - (\\frac{\\sum x_i}{n})^2$。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 111,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 112,
+    "type": "编程题",
+    "content": "写一个函数，输入一个十六进制数，输出相应的十进制数。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <string.h>\n#include <ctype.h>\n\nint hex_to_dec(char hex[]) {\n    int len = strlen(hex);\n    int dec = 0, base = 1;\n    for (int i = len - 1; i >= 0; i--) {\n        int val;\n        if (isdigit(hex[i])) {\n            val = hex[i] - '0';\n        } else {\n            val = toupper(hex[i]) - 'A' + 10;\n        }\n        dec += val * base;\n        base *= 16;\n    }\n    return dec;\n}\n\nint main() {\n    char hex[20];\n    printf(\"请输入十六进制数: \");\n    scanf(\"%s\", hex);\n    printf(\"十进制数: %d\\n\", hex_to_dec(hex));\n    return 0;\n}\n```",
+    "analysis": "将十六进制字符串转换为十进制，需要从右向左处理。每一位的值乘以 $16^n$（$n$ 为位数，从0开始）。字符 '0'-'9' 对应 0-9，'A'-'F' 或 'a'-'f' 对应 10-15。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 112,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 113,
+    "type": "编程题",
+    "content": "用递归法将一个整数 $n$ 转换成字符串。例如，输入483，应输出字符串“483”。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\nvoid convert(int n) {\n    if (n / 10 != 0) {\n        convert(n / 10);\n    }\n    putchar(n % 10 + '0');\n}\n\nint main() {\n    int number;\n    printf(\"请输入一个整数: \");\n    scanf(\"%d\", &number);\n    if (number < 0) {\n        putchar('-');\n        number = -number;\n    }\n    convert(number);\n    printf(\"\\n\");\n    return 0;\n}\n```",
+    "analysis": "递归思路是：先递归打印高位数字（$n/10$），再打印当前最低位数字（$n\\%10$）。将数字转换为字符只需加上 `'0'` 的ASCII码值。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 113,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 114,
+    "type": "单选题",
+    "content": "关于函数调用时的数据传递，以下说法错误的是 {{__SELECT_1__}}。",
+    "options": [
+     "实参与形参的个数应相等",
+     "实参与形参的类型应一致或赋值兼容",
+     "实参向形参的数据传递是单向的，即只能由实参传给形参",
+     "形参值的改变会自动反馈改变实参的值"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "C语言中，函数参数传递是“值传递”。实参的值传给形参后，形参是独立的存储单元，形参值的改变不会影响实参。数组名作为参数时传递的是地址，此时修改数组内容会影响原数组，但这是因为操作的是同一块内存，而不是形参变量本身反向赋值给实参变量。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 114,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 115,
+    "type": "单选题",
+    "content": "若函数定义时未指定函数类型，则默认为 {{__SELECT_1__}} 类型。",
+    "options": [
+     "void",
+     "int",
+     "double",
+     "char"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "在早期的C语言标准（如C89）中，如果函数定义未指定返回类型，默认认为是 `int` 类型。虽然现代C标准建议显式声明类型，但基于经典教材的知识点，默认为 `int`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 115,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 116,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nvoid func(int a, int b) {\n    int temp = a;\n    a = b;\n    b = temp;\n    printf(\"%d %d \", a, b);\n}\nint main() {\n    int x = 10, y = 20;\n    func(x, y);\n    printf(\"%d %d\\n\", x, y);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "20 10 10 20"
+    ],
+    "analysis": "函数 `func` 中的 `a` 和 `b` 是形参，属于局部变量。在函数内交换它们的值只会影响函数内部的 `a` 和 `b`，打印出 \"20 10\"。函数返回后，`main` 函数中的实参 `x` 和 `y` 保持原值不变，打印出 \"10 20\"。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 116,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 117,
+    "type": "单选题",
+    "content": "在一个源文件中定义的全局变量，若要限制其只能被本文件引用，不能被其他文件引用，应在定义时添加关键字 {{__SELECT_1__}}。",
+    "options": [
+     "auto",
+     "extern",
+     "static",
+     "register"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "全局变量默认可以被其他文件通过 `extern` 引用。使用 `static` 关键字修饰全局变量（称为静态外部变量），可以将该变量的作用域限制在定义它的源文件内，对其他文件隐藏。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 117,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 118,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint f(int a) {\n    auto int b = 0;\n    static int c = 3;\n    b = b + 1;\n    c = c + 1;\n    return (a + b + c);\n}\nint main() {\n    int a = 2, i;\n    for (i = 0; i < 3; i++)\n        printf(\"%d \", f(a));\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "7 8 9"
+    ],
+    "analysis": "第一次调用：a=2, b=1(0+1), c=4(3+1), 返回 2+1+4=7。`c` 是静态变量，值保留为4。\n第二次调用：a=2, b=1(重置为0后+1), c=5(4+1), 返回 2+1+5=8。\n第三次调用：a=2, b=1, c=6(5+1), 返回 2+1+6=9。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 118,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第7章 用函数实现模块化程序设计",
+     "chapterId": 7
+    }
+   },
+   {
+    "id": 119,
+    "type": "编程题",
+    "content": "编写一个函数，输入3个整数，按由小到大的顺序输出。要求使用指针方法处理。\n\n输入格式：三个整数，用空格或逗号分隔\n输出格式：三个整数，由小到大排序，用逗号分隔",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nvoid swap(int *p1, int *p2) {\n    int temp;\n    temp = *p1;\n    *p1 = *p2;\n    *p2 = temp;\n}\n\nvoid exchange(int *q1, int *q2, int *q3) {\n    if (*q1 > *q2) swap(q1, q2);\n    if (*q1 > *q3) swap(q1, q3);\n    if (*q2 > *q3) swap(q2, q3);\n}\n\nint main() {\n    int a, b, c, *p1, *p2, *p3;\n    scanf(\"%d%d%d\", &a, &b, &c);\n    p1 = &a;\n    p2 = &b;\n    p3 = &c;\n    exchange(p1, p2, p3);\n    printf(\"%d,%d,%d\\n\", a, b, c);\n    return 0;\n}",
+    "analysis": "本题考查指针变量作为函数参数的应用。通过传递变量的地址，可以在函数内部改变实参的值。定义 `swap` 函数用于交换两个整型数据，`exchange` 函数中通过指针比较并调用 `swap` 进行排序。注意指针变量必须先赋值（指向具体变量）才能使用。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 119,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 120,
+    "type": "程序填空题",
+    "content": "以下程序的功能是计算字符串的长度（不使用 `strlen` 函数）。请在空白处填入合适的代码。\n\n```c\n#include <stdio.h>\n\nint length(char *p) {\n    int n = 0;\n    while ({{__BLANK_1__}} != '\\0') {\n        n++;\n        {{__BLANK_2__}};\n    }\n    return n;\n}\n\nint main() {\n    char str[20];\n    scanf(\"%s\", str);\n    printf(\"%d\", length(str));\n    return 0;\n}\n```",
+    "options": [],
+    "answer": [
+     "*p",
+     "p++"
+    ],
+    "analysis": "本题考查利用指针遍历字符串。函数 `length` 接收字符指针 `p`，指向字符串首地址。`while` 循环通过判断 `*p`（指针指向的当前字符）是否为字符串结束标志 `\\0` 来决定是否继续。在循环体内，统计变量 `n` 自增，同时指针 `p` 需要向后移动一位（`p++`）以指向下一个字符。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 120,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 121,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n\n```c\n#include <stdio.h>\n\nint main() {\n    char *months[12] = {\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                        \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"};\n    char **p;\n    p = months;\n    printf(\"%s\", *(p + 3));\n    return 0;\n}\n```\n\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "April"
+    ],
+    "analysis": "本题考查指针数组和二级指针。`months` 是一个指针数组，每个元素指向一个字符串常量。`p` 是一个指向字符指针的指针（二级指针），被初始化为 `months` 数组的首地址。`p + 3` 指向数组的第4个元素（下标为3），`*(p + 3)` 取出该元素的值，即指向字符串 \"April\" 的地址。`printf` 使用 `%s` 输出该地址对应的字符串。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 121,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 122,
+    "type": "编程题",
+    "content": "有 $n$ 个人围成一圈，顺序排号。从第1个人开始报数（从1到3报数），凡报到3的人退出圈子，问最后留下的是原来第几号的那位。请编写程序实现。",
+    "options": [],
+    "answer": "#include <stdio.h>\n\nint main() {\n    int i, k, m, n, num[50], *p;\n    printf(\"Input number of persons: n=\");\n    scanf(\"%d\", &n);\n    p = num;\n    for (i = 0; i < n; i++) {\n        *(p + i) = i + 1; // 每个人分配编号\n    }\n    i = 0; // i为每次循环时计数变量\n    k = 0; // k为按1,2,3报数时的计数变量\n    m = 0; // m为退出人数\n    while (m < n - 1) {\n        if (*(p + i) != 0) {\n            k++;\n        }\n        if (k == 3) {\n            *(p + i) = 0; // 退出的人编号置为0\n            k = 0;\n            m++;\n        }\n        i++;\n        if (i == n) i = 0; // 循环报数\n    }\n    while (*p == 0) p++;\n    printf(\"The last one is No.%d\\n\", *p);\n    return 0;\n}",
+    "analysis": "本题是经典的约瑟夫环问题。可以使用数组或指针模拟。这里利用数组 `num` 存放每个人的编号，指针 `p` 指向数组。当报数为3时，将该位置的值设为0表示退出，同时统计退出人数 `m`。循环直到 `m` 等于 `n-1`，即只剩一人。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 122,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 123,
+    "type": "单选题",
+    "content": "若有函数声明 `int func(int a, int b);`，则定义一个指向该函数的指针变量 `p` 的正确形式是 {{__SELECT_1__}}。",
+    "options": [
+     "int *p(int, int);",
+     "int (*p)(int, int);",
+     "int *p(int a, int b);",
+     "int p(int, int);"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "指向函数的指针变量定义形式为：`类型名 (*指针变量名)(函数参数表列)`。`int *p(int, int)` 声明了一个返回整型指针的函数 `p`；`int (*p)(int, int)` 定义了一个指向函数的指针变量 `p`，该函数返回整型且有两个整型参数。圆括号 `(*p)` 是必须的，因为 `()` 的优先级高于 `*`。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 123,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 124,
+    "type": "单选题",
+    "content": "关于指针变量的运算，下列说法正确的是 {{__SELECT_1__}}。",
+    "options": [
+     "两个指针变量总是可以相加",
+     "两个指针变量总是可以相减",
+     "指向同一数组的两个指针变量相减，结果是两个指针之间相差的元素个数",
+     "指针变量可以赋值为一个任意整数"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误，指针相加没有实际意义。B错误，只有指向同一数组的指针相减才有意义。C正确，指向同一数组的两个指针相减，结果是地址之差除以数组元素类型的长度，即相差的元素个数。D错误，指针变量只能赋地址值或 `NULL`（0），不能随意赋值非0整数。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 124,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 125,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n\n```c\n#include <stdio.h>\n\nint main() {\n    int a[5] = {10, 20, 30, 40, 50};\n    int *p = a;\n    printf(\"%d,\", *p++);\n    printf(\"%d\", *++p);\n    return 0;\n}\n```\n\n运行结果：{{__BLANK_1__}}",
+    "options": [],
+    "answer": [
+     "10,30"
+    ],
+    "analysis": "首先 `p` 指向 `a[0]` (10)。\n第一句 `*p++`：`++` 优先级高于 `*`，但它是后缀自增。表达式的值是 `p` 原指向元素的值（`10`），然后 `p` 自增指向 `a[1]`。\n第二句 `*++p`：`++` 是前缀自增。`p` 先自增指向 `a[2]` (30)，然后解引用，输出 `30`。\n所以结果是 10,30。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 125,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 126,
+    "type": "单选题",
+    "content": "若有定义 `int a[3][4];`，则以下不能表示数组元素 `a[1][2]` 的地址的是 {{__SELECT_1__}}。",
+    "options": [
+     "&a[1][2]",
+     "*(a + 1) + 2",
+     "a[1] + 2",
+     "*(a + 1 + 2)"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "`a` 是二维数组名，指向行。\n- A: `&a[1][2]` 显然是地址。\n- B: `a+1` 是第1行首地址，`*(a+1)` 等价于 `a[1]`，指向第1行第0列元素，`+2` 移动到第1行第2列，正确。\n- C: `a[1]` 是第1行首地址，`+2` 移动到第1行第2列，正确。\n- D: `a + 1 + 2` 等价于 `a + 3`，这是第3行的首地址（越界），而不是 `a[1][2]` 的地址。正确的应该是 `*(a+1) + 2`。 `*(a + 1 + 2)` 是对第3行解引用，得到第3行第0列的地址。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 126,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 127,
+    "type": "程序填空题",
+    "content": "以下程序通过指针变量输出二维数组 `a` 的任意一行任意一列元素的值。请填空。\n\n```c\n#include <stdio.h>\n\nint main() {\n    int a[3][4] = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23};\n    int (*p)[4]; // p是指向包含4个元素的一维数组的指针\n    p = a;\n    int i = 1, j = 2;\n    printf(\"%d\", {{__BLANK_1__}});\n    return 0;\n}\n```",
+    "options": [],
+    "answer": [
+     "*(*(p + i) + j)"
+    ],
+    "analysis": "`p` 是指向行的指针。`p + i` 指向第 `i` 行。`*(p + i)` 相当于 `a[i]`，指向第 `i` 行第 0 列元素。`*(p + i) + j` 指向第 `i` 行第 `j` 列元素的地址。最外层的 `*` 取出该地址处的值。等效于 `p[i][j]` 或 `a[i][j]`。",
+    "difficulty": "提高",
+    "isFromTextbook": false,
+    "originalNumber": 127,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 128,
+    "type": "单选题",
+    "content": "关于字符指针变量和字符数组，下列描述错误的是 {{__SELECT_1__}}。",
+    "options": [
+     "字符数组名是常量，不能被赋值",
+     "字符指针变量是变量，可以被赋值",
+     "char *p = \"Hello\"; 和 char str[] = \"Hello\"; 的内存存储方式完全相同",
+     "可以通过指针变量改变其指向的字符串常量的内容，如 p[0] = 'X'; 是非法的"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "C错误。`char *p = \"Hello\";` 中，`p` 是指针变量，存放字符串常量的地址，字符串常量通常存储在只读数据区；`char str[] = \"Hello\";` 中，`str` 是数组，字符串的内容被复制到数组所在的栈内存（或静态存储区）中，可以修改数组内容。两者的存储方式不同。A、B、D均正确，尤其注意指向字符串常量的指针不能用来修改内容。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 128,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第8章 善于利用指针",
+     "chapterId": 8
+    }
+   },
+   {
+    "id": 129,
+    "type": "编程题",
+    "content": "定义一个结构体变量（包括年、月、日）。计算该日在本年中是第几天，注意闰年问题。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\nstruct Date {\n    int year;\n    int month;\n    int day;\n};\n\nint main() {\n    struct Date date;\n    int daysInMonth[13] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};\n    int totalDays = 0;\n    int i;\n\n    printf(\"请输入年 月 日: \");\n    scanf(\"%d %d %d\", &date.year, &date.month, &date.day);\n\n    // 判断闰年\n    if ((date.year % 4 == 0 && date.year % 100 != 0) || (date.year % 400 == 0)) {\n        daysInMonth[2] = 29;\n    }\n\n    for (i = 1; i < date.month; i++) {\n        totalDays += daysInMonth[i];\n    }\n    totalDays += date.day;\n\n    printf(\"%d月%d日是%d年的第%d天\\n\", date.month, date.day, date.year, totalDays);\n\n    return 0;\n}\n```",
+    "analysis": "本题考查结构体的定义和基本使用，以及闰年的判断逻辑。首先定义包含年、月、日的结构体。判断闰年的条件是：能被4整除但不能被100整除，或者能被400整除。如果为闰年，2月为29天，否则为28天。通过循环累加前几个月的天数，最后加上当前月的天数即可。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 129,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 130,
+    "type": "编程题",
+    "content": "编写一个函数 `print`，打印一个学生的成绩数组，该数组中有 5 个学生的数据记录，每个记录包括 `num`, `name`, `score[3]`，用主函数输入这些记录，用 `print` 函数输出这些记录。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\n#define N 5\n\nstruct Student {\n    char num[10];\n    char name[20];\n    float score[3];\n};\n\nvoid print(struct Student stu[], int n) {\n    int i;\n    printf(\"\\n记录如下:\\n\");\n    for (i = 0; i < n; i++) {\n        printf(\"学号:%-10s 姓名:%-10s 成绩:%.1f %.1f %.1f\\n\", \n               stu[i].num, stu[i].name, \n               stu[i].score[0], stu[i].score[1], stu[i].score[2]);\n    }\n}\n\nint main() {\n    struct Student stu[N];\n    int i;\n\n    for (i = 0; i < N; i++) {\n        printf(\"请输入第%d个学生的学号 姓名 3门课成绩: \", i + 1);\n        scanf(\"%s %s %f %f %f\", stu[i].num, stu[i].name, \n              &stu[i].score[0], &stu[i].score[1], &stu[i].score[2]);\n    }\n\n    print(stu, N);\n    return 0;\n}\n```",
+    "analysis": "本题考查结构体数组的定义、输入以及作为函数参数传递。`print` 函数接收结构体数组的首地址，通过循环遍历输出每个元素的信息。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 130,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 131,
+    "type": "编程题",
+    "content": "有10个学生，每个学生的数据包括学号、姓名、3门课程的成绩，从键盘输入10个学生数据，要求输出3门课程总平均成绩，以及最高分的学生的数据（包括学号、姓名、3门课程成绩、平均分数）。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n\n#define N 10\n\nstruct Student {\n    char num[10];\n    char name[20];\n    float score[3];\n    float avg;\n};\n\nint main() {\n    struct Student stu[N];\n    int i, j, max_i = 0;\n    float sum[3] = {0}, max_avg = 0;\n\n    // 输入并计算个人平均分\n    for (i = 0; i < N; i++) {\n        printf(\"请输入第%d个学生的数据(学号 姓名 3门成绩): \", i + 1);\n        scanf(\"%s %s %f %f %f\", stu[i].num, stu[i].name, \n              &stu[i].score[0], &stu[i].score[1], &stu[i].score[2]);\n        \n        stu[i].avg = (stu[i].score[0] + stu[i].score[1] + stu[i].score[2]) / 3.0;\n        \n        // 累加各科总分\n        for(j=0; j<3; j++) {\n            sum[j] += stu[i].score[j];\n        }\n\n        // 寻找最高平均分\n        if (stu[i].avg > max_avg) {\n            max_avg = stu[i].avg;\n            max_i = i;\n        }\n    }\n\n    printf(\"\\n3门课程的总平均成绩: %.2f %.2f %.2f\\n\", sum[0]/N, sum[1]/N, sum[2]/N);\n    printf(\"最高分学生信息:\\n\");\n    printf(\"学号:%s 姓名:%s 成绩:%.1f %.1f %.1f 平均分:%.2f\\n\", \n           stu[max_i].num, stu[max_i].name, \n           stu[max_i].score[0], stu[max_i].score[1], stu[max_i].score[2], \n           stu[max_i].avg);\n\n    return 0;\n}\n```",
+    "analysis": "本题综合考查结构体数组的输入、计算和查找最大值算法。需要维护三个累加器来计算每门课的总平均分，同时在遍历过程中维护一个最大平均分及其对应的数组下标。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 131,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 132,
+    "type": "编程题",
+    "content": "13个人围成一圈，从第1个人开始顺序报号1,2,3。凡报到3者退出圈子。找出最后留在圈子中的人原来的序号。要求用链表实现。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct Person {\n    int num;\n    struct Person *next;\n};\n\nint main() {\n    int i, n = 13, count;\n    struct Person *head, *p, *prev;\n\n    // 创建循环链表\n    head = (struct Person*)malloc(sizeof(struct Person));\n    head->num = 1;\n    prev = head;\n    for (i = 2; i <= n; i++) {\n        p = (struct Person*)malloc(sizeof(struct Person));\n        p->num = i;\n        prev->next = p;\n        prev = p;\n    }\n    prev->next = head; // 构成环\n\n    // 模拟报数过程\n    p = head;\n    count = 0;\n    while (n > 1) {\n        count++;\n        if (count == 3) {\n            // 删除节点p\n            prev->next = p->next;\n            printf(\"淘汰: %d\\n\", p->num);\n            free(p);\n            p = prev->next; // p指向下一个人\n            count = 0;\n            n--;\n        } else {\n            prev = p;\n            p = p->next;\n        }\n    }\n\n    printf(\"最后留下的是: %d\\n\", p->num);\n    free(p);\n    return 0;\n}\n```",
+    "analysis": "这是一个经典的约瑟夫环问题。使用单向循环链表来模拟最为直观。首先创建一个包含13个节点的循环链表，然后模拟报数过程：设置计数器，当计数为3时删除当前节点，重置计数器，直到链表中只剩一个节点。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 132,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 133,
+    "type": "编程题",
+    "content": "写一个函数 `insert`, 用来向一个动态链表插入结点。",
+    "options": [],
+    "answer": [
+     "```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct Student {\n    long num;\n    float score;\n    struct Student *next;\n};\n\n// 假设插入通过学号顺序保持有序\nstruct Student* insert(struct Student *head, struct Student *stud) {\n    struct Student *p0, *p1, *p2;\n    p1 = head;\n    p0 = stud;\n    \n    if (head == NULL) {\n        head = p0;\n        p0->next = NULL;\n    } else {\n        while ((p0->num > p1->num) && (p1->next != NULL)) {\n            p2 = p1;\n            p1 = p1->next;\n        }\n        if (p0->num <= p1->num) {\n            if (head == p1) head = p0;\n            else p2->next = p0;\n            p0->next = p1;\n        } else {\n            p1->next = p0;\n            p0->next = NULL;\n        }\n    }\n    return head;\n}\n```"
+    ],
+    "analysis": "本题考查有序链表的插入操作。需要找到正确的插入位置以保持链表有序（通常按学号）。分三种情况：1. 插入到表头（新节点学号小于头节点）；2. 插入到中间（新节点学号在两个节点之间）；3. 插入到表尾（新节点学号大于所有节点）。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 133,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 134,
+    "type": "编程题",
+    "content": "已有 `a`, `b` 两个链表，每个链表中的结点包括学号、成绩。要求把两个链表合并，按学号升序排列。",
+    "options": [],
+    "answer": [
+     "```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct Student {\n    long num;\n    float score;\n    struct Student *next;\n};\n\n// 假设a, b已经是升序排列的\nstruct Student* merge(struct Student *a, struct Student *b) {\n    struct Student *head = NULL, *p = NULL;\n    if (a == NULL) return b;\n    if (b == NULL) return a;\n\n    if (a->num < b->num) {\n        head = a;\n        a = a->next;\n    } else {\n        head = b;\n        b = b->next;\n    }\n    p = head;\n\n    while (a != NULL && b != NULL) {\n        if (a->num < b->num) {\n            p->next = a;\n            a = a->next;\n        } else {\n            p->next = b;\n            b = b->next;\n        }\n        p = p->next;\n    }\n\n    if (a != NULL) p->next = a;\n    if (b != NULL) p->next = b;\n\n    return head;\n}\n```"
+    ],
+    "analysis": "本题考查合并两个有序链表（归并排序的步骤）。算法类似于归并排序的合并过程：比较两个链表头节点的学号，取较小者链接到结果链表中，然后移动指针，直到其中一个链表为空，最后将另一个链表剩余部分直接链接到尾部。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 134,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 135,
+    "type": "编程题",
+    "content": "这两个链表 `a` 和 `b`，设结点中包含学号、姓名。从 `a` 链表中删去与 `b` 链表中有相同学号的那些结点。",
+    "options": [],
+    "answer": [
+     "```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct Student {\n    long num;\n    char name[20];\n    struct Student *next;\n};\n\nstruct Student* delete_intersection(struct Student *a, struct Student *b) {\n    struct Student *pa, *pb, *prev, *temp;\n    prev = NULL;\n    pa = a;\n\n    while (pa != NULL) {\n        int found = 0;\n        pb = b;\n        while (pb != NULL) {\n            if (pa->num == pb->num) {\n                found = 1;\n                break;\n            }\n            pb = pb->next;\n        }\n\n        if (found) {\n            if (prev == NULL) {\n                a = pa->next;\n                temp = pa;\n                pa = pa->next;\n                free(temp);\n            } else {\n                prev->next = pa->next;\n                temp = pa;\n                pa = pa->next;\n                free(temp);\n            }\n        } else {\n            prev = pa;\n            pa = pa->next;\n        }\n    }\n    return a;\n}\n```"
+    ],
+    "analysis": "本题需要在链表A中遍历，对于A中的每个节点，在链表B中查找是否存在相同学号的节点。如果存在，则从A中删除该节点。这涉及到双重循环：外层遍历A，内层遍历B。注意删除节点时要处理头节点删除的特殊情况。",
+    "difficulty": "提高",
+    "isFromTextbook": true,
+    "originalNumber": 135,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 136,
+    "type": "编程题",
+    "content": "建立一个链表，每个结点包括：学号、姓名、性别、年龄。输入一个年龄，如果链表中的结点所包含的年龄等于此年龄，则将此结点删去。",
+    "options": [],
+    "answer": [
+     "```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct Student {\n    char num[10];\n    char name[20];\n    char sex;\n    int age;\n    struct Student *next;\n};\n\nstruct Student* delete_by_age(struct Student *head, int age) {\n    struct Student *p, *prev, *temp;\n    \n    while (head != NULL && head->age == age) {\n        temp = head;\n        head = head->next;\n        free(temp);\n    }\n    \n    if (head == NULL) return NULL;\n\n    prev = head;\n    p = head->next;\n\n    while (p != NULL) {\n        if (p->age == age) {\n            prev->next = p->next;\n            free(p);\n            p = prev->next;\n        } else {\n            prev = p;\n            p = p->next;\n        }\n    }\n    return head;\n}\n```"
+    ],
+    "analysis": "本题考查按条件删除链表节点。与删除单个节点不同，这里可能删除多个节点，且可能连续删除（例如头节点和第二个节点都符合条件）。因此首先要循环处理头节点是否需要删除的情况，然后再处理后续节点。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 136,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 137,
+    "type": "单选题",
+    "content": "关于结构体类型变量的引用，以下说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "可以直接输出结构体变量名来输出所有成员的值",
+     "结构体变量之间不能进行赋值运算",
+     "可以通过“结构体变量名.成员名”的方式引用成员",
+     "结构体变量名代表该变量的起始地址"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "A错误，不能直接输出结构体变量名；B错误，同类型的结构体变量可以互相赋值；C正确，这是引用成员的标准方式；D错误，数组名才代表地址，结构体变量名代表变量本身（做函数参数时是值传递），取地址需要加 `&`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 137,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 138,
+    "type": "单选题",
+    "content": "设有定义 `struct {int a; float b;} data;` 和 `struct {int a; float b;} *p = &data;`，则以下引用成员的方式中非法的是 {{__SELECT_1__}}",
+    "options": [
+     "data.a",
+     "p->a",
+     "(*p).a",
+     "p.a"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "A是结构体变量引用成员；B是指针通过箭头运算符引用成员；C是解引用后作为结构体变量引用成员；D是非法的，因为 `p` 是指针，不能直接使用 `.` 运算符，必须使用 `->` 或者 `(*p).`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 138,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 139,
+    "type": "单选题",
+    "content": "关于共用体（union）类型，以下描述错误的是 {{__SELECT_1__}}",
+    "options": [
+     "共用体变量的所有成员共用同一段内存",
+     "共用体变量的长度等于其最长成员的长度",
+     "共用体变量可以同时存放所有成员的值",
+     "共用体变量可以进行初始化"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "共用体利用覆盖技术，同一时刻只能存放其中一个成员的值，后赋值的成员会覆盖前面的内容。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 139,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 140,
+    "type": "程序填空题",
+    "content": "以下程序定义了一个简单的链表节点并输出其值，请填空。\n```c\nstruct Node {\n    int data;\n    struct Node *next;\n};\n\nint main() {\n    struct Node a, b, *p;\n    a.data = 10;\n    b.data = 20;\n    a.next = {{__BLANK_1__}}; // a指向b\n    b.next = NULL;\n    p = &a;\n    while (p != NULL) {\n        printf(\"%d \", {{__BLANK_2__}});\n        p = {{__BLANK_3__}};\n    }\n    return 0;\n}\n```",
+    "answer": [
+     "&b",
+     "p->data",
+     "p->next"
+    ],
+    "analysis": "1. `a` 的 `next` 成员应该存放 `b` 的地址，故填 `&b`。\n2. 通过指针 `p` 访问当前节点的数据，故填 `p->data`。\n3. 使指针 `p` 指向下一个节点，故填 `p->next`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 140,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 141,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nunion Data {\n    int i;\n    char ch;\n};\n\nint main() {\n    union Data d;\n    d.i = 97;\n    printf(\"%d %c\", d.i, d.ch);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "97 a"
+    ],
+    "analysis": "共用体成员共享内存。将整型 `97` 赋给 `i`，内存中存储的是97的二进制。读取 `ch` 时，取最低字节（假设小端序），97正好是字符 'a' 的ASCII码。因此输出 `97 a`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 141,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 142,
+    "type": "单选题",
+    "content": "若有定义 `typedef int * IP; IP p;`，则 `p` 的类型是 {{__SELECT_1__}}",
+    "options": [
+     "int",
+     "int *",
+     "int **",
+     "非法类型"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "`typedef` 定义了 `IP` 作为 `int *` 的别名。因此 `IP p;` 等价于 `int *p;`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 142,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 143,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nstruct Point {\n    int x;\n    int y;\n};\n\nint main() {\n    struct Point p[] = {{1, 2}, {3, 4}, {5, 6}};\n    struct Point *ptr = p;\n    printf(\"%d\", (++ptr)->x);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "3"
+    ],
+    "analysis": "`ptr` 初始指向 `p[0]`。`++ptr` 先将指针向后移动一个 `struct Point` 的长度，使其指向 `p[1]`。然后访问 `->x`，即 `p[1].x`，值为3。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 143,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 144,
+    "type": "单选题",
+    "content": "枚举类型（enum）中，若未指定枚举元素的值，则第一个枚举元素的值默认为 {{__SELECT_1__}}",
+    "options": [
+     "1",
+     "0",
+     "-1",
+     "随机值"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "C语言规定，枚举元素如果未显式赋值，第一个元素默认为0，后续元素依次加1。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 144,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第9章 用户自己建立数据类型",
+     "chapterId": 9
+    }
+   },
+   {
+    "id": 145,
+    "type": "单选题",
+    "content": "关于C语言中的文件指针，下列说法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "文件指针指向磁盘文件在外部存储设备上的物理地址",
+     "文件指针指向文件在内存中缓冲区的数据首地址",
+     "文件指针指向内存中一个包含文件信息的结构体变量",
+     "文件指针就是文件名，用于操作系统识别文件"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "文件指针是指向`FILE`类型结构体变量的指针。每个被使用的文件都在内存中开辟一个文件信息区，用来存放文件名、状态、当前位置等信息，这些信息保存在`FILE`结构体中。通过文件指针可以找到该结构体，进而访问文件。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 145,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 146,
+    "type": "单选题",
+    "content": "关于文件的打开（fopen）和关闭（fclose），下列描述错误的是 {{__SELECT_1__}}",
+    "options": [
+     "“打开”文件是指为文件建立相应的信息区和文件缓冲区",
+     "“关闭”文件是指撤销文件信息区和缓冲区，断开指针与文件的联系",
+     "如果不使用fclose关闭文件，可能会导致缓冲区中的数据丢失",
+     "程序结束时系统会自动关闭所有文件，因此fclose函数是多余的"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "虽然有的编译系统在程序结束前会自动将缓冲区数据写回文件，但并非所有系统都如此。如果不显式调用`fclose`，在数据未充满缓冲区而程序异常结束时，会导致数据丢失。因此应当养成使用完文件后显式关闭的习惯。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 146,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 147,
+    "type": "编程题",
+    "content": "编写一个程序，从键盘输入一个字符串，将其中的小写字母全部转换成大写字母，然后输出到一个磁盘文件“test”中保存，输入的字符串以“!”结束。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <stdlib.h>\n#include <ctype.h>\n\nint main() {\n    FILE *fp;\n    char ch;\n\n    // 打开文件用于写入\n    if ((fp = fopen(\"test\", \"w\")) == NULL) {\n        printf(\"无法打开文件\\n\");\n        exit(0);\n    }\n\n    printf(\"请输入字符串（以!结束）：\\n\");\n    \n    // 循环读取字符直到遇到'!'\n    while ((ch = getchar()) != '!') {\n        // 将小写字母转换为大写\n        if (ch >= 'a' && ch <= 'z') {\n            ch = ch - 32;\n        }\n        // 写入文件\n        fputc(ch, fp);\n    }\n\n    fclose(fp);\n    printf(\"数据已保存到文件 test 中。\\n\");\n    return 0;\n}\n```",
+    "analysis": "程序首先使用`fopen`以写模式(\"w\")打开文件。通过`getchar`循环读取用户输入，判断是否为结束符'!'。对于每个字符，如果是小写字母（'a'-'z'），通过减去32（或使用`toupper`函数）转换为大写，然后使用`fputc`写入文件。最后使用`fclose`关闭文件。",
+    "difficulty": "基础",
+    "isFromTextbook": true,
+    "originalNumber": 147,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 148,
+    "type": "编程题",
+    "content": "有两个磁盘文件“A”和“B”，各存放一行字母，要求把这两个文件中的信息合并（按字母顺序排列），输出到一个新文件“C”中去。\n（注：假设文件A和B已存在，或者你需要先编写代码创建它们以便测试）",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n\nint main() {\n    FILE *fpA, *fpB, *fpC;\n    char str[200], ch;\n    int i, j, len;\n    char temp;\n\n    // 打开文件A读取\n    if ((fpA = fopen(\"A\", \"r\")) == NULL) {\n        printf(\"无法打开文件 A\\n\");\n        exit(0);\n    }\n    // 打开文件B读取\n    if ((fpB = fopen(\"B\", \"r\")) == NULL) {\n        printf(\"无法打开文件 B\\n\");\n        exit(0);\n    }\n    // 打开文件C写入\n    if ((fpC = fopen(\"C\", \"w\")) == NULL) {\n        printf(\"无法打开文件 C\\n\");\n        exit(0);\n    }\n\n    i = 0;\n    // 读取A的内容\n    while ((ch = fgetc(fpA)) != EOF) {\n        str[i++] = ch;\n    }\n    // 读取B的内容\n    while ((ch = fgetc(fpB)) != EOF) {\n        str[i++] = ch;\n    }\n    str[i] = '\\0'; // 添加字符串结束符\n\n    len = i;\n    // 冒泡排序\n    for (i = 0; i < len - 1; i++) {\n        for (j = 0; j < len - 1 - i; j++) {\n            if (str[j] > str[j + 1]) {\n                temp = str[j];\n                str[j] = str[j + 1];\n                str[j + 1] = temp;\n            }\n        }\n    }\n\n    // 写入文件C\n    for (i = 0; i < len; i++) {\n        fputc(str[i], fpC);\n    }\n\n    printf(\"合并并排序完成，结果已保存到文件 C\\n\");\n\n    fclose(fpA);\n    fclose(fpB);\n    fclose(fpC);\n    return 0;\n}\n```",
+    "analysis": "本题需要同时操作三个文件。首先分别读取A和B的内容到一个字符数组中。读取完成后，对数组中的字符进行排序（如冒泡排序或选择排序）。最后将排序后的字符数组逐个写入文件C。注意文件打开模式分别为\"r\"（读）和\"w\"（写）。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 148,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 149,
+    "type": "编程题",
+    "content": "有5个学生，每个学生有3门课程的成绩。请编写程序，从键盘输入学生数据（包括学号、姓名、3门课程成绩），计算出平均成绩，将原有数据和计算出的平均分数存放在磁盘文件“stud”中。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <stdlib.h>\n\n#define N 5\n\nstruct Student {\n    int num;\n    char name[20];\n    float score[3];\n    float avg;\n} stu[N];\n\nint main() {\n    FILE *fp;\n    int i, j;\n    float sum;\n\n    // 输入数据并计算平均分\n    printf(\"请输入5个学生的数据（学号 姓名 3门成绩）：\\n\");\n    for (i = 0; i < N; i++) {\n        scanf(\"%d %s %f %f %f\", &stu[i].num, stu[i].name, \n              &stu[i].score[0], &stu[i].score[1], &stu[i].score[2]);\n        sum = 0;\n        for (j = 0; j < 3; j++) {\n            sum += stu[i].score[j];\n        }\n        stu[i].avg = sum / 3.0;\n    }\n\n    // 打开文件写入\n    if ((fp = fopen(\"stud\", \"wb\")) == NULL) {\n        printf(\"无法打开文件 stud\\n\");\n        exit(0);\n    }\n\n    // 写入数据\n    for (i = 0; i < N; i++) {\n        if (fwrite(&stu[i], sizeof(struct Student), 1, fp) != 1) {\n            printf(\"写入错误\\n\");\n        }\n    }\n\n    fclose(fp);\n    printf(\"数据已保存到文件 stud\\n\");\n    return 0;\n}\n```",
+    "analysis": "定义包含学号、姓名、3门成绩和平均分的结构体。循环录入5名学生数据并计算平均分。使用`fopen`以二进制写模式(\"wb\")打开文件，利用`fwrite`将结构体数组块写入文件。这种方式便于后续程序直接以二进制形式读取处理。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 149,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 150,
+    "type": "编程题",
+    "content": "有一磁盘文件“employee”，内存放职工的数据。每个职工的数据包括职工姓名、职工号、性别、年龄、住址、工资、健康状况、文化程度。今要求将职工名、工资的信息单独抽出来另建一个简明的职工工资文件。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct Employee {\n    char name[20];\n    int id;\n    char sex[5];\n    int age;\n    char addr[30];\n    float salary;\n    char health[10];\n    char education[10];\n};\n\nstruct SimpleEmp {\n    char name[20];\n    float salary;\n};\n\nint main() {\n    FILE *fp_in, *fp_out;\n    struct Employee emp;\n    struct SimpleEmp simp;\n\n    if ((fp_in = fopen(\"employee\", \"rb\")) == NULL) {\n        printf(\"无法打开文件 employee\\n\");\n        exit(0);\n    }\n    if ((fp_out = fopen(\"emp_salary\", \"wb\")) == NULL) {\n        printf(\"无法创建文件 emp_salary\\n\");\n        exit(0);\n    }\n\n    while (fread(&emp, sizeof(struct Employee), 1, fp_in) == 1) {\n        // 提取所需字段\n        int i;\n        for(i=0; i<20; i++) simp.name[i] = emp.name[i];\n        simp.salary = emp.salary;\n        \n        fwrite(&simp, sizeof(struct SimpleEmp), 1, fp_out);\n    }\n\n    fclose(fp_in);\n    fclose(fp_out);\n    printf(\"工资文件已生成。\\n\");\n    return 0;\n}\n```",
+    "analysis": "定义完整的职工结构体和简化的工资结构体。打开原文件和新文件。循环读取原文件记录，将需要的信息（姓名、工资）赋值给简化结构体变量，然后写入新文件。这是典型的数据提取/投影操作。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 150,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 151,
+    "type": "编程题",
+    "content": "编写程序，从键盘输入若干行字符（每行长度不等），输入后把它们存储到一磁盘文件中。再从该文件中读入这些数据，将其中小写字母转换成大写字母后在显示屏上输出。",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\n#include <stdlib.h>\n#include <ctype.h>\n\nint main() {\n    FILE *fp;\n    char str[100];\n    char ch;\n\n    // 1. 输入并保存到文件\n    if ((fp = fopen(\"text.dat\", \"w\")) == NULL) {\n        printf(\"无法打开文件\\n\");\n        exit(0);\n    }\n    printf(\"请输入多行字符（输入单独的空行结束）：\\n\");\n    while (fgets(str, 100, stdin) != NULL) {\n        if (str[0] == '\\n') break; // 遇到空行结束\n        fputs(str, fp);\n    }\n    fclose(fp);\n\n    // 2. 读取并转换输出\n    if ((fp = fopen(\"text.dat\", \"r\")) == NULL) {\n        printf(\"无法打开文件\\n\");\n        exit(0);\n    }\n    printf(\"\\n转换后的内容：\\n\");\n    while ((ch = fgetc(fp)) != EOF) {\n        if (ch >= 'a' && ch <= 'z')\n            putchar(ch - 32);\n        else\n            putchar(ch);\n    }\n    fclose(fp);\n    return 0;\n}\n```",
+    "analysis": "使用`fgets`从标准输入读取字符串，它能处理包含空格的行。使用`fputs`写入文件。读取时使用`fgetc`逐字符处理，便于进行大小写判断和转换，最后用`putchar`输出到屏幕。",
+    "difficulty": "中等",
+    "isFromTextbook": true,
+    "originalNumber": 151,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 152,
+    "type": "单选题",
+    "content": "整数 10000 如果以 ASCII 码形式存储到磁盘文件中，占用的字节数是 {{__SELECT_1__}}；如果以二进制形式存储（假设 int 占 4 字节），占用的字节数是 {{__SELECT_2__}}。",
+    "options": [
+     "2, 4",
+     "4, 4",
+     "5, 4",
+     "5, 2"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "整数10000以ASCII码（文本）形式存储时，每一位数字占用1个字节，即'1','0','0','0','0'共5个字符，占5字节。以二进制形式存储时，直接存储其内存中的二进制补码，标准int通常占4字节。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 152,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 153,
+    "type": "单选题",
+    "content": "若执行 `fopen(\"file1\", \"w\")` 成功，且文件 \"file1\" 原来已经存在，则下列叙述正确的是 {{__SELECT_1__}}",
+    "options": [
+     "原文件的内容保持不变，新数据追加在文件末尾",
+     "原文件的内容被删除，重新建立一个新文件",
+     "文件打开失败，返回 NULL",
+     "原文件的内容保持不变，读写位置被定位到文件首部"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "使用 \"w\"（只写）方式打开文件时，如果文件已存在，则会删除原文件（清空内容），重新建立一个新文件；如果文件不存在，则建立新文件。如果希望追加内容，应使用 \"a\" 方式。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 153,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 154,
+    "type": "单选题",
+    "content": "在文件操作中，函数 `fseek(fp, -20L, 2)` 的含义是 {{__SELECT_1__}}",
+    "options": [
+     "将文件位置标记移到距离文件头20个字节处",
+     "将文件位置标记移到距离当前位置前20个字节处",
+     "将文件位置标记移到距离文件末尾后20个字节处",
+     "将文件位置标记移到距离文件末尾前20个字节处"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "`fseek` 函数的第三个参数（起始点）为 2 时代表文件末尾（SEEK_END）。位移量为 -20L 表示向后退（向前移动）20个字节。因此是将位置标记移到文件末尾处向前20个字节的位置。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 154,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 155,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果（假设文件 a.txt 的内容为 \"Hello\"）：\n```c\n#include <stdio.h>\nint main() {\n    FILE *fp;\n    char ch;\n    fp = fopen(\"a.txt\", \"r\");\n    if(fp != NULL) {\n        fseek(fp, 2L, 0);\n        ch = fgetc(fp);\n        putchar(ch);\n        rewind(fp);\n        ch = fgetc(fp);\n        putchar(ch);\n        fclose(fp);\n    }\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "lH"
+    ],
+    "analysis": "`fseek(fp, 2L, 0)` 将文件指针移动到从文件头开始偏移2个字节的位置，即指向第3个字符（'l'），`fgetc`读出'l'。`rewind(fp)` 将文件指针重置到文件开头，`fgetc`读出第1个字符（'H'）。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 155,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 156,
+    "type": "程序填空题",
+    "content": "以下程序用于将数组 array 中的数据以二进制形式写入文件 data.bin。\n```c\n#include <stdio.h>\nint main() {\n    int array[5] = {1, 2, 3, 4, 5};\n    FILE *fp;\n    fp = fopen(\"data.bin\", {{__BLANK_1__}});\n    if(fp != NULL) {\n        fwrite(array, {{__BLANK_2__}}, 5, fp);\n        fclose(fp);\n    }\n    return 0;\n}\n```",
+    "answer": [
+     "\"wb\"",
+     "sizeof(int)"
+    ],
+    "analysis": "1. 以二进制写方式打开文件，应使用 \"wb\"。\n2. `fwrite` 的第二个参数是每个数据项的字节数，这里写入的是 int 类型数组，所以是 `sizeof(int)`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 156,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 157,
+    "type": "判断题",
+    "content": "当使用 `fread` 函数从文件中读取数据时，如果返回的值小于请求读取的数据项个数（count），这一定意味着发生了读取错误。",
+    "options": [
+     "正确",
+     "错误"
+    ],
+    "answer": [
+     "错误"
+    ],
+    "analysis": "`fread` 返回实际读取的数据项个数。如果返回值小于 `count`，可能是读取出错，也可能是读到了文件末尾（EOF）。应配合 `ferror` 或 `feof` 进一步判断。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 157,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 158,
+    "type": "程序改错题",
+    "content": "找出以下程序中的错误并改正。该程序试图统计文件\"test.txt\"中的字符个数。\n```c\n#include <stdio.h>\nint main() {\n    FILE *fp;\n    long count = 0;\n    fp = fopen(\"test.txt\", \"r\");\n    while(!feof(fp)) {\n        count++;\n        fgetc(fp);\n    }\n    printf(\"Char count: %ld\\n\", count);\n    fclose(fp);\n    return 0;\n}\n```",
+    "options": [],
+    "answer": "```c\n#include <stdio.h>\nint main() {\n    FILE *fp;\n    long count = 0;\n    fp = fopen(\"test.txt\", \"r\");\n    if (fp == NULL) return 1; // 增加打开失败的判断\n    \n    // 正确的循环方式：先读，再判断是否EOF\n    while(fgetc(fp) != EOF) {\n        count++;\n    }\n    \n    printf(\"Char count: %ld\\n\", count);\n    fclose(fp);\n    return 0;\n}\n```",
+    "analysis": "原程序有两个问题：\n1. `while(!feof(fp))` 结构在处理文件结束时通常会多循环一次，因为 `feof` 只有在读操作尝试越过文件尾时才会被置位，而不是到达文件尾时。正确的做法是检查读操作（如 `fgetc`）的返回值是否为 `EOF`。\n2. 原程序先 `count++` 再 `fgetc`，逻辑也可能导致多计数。修正后的代码在成功读取一个字符后才计数。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 158,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第10章 对文件的输入输出",
+     "chapterId": 10
+    }
+   },
+   {
+    "id": 159,
+    "type": "单选题",
+    "content": "若有定义 `int a;`，则使用 `scanf` 函数输入变量 `a` 的值的正确语句是 {{__SELECT_1__}}",
+    "options": [
+     "scanf(\"%d\", a);",
+     "scanf(\"%d\", &a);",
+     "scanf(\"%d\", *a);",
+     "scanf(\"%f\", &a);"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "C语言中 `scanf` 函数要求提供变量的地址作为参数，以便将输入的数据存储到相应的内存单元中。对于基本数据类型（如 `int`），必须使用取地址运算符 `&`。选项A缺少 `&`，选项C对整型变量使用解引用非法，选项D格式说明符 `%f` 与整型变量 `a` 类型不匹配。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 159,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 160,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int a = 10, b = 20;\n    if (a > b);\n        printf(\"a is larger\");\n    printf(\"End\");\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "a is largerEnd"
+    ],
+    "analysis": "在 `if (a > b)` 后面多加了一个分号，使得 `if` 语句控制了一个空语句。因此，无论条件是否成立，后面的 `printf(\"a is larger\");` 都会作为独立语句被执行。程序接着执行 `printf(\"End\");`，所以输出为 `a is largerEnd`。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 160,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 161,
+    "type": "单选题",
+    "content": "以下关于数组引用的代码中，逻辑或语法正确的是 {{__SELECT_1__}}",
+    "options": [
+     "int a[10]; a[10] = 5;",
+     "int a[5]; a = {1,2,3,4,5};",
+     "int a[3][4]; a[1,2] = 10;",
+     "int a[10]; a[0] = 5;"
+    ],
+    "answer": [
+     "D"
+    ],
+    "analysis": "A选项错误，数组 `a[10]` 的合法下标范围是 0 到 9，`a[10]` 越界；B选项错误，数组初始化只能在定义时进行，不能对数组名进行整体赋值；C选项错误，二维数组引用应使用 `a[1][2]`，`a[1,2]` 中逗号是逗号运算符，相当于 `a[2]`，且这被视为一维数组访问，对于二维数组名来说类型可能不匹配或含义不同；D选项正确，引用第0个元素。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 161,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 162,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int a = 0;\n    if (a = 1)\n        printf(\"True\");\n    else\n        printf(\"False\");\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "True"
+    ],
+    "analysis": "在 `if` 条件中使用了赋值运算符 `=` 而不是关系运算符 `==`。表达式 `a = 1` 将 `a` 赋值为 1，该表达式的值为 1（非零），因此条件判定为真，执行 `printf(\"True\");`。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 162,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 163,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正，使程序能正确输出字符串：\n```c\n#include <stdio.h>\nint main() {\n    char str[20];\n    str = \"Hello World\";\n    printf(\"%s\\n\", str);\n    return 0;\n}\n```",
+    "answer": "#include <stdio.h>\n#include <string.h>\nint main() {\n    char str[20];\n    strcpy(str, \"Hello World\");\n    printf(\"%s\\n\", str);\n    return 0;\n}",
+    "analysis": "数组名 `str` 是一个地址常量，不能作为赋值表达式的左值直接赋值。要给字符数组赋值，应在定义时初始化，或使用 `strcpy` 函数（需包含 `string.h`）。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 163,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 164,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果：\n```c\n#include <stdio.h>\nint main() {\n    int a[] = {10, 20, 30};\n    int *p = a;\n    printf(\"%d,\", *p++);\n    printf(\"%d\", *p);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "10,20"
+    ],
+    "analysis": "`*p++` 中 `++` 和 `*` 优先级相同，且结合方向自右向左，但 `++` 是后置的，所以表达式的值是 `*p`（即 `a[0]` 的值 10）。执行完输出后，指针 `p` 自增指向下一个元素 `a[1]`。第二个 `printf` 输出 `*p`，即 20。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 164,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 165,
+    "type": "程序阅读题",
+    "content": "写出以下程序的运行结果（假设 int 占 4 字节）：\n```c\n#include <stdio.h>\nvoid swap(int x, int y) {\n    int t = x; x = y; y = t;\n}\nint main() {\n    int a = 3, b = 4;\n    swap(a, b);\n    printf(\"%d,%d\", a, b);\n    return 0;\n}\n```\n运行结果：{{__BLANK_1__}}",
+    "answer": [
+     "3,4"
+    ],
+    "analysis": "C语言中函数参数传递是值传递。`swap` 函数中的 `x` 和 `y` 是实参 `a` 和 `b` 的副本，交换 `x` 和 `y` 的值不会影响 `main` 函数中的 `a` 和 `b`。要修改实参的值，需要传递指针。",
+    "difficulty": "基础",
+    "isFromTextbook": false,
+    "originalNumber": 165,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 166,
+    "type": "单选题",
+    "content": "以下关于switch语句的代码片段中，当score为2时，输出结果是 {{__SELECT_1__}}\n```c\nswitch(score) {\n    case 5: printf(\"A\");\n    case 4: printf(\"B\");\n    case 3: printf(\"C\");\n    case 2: printf(\"D\");\n    default: printf(\"E\");\n}\n```",
+    "options": [
+     "D",
+     "DE",
+     "E",
+     "ABCDE"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "在 `switch` 语句中，如果 `case` 分支后没有 `break` 语句，程序会继续执行后续的 `case` 或 `default` 分支（称为“穿透”现象）。当 `score` 为 2 时，匹配 `case 2` 输出 \"D\"，然后继续向下执行 `default` 分支输出 \"E\"。因此结果是 \"DE\"。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 166,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 167,
+    "type": "改错题",
+    "content": "找出以下程序中的错误并改正，使指针正确指向输入的数据：\n```c\n#include <stdio.h>\nint main() {\n    int *p;\n    scanf(\"%d\", p);\n    printf(\"%d\", *p);\n    return 0;\n}\n```",
+    "answer": "#include <stdio.h>\nint main() {\n    int a;\n    int *p = &a;\n    scanf(\"%d\", p);\n    printf(\"%d\", *p);\n    return 0;\n}",
+    "analysis": "原程序中定义了指针变量 `p` 但未初始化，`p` 指向一个随机的内存地址（野指针）。直接向该地址写入数据（`scanf`）极其危险，可能导致程序崩溃或系统错误。必须先定义一个整型变量，让 `p` 指向该变量，或者使用 `malloc` 分配内存。",
+    "difficulty": "中等",
+    "isFromTextbook": false,
+    "originalNumber": 167,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   },
+   {
+    "id": 168,
+    "type": "单选题",
+    "content": "以下代码片段中，`p2` 最终指向什么类型的数据？\n```c\nint i = 3;\nfloat a = 1.5;\nint *p1 = &i;\nfloat *p2 = &a;\np2 = (float *)p1;\n```\n{{__SELECT_1__}}",
+    "options": [
+     "指向 float 型数据，值为 1.5",
+     "指向 int 型数据，值为 3",
+     "指向 float 型数据，但指向的内存实际存放的是 int 型数据",
+     "产生编译错误"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "`p2` 被声明为 `float *`，即使通过强制类型转换将 `p1`（指向 `int`）赋值给 `p2`，`p2` 仍然认为它指向的是 `float` 类型。但是，该内存地址实际存储的是 `int` 格式的数据。如果通过 `*p2` 访问，系统会按浮点数格式解释该内存中的二进制位，导致数据解读错误（通常不是原整数值）。",
+    "difficulty": "提高",
+    "isFromTextbook": false,
+    "originalNumber": 168,
+    "subQuestions": [],
+    "source": {
+     "chapter": "第11章 常见错误分析",
+     "chapterId": 11
+    }
+   }
+  ]
+ }
+}

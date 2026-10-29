@@ -1,0 +1,2382 @@
+{
+ "id": 101,
+ "title": "河北专升本英语16",
+ "subject": "英语",
+ "createTime": "2026-04-06 14:40:27",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省2016年普通高校专科接本科教育选拔考试《英语》试卷",
+   "subject": "英语",
+   "province": "河北省",
+   "year": 2016,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "fcf72b83-c1d9-4f7a-ba81-04b135c35fc5"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "语音题",
+    "partLabel": "I. Phonetics",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In each of the following groups of words, there are four underlined letters or letter combinations marked A, B, C and D. Compare the underlined parts and identify the one that is different from the others in pronunciation. Then mark the corresponding letter on the Answer Sheet with a single line through the center."
+      }
+     ]
+    },
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Compare the underlined parts and choose the one with a different pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. measure"
+        },
+        {
+         "key": "B",
+         "label": "B. heavy"
+        },
+        {
+         "key": "C",
+         "label": "C. pleasant"
+        },
+        {
+         "key": "D",
+         "label": "D. great"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "great 中字母组合 ea 发 /eɪ/，其余三个词中的对应部分均发 /e/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. great"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Compare the underlined parts and choose the one with a different pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. expect"
+        },
+        {
+         "key": "B",
+         "label": "B. exact"
+        },
+        {
+         "key": "C",
+         "label": "C. example"
+        },
+        {
+         "key": "D",
+         "label": "D. exempt"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "expect 中 ex- 读 /ɪkˈs-/，其余三个词中的 ex- 都读 /ɪgˈz-/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. expect"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Compare the underlined parts and choose the one with a different pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. tool"
+        },
+        {
+         "key": "B",
+         "label": "B. blood"
+        },
+        {
+         "key": "C",
+         "label": "C. shoot"
+        },
+        {
+         "key": "D",
+         "label": "D. fool"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "blood 中 oo 发 /ʌ/，而 tool、shoot、fool 中 oo 或等值字母组合均发 /uː/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. blood"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Compare the underlined parts and choose the one with a different pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. hour"
+        },
+        {
+         "key": "B",
+         "label": "B. ghost"
+        },
+        {
+         "key": "C",
+         "label": "C. hotel"
+        },
+        {
+         "key": "D",
+         "label": "D. honest"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "hotel 的首字母 h 发音，其余词中的 h 或 gh 在该位置不发音。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. hotel"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Compare the underlined parts and choose the one with a different pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. wondered"
+        },
+        {
+         "key": "B",
+         "label": "B. shouted"
+        },
+        {
+         "key": "C",
+         "label": "C. frightened"
+        },
+        {
+         "key": "D",
+         "label": "D. stayed"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "shouted 的 -ed 读 /ɪd/，其余三个词的 -ed 都读 /d/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. shouted"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "cloze",
+    "displayName": "情景对话",
+    "partLabel": "II. Situational Dialogues",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a long conversation with 5 missing sentences. At the end of the conversation, there is a list of given choices. You are required to select the ONE that best fits into the conversation. Then mark the corresponding letter on the Answer Sheet with a single line through the center. Note that there are two additional choices and you can not use any of the choices in the list more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. Yes, he does."
+     },
+     {
+      "key": "B",
+      "label": "B. Could I make an appointment for Tuesday morning?"
+     },
+     {
+      "key": "C",
+      "label": "C. Can I help you?"
+     },
+     {
+      "key": "D",
+      "label": "D. May I have your name, please?"
+     },
+     {
+      "key": "E",
+      "label": "E. out on business today."
+     },
+     {
+      "key": "F",
+      "label": "F. It won't be long."
+     },
+     {
+      "key": "G",
+      "label": "G. Let me check Mr. Smith's diary."
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Mike: Good morning! "
+       },
+       {
+        "type": "blank",
+        "key": "q6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": "?\n\nTom: Yes, may I see your production manager, Mr. Smith, please?\n\nMike: I am sorry. Mr. Smith is "
+       },
+       {
+        "type": "blank",
+        "key": "q7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": "\n\nTom: Well, I'd like to make an appointment to see him sometime next week.\n\nMike: "
+       },
+       {
+        "type": "blank",
+        "key": "q8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": ". Yes, Mr. Smith doesn't seem to be busy on Tuesday morning and Friday afternoon.\n\nTom: "
+       },
+       {
+        "type": "blank",
+        "key": "q9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": "\n\nMike: Would 9:30 be convenient?\n\nTom: Yes, that'll be fine.\n\nMike: I'll make a note of that. "
+       },
+       {
+        "type": "blank",
+        "key": "q10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": "?\n\nTom: Yes, this is my name card. You can contact me any day.\n\nMike: OK.\n\nTom: Thank you very much! Goodbye!\n\nMike: Goodbye!\n"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "对方一开口就询问来意，前台或接待场景里最自然的表达是 Can I help you?"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Can I help you?"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Tom 之后提出预约下周见面，说明 Smith 现在不在公司，因此 out on business today 最合语境。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. out on business today."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后一句提到查看了时间安排，所以应先说 Let me check Mr. Smith's diary。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. Let me check Mr. Smith's diary."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Mike 给出周二上午和周五下午两个时间后，Tom 接着选择周二上午，故用 Could I make an appointment for Tuesday morning?"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Could I make an appointment for Tuesday morning?"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Tom 随后递上名片，因此 Mike 此处应是索要姓名或联系方式，May I have your name, please? 最合适。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. May I have your name, please?"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III. Reading Comprehension - Section A - Passage One",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are two passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement. Mark the corresponding letter on the Answer Sheet with a single line through the center."
+      }
+     ]
+    },
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "You hear this: \"No wonder you are fat. All you ever do is eat.\" You feel sad. \"I skip my breakfast and supper. I run every morning and evening. What else can I do?\" Basically you can do nothing. Your genes, not your life habits, determine your weight and your body constantly tries to maintain it."
+       },
+       {
+        "type": "markdown",
+        "value": "How can obese people become normal or even thin through dieting? Well, dieting can be effective, but the health costs are tremendous. Jules Hirsch, a research physician at Rockefeller University, did a study of eight fat people. They were given a liquid formula providing 600 calories a day. After more than 10 weeks, the subjects lost 45kg on average. But after leaving the hospital, they all regained. The results were surprising; by metabolic measurement, fat people who lost large amounts of weight seemed like they were starving. They had psychiatric problems. They dreamed of food or breaking their diet. They were anxious and depressed; some were suicidal. They hid food in their rooms. Researchers warn that it is possible that weight reduction doesn't result in normal weight, but in an abnormal state resembling that of starved non-obese people."
+       },
+       {
+        "type": "markdown",
+        "value": "Thin people, however, suffer from the opposite: they have to make a great effort to gain weight. Ethan Sims, of the University of Vermont, got prisoners to volunteer to gain weight. In four to six months, they ate as much as they could. They succeeded in increasing their weight by 20 to 25 percent. But months after the study ended, they were back to normal weight and stayed there."
+       },
+       {
+        "type": "markdown",
+        "value": "This did not mean that people are completely without hope in controlling their weight. It means that those who tend to be fat will have to constantly battle their genetic inheritance if they want to significantly lower their weight."
+       },
+       {
+        "type": "markdown",
+        "value": "The findings also provide evidence for something scientists thought was true: each person has a comfortable weight range. The range might be as much as 9kg. Someone might weigh 60-69kg without too much effort. But going above or below the natural weight range is difficult. The body resists by feeling hungry or full and changing the metabolism to push the weight back to the range it seeks."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What determines your weight according to the first paragraph?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Your working manner."
+        },
+        {
+         "key": "B",
+         "label": "B. Your eating habit."
+        },
+        {
+         "key": "C",
+         "label": "C. Your life style."
+        },
+        {
+         "key": "D",
+         "label": "D. Your genes."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段直接说明 Your genes, not your life habits, determine your weight，因此答案是 genes。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Your genes."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What did Jules Hirsch do to the ten fat people in his research?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. He let them live only on liquid food."
+        },
+        {
+         "key": "B",
+         "label": "B. He let them skip breakfast."
+        },
+        {
+         "key": "C",
+         "label": "C. He let them run every morning and evening."
+        },
+        {
+         "key": "D",
+         "label": "D. He let them skip supper."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说明受试者每天只摄入 600 卡路里的液体配方，即只靠液体食物维持。题干人数与原文有出入，但不影响判断。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. He let them live only on liquid food."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What happened to the ten fat people after they left the hospital?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. They went mad."
+        },
+        {
+         "key": "B",
+         "label": "B. They killed themselves."
+        },
+        {
+         "key": "C",
+         "label": "C. They were back to the original weight."
+        },
+        {
+         "key": "D",
+         "label": "D. They attempted suicide."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章写到 after leaving the hospital, they all regained，说明他们后来又恢复到了原来的体重水平。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. They were back to the original weight."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Ethan Sims made his subjects"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. battle their genetic inheritance."
+        },
+        {
+         "key": "B",
+         "label": "B. eat as much as they could."
+        },
+        {
+         "key": "C",
+         "label": "C. suffer from hunger."
+        },
+        {
+         "key": "D",
+         "label": "D. lower their weight."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段明确说 they ate as much as they could，因此 Sims 要求受试者尽量多吃。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. eat as much as they could."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What did scientists think was true?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Each person wants to eat to his or her heart's content."
+        },
+        {
+         "key": "B",
+         "label": "B. Each person has a weight range of 9kg."
+        },
+        {
+         "key": "C",
+         "label": "C. Each person wants to control his or her weight."
+        },
+        {
+         "key": "D",
+         "label": "D. Each person has a suitable weight range."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段指出 scientists thought each person has a comfortable weight range，这对应 suitable weight range。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Each person has a suitable weight range."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III. Reading Comprehension - Section A - Passage Two",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are two passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement. Mark the corresponding letter on the Answer Sheet with a single line through the center."
+      }
+     ]
+    },
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Many people believe the glare from snow causes snow blindness. Yet, dark glasses or not, they find themselves suffering from headaches and watering eyes, and even snow blindness, when exposed to several hours of \"snow light\"."
+       },
+       {
+        "type": "markdown",
+        "value": "The United States Army has now determined that glare from snow does not cause snow blindness in troops in a snow-covered country. Rather, a man's eyes frequently find nothing to focus on in a broad expanse of barren snow-covered terrain. So his gaze continually shifts and jumps back and forth over the entire landscape in search of something to look at. Finding nothing, hour after hour, the eyes never stop searching and eyeballs become sore and the eye muscles ache. Nature offsets this irritation by producing more and more fluid which covers the eyeball. The fluid covers the eyeball in increasing quantity until vision blurs, and then is obscured, and the result is total, even though temporary, snow blindness."
+       },
+       {
+        "type": "markdown",
+        "value": "Experiments led the Army to a simple method of overcoming this problem. Scouts ahead of a main body of troops are trained to shake snow from evergreen bushes, creating a dotted line as they cross completely snow-covered landscape. Even the scouts themselves throw lightweight, dark colored objects ahead on which they too can focus. The men following can then see something. Their gaze is arrested. Their eyes focus on a bush and have something to see, stop scouring the snow-blanketed landscape. By focusing their attention on one object at a time, the men can cross the snow without becoming hopelessly snow blind or lost. In this way the problem of crossing a solid white terrain is overcome."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "To prevent headaches, watering eyes and blindness caused by the glare from snow, dark glasses are"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. indispensable"
+        },
+        {
+         "key": "B",
+         "label": "B. useful"
+        },
+        {
+         "key": "C",
+         "label": "C. ineffective"
+        },
+        {
+         "key": "D",
+         "label": "D. available"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段说 dark glasses or not，人们依然会出现这些症状，因此深色眼镜并不起作用。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. ineffective"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "When the eyes ache, tears are produced to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. clear the vision"
+        },
+        {
+         "key": "B",
+         "label": "B. remedy snow blindness"
+        },
+        {
+         "key": "C",
+         "label": "C. ease the irritation"
+        },
+        {
+         "key": "D",
+         "label": "D. loosen the muscles"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段说 Nature offsets this irritation by producing more and more fluid，可见流泪是为了缓解刺激。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. ease the irritation"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Snow blindness may be avoided by"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. concentrating to the solid white terrain"
+        },
+        {
+         "key": "B",
+         "label": "B. searching for something to look at in snow-covered terrain"
+        },
+        {
+         "key": "C",
+         "label": "C. providing the eyes with something to focus on"
+        },
+        {
+         "key": "D",
+         "label": "D. covering the eyeballs with fluid"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章后半部分强调给眼睛一个固定焦点，就能避免持续扫视雪地，从而预防雪盲。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. providing the eyes with something to focus on"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The scouts shake snow from evergreen bushes in order to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. leave the men behind something to see"
+        },
+        {
+         "key": "B",
+         "label": "B. beautify the landscape"
+        },
+        {
+         "key": "C",
+         "label": "C. warm themselves in the cold"
+        },
+        {
+         "key": "D",
+         "label": "D. prevent the men behind from losing their way"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "抖落灌木上的雪会形成可见标记，核心作用是让后面的人有东西可看、可聚焦。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. leave the men behind something to see"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A suitable title for this passage would be"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "b1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Snow Blindness and How to Overcome It"
+        },
+        {
+         "key": "B",
+         "label": "B. Nature's Cure for Snow Blindness"
+        },
+        {
+         "key": "C",
+         "label": "C. Soldiers in the Snow"
+        },
+        {
+         "key": "D",
+         "label": "D. Snow Vision"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "b1",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文先解释雪盲成因，再介绍克服办法，标题应同时概括问题与解决方法。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Snow Blindness and How to Overcome It"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "cloze",
+    "displayName": "词汇填空",
+    "partLabel": "III. Reading Comprehension - Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choice. Each choice in blank is identified by a letter. Please mark the corresponding letter for each item on the answer sheet with a single line through the center. You may not use any of the words in the bank more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. by"
+     },
+     {
+      "key": "B",
+      "label": "B. loyal"
+     },
+     {
+      "key": "C",
+      "label": "C. succeed"
+     },
+     {
+      "key": "D",
+      "label": "D. ask"
+     },
+     {
+      "key": "E",
+      "label": "E. anywhere"
+     },
+     {
+      "key": "F",
+      "label": "F. truthfully"
+     },
+     {
+      "key": "G",
+      "label": "G. dormitories"
+     },
+     {
+      "key": "H",
+      "label": "H. trustworthy"
+     },
+     {
+      "key": "I",
+      "label": "I. schedule"
+     },
+     {
+      "key": "J",
+      "label": "J. success"
+     },
+     {
+      "key": "K",
+      "label": "K. conflict"
+     },
+     {
+      "key": "L",
+      "label": "L. common"
+     },
+     {
+      "key": "M",
+      "label": "M. intimate"
+     },
+     {
+      "key": "N",
+      "label": "N. charged"
+     },
+     {
+      "key": "O",
+      "label": "O. from"
+     }
+    ],
+    "materials": [
+     {
+      "id": "mat-5-1",
+      "role": "passage",
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "It is common for new students to share a room with other university students. The number of roommates will range "
+       },
+       {
+        "type": "blank",
+        "key": "q21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": " from one to three. The most "
+       },
+       {
+        "type": "blank",
+        "key": "q22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": " setting is for two students to share one room. The room will have beds, desks, closets and storage drawers for personal items. The furnishings will be plain but adequate.\n\nA key to "
+       },
+       {
+        "type": "blank",
+        "key": "q23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": " in your studies is a good understanding and a positive relationship with your roommate. You will need to learn your roommate's "
+       },
+       {
+        "type": "blank",
+        "key": "q24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": " and activities in order to have a positive experience from the beginning. Your roommate may become your close friend or you may not spend much time together. It all depends on you and your roommate. Respect your roommate's possessions and privacy and "
+       },
+       {
+        "type": "blank",
+        "key": "q25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": " your roommate to do the same for you. Some roommates are very "
+       },
+       {
+        "type": "blank",
+        "key": "q26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": " and some are not. A good rule to go "
+       },
+       {
+        "type": "blank",
+        "key": "q27",
+        "placeholder": "27"
+       },
+       {
+        "type": "markdown",
+        "value": " is \"If you value something, keep it out of sight and under lock and key.\" This will keep your roommate "
+       },
+       {
+        "type": "blank",
+        "key": "q28",
+        "placeholder": "28"
+       },
+       {
+        "type": "markdown",
+        "value": " being to take something that belongs to you.\n\nIf you discover that your schedule and your roommate's schedule "
+       },
+       {
+        "type": "blank",
+        "key": "q29",
+        "placeholder": "29"
+       },
+       {
+        "type": "markdown",
+        "value": " and you have little time to study, you will find the library a nice quiet place to get away and study. Some "
+       },
+       {
+        "type": "blank",
+        "key": "q30",
+        "placeholder": "30"
+       },
+       {
+        "type": "markdown",
+        "value": " are not very quiet and if you need a quiet place to study, you may need to go to the library.\n"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配是 range anywhere from ... to ...，表示范围从一人到三人不等。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. anywhere"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "L"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "此处需要形容词修饰 setting，common 表示“常见的”，语义最通顺。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "L. common"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "J"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "key to success 是固定搭配，意为“成功的关键”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "J. success"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "I"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "schedule and activities 搭配自然，指了解室友的作息安排和活动。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I. schedule"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "and 连接并列动作，此处应是 ask your roommate to do the same。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. ask"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "H"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后文谈到把贵重物品锁好，说明这里讨论的是是否值得信任，trustworthy 最恰当。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "H. trustworthy"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定短语是 go by，表示“遵循，依据”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. by"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "O"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定结构 keep sb. from doing sth.，表示防止某人做某事。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "O. from"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "K"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "主语是两个 schedule，后面说导致没有时间学习，所以应填 conflict，表示时间安排冲突。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "K. conflict"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文谈宿舍环境，dormitories 表示宿舍楼，符合句意。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. dormitories"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "完形填空",
+    "partLabel": "IV. Cloze",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 10 blanks in the following passage. For each blank there are four choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the answer sheet with a single line through the center."
+      }
+     ]
+    },
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Enough sleep is important to health. The amount of sleep "
+       },
+       {
+        "type": "blank",
+        "key": "q31",
+        "placeholder": "31"
+       },
+       {
+        "type": "markdown",
+        "value": " depends on the age of the person and the conditions in which sleep takes place. The young may need more sleep than the old, but "
+       },
+       {
+        "type": "blank",
+        "key": "q32",
+        "placeholder": "32"
+       },
+       {
+        "type": "markdown",
+        "value": " eight hours are enough for the health of grown-ups. Some can do with less than this amount, but "
+       },
+       {
+        "type": "blank",
+        "key": "q33",
+        "placeholder": "33"
+       },
+       {
+        "type": "markdown",
+        "value": " may need more. Every person knows his own need. It is then a matter of good judgment to satisfy his need. Sleep should always be enough to make one bring back his strength and get ready for "
+       },
+       {
+        "type": "blank",
+        "key": "q34",
+        "placeholder": "34"
+       },
+       {
+        "type": "markdown",
+        "value": " work.\n\nFresh air is necessary to sound sleep. It is not "
+       },
+       {
+        "type": "blank",
+        "key": "q35",
+        "placeholder": "35"
+       },
+       {
+        "type": "markdown",
+        "value": " reason for some people to think that it is practicable to sleep in the open air. "
+       },
+       {
+        "type": "blank",
+        "key": "q36",
+        "placeholder": "36"
+       },
+       {
+        "type": "markdown",
+        "value": " one can keep himself warm, out-of-door sleeping probably gives the body "
+       },
+       {
+        "type": "blank",
+        "key": "q37",
+        "placeholder": "37"
+       },
+       {
+        "type": "markdown",
+        "value": " complete relaxation.\n\nAbility to sleep is largely a habit. The conditions referred to only lead to sleep. Out-of-door exercises, a good habit of regular drinking and the avoidance of late eating and "
+       },
+       {
+        "type": "blank",
+        "key": "q38",
+        "placeholder": "38"
+       },
+       {
+        "type": "markdown",
+        "value": " are all helpful to sound sleep. Such factors are largely within the control of any person. A bath at "
+       },
+       {
+        "type": "blank",
+        "key": "q39",
+        "placeholder": "39"
+       },
+       {
+        "type": "markdown",
+        "value": ", neither hot nor cool but of body temperature, may be helpful to sleep. Sleeping pills should never be taken except when suggested by "
+       },
+       {
+        "type": "blank",
+        "key": "q40",
+        "placeholder": "40"
+       },
+       {
+        "type": "markdown",
+        "value": "."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. wished"
+        },
+        {
+         "key": "B",
+         "label": "B. needed"
+        },
+        {
+         "key": "C",
+         "label": "C. expected"
+        },
+        {
+         "key": "D",
+         "label": "D. wanted"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "此处表示“所需要的睡眠量”，needed 与 depends on 搭配自然，语义完整。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. needed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. seldom"
+        },
+        {
+         "key": "B",
+         "label": "B. sometimes"
+        },
+        {
+         "key": "C",
+         "label": "C. always"
+        },
+        {
+         "key": "D",
+         "label": "D. generally"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "generally 表示“一般来说”，符合对成年人大致睡眠时长的概括。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. generally"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. children"
+        },
+        {
+         "key": "B",
+         "label": "B. women"
+        },
+        {
+         "key": "C",
+         "label": "C. man"
+        },
+        {
+         "key": "D",
+         "label": "D. few"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "few 与 some 形成对应，表示“有些人睡得少也行，但也有少数人需要更多”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. few"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. hardly"
+        },
+        {
+         "key": "B",
+         "label": "B. extra"
+        },
+        {
+         "key": "C",
+         "label": "C. a day's"
+        },
+        {
+         "key": "D",
+         "label": "D. good"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定表达是 get ready for a day's work，表示为一天的工作做好准备。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. a day's"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. the best"
+        },
+        {
+         "key": "B",
+         "label": "B. at all"
+        },
+        {
+         "key": "C",
+         "label": "C. without"
+        },
+        {
+         "key": "D",
+         "label": "D. a good"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "not without reason 是固定说法，表示“并非没有道理”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. without"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. As"
+        },
+        {
+         "key": "B",
+         "label": "B. Where"
+        },
+        {
+         "key": "C",
+         "label": "C. Unless"
+        },
+        {
+         "key": "D",
+         "label": "D. When"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "when 引导条件性时间状语从句，表示“当能保暖时，户外睡眠大概能让身体最充分放松”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. When"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. a strong"
+        },
+        {
+         "key": "B",
+         "label": "B. a most"
+        },
+        {
+         "key": "C",
+         "label": "C. a bad"
+        },
+        {
+         "key": "D",
+         "label": "D. an exciting"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "a most complete relaxation 中 most 表示程度上的“极其、最充分的”，语法和语义都成立。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. a most"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. worry"
+        },
+        {
+         "key": "B",
+         "label": "B. fear"
+        },
+        {
+         "key": "C",
+         "label": "C. carelessness"
+        },
+        {
+         "key": "D",
+         "label": "D. hard work"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "worry 与 late eating 并列，都是影响睡眠的不良因素，avoidance of ... and worry 语义最通顺。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. worry"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. anytime"
+        },
+        {
+         "key": "B",
+         "label": "B. bed time"
+        },
+        {
+         "key": "C",
+         "label": "C. midnight"
+        },
+        {
+         "key": "D",
+         "label": "D. lunch time"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "睡前洗温水澡有助于入睡，bed time 与全文主题完全一致。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. bed time"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. the sleeper"
+        },
+        {
+         "key": "B",
+         "label": "B. a child"
+        },
+        {
+         "key": "C",
+         "label": "C. a doctor"
+        },
+        {
+         "key": "D",
+         "label": "D. parents"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "安眠药只能在医生建议下服用，a doctor 符合常识和医学语境。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. a doctor"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "V. Writing",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this part, you are required to write a composition entitled Haze and Air pollution in no less than 100 words according to the following Chinese outline. Please remember to write it on the Answer Sheet."
+      }
+     ]
+    },
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Write a composition entitled Haze and Air Pollution in no less than 100 words according to the following outline:"
+        },
+        {
+         "type": "markdown",
+         "value": "1. 当前环境污染问题日益严重，原因何在"
+        },
+        {
+         "type": "markdown",
+         "value": "2. 解决该问题的措施"
+        },
+        {
+         "type": "markdown",
+         "value": "3. 保护环境利人利己，人人有责"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 100
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "写作时应至少覆盖三个要点：污染和雾霾加重的原因、可行的治理措施、人人参与环保的责任。语言上注意题目大小写和不少于 100 词的要求。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Haze and Air Pollution\n\nIn recent years, haze and air pollution have become more and more serious in many cities. There are several reasons for this problem. First, a growing number of cars give off large amounts of harmful gas. Second, many factories still burn coal and release smoke into the air. In addition, some people do not pay enough attention to environmental protection.\n\nTo solve the problem, the government should make stricter laws and close heavily polluted factories. Public transportation should be improved so that fewer people need to drive. We should also use clean energy and plant more trees.\n\nProtecting the environment benefits everyone. It is not only good for our health but also for the future of our country. Therefore, every one of us should take action and do our part."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

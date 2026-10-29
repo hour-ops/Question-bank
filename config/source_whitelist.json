@@ -1,0 +1,38 @@
+{
+  "version": "1.1",
+  "subjects": {
+    "english": {
+      "domains": ["hbzsb.com", "kuke99.com", "mtoutiao.xdf.cn", "zsbzt.cn", "xlsyingyu.cn", "zhihu.com", "wenku.baidu.com"],
+      "keywords": ["湖北专升本 英语 真题", "专升本 英语 语法填空", "专升本 英语 翻译填空", "专升本 英语 写作 范文"],
+      "search_templates": [
+        "https://cn.bing.com/search?q=site:{domain}+{kw}",
+        "https://www.baidu.com/s?wd=site%3A{domain}+{kw}"
+      ]
+    },
+    "c_wuhan": {
+      "domains": ["hbea.edu.cn", "hbzsb.com", "puben.cn", "zsbzt.cn", "xlsyingyu.cn", "zhihu.com", "wenku.baidu.com"],
+      "keywords": ["武汉商学院 专升本 C语言 真题", "专升本 C语言 改错 程序填空", "谭浩强 C语言 习题"],
+      "search_templates": [
+        "https://cn.bing.com/search?q=site:{domain}+{kw}",
+        "https://www.baidu.com/s?wd=site%3A{domain}+{kw}"
+      ]
+    },
+    "c_hbpu": {
+      "domains": ["hbea.edu.cn", "hbzsb.com", "puben.cn", "zsbzt.cn", "xlsyingyu.cn", "zhihu.com", "wenku.baidu.com"],
+      "keywords": ["湖北理工学院 专升本 C语言 真题", "专升本 C语言 编程题 真题", "祁文青 C语言 习题"],
+      "search_templates": [
+        "https://cn.bing.com/search?q=site:{domain}+{kw}",
+        "https://www.baidu.com/s?wd=site%3A{domain}+{kw}"
+      ]
+    },
+    "aca_llm": {
+      "domains": ["edu.aliyun.com", "blog.csdn.net"],
+      "keywords": ["阿里云 ACA 大模型工程师 考纲", "ACA 大模型 模拟题", "大模型工程师 ACA 知识点"],
+      "search_templates": [
+        "https://cn.bing.com/search?q=site:{domain}+{kw}"
+      ]
+    }
+  },
+  "excluded_domains": ["renrendoc.com", "book118.com"],
+  "notes": "v1.1（2026-10-11 用户批准扩充）：english/c_wuhan/c_hbpu 增加 zsbzt.cn、xlsyingyu.cn、zhihu.com、wenku.baidu.com；aca_llm 的 CSDN 主机由 zyfcodes.blog.csdn.net 更正为 blog.csdn.net（实际文章主机）。⚠️ 实测：搜索引擎对 requests 返回的页面取不到可用链接 → 发现阶段改由浏览器完成，结果写入 inbox/<subject>/_urls.txt，再用 python scripts/fetch.py --subject X --urls-file inbox/X/_urls.txt 下载。"
+}

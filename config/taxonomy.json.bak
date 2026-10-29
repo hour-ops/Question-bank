@@ -1,0 +1,71 @@
+{
+  "version": "1.1",
+  "subjects": {
+    "english": {
+      "name": "英语（湖北专升本）",
+      "db": "data/english.sqlite",
+      "target_count": 50,
+      "paper_total_score": 100,
+      "paper_total_items": 43,
+      "paper_duration_minutes": 120,
+      "paper_note": "卷面结构来源：http://zsbzt.cn/assets/ExamGuide-pDvJF3qx.js（第三方考纲解读，引用《2026年湖北省普通高等学校专升本〈大学英语〉考试要求》）。⚠️ 题目数量与 DESIGN.md 第 3 节一致；本库 target_count=50 是配额（可多于单份卷面题数）。",
+      "question_types": {
+        "grammar_fill":     { "name": "语法填空",   "paper_count": 10, "paper_score": 20, "per_item": 2,  "judge": "llm", "model": "deepseek-flash",   "effort": "low" },
+        "sentence_build":   { "name": "连词成句",   "paper_count": 6,  "paper_score": 12, "per_item": 2,  "judge": "llm", "model": "deepseek-flash",   "effort": "low" },
+        "reading_fill":     { "name": "阅读填空",   "paper_count": 10, "paper_score": 20, "per_item": 2,  "judge": "llm", "model": "deepseek-flash",   "effort": "low" },
+        "reading_qa":       { "name": "阅读理解",   "paper_count": 10, "paper_score": 20, "per_item": 2,  "judge": "llm", "model": "deepseek-flash",   "effort": "low" },
+        "translation_fill": { "name": "翻译填空",   "paper_count": 6,  "paper_score": 18, "per_item": 3,  "judge": "llm", "model": "deepseek-flash",   "effort": "low" },
+        "writing":          { "name": "写作",       "paper_count": 1,  "paper_score": 10, "per_item": 10, "judge": "llm", "model": "deepseek-v4-pro",  "effort": "high" }
+      },
+      "forbidden_types": ["single_choice", "true_false"],
+      "notes": "无选择题、无判断题（全部主观题）。⚠️ reading_qa 对应卷面 Part IV「阅读理解」，10 题 2 篇、每题 2 分。"
+    },
+    "c_wuhan": {
+      "name": "C 语言（武汉商学院 120 分 · 谭浩强第五版）",
+      "db": "data/c_wuhan.sqlite",
+      "target_count": 50,
+      "paper_total_score": 120,
+      "question_types": {
+        "code_correction": { "name": "改错",     "judge": "llm",      "model": "deepseek-flash",  "effort": "low" },
+        "program_fill":    { "name": "程序填空", "judge": "llm",      "model": "deepseek-flash",  "effort": "low" },
+        "programming":     { "name": "编程",     "judge": "llm+gcc",  "model": "deepseek-v4-pro", "effort": "high" }
+      },
+      "forbidden_types": ["single_choice", "true_false"],
+      "notes": "卷面题型题数待补（尚未取得官方考纲）；当前按阶段 6 基准分布 改错20/程序填空15/编程15 作为参考，取得考纲后需修正。"
+    },
+    "c_hbpu": {
+      "name": "C 语言（湖北理工学院 150 分 · 祁文青 2018 版）",
+      "db": "data/c_hbpu.sqlite",
+      "target_count": 50,
+      "paper_total_score": 150,
+      "question_types": {
+        "code_correction": { "name": "改错",     "judge": "llm",      "model": "deepseek-flash",  "effort": "low" },
+        "program_fill":    { "name": "程序填空", "judge": "llm",      "model": "deepseek-flash",  "effort": "low" },
+        "programming":     { "name": "编程",     "judge": "llm+gcc",  "model": "deepseek-v4-pro", "effort": "high" }
+      },
+      "forbidden_types": ["single_choice", "true_false"],
+      "notes": "卷面题型题数待补（尚未取得官方考纲）。"
+    },
+    "aca_llm": {
+      "name": "阿里云 ACA 大模型工程师 V2.4",
+      "db": "data/aca_llm.sqlite",
+      "target_count": 50,
+      "paper_total_score": 100,
+      "paper_total_items": 50,
+      "paper_duration_minutes": 60,
+      "paper_note": "官方考纲 V2.4 原文：满分 100、及格 80、60 分钟；单选 35 题 + 多选 15 题，每题 2 分。来源：inbox/aca_llm/aca_v24_syllabus.pdf",
+      "question_types": {
+        "single_choice":   { "name": "单选", "paper_count": 35, "per_item": 2, "judge": "local_rule", "score_correct": 2, "score_wrong": 0 },
+        "multiple_choice": { "name": "多选", "paper_count": 15, "per_item": 2, "judge": "local_rule", "score_all_correct": 2, "score_partial": 0, "score_wrong": 0 }
+      },
+      "syllabus_v2_4": {
+        "大模型概念": 0.18,
+        "提示词工程": 0.20,
+        "增强大模型应用的能力": 0.22,
+        "大模型微调": 0.12,
+        "大模型Agent": 0.16,
+        "大模型安全合规": 0.12
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 人工审核</title>
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body data-page="review" data-index="{{ idx }}" data-total="{{ total }}"
+      data-subject="{{ item.subject if item else subject }}">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">人工审核</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review" class="active">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="card filters">
+    <span class="pill">第 {{ idx + 1 if total else 0 }} / {{ total }} 题</span>
+    <span class="spacer"></span>
+    <form method="get" action="/review" class="inline-form">
+      <label>科目
+        <select name="subject">
+          <option value="">全部</option>
+          {% for k, v in subject_labels.items() %}
+          <option value="{{ k }}" {% if item and item.subject == k %}selected{% endif %}>{{ v }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <button class="btn btn-small" type="submit">切换</button>
+    </form>
+    <span class="muted small">快捷键：A 通过 · R 拒绝 · E 修改 · ←/→ 切题</span>
+  </div>
+
+  {% if not item %}
+  <section class="card">
+    <h1>没有待审核的题</h1>
+    <p class="muted">当前没有 <code>status='pending_review'</code> 的题目。生成/补题后待审题会自动出现在这里。</p>
+    <p class="row">
+      <a class="btn" href="/quiz">去刷题</a>
+      <a class="btn" href="/analysis">看分析</a>
+    </p>
+  </section>
+  {% else %}
+  <section class="card" id="reviewCard">
+    <div class="review-head">
+      <span class="pill">{{ item.subject }}</span>
+      <span class="pill">{{ item.question_type or '未知题型' }}</span>
+      <span class="pill">{{ item.difficulty or '难度未标' }}</span>
+      <span class="pill">status: {{ item.status }}</span>
+      <span class="pill">version: {{ item.version or 0 }}</span>
+      {% if item.quality_score %}<span class="pill">质量分 {{ item.quality_score }}</span>{% endif %}
+    </div>
+
+    <h2 class="stem" id="reviewStem">{{ item.stem }}</h2>
+
+    {% if item.options_parsed %}
+    <ul class="opt-list">
+      {% for o in item.options_parsed %}
+      <li><b class="opt-key">{{ o.key }}</b> <span class="opt-text">{{ o.text }}</span></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <table class="data kv">
+      <tbody>
+        <tr><th>答案</th><td class="mono">{{ item.answer or '—' }}</td></tr>
+        <tr><th>解析</th><td>{{ item.explanation or '—' }}</td></tr>
+        <tr><th>source_url</th><td class="mono small break">{{ item.source_url or '—' }}</td></tr>
+        <tr><th>source_type / credit</th><td class="small">{{ item.source_type or '—' }} / {{ item.source_credit or '—' }}</td></tr>
+        <tr><th>fact_claim</th><td>{{ item.fact_claim or '—' }}</td></tr>
+        <tr><th>fact_source</th><td class="small break">{{ item.fact_source or '—' }}</td></tr>
+        <tr><th>fact_verified</th><td>
+          {% if item.fact_verified %}<span class="ok-text">已校验（1）</span>
+          {% else %}<span class="due-text">未校验（0）</span>{% endif %}
+        </td></tr>
+        <tr><th>chapter / 知识点</th><td class="small">{{ item.chapter or '—' }} / {{ item.knowledge_point or '—' }}</td></tr>
+        <tr><th>syllabus_ref</th><td class="small">{{ item.syllabus_ref or '—' }}</td></tr>
+      </tbody>
+    </table>
+
+    {% if item.source_credit and (',' in item.source_credit or '；' in item.source_credit or ';' in item.source_credit) %}
+    <p class="notice-due">相似题提示：该题命中多个来源（跨源去重合并），source_credit 见上表。</p>
+    {% endif %}
+
+    <div id="editArea" class="edit-area" hidden>
+      <h3>就地修改（保存后仍为 pending_review）</h3>
+      <label>题干 <textarea id="editStem" rows="4">{{ item.stem }}</textarea></label>
+      <label>答案 <textarea id="editAnswer" rows="2">{{ item.answer or '' }}</textarea></label>
+      <label>解析 <textarea id="editExplanation" rows="7">{{ item.explanation or '' }}</textarea></label>
+      <p class="row">
+        <button class="btn btn-primary" id="btnSaveEdit" type="button">保存修改</button>
+        <button class="btn" id="btnCancelEdit" type="button">取消</button>
+      </p>
+    </div>
+
+    <div class="review-actions">
+      <div class="reason-box">
+        <label for="rejectReason" class="required-label">拒绝原因（拒绝时必选）</label>
+        <select id="rejectReason">
+          <option value="">请选择…</option>
+          {% for r in reject_reasons %}<option value="{{ r }}">{{ r }}</option>{% endfor %}
+        </select>
+      </div>
+      <div class="action-buttons">
+        <button class="btn btn-ok btn-wide" id="btnApprove" type="button">通过 (A)</button>
+        <button class="btn btn-danger btn-wide" id="btnReject" type="button">拒绝 (R)</button>
+        <button class="btn btn-wide" id="btnEdit" type="button">修改 (E)</button>
+      </div>
+    </div>
+    <p class="muted small">
+      通过 → <code>approved</code>；拒绝 → <code>rejected</code>（原因写 <code>logs/review_rejects.jsonl</code>）；
+      修改 → 保持 <code>pending_review</code>。均写 <code>review_log</code>、<code>reviewed_by='human'</code>、<code>version+1</code>。
+    </p>
+  </section>
+
+  <section class="card">
+    <div class="row">
+      <button class="btn" id="btnPrev" type="button" {% if idx <= 0 %}disabled{% endif %}>← 上一题</button>
+      <button class="btn" id="btnNext" type="button" {% if idx + 1 >= total %}disabled{% endif %}>下一题 →</button>
+      <span class="spacer"></span>
+      <span class="muted small" id="reviewMsg"></span>
+    </div>
+    <p class="muted small">剩余待审 {{ total }} 题（当前筛选：{{ subject or '全部科目' }}）。</p>
+  </section>
+  {% endif %}
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script>window.TKU_REVIEW = {{ {
+  "question_uid": item.question_uid if item else "",
+  "subject": item.subject if item else "",
+  "index": idx, "total": total
+} | tojson }};</script>
+<script src="/static/js/app.js"></script>
+<script src="/static/js/review.js"></script>
+</body>
+</html>

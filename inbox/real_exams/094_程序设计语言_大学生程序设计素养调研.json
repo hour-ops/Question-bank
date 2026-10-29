@@ -1,0 +1,244 @@
+{
+ "id": 94,
+ "title": "大学生程序设计素养调研",
+ "subject": "程序设计语言",
+ "createTime": "2026-03-30 18:07:59",
+ "exam": {
+  "meta": {
+   "title": "大学生程序设计素养调研",
+   "subject": "程序设计语言"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "单选题",
+    "content": "以下哪个是一种编程语言？ {{__SELECT_1__}}",
+    "options": [
+     "A. Word",
+     "B. Excel",
+     "C. Python",
+     "D. Photoshop"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "Python 是当前最流行的编程语言之一，其余三个都是应用软件。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "1"
+    },
+    "originalNumber": 1
+   },
+   {
+    "id": 2,
+    "type": "单选题",
+    "content": "程序员常说的\"Bug\"是指什么？ {{__SELECT_1__}}",
+    "options": [
+     "A. 一种电脑病毒",
+     "B. 程序中的错误",
+     "C. 一款软件的名字",
+     "D. 电脑死机"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "Bug 是编程中对程序错误或缺陷的通俗说法，源自早期计算机中飞蛾导致故障的典故。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "2"
+    },
+    "originalNumber": 2
+   },
+   {
+    "id": 3,
+    "type": "单选题",
+    "content": "下面这行代码运行后，屏幕上会显示什么？\\nprint(\"你好\") {{__SELECT_1__}}",
+    "options": [
+     "A. print(\"你好\")",
+     "B. 你好",
+     "C. \"你好\"",
+     "D. 没有任何显示"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "print() 是输出函数，它会把括号里引号中的内容显示到屏幕上。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "3"
+    },
+    "originalNumber": 3
+   },
+   {
+    "id": 4,
+    "type": "单选题",
+    "content": "在编程中，通常用哪个符号表示乘法？ {{__SELECT_1__}}",
+    "options": [
+     "A. ×",
+     "B. x",
+     "C. \\*",
+     "D. \\#"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "在绝大多数编程语言中，* 表示乘法运算。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "4"
+    },
+    "originalNumber": 4
+   },
+   {
+    "id": 5,
+    "type": "单选题",
+    "content": "下面这行代码运行后，屏幕上会显示什么？\\nprint(1 + 2) {{__SELECT_1__}}",
+    "options": [
+     "A. 1 + 2",
+     "B. 12",
+     "C. 3",
+     "D. \"3\""
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "1 + 2 是数学运算，计算机会先算出结果 3，然后输出。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "5"
+    },
+    "originalNumber": 5
+   },
+   {
+    "id": 6,
+    "type": "单选题",
+    "content": "执行下面的代码后，屏幕上会显示什么？\\na = 5\\nprint(a) {{__SELECT_1__}}",
+    "options": [
+     "A. a",
+     "B. 5",
+     "C. \"a\"",
+     "D. 报错"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "第一行把数字 5 存到变量 a 里，第二行把 a 的值输出，所以显示 5。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "6"
+    },
+    "originalNumber": 6
+   },
+   {
+    "id": 7,
+    "type": "单选题",
+    "content": "在 Python 中，= 和 == 的区别是什么？ {{__SELECT_1__}}",
+    "options": [
+     "A. 没有区别，都是赋值",
+     "B. = 是赋值，== 是判断是否相等",
+     "C. = 是判断相等，== 是赋值",
+     "D. 两个都是判断是否相等"
+    ],
+    "answer": [
+     "B"
+    ],
+    "analysis": "一个等号 = 是给变量赋值，两个等号 == 是比较两边是否相等。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "7"
+    },
+    "originalNumber": 7
+   },
+   {
+    "id": 8,
+    "type": "单选题",
+    "content": "以下哪个可以作为合法的变量名？ {{__SELECT_1__}}",
+    "options": [
+     "A. 666",
+     "B. my name",
+     "C. hello_world",
+     "D. 3abc"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "变量名不能以数字开头（排除A、D），不能包含空格（排除B），hello_world 合法。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "8"
+    },
+    "originalNumber": 8
+   },
+   {
+    "id": 9,
+    "type": "单选题",
+    "content": "下面这段代码运行后，屏幕上会显示什么？\\na = 10\\nif a > 5:\\n    print(\"大\")\\nelse:\\n    print(\"小\") {{__SELECT_1__}}",
+    "options": [
+     "A. 大",
+     "B. 小",
+     "C. 10",
+     "D. 报错"
+    ],
+    "answer": [
+     "A"
+    ],
+    "analysis": "a 是 10，10 > 5 成立，所以走 if 分支，输出\"大\"。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "9"
+    },
+    "originalNumber": 9
+   },
+   {
+    "id": 10,
+    "type": "单选题",
+    "content": "下面这段代码运行后，屏幕上会显示几次\"Hello\"？\\nfor i in range(3):\\n    print(\"Hello\") {{__SELECT_1__}}",
+    "options": [
+     "A. 1 次",
+     "B. 2 次",
+     "C. 3 次",
+     "D. 4 次"
+    ],
+    "answer": [
+     "C"
+    ],
+    "analysis": "range(3) 会让循环执行 3 次（分别是第0次、第1次、第2次），所以打印 3 次。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "程序设计素养调研_客观题.txt",
+     "fileId": "2038563154210402305",
+     "originalNumber": "10"
+    },
+    "originalNumber": 10
+   }
+  ]
+ }
+}

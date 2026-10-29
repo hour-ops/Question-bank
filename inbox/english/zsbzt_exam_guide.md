@@ -1,0 +1,189 @@
+# 考纲解读（zsbzt.cn）
+
+> 来源：`http://zsbzt.cn/assets/ExamGuide-pDvJF3qx.js`（站点首页：http://zsbzt.cn/ ，标题：湖北专升本英语真题在线 - 2020-2026历年真题在线练习）
+> 抓取方式：直接取公开的懒加载 chunk（无需登录）
+> ⚠️ 这是站点自撰的**备考解读/范文**，非官方考纲；引用时须标来源，且不得当作事实性权威依据
+`fact_source`: "http://zsbzt.cn/assets/ExamGuide-pDvJF3qx.js"
+
+- 英语考纲解读 · 2026</div><h1 data-v-61719ebf>2026湖北专升本英语<br data-v-61719ebf><span class=
+- 考前必看 · 考纲全解读</span></h1><p class=
+- 基于官方考试大纲、课程标准及2020-2025全部6套真题深度分析编写</p><div class=
+- 套真题分析</span></div><div class=
+- 版大纲对比</span></div><div class=
+- 大题型拆解</span></div></div></section><div class=
+- 年英语考试，没有选择题</h3><p data-v-61719ebf>没有ABCD，没有四选一，没有蒙的机会。如果你还在刷2023年以前的旧题型真题，请立刻停下来——那些题型今年一道都不会出。</p><div class=
+- 题型范围：无选择题，无判断题，其他题型不限。&quot; —— 《2026年湖北省普通高等学校专升本〈大学英语〉考试要求》</div></div></div></div>
+- 考试信息</div><h2 data-v-61719ebf>基本信息</h2><div class=
+- 考试时间</th><td data-v-61719ebf>2026年4月17日</td></tr><tr data-v-61719ebf><th data-v-61719ebf>时长</th><td data-v-61719ebf>120 分钟</td></tr><tr data-v-61719ebf><th data-v-61719ebf>满分</th><td data-v-61719ebf>100 分</td></tr><tr data-v-61719ebf><th data-v-61719ebf>形式</th><td data-v-61719ebf>闭卷、笔试</td></tr><tr data-v-61719ebf><th data-v-61719ebf>题型</th><td class=
+- 全部主观题（填空、问答、翻译、写作）</td></tr></table></div></div><div class=
+- 试卷结构</div><h2 data-v-61719ebf>六大题型 · 分值分布</h2><p class=
+- 连续两年真题格式高度一致，2026大概率延续。</p><div class=
+- 题型</th><th data-v-61719ebf>题数</th><th data-v-61719ebf>每题</th><th data-v-61719ebf>满分</th><th data-v-61719ebf>占比</th></tr></thead><tbody data-v-61719ebf><tr data-v-61719ebf><td data-v-61719ebf>Part I 语法填空</td><td data-v-61719ebf>10</td><td data-v-61719ebf>2分</td><td data-v-61719ebf>20</td><td data-v-61719ebf>20%</td></tr><tr data-v-61719ebf><td data-v-61719ebf>Part II 连词成句</td><td data-v-61719ebf>6</
+- 分</td><td data-v-61719ebf>12</td><td data-v-61719ebf>12%</td></tr><tr data-v-61719ebf><td data-v-61719ebf>Part III 阅读填空</td><td data-v-61719ebf>10 (2篇)</td><td data-v-61719ebf>2分</td><td data-v-61719ebf>20</td><td data-v-61719ebf>20%</td></tr><tr data-v-61719ebf><td data-v-61719ebf>Part IV 阅读理解</td><td data-v-61719ebf>10 (2篇)</td><td data-v-61719ebf>2分</td><td data-v-61719ebf>20</td><td data-v-6171
+- 翻译填空</td><td data-v-61719ebf>6</td><td data-v-61719ebf>3分</td><td data-v-61719ebf>18</td><td data-v-61719ebf>18%</td></tr><tr data-v-61719ebf><td data-v-61719ebf>Part VI 写作</td><td data-v-61719ebf>1</td><td data-v-61719ebf>10分</td><td data-v-61719ebf>10</td><td data-v-61719ebf>10%</td></tr><tr class=
+- 合计</td><td data-v-61719ebf>43</td><td data-v-61719ebf>—</td><td data-v-61719ebf>100</td><td data-v-61719ebf>100%</td></tr></tbody></table></div></div><div class=
+- 分</div><h2 data-v-61719ebf>语法填空</h2><p class=
+- 一篇150-200词的短文，10个空。有提示词的变形，没提示词的自己填。</p><div class=
+- 题型说明</h3><span class=
+- 分 · 10题 × 2分</span></div><p style=
+- 有括号提示词</strong> → 需要变换词形（时态、词性、比较级等）</p><p style=
+- 没有提示词</strong> → 需要填入功能词（冠词、介词、连词等）</p><div class=
+- 真题</div><div class=
+- 最高级）</div></div><div class=
+- 介词，表持续时间）</div></div></div><div class=
+- 大考点逐项拆解</h3></div><div class=
+- 冠词 a / an / the <span class=
+- 低</span></h4><div class=
+- 无提示词</strong> · 考频：每年必考1-2空<br data-v-61719ebf> a/an 用于泛指（首次出现的可数名词单数），the 用于特指（上文提过/独一无二/最高级前） </div><div class=
+- 介词 <span class=
+- 无提示词</strong> · 考频：每年必考1-2空<br data-v-61719ebf> 常考：in（地点/月份）、on（具体日期/表面）、for（持续时间/目的）、at（时间点/地点）、by（方式/截止）、with（伴随）、to（方向/对象） </div><div class=
+- 时间段）<br data-v-61719ebf> 2024：I have confidence <span class=
+- 固定搭配） </div></div></div><div class=
+- 连词 and / but / if / when / that <span class=
+- 无提示词</strong> · 考频：每年1空<br data-v-61719ebf> and（并列）、but（转折）、if（条件）、when（时间）、that（引导从句）、because/so（因果） </div><div class=
+- 并列三项）<br data-v-61719ebf> 2024：I can lend my bike to you <span class=
+- 条件） </div></div></div><div class=
+- 动词时态变化 <span class=
+- 中</span></h4><div class=
+- 有提示词（动词原形）</strong> · 考频：每年2-3空<br data-v-61719ebf><strong data-v-61719ebf>重点时态：</strong>一般过去时(-ed)、一般现在时(第三人称-s)、现在完成时(has/have done)、过去进行时(was doing) </div><div class=
+- 过去时间→一般过去时）<br data-v-61719ebf> 2025：Liu also <span class=
+- 一般现在时第三人称）<br data-v-61719ebf> 2024：Dad often <span class=
+- 过去时） </div></div></div><div class=
+- 词性转换（形容词↔名词↔副词） <span class=
+- 有提示词</strong> · 考频：每年2-3空<br data-v-61719ebf><strong data-v-61719ebf>看空格在句中的位置：</strong>修饰名词→要形容词，修饰动词→要副词，作主语/宾语→要名词<br data-v-61719ebf><strong data-v-61719ebf>常见变化：</strong>beauty→beautiful, happy→happiness, great→greatly, safe→safety </div><div class=
+- 形容词修饰名词）<br data-v-61719ebf> 2025：People&#39;s <span class=
+- 名词作主语）<br data-v-61719ebf> 2024：has <span class=
+- 副词修饰动词） </div></div></div><div class=
+- 比较级与最高级 <span class=
+- 有提示词</strong> · 考频：几乎每年1空<br data-v-61719ebf> 单音节词加-er/-est，多音节词加more/most；注意标志词：than（比较级），of all / in+范围（最高级） </div><div class=
+- 最高级）<br data-v-61719ebf> 2023：The mountain is quite <span class=
+- 比较级） </div></div></div><div class=
+- 被动语态 <span class=
+- 有提示词（动词原形）</strong> · 考频：常考<br data-v-61719ebf> 主语是动作的承受者时用被动：be + 过去分词；注意过去分词也可作定语/补语 </div><div class=
+- 过去分词作定语）<br data-v-61719ebf> 2023：Yesterday the kid <span class=
+- 非谓语动词（to do / doing / done） <span class=
+- 有提示词</strong> · 考频：每年1-2空<br data-v-61719ebf><strong data-v-61719ebf>判断方法：</strong>句中已有谓语动词→空格填非谓语<br data-v-61719ebf> 介词/enjoy/keep后→doing；目的/the first to→to do；表被动或完成→done </div><div class=
+- 后接-ing）<br data-v-61719ebf> 2024：The Internet has greatly changed the way we live（已有谓语has changed） </div></div></div><div class=
+- 主谓一致 <span class=
+- 无/有提示词</strong> · 考频：偶尔考<br data-v-61719ebf> 单数主语→动词加s/is/was；动名词/不可数名词作主语→谓语用单数；as well as/with不影响主语 </div><div class=
+- 第三人称单数）<br data-v-61719ebf> 2024：There are <span class=
+- 复数→many） </div></div></div><div class=
+- 代词 <span class=
+- 有/无提示词</strong> · 考频：偶尔考<br data-v-61719ebf> 人称代词(I/me/my/mine)、反身代词(yourself/himself)、指示代词(this/that) </div><div class=
+- 靠自己）<br data-v-61719ebf> 2023：can I use your umbrella? I can&#39;t find <span class=
+- 名词性物主代词） </div></div></div></div><div class=
+- 拿分策略</h4><ul data-v-61719ebf><li data-v-61719ebf>这20分是全卷最容易拿分的部分，语法点固定</li><li data-v-61719ebf>没提示词的空，90%答案是 a / the / in / on / for / and / but / to / that</li><li data-v-61719ebf>有提示词的空，先看词性，再看时态/语态</li><li data-v-61719ebf>反复练10篇短文就能掌握规律</li></ul><div class=
+- 目标：16分以上</div></div></div></div><div class=
+- 分</div><h2 data-v-61719ebf>连词成句</h2><p class=
+- 题，把打乱的英语词组排成正确的句子。</p><div class=
+- 必会的5种句型结构</h3><span class=
+- 分 · 6题 × 2分</span></div><div class=
+- 主 + 谓 + 宾 <span class=
+- 基础</span></h4><span class=
+- 主语 + 动词 + 宾语（+ 时间/地点）</span><div class=
+- 真题</span></div></div><div class=
+- 被动语态句 <span class=
+- 重点</span></h4><span class=
+- 主语 + was/were/is + 过去分词 + by + 执行者 + 时间</span><div class=
+- 真题（注意：考了时事！）</span></div></div><div class=
+- 主 + 谓 + 宾 + 宾补（不定式） <span class=
+- 主语 + 动词 + 宾语 + to do / do sth</span><div class=
+- 主系表结构 <span class=
+- 主语 + is/are + 表语（名词/形容词/介词短语）</span><div class=
+- 现在完成时 / 含情态动词 <span class=
+- 主语 + has/have + 过去分词 | 主语 + should/can + 动词原形</span><div class=
+- 真题</span></div></div></div><div class=
+- 注意事项</h4><ul data-v-61719ebf><li data-v-61719ebf>句首字母大写，句末加句号——别丢这种冤枉分</li><li data-v-61719ebf>2025考了Deepseek，2026可能出AI、新能源、航天等时事</li><li data-v-61719ebf>先找主语和谓语动词，其他成分往两边靠</li></ul><div class=
+- 目标：10分以上</div></div></div></div><div class=
+- 分</div><h2 data-v-61719ebf>阅读填空</h2><p class=
+- 篇文章，每篇5空，根据原文填入1个词。答案基本直接来自原文。</p><div class=
+- 考查的4种填空能力</h3><span class=
+- 分 · 10题 × 2分</span></div><div class=
+- 原词定位 <span class=
+- 答案词直接出现在原文中，需要精准找到对应句子</div><div class=
+- 原文：a unique <strong data-v-61719ebf>musical</strong> tradition → 填空：a unique <span class=
+- 同义转换 <span class=
+- 题目表述与原文不完全一致，需要理解意思后填词</div><div class=
+- 原文：fewer villages are there to keep → 填空：There are <span class=
+- 信息归纳 <span class=
+- 需要从一段话中提炼出一个关键词</div><div class=
+- 原文：Play is important to child development → 填空：important to the <span class=
+- 词性适配 <span class=
+- 原文用的是一种词性，填空处需要另一种词性（如动词→动名词）</div><div class=
+- 原文：learn these songs by listening → 填空：by <span class=
+- 近两年真题话题</h4><table class=
+- 年份</th><th data-v-61719ebf>第1篇</th><th data-v-61719ebf>第2篇</th></tr><tr data-v-61719ebf><td data-v-61719ebf><strong data-v-61719ebf>2025</strong></td><td data-v-61719ebf>侗族大歌（中国文化）</td><td data-v-61719ebf>如何处理分歧</td></tr><tr data-v-61719ebf><td data-v-61719ebf><strong data-v-61719ebf>2024</strong></td><td data-v-61719ebf>儿童游戏的重要性</td><td data-v-61719ebf>长颈鹿保护（环保科普）</td></tr></table><p style=
+- 规律：通常一篇偏中国文化，一篇偏社会/科普。</p><div class=
+- 拿分策略</h4><ul data-v-61719ebf><li data-v-61719ebf><strong data-v-61719ebf>先看题目表格</strong>里的关键词，带着关键词回原文定位</li><li data-v-61719ebf>答案90%是原文原词，不要自己编</li><li data-v-61719ebf>注意空格前后的搭配关系（冠词+___+名词 → 填形容词）</li><li data-v-61719ebf>每空只填1个词，别多写</li></ul><div class=
+- 目标：14分以上</div></div></div></div><div class=
+- 分</div><h2 data-v-61719ebf>阅读理解</h2><p class=
+- 篇文章，每篇5题。用英语回答问题+最后一题英译汉。</p><div class=
+- 种题型逐个击破</h3><span class=
+- 细节题（约60%） <span class=
+- 开头，答案在原文中直接可找到</div><div class=
+- 简短回答即可）<span style=
+- 原因/推断题（约20%） <span class=
+- 开头，需要定位原因句（because / so / in order to）</div><div class=
+- 翻译题（每篇最后1题） <span class=
+- 重点</span></h4><div class=
+- 年新增题型！</strong> 把文中一句英文翻译成中文。翻译要点：句意通顺 &gt; 逐词翻译</div><div class=
+- 婚礼将于九月在伦敦的家中举行。</span> <span style=
+- 近两年阅读体裁</h4><table class=
+- 年份</th><th data-v-61719ebf>第1篇</th><th data-v-61719ebf>第2篇</th></tr><tr data-v-61719ebf><td data-v-61719ebf><strong data-v-61719ebf>2025</strong></td><td data-v-61719ebf>记叙文（河边旅行）</td><td data-v-61719ebf>私人书信（旅行经历）</td></tr><tr data-v-61719ebf><td data-v-61719ebf><strong data-v-61719ebf>2024</strong></td><td data-v-61719ebf>记叙文（公交车上的善举）</td><td data-v-61719ebf>记叙文（体育记者的一天）</td></tr></table><div cla
+- 拿分策略</h4><ul data-v-61719ebf><li data-v-61719ebf>简短回答就给满分，不需要写完整长句</li><li data-v-61719ebf>尽量用<strong data-v-61719ebf>原文的词</strong>来组织答案</li><li data-v-61719ebf>翻译题关键是句意通顺，人名地名直接写</li><li data-v-61719ebf>不确定也要写——写了可能得分，空着一定是0分</li></ul><div class=
+- 分</div><h2 data-v-61719ebf>翻译填空</h2><p class=
+- 题，给中文+不完整英文+提示词，你来补全。每题3分，单题分值最高。</p><div class=
+- 种高频考法</h3><span class=
+- 分 · 6题 × 3分</span></div><div class=
+- 条件句时态（if从句用一般现在时） <span class=
+- 高频</span></h4><div class=
+- 如果下雪，他们会取消活动。<br data-v-61719ebf>They will cancel the event if <span class=
+- 结构 <span class=
+- 小明教会了我如何使用英文词典。<br data-v-61719ebf>taught me how <span class=
+- 词性转换（形→名 / 名→形） <span class=
+- 这完美的日出将天空染成了粉橙色。<br data-v-61719ebf>This <span class=
+- 中频</span></h4><div class=
+- 雪下得如此之大...<br data-v-61719ebf>The snow is <span class=
+- 固定搭配（keep quiet / make sure / how old） <span class=
+- 你能保持安静吗？<br data-v-61719ebf>Can you <span class=
+- 请确保你有足够的休息。<br data-v-61719ebf>Please <span class=
+- 进行时 / 被动语态 <span class=
+- 詹姆斯的汉语水平稳步提升。<br data-v-61719ebf>James&#39;s Chinese is <span class=
+- 介词短语补全 <span class=
+- 低频</span></h4><div class=
+- 午饭后，我该喝养生茶了。<br data-v-61719ebf>I started drinking herbal tea <span class=
+- 拿分策略</h4><ul data-v-61719ebf><li data-v-61719ebf>先看中文意思 → 再看英文缺什么 → 最后看提示词</li><li data-v-61719ebf>提示词是动词 → 考虑时态/语态/to do/doing</li><li data-v-61719ebf>提示词是形容词/名词 → 考虑词性转换</li><li data-v-61719ebf>不确定就填提示词原形，有可能蒙对</li></ul><div class=
+- 目标：12分以上</div></div></div></div><div class=
+- 分</div><h2 data-v-61719ebf>写作</h2><p class=
+- 篇应用文，不少于40词。40词 = 4-5句话，别怕写不满。</p><div class=
+- 应用文写作</h3><span class=
+- 分 · 1题</span></div><h4 style=
+- 近两年真题</h4><table class=
+- 年份</th><th data-v-61719ebf>话题</th><th data-v-61719ebf>体裁</th></tr><tr data-v-61719ebf><td data-v-61719ebf><strong data-v-61719ebf>2025</strong></td><td data-v-61719ebf>以委员会名义邀请乐队参加音乐节</td><td data-v-61719ebf>邀请邮件</td></tr><tr data-v-61719ebf><td data-v-61719ebf><strong data-v-61719ebf>2024</strong></td><td data-v-61719ebf>请英国朋友帮忙买书</td><td data-v-61719ebf>手机短信</td></tr></table><h4 style=
+- 年可能考的体裁</h4><div class=
+- 电子邮件</div><div class=
+- 通知</div><div class=
+- 邀请函</div><div class=
+- 感谢信</div><div class=
+- 便条留言</div><div class=
+- 自荐信</div></div><h4 style=
+- 万能邮件模板（背这个就够了）</h4><div class=
+- 称呼]</span>,<br data-v-61719ebf><br data-v-61719ebf> I am writing to <span class=
+- 第二段：2-3句话，覆盖题目的每一个要点]</span><br data-v-61719ebf><br data-v-61719ebf> <span class=
+- 第三段：期待回复 / 再次感谢]</span><br data-v-61719ebf> Looking forward to your reply.<br data-v-61719ebf><br data-v-61719ebf> Best regards,<br data-v-61719ebf><span class=
+- 你的名字]</span></div><div class=
+- 拿分策略</h4><ul data-v-61719ebf><li data-v-61719ebf>40词 = 4-5句话，真的不多，别怕写不满</li><li data-v-61719ebf><strong data-v-61719ebf>覆盖所有要点</strong>是最重要的——漏一个点扣很多分</li><li data-v-61719ebf>用简单句，保证不出语法错误，就能拿7-8分</li><li data-v-61719ebf>注意格式：称呼 Dear... + 正文 + 落款 Best regards</li></ul><div class=
+- 目标：7分以上</div></div></div></div><div class=
+- 分数目标</div><h2 data-v-61719ebf>保底 vs 冲刺</h2><p class=
+- 无论你现在基础如何，31天足够把保底分拿到手。</p><div class=
+- 题型</th><th data-v-61719ebf>满分</th><th data-v-61719ebf>保底</th><th data-v-61719ebf>冲刺</th></tr></thead><tbody data-v-61719ebf><tr data-v-61719ebf><td data-v-61719ebf>语法填空</td><td data-v-61719ebf>20</td><td data-v-61719ebf>12</td><td data-v-61719ebf>18</td></tr><tr data-v-61719ebf><td data-v-61719ebf>连词成句</td><td data-v-61719ebf>12</td><td data-v-61719ebf>8</td><td data-v-61719ebf>12</td></tr><tr data
+- 阅读填空</td><td data-v-61719ebf>20</td><td data-v-61719ebf>12</td><td data-v-61719ebf>18</td></tr><tr data-v-61719ebf><td data-v-61719ebf>阅读理解</td><td data-v-61719ebf>20</td><td data-v-61719ebf>12</td><td data-v-61719ebf>16</td></tr><tr data-v-61719ebf><td data-v-61719ebf>翻译填空</td><td data-v-61719ebf>18</td><td data-v-61719ebf>9</td><td data-v-61719ebf>15</td></tr><tr data-v-61719ebf><td data-v-61719e
+- 写作</td><td data-v-61719ebf>10</td><td data-v-61719ebf>6</td><td data-v-61719ebf>9</td></tr><tr class=
+- 总分</td><td data-v-61719ebf>100</td><td data-v-61719ebf>59 ≈ 及格</td><td data-v-61719ebf>88 ≈ 高分</td></tr></tbody></table></div></div><div class=
+- 备考计划</div><h2 data-v-61719ebf>最后31天安排</h2><div class=
+- 第1-2周 · 打基础</h4><p data-v-61719ebf>认真做完2024+2025两套新题型真题 → 逐题分析错因 → 10大语法考点逐个过关 → 每天背30个高频词</p></div></div><div class=
+- 第3周 · 刷专项</h4><p data-v-61719ebf>语法填空练5篇 → 连词成句练30题 → 阅读各练5篇 → 翻译填空练20题 → 背熟写作模板</p></div></div><div class=
+- 第4周 · 模拟实战</h4><p data-v-61719ebf>做2-3套模拟卷，严格计时120分钟 → 回顾所有错题 → 查缺补漏</p></div></div><div class=
+- 考前一天 · 只看三样</h4><p data-v-61719ebf>语法考点速查表 + 写作万能模板 + 高频词汇。不刷新题，保持手感。</p></div></div></div></div></div>
+- 年再也没有人能靠蒙拿分了。但对认真准备的你来说，这反而是
+- 本文由「专升本真题」教研团队基于官方考试大纲及历年真题分析编写 · zsbzt.cn · 鄂ICP备2024077520号-12

@@ -1,0 +1,2324 @@
+{
+ "id": 106,
+ "title": "河北专升本英语21",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:40:54",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省 2021 年普通高校专科接本科教育选拔考试",
+   "subject": "英语",
+   "province": "河北省",
+   "year": 2021,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "b1d62f83-3430-4a53-a499-b9cbf94006fe"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "Phonetics",
+    "partLabel": "I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In each of the following groups of words, there are four underlined letters or letter combinations marked A, B, C and D. Compare the underlined parts and identify the ONE that is different from the others in pronunciation. Then mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. nature"
+        },
+        {
+         "key": "B",
+         "label": "B. attitude"
+        },
+        {
+         "key": "C",
+         "label": "C. catch"
+        },
+        {
+         "key": "D",
+         "label": "D. balance"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "字母 a 在 nature 中读 /eɪ/，其余三项都读 /æ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. nature"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. invite"
+        },
+        {
+         "key": "B",
+         "label": "B. pick"
+        },
+        {
+         "key": "C",
+         "label": "C. electric"
+        },
+        {
+         "key": "D",
+         "label": "D. dim"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "字母 i 在 invite 中读 /aɪ/，其余三项都读 /ɪ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. invite"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. though"
+        },
+        {
+         "key": "B",
+         "label": "B. smooth"
+        },
+        {
+         "key": "C",
+         "label": "C. these"
+        },
+        {
+         "key": "D",
+         "label": "D. leather"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "字母组合 th 在 smooth 中读 /θ/，其余三项都读 /ð/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. smooth"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. beast"
+        },
+        {
+         "key": "B",
+         "label": "B. season"
+        },
+        {
+         "key": "C",
+         "label": "C. measure"
+        },
+        {
+         "key": "D",
+         "label": "D. breathe"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "字母组合 ea 在 measure 中读 /e/，其余三项都读 /iː/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. measure"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. blouse"
+        },
+        {
+         "key": "B",
+         "label": "B. cousin"
+        },
+        {
+         "key": "C",
+         "label": "C. round"
+        },
+        {
+         "key": "D",
+         "label": "D. aloud"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "字母组合 ou 在 cousin 中读 /ʌ/，其余三项都读 /aʊ/。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. cousin"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "cloze",
+    "displayName": "Situational Dialogue",
+    "partLabel": "II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Then mark the corresponding letter on the Answer Sheet with a single line through the centre. Note that there are two additional choices and you may not use any of the choices in the list more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. I’m sure you need a good rest after your long journey."
+     },
+     {
+      "key": "B",
+      "label": "B. We visit China frequently."
+     },
+     {
+      "key": "C",
+      "label": "C. Allow me to introduce myself."
+     },
+     {
+      "key": "D",
+      "label": "D. How long do you intend to stay?"
+     },
+     {
+      "key": "E",
+      "label": "E. Both are our delegation members."
+     },
+     {
+      "key": "F",
+      "label": "F. When will you leave for Australia?"
+     },
+     {
+      "key": "G",
+      "label": "G. And I hope all of you will have a pleasant stay here."
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Li Hua: Excuse me, sir, are you Mr. John Green from Australia?\nJohn Green: Oh, yes, I’m John Green from Australia Trading Company Ltd.\nLi Hua:"
+       },
+       {
+        "type": "blank",
+        "key": "q6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": "I’m Li Hua, the director of Shijiazhuang Import & Export Company. And I come here specially to meet you.\nJohn Green: How do you do, Miss Li? It’s very kind of you to come here to meet us.\nLi Hua: How do you do? (They shake hands) And how many people are there in your party? Three?\nJohn Green: Yes, three people altogether. This is Mr. Burns and this is Ms. Jones."
+       },
+       {
+        "type": "blank",
+        "key": "q7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": "Li Hua: Welcome to Shijiazhuang. Is this your first trip to China?\nJohn Green: No."
+       },
+       {
+        "type": "blank",
+        "key": "q8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": "But this is indeed our first trip to Shijiazhuang. We take it our great honor being invited by you to visit your beautiful city.\nLi Hua: Well, every city has something of its own. Shijiazhuang, the capital city of Hebei province, is one of the beautiful cities in Northern China."
+       },
+       {
+        "type": "blank",
+        "key": "q9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": "John Green: Thank you, Li Hua. I’m sure all of us will have a wonderful time in Shijiazhuang.\nLi Hua:"
+       },
+       {
+        "type": "blank",
+        "key": "q10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": "John Green: About a week.\nLi Hua: Good. We will have enough time for our business talks. And in the interval between talks, we'll arrange a visit to the Great Wall.\nJohn Green: Wonderful! I must say nothing would please me more. Thank you!\nLi Hua: My pleasure. Let’s go to the hotel now. This way please."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据下一句的内容，李华是在介绍自己的名字，身份和来意，所以选择 C请允许我介绍一下自己。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Allow me to introduce myself."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据上一句，在介绍这两个成员的名字，所以选择 E 他们两个都是你的代表团成员。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. Both are our delegation members."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "上一句问的是这是你第一次来中国吗，他回答不是，空格后面是这的确是我们第一次来石家庄，很荣幸被你邀请来参观这座美丽的城市。所以选择 B，我们经常来中国参观拜访。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. We visit China frequently."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据前半句，在介绍石家庄，是河北的省会城市，是中国北方美丽的城市之一，回答是感谢你，我们肯定所有人都会在石家庄玩得很开心。所以选择 G，在表示祝愿，希望所有人在这里都能玩得开心。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. And I hope all of you will have a pleasant stay here."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据回答，是时间，大约一周，可以得知空格处是在进行提问，并且是问时间的特殊疑问句。所以选择 D，你们打算待多久。\n# Ⅲ.Reading Comprehension (50 points)\nSection A\nPassage 1\n# 【文章大意】\n关于大一学生的调查告诉我们为什么大多数学生都上大学： $8 8 \\%$ 想要“一个找到一份好工作的更好的机会”， $8 1 \\%$ 想要变“富有和有钱”。然而，现在大多数学生不能实现这些目标。有一个仔细的研究发现，在校大学生在学习上花费的时间更少了——从 20 世纪 60年代早期的每周 25 小时变成了现在的 15 小时。\n学习也能导致更好的学习成绩。获得更好的学习成绩意味着变得“有钱”的更高的机会。一份关于毕业 15 年的 20000 名校友的研究发现了下面的结果。那些班级前三名的学生比中间三名的学生挣得多得多。中间三名的学生又比倒数三名的学生挣得多。不必惊奇，那些在大学里成绩不好的人都希望他们能够在学校学习更多。\n学生是应该独自学习还是和别人一起学习这个问题比较复杂。如果老师把问题留给学生解决，如果学生首先尝试自己学习，小组学习往往是有帮助的。但是仅仅和同学在一起而不单独学习似乎不利于学习。在选课方面，很多学生更喜欢作业少、评分容易的课程。\n然而，选择难度更大、阅读时间更长、论文更多的课程有助于提高学习。\n在大学里，仍然有大量的时间来玩。然而，研究人员再次发现，并非所有的户外活动都是有益的。一般来说，活动，如参加学生组织和与同学交谈可以更有成效。\n最后，大学是一个美妙的地方，有新的兴趣，丰富你的经验，并设定你的目标。这样做的时候，你可能会重新考虑“富有和富有”是否应该是你在大学学习的主要原因。据几位调查人员称，追求金钱的人通常对他们的生活不太满意。也许他们更容易忽视更重要的事情，如家庭，朋友和工作。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. How long do you intend to stay?"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "Reading Comprehension Passage 1",
+    "partLabel": "III Section A",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement. Mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Surveys about freshman tell us why most students go to college: $8 8 \\%$ want a “better chance for a good job,” and $8 1 \\%$ want to be “rich and wealthy.” However, most students today cannot reach these goals. One careful study has discovered that the undergraduates are spending less time in study —from about 25 hours per week in the early 1960s to below 15 hours today.\nStudying also leads to better college grades. To have better grades means higher chances of becoming “rich and wealthy.” One study of 20,000 alumni (校友) 15 years after their graduation found the following results. Those who were in the top third of the class earned a lot more than those in the middle third. The middle third earned more than classmates in the bottom third. Not surprisingly, those whose grades were not good at college wished they had studied more in school.\nWhether students should study alone or with others is more complicated. If the teachers leave problems for students to solve, group study is often helpful if students first try to study by themselves. But simply getting together with classmates without first studying alone seems bad for learning. In choosing courses, many students prefer classes with a little homework and easy grading. Yet taking harder courses with longer readings and more papers helps to increase learning.\nIn college, there will still be plenty of time for fun. Once again, however, researchers find that not all outside activities are good. In general, activities, such as participating in student organizations and talking with classmates can be more fruitful.\nLast but not least, college is a wonderful place to have new interests, enrich your experience, and set your goals. In doing so, you might think again about whether “being rich and wealthy” should be your main reason for studying in college. According to several investigators, money seekers are usually less satisfied with their lives. Maybe they are more likely to neglect things that are more important, such as family, friends and work."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The majority of students go to college with the goal of"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. serving the country"
+        },
+        {
+         "key": "B",
+         "label": "B. earning much money"
+        },
+        {
+         "key": "C",
+         "label": "C. becoming famous"
+        },
+        {
+         "key": "D",
+         "label": "D. seeking fun"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "通过定位原文第一段第一行， $8 8 \\%$ want a “better chance for a good job,” and$8 1 \\%$ want to be “rich and wealthy.”，根据大一新生的调查，为什么他们去上大学，百分之八十八的回答是想要有更好的能够找到好工作的机会，百分之八十一的人想变得有钱和富有。可得知，大多数学生去上学，都带着想挣很多钱的目标。earning much money=rich and wealthy。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. earning much money"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Compared with the students in the early 1960s, today’s undergraduates spend hours less on study."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. 15"
+        },
+        {
+         "key": "B",
+         "label": "B. 25"
+        },
+        {
+         "key": "C",
+         "label": "C. 10"
+        },
+        {
+         "key": "D",
+         "label": "D. 40"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "通过定位 1960s，在原文第一段的最后一句话， the undergraduates arespending less time in study -from about 25 hours per week in the early 1960s to below 15 hourstoday. 现在的毕业生每周花 15 小时学习，而 20 世纪 60 年代的学生们会花每周 25 小时学习，题目中说的是，和 20 世纪 60 年代的学生相比，现在的毕业生们会少花多少时间在学习上， $2 5 \\mathrm { - } 1 5 \\mathrm { = } 1 0$ 小时。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. 10"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is NOT true?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Grades do affect the chances of becoming rich."
+        },
+        {
+         "key": "B",
+         "label": "B. Those who got top grades in college wished they had studied harder."
+        },
+        {
+         "key": "C",
+         "label": "C. Studying alone before getting together in a group can be helpful for students."
+        },
+        {
+         "key": "D",
+         "label": "D. Challenging courses can give the students more benefit than the easy ones."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A 选项定位在第二段第一句话，To have better grades means higher chances ofbecoming “rich and wealthy.” 有更好的分数意味着有更高的概率变的富有，所以 A 成绩会影响变富有的概率。A 选项正确。B 选项定位在第二段的一句话，those whose grades were notgood at college wished they had studied more in school.那些在学校分数不高的学生们希望他们在学校的时候好好学习。B 选项中说的是大学分数最高的学生们希望他们学习更刻苦一些，偷换了主语，所以 B 是错误的。C 选项定位在第三段的最第二句话，group studyis oftenhelpful if students first try to study by themselves.如果学生们一开始努力自己学习，那么小组学习对于学生们来说是有帮助的，C 选项的意思是在小组一起学习之前自己学习，这对于学生来说是有帮助的。C 选项是正确的。D 选项定位在第三段最后一句话，Yet takinghardercourses with longer readings and more papers helps to increase learning,然而,参加一些有长篇阅读和论文的较难的课程能够帮助提高学习。D 选项的有挑战的课程比简单的给学生带来了更多的好处。所以 D 正确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Those who got top grades in college wished they had studied harder."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following activities is beneficial for college students?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Watching TV."
+        },
+        {
+         "key": "B",
+         "label": "B. Playing with the computer."
+        },
+        {
+         "key": "C",
+         "label": "C. Serving in student organizations."
+        },
+        {
+         "key": "D",
+         "label": "D. Talking with online friends."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "【 解 析 】 根 据 定 位 到 原 文 第 四 段 最 后 一 句 话 ， In general, activities, such asparticipating in student organizations and talking with classmates can be more fruitful.总的来说，比如参加学生组织并且和同学们聊天这种活动，都是更加有收获的。题目问的是哪些活动对大学生们是有益的，C 选项在学生组织进行服务是对原文的解释。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Serving in student organizations."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why do people who focus on making money feel less satisfied with life?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Because they don’t have other hobbies."
+        },
+        {
+         "key": "B",
+         "label": "B. Because they are single-minded."
+        },
+        {
+         "key": "C",
+         "label": "C. Because they are lonely."
+        },
+        {
+         "key": "D",
+         "label": "D. Because they take less care of families and friends."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据定位出现在原文第五段第三句话，money seekers are usually less\nsatisfied with their lives.Maybe they are more likely to neglect things that are more important,such as family, friends and work.那些想要赚钱的人对于他们的生活是不太满意的，可能是他们更可能会忽略更重要的事情，比如家庭，朋友和工作。所以 D 选项，因为他们没有太关心家庭和朋友们是正确答案。\n# Passage 2\n# 【文章大意】\n当你得知树木像动物一样互相交流并把财富传给下一代时，你会感到惊讶吗?\nUBC 教授 Simard 解释了为什么树木比我们想象的要复杂得多。尽管查尔斯·达尔文认为树木是为了适者生存而竞争，但西玛德证明了他的观点是多么的错误。事实上，事实正好相反;树木通过它们的合作和支持生存下来，“取决于谁需要”传递必要的营养。\n氮和碳通过绵延数英里的地下真菌网络共享，确保森林生态系统中的所有树木都能提供和接收到适量的氮和碳，以保持它们的健康。这个隐藏系统的运作方式与我们大脑中的神经元网络非常相似，当一棵树被破坏时，它会影响到所有的树。\nSimard 谈到了“母树”，通常是所有其他树木赖以生存的最大最古老的植物。她解释了垂死的树木如何将财富传递给下一代，将重要的矿物质传递给幼树，使它们能够继续生长。当人类砍伐“母树”时，却没有意识到这些高度复杂的“树社会”或它们赖以生存的网络，我们正在减少整个森林的生存机会。\n“我们对此毫不在意，”Simard 悲伤地说。“枯死的树在枯死之前会把营养转移到小树身上，但我们从不给它们机会。”如果我们能把这个信息传达给林业，我们就能对未来的环境保护工作产生巨大的影响。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Because they take less care of families and friends."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "Reading Comprehension Passage 2",
+    "partLabel": "III Section A",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement. Mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Would it surprise you to learn that, like animals, trees communicate with each other and transmit their wealth to the next generation?\nUBC Professor Simard explains how trees are much more complex than most of us ever imagined. Although Charles Darwin thought that trees are competing for survival of the fittest, Simard shows just how wrong he was. In fact, the opposite is true; trees survive through their co-operation and support, passing around necessary nutrition “depending on who needs it”.\nNitrogen (氮) and carbon are shared through miles of underground fungi (真菌) networks, making sure that all trees in the forest ecological system give and receive just the right amount to keep them all healthy. This hidden system works in a very similar way to the networks of neurons (神经元) in our brains, and when one tree is destroyed, it affects all.\nSimard talks about “mother trees”, usually the largest and oldest plants on which all other trees depend. She explains how dying trees pass on the wealth to the next generation, transporting important minerals to young trees so they may continue to grow. When humans cut down “mother trees” with no awareness of these highly complex “tree societies” or the networks on which they feed, we are reducing the chances of survival for the entire forest.\n“We didn’t take any notice of it,” Simard says sadly. “Dying trees move nutrition into the young trees before dying, but we never give them chance.” If we could put across the message to the forestry industry, we could make a huge difference towards our environmental protection efforts for the future."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which is the closest meaning of the word “transmit” in Paragraph 1?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. change"
+        },
+        {
+         "key": "B",
+         "label": "B. pass on"
+        },
+        {
+         "key": "C",
+         "label": "C. exchange"
+        },
+        {
+         "key": "D",
+         "label": "D. support"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据第一段的句子意思，Would it surprise you to learn that, like animals, treescommunicate with each other and transmit their wealth to the next generation?这件事会让你觉得惊讶吗，动物们，树，他们都是和彼此进行沟通并且把财富传递给下一代，transmit 是传递，A 改变，B 传递，C 交换，D 支持。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. pass on"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The underlined sentence “the opposite is true” in Paragraph 2 probably means that trees"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. depend on each other"
+        },
+        {
+         "key": "B",
+         "label": "B. compete for survival"
+        },
+        {
+         "key": "C",
+         "label": "C. protect their own wealth"
+        },
+        {
+         "key": "D",
+         "label": "D. provide support for dying trees"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据定位第二段， Although Charles Darwin thought that trees are competing for survival of the fittest, Simard shows just how wrong he was. In fact, the opposite is true; trees survive through their co-operation and support, passing around necessary nutrition “depending on who needs it\".尽管达尔文认为树都是适者生存，Simard 展示了他是错的，事实上，相反的 才是对的，树是通过他们的合作，支持和传递必要的营养，这取决于谁需要它。所以树都 是互相依赖对方的，A 是正确答案。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. depend on each other"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "“Mother trees” are very important because they"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. look the largest in size in the forest"
+        },
+        {
+         "key": "B",
+         "label": "B. seem more likely to be cut down by humans"
+        },
+        {
+         "key": "C",
+         "label": "C. pass on nutrition to young trees"
+        },
+        {
+         "key": "D",
+         "label": "D. know more about the complex “tree societies”"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "通过定位在第四段第二句话，She explains how dying trees pass on the wealth to the next generation, transporting important minerals to young trees so they may continue to\ngrow. 她解释即将死亡的树是怎样把财富传递给下一代，把重要的矿物质传给年轻的树，所以他们才能继续成长。题干说的是母亲树是非常重要的，C 选项，因为他们把营养传给年轻的树。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. pass on nutrition to young trees"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The underlined word “it” in the last paragraph refers to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. how “tree societies” work"
+        },
+        {
+         "key": "B",
+         "label": "B. how trees grow old"
+        },
+        {
+         "key": "C",
+         "label": "C. how forestry industry develops"
+        },
+        {
+         "key": "D",
+         "label": "D. how young trees survive"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q19",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "通过定位最后一段，it 指的是上一段提到的母亲树和年轻的树之间的树木 之间的社会。When humans cut down “mother trees” with no awareness of these highly complex “tree societies” or the networks on which they feed, we are reducing the chances of survival for the entire forest.所以 A 选项是正确答案。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. how “tree societies” work"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is NOT CORRECT according to the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Trees communicate with each other more deeply than we think."
+        },
+        {
+         "key": "B",
+         "label": "B. Nitrogen and carbon play very important roles in the forest ecological system."
+        },
+        {
+         "key": "C",
+         "label": "C. When “mother trees” are cut down, we are reducing the chances of survival for the forest."
+        },
+        {
+         "key": "D",
+         "label": "D. We couldn't make efforts for the future environmental protection."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D 选项定位在最后一段倒数第二行， If we could put across the message to theforestry industry, we could make a huge difference towards our environmental protection effortsfor thefuture.如果我们能够向林业行业传达信息，那么我们可以为未来的环境保护做出巨大的改变。D 选项的意思是我们不能为未来的环境保护做出努力，所以 D 是错的。\n# Section B\n# 【文章大意】\n宽恕是一种美德，但从来没有人说这是容易的。当有人深深地伤害了你时，要放下你的仇恨是极其困难的。然而，宽恕是可能的，它会对你的身心健康带来意想不到的好处。最近的一项研究显示，懂得宽恕的人更少悲伤、愤怒和压力，更充满希望。\n你应该如何开始原谅?试试以下步骤:\n冷静自己。尝试一种简单的压力管理技巧，让你的愤怒消失。\n你可以做几次深呼吸，然后想想那些令你快乐的事情:自然界的美丽景色，或者你爱的人。\n不要等别人道歉。很多时候，伤害你的人并不打算道歉。他们可能是想伤害你，或者他们看待事物的方式和你不一样。如果你等着别人来道歉，你可能会等很长时间。记住，宽恕并不一定意味着和让你难过的人重新成为朋友。\n不要让冒犯你的人控制你。重新思考你的伤害会给伤害你的人力量。与其老是关注自己受到的伤害，还不如学着去寻找你身边的真善美。\n试着从冒犯你的人的角度看问题。如果你了解冒犯你的人，你可能会意识到他或她的行为是出于无意识、恐惧，甚至是爱。你可能想从冒犯你的人的角度给自己写一封信。\n不要忘记原谅自己。对有些人来说，原谅自己是最大的挑战，但如果你不原谅自己，你就会失去自信。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. We couldn't make efforts for the future environmental protection."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "cloze",
+    "displayName": "Reading Comprehension Section B",
+    "partLabel": "III Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter on the Answer Sheet with a single line through the centre. You may not use any of the words in the bank more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. focusing"
+     },
+     {
+      "key": "D",
+      "label": "D. hurt"
+     },
+     {
+      "key": "G",
+      "label": "G. friend"
+     },
+     {
+      "key": "J",
+      "label": "J. offender"
+     },
+     {
+      "key": "M",
+      "label": "M. recognize"
+     },
+     {
+      "key": "B",
+      "label": "B. challenge"
+     },
+     {
+      "key": "E",
+      "label": "E. necessarily"
+     },
+     {
+      "key": "H",
+      "label": "H. beneficial"
+     },
+     {
+      "key": "K",
+      "label": "K. kindness"
+     },
+     {
+      "key": "N",
+      "label": "N. take"
+     },
+     {
+      "key": "C",
+      "label": "C. forgive"
+     },
+     {
+      "key": "F",
+      "label": "F. start"
+     },
+     {
+      "key": "I",
+      "label": "I. wait"
+     },
+     {
+      "key": "L",
+      "label": "L. ignoring"
+     },
+     {
+      "key": "O",
+      "label": "O. anger"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "To forgive is a virtue, but no one has ever said it is easy. When someone has deeply"
+       },
+       {
+        "type": "blank",
+        "key": "q21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": "you, it can be extremely difficult to let go of your hate. However, forgiveness is possible, and it can be surprisingly"
+       },
+       {
+        "type": "blank",
+        "key": "q22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": "to your physical and mental health. People who forgive show less sadness, anger and stress and more hopefulness, according to a recent research.\nHow should you start to"
+       },
+       {
+        "type": "blank",
+        "key": "q23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": "? Try the following steps:\nCalm yourself. To make your anger die away, try a simple stress-management technique.\nYou can"
+       },
+       {
+        "type": "blank",
+        "key": "q24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": "a couple of breaths and think of something that gives you pleasure: a beautiful scene in nature, or someone you love.\nDon’t wait for an apology. Many times the person who hurt you does not intend to apologize. They may have wanted to hurt you or they just don’t see things the same way. If you"
+       },
+       {
+        "type": "blank",
+        "key": "q25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": "for people to apologize, you could be waiting an awfully long time. Keep in mind that forgiveness does not"
+       },
+       {
+        "type": "blank",
+        "key": "q26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": "mean becoming friends again with the person who upset you.\nTake the control away from your offender ( 冒 犯 者 ). Rethinking about your hurt gives power to the person who caused you pain. Instead of"
+       },
+       {
+        "type": "blank",
+        "key": "q27",
+        "placeholder": "27"
+       },
+       {
+        "type": "markdown",
+        "value": "on your wounded feelings, learn to look for the love, beauty and"
+       },
+       {
+        "type": "blank",
+        "key": "q28",
+        "placeholder": "28"
+       },
+       {
+        "type": "markdown",
+        "value": "around you .\nTry to see things from your offender’s angle. If you understand your"
+       },
+       {
+        "type": "blank",
+        "key": "q29",
+        "placeholder": "29"
+       },
+       {
+        "type": "markdown",
+        "value": ", you may realize that he or she was acting out of unawareness, fear, and even love, You may want to write a letter to yourself from your offender’s point of view.\nDon’t forget to forgive yourself. For some people, forgiving themselves is the biggest"
+       },
+       {
+        "type": "blank",
+        "key": "q30",
+        "placeholder": "30"
+       },
+       {
+        "type": "markdown",
+        "value": ". But it can rob you of your self-confidence if you don’t do it."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是 has deeply,后面是 you, 空格处填的是动词的过去分词形式，根据句意，前面说的是原谅是一种美德，但没人说这很简单，所以当别人伤害你了，很难去放下怨恨。所以选择 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. hurt"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "H"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是 be extremely,后面是 to，空格处填形容词，根据句意，原谅对身体和精神健康是有益的，bebeneficial to。所以选择 H。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "H. beneficial"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是 to，空格处填动词原形，句意是怎样开始原谅呢？试一试下面这些步骤。所以选择 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. forgive"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "N"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是情态动词 can,空格处填动词原形，句意是你可以深呼吸，takebreaths是固定搭配，所以选择 N。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "N. take"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "I"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是 you 作主语，空格处填谓语动词，句意如果你等待某人来道歉,wait forsb 是固定搭配。所以选择 I。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I. wait"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是助动词 doesn’t，后面是动词原形 mean，中间缺少副词，句意是记住，原谅不是必须意味着和惹你生气的人做朋友。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. necessarily"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是介词 of，要用动词 ing形式，focus onsb/sth,关注某人、某物，固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. focusing"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "K"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是 and，连接相同的词性的单词，前面是 love, beautiful 名词，所以选择 K，kindness 善良。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "K. kindness"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "J"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是形容词性物主代词 your，后面跟名词，句意是如果你理解你的冒犯者，你就会注意到到他没有意识，害怕和爱。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "J. offender"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格前面是 biggest,形容词最高级,空格处填名词,句意是对于一些人来说，原谅他们自己是最大的挑战。\n# Ⅳ. Cloze (20 points)\n# 【文章大意】\n英语有句谚语:“笑是最好的药。”直到最近，很少有人把这句话当真。然而，现在医生们已开始研究笑及其对人体的影响。他们发现笑真的可以改善人们的健康。\n人们进行了一些实验来研究笑对身体的影响。当医生检查他们的心脏、血压、呼吸和肌肉时，让人们观看有趣的电影。人们发现笑和体育锻炼有类似的效果。它会增加血压、心跳和呼吸;它还能锻炼面部、胃部甚至脚部的几组肌肉。如果笑可以锻炼身体，那一定是有益的。\n其他测试表明，笑似乎能够减轻身体疼痛的影响。在一项实验中，医生让一组听不同广播节目的学生感到疼痛。忍受疼痛时间最长的一组是听搞笑节目的那一组。笑可以减轻疼痛的原因似乎是它有助于大脑中产生一种化学物质，这种化学物质可以减轻压力和疼痛。\n由于这些发现，美国的一些医生现在开设了“大笑诊所”，通过鼓励病人笑来帮助他们改善病情。他们发现，即使他们的病人不是真的想笑，让他们微笑也足以产生与大笑类似的有益效果。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. challenge"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "Cloze",
+    "partLabel": "IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "There is an English saying: “Laughter is the best medicine.” Until recently, few people took the saying"
+       },
+       {
+        "type": "blank",
+        "key": "q31",
+        "placeholder": "31"
+       },
+       {
+        "type": "markdown",
+        "value": ". Now, however, doctors have begun to look into laughter and the"
+       },
+       {
+        "type": "blank",
+        "key": "q32",
+        "placeholder": "32"
+       },
+       {
+        "type": "markdown",
+        "value": "it has on the human body. They have found that laughter really can improve people’s health.\nTests were"
+       },
+       {
+        "type": "blank",
+        "key": "q33",
+        "placeholder": "33"
+       },
+       {
+        "type": "markdown",
+        "value": "to study the effects of laughter on the body. People watched funny films while doctors checked their hearts, blood pressure, breathing and muscles. It was found that laughter has similar effects to physical exercise. It"
+       },
+       {
+        "type": "blank",
+        "key": "q34",
+        "placeholder": "34"
+       },
+       {
+        "type": "markdown",
+        "value": "blood pressure, the heart beating and breathing; it also works several groups of muscles in the face, the stomach and even the feet. If laughter exercises the body, it must be"
+       },
+       {
+        "type": "blank",
+        "key": "q35",
+        "placeholder": "35"
+       },
+       {
+        "type": "markdown",
+        "value": "Other tests have shown that laughter appears to be able to reduce the effect of pain"
+       },
+       {
+        "type": "blank",
+        "key": "q36",
+        "placeholder": "36"
+       },
+       {
+        "type": "markdown",
+        "value": "the body. In one experiment doctors produced pain in groups of students"
+       },
+       {
+        "type": "blank",
+        "key": "q37",
+        "placeholder": "37"
+       },
+       {
+        "type": "markdown",
+        "value": "listened to different radio programs. The group that tolerated the pain for the longest time was the group which listened to a funny program. The reason why laughter can"
+       },
+       {
+        "type": "blank",
+        "key": "q38",
+        "placeholder": "38"
+       },
+       {
+        "type": "markdown",
+        "value": "pain seems to be that it helps to produce a kind of chemicals in the brain which diminish both stress and pain.\nAs a result of these discoveries, some doctors in the United States now hold laughter clinics in which they help to improve their patients’ condition by"
+       },
+       {
+        "type": "blank",
+        "key": "q39",
+        "placeholder": "39"
+       },
+       {
+        "type": "markdown",
+        "value": "them to laugh. They have found that even if their patients do not really feel like"
+       },
+       {
+        "type": "blank",
+        "key": "q40",
+        "placeholder": "40"
+       },
+       {
+        "type": "markdown",
+        "value": ", making them smile is enough to produce beneficial effects similar to those caused by laughter."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. carefully"
+        },
+        {
+         "key": "B",
+         "label": "B. seriously"
+        },
+        {
+         "key": "C",
+         "label": "C. heavily"
+        },
+        {
+         "key": "D",
+         "label": "D. kindly"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "take sth seriously 认真对待某事，固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. seriously"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. effects"
+        },
+        {
+         "key": "B",
+         "label": "B. affect"
+        },
+        {
+         "key": "C",
+         "label": "C. affection"
+        },
+        {
+         "key": "D",
+         "label": "D. exercises"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "大笑对身体的影响，the effect on human body。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. effects"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. carried out"
+        },
+        {
+         "key": "B",
+         "label": "B. carried forward"
+        },
+        {
+         "key": "C",
+         "label": "C. made over"
+        },
+        {
+         "key": "D",
+         "label": "D. handed out"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "做测试，carry out tests。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. carried out"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. destroys"
+        },
+        {
+         "key": "B",
+         "label": "B. balances"
+        },
+        {
+         "key": "C",
+         "label": "C. decreases"
+        },
+        {
+         "key": "D",
+         "label": "D. increases"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据上文，大笑和体育锻炼对心脏，血压，心跳和呼吸的作用很类似，就是会提升血压，心跳和呼吸。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. increases"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. interesting"
+        },
+        {
+         "key": "B",
+         "label": "B. harmful"
+        },
+        {
+         "key": "C",
+         "label": "C. beneficial"
+        },
+        {
+         "key": "D",
+         "label": "D. boring"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据上一句话，如果大笑能够锻炼身体，那么它必须是有益的。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. beneficial"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. on"
+        },
+        {
+         "key": "B",
+         "label": "B. in"
+        },
+        {
+         "key": "C",
+         "label": "C. to"
+        },
+        {
+         "key": "D",
+         "label": "D. within"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "在身体上的痛苦，用介词 on，固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. on"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. who"
+        },
+        {
+         "key": "B",
+         "label": "B. which"
+        },
+        {
+         "key": "C",
+         "label": "C. where"
+        },
+        {
+         "key": "D",
+         "label": "D. what"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "定语从句，先行词是 students,从句缺主语，用 who。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. who"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. produce"
+        },
+        {
+         "key": "B",
+         "label": "B. reduce"
+        },
+        {
+         "key": "C",
+         "label": "C. raise"
+        },
+        {
+         "key": "D",
+         "label": "D. rise"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "笑声能够减少痛苦，reduce减少。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. reduce"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. making"
+        },
+        {
+         "key": "B",
+         "label": "B. discouraging"
+        },
+        {
+         "key": "C",
+         "label": "C. encouraging"
+        },
+        {
+         "key": "D",
+         "label": "D. forcing"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "鼓励某人做某事， encourage sb to do sth."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. encouraging"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. to smile"
+        },
+        {
+         "key": "B",
+         "label": "B. smiling"
+        },
+        {
+         "key": "C",
+         "label": "C. to laugh"
+        },
+        {
+         "key": "D",
+         "label": "D. laughing"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "feel like doing sth,喜欢做某事。\n# V. Writing (15.points) 参考范文\n# My view on happiness\nWith the development of our society, we are having much more happiness than ever before. For a student like me, happiness is never a thing far reaching. Instead, it is appearing in every corner of our life.\nDuring the preparation of this examination, my parents, friends and teachers have given me tremendous help. I still remember the day when I was studying at night, I happened to notice that my mother was actually waiting for me in the living room with my dinner, without telling me.\nThere are many ways to reach happiness. Firstly, we should pay more attention on things around us. Secondly, happiness is not all about receiving but sometimes about giving.\nSpend more time with families and friends; do volunteer works instead of always waiting for help. Only then, can we embrace happiness."
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. laughing"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "Writing",
+    "partLabel": "V",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this part you are required to write a composition entitled My View on Happiness in no less than 100 words according to the following Chinese outline. Please remember to write it on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Write a composition entitled **My View on Happiness** in no less than 100 words according to the following Chinese outline.\n1. 你对幸福的理解；\n2. 生活中你觉得幸福的一件事情；\n3. 影响幸福的重要因素。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 100
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "写作时应围绕“幸福”展开，至少覆盖幸福的理解、一个具体生活事例以及影响幸福的重要因素，建议采用三段式结构，保证不少于 100 词。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My view on happiness\nWith the development of our society, we are having much more happiness than ever before. For a student like me, happiness is never a thing far reaching. Instead, it is appearing in every corner of our life.\nDuring the preparation of this examination, my parents, friends and teachers have given me tremendous help. I still remember the day when I was studying at night, I happened to notice that my mother was actually waiting for me in the living room with my dinner, without telling me.\nThere are many ways to reach happiness. Firstly, we should pay more attention on things around us. Secondly, happiness is not all about receiving but sometimes about giving.\nSpend more time with families and friends; do volunteer works instead of always waiting for help. Only then, can we embrace happiness."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

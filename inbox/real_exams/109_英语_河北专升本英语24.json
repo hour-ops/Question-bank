@@ -1,0 +1,2372 @@
+{
+ "id": 109,
+ "title": "河北专升本英语24",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:41:24",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省 2024 年普通高校专科接本科教育选拔考试",
+   "subject": "英语",
+   "province": "河北省",
+   "year": 2024,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "290bafe2-1138-447e-9e1b-343c575ee4b9"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "语音题",
+    "partLabel": "Part I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In each of the following groups of words, there are four underlined letters or letter combinations marked A, B, C and D. Compare the underlined parts and identify the ONE that is different from the others in pronunciation. Then mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. neph<u>ew</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. vi<u>ew</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. f<u>ew</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. ch<u>ew</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A、B、C 中 underlined 部分均读 /juː/，只有 D 中的 ew 读 /uː/，所以选 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. ch<u>ew</u>"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. f<u>or</u>ce"
+        },
+        {
+         "key": "B",
+         "label": "B. c<u>or</u>ner"
+        },
+        {
+         "key": "C",
+         "label": "C. d<u>or</u>mitory"
+        },
+        {
+         "key": "D",
+         "label": "D. eff<u>or</u>t"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "force、corner、dormitory 中的 or 发 /ɔː/ 音，effort 中对应字母组合的读音不同，所以选 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. eff<u>or</u>t"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. <u>h</u>onor"
+        },
+        {
+         "key": "B",
+         "label": "B. <u>h</u>ike"
+        },
+        {
+         "key": "C",
+         "label": "C. <u>h</u>ammer"
+        },
+        {
+         "key": "D",
+         "label": "D. <u>h</u>andle"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "hike、hammer、handle 中字母 h 发 /h/，honor 中 h 不发音，因此 A 的读音不同。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. <u>h</u>onor"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. <u>g</u>ift"
+        },
+        {
+         "key": "B",
+         "label": "B. <u>g</u>ather"
+        },
+        {
+         "key": "C",
+         "label": "C. <u>g</u>enius"
+        },
+        {
+         "key": "D",
+         "label": "D. <u>g</u>overnment"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "gift、gather、government 中 g 读 /g/，genius 中 g 读 /dʒ/，因此选 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. <u>g</u>enius"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. h<u>ear</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. b<u>ear</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. disapp<u>ear</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. f<u>ear</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "hear、appear、fear 中 ear 一般读 /ɪə/，bear 中 ear 读 /eə/，所以 B 不同。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. b<u>ear</u>"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "cloze",
+    "displayName": "情景对话",
+    "partLabel": "Part II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Then mark the corresponding letter on the Answer Sheet with a single line through the centre. Note that there are two additional choices and you may not use any of the choices in the list more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. I've done that before."
+     },
+     {
+      "key": "B",
+      "label": "B. Are you doing anything else?"
+     },
+     {
+      "key": "C",
+      "label": "C. See you soon."
+     },
+     {
+      "key": "D",
+      "label": "D. Have you managed to prepare your exams?"
+     },
+     {
+      "key": "E",
+      "label": "E. I still practice a lot for the exams."
+     },
+     {
+      "key": "F",
+      "label": "F. For example, you can break down all of your work into small tasks."
+     },
+     {
+      "key": "G",
+      "label": "G. I also do some sports."
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Dan: Hi, Jean. How's it going?\nJean: Oh, hello Dan. Pretty well, thanks. "
+       },
+       {
+        "type": "blank",
+        "key": "q6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": "\nDan: Not yet. Would you like to give me some advice?\nJean: Well, the first thing is to find out exactly what's required in the exams.\nDan: Right, I'll do that. Then what?\nJean: Then you can organize your learning, based on what's probably coming up.\nDan: Uhuh.\nJean: But that isn't enough in itself. You also need a timetable, to see how you can fit everything in the time available. Then keep it in front of you while you're studying.\nDan: "
+       },
+       {
+        "type": "blank",
+        "key": "q7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": " However, it wasn't enough!\nJean: Maybe you need to do something different every day. "
+       },
+       {
+        "type": "blank",
+        "key": "q8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": " With big topics, it might be possible for you to put off starting.\nDan: Good idea.\nJean: And after I review each topic, I read it quickly, and it helps fix things in my mind.\nDan: That's helpful.\nJean: "
+       },
+       {
+        "type": "blank",
+        "key": "q9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": " It's hard to make myself do it, though.\nDan: Well, I'll try to do more exercises. Thanks a lot, Jean. That's a great help.\nJean: No problem.\nDan: "
+       },
+       {
+        "type": "blank",
+        "key": "q10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": "\nJean: Bye."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Dan 回答 'Not yet'，说明前一句应是询问备考情况，只有 D 与后文逻辑完全衔接。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Have you managed to prepare your exams?"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Jean 提到制定时间表，Dan 接着说自己以前做过，但效果不够好，A 与 However 后的转折最自然。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. I've done that before."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后一句在解释把大任务拆开可避免拖延，因此此处应填表示举例说明的 F。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "F. For example, you can break down all of your work into small tasks."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后文 Dan 说会多做练习，说明 Jean 此处补充的是自己仍大量练习，故选 E。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. I still practice a lot for the exams."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "对话结束前 Dan 与 Jean 告别，最合适的是 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. See you soon."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part III Section A Passage 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement. Mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      },
+      {
+       "type": "markdown",
+       "value": "Questions 11-15 are based on the following passage."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "I am happy to have the chance to talk to you during our class meeting today. If I told you that playing a particular game would give a boost to your reading skills, would you want to learn the game? Sure you would. The game I am talking about is chess."
+       },
+       {
+        "type": "markdown",
+        "value": "You could get better scores in math by learning chess. I found many pages on the Internet telling how this game is so much more than just a way to pass the time. Chess requires problem solving. Educators and researchers have done studies with students just like you and me. These studies prove that chess teaches how to think ahead, how to plan, and how to be systematic in an approach to problem solving. If we know better how to use these skills, it figures we can use these same techniques to solve math problems. I read that one professor said that he saw improvement in his math students' scores after they had been playing chess for only three weeks. Is there any one of us who couldn't improve his or her math skills?"
+       },
+       {
+        "type": "markdown",
+        "value": "Playing chess is a mental workout. It is thinking and analyzing. When we read, we think about and analyze the material and hope that we comprehend it. Playing chess also will help us learn to concentrate, something we must do when we read."
+       },
+       {
+        "type": "markdown",
+        "value": "There is no cost for chess lessons. There is no special equipment to buy or uniform required. The only thing you have to bring is a determination to learn how to play."
+       },
+       {
+        "type": "markdown",
+        "value": "Strategy and reasoning are tools we can use for a lifetime. Chess will help us develop these skills! Welcome to our chess lesson!"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the passage, which of the following is NOT proved in the studies of learning chess?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. How to think ahead."
+        },
+        {
+         "key": "B",
+         "label": "B. How to plan."
+        },
+        {
+         "key": "C",
+         "label": "C. How to be systematic in an approach to problem solving."
+        },
+        {
+         "key": "D",
+         "label": "D. How to use math techniques."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中研究证明的是提前思考、制定计划和系统解决问题的能力，并未说研究直接教授数学技巧，因此选 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. How to use math techniques."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is the meaning of \"mental workout\"?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Thinking and playing."
+        },
+        {
+         "key": "B",
+         "label": "B. Thinking and analyzing."
+        },
+        {
+         "key": "C",
+         "label": "C. Playing and analyzing."
+        },
+        {
+         "key": "D",
+         "label": "D. Reading and analyzing."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文直接解释 'Playing chess is a mental workout. It is thinking and analyzing.'，因此选 B。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Thinking and analyzing."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How much would you pay for learning chess?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. No money."
+        },
+        {
+         "key": "B",
+         "label": "B. Some money."
+        },
+        {
+         "key": "C",
+         "label": "C. Cost for a special equipment."
+        },
+        {
+         "key": "D",
+         "label": "D. Cost for a uniform."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章明确说 There is no cost for chess lessons，所以不需要付钱，选 A。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. No money."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "For what purpose might the author have written the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. As a report for a newspaper."
+        },
+        {
+         "key": "B",
+         "label": "B. As an essay for English class."
+        },
+        {
+         "key": "C",
+         "label": "C. As a speech to classmates."
+        },
+        {
+         "key": "D",
+         "label": "D. As a letter to a professor."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "开头提到 during our class meeting today，结尾又有 Welcome to our chess lesson，可知这更像面对同学的演讲，选 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. As a speech to classmates."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is the main idea of the passage?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Chess is an important game in the world."
+        },
+        {
+         "key": "B",
+         "label": "B. Chess raises math scores because it helps to teach problem solving."
+        },
+        {
+         "key": "C",
+         "label": "C. It is not difficult to learn chess, and it can be played online."
+        },
+        {
+         "key": "D",
+         "label": "D. Because chess teaches various skills, it will be beneficial to have chess lessons."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文从阅读、数学、专注力和终身受益技能多个角度论证学国际象棋的好处，中心应是 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Because chess teaches various skills, it will be beneficial to have chess lessons."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "Part III Section A Passage 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Questions 16-20 are based on the following passage."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "In the wild, it often comes down to predator and prey--the hunter and the hunted. As you can imagine, most animals and plants want to stay alive. They have developed ways of adapting to severe habitats, and hiding or escaping from those who would like to eat them. So how do they do it?"
+       },
+       {
+        "type": "markdown",
+        "value": "One very helpful adaptation is called camouflage. You may have been surprised by an animal that was using camouflage in the past. It mixed itself with its environment so well that you nearly missed seeing it at all. Its coloring, markings, or other physical features are similar to its habitat so much that you can look directly at it without seeing it at first. This is often good enough to fool a predator that is scanning an area to look for food. This helps prey to hide from its predator. But did you know that it often works the other way around, too? Predators can use camouflage to trap their prey. If a predator wants to eat a certain animal, and that animal cannot see it lying in wait, it can attack its prey unexpectedly, eating it before it even knows what is happening."
+       },
+       {
+        "type": "markdown",
+        "value": "Another popular adaptation is mimicry. Mimicry is when an animal has markings or other physical characteristics that allow it to look like some other kind of animal or plant. If it can make its predators believe that it is something that preys on them, or would at least be difficult or painful to catch, its predator will often go off in search of an easier target."
+       },
+       {
+        "type": "markdown",
+        "value": "Sometimes animals are able to survive when their habitat changes because they adapt to the new conditions. For example, birds that were used to nesting on high mountains or in tall trees have survived industrialization of their habitat by learning to nest in tall buildings. Raccoons could easily adapt to residential areas that have taken over their forest homes. They often help themselves to any food they can grab, whether it is in trashcans, or inside people's homes!"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What does the sentence \"But did you know that it often works the other way around, too?\" mean?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Predators can use camouflage to catch their preys."
+        },
+        {
+         "key": "B",
+         "label": "B. Preys can use camouflage to catch their predators."
+        },
+        {
+         "key": "C",
+         "label": "C. Predators cannot use camouflage to catch their preys."
+        },
+        {
+         "key": "D",
+         "label": "D. Preys cannot use camouflage to catch their predators."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前文说 camouflage 可帮助猎物隐藏，接着说 it works the other way around，意思是捕食者也能利用伪装捕捉猎物，所以选 A。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Predators can use camouflage to catch their preys."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following could best explain the word \"mimicry\" in paragraph 3?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. An animal's physical characteristics don't look like some other kind of animal or plant."
+        },
+        {
+         "key": "B",
+         "label": "B. An animal's physical characteristics look like some other kind of animal or plant."
+        },
+        {
+         "key": "C",
+         "label": "C. An animal's physical characteristics look like the same kind of animal or plant."
+        },
+        {
+         "key": "D",
+         "label": "D. A plant's physical characteristics look like some other kind of animal or plant."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文直接定义 mimicry 为动物长得像另一种动物或植物，因此 B 最准确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. An animal's physical characteristics look like some other kind of animal or plant."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the statements is NOT true?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Raccoons could easily adapt to residential areas by helping themselves to any food they can grab."
+        },
+        {
+         "key": "B",
+         "label": "B. Raccoons could easily adapt to residential areas by finding food in trashcans."
+        },
+        {
+         "key": "C",
+         "label": "C. Raccoons could easily adapt to residential areas by searching food inside people's homes."
+        },
+        {
+         "key": "D",
+         "label": "D. Raccoons could easily adapt to residential areas by taking over their forest homes."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中是 residential areas 占据了浣熊原来的森林家园，不是浣熊接管森林家园，因此 D 与原文不符。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Raccoons could easily adapt to residential areas by taking over their forest homes."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the passage, the ways animals and plants adapt to their habitats do NOT include"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Camouflage"
+        },
+        {
+         "key": "B",
+         "label": "B. mimicry"
+        },
+        {
+         "key": "C",
+         "label": "C. attacking human beings"
+        },
+        {
+         "key": "D",
+         "label": "D. adapting to new conditions"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q19",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章提到了 camouflage、mimicry 和适应新环境三种方式，没有提到攻击人类，因此选 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. attacking human beings"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What is the main idea of the text?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Animals adapt to their habitat in order to survive."
+        },
+        {
+         "key": "B",
+         "label": "B. Plants adapt to their habitat in order to survive."
+        },
+        {
+         "key": "C",
+         "label": "C. Animals and plants adapt to their habitat in order to survive."
+        },
+        {
+         "key": "D",
+         "label": "D. Both animals and plants use camouflage to mix themselves with the environment."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "首段总起就说明 animals and plants 都会通过适应环境来生存，后文用多种方式展开，因此主旨是 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. Animals and plants adapt to their habitat in order to survive."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "cloze",
+    "displayName": "选词填空",
+    "partLabel": "Part III Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter on the Answer Sheet with a single line through the centre. You may not use any of the words in the bank more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. analyzed"
+     },
+     {
+      "key": "B",
+      "label": "B. likely"
+     },
+     {
+      "key": "C",
+      "label": "C. brain"
+     },
+     {
+      "key": "D",
+      "label": "D. longer"
+     },
+     {
+      "key": "E",
+      "label": "E. lonely"
+     },
+     {
+      "key": "F",
+      "label": "F. including"
+     },
+     {
+      "key": "G",
+      "label": "G. compared"
+     },
+     {
+      "key": "H",
+      "label": "H. lifestyle"
+     },
+     {
+      "key": "I",
+      "label": "I. healthy"
+     },
+     {
+      "key": "J",
+      "label": "J. stronger"
+     },
+     {
+      "key": "K",
+      "label": "K. protected"
+     },
+     {
+      "key": "L",
+      "label": "L. immediately"
+     },
+     {
+      "key": "M",
+      "label": "M. avoiding"
+     },
+     {
+      "key": "N",
+      "label": "N. to"
+     },
+     {
+      "key": "O",
+      "label": "O. heavily"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "These 8 simple habits will help you live longer, suggest scientists.\nThe eight habits, "
+       },
+       {
+        "type": "blank",
+        "key": "q21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": " sleeping well and avoiding binge drinking, lengthened life span by over 20 years.\nThere are just eight key steps to a long, "
+       },
+       {
+        "type": "blank",
+        "key": "q22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": " life, medical research by scientists suggests.\nUsing the health data of army veterans, health science specialists have discovered that adopting these eight healthy habits by middle age makes people live up "
+       },
+       {
+        "type": "blank",
+        "key": "q23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": " 24 years longer.\nThe study "
+       },
+       {
+        "type": "blank",
+        "key": "q24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": " the data of over 700,000 army veterans aged 40-99 who were in the Veteran Program. The scientists then "
+       },
+       {
+        "type": "blank",
+        "key": "q25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": " this data with the deaths of 33,000 people in this group.\nThey found that men who had all eight of the habits by age 40 are "
+       },
+       {
+        "type": "blank",
+        "key": "q26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": " to live an average of 24 years longer than men with none of the habits. For women, those with all eight habits are predicted to live 21 years "
+       },
+       {
+        "type": "blank",
+        "key": "q27",
+        "placeholder": "27"
+       },
+       {
+        "type": "markdown",
+        "value": " than women with none.\nSo what are the habits? They include: being physically active; not having a drug addiction; not smoking; managing your stress; having a good diet; not drinking "
+       },
+       {
+        "type": "blank",
+        "key": "q28",
+        "placeholder": "28"
+       },
+       {
+        "type": "markdown",
+        "value": "; having good sleep hygiene; having positive social relationships.\nSleep hygiene means the routine that you do before bed to help you get to sleep, including relaxing, going to bed at the same time every night, and "
+       },
+       {
+        "type": "blank",
+        "key": "q29",
+        "placeholder": "29"
+       },
+       {
+        "type": "markdown",
+        "value": " electronic devices before bed.\n\"We were really surprised by just how much could be gained with the adoption of one, two, three, or all eight "
+       },
+       {
+        "type": "blank",
+        "key": "q30",
+        "placeholder": "30"
+       },
+       {
+        "type": "markdown",
+        "value": " factors,\" said Xuan-Mai T Nguyen of Carle Illinois College of Medicine, who presented the findings at the Society for Nutrition's 2023 conference."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句中是在补充说明 eight habits 的内容，用 including 表示“包括”，最自然。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "F. including"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "I"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "long, healthy life 是固定且通顺的搭配，符合句意。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I. healthy"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "N"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "live up to 是固定结构，表示“多达”，因此应选 to。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "N. to"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "study analyzed the data 表示“研究分析了数据”，语义完整。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. analyzed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "compare A with B 是固定搭配，表示将数据与死亡情况进行比较。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. compared"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "be likely to do sth. 是固定结构，表示“很可能……”，故选 likely。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. likely"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "这里是比较级结构，live 21 years longer than...，应填 longer。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. longer"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "O"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "drink heavily 表示“酗酒、喝得很多”，与前文健康习惯一致。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "O. heavily"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "M"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "睡前避免使用电子设备更符合 sleep hygiene，且 and 后应接动名词 avoiding。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "M. avoiding"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "H"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文讨论的是生活习惯，因此 lifestyle factors 搭配最合适。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "H. lifestyle"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "完形填空",
+    "partLabel": "Part IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage. Then mark the corresponding letter on the Answer Sheet with a single line through the centre."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Interviews are an important and necessary part of going for a new job. It is normal "
+       },
+       {
+        "type": "blank",
+        "key": "q31",
+        "placeholder": "31"
+       },
+       {
+        "type": "markdown",
+        "value": " you will feel nervous at an interview. "
+       },
+       {
+        "type": "blank",
+        "key": "q32",
+        "placeholder": "32"
+       },
+       {
+        "type": "markdown",
+        "value": ", it is important to remain calm and confident. Remember, your application impressed the school hence your invitation to interview.\nTypically, a teaching interview will "
+       },
+       {
+        "type": "blank",
+        "key": "q33",
+        "placeholder": "33"
+       },
+       {
+        "type": "markdown",
+        "value": " of a teaching task, an evaluation task and a formal interview with an interview panel.\n## Preparation is key!\nFirst, ensure you research the school before the interview "
+       },
+       {
+        "type": "blank",
+        "key": "q34",
+        "placeholder": "34"
+       },
+       {
+        "type": "markdown",
+        "value": " the expectations of the job role itself (although you would have already done research as part of your application!). Second, pay a visit to the school website and find out as much information "
+       },
+       {
+        "type": "blank",
+        "key": "q35",
+        "placeholder": "35"
+       },
+       {
+        "type": "markdown",
+        "value": " you can, such as the school's values, the type of school and recent school news. "
+       },
+       {
+        "type": "blank",
+        "key": "q36",
+        "placeholder": "36"
+       },
+       {
+        "type": "markdown",
+        "value": ", download the school's most recent official report and look carefully for your improvement.\n## Pay A Visit\nIf you have not yet visited the school then make "
+       },
+       {
+        "type": "blank",
+        "key": "q37",
+        "placeholder": "37"
+       },
+       {
+        "type": "markdown",
+        "value": " that you do so before the interview. Visiting the school gives you a real insight into the day-to-day routines and atmosphere in the school. It will also give you the opportunity to talk to staff and students.\n## Practice Makes Perfect\nFor any job interview, not just teaching, it is always advisable to practice "
+       },
+       {
+        "type": "blank",
+        "key": "q38",
+        "placeholder": "38"
+       },
+       {
+        "type": "markdown",
+        "value": " some interview questions prior to the real thing! To conduct a practice interview, you can ask your friends, "
+       },
+       {
+        "type": "blank",
+        "key": "q39",
+        "placeholder": "39"
+       },
+       {
+        "type": "markdown",
+        "value": " advice will be honest and useful. You could take it a step further by filming the interview and watching it back yourself to see how you could improve. You can find "
+       },
+       {
+        "type": "blank",
+        "key": "q40",
+        "placeholder": "40"
+       },
+       {
+        "type": "markdown",
+        "value": " potential teaching interview questions online including in our blog!\n## First Impressions Matter\nFrom the moment you step into the school building, judgments are already being formed. Smile, show enthusiasm, ask questions and strike up conversations. Remain positive and confident."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. how"
+        },
+        {
+         "key": "B",
+         "label": "B. where"
+        },
+        {
+         "key": "C",
+         "label": "C. that"
+        },
+        {
+         "key": "D",
+         "label": "D. what"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It is normal that... 是固定句式，that 引导真正主语从句，故选 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. that"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Meanwhile"
+        },
+        {
+         "key": "B",
+         "label": "B. However"
+        },
+        {
+         "key": "C",
+         "label": "C. At the same time"
+        },
+        {
+         "key": "D",
+         "label": "D. Moreover"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前句说紧张很正常，后句强调仍要保持冷静，自然是转折关系，应选 However。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. However"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. consist"
+        },
+        {
+         "key": "B",
+         "label": "B. consider"
+        },
+        {
+         "key": "C",
+         "label": "C. construct"
+        },
+        {
+         "key": "D",
+         "label": "D. confirm"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "consist of 是固定搭配，表示“由……组成”，与后面的 several tasks 搭配正确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. consist"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. too"
+        },
+        {
+         "key": "B",
+         "label": "B. either"
+        },
+        {
+         "key": "C",
+         "label": "C. neither"
+        },
+        {
+         "key": "D",
+         "label": "D. as well as"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "research the school as well as the expectations... 表示“也要研究岗位要求”，D 最合适。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. as well as"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. as"
+        },
+        {
+         "key": "B",
+         "label": "B. so"
+        },
+        {
+         "key": "C",
+         "label": "C. that"
+        },
+        {
+         "key": "D",
+         "label": "D. if"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "as much information as you can 是固定表达，表示“尽可能多的信息”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. as"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Luckily"
+        },
+        {
+         "key": "B",
+         "label": "B. Finally"
+        },
+        {
+         "key": "C",
+         "label": "C. Rarely"
+        },
+        {
+         "key": "D",
+         "label": "D. Exactly"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前文用了 First、Second，这里顺承列举步骤，应为 Finally。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. Finally"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. for"
+        },
+        {
+         "key": "B",
+         "label": "B. off"
+        },
+        {
+         "key": "C",
+         "label": "C. out"
+        },
+        {
+         "key": "D",
+         "label": "D. sure"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "make sure that... 是固定搭配，表示“务必确保……”，故选 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. sure"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. answered"
+        },
+        {
+         "key": "B",
+         "label": "B. answer"
+        },
+        {
+         "key": "C",
+         "label": "C. answering"
+        },
+        {
+         "key": "D",
+         "label": "D. have answered"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "practice doing sth. 是固定用法，所以用 answering。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. answering"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. whose"
+        },
+        {
+         "key": "B",
+         "label": "B. which"
+        },
+        {
+         "key": "C",
+         "label": "C. who"
+        },
+        {
+         "key": "D",
+         "label": "D. that"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "先行词是 friends，后面缺少限定 advice 的关系代词，应使用 whose advice。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. whose"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. none"
+        },
+        {
+         "key": "B",
+         "label": "B. no"
+        },
+        {
+         "key": "C",
+         "label": "C. both"
+        },
+        {
+         "key": "D",
+         "label": "D. some"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句意是“你可以在网上找到一些潜在的面试问题”，用 some 最自然。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. some"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "Part V",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this part you are required to write a composition entitled My Travel in no less than 100 words according to the following Chinese outline. Please remember to write it on the Answer Sheet."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Title: My Travel"
+        },
+        {
+         "type": "markdown",
+         "value": "写作提纲："
+        },
+        {
+         "type": "markdown",
+         "value": "1. 你是否喜欢旅行；"
+        },
+        {
+         "type": "markdown",
+         "value": "2. 请简单描述你的一次旅行；"
+        },
+        {
+         "type": "markdown",
+         "value": "3. 你认为旅行的意义或影响。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 100
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作文题应围绕题目 My Travel 展开，至少写 100 词，完整覆盖“是否喜欢旅行、一次旅行经历、旅行的意义或影响”三个要点，语言连贯、结构完整即可。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "My Travel\nI like traveling very much because it can open my mind and help me relax. Whenever I have free time, I want to go somewhere new and experience different scenery and customs.\nLast summer, I took a trip to Beijing with my family. We visited the Great Wall, the Palace Museum and many famous parks. The Great Wall impressed me most because it is magnificent and full of history. We also tasted delicious local food, took many photos and learned a lot about Chinese culture during the journey.\nIn my opinion, travel is meaningful because it helps us gain knowledge that we cannot get only from books. It also gives us a chance to communicate with others and enjoy life. Travel makes me happier, more confident and more interested in the world."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

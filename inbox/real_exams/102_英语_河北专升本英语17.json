@@ -1,0 +1,2166 @@
+{
+ "id": 102,
+ "title": "河北专升本英语17",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:40:16",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省 2017 年普通高校专科接本科教育选拔考试",
+   "subject": "英语",
+   "province": "河北",
+   "year": 2017,
+   "source": {
+    "fileName": "2017年河北省专接本英语真题.pdf",
+    "fileId": "635fe3f5-63e9-46e9-9244-a0fa209b48de"
+   }
+  },
+  "sections": [
+   {
+    "kind": "single_choice",
+    "displayName": "语音",
+    "partLabel": "I",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Compare the underlined parts and identify the one that is different from the others in pronunciation."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the one that is different in pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. link"
+        },
+        {
+         "key": "B",
+         "label": "B. window"
+        },
+        {
+         "key": "C",
+         "label": "C. kite"
+        },
+        {
+         "key": "D",
+         "label": "D. think"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "考查发音辨析，答案为 C 项。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. kite"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the one that is different in pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. dark"
+        },
+        {
+         "key": "B",
+         "label": "B. war"
+        },
+        {
+         "key": "C",
+         "label": "C. shark"
+        },
+        {
+         "key": "D",
+         "label": "D. smart"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "考查发音辨析，答案为 B 项。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. war"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the one that is different in pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. southern"
+        },
+        {
+         "key": "B",
+         "label": "B. math"
+        },
+        {
+         "key": "C",
+         "label": "C. cloth"
+        },
+        {
+         "key": "D",
+         "label": "D. thief"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "考查发音辨析，答案为 A 项。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. southern"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the one that is different in pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. debt"
+        },
+        {
+         "key": "B",
+         "label": "B. comb"
+        },
+        {
+         "key": "C",
+         "label": "C. climb"
+        },
+        {
+         "key": "D",
+         "label": "D. establish"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "考查发音辨析，答案为 D 项。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. establish"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Choose the one that is different in pronunciation."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. mouse"
+        },
+        {
+         "key": "B",
+         "label": "B. though"
+        },
+        {
+         "key": "C",
+         "label": "C. south"
+        },
+        {
+         "key": "D",
+         "label": "D. house"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "考查发音辨析，答案为 B 项。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. though"
+        }
+       ]
+      }
+     }
+    ],
+    "id": "sec-1"
+   },
+   {
+    "kind": "cloze",
+    "displayName": "情景对话",
+    "partLabel": "II",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Select the sentence that best fits each blank in the dialogue."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. The population is only about 50,000"
+     },
+     {
+      "key": "C",
+      "label": "C. sounds like a nice place to live in"
+     },
+     {
+      "key": "D",
+      "label": "D. Thank you very much"
+     },
+     {
+      "key": "F",
+      "label": "F. so do you have modern stuff, like a health club, a movie theatre or things like that"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Directions: In this section there is a long conversation with 5 missing sentences. At the end of the conversation, there is a list of given choices. You are required to select the ONE that best fits into the conversation. Then mark the corresponding letter on the Answer Sheet with a single line through the center. Note that there are two additional choices and you can not use any of the choices in the list more than once.\n\nMary: Hello! 6 ?\n\nJohn: Sure, my name is John Smith and I’m from a small town called Brentwood in Essex which is in England.\n\nMary: OK, Essex. 7 ?\n\nJohn: That’s in the southeast.\n\nMary: Southeast.\n\nJohn: Yeah, yeah. It’s attached to London, just next to London.\n\nMary: Oh, OK, but you said it’s a small town.\n\nJohn: It’s relatively small. 8\n\nMary: Oh, when I think of a small British town, you know, I think of really old houses, and nothing’s changed, 9 ?\n\nJohn: The cinema in Brentwood actually closed down, but it does have a very nice health centre and, as I said, lots of parks to play in.\n\nMary: Wow, 10"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q6",
+         "placeholder": "6"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义与对话逻辑，空格处应选 G。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. "
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q7",
+         "placeholder": "7"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义与对话逻辑，空格处应选 E。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. "
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q8",
+         "placeholder": "8"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义与对话逻辑，空格处应选 A。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. The population is only about 50,000"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q9",
+         "placeholder": "9"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义与对话逻辑，空格处应选 F。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "F. so do you have modern stuff, like a health club, a movie theatre or things like that"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q10",
+         "placeholder": "10"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义与对话逻辑，空格处应选 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. sounds like a nice place to live in"
+        }
+       ]
+      }
+     }
+    ],
+    "id": "sec-2"
+   },
+   {
+    "kind": "single_choice",
+    "displayName": "阅读理解 Passage 1",
+    "partLabel": "III Section A",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Read the passage and choose the best answer for each question."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "There is a tale that straw(稻草)is the worst material from which to build a house, particularly if you are a pig with a hungry wolf around. So the cards were stacked against Warren Brush when local officials learned that he had several buildings made of straw bales (大捆) on his land.\n\nThey have tried to fine him a lot. But the case is still unresolved. The problem is that California's building codes make no provision for the use of straw. And Mr. Brush has many defenders--among them several\n\nuniversity scientists and David Eisenberg, the chairman of the United States Green Building Council's code committee. They would like to see the prejudice against straw houses eliminated, for straw is, in many ways, an ideal building material.\n\nIt is, for one thing, a great insulator(绝热体).That keeps down the heating bills in houses made from it. It is also a waste product that would otherwise be burned, and is therefore cheap. And--very much to the point in a place like California--it is earthquake-resistant. Last year a test conducted at the University of Nevada showed that straw-bale constructions could withstand twice the amount of ground motion recorded in the Northridge earthquake that hit Los Angeles in 1994.\n\nThere are other straws in the wind: a post office in suburban Albuquerque, a school in Maryland, and an office complex in suburban Los Angeles have all been built from straw. Even California is having a rethink, and may change its rules to adapt to straw-bale Construction. As Mr. Eisenberg observes, “The lesson of the Three Little Pigs isn’t to avoid straw. It’s that you don’t let a pig build your house.”"
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "By “the cards were stacked against Warren Brush”, the author means A. Brush disliked playing cards B. Cards were piled around Brush C. Brush might lose the card game D. Brush could be in trouble"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": []
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. "
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The underlined word “eliminated” in paragraph 2 most probably means"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. the prejudice can be removed"
+        },
+        {
+         "key": "B",
+         "label": "B. the prejudice can be ignored"
+        },
+        {
+         "key": "C",
+         "label": "C. the quality of the house can be improved"
+        },
+        {
+         "key": "D",
+         "label": "D. the quality of the house can be guaranteed"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 A。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. the prejudice can be removed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to paragraph 3, which of the following is NOT the advantage of using straw to build a house? A. It can keep warm. B. It is cheap. C. It is earthquake resistant. D. It is wind-proof."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": []
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. "
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The tale of “the Three Little Pigs” may illustrate（说明）"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. straw is the worst material to build a house"
+        },
+        {
+         "key": "B",
+         "label": "B. straw is the best material to build a house"
+        },
+        {
+         "key": "C",
+         "label": "C. the house should not be built by a pig"
+        },
+        {
+         "key": "D",
+         "label": "D. pigs are good at building houses"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. the house should not be built by a pig"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The author’s purpose in writing the passage is to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. show that straw cannot be used to build houses"
+        },
+        {
+         "key": "B",
+         "label": "B. explain how to build a house with straw"
+        },
+        {
+         "key": "C",
+         "label": "C. describe the prejudice against straw houses"
+        },
+        {
+         "key": "D",
+         "label": "D. introduce a new building material"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. introduce a new building material"
+        }
+       ]
+      }
+     }
+    ],
+    "id": "sec-3"
+   },
+   {
+    "kind": "single_choice",
+    "displayName": "阅读理解 Passage 2",
+    "partLabel": "III Section A",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Read the passage and choose the best answer for each question."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "In 1947 a group of famous people from the art world headed by an Austrian conductor decided to hold an international festival of music, dance and theatre in Edinburgh. The idea was to reunite Europe after the Second World War.\n\nIt quickly attracted famous names such as Alec Guinness, Richard Burton, Dame Margot Fonteyn and Marlene Dietrich as well as the big symphony orchestras(交响乐团). It became a fixed event every August and now attracts 400,000 people yearly.\n\nAt the same time, the “Fringe” appeared as a challenge to the official festival. Eight theatre groups turned up uninvited in 1947, in the belief that everyone should have the right to perform, and they did so in a public house disused for years.\n\nSoon, groups of students firstly from Edinburgh University, and later from the universities of Oxford and Cambridge, Durham and Birmingham were making the journey to the Scottish capital each summer to perform theatre by little - known writers of plays in small church halls to the people of Edinburgh.\n\nToday the “Fringe”, once less recognized, has far outgrown the festival with around 1,500 performances of theatre, music and dance on every one of the 21 days it lasts. And yet as early as 1959, with only 19 theatre groups performing, some said it was getting too big.\n\nA paid administrator was first employed only in 1971, and today there are eight administrators working all year round and the number rises to 150 during August itself. In 2004 there were 200 places housing 1,695 shows by over 600 different groups from 50 different countries. More than 1.25 million tickets were sold."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why Edinburgh Festival was held in 1947? A. To attract theatre groups in Europe. B. To bring Europe together again."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "C",
+         "label": "C. To introduce symphony orchestras."
+        },
+        {
+         "key": "D",
+         "label": "D. To honor the Second World War."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 B。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. "
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Who joined the “Fringe” after it appeared? C. Famous theatre groups. D. Big symphony orchestras."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. University students."
+        },
+        {
+         "key": "B",
+         "label": "B. Popular artists."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 A。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. University students."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How long does the Edinburgh Festival last? A. Half a month B. The whole month of August. C. All year round."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "D",
+         "label": "D. Three weeks."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. Three weeks."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is NOT true about the Edinburgh Festival in 1947 according to the passage? A. People held an international festival in Edinburgh. B. Some uninvited groups took part in the Edinburgh Festival. C. About 400,000 people were attracted by the Edinburgh Festival. D. There were no paid administrators in Edinburgh Festival"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": []
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q19",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. "
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What can be inferred about Edinburgh Festival from this passage? A. It has gone beyond an art festival. B. It gives shows all year round. C. It keeps growing rapidly. D. It has become a non-official event."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": []
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据原文细节、词义或推断关系，答案为 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. "
+        }
+       ]
+      }
+     }
+    ],
+    "id": "sec-4"
+   },
+   {
+    "kind": "cloze",
+    "displayName": "阅读填空 / 词汇填空",
+    "partLabel": "III Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Read the passage and select one word for each blank from the word bank."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. limits"
+     },
+     {
+      "key": "D",
+      "label": "D. materials"
+     },
+     {
+      "key": "G",
+      "label": "G. commonly"
+     },
+     {
+      "key": "J",
+      "label": "J. consists"
+     },
+     {
+      "key": "M",
+      "label": "M. referring"
+     },
+     {
+      "key": "B",
+      "label": "B. beverage"
+     },
+     {
+      "key": "E",
+      "label": "E. some"
+     },
+     {
+      "key": "H",
+      "label": "H. meaning"
+     },
+     {
+      "key": "K",
+      "label": "K. chance"
+     },
+     {
+      "key": "N",
+      "label": "N. unique"
+     },
+     {
+      "key": "C",
+      "label": "C. wonder"
+     },
+     {
+      "key": "F",
+      "label": "F. reminded"
+     },
+     {
+      "key": "I",
+      "label": "I. including"
+     },
+     {
+      "key": "L",
+      "label": "L. nothing"
+     },
+     {
+      "key": "O",
+      "label": "O. spirit"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Directions: In this section there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter: Please mark the corresponding letter on the Answer Sheet with a single line through the centre. You may not use any of the words in the bank more than once.\n\nCoconut(椰子)is an unusual food for many reasons. It is one of the largest edible seeds produced by any plant. Its unusual contents also make it 21 in the seed world. It 22 of both “meat” and “water” inside. The coconut meat is the white substance with which we are all familiar, as it is used extensively for cooking and flavorings; the coconut water is a white and sweet liquid\n\nPortuguese (葡萄牙的) explorers gave the nut its name in the 1 5th century, 23 to it as coco, meaning “ghost” in their language. The outside appearance of coconuts 24 them of a ghost’s face, and the tree has had that name ever since.\n\nThe coconut has varied uses. It is used to make various cooking oils for fast-food restaurants around the world to make diet 25 .The coconut fluid is a favorite drink in hot climates, providing a cool and refreshing 26 right off the tree. This is water is also used by manufacturers of various sports drinks. Even the shell itself has many uses, 27 animal food and fertilizer.\n\nYet the coconut is also useful in many ways that have 28 to do with food. Coconut oil is used\n\nfor cosmetics（化妆品） medicines, and so on. Dried coconut shells are used in many countries as a tool for shinning wood floors. The shells are also used for shirt buttons, and are 29 found on Hawaiian clothing. They are even used for musical instruments and bird houses.\n\nAnd all these are only some of the uses found for the coconut fruit. The coconut tree, which produces the nut, also produces many useful things. It’s no 30 that the coconut tree has been taken as “the tree of life”."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q21",
+         "placeholder": "21"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "N"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 N。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "N. unique"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q22",
+         "placeholder": "22"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "J"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 J。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "J. consists"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q23",
+         "placeholder": "23"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "M"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 M。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "M. referring"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q24",
+         "placeholder": "24"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 F。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "F. reminded"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q25",
+         "placeholder": "25"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. materials"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q26",
+         "placeholder": "26"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 B。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. beverage"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q27",
+         "placeholder": "27"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "I"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 I。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I. including"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q28",
+         "placeholder": "28"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "L"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 L。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "L. nothing"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q29",
+         "placeholder": "29"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 G。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. commonly"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q30",
+         "placeholder": "30"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义和固定搭配，该空应选 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. wonder"
+        }
+       ]
+      }
+     }
+    ],
+    "id": "sec-5"
+   },
+   {
+    "kind": "cloze",
+    "displayName": "完形填空",
+    "partLabel": "IV",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Choose the best answer for each blank in the passage."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Directions: There are 10 blanks in the following passage． For each blank there are four choices marked A,B,C and D. You are required to choose the ONE that best fits into the passage ． Then mark the corresponding letter on the Answer Sheet with a single line through the centre.\n\nWalking, if you do it vigorously enough, is the overall best exercise for regular physical activity. It requires no 31 , everyone knows how to do it and it carries the lowest risk of injury. The human body is 32 to walk. You can walk in parks or along a river or in your neighborhood. To get 33 benefit from walking, aim for 45 minutes a day, an average of five days a week.\n\nStrength training is another important component of 34 activity. Its purpose is to build and maintain bone and muscle mass, both of which 35 with age. In general, you will want to do strength training two or three days a week, allowing 36 days between sessions.\n\nFinally, flexibility and balance training are increasingly important as the body ages. Aches and pains are high 37 the list of complaints in old age. The result of constant muscle tension and stiffness of joints, many of them are 38, and simple flexibility training can prevent these by making muscles stronger and keeping joints lubricated (润滑 . Some of this you do 39 you stretch. If you watch dogs and cats, you’ll get an idea of how\n\nnatural it is. The general principle is simple: whenever the body has been in one 40 for a while, it is good to briefly stretch it in an opposite position."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q31",
+         "placeholder": "31"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. muscles"
+        },
+        {
+         "key": "B",
+         "label": "B. energy"
+        },
+        {
+         "key": "C",
+         "label": "C. equipment"
+        },
+        {
+         "key": "D",
+         "label": "D. strength"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. equipment"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q32",
+         "placeholder": "32"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. designed"
+        },
+        {
+         "key": "B",
+         "label": "B. planned"
+        },
+        {
+         "key": "C",
+         "label": "C. useful"
+        },
+        {
+         "key": "D",
+         "label": "D. mastered"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 A。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. designed"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q33",
+         "placeholder": "33"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. minimum"
+        },
+        {
+         "key": "B",
+         "label": "B. maximum"
+        },
+        {
+         "key": "C",
+         "label": "C. ordinary"
+        },
+        {
+         "key": "D",
+         "label": "D. lower"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 B。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. maximum"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q34",
+         "placeholder": "34"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. mental"
+        },
+        {
+         "key": "B",
+         "label": "B. physics"
+        },
+        {
+         "key": "C",
+         "label": "C. physical"
+        },
+        {
+         "key": "D",
+         "label": "D. chemical"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. physical"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q35",
+         "placeholder": "35"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. shrink"
+        },
+        {
+         "key": "B",
+         "label": "B. add"
+        },
+        {
+         "key": "C",
+         "label": "C. accumulate"
+        },
+        {
+         "key": "D",
+         "label": "D. deduct"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 A。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. shrink"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q36",
+         "placeholder": "36"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. harsh"
+        },
+        {
+         "key": "B",
+         "label": "B. beautiful"
+        },
+        {
+         "key": "C",
+         "label": "C. recovery"
+        },
+        {
+         "key": "D",
+         "label": "D. dismissed"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. recovery"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q37",
+         "placeholder": "37"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. in"
+        },
+        {
+         "key": "B",
+         "label": "B. between"
+        },
+        {
+         "key": "C",
+         "label": "C. of"
+        },
+        {
+         "key": "D",
+         "label": "D. on"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. on"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q38",
+         "placeholder": "38"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. avoidable"
+        },
+        {
+         "key": "B",
+         "label": "B. critical"
+        },
+        {
+         "key": "C",
+         "label": "C. serious"
+        },
+        {
+         "key": "D",
+         "label": "D. necessary"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 A。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. avoidable"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q39",
+         "placeholder": "39"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. however"
+        },
+        {
+         "key": "B",
+         "label": "B. wherever"
+        },
+        {
+         "key": "C",
+         "label": "C. whatever"
+        },
+        {
+         "key": "D",
+         "label": "D. whenever"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. whenever"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "q40",
+         "placeholder": "40"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. motion"
+        },
+        {
+         "key": "B",
+         "label": "B. position"
+        },
+        {
+         "key": "C",
+         "label": "C. gesture"
+        },
+        {
+         "key": "D",
+         "label": "D. body language"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合上下文语义、固定搭配和逻辑关系，答案为 B。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. position"
+        }
+       ]
+      }
+     }
+    ],
+    "id": "sec-6"
+   },
+   {
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "V",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: Write according to the outline and complete the composition on the given topic."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Directions: In this part you are required to write a composition entitled To Learn or to Practice in no less than 120 words according to the following Chinese outline .Please remember to write it on the Answer Sheet."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay-2017",
+       "placeholder": "请在此作答",
+       "minWords": 100
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "参考范文覆盖题目要求，可作为写作思路。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Learning and practice are closely connected. Learning gives us theories, methods and correct directions, while practice helps us test what we have learned in real situations. Without learning, practice may become blind. Without practice, learning may stay on paper. In my opinion, students should balance the two. We should learn carefully in class, read more useful materials and build a solid foundation. At the same time, we should apply knowledge through exercises, communication and real tasks. Only when learning and practice support each other can we improve efficiently and truly master English. Therefore, to succeed, we should not choose one and give up the other. We should learn in order to practice better, and practice in order to understand learning more deeply."
+        }
+       ]
+      }
+     }
+    ],
+    "id": "sec-7"
+   }
+  ]
+ }
+}

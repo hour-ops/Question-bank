@@ -1,0 +1,765 @@
+{
+ "id": 18,
+ "title": "湖北专升本2022年英语真题",
+ "subject": "英语",
+ "createTime": "2026-01-21 22:36:15",
+ "exam": {
+  "meta": {
+   "title": "2022 年湖北省普通高等学校专升本英语",
+   "subject": "英语"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "单选题",
+    "content": "Directions: This part is to test your ability to use English. There are 25 incomplete sentences in it. For each sentence there are four choices marked A, B, C and D. Choose the one answer that best completes the sentence and blacken the corresponding letter on the Answer Sheet.\n\nThis part is to test the use of English, there are 25 incomplete sentences in it. For each sentence there are four choices marked A.B.C and D. Choose the one answer that best completes the sentence and blacken the corresponding letter on the Answer Sheet",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "1",
+      "content": "Can you help me with my homework? I'm sure it {{__SELECT_1__}} take long.",
+      "options": [
+       "won't",
+       "will",
+       "can't",
+       "can"
+      ],
+      "answer": "A",
+      "analysis": "根据句意“你能帮我做作业吗？我保证不会花很长时间。”，这里表示对未来的否定推测，应用won't。"
+     },
+     {
+      "id": "2",
+      "content": "He {{__SELECT_1__}} online, when his computer broke down.",
+      "options": [
+       "was shopping",
+       "were shopping",
+       "has shopped",
+       "have shopped"
+      ],
+      "answer": "A",
+      "analysis": "when引导的时间状语从句用了过去时“broke down”，主句描述的是一个在过去某个时间点正在进行的动作，应用过去进行时。主语是He，所以用was shopping。"
+     },
+     {
+      "id": "3",
+      "content": "These pictures {{__SELECT_1__}} on campus last week.",
+      "options": [
+       "was taken",
+       "were taken",
+       "has taken",
+       "have taken"
+      ],
+      "answer": "B",
+      "analysis": "时间状语“last week”表明应用过去时。主语“These pictures”是复数，且图片是被拍摄的，应用被动语态。因此选择were taken。"
+     },
+     {
+      "id": "4",
+      "content": "We missed the bus, so we decided {{__SELECT_1__}} for the next one.",
+      "options": [
+       "waiting",
+       "to be waiting",
+       "to wait",
+       "having waited"
+      ],
+      "answer": "C",
+      "analysis": "动词decide后面常跟动词不定式作宾语，即decide to do sth.，意为“决定做某事”。"
+     },
+     {
+      "id": "5",
+      "content": "If I were you, I {{__SELECT_1__}} book a ticket as soon as possible.",
+      "options": [
+       "would",
+       "will",
+       "have to",
+       "am to"
+      ],
+      "answer": "A",
+      "analysis": "这是一个虚拟语气句子，if从句用了一般过去时（were），主句应用“would/should/could/might + 动词原形”。"
+     },
+     {
+      "id": "6",
+      "content": "Liu Yang is {{__SELECT_1__}} first Chinese woman, who has work in space.",
+      "options": [
+       "/",
+       "the",
+       "a",
+       "an"
+      ],
+      "answer": "B",
+      "analysis": "序数词（first）前通常用定冠词the。"
+     },
+     {
+      "id": "7",
+      "content": "Doing Taichi exercises {{__SELECT_1__}} one of traditional Chinese ways to maintain mental peace.",
+      "options": [
+       "was",
+       "were",
+       "is",
+       "are"
+      ],
+      "answer": "C",
+      "analysis": "主语是动名词短语“Doing Taichi exercises”，作单数看待。句子描述的是一个普遍事实，应用一般现在时。因此谓语动词用is。"
+     },
+     {
+      "id": "8",
+      "content": "---- you show me your health code? If you {{__SELECT_1__}} you won't be allowed to get in.",
+      "options": [
+       "Could; can't",
+       "Can; couldn't",
+       "Will; won't",
+       "May; can't"
+      ],
+      "answer": "A",
+      "analysis": "第一空是礼貌地请求，用Could比Can更委婉。第二空根据后面的“you won't be allowed to get in”可知，是条件状语从句，表示“如果你不能（出示健康码）”，用can't。"
+     },
+     {
+      "id": "9",
+      "content": "{{__SELECT_1__}} extremely tired, thousands of medical workers continued to perform their duties.",
+      "options": [
+       "Since",
+       "However",
+       "As",
+       "Although"
+      ],
+      "answer": "D",
+      "analysis": "句意为“尽管极度疲惫，成千上万的医护人员仍在继续履行职责。”前后是转折关系，Although引导让步状语从句。Although (they were) extremely tired...是省略形式。"
+     },
+     {
+      "id": "10",
+      "content": "Children may feel more confident for working in groups {{__SELECT_1__}} working alone.",
+      "options": [
+       "by",
+       "over",
+       "to",
+       "than"
+      ],
+      "answer": "D",
+      "analysis": "句中有形容词的比较级“more confident”，表示“团队合作”与“单独工作”的比较，应用than连接。"
+     },
+     {
+      "id": "11",
+      "content": "Bob {{__SELECT_1__}} his parents often takes a long walk in the evening.",
+      "options": [
+       "and",
+       "both",
+       "as well as",
+       "but also"
+      ],
+      "answer": "C",
+      "analysis": "谓语动词takes是单数形式，根据主谓一致的“就近原则”的反例（即“就远原则”），主语由as well as, with, along with, together with等连接时，谓语动词与前面的主语保持一致。此处与Bob一致，用单数takes。"
+     },
+     {
+      "id": "12",
+      "content": "I made a lot of mistakes in the reading. Could you tell me {{__SELECT_1__}}",
+      "options": [
+       "how I can improve my English",
+       "how can I improve my English",
+       "why I can improve my English",
+       "why can I improve my English"
+      ],
+      "answer": "A",
+      "analysis": "这是一个宾语从句，应使用陈述语序，即“疑问词+主语+谓语”。因此排除B和D。根据句意“我阅读错了很多，你能告诉我如何提高我的英语吗？”，应使用how。"
+     },
+     {
+      "id": "13",
+      "content": "Tom, please help {{__SELECT_1__}} to some drinks. They are all over there on the table.",
+      "options": [
+       "you",
+       "me",
+       "yourself",
+       "myself"
+      ],
+      "answer": "C",
+      "analysis": "固定搭配“help oneself to sth.”意为“请自便，随便吃/喝某物”。此处是对Tom说的，应用反身代词yourself。"
+     },
+     {
+      "id": "14",
+      "content": "Nowadays,some people prefer subway {{__SELECT_1__}} buses.",
+      "options": [
+       "against",
+       "off",
+       "over",
+       "to"
+      ],
+      "answer": "D",
+      "analysis": "固定搭配“prefer A to B”意为“与B相比，更喜欢A”。"
+     },
+     {
+      "id": "15",
+      "content": "Alex, did you see all the acts?\n---No. When I got to the theater, they were playing {{__SELECT_1__}}",
+      "options": [
+       "act three",
+       "third act",
+       "the act third",
+       "the act three"
+      ],
+      "answer": "A",
+      "analysis": "表示戏剧的“第几幕”或书的“第几章”时，常用“名词+基数词”的结构，如Act Three, Chapter Five。也可以用“the+序数词+名词”的结构，如the third act，但选项中没有这个。act three是正确的表达方式。"
+     },
+     {
+      "id": "16",
+      "content": "I'm sorry, I promise I won't {{__SELECT_1__}} my homework, tomorrow.",
+      "options": [
+       "remember",
+       "forget",
+       "bring",
+       "finish"
+      ],
+      "answer": "B",
+      "analysis": "根据句意“对不起，我保证明天不会忘记我的作业”，应该填forget。结合语境，可能是忘了带作业。"
+     },
+     {
+      "id": "17",
+      "content": "People sometimes cross their arms and this gesture may {{__SELECT_1__}} us that they want to protect themselves.",
+      "options": [
+       "say",
+       "tell",
+       "speak",
+       "talk"
+      ],
+      "answer": "B",
+      "analysis": "固定用法“tell sb. that...”，意为“告诉某人某事”。say后面不能直接跟人作宾语，speak和talk常用于表达“说话”这一动作本身。"
+     },
+     {
+      "id": "18",
+      "content": "Yesterday, I {{__SELECT_1__}} a great effort and got up early.",
+      "options": [
+       "made",
+       "did",
+       "had",
+       "got"
+      ],
+      "answer": "A",
+      "analysis": "固定搭配“make an effort”意为“努力”。根据时间状语Yesterday，应用过去时made。"
+     },
+     {
+      "id": "19",
+      "content": "Everyone could see that he was just trying to {{__SELECT_1__}} impress his classmates.",
+      "options": [
+       "Showing around",
+       "Showing up",
+       "Showing off",
+       "Showing out"
+      ],
+      "answer": "C",
+      "analysis": "show off意为“炫耀，卖弄”，符合句意“每个人都看得出他只是想在同学面前炫耀”。show around意为“带领……参观”；show up意为“出现，露面”；show out意为“送客出门”。"
+     },
+     {
+      "id": "20",
+      "content": "My friend is not interested in {{__SELECT_1__}} a new job.",
+      "options": [
+       "looking out",
+       "looking in",
+       "looking on",
+       "looking for"
+      ],
+      "answer": "D",
+      "analysis": "look for意为“寻找”，符合句意“我的朋友对找一份新工作不感兴趣”。look out意为“小心”；look in意为“顺便探望”；look on意为“旁观”。"
+     },
+     {
+      "id": "21",
+      "content": "We haven't been able to get in {{__SELECT_1__}} with him since graduation.",
+      "options": [
+       "meet",
+       "play",
+       "touch",
+       "link"
+      ],
+      "answer": "C",
+      "analysis": "固定搭配“get in touch with sb.”意为“与某人取得联系”。"
+     },
+     {
+      "id": "22",
+      "content": "Please feel {{__SELECT_1__}} to ask me any questions if needed.",
+      "options": [
+       "glad",
+       "good",
+       "well",
+       "free"
+      ],
+      "answer": "D",
+      "analysis": "固定搭配“feel free to do sth.”意为“随便做某事，尽管做某事”。"
+     },
+     {
+      "id": "23",
+      "content": "The headmaster was rather busy and could {{__SELECT_1__}} me no more than five minutes.",
+      "options": [
+       "spend",
+       "save",
+       "spare",
+       "take"
+      ],
+      "answer": "C",
+      "analysis": "spare sb. some time意为“为某人抽出一些时间”。句意为“校长相当忙，只能给我不到五分钟的时间”。spend的主语通常是人，宾语是时间或金钱，常与on/in doing sth搭配。take意为“花费”，主语常是it。save意为“节省”。"
+     },
+     {
+      "id": "24",
+      "content": "This classroom isn't good, but that one is {{__SELECT_1__}} better.",
+      "options": [
+       "ever",
+       "hardly",
+       "less",
+       "rather"
+      ],
+      "answer": "D",
+      "analysis": "rather可以修饰比较级，意为“颇，相当”，表示程度。句意为“这个教室不好，但那个要好一些”。ever better, hardly better, less better都不符合语法或语境。"
+     },
+     {
+      "id": "25",
+      "content": "We will be ready at {{__SELECT_1__}} time they get here this week.",
+      "options": [
+       "whenever",
+       "however",
+       "wherever",
+       "whatever"
+      ],
+      "answer": "D",
+      "analysis": "at whatever time是一个固定搭配，意为“在任何……的时候”，引导一个名词性从句作介词at的宾语。句意为“这周无论他们什么时候到，我们都准备好了”。whenever是连词，不能放在at后面。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "Part I"
+    },
+    "originalNumber": 1
+   },
+   {
+    "id": 2,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability. \n\nItzhak Perlman is one of the finest violinists alive today. Several years ago, Perlman agreed to attend a charity (慈善) reception after one of his concerts. At the reception one guest said, \"Mr. Perlman, you were truly amazing tonight.\" Perlman smiled and thanked him graciously. The man continued, \"I have never heard anyone play the violin as well as you.\" Perlman smiled again but said nothing, and the man continued, \"You know, Mr. Perlman, I would give my whole life to be able to play the violin like you did tonight.\" Perlman smiled once more and said, \"I have.\"\n\nThat is the difference. While some of us sit around thinking, I would give my whole life to be able to do that, or, I hope that happens to me one day, people like Perlman are getting the job done. They are giving their whole lives to the fulfillment of their dreams.\n\nAll men and women have dreams, but only some achieve their dreams. Why is this? The reason is that some people dream and wait for their dreams to come true. They look at others, whom they consider fortunate or lucky, and think, I hope that happens to me one day! Others devote themselves to excellence and go out onto the stage of life chasing their dreams, living life passionately. They make their dreams come true.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "26",
+      "content": "What does the underlined word \"graciously\" (in Para. 1) most probably mean? {{__SELECT_1__}}",
+      "options": [
+       "Comfortably.",
+       "Humorously.",
+       "Gratefully.",
+       "Politely."
+      ],
+      "answer": "D",
+      "analysis": "根据上下文，客人在赞美Perlman，Perlman微笑着感谢他。graciously在这里形容他的态度，意为“有礼貌地，亲切地”，与Politely意思最接近。"
+     },
+     {
+      "id": "27",
+      "content": "Which of the following is true according to Paragraph 1? {{__SELECT_1__}}",
+      "options": [
+       "The guest believed that he could play the violin as well as Perlman.",
+       "Perlman was invited to attend a charity reception after his concert.",
+       "Perlman was invited to play the violin after the charity reception.",
+       "The guest did not really enjoy Perlman's concert."
+      ],
+      "answer": "B",
+      "analysis": "根据第一段第二句“Several years ago, Perlman agreed to attend a charity (慈善) reception after one of his concerts.”可知，Perlman同意在他的一场音乐会后参加一个慈善招待会。B选项符合原文。"
+     },
+     {
+      "id": "28",
+      "content": "According to the author, why do some people achieve their dreams? {{__SELECT_1__}}",
+      "options": [
+       "They wait for their dreams to come true.",
+       "They are considered fortunate or lucky.",
+       "They hope their dreams will come true.",
+       "They give their lives to their dreams."
+      ],
+      "answer": "D",
+      "analysis": "根据第二段最后一句“They are giving their whole lives to the fulfillment of their dreams.”和第三段的对比可知，实现梦想的人是那些为梦想付出毕生精力的人。D选项符合此意。"
+     },
+     {
+      "id": "29",
+      "content": "Why does the author tell the story about Perlman? {{__SELECT_1__}}",
+      "options": [
+       "Because Perlman made his dream come true.",
+       "Because Perlman was very kind and gracious.",
+       "Because Perlman always had his own dreams.",
+       "Because Perlman smiled and thanked the guest."
+      ],
+      "answer": "A",
+      "analysis": "作者讲述Perlman的故事是为了引出文章的主题：成功并非偶然，而是需要全身心的投入和努力。Perlman就是通过毕生努力实现梦想的典范。因此，作者讲这个故事是因为Perlman实现了他的梦想，以此来激励读者。"
+     },
+     {
+      "id": "30",
+      "content": "Which of the following would be the best title for the passage? {{__SELECT_1__}}",
+      "options": [
+       "A Charity Reception",
+       "Dream Differently",
+       "Live Passionately",
+       "A Fine Violinist"
+      ],
+      "answer": "C",
+      "analysis": "文章通过Perlman的故事，对比了两种对待梦想的态度，强调了全身心投入、充满激情地追求梦想才能成功。第三段最后一句提到“living life passionately”，这正是文章的核心思想。因此，“Live Passionately”（充满激情地生活）是最佳标题。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "Passage 1"
+    },
+    "originalNumber": 2
+   },
+   {
+    "id": 3,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability. \n\nFor many people, the most exciting way to shop is at a street market. Here are five world-famous markets.\n\nThe Grand Bazaar in Turkey is more than 500 years old and it has more than four thousand shops under one roof. You can buy almost anything here, but the most popular items for tourists are the beautiful carpets.\n\nIn Asia, the most famous market is perhaps in Thailand, a place called Danneon Saduak. From six in the morning to midday, every day, people sell fresh fruit and vegetables from their boats.\n\nMany Italians say the Campo de'Fiori in Rome is the most beautiful square in the world. It's the home of a colorful flower, fruit and vegetable market, open from seven o'clock in the morning to midday every day except Sunday. It is a lively place to meet friends and to have a meal.\n\nEvery year, thousands of people travel to Germany to visit the famous Christmas Markets. The old town of Nurnberg has the biggest market, open from the end of November until Christmas. Here people can buy toys, hand-made gifts and Christmas decorations.\n\nOne of the world's most unusual markets is in Mexico City: at the Sonara Market. As well as toys and birds, you can buy herbs and natural medicines which (they say) can help with anything —from problems at work to problems with your marriage!",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "31",
+      "content": "Which of the following may have the greatest number of shops? {{__SELECT_1__}}",
+      "options": [
+       "Danneon Sahuak.",
+       "The Grand Bazaar.",
+       "The Sonara Market.",
+       "The Campo de'Fiori."
+      ],
+      "answer": "B",
+      "analysis": "根据第二段“The Grand Bazaar in Turkey...has more than four thousand shops under one roof.”可知，土耳其的大巴扎拥有超过四千家商店，是文中提到商店数量最多的市场。"
+     },
+     {
+      "id": "32",
+      "content": "Which of the following is a good place for meeting friends and having a meal? {{__SELECT_1__}}",
+      "options": [
+       "Danneon Sahuak.",
+       "Christmas Markets.",
+       "The Sonara Market.",
+       "The Campo de'Fiori."
+      ],
+      "answer": "D",
+      "analysis": "根据第四段对罗马鲜花广场的描述“It is a lively place to meet friends and to have a meal.”可知，鲜花广场是会友和用餐的好去处。"
+     },
+     {
+      "id": "33",
+      "content": "What can you buy if you visit the Nurnberg Christmas Markets? {{__SELECT_1__}}",
+      "options": [
+       "Fresh vegetables.",
+       "Beautiful carpets.",
+       "Natural medicines.",
+       "Christmas decorations."
+      ],
+      "answer": "D",
+      "analysis": "根据第五段对纽伦堡圣诞市场的描述“Here people can buy toys, hand-made gifts and Christmas decorations.”可知，在这里可以买到圣诞装饰品。"
+     },
+     {
+      "id": "34",
+      "content": "If you have problems with your work, where would you go? {{__SELECT_1__}}",
+      "options": [
+       "The Campo de'Fiori.",
+       "The Sonara Market.",
+       "The Grand Bazaar.",
+       "Danneon Sahuak."
+      ],
+      "answer": "B",
+      "analysis": "根据最后一段对墨西哥索诺拉市场的描述“...you can buy herbs and natural medicines which (they say) can help with anything —from problems at work to problems with your marriage!”可知，如果工作上有问题，可以去索诺拉市场。"
+     },
+     {
+      "id": "35",
+      "content": "What is the passage mainly about? {{__SELECT_1__}}",
+      "options": [
+       "Well-known markets in the world.",
+       "Unusual products in the world.",
+       "Lively places to meet friends.",
+       "Exciting ways to shop."
+      ],
+      "answer": "A",
+      "analysis": "文章开篇第一句点明主旨，然后分别介绍了土耳其、泰国、意大利、德国和墨西哥的五个世界著名的市场。因此，文章主要内容是关于世界知名的市场。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "Passage 2"
+    },
+    "originalNumber": 3
+   },
+   {
+    "id": 4,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability.\n\nDuring the COVID-19 outbreak, many children were isolated at home. They often felt very unhappy as their normal lives were suddenly interrupted and completely changed.\n\nSproutel Purrble came to save some of these children out of trouble. An interactive (互动的) plush (毛绒) toy which is equipped with seven sensors (传感器) that respond to touch, Purrble's able-to-touch heartbeat speeds up to 135 beats per minute when it senses somebody is playing with it. Kids can then comfort their companion with gentle touching and soft voice, slowing Purrble's quick heartbeat to a low continuous sound—calming themselves as well in the process.\n\nDeveloped through using research from the Committee for Children, a nonprofit and global leader on social-emotional learning, the device aims to help children learn to manage their emotions, such as keeping them calm.\n\nEarly research shows that Purrble is doing just that: in a study with 20 families, 19 parents reported that the toy helped their kids calm down when they needed to. \"I grew up with a long-time illness as a child and would have loved to have this,\" says Aaron Horowits, head of Sproutel, the company which designed the toy.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "36",
+      "content": "What is Sproutel Purrble? {{__SELECT_1__}}",
+      "options": [
+       "A sensor.",
+       "A kid.",
+       "An illness.",
+       "A toy."
+      ],
+      "answer": "D",
+      "analysis": "根据第二段第二句“An interactive (互动的) plush (毛绒) toy which is equipped with seven sensors (传感器)...”可知，Sproutel Purrble是一个互动毛绒玩具。"
+     },
+     {
+      "id": "37",
+      "content": "What enables Purrble to calm kids down? {{__SELECT_1__}}",
+      "options": [
+       "Feeling isolated.",
+       "Having lots of plush.",
+       "Responding to touch.",
+       "Making different sounds."
+      ],
+      "answer": "C",
+      "analysis": "根据第二段“...equipped with seven sensors (传感器) that respond to touch...Kids can then comfort their companion with gentle touching and soft voice...calming themselves as well in the process.”可知，Purrble通过对触摸的反应以及与孩子的互动来安抚孩子，其核心机制是互动性，即对触摸的反应。"
+     },
+     {
+      "id": "38",
+      "content": "How do kids comfort Purrble? {{__SELECT_1__}}",
+      "options": [
+       "Equipping it with sensors.",
+       "Responding to its sound.",
+       "Touching it gently.",
+       "Increasing its heartbeat."
+      ],
+      "answer": "C",
+      "analysis": "根据第二段第三句“Kids can then comfort their companion with gentle touching and soft voice...”可知，孩子们通过温柔的触摸和轻柔的声音来安抚Purrble。"
+     },
+     {
+      "id": "39",
+      "content": "Which of the following designed the device? {{__SELECT_1__}}",
+      "options": [
+       "Sproutel.",
+       "A famous researcher.",
+       "Aaron Horowits.",
+       "Committee for Children."
+      ],
+      "answer": "A",
+      "analysis": "根据最后一段最后一句“...says Aaron Horowits, head of Sproutel, the company which designed the toy.”可知，设计这个玩具的公司是Sproutel。"
+     },
+     {
+      "id": "40",
+      "content": "Which of the following best describes most parents' attitude to Purrble? {{__SELECT_1__}}",
+      "options": [
+       "Unclear.",
+       "Critical.",
+       "Positive.",
+       "Negative."
+      ],
+      "answer": "C",
+      "analysis": "根据最后一段“in a study with 20 families, 19 parents reported that the toy helped their kids calm down when they needed to.”可知，20个家庭中有19个报告说玩具有用，这表明了家长们非常积极（Positive）的态度。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "Passage 3"
+    },
+    "originalNumber": 4
+   },
+   {
+    "id": 5,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability.\n\nEnglish is spoken by hundreds of millions of people worldwide, but do the developments of translation technology and \"mixed\" languages damage its status (地位)?\n\nFor how much longer will English qualify as the “world’s favorite language”? The World Economic Organization estimates that about 1.5 billion people around the world speak it — but fewer than 400 million have it as their first language.\n\nEnglish is the world's favorite lingua franca—the language people are most likely to turn to when they don't share a first language. Imagine, for example, a Russian speaker who speaks no\n\nFrench in conversation with a French speaker who speaks no Russian. The chances are that they would use English.\n\nFive years ago, perhaps. But not any more. Thanks to advances in computer translation and voice-recognition technology, they can each speak their own language, and hear what the other speaker is saying, which is machine-translated in real time.\n\nSo English's days as the world's top global language may be numbered. That is: the computers are coming, and they are winning.\n\nSo is the future of English at risk? I don't think so, although its global influence may become less over the coming decades. Like all languages, it is constantly changing and adapting (适应) to new needs. Until recently, \"text\" and \"friend\" were nouns. Now, they are also verbs, as in \"I'll text you,\" or \"Why don't you friend me?\"",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "41",
+      "content": "How many people are estimated to speak English as their first language? {{__SELECT_1__}}",
+      "options": [
+       "Less than 1.5 billion.",
+       "Less than 400 million.",
+       "More than 1.5 billion.",
+       "More than 400 million."
+      ],
+      "answer": "B",
+      "analysis": "根据第二段“...but fewer than 400 million have it as their first language.”可知，以英语为第一语言的人数少于4亿。"
+     },
+     {
+      "id": "42",
+      "content": "What language will most probably be used between a Russian and a Frenchman without translation technology? {{__SELECT_1__}}",
+      "options": [
+       "English.",
+       "French.",
+       "Russian.",
+       "A mixed language."
+      ],
+      "answer": "A",
+      "analysis": "根据第三段的例子“...a Russian speaker...in conversation with a French speaker...The chances are that they would use English.”可知，在没有翻译技术的情况下，他们很可能会使用英语交流。"
+     },
+     {
+      "id": "43",
+      "content": "What is a lingua franca? {{__SELECT_1__}}",
+      "options": [
+       "A language spoken by millions of people.",
+       "A language understood only by machines.",
+       "A language used in computer translation technology.",
+       "A language spoken by people who don't share a first language."
+      ],
+      "answer": "D",
+      "analysis": "根据第三段第一句对lingua franca的定义“...the language people are most likely to turn to when they don't share a first language.”可知，通用语是指母语不同的人们之间用来交流的语言。"
+     },
+     {
+      "id": "44",
+      "content": "Which of the following is made possible by machine-translation? {{__SELECT_1__}}",
+      "options": [
+       "Communicating across different languages.",
+       "Identifying speakers through voice recognition.",
+       "Using English as the world's favorite language.",
+       "Replacing English by computer language."
+      ],
+      "answer": "A",
+      "analysis": "根据第四段“...they can each speak their own language, and hear what the other speaker is saying, which is machine-translated in real time.”可知，机器翻译使得说不同语言的人可以实时交流。"
+     },
+     {
+      "id": "45",
+      "content": "What does the writer think of the future of the English language? {{__SELECT_1__}}",
+      "options": [
+       "It is extremely promising.",
+       "It is still full of hope.",
+       "It is uncertain.",
+       "It is at risk."
+      ],
+      "answer": "B",
+      "analysis": "根据最后一段作者的观点“So is the future of English at risk? I don't think so... Like all languages, it is constantly changing and adapting to new needs.”可知，作者认为英语的未来并无风险，它在不断变化和适应，因此仍然充满希望。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "Passage 4"
+    },
+    "originalNumber": 5
+   },
+   {
+    "id": 6,
+    "type": "填空题",
+    "content": "Directions: This part is to test your reading ability. \n\nCharles Darwin (1809 — 1882) was one of the most influential scientists of all time. His theory of evolution by natural selection explained how life on Earth developed, and is the basic concept upon which the life sciences are built.\n\nDarwin's father was a doctor. On leaving school, Darwin followed in his father's footsteps and went to Edinburgh University to study medicine. However, he gave up because he hated the sight of blood. He then went to the University of Cambridge, intending to work in a church.\n\nDarwin discovered his love of natural history at Cambridge, where he spent much of his time collecting insects. He graduated in 1831 and accepted a place as a naturalist on board Beagle. The ship's five-year voyage proved to be the most important period in Darwin's life, providing the basis for his future ideas and writings.\n\nHe returned to England in 1836 and published an account of his travels, which made him famous. He began to develop his theory of natural selection and published his revolutionary book On the Origin of Species in 1859. This was followed by The Descent of Man in 1871, in which he applied his ideas to explaining the evolution of humans.\n\nCharles Darwin\n\nHis theory of evolution by {{__BLANK_1__}} is a basic concept of the life sciences.\n\nHe studied {{__BLANK_2__}} at Edinburgh University after leaving school.\n\nHe discovered his love of {{__BLANK_3__}} at Cambridge.\n\nThe five-year voyage provided the {{__BLANK_4__}} for his future ideas and writings.\n\nHe applied his ideas in The Descent of Man to explaining the {{__BLANK_5__}} of humans.",
+    "options": [],
+    "answer": [
+     "natural selection",
+     "medicine",
+     "natural history",
+     "basis",
+     "evolution"
+    ],
+    "analysis": "根据文章内容，达尔文的进化论是基于自然选择（natural selection）。他在爱丁堡大学学习医学（medicine）。在剑桥大学发现了对自然历史（natural history）的热爱。五年的航行为他未来的思想和写作提供了基础（basis）。他在《人类的由来》中运用其思想解释了人类的进化（evolution）。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "46-50"
+    },
+    "originalNumber": 6
+   },
+   {
+    "id": 7,
+    "type": "单选题",
+    "content": "Directions: This part is to test your ability to translate English into Chinese.\n\nDirections: There are 5 sentences numbered 51 to 55. You will read three suggested translations marked A, B, and C. Choose the best one and blacken the corresponding letter on your Answer Sheet.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "51",
+      "content": "They rely on themselves, which is much better. {{__SELECT_1__}}",
+      "options": [
+       "依靠他们自己比依靠别人好。",
+       "如果他们能依靠自己就好了。",
+       "他们依靠自己，这就好多了。"
+      ],
+      "answer": "C",
+      "analysis": "原句中 `which` 引导一个非限制性定语从句，指代前面整个句子的内容“They rely on themselves”。因此，`which is much better` 是对“他们依靠自己”这件事的评价。C选项“他们依靠自己，这就好多了”准确地翻译了这种结构和意思。A选项引入了原文没有的“依靠别人”的比较。B选项翻译成了虚拟语气，改变了原句的陈述语气。"
+     },
+     {
+      "id": "52",
+      "content": "He is unworthy to live who lives only for himself. {{__SELECT_1__}}",
+      "options": [
+       "此生只为己，不配活在世。",
+       "此生不值得，除非为自己。",
+       "若不为己活，还不如不活。"
+      ],
+      "answer": "A",
+      "analysis": "`who lives only for himself` 是一个定语从句，修饰主语 `He`。整个句子的意思是“一个只为自己而活的人，不值得活下去”。A选项“此生只为己，不配活在世”用对仗的句式，简练且深刻地表达了原文的含义，是信、达、雅的翻译。B和C选项都曲解了原意。"
+     },
+     {
+      "id": "53",
+      "content": "Don't cough more than you can help. {{__SELECT_1__}}",
+      "options": [
+       "能不咳，就不咳。",
+       "别咳了，你咳得太多了。",
+       "不要咳得多于你能不咳的。"
+      ],
+      "answer": "A",
+      "analysis": "这是一个固定句型 `... more than one can help`，意思是“超出所能避免的程度”。`can't help doing sth.` 意为“忍不住做某事”。整个句子 `Don't do sth. more than you can help` 的意思是“尽量不要做某事”。因此，“Don't cough more than you can help”意为“尽量别咳嗽”，或者“能忍住就别咳”。A选项“能不咳，就不咳”最贴切地表达了这个意思。"
+     },
+     {
+      "id": "54",
+      "content": "I didn't begin to work till he had gone. {{__SELECT_1__}}",
+      "options": [
+       "他还没走我就开始工作了。",
+       "他走了之后我才开始工作。",
+       "我还没开始工作他就走了。"
+      ],
+      "answer": "B",
+      "analysis": "`not... until...` (或 `not... till...`) 是一个经典句型，意为“直到……才……”。句子的核心是 `until/till` 引导的时间点或时间段发生后，`not` 所否定的动作才开始发生。所以，`he had gone` (他走了) 这个动作完成后，`I began to work` (我开始工作) 这个动作才发生。B选项“他走了之后我才开始工作”是这个句型的标准翻译。"
+     },
+     {
+      "id": "55",
+      "content": "The personnel manager said he would have an interview with the applicant on Tuesday. {{__SELECT_1__}}",
+      "options": [
+       "人事部经理星期二说他将对应聘者进行面试。",
+       "人事部经理说他将于星期二对应聘者进行面试。",
+       "人事部经理说每个星期二他将对应聘者进行面试。"
+      ],
+      "answer": "B",
+      "analysis": "`on Tuesday` 是时间状语，修饰的是 `have an interview` 这个动作，而不是 `said`。因此，面试的时间是星期二，而不是说的日期是星期二。`would` 在这里是 `will` 的过去式，表示过去将来时。B选项准确地表达了“说的内容是在将来的星期二进行面试”。A选项错误地将 `on Tuesday` 当作 `said` 的时间状语。C选项将 `on Tuesday` 误解为 `every Tuesday`。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "51-55"
+    },
+    "originalNumber": 7
+   },
+   {
+    "id": 8,
+    "type": "翻译题",
+    "content": "Directions: This part is to test your ability to translate English into Chinese.\n\nReading can change lives. Here's a story. A grandmother and her grandson lived in different cities. She would call him and ask him about school or about his day. He would respond in one word answer: Fine. Nothing. She was so sad to have fallen out of touch with her beloved grandson. And then one day she asked him what he was reading. He had just started The Hunger Games. The grandmother decided to read it so that she could talk about it with her grandson the next time they chatted on the phone. Other than belonging to the same family, they had never had much in common. Now, they did. It was reading.",
+    "options": [],
+    "answer": "阅读可以改变人生。这是一个关于阅读的故事。一位祖母和她的孙子住在不同的城市。她会打电话给他，问他学校或一天的情况。他总是用一个词回答：还好。没什么。她因为与心爱的孙子疏远而感到非常难过。然后有一天，她问他在读什么书。他刚开始读《饥饿游戏》。于是，祖母决定也读这本书，这样下次他们在电话里聊天时，她就可以和孙子谈论这本书了。除了同属一个家庭，他们从来没有太多共同点。但现在，他们有了。那就是阅读。",
+    "analysis": "这篇短文的翻译需要注意语气的连贯和情感的表达。关键点包括：\n1. `would call him` 和 `He would respond` 中的 `would` 表示过去的习惯性动作，可以翻译为“总是”、“会”。\n2. `fallen out of touch with` 意为“与……失去联系，疏远”。\n3. `so that` 引导目的状语从句，翻译为“以便，这样”。\n4. `Other than...` 意为“除了……”。\n5. `much in common` 意为“很多共同点”。\n6. 最后一句 `Now, they did. It was reading.` 是强调句式，`did` 代替 `had much in common`，需要把这种转折和强调的语气翻译出来，可以译为“但现在，他们有了。那就是阅读。”，简洁而有力。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "56"
+    },
+    "originalNumber": 8
+   },
+   {
+    "id": 9,
+    "type": "写作题",
+    "content": "Directions: Write your translation in the corresponding space on the Answer Sheet.\n\n请根据以下信息写一则通知，词数不少于60。\n\n(1) 主讲人：张军（职业发展指导中心）；  \n(2)题目: 大学生职业生涯规划;  \n（3）地点：大学生活动中心1号报告厅；  \n（4）时间：2022年6月18日14：00-15：30；  \n（5）要求：全体学生参加；提前10分钟入场；手机保持静音状态。",
+    "options": [],
+    "answer": "Notice\n\nTo help students better plan for their future careers, a lecture on career planning for college students will be held. All students are required to attend.\n\nThe lecture will be delivered by Mr. Zhang Jun from the Career Development Guidance Center. The details are as follows:\n\nTopic: Career Planning for College Students\nTime: 14:00-15:30, June 18, 2022\nVenue: Report Hall 1, University Student Activity Center\n\nPlease arrive 10 minutes in advance. It is also requested that all mobile phones be kept silent during the lecture. We look forward to your participation.\n\nThe Student Affairs Office\nJune 10, 2022",
+    "analysis": "本题要求写一则通知。写作时应注意以下几点：\n1. **格式**：通知的格式通常包括标题（Notice）、正文和落款（发布单位和日期）。\n2. **内容**：正文必须包含题目中提供的所有信息点：主讲人、题目、地点、时间、要求。\n3. **语言**：语言应正式、简洁、清晰。常用句式如 `A lecture will be held...`, `All students are required to...`, `The details are as follows:`, `Please arrive...`。\n4. **要点覆盖**：\n   - (1) 主讲人：Mr. Zhang Jun (from the Career Development Guidance Center)\n   - (2) 题目：Career Planning for College Students\n   - (3) 地点：Report Hall 1, University Student Activity Center\n   - (4) 时间：14:00-15:30, June 18, 2022\n   - (5) 要求：All students are required to attend; Please arrive 10 minutes in advance; All mobile phones should be kept silent.\n5. **词数**：确保不少于60词。所给范文结构完整，信息全面，词数充足，符合要求。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2022真题卷(5).pdf",
+     "fileId": "2013984007155326977",
+     "originalNumber": "57"
+    },
+    "originalNumber": 9
+   }
+  ]
+ }
+}

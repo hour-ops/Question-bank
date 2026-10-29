@@ -1,0 +1,2324 @@
+{
+ "id": 104,
+ "title": "河北专升本英语19",
+ "subject": "英语",
+ "createTime": "2026-04-06 15:40:31",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "河北省 2019 年普通高校专科接本科教育选拔考试",
+   "subject": "英语",
+   "province": "河北省",
+   "year": 2019,
+   "source": {
+    "fileName": "full.md",
+    "fileId": "2019年河北省专接本英语真题.pdf-be96af49-9e2d-49dd-b898-693027be0c55"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "single_choice",
+    "displayName": "语音题",
+    "partLabel": "Ⅰ. Phonetics",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In each of the following groups of words, there are four underlined letters or letter combinations marked A, B, C and D. Compare the underlined parts and identify the ONE that is different from the others in pronunciation."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q1",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. wh<u>i</u>te"
+        },
+        {
+         "key": "B",
+         "label": "B. l<u>i</u>ft"
+        },
+        {
+         "key": "C",
+         "label": "C. l<u>i</u>ght"
+        },
+        {
+         "key": "D",
+         "label": "D. kn<u>i</u>fe"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q1",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "white、light、knife 中的字母 i 发 /aɪ/，而 lift 中发 /ɪ/，因此 B 不同。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. lift"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q2",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. potat<u>o</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. phot<u>o</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. tab<u>oo</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. her<u>o</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q2",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "potato、photo、hero 中对应元音发 /oʊ/，taboo 中 oo 发 /uː/，因此 C 不同。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. taboo"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q3",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. na<u>tion</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. atten<u>tion</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. ac<u>tion</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. sugges<u>tion</u>"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q3",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "nation、attention、action 中的 -tion 发 /ʃən/，suggestion 中发 /tʃən/，因此 D 不同。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. suggestion"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q4",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. t<u>ou</u>ch"
+        },
+        {
+         "key": "B",
+         "label": "B. pr<u>ou</u>d"
+        },
+        {
+         "key": "C",
+         "label": "C. <u>ou</u>tside"
+        },
+        {
+         "key": "D",
+         "label": "D. sh<u>ou</u>t"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q4",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "proud、outside、shout 中的 ou 发 /aʊ/，touch 中发 /ʌ/，因此 A 不同。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. touch"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q5",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. sear<u>ch</u>"
+        },
+        {
+         "key": "B",
+         "label": "B. spee<u>ch</u>"
+        },
+        {
+         "key": "C",
+         "label": "C. tea<u>ch</u>"
+        },
+        {
+         "key": "D",
+         "label": "D. <u>ch</u>emistry"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q5",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "search、speech、teach 中的 ch 发 /tʃ/，chemistry 中的 ch 发 /k/，因此 D 不同。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. chemistry"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "cloze",
+    "displayName": "情景对话",
+    "partLabel": "Ⅱ. Situational Dialogues",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section there is a long dialogue with 5 missing sentences. At the end of the dialogue, there is a list of given choices. You are required to select the ONE that best fits into the dialogue. Note that there are two additional choices and you may not use any of the choices in the list more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. No, it doesn't."
+     },
+     {
+      "key": "B",
+      "label": "B. You may go swimming from 14:00 to 20:00 every day."
+     },
+     {
+      "key": "C",
+      "label": "C. What time would you like to leave"
+     },
+     {
+      "key": "D",
+      "label": "D. I'd like to book a double room"
+     },
+     {
+      "key": "E",
+      "label": "E. Could I make an appointment for Sunday afternoon"
+     },
+     {
+      "key": "F",
+      "label": "F. We provide a telephone and a cable TV"
+     },
+     {
+      "key": "G",
+      "label": "G. What's the rate"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "M: Hilton Hotel. Can I help you?\nW: Yes, "
+       },
+       {
+        "type": "blank",
+        "key": "q6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": " with a bath from October 11 to October 14.\nM: We have one double room available now.\nW: "
+       },
+       {
+        "type": "blank",
+        "key": "q7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": "?\nM: 130 dollars a night, including breakfast.\nW: Does that include tax?\nM: "
+       },
+       {
+        "type": "blank",
+        "key": "q8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": ".\nW: What service comes with that?\nM: "
+       },
+       {
+        "type": "blank",
+        "key": "q9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": ". You can also go online in your room.\nW: Do you have a swimming pool in the hotel?\nM: Sure. "
+       },
+       {
+        "type": "blank",
+        "key": "q10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": ". It's free.\nW: Good. Thank you for the information."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q6"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q6",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前台接线后，女士紧接着提出订房需求；后文又出现 double room，可知此处应是提出预订双人房。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. I'd like to book a double room"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q7"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q7",
+       "value": "G"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "后一句回答每晚 130 美元，说明这里询问的是房价。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "G. What's the rate"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q8"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q8",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "女士问“Does that include tax?”，最自然的回应是是否包含税费，A 与语境完全对应。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. No, it doesn't."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q9"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q9",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "女士追问房费包含什么服务，后句又补充可以上网，因此这里应先说明房内配套服务。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "F. We provide a telephone and a cable TV"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q10"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q10",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "女士询问游泳池，服务员先确认有，再说明开放时间，最后补充免费，B 最连贯。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. You may go swimming from 14:00 to 20:00 every day."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III. Reading Comprehension / Section A / Passage 1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Doctors believe that second-hand smoke may cause lung cancer in people who do not smoke.\nNonsmokers often breathe in the smoke from other people's cigarettes. This is second-hand smoke. The US Environmental Protection Agency (美国环保局) reports that about fifty-three thousand people die in the United States each year as a result of exposure to second-hand smoke.\nIt is harder for children to avoid second-hand smoke. In the United States, nine million children under the age of five live in homes with at least one smoker. Research shows that these children are sick more often than children who live in homes where no one smokes. The damaging effects of second-hand smoke on children also continue as they grow up. The children of smokers are more than twice as likely to develop lung cancer when they are adults as children of nonsmokers. The risk is even higher for children who live in homes where both parents smoke.\nPeople are becoming very aware of the danger of second-hand smoke. As a result, they have passed laws that prohibit people from smoking in many public places. Currently, 45 states in the US have laws that restrict smoking. The most well-known law doesn't allow people to smoke on short native airline flights, i.e. flights within the country."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Compared with nonsmokers' children, the children whose parents both smoke are likely to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q11",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. grow up more slowly"
+        },
+        {
+         "key": "B",
+         "label": "B. be sick under the age of five"
+        },
+        {
+         "key": "C",
+         "label": "C. develop lung cancer more often"
+        },
+        {
+         "key": "D",
+         "label": "D. become smokers more easily"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q11",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中指出 smokers 的孩子成年后患肺癌的概率超过 nonsmokers 的孩子，而父母都吸烟时风险更高，所以应选 C。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. develop lung cancer more often"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Why are there laws made against smoking in public places in the US?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q12",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Because people are conscious of the danger of second-hand smoke."
+        },
+        {
+         "key": "B",
+         "label": "B. Because more and more people don't like smoke now."
+        },
+        {
+         "key": "C",
+         "label": "C. Because parents don't want their children to become smokers."
+        },
+        {
+         "key": "D",
+         "label": "D. Because the government wants to limit the production of cigarettes."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q12",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段直接说 people are becoming very aware of the danger of second-hand smoke，因此立法原因是公众已意识到危害。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Because people are conscious of the danger of second-hand smoke."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following statements is TRUE?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q13",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. The number of smokers' children is twice greater than that of nonsmokers' children."
+        },
+        {
+         "key": "B",
+         "label": "B. People are now not allowed to smoke on short airline flights in the US."
+        },
+        {
+         "key": "C",
+         "label": "C. Adults whose parents smoked when they were children develop cancer less frequently."
+        },
+        {
+         "key": "D",
+         "label": "D. Second-hand smoke is not as dangerous as first-hand smoke."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q13",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章最后一句明确说明美国短途国内航班上不允许吸烟，因此 B 正确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. People are now not allowed to smoke on short airline flights in the US."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "From the passage we can conclude that"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q14",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. the main cause of lung cancer is second-hand smoke"
+        },
+        {
+         "key": "B",
+         "label": "B. most people know nothing about the danger of second-hand smoke"
+        },
+        {
+         "key": "C",
+         "label": "C. public places are dangerous for people to stay"
+        },
+        {
+         "key": "D",
+         "label": "D. children suffer most from second-hand smoke"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q14",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章重点强调儿童更难避免二手烟，而且危害会持续到成年，因此可推知 children suffer most from second-hand smoke。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. children suffer most from second-hand smoke"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The word \"restrict\" in the last paragraph is closest in meaning to"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q15",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. limit"
+        },
+        {
+         "key": "B",
+         "label": "B. permit"
+        },
+        {
+         "key": "C",
+         "label": "C. control"
+        },
+        {
+         "key": "D",
+         "label": "D. persuade"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q15",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "restrict smoking 表示“限制吸烟”，与 limit 意义最接近。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. limit"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "III. Reading Comprehension / Section A / Passage 2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 2 passages in this part. Each passage is followed by some questions or unfinished statements. For each of them there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the statement."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "A warm drink of milk before bed has long been the best choice for those wanting a good night's sleep. But now a study has found it really does help people nod off if it is milked from a cow at night.\nResearchers have discovered that \"night milk\" contains more melatonin (褪黑激素), which has been proven to help people feel sleepy and reduce anxiety.\nThe study, by researchers from Seoul, South Korea, involved mice being fed with dried milk powder made from cows milked both during the day and at night.\nThe mice given night milk, which contained 10 times the amount of melatonin, were less active and less anxious than those fed with the milk collected during daytime, according to the study published in The Journal of Medicinal Food.\nNight milk quickened the start of sleep and caused the mice to sleep longer.\nWhile the effect of cow's milk harvested at different times has not been tested on humans up to now, taking melatonin drugs has been suggested to those who are struggling to fall asleep at night.\nPrevious studies have also indicated that milk can be excellent for helping sleep because of the calcium content, which helps people to relax.\nMilk is also sugar-free and additive-free, with nutritionists recommending skimmed milk as the best choice before bed as it is the least fattening. The more fat you take in before bedtime, the greater burden you will put on your body at night."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "According to the text, the mice fed with daytime milk"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q16",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. started sleep more easily"
+        },
+        {
+         "key": "B",
+         "label": "B. were more anxious"
+        },
+        {
+         "key": "C",
+         "label": "C. were less active"
+        },
+        {
+         "key": "D",
+         "label": "D. woke up later"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q16",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文中说 night milk 组更不活跃、也更不焦虑，因此反推 daytime milk 组更焦虑。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. were more anxious"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Which of the following is true of melatonin according to the text?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q17",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. It's been tested on mice for ten times."
+        },
+        {
+         "key": "B",
+         "label": "B. It can make people more energetic."
+        },
+        {
+         "key": "C",
+         "label": "C. It exists in daytime milk in great amount."
+        },
+        {
+         "key": "D",
+         "label": "D. It's used in sleeping drugs."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q17",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章提到对难以入睡者建议服用 melatonin drugs，因此 D 正确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. It's used in sleeping drugs."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What can be a suitable title for the text?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q18",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Night Milk and Sleep"
+        },
+        {
+         "key": "B",
+         "label": "B. Fat, Sugar and Health"
+        },
+        {
+         "key": "C",
+         "label": "C. An Experiment on Mice"
+        },
+        {
+         "key": "D",
+         "label": "D. Milk Drinking and Health"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q18",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "全文核心围绕夜间挤出的牛奶更有助于睡眠展开，A 最能概括主旨。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Night Milk and Sleep"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How does the author support the theme of the text?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q19",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. By giving examples."
+        },
+        {
+         "key": "B",
+         "label": "B. By stating arguments."
+        },
+        {
+         "key": "C",
+         "label": "C. By explaining statistical data."
+        },
+        {
+         "key": "D",
+         "label": "D. By providing research results."
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q19",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作者主要通过介绍首尔研究者的实验和期刊研究结果来支持主题，因此选 D。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. By providing research results."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The phrase \"take in\" in the last paragraph most probably means"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q20",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. include"
+        },
+        {
+         "key": "B",
+         "label": "B. absorb"
+        },
+        {
+         "key": "C",
+         "label": "C. cheat"
+        },
+        {
+         "key": "D",
+         "label": "D. understand"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q20",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "take in fat 在这里表示“摄入、吸收脂肪”，与 absorb 最接近。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. absorb"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "cloze",
+    "displayName": "选词填空",
+    "partLabel": "III. Reading Comprehension / Section B",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. You may not use any of the words in the bank more than once."
+      }
+     ]
+    },
+    "sharedChoices": [
+     {
+      "key": "A",
+      "label": "A. consists"
+     },
+     {
+      "key": "B",
+      "label": "B. involve"
+     },
+     {
+      "key": "C",
+      "label": "C. goal"
+     },
+     {
+      "key": "D",
+      "label": "D. subject"
+     },
+     {
+      "key": "E",
+      "label": "E. seeking"
+     },
+     {
+      "key": "F",
+      "label": "F. closely"
+     },
+     {
+      "key": "G",
+      "label": "G. employee"
+     },
+     {
+      "key": "H",
+      "label": "H. apply"
+     },
+     {
+      "key": "I",
+      "label": "I. excellent"
+     },
+     {
+      "key": "J",
+      "label": "J. enable"
+     },
+     {
+      "key": "K",
+      "label": "K. benefits"
+     },
+     {
+      "key": "L",
+      "label": "L. likely"
+     },
+     {
+      "key": "M",
+      "label": "M. personal"
+     },
+     {
+      "key": "N",
+      "label": "N. employers"
+     },
+     {
+      "key": "O",
+      "label": "O. succeeded"
+     }
+    ],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "An application letter - the letter you write to apply for a job - will probably be the most important kind of letter you will ever write. Very "
+       },
+       {
+        "type": "blank",
+        "key": "q21",
+        "placeholder": "21"
+       },
+       {
+        "type": "markdown",
+        "value": ", it is a letter that you will write several times, as most people change "
+       },
+       {
+        "type": "blank",
+        "key": "q22",
+        "placeholder": "22"
+       },
+       {
+        "type": "markdown",
+        "value": " several times during their business careers. Your first job, as well as each of those that follow, is almost certain to "
+       },
+       {
+        "type": "blank",
+        "key": "q23",
+        "placeholder": "23"
+       },
+       {
+        "type": "markdown",
+        "value": " some writing and most employers look upon an application letter as an "
+       },
+       {
+        "type": "blank",
+        "key": "q24",
+        "placeholder": "24"
+       },
+       {
+        "type": "markdown",
+        "value": " indicator (标志物) of an applicant's writing and other communication skills.\nThe purpose of your application letter, which should go together with your resume, is to get you a "
+       },
+       {
+        "type": "blank",
+        "key": "q25",
+        "placeholder": "25"
+       },
+       {
+        "type": "markdown",
+        "value": " interview with the employer. If the letter is a good one, it most likely will achieve its "
+       },
+       {
+        "type": "blank",
+        "key": "q26",
+        "placeholder": "26"
+       },
+       {
+        "type": "markdown",
+        "value": ".\nThe general plan of an application letter "
+       },
+       {
+        "type": "blank",
+        "key": "q27",
+        "placeholder": "27"
+       },
+       {
+        "type": "markdown",
+        "value": " matches that of a sales letter. For an application letter, the \"product\" you are selling "
+       },
+       {
+        "type": "blank",
+        "key": "q28",
+        "placeholder": "28"
+       },
+       {
+        "type": "markdown",
+        "value": " of your knowledge, your skills, and your personality - everything about you that will "
+       },
+       {
+        "type": "blank",
+        "key": "q29",
+        "placeholder": "29"
+       },
+       {
+        "type": "markdown",
+        "value": " you to perform the job to the satisfaction of the employer. As a result, you must understand the employer's needs, know the specific requirements of the job you are "
+       },
+       {
+        "type": "blank",
+        "key": "q30",
+        "placeholder": "30"
+       },
+       {
+        "type": "markdown",
+        "value": ", and know what you have to \"sell\"."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q21"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q21",
+       "value": "L"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定搭配为 very likely，表示“很可能”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "L. likely"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q22"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q22",
+       "value": "N"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合后文 careers，可知人们在职业生涯中会多次更换雇主。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "N. employers"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q23"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q23",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "be certain to involve some writing 表示“几乎肯定会涉及一些写作”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. involve"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q24"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q24",
+       "value": "I"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "excellent indicator 表示“极好的衡量标志”，搭配自然。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "I. excellent"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q25"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q25",
+       "value": "M"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "personal interview 表示“面试”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "M. personal"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q26"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q26",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "achieve its goal 是固定搭配，表示“达到目的”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. goal"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q27"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q27",
+       "value": "F"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "closely matches 表示“非常接近、紧密符合”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "F. closely"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q28"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q28",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "consists of 是固定搭配，表示“由……组成”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. consists"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q29"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q29",
+       "value": "J"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "enable you to do sth. 是固定结构。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "J. enable"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q30"
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q30",
+       "value": "E"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "the job you are seeking 表示“你正在寻求的工作”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "E. seeking"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "cloze",
+    "displayName": "完形填空",
+    "partLabel": "IV. Cloze",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: There are 10 blanks in the following passage. For each blank there are 4 choices marked A, B, C and D. You are required to choose the ONE that best fits into the passage."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Faces, like fingerprints, are unique. Did you ever wonder how it is possible for us to "
+       },
+       {
+        "type": "blank",
+        "key": "q31",
+        "placeholder": "31"
+       },
+       {
+        "type": "markdown",
+        "value": " people? Even a skilled writer probably could not describe all the features that make one face "
+       },
+       {
+        "type": "blank",
+        "key": "q32",
+        "placeholder": "32"
+       },
+       {
+        "type": "markdown",
+        "value": " another. Yet a very young child - or even an animal, such as a pigeon - can learn to recognize faces. We all "
+       },
+       {
+        "type": "blank",
+        "key": "q33",
+        "placeholder": "33"
+       },
+       {
+        "type": "markdown",
+        "value": " this ability for granted.\nWe also "
+       },
+       {
+        "type": "blank",
+        "key": "q34",
+        "placeholder": "34"
+       },
+       {
+        "type": "markdown",
+        "value": " people apart by how they behave. When we talk about someone's "
+       },
+       {
+        "type": "blank",
+        "key": "q35",
+        "placeholder": "35"
+       },
+       {
+        "type": "markdown",
+        "value": ", we mean the ways "
+       },
+       {
+        "type": "blank",
+        "key": "q36",
+        "placeholder": "36"
+       },
+       {
+        "type": "markdown",
+        "value": " he or she acts, speaks, thinks and feels that make that individual different from others.\n"
+       },
+       {
+        "type": "blank",
+        "key": "q37",
+        "placeholder": "37"
+       },
+       {
+        "type": "markdown",
+        "value": " the human face, human personality is very complex. But describing someone's personality in words is somewhat easier than describing his face. If you were asked to describe "
+       },
+       {
+        "type": "blank",
+        "key": "q38",
+        "placeholder": "38"
+       },
+       {
+        "type": "markdown",
+        "value": " a \"nice face\" looked like, you probably would have a difficult time doing so. But if you "
+       },
+       {
+        "type": "blank",
+        "key": "q39",
+        "placeholder": "39"
+       },
+       {
+        "type": "markdown",
+        "value": " to describe a \"nice person\", you might begin to think about someone who was kind, "
+       },
+       {
+        "type": "blank",
+        "key": "q40",
+        "placeholder": "40"
+       },
+       {
+        "type": "markdown",
+        "value": ", friendly, warm, and so forth."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q31",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. recognize"
+        },
+        {
+         "key": "B",
+         "label": "B. realize"
+        },
+        {
+         "key": "C",
+         "label": "C. remind"
+        },
+        {
+         "key": "D",
+         "label": "D. remember"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q31",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "上下文都在谈识别人脸，recognize people 最符合语义。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. recognize"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q32",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. differs from"
+        },
+        {
+         "key": "B",
+         "label": "B. distinct of"
+        },
+        {
+         "key": "C",
+         "label": "C. divide from"
+        },
+        {
+         "key": "D",
+         "label": "D. different from"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q32",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "make A different from B 是固定结构；A 项语法不合。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. different from"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q33",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. give"
+        },
+        {
+         "key": "B",
+         "label": "B. take"
+        },
+        {
+         "key": "C",
+         "label": "C. make"
+        },
+        {
+         "key": "D",
+         "label": "D. have"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q33",
+       "value": "B"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "take ... for granted 是固定短语，表示“认为……理所当然”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "B. take"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q34",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. separate"
+        },
+        {
+         "key": "B",
+         "label": "B. know"
+        },
+        {
+         "key": "C",
+         "label": "C. tell"
+        },
+        {
+         "key": "D",
+         "label": "D. distinguish"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q34",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "tell people apart 是固定搭配，表示“把人区分开”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. tell"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q35",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. personality"
+        },
+        {
+         "key": "B",
+         "label": "B. personal"
+        },
+        {
+         "key": "C",
+         "label": "C. person"
+        },
+        {
+         "key": "D",
+         "label": "D. personally"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q35",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "谈论 someone's personality 与后文 acts, speaks, thinks and feels 对应。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. personality"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q36",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. at which"
+        },
+        {
+         "key": "B",
+         "label": "B. about which"
+        },
+        {
+         "key": "C",
+         "label": "C. in which"
+        },
+        {
+         "key": "D",
+         "label": "D. from which"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q36",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "the ways in which ... 是常见定语从句结构。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. in which"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-37",
+      "no": 37,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q37",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. Unlike"
+        },
+        {
+         "key": "B",
+         "label": "B. Like"
+        },
+        {
+         "key": "C",
+         "label": "C. Dislike"
+        },
+        {
+         "key": "D",
+         "label": "D. Likely"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q37",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "前后在比较 human face 与 human personality 的不同，因此用 Unlike。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. Unlike"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 38,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q38",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. when"
+        },
+        {
+         "key": "B",
+         "label": "B. which"
+        },
+        {
+         "key": "C",
+         "label": "C. what"
+        },
+        {
+         "key": "D",
+         "label": "D. that"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q38",
+       "value": "C"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "describe what ... looked like 中 what 引导宾语从句。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "C. what"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 39,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q39",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. were asked"
+        },
+        {
+         "key": "B",
+         "label": "B. are asked"
+        },
+        {
+         "key": "C",
+         "label": "C. was asked"
+        },
+        {
+         "key": "D",
+         "label": "D. asked"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q39",
+       "value": "A"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "if you were asked to describe ... 是虚拟语气语境下的被动表达。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A. were asked"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 40,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "single_choice",
+       "target": "q40",
+       "choices": [
+        {
+         "key": "A",
+         "label": "A. considerable"
+        },
+        {
+         "key": "B",
+         "label": "B. consider"
+        },
+        {
+         "key": "C",
+         "label": "C. consideration"
+        },
+        {
+         "key": "D",
+         "label": "D. considerate"
+        }
+       ]
+      },
+      "answerSpec": {
+       "type": "exact",
+       "target": "q40",
+       "value": "D"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "与 kind、friendly、warm 并列的应是形容人品质的 considerate。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "D. considerate"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "writing",
+    "displayName": "写作",
+    "partLabel": "V. Writing",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "Directions: In this part you are required to write a composition entitled Relieving Stress in no less than 100 words according to the following Chinese outline."
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-41",
+      "no": 41,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Title: Relieving Stress\nOutline:\n1. 现代生活中普遍存在着压力；\n2. 我的压力；\n3. 缓解压力的建议。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 100
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "作文应围绕三个要点展开：先说明压力在现代生活中的普遍性，再写自己的压力来源，最后给出切实可行的减压建议。结构上可采用总-分-总，注意词数不少于 100，语言连贯，观点明确。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Relieving Stress\nStress is a common problem in modern life. People may feel stressed because of work, study, family responsibilities and the fast pace of society. If we cannot deal with stress properly, it may affect both our health and our mood.\nAs for me, I often feel stressed when I have to prepare for important exams and make plans for my future at the same time. Sometimes I worry that I cannot do everything well enough. When too many tasks come together, I feel tired and anxious.\nIn my opinion, there are several useful ways to relieve stress. First, we should make a reasonable schedule and finish tasks one by one. Second, doing exercise, listening to music or talking with friends can help us relax. Most importantly, we should keep a positive attitude and believe that pressure can also encourage us to improve ourselves."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

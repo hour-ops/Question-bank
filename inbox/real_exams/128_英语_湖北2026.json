@@ -1,0 +1,2241 @@
+{
+ "id": 128,
+ "title": "湖北2026",
+ "subject": "英语",
+ "createTime": "2026-04-17 15:35:08",
+ "exam": {
+  "version": 2,
+  "meta": {
+   "title": "2026年湖北省普通高等学校专升本英语",
+   "subject": "英语",
+   "province": "湖北",
+   "year": 2026,
+   "source": {
+    "fileName": "c967a53f-9924-4df7-b503-8a28ab789a61_origin.pdf",
+    "fileId": "c967a53f-9924-4df7-b503-8a28ab789a61"
+   }
+  },
+  "sections": [
+   {
+    "id": "sec-1",
+    "kind": "cloze",
+    "displayName": "语法填空",
+    "partLabel": "一",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据上下文和所给词提示完成短文填空。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Not long ago, traveling in China felt like a race. Young people used to talk "
+       },
+       {
+        "type": "blank",
+        "key": "g1",
+        "placeholder": "1"
+       },
+       {
+        "type": "markdown",
+        "value": " about how they visited countless places in a very short time with little rest. This \"boot camp\" style of travel "
+       },
+       {
+        "type": "blank",
+        "key": "g2",
+        "placeholder": "2"
+       },
+       {
+        "type": "markdown",
+        "value": " then as a mark of honor."
+       },
+       {
+        "type": "markdown",
+        "value": ""
+       },
+       {
+        "type": "markdown",
+        "value": "Today, however, "
+       },
+       {
+        "type": "blank",
+        "key": "g3",
+        "placeholder": "3"
+       },
+       {
+        "type": "markdown",
+        "value": " new kind of travel is changing everything. It is called \"slow travel\", in which a traveler "
+       },
+       {
+        "type": "blank",
+        "key": "g4",
+        "placeholder": "4"
+       },
+       {
+        "type": "markdown",
+        "value": " on experience rather than speed. Instead of rushing everywhere, travelers choose fewer places and stay "
+       },
+       {
+        "type": "blank",
+        "key": "g5",
+        "placeholder": "5"
+       },
+       {
+        "type": "markdown",
+        "value": " at each place. According to a 2025 survey, over $53\\%$ of young people preferred this relaxed style, "
+       },
+       {
+        "type": "blank",
+        "key": "g6",
+        "placeholder": "6"
+       },
+       {
+        "type": "markdown",
+        "value": " independent trips over busy group tours."
+       },
+       {
+        "type": "markdown",
+        "value": ""
+       },
+       {
+        "type": "markdown",
+        "value": "This shift is changing the tourist industry. For example, attractions "
+       },
+       {
+        "type": "blank",
+        "key": "g7",
+        "placeholder": "7"
+       },
+       {
+        "type": "markdown",
+        "value": " Guangdong are being redesigned for a slower pace. On Foshan's Xiqiao Mountain, there is even a \"gentle\" bungee jump for those "
+       },
+       {
+        "type": "blank",
+        "key": "g8",
+        "placeholder": "8"
+       },
+       {
+        "type": "markdown",
+        "value": " want to enjoy the experience without the terrifying drop. Hotels are also adapting by offering both later checkout times "
+       },
+       {
+        "type": "blank",
+        "key": "g9",
+        "placeholder": "9"
+       },
+       {
+        "type": "markdown",
+        "value": " large rooms. Instead of hurrying to famous landmarks, "
+       },
+       {
+        "type": "blank",
+        "key": "g10",
+        "placeholder": "10"
+       },
+       {
+        "type": "markdown",
+        "value": " are spending more time in museums and historical streets to feel the charm of a city."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-1",
+      "no": 1,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g1"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g1",
+       "values": [
+        "proudly"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "副词修饰动词 talk，应用 proud 的副词形式 proudly。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "proudly"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-2",
+      "no": 2,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g2"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g2",
+       "values": [
+        "was seen"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "主语是 This \"boot camp\" style of travel，且语境是过去事实，用一般过去时的被动语态 was seen。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "was seen"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-3",
+      "no": 3,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g3"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g3",
+       "values": [
+        "a"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "此处表示泛指“一个新的旅行方式”，new 以辅音音素开头，应用 a。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "a"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-4",
+      "no": 4,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g4"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g4",
+       "values": [
+        "focuses"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "定语从句修饰 a traveler，谓语用第三人称单数 focuses。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "focuses"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-5",
+      "no": 5,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g5"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g5",
+       "values": [
+        "longer"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "与 fewer places 对应，表示停留“更久”，应用比较级 longer。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "longer"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-6",
+      "no": 6,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g6"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g6",
+       "values": [
+        "favoring"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "句中已有谓语 preferred，此处用现在分词 favoring 作伴随状语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "favoring"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-7",
+      "no": 7,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g7"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g7",
+       "values": [
+        "in"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "表示“广东的景点”可理解为位于广东，用介词 in。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "in"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-8",
+      "no": 8,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g8"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g8",
+       "values": [
+        "who"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "先行词是 those，关系代词在从句中作主语，应用 who。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "who"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-9",
+      "no": 9,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g9"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g9",
+       "values": [
+        "and"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "both ... and ... 是固定搭配。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "and"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-10",
+      "no": 10,
+      "stem": {
+       "blocks": []
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "g10"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "g10",
+       "values": [
+        "tourists"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据 are spending 判断主语应用复数 tourists。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "tourists"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-2",
+    "kind": "sentence_reorder",
+    "displayName": "连词成句",
+    "partLabel": "二",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "将所给词语连成语意完整、语法正确的句子。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-11",
+      "no": 11,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "was full of / beautiful moments / Our spring outing"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "s11",
+       "placeholder": "请输入完整句子"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "s11",
+       "values": [
+        "Our spring outing was full of beautiful moments."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "连词成句要先确定主语和谓语，再依照英语正常语序补足宾语、状语或表语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Our spring outing was full of beautiful moments."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-12",
+      "no": 12,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "feel peaceful / Listening to music / made me"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "s12",
+       "placeholder": "请输入完整句子"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "s12",
+       "values": [
+        "Listening to music made me feel peaceful."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "连词成句要先确定主语和谓语，再依照英语正常语序补足宾语、状语或表语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Listening to music made me feel peaceful."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-13",
+      "no": 13,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "bring us / can / Reading / fun and knowledge"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "s13",
+       "placeholder": "请输入完整句子"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "s13",
+       "values": [
+        "Reading can bring us fun and knowledge."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "连词成句要先确定主语和谓语，再依照英语正常语序补足宾语、状语或表语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Reading can bring us fun and knowledge."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-14",
+      "no": 14,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "must not / the high-speed train / on / You / smoke"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "s14",
+       "placeholder": "请输入完整句子"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "s14",
+       "values": [
+        "You must not smoke on the high-speed train."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "连词成句要先确定主语和谓语，再依照英语正常语序补足宾语、状语或表语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "You must not smoke on the high-speed train."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-15",
+      "no": 15,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "how lucky / to live in / Do you know / we are today's China"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "s15",
+       "placeholder": "请输入完整句子"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "s15",
+       "values": [
+        "Do you know how lucky we are to live in today's China?"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "连词成句要先确定主语和谓语，再依照英语正常语序补足宾语、状语或表语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Do you know how lucky we are to live in today's China?"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-16",
+      "no": 16,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "the clear direction / China's future development / sets / The 15th Five-Year Plan / for"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "s16",
+       "placeholder": "请输入完整句子"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "s16",
+       "values": [
+        "The 15th Five-Year Plan sets the clear direction for China's future development."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "连词成句要先确定主语和谓语，再依照英语正常语序补足宾语、状语或表语。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The 15th Five-Year Plan sets the clear direction for China's future development."
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-3",
+    "kind": "reading_qa",
+    "displayName": "阅读填词",
+    "partLabel": "三-1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "阅读短文并根据内容完成信息填空。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 1"
+       },
+       {
+        "type": "markdown",
+        "value": "When a cat named Tiantian went missing in Beijing last year, its owner turned to a pet detective for help."
+       },
+       {
+        "type": "markdown",
+        "value": "The profession first appeared in Western countries about twenty years ago, but it came into being in China only recently."
+       },
+       {
+        "type": "markdown",
+        "value": "Pet detectives find lost pets by using skills like tracking, technology and even search dogs."
+       },
+       {
+        "type": "markdown",
+        "value": "The job requires more than just skills. One detective told the reporter that his longest search lasted six days. He walked through the city for hours each day until he finally found the missing dog behind a factory building. This shows that to be a pet detective, one also needs patience."
+       },
+       {
+        "type": "markdown",
+        "value": "For pet owners, these detectives give them emotional support. When a pet goes missing, the owners often feel helpless and worried. Having someone who knows what to do gives them hope."
+       },
+       {
+        "type": "markdown",
+        "value": "Today, many people regard their pets as family members."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-17",
+      "no": 17,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "With its first appearance in "
+        },
+        {
+         "type": "blank",
+         "key": "r17",
+         "placeholder": "17"
+        },
+        {
+         "type": "markdown",
+         "value": " countries about twenty years ago, the profession came into being in China only recently."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r17"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r17",
+       "values": [
+        "Western"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文明确写到该职业最早出现在 Western countries，所以答案为 Western。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Western"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-18",
+      "no": 18,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Duty: The job is to find lost pets using skills like tracking, "
+        },
+        {
+         "type": "blank",
+         "key": "r18",
+         "placeholder": "18"
+        },
+        {
+         "type": "markdown",
+         "value": " and even using search dogs."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r18"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r18",
+       "values": [
+        "technology",
+        "using technology",
+        "technology tools"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "根据题干对 pet detective 工作方式的概括，空格处对应 tracking 和 search dogs 之间的另一种寻找手段，可概括为 technology。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "technology"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-19",
+      "no": 19,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A Real Case: One search lasted six days, showing that pet detectives should have "
+        },
+        {
+         "type": "blank",
+         "key": "r19",
+         "placeholder": "19"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r19"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r19",
+       "values": [
+        "patience"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文说最长一次寻找持续了六天，并指出这说明宠物侦探也需要 patience。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "patience"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-20",
+      "no": 20,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "From pet detectives, the owners can get emotional "
+        },
+        {
+         "type": "blank",
+         "key": "r20",
+         "placeholder": "20"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r20"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r20",
+       "values": [
+        "support"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "最后一段直接写到这些侦探会给宠物主人 emotional support。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "support"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-21",
+      "no": 21,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Pets are now regarded as "
+        },
+        {
+         "type": "blank",
+         "key": "r21",
+         "placeholder": "21"
+        },
+        {
+         "type": "markdown",
+         "value": "."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r21"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r21",
+       "values": [
+        "family members"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结合文章语境可知，如今人们对宠物的情感投入更深，宠物被视作 family members。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "family members"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-4",
+    "kind": "reading_qa",
+    "displayName": "阅读填词",
+    "partLabel": "三-2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "阅读短文并根据内容完成信息填空。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage Two"
+       },
+       {
+        "type": "markdown",
+        "value": "For many years, scientists thought bad childhood experiences could harm the brain for life. But a new study from Germany shows that exercise can help the brain recover."
+       },
+       {
+        "type": "markdown",
+        "value": "The researches studied 75 adults who had difficult childhoods. Some had been hurt or not well cared for when they were young. The researchers used brain scans (脑部扫描) to see how different parts of the brain worked together. They found that in people who exercised often, brain areas for feelings and stress were closely connected. Exercise, they said, helped the brain work better."
+       },
+       {
+        "type": "markdown",
+        "value": "The team also found that there was a best amount of exercise: about 150 to 390 minutes a week. Doing more exercise did not always bring better results."
+       },
+       {
+        "type": "markdown",
+        "value": "Why can exercise help? This is because exercise can build new links between brain cells and lower stress in the body. For people with difficult childhoods, exercise is like a natural medicine that helps the brain recover."
+       },
+       {
+        "type": "markdown",
+        "value": "One researcher said, \"A difficult childhood can make life harder, but it does not decide a person's future.\" We cannot change the past, but we can do something now to build a better future."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-22",
+      "no": 22,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Misconception: Bad "
+        },
+        {
+         "type": "blank",
+         "key": "r22",
+         "placeholder": "22"
+        },
+        {
+         "type": "markdown",
+         "value": " experiences could harm the brain for life."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r22"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r22",
+       "values": [
+        "childhood"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "原文第一句直接给出 bad childhood experiences，因此空格填 childhood。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "childhood"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-23",
+      "no": 23,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Participants: 75 "
+        },
+        {
+         "type": "blank",
+         "key": "r23",
+         "placeholder": "23"
+        },
+        {
+         "type": "markdown",
+         "value": " who had difficult childhoods."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r23"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r23",
+       "values": [
+        "adults"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段第一句写明研究对象是 75 adults who had difficult childhoods，答案为 adults。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "adults"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-24",
+      "no": 24,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Findings: In people who exercised often, brain areas for feelings and "
+        },
+        {
+         "type": "blank",
+         "key": "r24",
+         "placeholder": "24"
+        },
+        {
+         "type": "markdown",
+         "value": " were closely connected."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r24"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r24",
+       "values": [
+        "stress"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段指出 brain areas for feelings and stress were closely connected，故填 stress。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "stress"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-25",
+      "no": 25,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A best "
+        },
+        {
+         "type": "blank",
+         "key": "r25",
+         "placeholder": "25"
+        },
+        {
+         "type": "markdown",
+         "value": " of exercise: about 150 to 390 minutes a week."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r25"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r25",
+       "values": [
+        "amount"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段原句是 there was a best amount of exercise，因此答案是 amount。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "amount"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-26",
+      "no": 26,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Conclusion: A difficult childhood does not decide a person's "
+        },
+        {
+         "type": "blank",
+         "key": "r26",
+         "placeholder": "26"
+        },
+        {
+         "type": "markdown",
+         "value": ", because exercise can heal the brain."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "r26"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "r26",
+       "values": [
+        "future"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "结尾处指出童年艰难并不能决定一个人的 future，因此填 future。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "future"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-5",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "四-1",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "阅读短文并根据内容完成简答或翻译。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage Three"
+       },
+       {
+        "type": "markdown",
+        "value": "It was the first day of school. I had a new classmate, a little old lady with a warm smile. She said, \"Hi, handsome! I'm Rose. I'm 87 years old.\" Rose was hard-working and kind. She took notes carefully in class and often helped us with our studies. What I was always impressed by was her wisdom and experience."
+       },
+       {
+        "type": "markdown",
+        "value": "Once, Rose gave a speech at the football club. She talked about her own dream and emphasized the importance of having dreams. She told us that no matter how old we are, we should never give up our dreams. Rose taught by example that it's never too late to make your dream come true. She is a special classmate who teaches me a lot."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-27",
+      "no": 27,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "On which day did John meet Rose?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a27",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a27",
+       "values": [
+        "On the first day of school.",
+        "The first day of school.",
+        "He met Rose on the first day of school."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "文章开头直接写到 It was the first day of school，因此 John 是在开学第一天遇见 Rose 的。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "On the first day of school."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-28",
+      "no": 28,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How old was Rose when she joined John's class?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a28",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a28",
+       "values": [
+        "She was 87 years old.",
+        "87 years old.",
+        "87."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Rose 自我介绍时明确说 I'm 87 years old，因此答案是 87 岁。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "She was 87 years old."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-29",
+      "no": 29,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What was John always impressed by?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a29",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a29",
+       "values": [
+        "He was always impressed by Rose's wisdom and experience.",
+        "Rose's wisdom and experience.",
+        "Her wisdom and experience."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第一段最后一句直接指出作者一直对 Rose 的 wisdom and experience 印象深刻。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Her wisdom and experience."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-30",
+      "no": 30,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What did Rose emphasize in her speech at the football club?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a30",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a30",
+       "values": [
+        "She emphasized the importance of having dreams.",
+        "The importance of having dreams.",
+        "Having dreams."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段明确写到她强调了 having dreams 的重要性，因此答案是梦想的重要性。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The importance of having dreams."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-31",
+      "no": 31,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Translate the sentence into Chinese: \"Rose taught by example that it's never too late to make your dream come true.\""
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a31",
+       "placeholder": "请输入译文"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a31",
+       "values": [
+        "Rose用自己的行动告诉我们，实现梦想永远都不晚。",
+        "罗斯以身作则告诉我们，实现梦想永远都不晚。",
+        "Rose以身作则告诉我们，实现梦想永远不会太晚。"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "taught by example 可译为“以身作则”或“用自己的行动告诉我们”，it's never too late to... 表示“做某事永远都不晚”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Rose用自己的行动告诉我们，实现梦想永远都不晚。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-6",
+    "kind": "reading_qa",
+    "displayName": "阅读理解",
+    "partLabel": "四-2",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "阅读短文并根据内容完成简答或翻译。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [
+     {
+      "blocks": [
+       {
+        "type": "markdown",
+        "value": "Passage 4"
+       },
+       {
+        "type": "markdown",
+        "value": "It was getting dark. The old man sat by the window of his small house, watching the River Esk flow by gently. Memories flooded his mind. He remembered the days when he was young and strong, when he would fish in the river and catch enough to feed his family."
+       },
+       {
+        "type": "markdown",
+        "value": "Time went by fast. His children had grown up and moved out, and his wife had passed away. The old man continued to fish, but now fishing only meant a connection with the past."
+       },
+       {
+        "type": "markdown",
+        "value": "After sunset, the old man picked up his fishing rod and walked down to the river bank. He cast his line into the water, waiting for a bite. Suddenly, his line moved, and he pulled in the line with great excitement. It was a big fish! In the past, he would have been proud of catching such a fish. But now, it was just a reminder of the passing of time. He let out a deep breath and decided to set the fish free."
+       },
+       {
+        "type": "markdown",
+        "value": "When the old man walked back to his home he felt lighter and freer. He sat by the window, watching the river flow by, and smiled. He knew that he would always be by the river, and that it would always be with him."
+       }
+      ]
+     }
+    ],
+    "items": [
+     {
+      "id": "item-32",
+      "no": 32,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "When young and strong, why did the man need to catch a lot of fish?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a32",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a32",
+       "values": [
+        "Because he needed to feed his family.",
+        "To feed his family.",
+        "He needed to catch enough fish to feed his family.",
+        "To catch enough to feed his family."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第一段明确写到他年轻力壮时捕鱼是为了 catch enough to feed his family，所以原因是为了养家。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Because he needed to feed his family."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-33",
+      "no": 33,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What did fishing mean to the old man now?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a33",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a33",
+       "values": [
+        "It meant a connection with the past.",
+        "Fishing meant a connection with the past.",
+        "A connection with the past."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第二段直接指出 now fishing only meant a connection with the past，因此答案就是它代表与过去的联系。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It meant a connection with the past."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-34",
+      "no": 34,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "How did the old man feel when he pulled in the line?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a34",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a34",
+       "values": [
+        "He felt excited.",
+        "He felt greatly excited.",
+        "He felt great excitement.",
+        "Excited."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段写到 he pulled in the line with great excitement，因此他当时感到非常激动。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "He felt greatly excited."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-35",
+      "no": 35,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "What did the old man decide to do with the big fish he caught?"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a35",
+       "placeholder": "请输入答案"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a35",
+       "values": [
+        "He decided to set the fish free.",
+        "He decided to let the fish go.",
+        "To set the fish free."
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "第三段末尾明确写到 he decided to set the fish free，因此答案是把鱼放生。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "He decided to set the fish free."
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-36",
+      "no": 36,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Translate the sentence \"When the old man walked back to his home he felt lighter and freer.\""
+        }
+       ]
+      },
+      "interaction": {
+       "type": "short_text",
+       "target": "a36",
+       "placeholder": "请输入译文"
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "a36",
+       "values": [
+        "当老人走回家时，他感到更轻松、更自在了。",
+        "当老人走回家时，他感到更轻松、更自由了。",
+        "当老人走回家时，他感到更轻松、更自如了。"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "lighter and freer 在语境中表示老人放下执念后的轻松与自在，译文应体现这种心理状态。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "当老人走回家时，他感到更轻松、更自在了。"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-7",
+    "kind": "translation_fill",
+    "displayName": "翻译填空",
+    "partLabel": "五",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据中文提示和括号内所给词完成英文句子。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-37",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "The best way to stay happy is to enjoy a "
+        },
+        {
+         "type": "blank",
+         "key": "t1",
+         "placeholder": "1"
+        },
+        {
+         "type": "markdown",
+         "value": " (life)."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "t1"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "t1",
+       "values": [
+        "simple life"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "中文“简单的生活”应完整对应为 simple life，不能只保留形容词 simple。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "simple life"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-38",
+      "no": 2,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "His heart beat very fast when it was his turn to "
+        },
+        {
+         "type": "blank",
+         "key": "t2",
+         "placeholder": "2"
+        },
+        {
+         "type": "markdown",
+         "value": " and speak in front of the class (stand)."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "t2"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "t2",
+       "values": [
+        "stand up"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定表达 stand up 表示“站起来”，与后面的 speak 并列。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "stand up"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-39",
+      "no": 3,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "A kind heart can be "
+        },
+        {
+         "type": "blank",
+         "key": "t3",
+         "placeholder": "3"
+        },
+        {
+         "type": "markdown",
+         "value": " than anything else (powerful)."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "t3"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "t3",
+       "values": [
+        "more powerful"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "空格后有 than，应用比较级 more powerful。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "more powerful"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-40",
+      "no": 4,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "We must "
+        },
+        {
+         "type": "blank",
+         "key": "t4",
+         "placeholder": "4"
+        },
+        {
+         "type": "markdown",
+         "value": " to protect our environment from further pollution (measure)."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "t4"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "t4",
+       "values": [
+        "take measures"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "take measures to do sth. 表示“采取措施做某事”，符合中文句意。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "take measures"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-41",
+      "no": 5,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "It's important to "
+        },
+        {
+         "type": "blank",
+         "key": "t5",
+         "placeholder": "5"
+        },
+        {
+         "type": "markdown",
+         "value": " on rainy or snowy day (drive)."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "t5"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "t5",
+       "values": [
+        "drive slowly"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "“慢速驾驶”应译为 drive slowly，副词 slowly 修饰动词 drive。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "drive slowly"
+        }
+       ]
+      }
+     },
+     {
+      "id": "item-42",
+      "no": 6,
+      "stem": {
+       "blocks": [
+        {
+         "type": "blank",
+         "key": "t6",
+         "placeholder": "6"
+        },
+        {
+         "type": "markdown",
+         "value": ", sitting too much without exercise does harm to our health (speak)."
+        }
+       ]
+      },
+      "interaction": {
+       "type": "fill_blank",
+       "targets": [
+        "t6"
+       ]
+      },
+      "answerSpec": {
+       "type": "one_of",
+       "target": "t6",
+       "values": [
+        "Generally speaking"
+       ]
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "固定短语 generally speaking 表示“一般来讲”。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Generally speaking"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "sec-8",
+    "kind": "writing",
+    "displayName": "作文",
+    "partLabel": "六",
+    "directions": {
+     "blocks": [
+      {
+       "type": "markdown",
+       "value": "根据提示完成一篇英文写作。"
+      }
+     ]
+    },
+    "sharedChoices": [],
+    "materials": [],
+    "items": [
+     {
+      "id": "item-43",
+      "no": 1,
+      "stem": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "假如你是新华学院的学生李华，请用英文给已回英国的交换生 Sarah 发信息，介绍学校最近的变化。\n内容包括：\n（1）表达对她的想念；\n（2）介绍学校的变化；\n（3）欢迎她有机会再回来看看。\n注意：\n（1）词数不少于40；\n（2）不得出现考生的真实姓名及学校名；\n（3）格式不做要求。"
+        }
+       ]
+      },
+      "interaction": {
+       "type": "long_text",
+       "target": "essay1",
+       "placeholder": "请在此作答",
+       "minWords": 40
+      },
+      "answerSpec": {
+       "type": "manual_only"
+      },
+      "analysis": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "写作时应覆盖思念、校园变化和欢迎回访三个要点，语言得体，时态以一般现在时为主。"
+        }
+       ]
+      },
+      "referenceAnswer": {
+       "blocks": [
+        {
+         "type": "markdown",
+         "value": "Dear Sarah,\nI miss you very much. Our school has changed a lot recently. We now have a new library and more after-school activities, and the playground looks much nicer than before. The classrooms are also brighter and more modern. I hope you can come back and visit our school again when you have time.\nBest wishes,\nLi Hua"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

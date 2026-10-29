@@ -1,0 +1,886 @@
+{
+ "id": 17,
+ "title": "湖北专升本2023年英语真题",
+ "subject": "英语",
+ "createTime": "2026-01-21 22:35:41",
+ "exam": {
+  "meta": {
+   "title": "2023 年湖北省普通高等学校专升本英语",
+   "subject": "英语"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "单选题",
+    "content": "Directions: This part is to test your ability to use words and phrases correctly to construct meaningful and grammatically correct sentences. In this part, there are 25 incomplete sentences. You are required to complete each statement by choosing the appropriate answer from the 4 choices marked A, B, C and D. Then mark the corresponding letter on the Answer Sheet with a single line through the center.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "1",
+      "content": "Excuse me, can I use your umbrella? I can't find {{__SELECT_1__}}.",
+      "options": [
+       "A. I",
+       "B. me",
+       "C. mine",
+       "D. my"
+      ],
+      "answer": "C",
+      "analysis": "本题考查名词性物主代词。句意为“打扰一下，我能用一下你的雨伞吗？我找不到我的了。”空格处需要一个代词来指代“my umbrella”，并且在句子中独立作宾语。mine 是名词性物主代词，相当于 my umbrella。I 是主格，me 是宾格，my 是形容词性物主代词，后面需接名词。故选 C。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "1"
+      }
+     },
+     {
+      "id": "2",
+      "content": "This lake is {{__SELECT_1__}} largest one in our city.",
+      "options": [
+       "A. a",
+       "B. an",
+       "C. the",
+       "D. /"
+      ],
+      "answer": "C",
+      "analysis": "本题考查冠词的用法。句意为“这个湖是我们城市最大的湖。”形容词最高级前通常使用定冠词 the。largest 是 large 的最高级形式。故选 C。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "2"
+      }
+     },
+     {
+      "id": "3",
+      "content": "Relax! There still {{__SELECT_1__}} much time left before the deadline.",
+      "options": [
+       "A. be",
+       "B. is",
+       "C. are",
+       "D. were"
+      ],
+      "answer": "B",
+      "analysis": "本题考查 there be 句型和主谓一致。句意为“放轻松！在截止日期前还有很多时间。”time 是不可数名词，因此谓语动词应使用单数形式。根据句意，应使用一般现在时。故选 is。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "3"
+      }
+     },
+     {
+      "id": "4",
+      "content": "{{__SELECT_1__}} of the buses in this area use new energy.",
+      "options": [
+       "A. One three",
+       "B. One threes",
+       "C. One third",
+       "D. One thirds"
+      ],
+      "answer": "C",
+      "analysis": "本题考查分数的表达。句意为“这个地区三分之一的公交车使用新能源。”“三分之一”的英文表达是 one third。分数修饰可数名词复数时，谓语动词用复数形式，use 符合语法。故选 C。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "4"
+      }
+     },
+     {
+      "id": "5",
+      "content": "My little nephew is often curious {{__SELECT_1__}} everything.",
+      "options": [
+       "A. about",
+       "B. off",
+       "C. against",
+       "D. behind"
+      ],
+      "answer": "A",
+      "analysis": "本题考查固定搭配。句意为“我的小侄子经常对所有事情都很好奇。”be curious about 是固定搭配，意为“对……感到好奇”。故选 A。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "5"
+      }
+     },
+     {
+      "id": "6",
+      "content": "--Where's Jerry? ---He {{__SELECT_1__}} upstairs now.",
+      "options": [
+       "A. is reading",
+       "B. are reading",
+       "C. read",
+       "D. reads"
+      ],
+      "answer": "A",
+      "analysis": "本题考查现在进行时。句意为“——杰瑞在哪儿？——他现在正在楼上读书。”根据时间状语 now 可知，动作正在发生，应使用现在进行时。主语 He 是第三人称单数，所以用 is reading。故选 A。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "6"
+      }
+     },
+     {
+      "id": "7",
+      "content": "Who will be the first {{__SELECT_1__}} a speech at the meeting?",
+      "options": [
+       "A. give",
+       "B. giving",
+       "C. gave",
+       "D. to give"
+      ],
+      "answer": "D",
+      "analysis": "本题考查非谓语动词。句意为“谁将是第一个在会上发表演讲的人？”序数词（如 first, second 等）后常用不定式（to do）作定语。因此，这里应该用 to give。故选 D。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "7"
+      }
+     },
+     {
+      "id": "8",
+      "content": "Susan smiled at me without {{__SELECT_1__}} anything.",
+      "options": [
+       "A. say",
+       "B. saying",
+       "C. said",
+       "D. to say"
+      ],
+      "answer": "B",
+      "analysis": "本题考查非谓语动词。句意为“苏珊对我笑了笑，什么也没说。”without 是介词，介词后面应跟名词或动名词（-ing形式）作宾语。因此，这里应该用 saying。故选 B。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "8"
+      }
+     },
+     {
+      "id": "9",
+      "content": "what's the name of the man {{__SELECT_1__}} lent you the magazine?",
+      "options": [
+       "A. who",
+       "B. what",
+       "C. whose",
+       "D. when"
+      ],
+      "answer": "A",
+      "analysis": "本题考查定语从句。句意为“借给你杂志的那个男人叫什么名字？”先行词是 the man，指人，且在从句中作主语，因此使用关系代词 who。故选 A。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "9"
+      }
+     },
+     {
+      "id": "10",
+      "content": "The mountain is quite {{__SELECT_1__}} than we thought.",
+      "options": [
+       "A. high",
+       "B. higher",
+       "C. highly",
+       "D. more highly"
+      ],
+      "answer": "B",
+      "analysis": "本题考查形容词比较级。句意为“这座山比我们想象的要高得多。”句中有 than，表示比较，因此应用形容词的比较级。high 的比较级是 higher。quite 可以用来修饰比较级，表示“相当，很”。故选 B。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "10"
+      }
+     },
+     {
+      "id": "11",
+      "content": "Yesterday the kid {{__SELECT_1__}} for helping sort the rubbish.",
+      "options": [
+       "A. is praised",
+       "B. praises",
+       "C. praised",
+       "D. was praised"
+      ],
+      "answer": "D",
+      "analysis": "本题考查被动语态和时态。句意为“昨天那个孩子因为帮助分类垃圾而受到了表扬。”根据时间状语 Yesterday 可知，应用一般过去时。孩子是“被”表扬，所以应用被动语态。一般过去时的被动语态结构为 was/were + 过去分词。主语 the kid 是单数，所以用 was praised。故选 D。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "11"
+      }
+     },
+     {
+      "id": "12",
+      "content": "The chief engineer {{__SELECT_1__}} on the project for a year.",
+      "options": [
+       "A. work",
+       "B. has worked",
+       "C. have worked",
+       "D. working"
+      ],
+      "answer": "B",
+      "analysis": "本题考查现在完成时。句意为“这位总工程师在这个项目上已经工作一年了。”时间状语 for a year 表示动作从过去开始，持续到现在，应用现在完成时。主语 The chief engineer 是第三人称单数，所以用 has worked。故选 B。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "12"
+      }
+     },
+     {
+      "id": "13",
+      "content": "--Can I go home after the exam? --Yes, you {{__SELECT_1__}} if you want.",
+      "options": [
+       "A. can",
+       "B. won't",
+       "C. mustn't",
+       "D. need"
+      ],
+      "answer": "A",
+      "analysis": "本题考查情态动词。句意为“——考试结束后我能回家吗？——是的，如果你想的话，可以。”问句用 Can I...? 请求许可，肯定回答通常用 Yes, you can。故选 A。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "13"
+      }
+     },
+     {
+      "id": "14",
+      "content": "It was by train {{__SELECT_1__}} he travelled around the world.",
+      "options": [
+       "A. mustn't",
+       "B. whom",
+       "C. that",
+       "D. which"
+      ],
+      "answer": "C",
+      "analysis": "本题考查强调句型。句意为“他是乘火车环游世界的。”强调句的基本结构是 It is/was + 被强调部分 + that/who + 句子其他部分。本句强调的是方式状语 by train，因此用 that 连接。故选 C。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "14"
+      }
+     },
+     {
+      "id": "15",
+      "content": "Not only {{__SELECT_1__}} but she can also do paper-cutting.",
+      "options": [
+       "A. she can draw",
+       "B. can she draw",
+       "C. can draw she",
+       "D. she draw can"
+      ],
+      "answer": "B",
+      "analysis": "本题考查倒装句。句意为“她不仅会画画，还会剪纸。”当 Not only... but also... 连接两个分句，且 Not only 位于句首时，其所在的分句需要部分倒装，即将助动词或情态动词提到主语之前。本句中情态动词 can 应提到主语 she 之前。故选 B。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "15"
+      }
+     },
+     {
+      "id": "16",
+      "content": "{{__SELECT_1__}} Tory can't drive, he has bought a car.",
+      "options": [
+       "A. No mater what",
+       "B. As soon as",
+       "C. Even though",
+       "D. As if"
+      ],
+      "answer": "C",
+      "analysis": "本题考查状语从句连接词。句意为“尽管托里不会开车，他还是买了一辆车。”空格后的两个分句之间是转折关系。Even though 意为“即使，尽管”，引导让步状语从句。No matter what 意为“无论什么”；As soon as 意为“一……就……”；As if 意为“好像”。根据句意，C 最合适。故选 C。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "16"
+      }
+     },
+     {
+      "id": "17",
+      "content": "My classmate helped me solve the difficult math {{__SELECT_1__}}.",
+      "options": [
+       "A. decision",
+       "B. email",
+       "C. problem",
+       "D. solution"
+      ],
+      "answer": "C",
+      "analysis": "本题考查名词词义辨析。句意为“我的同学帮我解决了这道困难的数学题。”math problem 意为“数学问题，数学题”。decision 意为“决定”；email 意为“电子邮件”；solution 意为“解决方法”。故选 C。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "17"
+      }
+     },
+     {
+      "id": "18",
+      "content": "The ninety-year-old Chinese man is known for being {{__SELECT_1__}} to his motherland all his life.",
+      "options": [
+       "A. usual",
+       "B. faithful",
+       "C. obvious",
+       "D. used"
+      ],
+      "answer": "B",
+      "analysis": "本题考查形容词词义辨析。句意为“这位九十岁的中国老人因其一生忠于祖国而闻名。”faithful to 是固定搭配，意为“忠诚于”。usual 意为“通常的”；obvious 意为“明显的”；used 意为“用过的，二手的”。故选 B。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "18"
+      }
+     },
+     {
+      "id": "20",
+      "content": "The two birds look alike. How can you {{__SELECT_1__}} one from the other?",
+      "options": [
+       "A. tell",
+       "B. kick",
+       "C. sell",
+       "D. stop"
+      ],
+      "answer": "A",
+      "analysis": "本题考查动词词义辨析和固定搭配。句意为“这两只鸟看起来很像。你怎么能把它们区分开来呢？”tell...from... 是固定搭配，意为“区分，辨别”。kick 意为“踢”；sell 意为“卖”；stop 意为“停止”。故选 A。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "20"
+      }
+     },
+     {
+      "id": "21",
+      "content": "The actor {{__SELECT_1__}} all his friends to his new TV show.",
+      "options": [
+       "A. taught",
+       "B. invited",
+       "C. changed",
+       "D. divided"
+      ],
+      "answer": "B",
+      "analysis": "本题考查动词词义辨析。句意为“这位演员邀请了他所有的朋友去看他的新电视节目。”invite sb. to sth. 意为“邀请某人参加某事”。taught 意为“教”；changed 意为“改变”；divided 意为“划分”。故选 B。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "21"
+      }
+     },
+     {
+      "id": "22",
+      "content": "The football teams have to {{__SELECT_1__}} the date of their next game.",
+      "options": [
+       "A. agreed",
+       "B. led",
+       "C. added",
+       "D. written"
+      ],
+      "answer": "A",
+      "analysis": "本题考查动词词义辨析。句意为“足球队必须商定他们下一场比赛的日期。”agree on/upon sth. 意为“就……达成一致”。本句中省略了on/upon。led 意为“领导”；added 意为“增加”；written 意为“写”。根据句意，A 最合适。故选 A。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "22"
+      }
+     },
+     {
+      "id": "23",
+      "content": "Miss Lee gave me a form and told me to {{__SELECT_1__}} it in.",
+      "options": [
+       "A. feel",
+       "B. find",
+       "C. fire",
+       "D. fills"
+      ],
+      "answer": "D",
+      "analysis": "本题考查动词词组。句意为“李老师给了我一张表格，叫我填好。”fill in 意为“填写”。told me to do sth.，to 后面应该用动词原形 fill。选项 D `fills` 是第三人称单数形式，在语法上是错误的，但根据上下文和词义，这是唯一合理的选项，应为 `fill` 的印刷错误。故选 D。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "23"
+      }
+     },
+     {
+      "id": "24",
+      "content": "Michael stayed at home to {{__SELECT_1__}} his sick father.",
+      "options": [
+       "A. come across",
+       "B. give away",
+       "C. look after",
+       "D. turn into"
+      ],
+      "answer": "C",
+      "analysis": "本题考查动词词组辨析。句意为“迈克尔待在家里照顾他生病的父亲。”look after 意为“照顾，照料”。come across 意为“偶然遇见”；give away 意为“赠送，泄露”；turn into 意为“变成”。故选 C。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "24"
+      }
+     },
+     {
+      "id": "25",
+      "content": "Plant Collecting has been {{__SELECT_1__}} for a long time.",
+      "options": [
+       "A. going away",
+       "B. going about",
+       "C. going on",
+       "D. going out"
+      ],
+      "answer": "C",
+      "analysis": "本题考查动词词组辨析。句意为“植物采集已经持续了很长时间。”go on 意为“继续，发生”。go away 意为“离开”；go about 意为“着手做”；go out 意为“外出，熄灭”。故选 C。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "25"
+      }
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "Part I"
+    },
+    "originalNumber": 1
+   },
+   {
+    "id": 2,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability. There are two sections in it.\n\nIt's easy to see how to help some people, but what about those whose needs are not so clear? This story happened not long ago, but it is a lesson that has stayed with me and helped me ever since.\n\nIt was Thanksgiving and I was volunteering with my parents at a shelter for the poor, We served hot food to whoever came in. Most of these people looked as if they had been having hard times; their clothes were worn out and dirty. Then, a man came in, who looked anything but poor. He was well dressed. I wondered what he was doing there and my jaw(下巴) dropped in amazement when he joined the queue for food. What was this man doing? Surely he wasn't going to take food which was meant for those who were really in need!\n\nThen my mother quietly took me to one side. She said, \"You have thought that the needs of the people who come here must be purely physical. But what if his needs are emotional? What if he needs comfort, friends, or just to be among other people?\" Her words hit me like a ton of bricks! I felt like I should apologize to the man--but I didn't.\n\nAbout a week later the shelter received a large donation from an anonymous donor. I couldn't help but wonder if it came from that man.\n\nNow, whenever I meet someone, I will remember my mother's lesson and try to send kindness to him according to his needs, no matter how he looks. Needs aren't always seen. But kindness always makes a difference.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "26",
+      "content": "How did the author feel as the well-dressed man joined the queue for food? {{__SELECT_1__}}",
+      "options": [
+       "A. Surprised.",
+       "B. Excited.",
+       "C. Nervous.",
+       "D. Hopeless."
+      ],
+      "answer": "A",
+      "analysis": "根据第二段中的“my jaw(下巴) dropped in amazement when he joined the queue for food”可知，作者看到那个衣着光鲜的男人排队领食物时，惊讶得下巴都掉了。amazement 意为“惊奇，诧异”，与 surprised 意思相近。故选 A。"
+     },
+     {
+      "id": "27",
+      "content": "What the author's mother said shows that we {{__SELECT_1__}}.",
+      "options": [
+       "A. shouldn't judge a man by his appearance",
+       "B. shouldn't complain to others",
+       "C. should give others what they want",
+       "D. should accept everything we meet"
+      ],
+      "answer": "A",
+      "analysis": "根据第三段母亲的话可知，她教导作者不要只看到人们物质上的需求，也要考虑到情感上的需求。那个男人虽然衣着得体，不像穷人，但他可能需要安慰、朋友或陪伴。这说明我们不应该以貌取人。故选 A。"
+     },
+     {
+      "id": "28",
+      "content": "What does the underlined word \"anonymous\" in Paragraph 4 probably mean? {{__SELECT_1__}}",
+      "options": [
+       "A. Important.",
+       "B. Unknown.",
+       "C. Independent.",
+       "D. Excellent."
+      ],
+      "answer": "B",
+      "analysis": "第四段提到“About a week later the shelter received a large donation from an anonymous donor.”（大约一周后，收容所收到了一位匿名捐赠者的大笔捐款）。作者随后猜测这笔捐款是否来自那位衣着得体的男士，这暗示捐赠者的身份是不明的。因此，anonymous 的意思是“匿名的，不知名的”，与 unknown 意思相近。故选 B。"
+     },
+     {
+      "id": "29",
+      "content": "From the last paragraph,we learn that {{__SELECT_1__}}.",
+      "options": [
+       "A. seeing is believing",
+       "B. it's difficult to be kind to others",
+       "C. some rich people pretend to be poor",
+       "D. we should help people based on their needs"
+      ],
+      "answer": "D",
+      "analysis": "根据最后一段“Now, whenever I meet someone, I will remember my mother's lesson and try to send kindness to him according to his needs, no matter how he looks.”（现在，无论我遇到谁，我都会记住我母亲的教诲，并根据他的需要向他表达善意，无论他看起来如何。）可知，我们应该根据人们的实际需求去帮助他们。故选 D。"
+     },
+     {
+      "id": "30",
+      "content": "What would be the best title for the passage? {{__SELECT_1__}}",
+      "options": [
+       "A. My Mother's Influence on My Growth",
+       "B. The Importance of Volunteering",
+       "C. One of My Most Shameful Experiences",
+       "D. A Simple Lesson in Kindness"
+      ],
+      "answer": "D",
+      "analysis": "文章通过作者在感恩节做志愿者时的一段经历，讲述了母亲教给他的一堂关于善意的课，即善意不仅是满足物质需求，也要关注情感需求，且善意总能有所作为。因此，《关于善意的一堂简单课》最能概括文章主旨。故选 D。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "Passage 1"
+    },
+    "originalNumber": 2
+   },
+   {
+    "id": 3,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability. There are two sections in it.\n\nRed Dog was special.\n\nHe was not one of those dogs who ran shouting into the wind in groups. He just loved walking with me. Sometimes, on the narrow road, he walked so close that his bright red fur brushed against my leg. \"Red Dog,\" I'd say, \"each morning when we meet for the first time, why do you always look so glad?\"\n\nOf course, Red Dog never made reply with words. If he wanted to say something, he spoke with his eyes, or the bend in his tail. However, since we were friends, that was enough.\n\nAt night, Red Dog slept on the front porch, lying there and dreaming dreams of long summer days and endless walks. His night-world filled up with the moon and stars, hoot-owl hoots, and ghostly white fogs that crept silently into the fields.\n\nBetween dreams, I think that Red Dog must have awakened, raised his head, and looked around. Maybe then he became a little lonely. And probably he wondered why I got to sleep inside, but he had to sleep on the porch.\n\nBut, you see, Red Dog lived in a time when dogs such as he were not allowed to go inside their masters' homes. In those days, most people didn't even believe that dogs had feelings, though I did.\n\nYes, during those days when we walked in the fields and woods, Red Dog and I helped one another see things in special ways. Weedy roadsides were like museums and the fields of corn and beans around us were like circuses with many rings.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "31",
+      "content": "Why was Red Dog special? {{__SELECT_1__}}",
+      "options": [
+       "A. Because he loved walking with the author.",
+       "B. Because he could swim.",
+       "C. Because he loved playing with other dogs.",
+       "D. Because he could play with kids."
+      ],
+      "answer": "A",
+      "analysis": "根据第二段第一句“He just loved walking with me.”（他就是喜欢和我一起散步。）可知，红狗的特别之处在于他喜欢和作者待在一起。故选 A。"
+     },
+     {
+      "id": "32",
+      "content": "What would Red Dog do to express himself? {{__SELECT_1__}}",
+      "options": [
+       "A. Raise his head.",
+       "B. Use his eyes or tail.",
+       "C. Lie down outside.",
+       "D. Speak a human language."
+      ],
+      "answer": "B",
+      "analysis": "根据第三段第二句“If he wanted to say something, he spoke with his eyes, or the bend in his tail.”（如果他想说什么，他会用他的眼睛或尾巴的弯曲来说话。）可知，红狗用眼睛和尾巴来表达自己。故选 B。"
+     },
+     {
+      "id": "33",
+      "content": "How might Red Dog feel when he awakened at night? {{__SELECT_1__}}",
+      "options": [
+       "A. Curious and excited.",
+       "B. Terrified and lonely",
+       "C. Happy and excited.",
+       "D. Lonely and puzzled."
+      ],
+      "answer": "D",
+      "analysis": "根据第五段“Maybe then he became a little lonely. And probably he wondered why I got to sleep inside, but he had to sleep on the porch.”（也许那时他变得有点孤独。他可能想知道为什么我能睡在里面，而他必须睡在门廊上。）可知，红狗在夜里醒来时可能会感到孤独和困惑。故选 D。"
+     },
+     {
+      "id": "34",
+      "content": "How did most people think about dogs in the story? {{__SELECT_1__}}",
+      "options": [
+       "A. Dogs could speak with words.",
+       "B. Dogs didn't have feelings.",
+       "C. Dogs could enter masters' houses.",
+       "D. Dogs were people's friends"
+      ],
+      "answer": "B",
+      "analysis": "根据第六段第二句“In those days, most people didn't even believe that dogs had feelings, though I did.”（在那些日子里，大多数人甚至不相信狗有感情，尽管我相信。）可知，当时大多数人认为狗没有感情。故选 B。"
+     },
+     {
+      "id": "35",
+      "content": "What is the passage mainly about? {{__SELECT_1__}}",
+      "options": [
+       "A. Bedrooms and yards.",
+       "B. Fields and woods.",
+       "C. Red Dog and his master.",
+       "D. Museums and circuses."
+      ],
+      "answer": "C",
+      "analysis": "整篇文章围绕作者（主人）和他的狗“红狗”之间的特殊情谊展开，描述了他们的散步、交流方式以及作者对红狗情感的理解。因此，文章主旨是关于红狗和他的主人。故选 C。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "Passage 2"
+    },
+    "originalNumber": 3
+   },
+   {
+    "id": 4,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability. There are two sections in it.\n\nFor the past 28 years, barber Liu Jianjun and his team have been volunteering in Changchun. He and his team, which has 3,700 volunteers, have given free haircuts to around 80,000 people. They also volunteer to help those in need, such as seniors who live alone, and send them daily necessities during festivals.\n\nThe 53-year-old has been helping others since he opened his barber shop in 1994.\" I lost my mother when I was 6, and my father left home soon after, \" he said. \" I was raised by my grandmother and was looked after by my neighbors.\" So when he opened his barber shop, he decided to repay some of the kindness he had been shown.\n\nEvery day he arrives at his shop an hour before opening to give free haircuts to people over 70. He also spends his spare time providing door-to-door service for those who have difficulty walking.\n\nHis team members visit seniors to help them buy daily needs, move heavy objects and make repairs. They also offer free haircuts to deliverymen and sanitation workers. Fortunately, I got a lot of support from my team, fiends and relatives, \"he said. \"The team is like a big family and its members care for and help each other. I really want to thank all of them.\"\n\nThe youngest member of his team is 7. \"Several students have joined, and they volunteer with their parents,\" he said. \"When we visit nursing homes, they sing and dance, bringing the elderly a lot of pleasure.\"\n\nIn 2014, Liu joined the Communist Party of China on the recommendation of his community.\"Being a Party member is not only about status, but also about a heavy responsibility and a lifelong commitment,\" he said.\"I am determined to progress further along the road of voluntary service.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "36",
+      "content": "What does the underlined word \"volunteering\" most probably mean? {{__SELECT_1__}}",
+      "options": [
+       "A. Living alone.",
+       "B. Building new houses.",
+       "C. Raising children.",
+       "D. Offering to do things."
+      ],
+      "answer": "D",
+      "analysis": "根据第一段内容，理发师刘建军和他的团队为大约8万人免费理发，并帮助有需要的人。这些行为都是自愿提供帮助，不求回报。因此，volunteering 的意思是“志愿服务”，即“主动提供做事”（Offering to do things）。故选 D。"
+     },
+     {
+      "id": "37",
+      "content": "Why does barber Liu give free haircuts? {{__SELECT_1__}}",
+      "options": [
+       "A. To apologize to customers.",
+       "B. To express his thanks.",
+       "C. To practice technical skills.",
+       "D. To increase business sales."
+      ],
+      "answer": "B",
+      "analysis": "根据第二段最后一句“So when he opened his barber shop, he decided to repay some of the kindness he had been shown.”（所以当他开理发店时，他决定回报他所得到的一些善意。）可知，他提供免费理发是为了回报社会，表达他的感谢。故选 B。"
+     },
+     {
+      "id": "38",
+      "content": "What does barber Liu do in his spare time? {{__SELECT_1__}}",
+      "options": [
+       "A. Move heavy objects.",
+       "B. Make repairs.",
+       "C. Provide door-to-door service.",
+       "D. Help people buy food."
+      ],
+      "answer": "C",
+      "analysis": "根据第三段第二句“He also spends his spare time providing door-to-door service for those who have difficulty walking.”（他还利用业余时间为行动不便的人提供上门服务。）可知，刘师傅在业余时间提供上门服务。故选 C。"
+     },
+     {
+      "id": "39",
+      "content": "What is Liu's attitude towards his team? {{__SELECT_1__}}",
+      "options": [
+       "A. Sad.",
+       "B. Thankful.",
+       "C. Strange.",
+       "D. Angry"
+      ],
+      "answer": "B",
+      "analysis": "根据第四段最后一句“I really want to thank all of them.”（我真的很想感谢他们所有人。）可知，刘建军对他的团队心怀感激。故选 B。"
+     },
+     {
+      "id": "40",
+      "content": "What can we learn from the passage? {{__SELECT_1__}}",
+      "options": [
+       "A. Barbers are few.",
+       "B. Festivals have value.",
+       "C. Service is expensive.",
+       "D. Kindness has power."
+      ],
+      "answer": "D",
+      "analysis": "文章讲述了刘建军因为年幼时得到邻里的帮助，长大后通过志愿服务回报社会，并组建了一个庞大的志愿者团队，帮助了成千上万的人。整个故事体现了善意的传递和其产生的巨大积极影响。这说明善意是有力量的。故选 D。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "Passage 3"
+    },
+    "originalNumber": 4
+   },
+   {
+    "id": 5,
+    "type": "阅读理解",
+    "content": "Directions: This part is to test your reading ability. There are two sections in it.\n\nThe Sun is undoubtedly the powerhouse of the solar system. The energy released from the Sun is equivalent to about 36 octillion (10 的 48 次方) lumens, where a lumen is a measure of the total amount of visible light. All the energy radiates out from the center of our solar system in the form of light, heat, gamma rays and X-rays, and magnetic fields. But in fact, the Sun's energy is generated in its core and moves outward to its surface where it is released as electromagnetic radiation. The heat, light and radiation that come from the Sun are all examples of electromagnetic radiation.\n\nIt takes about 8 minutes for the electromagnetic radiation from the Sun to travel 93 million miles to the Earth. When it arrives, some of that solar energy is blocked or absorbed by the atmosphere, but what isn't blocked is absorbed or reflected by the air, land, water, plants and other matter that covers the surface of our planet. When the molecules in matter gain energy, they move more, vibrating in place or even bouncing off one another.\n\nUnlike electromagnetic radiation, heat must be transferred or conducted through matter. Some types of matter, like water, are really good at holding onto this energy. Clouds of water particles and gases in the atmosphere absorb some of this heat too. This absorption of heat helps the Earth stay warm. It's one reason our planet stays at a livable temperature and doesn't change radically from freezing cold to blazing hot every day.\n\nEnergy from the Sun makes it possible for life to exist on the Earth. It is responsible for photosynthesis in plants, vision in animals, and many other natural processes, such as the movements of air and water that creates weather. Most plants need at least some sunlight to grow, so without light, there would be no plants, and without plants, there would not be oxygen for us to breathe. Infrared radiation from the Sun is responsible for heating the Earth's atmosphere and surface. Without energy from the Sun, the Earth would freeze. There would be no winds, ocean currents or clouds to transport water.\n\nWhat's more, every day the Sun shines on the Earth, driving many chemical and physical changes across the planet. Light, which travels fastest in the world, helps people on the Earth clearly see the world.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "41",
+      "content": "How far is the Sun from the Earth? {{__SELECT_1__}}",
+      "options": [
+       "A. 8 miles.",
+       "B. 11 million miles.",
+       "C. 13 miles.",
+       "D. 93 million miles."
+      ],
+      "answer": "D",
+      "analysis": "根据第二段第一句“It takes about 8 minutes for the electromagnetic radiation from the Sun to travel 93 million miles to the Earth.”（来自太阳的电磁辐射需要大约8分钟才能穿行9300万英里到达地球。）可知，太阳距离地球9300万英里。故选 D。"
+     },
+     {
+      "id": "42",
+      "content": "Light travels from the Sun to the Earth in the form of {{__SELECT_1__}}.",
+      "options": [
+       "A. waves",
+       "B. brain waves",
+       "C. sound waves",
+       "D. electromagnetic radiation"
+      ],
+      "answer": "D",
+      "analysis": "根据第一段最后一句“The heat, light and radiation that come from the Sun are all examples of electromagnetic radiation.”（来自太阳的热、光和辐射都是电磁辐射的例子。）以及第二段第一句可知，从太阳到地球的光是以电磁辐射的形式传播的。故选 D。"
+     },
+     {
+      "id": "43",
+      "content": "Which of the following travels fastest? {{__SELECT_1__}}",
+      "options": [
+       "A. Car.",
+       "B. Light.",
+       "C. Plane.",
+       "D. Wind."
+      ],
+      "answer": "B",
+      "analysis": "根据最后一段第二句“Light, which travels fastest in the world, helps people on the Earth clearly see the world.”（光是世界上跑得最快的，它帮助地球上的人们清楚地看到世界。）可知，光是世界上最快的。故选 B。"
+     },
+     {
+      "id": "44",
+      "content": "What are lumens used to describe? {{__SELECT_1__}}",
+      "options": [
+       "A. Brightness.",
+       "B. Darkness.",
+       "C. Liquid.",
+       "D. Speed"
+      ],
+      "answer": "A",
+      "analysis": "根据第一段第二句“...a lumen is a measure of the total amount of visible light.”（...流明是可见光总量的度量单位。）可知，流明是用来描述可见光总量，即亮度或光通量的单位。故选 A。",
+      "source": {
+       "fileName": "2023专升本英语真题_纯图版(1).pdf",
+       "fileId": "2013983933708869633",
+       "originalNumber": "44"
+      }
+     },
+     {
+      "id": "45",
+      "content": "What role does light play in life according to the passage? {{__SELECT_1__}}",
+      "options": [
+       "A. To make people have a better life.",
+       "B. To help people conduct experiments.",
+       "C. To help improve the environment.",
+       "D. To help people see the world."
+      ],
+      "answer": "D",
+      "analysis": "根据最后一段最后一句“Light, which travels fastest in the world, helps people on the Earth clearly see the world.”（光是世界上跑得最快的，它帮助地球上的人们清楚地看到世界。）可知，光的一个作用是帮助人们看清世界。故选 D。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "Passage4"
+    },
+    "originalNumber": 5
+   },
+   {
+    "id": 6,
+    "type": "阅读填空",
+    "content": "Directions: This part is to test your reading ability. There are two sections in it.\n\nIf you have something valuable in mind, a service to offer, or an idea to develop, then you should tell it to other people to widen its scope. Why not make full use of it?\n\nThe fact is that, when you have enough vision, you may have the courage. And then you simply have to pursue it, however cray it might seem to others.\n\nRemember that everything starts from small things: Rome was not built in a day. Scientists say that everything in the universe comes from a smaller unit than you can possibly assume, So it doesn't matter where yo are at present , because small beginnings become great things at last.\n\nThink big by enlisting(争取) others: To think big, you need so see yourself as a small part of a greater whole. Enlist people who are better than you. If you're not the most organized person, don't just be unhappy about it. You should find someone who is better.\n\nBig thinkers know their personal limitations. Gather people who can do what you can't do around you to make sure your dream will come true.\n\nThink big by focusing on future regrets; There is an old saying, \" We regret not the things we did do , but the things we didn't do.\" You'll never know how far it could go unless you see how far you can take something.\n\nIf you have big plans, just close your eyes. And strongly imagine how regretful you will be if you don't try on\n\nattempt properly.\n\nFeel that it is your human duty to think big: When something is probably of real service to mankind, then it is a human duty to think and act big, Even if you don't succeed at last, it is still valuable to think big.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "46-50",
+      "content": "If you have {{__BLANK_1__}} in mind, you should make full use of it.\n\nHow to train yourself to think big:\n\nRemember that every big thing starts from a(n) {{__BLANK_2__}} one.\n\nIt is not important where you are {{__BLANK_3__}}\n\nSee yourself as a small part of a greater whole.\n\nYou should {{__BLANK_4__}} better people around you to make sure of the realization of your dream.\n\nIf you don't try, you will never know how far your idea could go.\n\nImagine how much regret you will have if you give up your big plans.\n\nIt is you {{__BLANK_5__}} to think big and it is worth trying.",
+      "options": [],
+      "answer": [
+       "something valuable",
+       "small",
+       "at present",
+       "enlist",
+       "human duty"
+      ],
+      "analysis": "这是一个基于文章内容的提纲填空题。\n1. 第一个空对应文章第一句：\"If you have something valuable in mind...\"，因此应填 \"something valuable\"。\n2. 第二个空对应第三段第一句：\"Remember that everything starts from small things...\"，因此应填 \"small\"。\n3. 第三个空对应第三段最后一句：\"So it doesn't matter where yo are at present...\"，因此应填 \"at present\"。\n4. 第四个空对应第四段第二句：\"Enlist people who are better than you.\"，因此应填 \"enlist\"。\n5. 第五个空对应最后一段第二句：\"...then it is a human duty to think and act big...\"，因此应填 \"human duty\"。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "Section 2"
+    },
+    "originalNumber": 6
+   },
+   {
+    "id": 7,
+    "type": "翻译题",
+    "content": "Directions: This part is to test your ability to translate English into Chinese. You will read three choices of suggested translation marked A, B and C. You should choose the best translation and mark the corresponding letter on the Answer Sheet with a single line through the center. And for the paragraph numbered 56, you should write your translation in the corresponding space on the Answer Sheet.",
+    "options": [],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "51",
+      "content": "We expect Li Lei to sing a song. {{__SELECT_1__}}",
+      "options": [
+       "A. 我们期待李磊唱首歌。",
+       "B. 我们让李磊唱首歌。",
+       "C. 李磊让我们唱首歌。"
+      ],
+      "answer": "A",
+      "analysis": "本题考查动词 expect 的用法。`expect somebody to do something` 意为“期望/期待某人做某事”。因此，句子 “We expect Li Lei to sing a song.” 的正确翻译是“我们期待李磊唱首歌。” 选项 B “让”对应 let/make/have，选项 C 主语和宾语颠倒。故选 A。"
+     },
+     {
+      "id": "52",
+      "content": "It is two years since she left her hometown. {{__SELECT_1__}}",
+      "options": [
+       "A. 他离开家乡两年了。",
+       "B. 他回到家乡两年了。",
+       "C. 两年后他回到了家乡"
+      ],
+      "answer": "A",
+      "analysis": "本题考查 `It is... since...` 句型。该句型表示“自从……以来已经有多长时间了”。`since` 从句中的动作是延续性不强的动词（如 `left`），则表示该动作发生的时间点距今有多长。`she left her hometown` 意为“她离开家乡”，所以整个句子的意思是“她离开家乡已经两年了。” OCR结果中的“他”应为“她”。故选 A。"
+     },
+     {
+      "id": "53",
+      "content": "One man's meat is another man's poison. {{__SELECT_1__}}",
+      "options": [
+       "A. 一个人买肉，一个人买药。",
+       "B. 萝卜白菜，各有所爱。",
+       "C. 买卖不成仁义在。"
+      ],
+      "answer": "B",
+      "analysis": "本题考查英语谚语的翻译。`One man's meat is another man's poison.` 字面意思是“一个人的美食是另一个人的毒药”，引申义为对某人有益或使其愉悦的事物可能对另一人有害或使其厌恶。这与中文里的“萝卜白菜，各有所爱”或“汝之蜜糖，彼之砒霜”意思相近，表示不同的人有不同的好恶。选项 B 是最贴切的意译。故选 B。"
+     },
+     {
+      "id": "54",
+      "content": "China has taken steps to push green development. {{__SELECT_1__}}",
+      "options": [
+       "A. 中国正在采取措施推动绿色发展。",
+       "B. 中国已经采取了措施推动绿色发展。",
+       "C. 中国将要采取措施推动绿色发展。"
+      ],
+      "answer": "B",
+      "analysis": "本题考查现在完成时态的翻译。`has taken` 是现在完成时，表示动作已经发生并对现在有影响。`take steps` 意为“采取措施”。因此，整个句子应翻译为“中国已经采取了措施推动绿色发展。” 选项 A 是现在进行时，选项 C 是将来时。故选 B。"
+     },
+     {
+      "id": "55",
+      "content": "There can be no progress without sweat. {{__SELECT_1__}}",
+      "options": [
+       "A. 没有汗水，就没有进步。",
+       "B. 没有汗水，就没有付出。",
+       "C. 没有汗水，就无法成功。"
+      ],
+      "answer": "A",
+      "analysis": "本题考查双重否定结构的翻译。`no... without...` 结构表示“没有……就没有……”。`progress` 意为“进步”，`sweat` 在这里引申为“汗水，努力”。因此，句子最直接、准确的翻译是“没有汗水，就没有进步。” 故选 A。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "Part III"
+    },
+    "originalNumber": 7
+   },
+   {
+    "id": 8,
+    "type": "翻译题",
+    "content": "Directions: This part is to test your ability to translate English into Chinese. You are required to translate the paragraph into Chinese in the corresponding space on the Answer Sheet.\n\nDuring holidays, people tend to rush to popular places of interest. As a result, the tourists may suffer from traffic jams or find it difficult to book a hotel. In fact, there are better choices for people to avoid crowds and to spend a satisfying holiday. For example, they can choose to go camping somewhere or visit areas nearly. in those places, people can take beautiful photos, pick fruits or vegetables, try delicious local food and experience various activities. Whatever people choose, the most important thing is to enjoy the holiday.",
+    "options": [],
+    "answer": "节假日期间，人们往往涌向热门的旅游景点。结果，游客可能会遭遇交通堵塞或发现很难预订到酒店。事实上，人们有更好的选择来避开人群，度过一个满意的假期。例如，他们可以选择去某个地方露营或游览附近的地区。在那些地方，人们可以拍美丽的照片，采摘水果或蔬菜，品尝当地美味的食物，并体验各种各样的活动。无论人们选择什么，最重要的事情是享受假期。",
+    "analysis": "本段翻译的关键在于理解并准确表达原文的词汇和句型。\n- `tend to rush to`: 倾向于涌向。\n- `popular places of interest`: 热门的旅游景点。\n- `suffer from traffic jams`: 遭遇交通堵塞。\n- `find it difficult to book a hotel`: 发现很难预订酒店，这是一个 `find it + adj. + to do` 的结构。\n- `avoid crowds`: 避开人群。\n- `a satisfying holiday`: 一个满意的假期。\n- `visit areas nearly` (应为nearby): 游览附近的地区。\n- `Whatever people choose`: 无论人们选择什么，引导让步状语从句。\n- `the most important thing is to enjoy the holiday`: 最重要的事情是享受假期。 \n整体翻译应力求通顺自然，符合中文表达习惯。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "56"
+    },
+    "originalNumber": 8
+   },
+   {
+    "id": 9,
+    "type": "写作题",
+    "content": "Directions: For this part you are required to write a composition based on the following information given in Chinese. Remember to write your composition in the space given on the Answer Sheet.\n\n围绕 “It is wise to take advice, so learn to listen to others and become wiser.” 展开, 不少于 60 词\n\n1.对这话的理解；\n2.听取别人意见的好处；\n3.我的看法。",
+    "options": [],
+    "answer": "As the saying goes, \"It is wise to take advice, so learn to listen to others and become wiser.\" I deeply agree with this statement. It means that accepting advice from others is a smart behavior, and by listening, we can gain more wisdom.\n\nListening to others' advice offers numerous benefits. Firstly, it provides us with different perspectives that we might have overlooked. This can help us make more thoughtful and comprehensive decisions. Secondly, advice from experienced people can save us from making unnecessary mistakes, saving us valuable time and effort.\n\nIn my opinion, we should always keep an open mind. While not all advice is perfect, the act of listening itself is a process of learning and self-improvement. Therefore, let's be good listeners and grow wiser every day.",
+    "analysis": "本文是一篇根据提示展开的议论文。范文结构清晰，紧扣主题，满足了所有写作要求。\n1.  **内容完整**：文章包含了对引言的理解、听取建议的好处以及个人看法三个要点。\n2.  **逻辑清晰**：第一段解释引言含义，表明观点。第二段通过 “Firstly” 和 “Secondly” 阐述了听取建议的两个主要好处。第三段总结个人看法，呼应主题。\n3.  **语言得当**：使用了 “As the saying goes”, “numerous benefits”, “different perspectives”, “overlooked”, “keep an open mind” 等词汇和短语，使文章表达更地道、流畅。\n4.  **字数达标**：文章字数超过60词的要求。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2023专升本英语真题_纯图版(1).pdf",
+     "fileId": "2013983933708869633",
+     "originalNumber": "Part IV"
+    },
+    "originalNumber": 9
+   }
+  ]
+ }
+}

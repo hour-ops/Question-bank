@@ -1,0 +1,2158 @@
+{
+  "schema_version": "1.0",
+  "subject": "c_common",
+  "subject_name_cn": "c_common",
+  "type": "program_fill",
+  "type_name_cn": "程序填空",
+  "how": "读下面的 C 程序，在横线处填入恰当的内容，使程序完整并能正确运行。",
+  "answer_label": "参考答案",
+  "knowledge_points": [
+    {
+      "id": "C-05",
+      "name": "循环结构",
+      "dimension": "chapter",
+      "sample_count": 7
+    },
+    {
+      "id": "C-04",
+      "name": "选择结构",
+      "dimension": "chapter",
+      "sample_count": 4
+    },
+    {
+      "id": "C-09",
+      "name": "结构体、共用体与自定义数据类型",
+      "dimension": "chapter",
+      "sample_count": 3
+    },
+    {
+      "id": "C-02",
+      "name": "数据类型、运算符与表达式",
+      "dimension": "chapter",
+      "sample_count": 2
+    },
+    {
+      "id": "C-08",
+      "name": "指针",
+      "dimension": "chapter",
+      "sample_count": 2
+    },
+    {
+      "id": "C-12",
+      "name": "位运算",
+      "dimension": "chapter",
+      "sample_count": 2
+    },
+    {
+      "id": "C-07",
+      "name": "函数与模块化程序设计",
+      "dimension": "chapter",
+      "sample_count": 2
+    },
+    {
+      "id": "C-01",
+      "name": "C语言概述与程序设计基础",
+      "dimension": "chapter",
+      "sample_count": 2
+    },
+    {
+      "id": "C-03",
+      "name": "顺序结构与输入输出",
+      "dimension": "chapter",
+      "sample_count": 1
+    },
+    {
+      "id": "C-11",
+      "name": "编译预处理",
+      "dimension": "chapter",
+      "sample_count": 1
+    },
+    {
+      "id": "C-06",
+      "name": "数组",
+      "dimension": "chapter",
+      "sample_count": 1
+    },
+    {
+      "id": "C-10",
+      "name": "文件",
+      "dimension": "chapter",
+      "sample_count": 1
+    }
+  ],
+  "knowledge_point_basis": "题型无关：C 语言的知识点由原题教材章节名(source.chapter)决定，经 knowledge_points[].alias_chapters 反查（190 个别名）",
+  "knowledge_base": "subjects/c_common/knowledge_base.json",
+  "source": "inbox/real_exams/*.json（只读；不从 SQLite 取题干）",
+  "type_raw_values": [
+    "填空题",
+    "程序填空题"
+  ],
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "rules": {
+    "trust_priority": [
+      "official_exam",
+      "textbook",
+      "third_party"
+    ],
+    "exclude": [
+      "ai_generated",
+      "source_type='generate'"
+    ],
+    "prefer": "有解析者优先；其次解析更长、空更多、材料更长",
+    "sampling": "按 exam 轮转（每套卷先取 1 条再取第 2 条…），上限 40 条",
+    "dedupe": "同题干（去空白差异）只留解析最好的一条，其余来源记在 same_stem_exams",
+    "material_rule": "材料型题整组存：material 存整篇原文、material_blanks 存该组全部空（空数经断言校验）；材料型 sample 的 stem 为空串，题干在各空的 stem 里",
+    "zero_rewrite": "题干/材料/答案/解析零改写；唯一渲染是把源里的 {type:'blank'} 块显式写成 {{__BLANK_<n>__}}；连词成句保留 `词组 / 词组` 斜杠格式",
+    "deterministic": "不使用随机数；排序键固定为 (exam, 组内 rank)"
+  },
+  "stats": {
+    "samples": 40,
+    "source_records": 2119,
+    "with_explanation": 40,
+    "material_blocks": 24,
+    "total_blanks_in_material_blocks": 78,
+    "blanks_with_own_stem": 0,
+    "usable_records": 632,
+    "exams_in_type": 11,
+    "duplicated_records_removed": 1487,
+    "cap": 40,
+    "truncated": true,
+    "unique_sources_kept": 11,
+    "unique_sources_available": 11
+  },
+  "exams": [
+    {
+      "exam": "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+      "samples": 4
+    },
+    {
+      "exam": "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+      "samples": 4
+    },
+    {
+      "exam": "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+      "samples": 4
+    },
+    {
+      "exam": "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+      "samples": 4
+    },
+    {
+      "exam": "059_程序设计语言_武汉传媒学院软件工程.json",
+      "samples": 4
+    },
+    {
+      "exam": "060_程序设计语言_湖北商贸学院软件工程.json",
+      "samples": 4
+    },
+    {
+      "exam": "062_程序设计语言_湖北工程学院软件工程.json",
+      "samples": 4
+    },
+    {
+      "exam": "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+      "samples": 3
+    },
+    {
+      "exam": "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+      "samples": 3
+    },
+    {
+      "exam": "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+      "samples": 3
+    },
+    {
+      "exam": "058_程序设计语言_武汉城市学院软件工程.json",
+      "samples": 3
+    }
+  ],
+  "samples": [
+    {
+      "stem": "",
+      "answer": "1 | t /= 10 | dw == n",
+      "explanation": "k 用于计算 10 的幂次，以便取低位。while 循环计算 n (或 n^2，这里用 t=prod) 的位数对应的 10^m。修正：原代码逻辑似乎是想计算 n 的位数？如果是守形数，需比较 n 和 n^2 的低位。k 应该是 10^digits(n)。代码中 t 初始化为 prod (n^2)，这会计算 n^2 的位数？不对。应该计算 n 的位数。如果 t=prod，则 k 会比 n 大很多。但看代码 `dw = prod - prod/k*k` 是取余。若 k 是 10^digits(n)，则 dw 是 n^2 的后几位。所以 t 应该初始化为 n。但题目给出 `t = prod = n * n`。这可能是一个逻辑错误或特定解法。若按题目逻辑，t 是 n^2。那 k 就是 10^(digits(n^2))。那 dw 就是 prod 本身。dw==n 就不成立了（除非 n=n^2）。\n**修正分析**：题目可能是 OCR 错误，`t` 应该等于 `n`。但根据题目挖空，(14) 初始化 k=1，(15) 循环体 `t/=10`。最后 `dw == n`。假设 t 是 n 的副本。",
+      "exam": "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+      "exam_title": "湖北恩施学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-05 循环结构",
+      "material": "求守形数（平方的低位数与该数相同）。\n```c\n#include<stdio.h>\nint main()\n{ \n    int n, prod, t, dw, k;\n    for (n = 2; n <= 100; n++) {\n        t = prod = n * n;\n        k = {{__BLANK_1__}};\n        while (t != 0) {\n            k *= 10;\n            {{__BLANK_2__}};\n        }\n        k /= 10;\n        dw = prod - prod / k * k;\n        if ({{__BLANK_3__}})\n            printf(\"%4d %8d\\n\", n, prod);\n    }\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "25-q228",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 3,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "t /= 10",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "dw == n",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-05"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第5章 循环结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "湖北恩施学院",
+      "chapter_raw": "第5章 循环结构程序设计",
+      "difficulty": "中等",
+      "same_stem_exams": [
+        "033_程序设计语言_三峡大学科技学院专升本专业课考试.json",
+        "045_程序设计语言_湖北文理学院理工学院专升本专业课考试.json"
+      ],
+      "same_stem_exam_count": 2
+    },
+    {
+      "stem": "",
+      "answer": "1",
+      "explanation": "先计算左侧 `m = a != b`，即 `1 != 2` 为真(1)，赋给 m，m=1。因为左侧为真(1)，逻辑与 `&&` 继续执行右侧。右侧 `n = b > c`，即 `2 > 3` 为假(0)，赋给 n，n=0。**更正**：题目中是 `n` 的值。此处需注意，若左侧为1，右侧执行，`n` 应该被赋值为0。但在C语言逻辑表达式短路求值中，如果题目意图是考察短路，需仔细分析。这里左侧 `1` 为真，右侧必须执行。`b > c` (2>3) 是0。所以 `n` 变为0。**再次检查题目**：原书题目可能存在陷阱或印刷错误，但根据标准C逻辑：\n1. `a != b` -> `1 != 2` -> 1。\n2. `m = 1`。\n3. `1 && ...` -> 继续执行右边。\n4. `b > c` -> `2 > 3` -> 0。\n5. `n = 0`。\n但如果答案是 `n=1`，说明右边没执行（短路）。这只有在左边为0时发生。这里左边是1。除非题目是 `a == b`。按照原题 `a != b`，n应为0。**修正**：如果原题意图是n保持原值，则左边需为假。但 `1!=2` 是真。若按照标准逻辑，n=0, m=1。若按照常见习题集答案可能是保留原值（短路），则题目可能有误。这里按标准逻辑计算：n=0, m=1。\n\n**特别说明**：如果题目是 `d = (m = a == b) && ...`，则 m=0，右边短路，n保持1。仔细看题图，题目是 `a != b`。故 n=0。\n**二次确认**：有些教材答案可能给出 n=1，暗示短路，那必须是 `m=0`。若 `m=1` 且 `n=1`，除非 `b > c` 为真（2>3假）。\n**最终结论**：根据代码逻辑，n=0, m=1。但如果参考答案给n=1，可能是题目印刷错误（如 `a==b`）。此处按逻辑填写：n=0, m=1。如果必须填1，则假设发生了短路（前提由错题导致）。此处按正确逻辑填 `0` 和 `1`。\n\n(注：若按照部分教材答案 `n` 仍为 1，则说明发生了短路，即左边算出来是0。但 `1!=2` 显然是1。这里坚持正确代码逻辑：0 和 1。)",
+      "exam": "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+      "exam_title": "湖北经济学院法商学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-04 选择结构",
+      "material": "当 $m = 2, n = 1, a = 1, b = 2, c = 3$ 时，执行完 $d = (m = a != b) \\&\\& (n = b > c)$ 后； $n$ 的值为{{__BLANK_1__}}， $m$ 的值为{{__BLANK_2__}}。",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "29-q130",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "1. `a != b` -> `1 != 2` -> 1。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "2. `m = 1`。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-04"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第5章 选择结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "湖北经济学院法商学院",
+      "chapter_raw": "第5章 选择结构程序设计",
+      "difficulty": "提高",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "根据以下代码，若要使 $a = 3$，$b = 7$，$x = 8.5$，$y = 71.82$，$c1 = 'A'$，$c2 = 'a'$，则在键盘上应输入的完整字符串序列是 {{__BLANK_1__}}。\n\n```c\n#include <stdio.h>\nint main() {\n    int a, b;\n    float x, y;\n    char c1, c2;\n    scanf(\"%d= %d\", &a, &b);\n    scanf(\"%f%f\", &x, &y);\n    scanf(\"%c%c\", &c1, &c2);\n    return 0;\n}\n```",
+      "answer": "3= 7 8.5 71.82Aa",
+      "explanation": "1. 第一个 `scanf(\"%d= %d\", &a, &b)`：格式字符串要求在第一个整数后紧跟一个 `=` 号。`%d` 前的空格表示跳过任何空白字符。因此输入 `3= 7`（或 `3=7`）可使 $a=3, b=7$。\n2. 第二个 `scanf(\"%f%f\", &x, &y)`：读取两个浮点数，中间可以用空格分隔。输入 `8.5 71.82`。\n3. 第三个 `scanf(\"%c%c\", &c1, &c2)`：`%c` 格式符会读取包括空格、换行符在内的任何字符。为了使 $c1$ 得到 'A'，在输入完 $y$ 的值 `71.82` 后，必须立即输入字符 'A'，不能有空格或回车。因此紧接着输入 `Aa`。\n综合以上分析，输入序列应为 `3= 7 8.5 71.82Aa`。",
+      "exam": "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+      "exam_title": "湖北师范大学专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "22-q45-s0",
+      "no": 45,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北师范大学",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+        "026_程序设计语言_湖北工程学院专升本专业课考试.json",
+        "028_程序设计语言_湖北工业大学工程技术学院专升本专业课考试.json",
+        "042_程序设计语言_武汉东湖学院专升本专业课考试.json",
+        "043_程序设计语言_武汉文理学院专升本专业课考试.json",
+        "044_程序设计语言_武汉生物工程学院专升本专业课考试.json",
+        "062_程序设计语言_湖北工程学院软件工程.json",
+        "064_程序设计语言_汉江师范学院软件工程.json"
+      ],
+      "same_stem_exam_count": 11
+    },
+    {
+      "stem": "有一行电文，已按下面规律译成密码：即第1个字母变成第26个字母，第 $i$ 个字母变成第 $(26 - i + 1)$ 个字母，非字母字符不变。以下程序实现了将输入的密码译回原文的功能，请补全代码：\n\n```c\n#include <stdio.h>\nint main() {\n    char str[100];\n    gets(str);\n    for (int i = 0; str[i] != '\\\\0'; i++) {\n        if (str[i] >= 'A' && str[i] <= 'Z') {\n            str[i] = {{__BLANK_1__}};\n        } else if (str[i] >= 'a' && str[i] <= 'z') {\n            str[i] = {{__BLANK_2__}};\n        }\n    }\n    printf(\"Original: %s\\\\n\", str);\n    return 0;\n}\n```",
+      "answer": "① 'Z' - (str[i] - 'A')；② 'z' - (str[i] - 'a')",
+      "explanation": "根据题目规律，第 $i$ 个字母变成第 $26-i+1$ 个字母。以大写字母为例，其在字母表中的序号 $i = str[i] - 'A' + 1$，变换后的序号应为 $26 - i + 1 = 26 - (str[i] - 'A' + 1) + 1 = 26 - (str[i] - 'A')$。对应的字符即为 'A' + [变换后的序号 - 1] = 'A' + 26 - (str[i] - 'A') - 1 = 'Z' - (str[i] - 'A')。同理，小写字母的变换逻辑为 'z' - (str[i] - 'a')。由于该变换是自反的（即变换两次回到原位），译码逻辑与编码逻辑完全一致。",
+      "exam": "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+      "exam_title": "湖北大学知行学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "24-q89-s0",
+      "no": 89,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北大学知行学院",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "026_程序设计语言_湖北工程学院专升本专业课考试.json",
+        "028_程序设计语言_湖北工业大学工程技术学院专升本专业课考试.json",
+        "042_程序设计语言_武汉东湖学院专升本专业课考试.json",
+        "043_程序设计语言_武汉文理学院专升本专业课考试.json",
+        "044_程序设计语言_武汉生物工程学院专升本专业课考试.json",
+        "062_程序设计语言_湖北工程学院软件工程.json",
+        "064_程序设计语言_汉江师范学院软件工程.json",
+        "065_程序设计语言_武汉生物工程学院软件工程.json"
+      ],
+      "same_stem_exam_count": 10
+    },
+    {
+      "stem": "",
+      "answer": "40 | 8",
+      "explanation": "1. `union` 的大小取决于最大成员，即 `city[24]`，故 union 大小为 24 字节。由于 union 中包含 `double`，其对齐要求为 8 字节。\n2. 结构体成员 `day`, `month`, `year` 各占 4 字节，共 12 字节。\n3. 接下来的 union 需要 8 字节对齐，因此在 `year` 之后需要填充 4 字节（12 + 4 = 16）。\n4. Union 从偏移量 16 开始，占用 24 字节，结束于 40 字节。\n5. 结构体总大小必须是最大对齐模数（double 的 8 字节）的倍数，40 是 8 的倍数，故 `sizeof(a)` 为 40。\n6. `a.salary` 是 `double` 类型，大小为 8 字节。",
+      "exam": "059_程序设计语言_武汉传媒学院软件工程.json",
+      "exam_title": "武汉传媒学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-09 结构体、共用体与自定义数据类型",
+      "material": "下面定义的语句中，`sizeof(a)` 的值是 {{__BLANK_1__}}，`sizeof(a.salary)` 的值是 {{__BLANK_2__}}。\n```c\nstruct date\n{\n    int day;\n    int month;\n    int year;\n    union\n    {\n        double salary;\n        char city[24];\n    }\n} a;\n```",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "59-q192",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "40",
+          "explanation": "1. `union` 的大小取决于最大成员，即 `city[24]`，故 union 大小为 24 字节。由于 union 中包含 `double`，其对齐要求为 8 字节。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "8",
+          "explanation": "2. 结构体成员 `day`, `month`, `year` 各占 4 字节，共 12 字节。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-09"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第8章 结构体）",
+      "origin_db": "c_wuhan",
+      "school": "武汉传媒学院",
+      "chapter_raw": "第8章 结构体",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "24 | 10 | 60 | 0",
+      "explanation": "(1) `a = 12+12 = 24`；\n(2) `a = 12-2 = 10`；\n(3) `a = a * (2+3) = 12 * 5 = 60`；\n(4) `a = a / (a+a) = 12 / 24 = 0`（整数除法）；\n(5) `n %= 2` 结果为 1，`a %= 1` 结果为 0；\n(6) 从右向左：`a *= a` $\\rightarrow$ a=144；`a -= 144` $\\rightarrow$ a=0；`a += 0` $\\rightarrow$ a=0。",
+      "exam": "060_程序设计语言_湖北商贸学院软件工程.json",
+      "exam_title": "湖北商贸学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-02 数据类型、运算符与表达式",
+      "material": "设整型变量 `a` 的初始值为 12，`n` 的初始值为 5。请写出在**独立执行**以下各表达式运算后变量 `a` 的值（即每小题都从 a=12 开始）：\n(1) `a += a` 的值是 {{__BLANK_1__}}；\n(2) `a -= 2` 的值是 {{__BLANK_2__}}；\n(3) `a *= 2 + 3` 的值是 {{__BLANK_3__}}；\n(4) `a /= a + a` 的值是 {{__BLANK_4__}}；\n(5) `a %= (n %= 2)` 的值是 {{__BLANK_5__}}；\n(6) `a += a -= a *= a` 的值是 {{__BLANK_6__}}。",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "60-q40",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 6,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "24",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "10",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "60",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "0",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "0",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 6,
+          "placeholder": "{{__BLANK_6__}}",
+          "stem": "",
+          "answer": "0",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-02"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：项目二 认识数据类型和表达式）",
+      "origin_db": "c_wuhan",
+      "school": "湖北商贸学院",
+      "chapter_raw": "项目二 认识数据类型和表达式",
+      "difficulty": "提高",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "一个球从 $100\\mathrm{m}$ 高度自由落下，每次落地后反弹回原高度的一半，再落下。以下 Python 代码用于计算该球在第 10 次落地时共经过的距离（total_distance）和第 10 次反弹的高度（height），请补全代码：\\n\\n```python\\nheight = 100\\ntotal_distance = 0\\nfor i in range(1, 11):\\n    total_distance += height\\n    height /= 2\\n    if i < 10:\\n        total_distance += {{__BLANK_1__}}\\nprint(total_distance, {{__BLANK_2__}})\\n```",
+      "answer": "height; height",
+      "explanation": "球的运动轨迹由下落和反弹上升两部分组成。\\n1. 第 1 次下落高度为 $100\\mathrm{m}$，反弹高度为 $50\\mathrm{m}$。\\n2. 在循环中，`total_distance += height` 累加了第 $i$ 次下落的距离。\\n3. `height /= 2` 计算了第 $i$ 次落地后的反弹高度。\\n4. `if i < 10: total_distance += height` 累加了前 9 次反弹上升的距离。注意第 10 次落地时，题目只要求计算到落地瞬间的总路程，因此不计入第 10 次上升的距离。\\n5. 最终 `total_distance` 为第 10 次落地时的总路程（约为 $299.61\\mathrm{m}$），`height` 为第 10 次反弹的高度（约为 $0.09766\\mathrm{m}$）。",
+      "exam": "062_程序设计语言_湖北工程学院软件工程.json",
+      "exam_title": "湖北工程学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "62-q92-s0",
+      "no": 92,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北工程学院",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "064_程序设计语言_汉江师范学院软件工程.json",
+        "065_程序设计语言_武汉生物工程学院软件工程.json",
+        "066_程序设计语言_武汉东湖学院软件工程.json",
+        "068_程序设计语言_湖北工业大学工程技术学院软件工程.json"
+      ],
+      "same_stem_exam_count": 4
+    },
+    {
+      "stem": "",
+      "answer": "1234 | 1 2 34 | scanf(\"%c,%c,%d\", &a, &b, &c); | 1,2,34 | scanf(\"%c%*c%c%*c%d\", &a, &b, &c);",
+      "explanation": "(1) `scanf(\"%c%c%d\")`没有分隔符，字符会连续读取。要得到a='1', b='2', c=34，需连续输入`1234`（1给a，2给b，34给c）。如果输入中间有空格如`1 2 34`，空格会被b读取。\n(2) `%-2c`表示左对齐占2列，输出字符后补一个空格。所以是`1`+空格+`2`+空格+`34`，即`1 2 34`。\n(3) 若输入带逗号，格式串中也需包含逗号作为普通字符匹配：`scanf(\"%c,%c,%d\", ...)`。\n(4) 在C语言字符串中，`\\%`和`\\,`不是标准转义字符，编译器通常会忽略反斜杠，将其视为`%`和`,`。因此格式串等同于`\"%c,%c,%d\\n\"`，输出结果仍为`1,2,34`。（注：若意图是输出字面量，需用`%%`，但此处题目考察对转义符的处理）。\n(5) 使用`%*c`可以读取并丢弃一个任意字符（包括逗号、空格、换行），从而适配多种单字符分隔符的情况：`scanf(\"%c%*c%c%*c%d\", ...)`。",
+      "exam": "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+      "exam_title": "武汉设计工程学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-03 顺序结构与输入输出",
+      "material": "阅读以下程序，完成相关填空。\n```c\n#include <stdio.h>\nint main(void)\n{\n    char a, b;\n    int c;\n    scanf(\"%c%c%d\", &a, &b, &c);\n    printf(\"%c,%c,%d\\n\", a, b, c);\n    return 0;\n}\n```\n(1) 要使程序在屏幕上显示 `1,2,34`，则从键盘输入的数据格式应为 {{__BLANK_1__}}。\n(2) 若将第7行语句修改为 `printf(\"%-2c%-2c%d\\n\",a,b,c);`，且保持相同输入，则屏幕输出为 {{__BLANK_2__}}。\n(3) 若希望输入数据格式为 `1,2,34` 且输出也为 `1,2,34`，应将第6行修改为 {{__BLANK_3__}}。\n(4) 若将第7行修改为 `printf(\"\\%c\\,\\%c\\,\\%d\\n\", a, b, c);`（假设编译器忽略非转义字符前的反斜杠），则屏幕输出为 {{__BLANK_4__}}。\n(5) 若希望无论输入 `1,2,34`、`1 2 34` 还是 `1\\n2\\n34` 都能正确赋值并输出 `1,2,34`，应将第6行修改为 {{__BLANK_5__}}。",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "38-q41",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "1234",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "1 2 34",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "scanf(\"%c,%c,%d\", &a, &b, &c);",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "1,2,34",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "scanf(\"%c%*c%c%*c%d\", &a, &b, &c);",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-03"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第4章 键盘输入和屏幕输出）",
+      "origin_db": "c_wuhan",
+      "school": "武汉设计工程学院",
+      "chapter_raw": "第4章 键盘输入和屏幕输出",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "2 - i | 2 * i | 4 - 2 * i",
+      "explanation": "本题考查循环嵌套打印图形。上半部分共4行（i=0到3）：空格数依次为3,2,1,0，规律为 `2-i`（注意j从0开始，所以循环次数是 `3-i`，条件写 `j <= 2-i`）；星号数依次为1,3,5,7，规律为 `2*i+1`（注意k从0开始，循环次数是 `2*i+1`，条件写 `k <= 2*i`）。下半部分共3行（i=0到2）：空格数依次为1,2,3，规律为 `i+1`（注意j从0开始，条件 `j <= i`）；星号数依次为5,3,1，规律为 `5-2*i`（注意k从0开始，条件 `k <= 4-2*i`）。",
+      "exam": "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+      "exam_title": "武汉工程大学邮电与信息工程学院专升本教材",
+      "trust": "textbook",
+      "knowledge_point": "C-05 循环结构",
+      "material": "输出以下菱形图案：\n```\n   *\n  ***\n *****\n*******\n *****\n  ***\n   *\n```\n请完善以下程序：\n```c\n#include <stdio.h>\nint main() {\n    int i, j, k;\n    // 上半部分（包括中间行）\n    for (i = 0; i <= 3; i++) {\n        for (j = 0; j <= {{__BLANK_1__}}; j++)\n            printf(\" \");\n        for (k = 0; k <= {{__BLANK_2__}}; k++)\n            printf(\"*\");\n        printf(\"\\n\");\n    }\n    // 下半部分\n    for (i = 0; i <= 2; i++) {\n        for (j = 0; j <= i; j++)\n            printf(\" \");\n        for (k = 0; k <= {{__BLANK_3__}}; k++)\n            printf(\"*\");\n        printf(\"\\n\");\n    }\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "48-q55",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 3,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "2 - i",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "2 * i",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "4 - 2 * i",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-05"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第5章 循环结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "武汉工程大学邮电与信息工程学院",
+      "chapter_raw": "第5章 循环结构程序设计",
+      "difficulty": "中等",
+      "same_stem_exams": [
+        "063_程序设计语言_武汉商学院软件工程.json",
+        "069_程序设计语言_武汉工程大学邮电与信息工程学院软件工程.json",
+        "070_程序设计语言_武汉纺织大学外经贸学院软件工程.json"
+      ],
+      "same_stem_exam_count": 3
+    },
+    {
+      "stem": "",
+      "answer": "0 | 1",
+      "explanation": "1. `7 > 5` 为真(1)，`4 == 5` 为假(0)，`1 && 0` 结果为 0。\n2. `&&` 优先级高于 `||`。但 `a` 为 3 (真)，对于 `||` 运算，左操作数为真则发生短路，结果直接为 1。\n3. `!(0)` 为 1，`!5` 为 0。表达式变为 `1 && 0 || 1` -> `0 || 1` -> 1。\n4. `x=a` 赋值为 3，`!3` 为 0。`&&` 左侧为 0，发生短路，结果为 0。\n5. `!(a+b)` 即 `!7` 为 0。左边算术表达式 `0 + 5 - 1 = 4`。右边 `4 + 5/2 = 4 + 2 = 6`。`4 && 6` 均为非0，结果为 1。",
+      "exam": "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+      "exam_title": "湖北理工学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-04 选择结构",
+      "material": "设 $a=3, b=4, c=5$，请写出下列逻辑表达式的值（均为整数0或1）：\n1. `a + b > c && b == c` 的值为 {{__BLANK_1__}}\n2. `a || b + c && b - c` 的值为 {{__BLANK_2__}}\n3. `!(a > b) && !c || 1` 的值为 {{__BLANK_3__}}\n4. `!(x = a) && (y = b) && 0` 的值为 {{__BLANK_4__}}\n5. `!(a + b) + c - 1 && b + c / 2` 的值为 {{__BLANK_5__}}",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "30-q42",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "0",
+          "explanation": "1. `7 > 5` 为真(1)，`4 == 5` 为假(0)，`1 && 0` 结果为 0。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "2. `&&` 优先级高于 `||`。但 `a` 为 3 (真)，对于 `||` 运算，左操作数为真则发生短路，结果直接为 1。",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "3. `!(0)` 为 1，`!5` 为 0。表达式变为 `1 && 0 || 1` -> `0 || 1` -> 1。",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "0",
+          "explanation": "4. `x=a` 赋值为 3，`!3` 为 0。`&&` 左侧为 0，发生短路，结果为 0。",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "5. `!(a+b)` 即 `!7` 为 0。左边算术表达式 `0 + 5 - 1 = 4`。右边 `4 + 5/2 = 4 + 2 = 6`。`4 && 6` 均为非0，结果为 1。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-04"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第4章 选择结构程序设计）",
+      "origin_db": "c_hbpu",
+      "school": "湖北理工学院",
+      "chapter_raw": "第4章 选择结构程序设计",
+      "difficulty": "中等",
+      "same_stem_exams": [
+        "051_程序设计语言_武汉晴川学院专升本.json",
+        "072_程序设计语言_武汉晴川学院软件工程.json"
+      ],
+      "same_stem_exam_count": 2
+    },
+    {
+      "stem": "",
+      "answer": "* | &",
+      "explanation": "1. `p=score` 利用数组名作首地址，正确。\n2. 取指针指向的内容需要解引用，使用 `*p`。\n3. 修改指针指向内存单元的值，需要解引用，使用 `*p`。\n4. 指针赋值，直接 `q=p` 即可。\n5. 修改指针指向的内容，使用 `*p`。\n6. `scanf` 需要地址，数组元素 `score[2]` 是值，需要取地址符 `&`。\n7. `p` 本身存储的就是地址，直接用 `p`。\n8. 输出指针指向的值，需要解引用 `*p`。",
+      "exam": "058_程序设计语言_武汉城市学院软件工程.json",
+      "exam_title": "武汉城市学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-08 指针",
+      "material": "假设有定义：\n```c\nint i, j;\nint score[] = {98, 75, 34, 88, 100};\nint *p, *q;\n```\n请在以下语句的空白处填入合适的运算符（`*`、`&`）或下标，使语句能够实现注释中要求完成的任务。\n\n1. `p = score;` // 使p指向score数组的第一个元素\n2. `i = {{__BLANK_1__}}p;` // 将p指向元素的内容赋值给i\n3. `{{__BLANK_2__}}p = 88;` // 将88赋值给所p指向元素\n4. `q = p;` // 使q指向p指向的元素\n5. `{{__BLANK_3__}}p = score[0] + score[4];` // p指向的元素的内容等于98与100的和\n6. `scanf(\"%d\", {{__BLANK_4__}}score[2]);` // 将数据输入数组的第三个元素\n7. `scanf(\"%d\", p);` // 将数据输入p所指向的元素\n8. `printf(\"%d\", {{__BLANK_5__}}p);` // 显示p所指向的元素的内容",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "58-q103",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "*",
+          "explanation": "1. `p=score` 利用数组名作首地址，正确。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "*",
+          "explanation": "2. 取指针指向的内容需要解引用，使用 `*p`。",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "*",
+          "explanation": "3. 修改指针指向内存单元的值，需要解引用，使用 `*p`。",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "&",
+          "explanation": "4. 指针赋值，直接 `q=p` 即可。",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "*",
+          "explanation": "5. 修改指针指向的内容，使用 `*p`。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-08"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第7章 指针）",
+      "origin_db": "c_wuhan",
+      "school": "武汉城市学院",
+      "chapter_raw": "第7章 指针",
+      "difficulty": "基础",
+      "same_stem_exams": [
+        "071_程序设计语言_湖北恩施学院软件工程.json"
+      ],
+      "same_stem_exam_count": 1
+    },
+    {
+      "stem": "",
+      "answer": "sum < k | j",
+      "explanation": "内层循环计算从 i 开始的连续奇数和，直到 sum >= k。如果 sum == k，则找到序列。输出时从 i 到 j (不包含 j，因为 j 最后多加了一次或者作为结束界限)。注：原题代码逻辑中 j++ 是连续整数？定理通常是连续奇数。但题目代码看起来是暴力搜索连续整数？题目描述说“连续奇数”。如果是奇数，j 应该加 2。观察代码 `j++`，这似乎是搜索连续整数。但题目文字说是奇数。根据填空要求，(9)控制求和终止，(10)控制输出范围。若代码实为连续整数验证，则逻辑成立。若必须为奇数，原代码有误。按代码逻辑填空：`sum < k` 和 `j`。",
+      "exam": "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+      "exam_title": "湖北恩施学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-05 循环结构",
+      "material": "下面程序验证尼科梅彻斯定理：任何一个正整数 n 的立方都可以写成 n 个连续奇数之和。\n```c\n#include<stdio.h>\nint main()\n{ \n    long n, i, k, j, p, sum;\n    for(n = 2; n <= 10; n++) {\n        k = n * n * n;\n        for(i = 1; i < k/2; i++) {\n            for(j = i, sum = 0; {{__BLANK_1__}}; j++)\n                sum += j;\n            if(sum == k) {\n                printf(\"\\n%d*%d*%d = %ld =\", n, n, n, sum);\n                for(p = i; p < {{__BLANK_2__}}; p += 2)\n                    printf(\"%ld+\", p);\n                printf(\"%ld\", p);\n                break;\n            }\n        }\n    }\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "25-q227",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "sum < k",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "j",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-05"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第5章 循环结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "湖北恩施学院",
+      "chapter_raw": "第5章 循环结构程序设计",
+      "difficulty": "提高",
+      "same_stem_exams": [
+        "033_程序设计语言_三峡大学科技学院专升本专业课考试.json",
+        "045_程序设计语言_湖北文理学院理工学院专升本专业课考试.json"
+      ],
+      "same_stem_exam_count": 2
+    },
+    {
+      "stem": "下面程序的功能是：输出100以内能被3整除且个位数为6的所有整数，请填空。\n```c\n#include <stdio.h>\nint main() {\n    int i, j;\n    for (i = 0; ________; i++) {\n        j = i * 10 + 6;\n        if (________) continue;\n        printf(\"%d\\n\", j);\n    }\n    return 0;\n}\n```",
+      "answer": "j < 100 | j % 3 != 0",
+      "explanation": "1. 题目要求100以内，`j` 是构造的数，所以循环条件应确保 `j` 在范围内。由于 `j` 在循环体内计算，这里 `for` 的条件可能需要根据 `i` 来限制，或者 `j` 的计算放在判断前。观察代码结构，`j` 在循环体第一行计算，所以 `for` 的中间条件应该是控制范围。由于 `j = i*10 + 6`，要 `j < 100`，即 `i*10 + 6 < 100` -> `i*10 < 94` -> `i <= 9`。或者直接填 `i*10+6 < 100`。考虑到代码风格，可能是 `i < 10`。\n   修正：填空处在 `for` 中间。`j` 还未计算。所以只能限制 `i`。`i` 控制十位，`j` 最大96 (i=9)。所以 `i < 10`。\n   再看：题目给的空可能是 `i` 的范围。但如果填 `j < 100` 是错误的，因为 `j` 未定义值。所以必须填 `i < 10`。\n   但是，第一个空后面是 `i++`。`j` 的计算在循环体内。如果空填 `i < 10`，那么 `j` 最大 96。\n   第二个空：`if (________) continue;`。如果不能被3整除则跳过。所以是 `j % 3 != 0`。\n   关于第一个空：`j` 是局部变量，未初始化。不能在 `for` 条件里用 `j`。只能用 `i`。填 `i < 10` 最合理。",
+      "exam": "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+      "exam_title": "湖北经济学院法商学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-05 循环结构",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "single",
+      "group_uid": "29-q225-s0",
+      "no": 225,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "C-05"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第6章 循环结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "湖北经济学院法商学院",
+      "chapter_raw": "第6章 循环结构程序设计",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "'Z' - (str[i] - 'A') | 'z' - (str[i] - 'a')",
+      "explanation": "根据题目规律，第 $i$ 个字母变成第 $26-i+1$ 个字母。以大写字母为例，其在字母表中的序号 $i = str[i] - 'A' + 1$，变换后的序号应为 $26 - i + 1 = 26 - (str[i] - 'A' + 1) + 1 = 26 - (str[i] - 'A')$。对应的字符即为 'A' + [变换后的序号 - 1] = 'A' + 26 - (str[i] - 'A') - 1 = 'Z' - (str[i] - 'A')。同理，小写字母的变换逻辑为 'z' - (str[i] - 'a')。由于该变换是自反的（即变换两次回到原位），译码逻辑与编码逻辑完全一致。",
+      "exam": "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+      "exam_title": "湖北师范大学专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "有一行电文，已按下面规律译成密码：即第1个字母变成第26个字母，第 $i$ 个字母变成第 $(26 - i + 1)$ 个字母，非字母字符不变。以下程序实现了将输入的密码译回原文的功能，请补全代码：\n\n```c\n#include <stdio.h>\nint main() {\n    char str[100];\n    gets(str);\n    for (int i = 0; str[i] != '\\\\0'; i++) {\n        if (str[i] >= 'A' && str[i] <= 'Z') {\n            str[i] = {{__BLANK_1__}};\n        } else if (str[i] >= 'a' && str[i] <= 'z') {\n            str[i] = {{__BLANK_2__}};\n        }\n    }\n    printf(\"Original: %s\\\\n\", str);\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "22-q89",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "'Z' - (str[i] - 'A')",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "'z' - (str[i] - 'a')",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北师范大学",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "写一个用矩形法求定积分的通用函数，分别求：\n$$\\int_{0}^{1} \\sin x \\mathrm{d}x, \\quad \\int_{0}^{1} \\cos x \\mathrm{d}x, \\quad \\int_{0}^{1} \\mathrm{e}^{x} \\mathrm{d}x$$\n\n请补全下列实现该功能的代码：\n\n```c\n#include <stdio.h>\n#include <math.h>\n\n// a:下限, b:上限, n:等分数, f:被积函数指针\ndouble integral(double a, double b, int n, {{__BLANK_1__}}) {\n    double h = (b - a) / n;\n    double sum = 0;\n    for (int i = 0; i < n; i++) {\n        // 累加每个小矩形的面积，此处取左端点值\n        sum += {{__BLANK_2__}};\n    }\n    return {{__BLANK_3__}};\n}\n\nint main() {\n    printf(\"sin: %f\\n\", integral(0, 1, 1000, sin));\n    printf(\"cos: %f\\n\", integral(0, 1, 1000, cos));\n    printf(\"exp: %f\\n\", integral(0, 1, 1000, exp));\n    return 0;\n}\n```",
+      "answer": "【空1】double (*f)(double)  【空2】f(a + i * h)  【空3】sum * h",
+      "explanation": "1. 矩形法求定积分是将积分区间 $[a, b]$ 分成 $n$ 个等分，步长 $h = (b-a)/n$。每个小矩形的面积为 $f(x_i) \\times h$。\n2. 为了编写通用函数，需要使用函数指针作为参数。由于 `sin`, `cos`, `exp` 的原型均为 `double func(double)`，故指针定义为 `double (*f)(double)`。\n3. 在循环中，通过 `f(a + i * h)` 获取每个步长点的函数值并累加。\n4. 最后返回总面积 `sum * h`（也可以在循环内直接累加 `f(x)*h`，此处为了效率在循环外统一乘以 $h$）。",
+      "exam": "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+      "exam_title": "湖北大学知行学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "24-q119-s0",
+      "no": 119,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北大学知行学院",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "026_程序设计语言_湖北工程学院专升本专业课考试.json",
+        "028_程序设计语言_湖北工业大学工程技术学院专升本专业课考试.json",
+        "042_程序设计语言_武汉东湖学院专升本专业课考试.json",
+        "043_程序设计语言_武汉文理学院专升本专业课考试.json",
+        "044_程序设计语言_武汉生物工程学院专升本专业课考试.json",
+        "062_程序设计语言_湖北工程学院软件工程.json",
+        "064_程序设计语言_汉江师范学院软件工程.json",
+        "065_程序设计语言_武汉生物工程学院软件工程.json"
+      ],
+      "same_stem_exam_count": 10
+    },
+    {
+      "stem": "设有以下宏定义：\n```c\n#define WIDTH 80\n#define LENGTH WIDTH+40\n```\n则执行语句 `v = LENGTH * 20;` 后，v的值为 {{__BLANK_1__}}。",
+      "answer": "880",
+      "explanation": "宏定义是简单的字符串替换。\n`LENGTH` 被替换为 `WIDTH+40`，即 `80+40`。\n语句 `v = LENGTH * 20;` 替换后变为 `v = 80+40 * 20;`。\n根据运算符优先级，先乘除后加减，计算过程为 $80 + (40 \\times 20) = 80 + 800 = 880$。\n注意：如果希望结果为 $(80+40) \\times 20$，宏定义应写为 `#define LENGTH (WIDTH+40)`。",
+      "exam": "059_程序设计语言_武汉传媒学院软件工程.json",
+      "exam_title": "武汉传媒学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-11 编译预处理",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "59-q216-s0",
+      "no": 216,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "C-11"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第9章 预处理）",
+      "origin_db": "c_wuhan",
+      "school": "武汉传媒学院",
+      "chapter_raw": "第9章 预处理",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "x & 0xFF | x & 4 | x | 0xFF00 | x ^ 1",
+      "explanation": "(1) `x & 0xFF`：0xFF二进制为 `00000000 11111111`，按位与可保留低8位，高位清零。\n(2) 第3位对应的权值是 $2^{3-1} = 4$（二进制100）。`x & 4` 可保留该位，其他位清零。\n(3) `x | 0xFF00`：0xFF00二进制高8位为1，按位或可置高8位为1。\n(4) `x ^ 1`：1的二进制仅最低位为1，异或运算可翻转最低位。",
+      "exam": "060_程序设计语言_湖北商贸学院软件工程.json",
+      "exam_title": "湖北商贸学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-12 位运算",
+      "material": "写出实现下列功能的表达式（操作数x为int型数据）：\n(1) 取x的低字节，高字节置0：{{__BLANK_1__}}\n(2) 保留x的第3位，其余各位置0：{{__BLANK_2__}}\n(3) 将x的高8位均置为1，其余各位不变：{{__BLANK_3__}}\n(4) 将x的最低位翻转，其余各位不变：{{__BLANK_4__}}",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "60-q247",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 4,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "x & 0xFF",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "x & 4",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "x | 0xFF00",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "x ^ 1",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-12"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：项目十一 使用位运算）",
+      "origin_db": "c_wuhan",
+      "school": "湖北商贸学院",
+      "chapter_raw": "项目十一 使用位运算",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "以下代码实现了牛顿迭代法（Newton's Method）来求解方程 $2x^3 - 4x^2 + 3x - 6 = 0$ 在 1.5 附近的根。请在横线处填写正确的迭代公式：\\n\\n```python\\ndef f(x):\\n    return 2 * x**3 - 4 * x**2 + 3 * x - 6\\n\\ndef df(x):\\n    return 6 * x**2 - 8 * x + 3\\n\\ndef newton_method(x0, tol=1e-7):\\n    x = x0\\n    while True:\\n        # 牛顿迭代公式: x_new = x - f(x) / f'(x)\\n        x_new = {{__BLANK_1__}}\\n        if abs(x_new - x) < tol:\\n            return x_new\\n        x = x_new\\n\\nresult = newton_method(1.5)\\nprint(result)\\n```",
+      "answer": "x - f(x) / df(x)",
+      "explanation": "牛顿迭代法（Newton's method）是数值分析中一种重要的求根算法，其迭代公式为 $x_{n+1} = x_n - \\\\frac{f(x_n)}{f'(x_n)}$。在本题中，已知方程为 $f(x) = 2x^3 - 4x^2 + 3x - 6$，其导函数为 $f'(x) = 6x^2 - 8x + 3$。在 Python 代码实现中，变量 `x_new` 对应公式中的 $x_{n+1}$，变量 `x` 对应 $x_n$，因此横线处应填入 `x - f(x) / df(x)`。经过迭代计算，该方程在 1.5 附近的根为 2.0。",
+      "exam": "062_程序设计语言_湖北工程学院软件工程.json",
+      "exam_title": "湖北工程学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "62-q95-s0",
+      "no": 95,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北工程学院",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "064_程序设计语言_汉江师范学院软件工程.json",
+        "065_程序设计语言_武汉生物工程学院软件工程.json",
+        "066_程序设计语言_武汉东湖学院软件工程.json",
+        "068_程序设计语言_湖北工业大学工程技术学院软件工程.json"
+      ],
+      "same_stem_exam_count": 4
+    },
+    {
+      "stem": "",
+      "answer": "second = 0 | minute == 60 | hour = 0 | %02d:%02d:%02d\\n | hour = minute = second = 0",
+      "explanation": "1. `Update` 函数用于更新时间。当 `second` 增加到60时，需要进位并清零，所以第一空填 `second = 0`。\n2. 接着判断 `minute` 是否达到60，如果是则进位小时并清零分钟，所以第二空填 `minute == 60`。\n3. 当 `hour` 达到24时，需要归零开始新的一天，所以第三空填 `hour = 0`。\n4. `Display` 函数用于格式化输出时间，通常数字时钟采用 HH:MM:SS 格式，且不足两位补0，所以第四空填 `%02d:%02d:%02d\\n`（如果不补0用 `%d:%d:%d\\n` 也可以，但补0更标准）。\n5. `main` 函数开始前需要初始化全局变量，虽然全局变量默认初始化为0，但显式初始化是好习惯，或者题目意图是设定初始时间，此处填 `hour = minute = second = 0`。",
+      "exam": "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+      "exam_title": "武汉设计工程学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-07 函数与模块化程序设计",
+      "material": "用全局变量编程模拟显示一个数字式时钟，请填空完善程序：\n```c\n#include <stdio.h>\nint hour, minute, second; //定义全局变量\nvoid Update()\n{\n    second++;\n    if (second == 60)\n    {\n        {{__BLANK_1__}};\n        minute++;\n    }\n    if ({{__BLANK_2__}})\n    {\n        minute = 0;\n        hour++;\n    }\n    if (hour == 24)\n    {\n        {{__BLANK_3__}};\n    }\n}\nvoid Display()\n{\n    printf(\"{{__BLANK_4__}}\", hour, minute, second);\n}\nvoid Delay()\n{\n    int t;\n    for (t = 0; t < 100000000; t++); //用循环体为空语句的循环实现延时\n}\nint main(void)\n{\n    int i;\n    {{__BLANK_5__}};\n    for (i = 0; i < 1000000; i++) //利用循环结构，控制时钟运行的时间\n    {\n        Update(); //更新时、分、秒显示值\n        Display(); //显示时、分、秒\n        Delay(); //模拟延迟时间为1秒\n    }\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "38-q74",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "second = 0",
+          "explanation": "1. `Update` 函数用于更新时间。当 `second` 增加到60时，需要进位并清零，所以第一空填 `second = 0`。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "minute == 60",
+          "explanation": "2. 接着判断 `minute` 是否达到60，如果是则进位小时并清零分钟，所以第二空填 `minute == 60`。",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "hour = 0",
+          "explanation": "3. 当 `hour` 达到24时，需要归零开始新的一天，所以第三空填 `hour = 0`。",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "%02d:%02d:%02d\\n",
+          "explanation": "4. `Display` 函数用于格式化输出时间，通常数字时钟采用 HH:MM:SS 格式，且不足两位补0，所以第四空填 `%02d:%02d:%02d\\n`（如果不补0用 `%d:%d:%d\\n` 也可以，但补0更标准）。",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "hour = minute = second = 0",
+          "explanation": "5. `main` 函数开始前需要初始化全局变量，虽然全局变量默认初始化为0，但显式初始化是好习惯，或者题目意图是设定初始时间，此处填 `hour = minute = second = 0`。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-07"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第7章 函数与模块化程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "武汉设计工程学院",
+      "chapter_raw": "第7章 函数与模块化程序设计",
+      "difficulty": "基础",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "0 | 1",
+      "explanation": "(1) `7>5` (真) 且 `4==5` (假)，结果为0。\n(2) `||` 具有短路特性，且优先级最低。`a`为3（真），整个表达式即为真，结果为1。\n(3) `!(3>4)`为真(1)，`!5`为假(0)，`1&&0`为0，`0||1`为1。\n(4) `x=a`后x为3，`!3`为0，根据短路与特性，后面不再计算，结果为0。\n(5) `!(7)`为0，`0+5-1`为4；`4+5/2`即`4+2`为6；`4&&6`结果为1。",
+      "exam": "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+      "exam_title": "武汉工程大学邮电与信息工程学院专升本教材",
+      "trust": "textbook",
+      "knowledge_point": "C-04 选择结构",
+      "material": "设 $a = 3, b = 4, c = 5$，请写出下列逻辑表达式的值（1代表真，0代表假）：\n(1) `a + b > c && b == c` 的值为 {{__BLANK_1__}}\n(2) `a || b + c && b - c` 的值为 {{__BLANK_2__}}\n(3) `!(a > b) && !c || 1` 的值为 {{__BLANK_3__}}\n(4) `!(x = a) && (y = b) && 0` 的值为 {{__BLANK_4__}}\n(5) `!(a + b) + c - 1 && b + c / 2` 的值为 {{__BLANK_5__}}",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "48-q37",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 5,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "0",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "0",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "1",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-04"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第4章 选择结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "武汉工程大学邮电与信息工程学院",
+      "chapter_raw": "第4章 选择结构程序设计",
+      "difficulty": "中等",
+      "same_stem_exams": [
+        "063_程序设计语言_武汉商学院软件工程.json",
+        "069_程序设计语言_武汉工程大学邮电与信息工程学院软件工程.json",
+        "070_程序设计语言_武汉纺织大学外经贸学院软件工程.json"
+      ],
+      "same_stem_exam_count": 3
+    },
+    {
+      "stem": "",
+      "answer": "a > c | b > c",
+      "explanation": "排序算法逻辑：首先比较 `a` 和 `b`，若 `a > b` 则交换，保证 `a` 比 `b` 小。接着比较 `a` 和 `c`，若 `a > c` 则交换，此时 `a` 必定是三个数中最小的。最后比较 `b` 和 `c`，若 `b > c` 则交换，保证 `b` 小于等于 `c`。这样输出顺序即为 `a, b, c`。",
+      "exam": "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+      "exam_title": "湖北理工学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-01 C语言概述与程序设计基础",
+      "material": "以下程序用于将输入的3个数 `a`、`b`、`c` 按从小到大的顺序输出。请填空：\n```c\n#include <stdio.h>\nint main() {\n    int a, b, c, t;\n    scanf(\"%d%d%d\", &a, &b, &c);\n    if(a > b) { t = a; a = b; b = t; } // 保证 a <= b\n    if({{__BLANK_1__}}) { t = a; a = c; c = t; } // 保证 a <= c，此时 a 是最小值\n    if({{__BLANK_2__}}) { t = b; b = c; c = t; } // 保证 b <= c\n    printf(\"%d %d %d\", a, b, c);\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "30-q16",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "a > c",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "b > c",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-01"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第2章 算法——程序的灵魂）",
+      "origin_db": "c_hbpu",
+      "school": "湖北理工学院",
+      "chapter_raw": "第2章 算法——程序的灵魂",
+      "difficulty": "中等",
+      "same_stem_exams": [
+        "051_程序设计语言_武汉晴川学院专升本.json",
+        "072_程序设计语言_武汉晴川学院软件工程.json"
+      ],
+      "same_stem_exam_count": 2
+    },
+    {
+      "stem": "",
+      "answer": "n % i == 0 | i > n - 1",
+      "explanation": "第一个空：判断素数需要尝试能否被 `2` 到 `n-1` 之间的数整除，如果 `n % i == 0`，说明找到了因子，`n` 不是素数，应 `break` 跳出循环。\n第二个空：循环结束有两种情况，一是 `break` 跳出（此时 `i <= n-1`），二是循环正常结束（此时 `i` 增加到了 `n`，即 `i > n-1`）。如果循环正常结束，说明中间没有找到因子，则是素数。",
+      "exam": "058_程序设计语言_武汉城市学院软件工程.json",
+      "exam_title": "武汉城市学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-05 循环结构",
+      "material": "以下程序用于判断一个数 `n` 是否为素数，请填空。\n```c\n#include \"stdio.h\"\nint main() {\n    int n, i;\n    scanf(\"%d\", &n);\n    for(i = 2; i <= n - 1; i++)\n        if({{__BLANK_1__}}) break;\n    if({{__BLANK_2__}} && n > 1)\n        printf(\"是素数\");\n    else\n        printf(\"不是素数\");\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "58-q70",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "n % i == 0",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "i > n - 1",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-05"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第4章 循环结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "武汉城市学院",
+      "chapter_raw": "第4章 循环结构程序设计",
+      "difficulty": "中等",
+      "same_stem_exams": [
+        "071_程序设计语言_湖北恩施学院软件工程.json"
+      ],
+      "same_stem_exam_count": 1
+    },
+    {
+      "stem": "",
+      "answer": "|| head->next == 0 | q->next | head->next | p",
+      "explanation": "1. 边界条件：如果链表为空或只有一个结点，无需反转，直接返回。故填 `|| head->next == 0`。\n2. 在改变 `q->next` 指向 `p` 之前，必须先保存 `q` 的下一个结点，否则链表会断裂。故填 `q->next`。\n3. 反转结束后，原来的头结点 `head` 变成了尾结点，其 `next` 应该指向 `NULL` (即0)。故填 `head->next`。\n4. 循环结束时，`q` 为空，`p` 指向原链表的最后一个结点，也就是新链表的头结点。故填 `p`。",
+      "exam": "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+      "exam_title": "湖北恩施学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-09 结构体、共用体与自定义数据类型",
+      "material": "函数 `invert` 的功能：将 `head` 指向的单链表倒置，即原链表最后一个结点成为第一个结点，原来倒数第二个结点成为第二个结点，以此类推。\n```c\ntypedef struct node { int x; struct node *next; } NODE;\nNODE *invert(NODE *head) {\n    NODE *p, *q, *r;\n    if (head == 0 {{__BLANK_1__}}) return head;\n    p = head;\n    q = p->next;\n    while (q != 0) {\n        r = {{__BLANK_2__}};\n        q->next = p;\n        p = q;\n        q = r;\n    }\n    {{__BLANK_3__}} = 0;\n    head = {{__BLANK_4__}};\n    return head;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "25-q334",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 4,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "|| head->next == 0",
+          "explanation": "1. 边界条件：如果链表为空或只有一个结点，无需反转，直接返回。故填 `|| head->next == 0`。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "q->next",
+          "explanation": "2. 在改变 `q->next` 指向 `p` 之前，必须先保存 `q` 的下一个结点，否则链表会断裂。故填 `q->next`。",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "head->next",
+          "explanation": "3. 反转结束后，原来的头结点 `head` 变成了尾结点，其 `next` 应该指向 `NULL` (即0)。故填 `head->next`。",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "p",
+          "explanation": "4. 循环结束时，`q` 为空，`p` 指向原链表的最后一个结点，也就是新链表的头结点。故填 `p`。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-09"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第9章 结构体与链表）",
+      "origin_db": "c_wuhan",
+      "school": "湖北恩施学院",
+      "chapter_raw": "第9章 结构体与链表",
+      "difficulty": "提高",
+      "same_stem_exams": [
+        "033_程序设计语言_三峡大学科技学院专升本专业课考试.json",
+        "045_程序设计语言_湖北文理学院理工学院专升本专业课考试.json"
+      ],
+      "same_stem_exam_count": 2
+    },
+    {
+      "stem": "下面程序的功能是：求Fibonacci数列的前40个数...请填空。\n```c\n#include <stdio.h>\nint main() {\n    long f1 = 1, f2 = 1;\n    int i;\n    for (i = 1; i <= 20; i++) {\n        printf(\"%-12ld%-12ld\", f1, f2);\n        if (________) printf(\"\\n\");\n        f1 = ________;\n        f2 = ________;\n    }\n    return 0;\n}\n```",
+      "answer": "i % 2 == 0 | f1 + f2",
+      "explanation": "1. 题目要求4列一行。循环一次打印2个数(f1, f2)。所以每打印2次循环（4个数）换行？不对。循环20次，每次打印2个，共40个。每行4个，意味着每2次循环换行。所以 `if (i % 2 == 0)`。\n2. 更新 Fibonacci 数。`f1` 更新为下一项 `f1 + f2`。此时 `f1` 已变，`f2` 更新为新的 `f1` + 旧 `f2`。但这里通常写法是 `f1 = f1 + f2; f2 = f2 + f1;` (注意顺序)。\n   Trace: Init 1, 1.\n   Iter 1: Print 1, 1. New f1 = 1+1=2. New f2 = 2+1=3.\n   Iter 2: Print 2, 3. New f1 = 2+3=5. New f2 = 5+3=8.\n   Correct. So `f1 = f1 + f2` then `f2 = f1 + f2` (using new f1). Wait, code logic needs to be checked carefully. If `f1` is updated, `f2` uses new `f1`. Yes, this generates the sequence correctly in pairs.",
+      "exam": "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+      "exam_title": "湖北经济学院法商学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-05 循环结构",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "single",
+      "group_uid": "29-q226-s0",
+      "no": 226,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "C-05"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第6章 循环结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "湖北经济学院法商学院",
+      "chapter_raw": "第6章 循环结构程序设计",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "阅读以下代码段，分析其逻辑功能：当输入 $x$ 的值为 $0$ 时，输出的 $y$ 值为 {{__BLANK_1__}}；当输入 $x$ 的值为 $-5$ 时，输出的 $y$ 值为 {{__BLANK_2__}}。\n\n```c\n#include <stdio.h>\nint main() {\n    int x, y;\n    printf(\"enter x：\");\n    scanf(\"%d\", &x);\n    y = -1;\n    if (x != 0)\n        if (x > 0)\n            y = 1;\n        else\n            y = 0;\n    printf(\"x=%d, y=%d\\n\", x, y);\n    return 0;\n}\n```",
+      "answer": "-1, 0",
+      "explanation": "本题考查嵌套 if 语句的执行逻辑。程序执行流程如下：\n1. 初始化 `y = -1`。\n2. 外层判断 `if (x != 0)`：\n   - 若 $x = 0$，则不进入外层 if 块，直接执行 printf，此时 $y$ 保持初始值 $-1$。\n   - 若 $x \\neq 0$，则进入内层判断：\n     - 若 $x > 0$，执行 `y = 1`。\n     - 若 $x < 0$（即 else 分支），执行 `y = 0`。\n因此，当 $x = 0$ 时，$y = -1$；当 $x = -5$ 时，满足 $x \\neq 0$ 且 $x < 0$，执行 `y = 0`。",
+      "exam": "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+      "exam_title": "湖北师范大学专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "22-q62-s0",
+      "no": 62,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北师范大学",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+        "026_程序设计语言_湖北工程学院专升本专业课考试.json",
+        "028_程序设计语言_湖北工业大学工程技术学院专升本专业课考试.json",
+        "042_程序设计语言_武汉东湖学院专升本专业课考试.json",
+        "043_程序设计语言_武汉文理学院专升本专业课考试.json",
+        "044_程序设计语言_武汉生物工程学院专升本专业课考试.json",
+        "062_程序设计语言_湖北工程学院软件工程.json",
+        "064_程序设计语言_汉江师范学院软件工程.json"
+      ],
+      "same_stem_exam_count": 11
+    },
+    {
+      "stem": "存款利息的计算。有1000元，想存5年，可按以下5种办法存：\n(1) 一次存5年期。\n(2) 先存2年期，到期后将本息再存3年期。\n(3) 先存3年期，到期后将本息再存2年期。\n(4) 存1年期，到期后将本息再存1年期，连续存5次。\n(5) 活期存款。活期利息按季度结算。\n\n已知年利率为：r5=5.85%, r3=5.4%, r2=4.68%, r1=4.14%, r0=0.72%（活期）。\n请补全以下计算5年后本息和的C语言程序：\n\n```c\n#include <stdio.h>\n#include <math.h>\nint main() {\n    float p = 1000, r5 = 0.0585, r3 = 0.054, r2 = 0.0468, r1 = 0.0414, r0 = 0.0072;\n    float p1, p2, p3, p4, p5;\n    p1 = {{__BLANK_1__}}; // 方案1：一次存5年\n    p2 = {{__BLANK_2__}}; // 方案2：先存2年再存3年\n    p4 = {{__BLANK_3__}}; // 方案4：每年自动转存，连续5次\n    p5 = {{__BLANK_4__}}; // 方案5：活期，每季度结算一次\n    return 0;\n}\n```",
+      "answer": "p * (1 + 5 * r5) | p * (1 + 2 * r2) * (1 + 3 * r3) | p * pow(1 + r1, 5) | p * pow(1 + r0 / 4, 4 * 5)",
+      "explanation": "根据利息计算规则：\n1. 方案1是5年定期单利：$P_1 = P \\times (1 + 5 \\times r_5)$；\n2. 方案2是分段单利：$P_2 = P \\times (1 + 2 \\times r_2) \\times (1 + 3 \\times r_3)$；\n3. 方案4是按年复利：$P_4 = P \\times (1 + r_1)^5$，在C语言中使用 `pow(1 + r1, 5)`；\n4. 方案5是按季度复利：一年4个季度，5年共20个季度，每季度利率为 $r_0/4$，故 $P_5 = P \\times (1 + r_0/4)^{20}$。",
+      "exam": "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+      "exam_title": "湖北大学知行学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "24-q35-s0",
+      "no": 35,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北大学知行学院",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "026_程序设计语言_湖北工程学院专升本专业课考试.json",
+        "028_程序设计语言_湖北工业大学工程技术学院专升本专业课考试.json",
+        "042_程序设计语言_武汉东湖学院专升本专业课考试.json",
+        "043_程序设计语言_武汉文理学院专升本专业课考试.json",
+        "044_程序设计语言_武汉生物工程学院专升本专业课考试.json",
+        "062_程序设计语言_湖北工程学院软件工程.json",
+        "064_程序设计语言_汉江师范学院软件工程.json",
+        "065_程序设计语言_武汉生物工程学院软件工程.json"
+      ],
+      "same_stem_exam_count": 10
+    },
+    {
+      "stem": "",
+      "answer": "预处理 | 汇编",
+      "explanation": "C语言程序的完整生成过程为：\n1. **预处理**（Preprocessing）：处理宏定义、头文件包含等，生成 `.i` 文件。\n2. 编译（Compilation）：将预处理后的代码转换为汇编代码，生成 `.s` 文件。\n3. **汇编**（Assembly）：将汇编代码转换为机器码（二进制目标文件），生成 `.o` 或 `.obj` 文件。\n4. 链接（Linking）：将目标文件与库文件链接，生成可执行文件。",
+      "exam": "059_程序设计语言_武汉传媒学院软件工程.json",
+      "exam_title": "武汉传媒学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-01 C语言概述与程序设计基础",
+      "material": "以下是一个C语言程序的编译过程，请按照正确顺序填空：\n源程序(*.c) $\\rightarrow$ {{__BLANK_1__}} $\\rightarrow$ 编译 $\\rightarrow$ {{__BLANK_2__}} $\\rightarrow$ 链接 $\\rightarrow$ 可执行文件",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "59-q21",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "预处理",
+          "explanation": "1. **预处理**（Preprocessing）：处理宏定义、头文件包含等，生成 `.i` 文件。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "汇编",
+          "explanation": "2. 编译（Compilation）：将预处理后的代码转换为汇编代码，生成 `.s` 文件。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-01"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第1章 程序设计与C语言）",
+      "origin_db": "c_wuhan",
+      "school": "武汉传媒学院",
+      "chapter_raw": "第1章 程序设计与C语言",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "下列程序的输出结果是16.00，请填空。\n```c\nvoid main() \n{ \n    int a = 9,b = 2; \n    float x = {{__BLANK_1__}}, y = 1.1, z; \n    z = a / 2 + b * x / y + 1 / 2; \n    printf(\"%5.2f\\n\",z); \n}\n```",
+      "answer": "6.6",
+      "explanation": "程序计算逻辑为：`a/2` (int) = 9/2 = 4；`1/2` (int) = 0。公式简化为 `z = 4 + 2*x/1.1`。已知 z=16.00，则 `16 = 4 + 2*x/1.1` $\\rightarrow$ `12 = 2*x/1.1` $\\rightarrow$ `6 = x/1.1` $\\rightarrow$ `x = 6.6`。",
+      "exam": "060_程序设计语言_湖北商贸学院软件工程.json",
+      "exam_title": "湖北商贸学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-02 数据类型、运算符与表达式",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "single",
+      "group_uid": "60-q38-s0",
+      "no": 38,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "C-02"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：项目二 认识数据类型和表达式）",
+      "origin_db": "c_wuhan",
+      "school": "湖北商贸学院",
+      "chapter_raw": "项目二 认识数据类型和表达式",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "以下代码使用二分法求解方程 $2x^3 - 4x^2 + 3x - 6 = 0$ 在 $(-10, 10)$ 范围内的根，请补全代码：\\n\\n```python\\ndef f(x):\\n    return 2 * x**3 - 4 * x**2 + 3 * x - 6\\n\\ndef bisection(a, b, tol):\\n    if f(a) * f(b) >= 0:\\n        return None\\n    while (b - a) / 2 > tol:\\n        mid = (a + b) / 2\\n        if f(mid) == 0:\\n            return mid\\n        elif {{__BLANK_1__}}:\\n            b = mid\\n        else:\\n            {{__BLANK_2__}}\\n    return (a + b) / 2\\n\\nroot = bisection(-10, 10, 1e-6)\\n```",
+      "answer": "f(mid) * f(a) < 0\\na = mid",
+      "explanation": "二分法的核心逻辑是判断根所在的区间。对于连续函数 $f(x)$，如果在区间 $[a, mid]$ 上满足 $f(a) \\cdot f(mid) < 0$，则说明根位于该左半区间，应更新右边界 $b = mid$；否则根位于右半区间 $[mid, b]$，应更新左边界 $a = mid$。对于本题方程 $2x^3 - 4x^2 + 3x - 6 = 0$，通过因式分解可得 $(2x^2+3)(x-2)=0$，其在实数范围内的唯一根为 $x=2$。",
+      "exam": "062_程序设计语言_湖北工程学院软件工程.json",
+      "exam_title": "湖北工程学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "62-q96-s0",
+      "no": 96,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北工程学院",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "064_程序设计语言_汉江师范学院软件工程.json",
+        "065_程序设计语言_武汉生物工程学院软件工程.json",
+        "066_程序设计语言_武汉东湖学院软件工程.json",
+        "068_程序设计语言_湖北工业大学工程技术学院软件工程.json"
+      ],
+      "same_stem_exam_count": 4
+    },
+    {
+      "stem": "",
+      "answer": "c[ROW][ROW] | 0; | c[i][j] + a[i][k] * b[k][j]; | printf(\"\\n\"); | &a[i][j] | &b[i][j] | a, b, c",
+      "explanation": "1.  **第一空**：声明结果矩阵 `c` 的形参。由于结果是 $ROW \\times ROW$ 的，故填 `c[ROW][ROW]`。\n2.  **第二空**：累加求和前，必须将结果单元初始化为 0。故填 `0;`。\n3.  **第三空**：矩阵乘法公式累加。故填 `c[i][j] + a[i][k] * b[k][j];`。\n4.  **第四空**：打印完一行后需要换行。故填 `printf(\"\\n\");`。\n5.  **第五空**：输入矩阵 `a` 的元素，需要取地址。故填 `&a[i][j]`。\n6.  **第六空**：输入矩阵 `b` 的元素，需要取地址。故填 `&b[i][j]`。\n7.  **第七空**：调用函数，传入三个数组名。故填 `a, b, c`。",
+      "exam": "038_程序设计语言_武汉设计工程学院专升本专业课考试.json",
+      "exam_title": "武汉设计工程学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-06 数组",
+      "material": "利用矩阵相乘公式 $c_{ij} = \\sum_{k=1}^{n} a_{ik} \\times b_{kj}$ ，编程计算 $m \\times n$ 阶矩阵 $\\mathbf{A}$ 和 $n \\times m$ 阶矩阵 $\\mathbf{B}$ 之积。\n```c\n#include<stdio.h>\n#define ROW 2\n#define COL 3\n//函数功能：计算矩阵相乘之积，结果存于二维数组c中\nvoid MultiplyMatrix(int a[ROW][COL], int b[COL][ROW], int {{__BLANK_1__}})\n{\n    int i, j, k;\n    for (i = 0; i < ROW; i++)\n    {\n        for (j = 0; j < ROW; j++)\n        {\n            c[i][j] = {{__BLANK_2__}}\n            for (k = 0; k < COL; k++)\n            {\n                c[i][j] = {{__BLANK_3__}}\n            }\n        }\n    }\n}\n//函数功能：输出矩阵a中的元素\nvoid PrintMatrix(int a[ROW][ROW])\n{\n    int i, j;\n    for (i = 0; i < ROW; i++)\n    {\n        for (j = 0; j < ROW; j++)\n            printf(\"%6d\", a[i][j]);\n        {{__BLANK_4__}}\n    }\n}\nint main(void)\n{\n    int a[ROW][COL], b[COL][ROW], c[ROW][ROW], i, j;\n    printf(\"Input 2*3 matrix a:\\n\");\n    for (i = 0; i < ROW; i++)\n    {\n        for (j = 0; j < COL; j++)\n        {\n            scanf(\"%d\", {{__BLANK_5__}});\n        }\n    }\n    printf(\"Input 3*2 matrix b:\\n\");\n    for (i = 0; i < COL; i++)\n    {\n        for (j = 0; j < ROW; j++)\n        {\n            scanf(\"%d\", {{__BLANK_6__}});\n        }\n    }\n    MultiplyMatrix({{__BLANK_7__}});\n    printf(\"Results:\\n\");\n    PrintMatrix(c);\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "38-q92",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 7,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "c[ROW][ROW]",
+          "explanation": "1.  **第一空**：声明结果矩阵 `c` 的形参。由于结果是 $ROW \\times ROW$ 的，故填 `c[ROW][ROW]`。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "0;",
+          "explanation": "2.  **第二空**：累加求和前，必须将结果单元初始化为 0。故填 `0;`。",
+          "options": []
+        },
+        {
+          "no": 3,
+          "placeholder": "{{__BLANK_3__}}",
+          "stem": "",
+          "answer": "c[i][j] + a[i][k] * b[k][j];",
+          "explanation": "3.  **第三空**：矩阵乘法公式累加。故填 `c[i][j] + a[i][k] * b[k][j];`。",
+          "options": []
+        },
+        {
+          "no": 4,
+          "placeholder": "{{__BLANK_4__}}",
+          "stem": "",
+          "answer": "printf(\"\\n\");",
+          "explanation": "4.  **第四空**：打印完一行后需要换行。故填 `printf(\"\\n\");`。",
+          "options": []
+        },
+        {
+          "no": 5,
+          "placeholder": "{{__BLANK_5__}}",
+          "stem": "",
+          "answer": "&a[i][j]",
+          "explanation": "5.  **第五空**：输入矩阵 `a` 的元素，需要取地址。故填 `&a[i][j]`。",
+          "options": []
+        },
+        {
+          "no": 6,
+          "placeholder": "{{__BLANK_6__}}",
+          "stem": "",
+          "answer": "&b[i][j]",
+          "explanation": "6.  **第六空**：输入矩阵 `b` 的元素，需要取地址。故填 `&b[i][j]`。",
+          "options": []
+        },
+        {
+          "no": 7,
+          "placeholder": "{{__BLANK_7__}}",
+          "stem": "",
+          "answer": "a, b, c",
+          "explanation": "7.  **第七空**：调用函数，传入三个数组名。故填 `a, b, c`。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-06"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第8章 数组和算法基础）",
+      "origin_db": "c_wuhan",
+      "school": "武汉设计工程学院",
+      "chapter_raw": "第8章 数组和算法基础",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "m % i == 0 | i >= k + 1",
+      "explanation": "本题考查素数的判断算法。第一空：在内层循环中，需要判断 `m` 是否能被 `i` 整除，如果能整除（即余数为0），说明 `m` 不是素数，应跳出循环，故填 `m % i == 0`。第二空：循环结束后，如果 `i` 的值大于 `k`，说明循环是正常结束的（即没有执行过 `break`），意味着 `m` 无法被 `2` 到 `k` 之间的任何数整除，因此 `m` 是素数。注意这里也可以填 `i > k`。",
+      "exam": "048_程序设计语言_武汉工程大学邮电与信息工程学院专升本教材.json",
+      "exam_title": "武汉工程大学邮电与信息工程学院专升本教材",
+      "trust": "textbook",
+      "knowledge_point": "C-05 循环结构",
+      "material": "求 $100\\sim 200$ 之间的全部素数。请完善以下程序：\n```c\n#include <stdio.h>\n#include <math.h>\nint main() {\n    int m, k, i, n = 0;\n    for (m = 101; m <= 200; m = m + 2) {\n        k = (int)sqrt(m);\n        for (i = 2; i <= k; i++)\n            if ({{__BLANK_1__}}) break;\n        if ({{__BLANK_2__}}) {\n            printf(\"%d \", m);\n            n = n + 1;\n            if (n % 10 == 0) printf(\"\\n\");\n        }\n    }\n    printf(\"\\n\");\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "48-q50",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "m % i == 0",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "i >= k + 1",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-05"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第5章 循环结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "武汉工程大学邮电与信息工程学院",
+      "chapter_raw": "第5章 循环结构程序设计",
+      "difficulty": "中等",
+      "same_stem_exams": [
+        "063_程序设计语言_武汉商学院软件工程.json",
+        "069_程序设计语言_武汉工程大学邮电与信息工程学院软件工程.json",
+        "070_程序设计语言_武汉纺织大学外经贸学院软件工程.json"
+      ],
+      "same_stem_exam_count": 3
+    },
+    {
+      "stem": "",
+      "answer": "*p | p++",
+      "explanation": "本题考查利用指针遍历字符串。函数 `length` 接收字符指针 `p`，指向字符串首地址。`while` 循环通过判断 `*p`（指针指向的当前字符）是否为字符串结束标志 `\\0` 来决定是否继续。在循环体内，统计变量 `n` 自增，同时指针 `p` 需要向后移动一位（`p++`）以指向下一个字符。",
+      "exam": "030_程序设计语言_湖北理工学院专升本专业课考试.json",
+      "exam_title": "湖北理工学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-08 指针",
+      "material": "以下程序的功能是计算字符串的长度（不使用 `strlen` 函数）。请在空白处填入合适的代码。\n\n```c\n#include <stdio.h>\n\nint length(char *p) {\n    int n = 0;\n    while ({{__BLANK_1__}} != '\\0') {\n        n++;\n        {{__BLANK_2__}};\n    }\n    return n;\n}\n\nint main() {\n    char str[20];\n    scanf(\"%s\", str);\n    printf(\"%d\", length(str));\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "30-q120",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "*p",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "p++",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-08"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第8章 善于利用指针）",
+      "origin_db": "c_hbpu",
+      "school": "湖北理工学院",
+      "chapter_raw": "第8章 善于利用指针",
+      "difficulty": "基础",
+      "same_stem_exams": [
+        "051_程序设计语言_武汉晴川学院专升本.json",
+        "072_程序设计语言_武汉晴川学院软件工程.json"
+      ],
+      "same_stem_exam_count": 2
+    },
+    {
+      "stem": "",
+      "answer": "head = p | tail->next = p",
+      "explanation": "1. 当链表为空（`head == NULL`）时，新创建的节点 `p` 即为头节点，所以应填 `head = p`。\n2. 当链表不为空时，需要将新节点 `p` 接在当前尾节点 `tail` 的后面，即 `tail->next = p`。之后代码中有 `tail = p` 更新尾指针。",
+      "exam": "058_程序设计语言_武汉城市学院软件工程.json",
+      "exam_title": "武汉城市学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-09 结构体、共用体与自定义数据类型",
+      "material": "以下函数用于创建一个链表，存储球员数据，直到输入的号码为9999时停止（9999不存入链表）。请填空完善代码。\n\n```c\nstruct HOOP2 {\n    char name[20];\n    int number;\n    struct HOOP2 *next;\n};\n\nstruct HOOP2 *create() {\n    struct HOOP2 *head = NULL, *p = NULL, *tail = NULL;\n    int num;\n    char name[20];\n    \n    scanf(\"%s %d\", name, &num);\n    while (num != 9999) {\n        p = (struct HOOP2 *)malloc(sizeof(struct HOOP2));\n        strcpy(p->name, name);\n        p->number = num;\n        p->next = NULL;\n        \n        if (head == NULL) {\n            {{__BLANK_1__}};\n        } else {\n            {{__BLANK_2__}};\n        }\n        tail = p;\n        \n        scanf(\"%s %d\", name, &num);\n    }\n    return head;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "58-q124",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "head = p",
+          "explanation": "1. 当链表为空（`head == NULL`）时，新创建的节点 `p` 即为头节点，所以应填 `head = p`。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "tail->next = p",
+          "explanation": "2. 当链表不为空时，需要将新节点 `p` 接在当前尾节点 `tail` 的后面，即 `tail->next = p`。之后代码中有 `tail = p` 更新尾指针。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-09"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第8章 结构体等构造数据类型）",
+      "origin_db": "c_wuhan",
+      "school": "武汉城市学院",
+      "chapter_raw": "第8章 结构体等构造数据类型",
+      "difficulty": "中等",
+      "same_stem_exams": [
+        "071_程序设计语言_湖北恩施学院软件工程.json"
+      ],
+      "same_stem_exam_count": 1
+    },
+    {
+      "stem": "对于下面递归函数fun，调用fun(3)的返回值是 {{__BLANK_1__}}。\n```c\nfun(int n)\n{ return ((n>0)?2*fun(n-1)+fun(n-2):-1); }\n```",
+      "answer": "-17",
+      "explanation": "计算过程：\n`fun(0)` = -1, `fun(-1)` = -1\n`fun(1)` = 2*`fun(0)` + `fun(-1)` = 2*(-1) + (-1) = -3\n`fun(2)` = 2*`fun(1)` + `fun(0)` = 2*(-3) + (-1) = -7\n`fun(3)` = 2*`fun(2)` + `fun(1)` = 2*(-7) + (-3) = -17",
+      "exam": "025_程序设计语言_湖北恩施学院专升本专业课考试.json",
+      "exam_title": "湖北恩施学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-07 函数与模块化程序设计",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "25-q291-s0",
+      "no": 291,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [
+        "C-07"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第7章 函数）",
+      "origin_db": "c_wuhan",
+      "school": "湖北恩施学院",
+      "chapter_raw": "第7章 函数",
+      "difficulty": "提高",
+      "same_stem_exams": [
+        "033_程序设计语言_三峡大学科技学院专升本专业课考试.json",
+        "045_程序设计语言_湖北文理学院理工学院专升本专业课考试.json"
+      ],
+      "same_stem_exam_count": 2
+    },
+    {
+      "stem": "",
+      "answer": "5",
+      "explanation": "1. `++c` 先执行，c变为5。\n2. `-a` 是 -5。\n3. `-5 == 5` 为假(0)。\n4. 执行冒号后的 `c++`。\n5. 表达式的值为 `c` (此时是5)，然后 `c` 自增变为6。\n**注意**：题目问的是“此时c的存储单元的值”。如果是指表达式计算结束后的最终值，是6。如果是指表达式结果取值时的值，是5。通常这类题目问的是表达式的值和副作用后的变量值。表达式值为5。副作用后c为6。\n**修正分析**：`c++` 是后置自增。表达式的值是c当前值(5)。执行后c变为6。但题目问“此时”，通常指语句执行完。然而，若题目意图是问表达式运算过程中的值，第一空是5。第二空若是问最终c，则是6。\n**再审题**：`(-a == ++c)` 中 c 变为 5。条件假。执行 `c++`。`c++` 的值是 5。执行完后 c=6。\n**参考常见题库**：往往这类题第二空问的是最终c。答案可能是 5, 6。但如果第二空是问计算表达式值那个瞬间的c，则是5。结合上下文，通常问最终状态。填 5, 6。",
+      "exam": "029_程序设计语言_湖北经济学院法商学院专升本专业课考试.json",
+      "exam_title": "湖北经济学院法商学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "C-04 选择结构",
+      "material": "设有变量定义： $a = 5, c = 4$ ；则 `(-a == ++c) ? -a : c++` 的值是{{__BLANK_1__}}，此时 $c$ 的存储单元的值为{{__BLANK_2__}}。",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "29-q134",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "5",
+          "explanation": "1. `++c` 先执行，c变为5。",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "5",
+          "explanation": "2. `-a` 是 -5。",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-04"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第5章 选择结构程序设计）",
+      "origin_db": "c_wuhan",
+      "school": "湖北经济学院法商学院",
+      "chapter_raw": "第5章 选择结构程序设计",
+      "difficulty": "提高",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "以下程序段实现了嵌套逻辑判断。请补全代码，使得当 $x > 0$ 时 $y=1$，当 $x=0$ 时 $y=-1$，当 $x < 0$ 时 $y=0$。\\n\\n```c\\n#include <stdio.h>\\nint main() {\\n    int x, y = 0;\\n    printf(\"enter x: \");\\n    scanf(\"%d\", &x);\\n    if (x >= 0)\\n        if (x > 0) y = 1;\\n        else {{__BLANK_1__}};\\n    printf(\"x=%d, y=%d\\\\n\", x, y);\\n    return 0;\\n}\\n```",
+      "answer": "y = -1",
+      "explanation": "本题考查 C 语言中 `if-else` 语句的配对原则：`else` 总是与前面最近的、且尚未配对的 `if` 相匹配。\\n1. 在本程序中，`else` 与内层的 `if (x > 0)` 配对。\\n2. 当 $x < 0$ 时，外层条件 `if (x >= 0)` 不成立，直接跳过嵌套块，`y` 保持初始值 $0$。\\n3. 当 $x = 0$ 时，外层条件成立，进入内层判断。由于 `x > 0` 为假，程序执行 `else` 分支。为了满足题目要求此时 $y = -1$，应在空缺处填写 `y = -1`。\\n4. 当 $x > 0$ 时，内层条件成立，执行 `y = 1`。",
+      "exam": "022_程序设计语言_湖北师范大学专升本专业课考试.json",
+      "exam_title": "湖北师范大学专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "22-q63-s0",
+      "no": 63,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北师范大学",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+        "026_程序设计语言_湖北工程学院专升本专业课考试.json",
+        "028_程序设计语言_湖北工业大学工程技术学院专升本专业课考试.json",
+        "042_程序设计语言_武汉东湖学院专升本专业课考试.json",
+        "043_程序设计语言_武汉文理学院专升本专业课考试.json",
+        "044_程序设计语言_武汉生物工程学院专升本专业课考试.json",
+        "062_程序设计语言_湖北工程学院软件工程.json",
+        "064_程序设计语言_汉江师范学院软件工程.json"
+      ],
+      "same_stem_exam_count": 11
+    },
+    {
+      "stem": "以下代码实现了向一个有序动态链表插入结点的函数 `insert`，请补全代码：\n\n```c\nstruct Node {\n    int data;\n    struct Node *next;\n};\n\nstruct Node* insert(struct Node *head, struct Node *p0) {\n    struct Node *p1, *p2;\n    p1 = head;\n    if (head == NULL) {\n        head = p0;\n        {{__BLANK_1__}};\n    } else {\n        while ((p0->data > p1->data) && (p1->next != NULL)) {\n            p2 = p1;\n            p1 = p1->next;\n        }\n        if (p0->data <= p1->data) {\n            if (head == p1) head = p0;\n            else {{__BLANK_2__}};\n            p0->next = p1;\n        } else {\n            p1->next = p0;\n            {{__BLANK_3__}};\n        }\n    }\n    return head;\n}\n```",
+      "answer": "p0->next = NULL; p2->next = p0; p0->next = NULL",
+      "explanation": "在动态链表的插入操作中，需要考虑三种逻辑情况：\n1. **原链表为空**：新结点 `p0` 直接作为头结点，其 `next` 指针应指向 `NULL`。\n2. **插入到链表中间或头部**：若插入位置在头部（`head == p1`），则更新 `head`；若在中间，则需将前驱结点 `p2` 的 `next` 指向新结点 `p0`，同时新结点的 `next` 指向当前结点 `p1`。\n3. **插入到链表尾部**：当循环结束且新结点值最大时，需将原尾结点 `p1` 的 `next` 指向新结点 `p0`，并将新结点的 `next` 置为 `NULL`。",
+      "exam": "024_程序设计语言_湖北大学知行学院专升本专业课考试.json",
+      "exam_title": "湖北大学知行学院专升本专业课考试",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "24-q136-s0",
+      "no": 136,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北大学知行学院",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "026_程序设计语言_湖北工程学院专升本专业课考试.json",
+        "028_程序设计语言_湖北工业大学工程技术学院专升本专业课考试.json",
+        "042_程序设计语言_武汉东湖学院专升本专业课考试.json",
+        "043_程序设计语言_武汉文理学院专升本专业课考试.json",
+        "044_程序设计语言_武汉生物工程学院专升本专业课考试.json",
+        "062_程序设计语言_湖北工程学院软件工程.json",
+        "064_程序设计语言_汉江师范学院软件工程.json",
+        "065_程序设计语言_武汉生物工程学院软件工程.json"
+      ],
+      "same_stem_exam_count": 10
+    },
+    {
+      "stem": "",
+      "answer": "sizeof(int) | 5",
+      "explanation": "`fwrite` 的原型为 `size_t fwrite(const void *ptr, size_t size, size_t count, FILE *stream)`。这里 `size` 是每个元素的大小 `sizeof(int)`，`count` 是元素的个数 5。也可以写成 `sizeof(arr), 1`。",
+      "exam": "059_程序设计语言_武汉传媒学院软件工程.json",
+      "exam_title": "武汉传媒学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-10 文件",
+      "material": "以下程序用于将数组 `arr` 中的数据以二进制形式写入文件，请补全代码。\n```c\n#include <stdio.h>\nint main() {\n    int arr[5] = {1, 2, 3, 4, 5};\n    FILE *fp = fopen(\"data.bin\", \"wb\");\n    if(fp != NULL) {\n        // 将整个数组写入文件\n        fwrite(arr, {{__BLANK_1__}}, {{__BLANK_2__}}, fp);\n        fclose(fp);\n    }\n    return 0;\n}\n```",
+      "type": "program_fill",
+      "type_raw": "程序填空题",
+      "kind": "material",
+      "group_uid": "59-q264",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "sizeof(int)",
+          "explanation": "",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "5",
+          "explanation": "",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-10"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：第10章 文件操作）",
+      "origin_db": "c_wuhan",
+      "school": "武汉传媒学院",
+      "chapter_raw": "第10章 文件操作",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "",
+      "answer": "20 | 10",
+      "explanation": "这是经典的利用异或运算交换两个变量值的算法。过程如下：\n1. `x = x ^ y`\n2. `y = (x ^ y) ^ y = x ^ (y ^ y) = x ^ 0 = x`（此时y变成了原来的x）\n3. `x = (x ^ y) ^ x` (注意此时y已是原x) `= (原x ^ 原y) ^ 原x = 原y`（此时x变成了原来的y）。",
+      "exam": "060_程序设计语言_湖北商贸学院软件工程.json",
+      "exam_title": "湖北商贸学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "C-12 位运算",
+      "material": "若有定义 `int x = 10, y = 20;`，执行语句 `x = x ^ y; y = x ^ y; x = x ^ y;` 后，x的值为 {{__BLANK_1__}}，y的值为 {{__BLANK_2__}}。",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "material",
+      "group_uid": "60-q251",
+      "no": null,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "parent",
+      "material_blanks_total": 2,
+      "material_blanks": [
+        {
+          "no": 1,
+          "placeholder": "{{__BLANK_1__}}",
+          "stem": "",
+          "answer": "20",
+          "explanation": "1. `x = x ^ y`",
+          "options": []
+        },
+        {
+          "no": 2,
+          "placeholder": "{{__BLANK_2__}}",
+          "stem": "",
+          "answer": "10",
+          "explanation": "2. `y = (x ^ y) ^ y = x ^ (y ^ y) = x ^ 0 = x`（此时y变成了原来的x）",
+          "options": []
+        }
+      ],
+      "knowledge_point_ids": [
+        "C-12"
+      ],
+      "knowledge_point_how": "c_common.alias_chapters 精确匹配（原章节：项目十一 使用位运算）",
+      "origin_db": "c_wuhan",
+      "school": "湖北商贸学院",
+      "chapter_raw": "项目十一 使用位运算",
+      "difficulty": "中等",
+      "same_stem_exams": null,
+      "same_stem_exam_count": null
+    },
+    {
+      "stem": "有一函数：\n\n$$\ny = \\left\\{ \\begin{array}{l l} - 1 & (x < 0) \\\\ 0 & (x = 0) \\\\ 1 & (x > 0) \\end{array} \\right.\n$$\n\n以下代码旨在实现该函数逻辑，请补全代码：\n\n```c\nif (x < 0) \n    y = -1;\nelse if ({{__BLANK_1__}}) \n    y = 0;\nelse \n    {{__BLANK_2__}};\n```",
+      "answer": "x == 0; y = 1",
+      "explanation": "根据分段函数的定义：当 $x < 0$ 时，$y = -1$；当 $x = 0$ 时，$y = 0$；当 $x > 0$ 时，$y = 1$。在 C 语言中，可以使用 `if...else if...else` 结构来实现多分支逻辑。第一层 `if` 处理 $x < 0$ 的情况，`else if` 应当判断 $x$ 是否等于 0，最后的 `else` 处理 $x > 0$ 的情况并给 $y$ 赋值为 1。",
+      "exam": "062_程序设计语言_湖北工程学院软件工程.json",
+      "exam_title": "湖北工程学院软件工程",
+      "trust": "textbook",
+      "knowledge_point": "",
+      "material": "",
+      "type": "program_fill",
+      "type_raw": "填空题",
+      "kind": "single",
+      "group_uid": "62-q72-s0",
+      "no": 72,
+      "options": [],
+      "word_bank": null,
+      "directions": "",
+      "explanation_source": "item",
+      "material_blanks_total": 0,
+      "material_blanks": [],
+      "knowledge_point_ids": [],
+      "knowledge_point_how": "unmapped: 原题未标注教材章节（source.chapter 为空）",
+      "origin_db": "c_wuhan",
+      "school": "湖北工程学院",
+      "chapter_raw": null,
+      "difficulty": null,
+      "same_stem_exams": [
+        "064_程序设计语言_汉江师范学院软件工程.json",
+        "065_程序设计语言_武汉生物工程学院软件工程.json",
+        "066_程序设计语言_武汉东湖学院软件工程.json",
+        "068_程序设计语言_湖北工业大学工程技术学院软件工程.json"
+      ],
+      "same_stem_exam_count": 4
+    }
+  ]
+}

@@ -1,0 +1,796 @@
+{
+ "id": 20,
+ "title": "湖北专升本2020年英语真题",
+ "subject": "英语",
+ "createTime": "2026-01-21 22:37:07",
+ "exam": {
+  "meta": {
+   "title": "2020 年湖北省普通高等学校专升本英语",
+   "subject": "英语"
+  },
+  "questions": [
+   {
+    "id": 1,
+    "type": "单选题",
+    "content": "Directions:  This part is to test your ability to use words and phrase correctly to construct meaningful and grammatically correct sentences. In this part, there are 20 incomplete sentences here. You are required to complete each statement by choosing the appropriate answer from the 4 choices marked A, B, C and D. Then mark the corresponding letter on the Answer Sheet with a single line through the center.",
+    "options": [
+     "for",
+     "in",
+     "on",
+     "with"
+    ],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "1",
+      "content": "Those who have {{__SELECT_1__}} big contributions to the company should be awarded.",
+      "options": [
+       "A. afforded",
+       "B. given",
+       "C. included",
+       "D. made"
+      ],
+      "answer": "D",
+      "analysis": "考查固定搭配 make contributions to，意为“为……做出贡献”。句意：那些为公司做出巨大贡献的人应该受到奖励。"
+     },
+     {
+      "id": "2",
+      "content": "As a parent, you will {{__SELECT_1__}} full responsibility for what you say and do to your kids.",
+      "options": [
+       "A. commit",
+       "B. take",
+       "C. give",
+       "D. do"
+      ],
+      "answer": "B",
+      "analysis": "考查固定搭配 take responsibility for，意为“为……承担责任”。句意：作为父母，你要为你对孩子说的话和做的事负全部责任。"
+     },
+     {
+      "id": "3",
+      "content": "I believe that I am {{__SELECT_1__}} for the position because of my education background and work experience.",
+      "options": [
+       "A. qualified",
+       "B. demanded",
+       "C. applied",
+       "D. collected"
+      ],
+      "answer": "A",
+      "analysis": "考查固定搭配 be qualified for，意为“有资格胜任”。句意：我相信凭借我的教育背景和工作经验，我有资格胜任这个职位。"
+     },
+     {
+      "id": "4",
+      "content": "We supply different telephone communication products, some of {{__SELECT_1__}} are particularly useful for small businesses.",
+      "options": [
+       "A. what",
+       "B. which",
+       "C. whom",
+       "D. these"
+      ],
+      "answer": "B",
+      "analysis": "考查非限制性定语从句。some of which 引导定语从句，which 指代前面的 products。句意：我们提供不同的电话通讯产品，其中一些对小企业特别有用。"
+     },
+     {
+      "id": "5",
+      "content": "She found it difficult to concentrate while {{__SELECT_1__}} her new novel.",
+      "options": [
+       "A. write",
+       "B. wrote",
+       "C. writing",
+       "D. written"
+      ],
+      "answer": "C",
+      "analysis": "考查时间状语从句的省略。当从句主语和主句主语一致时，可以省略从句主语和be动词。此处完整形式为 while she was writing her new novel。句意：她在写新小说时发现很难集中注意力。"
+     },
+     {
+      "id": "6",
+      "content": "Healthcare is one of the areas {{__SELECT_1__}} the successes of AI have the greatest practical value.",
+      "options": [
+       "A. from that",
+       "B. of whom",
+       "C. by them",
+       "D. in which"
+      ],
+      "answer": "D",
+      "analysis": "考查定语从句。先行词是 areas，表示“在……领域”，所以用介词 in。关系代词 which 指代 areas。in which 引导定语从句。句意：医疗保健是人工智能的成功具有最大实用价值的领域之一。"
+     },
+     {
+      "id": "7",
+      "content": "Since 1949, our country {{__SELECT_1__}} remarkable progress in reducing poverty.",
+      "options": [
+       "A. make",
+       "B. made",
+       "C. is making",
+       "D. has made"
+      ],
+      "answer": "D",
+      "analysis": "考查现在完成时。时间状语 Since 1949 表示“自1949年以来”，是现在完成时的典型标志。句意：自1949年以来，我国在减贫方面取得了显著进展。"
+     },
+     {
+      "id": "8",
+      "content": "If I {{__SELECT_1__}} his telephone number, I would have turned to him for help.",
+      "options": [
+       "A. have known",
+       "B. will know",
+       "C. had known",
+       "D. knew"
+      ],
+      "answer": "C",
+      "analysis": "考查与过去事实相反的虚拟语气。主句用 would have done，从句用 had done。句意：如果我当时知道他的电话号码，我就会向他求助了。"
+     },
+     {
+      "id": "9",
+      "content": "A good business plan helps you {{__SELECT_1__}} and grow your business.",
+      "options": [
+       "A. set",
+       "B. run",
+       "C. excise",
+       "D. relate"
+      ],
+      "answer": "B",
+      "analysis": "考查动词词义辨析和并列结构。help sb (to) do sth.，此处 and 连接两个并列的动词原形 run 和 grow。run a business 意为“经营企业”。句意：一个好的商业计划能帮助你经营和发展你的业务。"
+     },
+     {
+      "id": "10",
+      "content": "If you have received several job {{__SELECT_1__}} during your job searching, how do you choose the best one?",
+      "options": [
+       "A. offers",
+       "B. regulations",
+       "C. benefits",
+       "D. answers"
+      ],
+      "answer": "A",
+      "analysis": "考查名词词义辨析。job offer 意为“工作录用通知”。句意：如果你在求职过程中收到了几份工作录用通知，你如何选择最好的一个？"
+     },
+     {
+      "id": "11",
+      "content": "Each passenger is {{__SELECT_1__}} to carry one piece of hand luggage.",
+      "options": [
+       "A. decided",
+       "B. designed",
+       "C. allowed",
+       "D. brought"
+      ],
+      "answer": "C",
+      "analysis": "考查固定搭配 be allowed to do sth.，意为“被允许做某事”。句意：每位乘客只允许携带一件手提行李。"
+     },
+     {
+      "id": "12",
+      "content": "We all believe that the role he has {{__SELECT_1__}} in this project is very important.",
+      "options": [
+       "A. put",
+       "B. reached",
+       "C. offered",
+       "D. played"
+      ],
+      "answer": "D",
+      "analysis": "考查固定搭配 play a role in，意为“在……中扮演角色/起作用”。此句是定语从句，先行词 the role 在从句中作 played 的宾语。句意：我们都相信他在此项目中扮演的角色非常重要。"
+     },
+     {
+      "id": "13",
+      "content": "William is considered as one of the most {{__SELECT_1__}} employees in this company.",
+      "options": [
+       "A. fluent",
+       "B. efficient",
+       "C. convenient",
+       "D. sufficient"
+      ],
+      "answer": "B",
+      "analysis": "考查形容词词义辨析。efficient 意为“效率高的”，符合句意。fluent 流利的；convenient 方便的；sufficient 足够的。句意：威廉被认为是这家公司效率最高的员工之一。"
+     },
+     {
+      "id": "14",
+      "content": "The recent earthquake in this area may {{__SELECT_1__}} our company's future business.",
+      "options": [
+       "A. arrange",
+       "B. achieve",
+       "C. affect",
+       "D. approve"
+      ],
+      "answer": "C",
+      "analysis": "考查动词词义辨析。affect 意为“影响”。arrange 安排；achieve 实现；approve 批准。句意：该地区最近的地震可能会影响我们公司未来的业务。"
+     },
+     {
+      "id": "15",
+      "content": "As so many people were absent, the meeting had to be {{__SELECT_1__}} until next Monday.",
+      "options": [
+       "A. put off",
+       "B. set up",
+       "C. given away",
+       "D. taken over"
+      ],
+      "answer": "A",
+      "analysis": "考查动词短语辨析。put off 意为“推迟”，符合句意。set up 建立；give away 赠送；take over 接管。句意：由于很多人缺席，会议不得不推迟到下周一。"
+     },
+     {
+      "id": "16",
+      "content": "The newly-built hotel is ideally placed for easy access {{__SELECT_1__}} major attractions in the city",
+      "options": [
+       "A. at",
+       "B. by",
+       "C. with",
+       "D. to"
+      ],
+      "answer": "D",
+      "analysis": "考查固定搭配 access to，意为“接触；接近；使用的权利”。句意：新建的酒店地理位置优越，可以方便地前往城市的主要景点。"
+     },
+     {
+      "id": "17",
+      "content": "It has been more than five years {{__SELECT_1__}} they met last time in Wuhan.",
+      "options": [
+       "A. since",
+       "B. although",
+       "C. for",
+       "D. until"
+      ],
+      "answer": "A",
+      "analysis": "考查固定句型 It is/has been + 时间段 + since + 从句（一般过去时）。句意：自从他们上次在武汉见面以来，已经五年多了。"
+     },
+     {
+      "id": "18",
+      "content": "Nowadays, it seems that no one can ever avoid {{__SELECT_1__}} the Internet.",
+      "options": [
+       "A. being used",
+       "B. to use",
+       "C. used",
+       "D. using"
+      ],
+      "answer": "D",
+      "analysis": "考查非谓语动词。动词 avoid 后面需要跟动名词（-ing形式）作宾语。句意：如今，似乎没有人能避免使用互联网。"
+     },
+     {
+      "id": "19",
+      "content": "A recent study shows that a person's living conditions only {{__SELECT_1__}} about 50 percent of his or her happiness.",
+      "options": [
+       "A. account for",
+       "B. turn on",
+       "C. take off",
+       "D. send out"
+      ],
+      "answer": "A",
+      "analysis": "考查动词短语辨析。account for 意为“占（一定比例）”，符合句意。turn on 打开；take off 起飞，脱下；send out 发出。句意：最近一项研究表明，一个人的生活条件只占其幸福感的50%左右。"
+     },
+     {
+      "id": "20",
+      "content": "If {{__SELECT_1__}} in a hot place, these flowers will soon begin to die and fall.",
+      "options": [
+       "A. be put",
+       "B. to put",
+       "C. put",
+       "D. putting"
+      ],
+      "answer": "C",
+      "analysis": "考查状语从句的省略。完整的从句是 If they are put in a hot place。当从句主语和主句主语一致时，可以省略从句主语和be动词，只保留过去分词。flowers 和 put 之间是被动关系。句意：如果放在炎热的地方，这些花很快就会开始枯萎凋落。"
+     },
+     {
+      "id": "21",
+      "content": "The time I spent {{__SELECT_1__}} with the team has enabled me to learn more about business management.",
+      "options": [
+       "A. work",
+       "B. working",
+       "C. to work",
+       "D. worked"
+      ],
+      "answer": "B",
+      "analysis": "考查非谓语动词。spend time doing sth. 是固定用法。I spent working with the team 是定语从句，修饰 the time。句意：我和团队一起工作的时间使我学到了更多关于企业管理的知识。"
+     },
+     {
+      "id": "22",
+      "content": "The sports meeting had hardly begun {{__SELECT_1__}} heavy rain poured down.",
+      "options": [
+       "A. as",
+       "B. than",
+       "C. while",
+       "D. when"
+      ],
+      "answer": "D",
+      "analysis": "考查固定句型 hardly...when...，意为“一……就……”。句意：运动会刚一开始，大雨就倾盆而下。"
+     },
+     {
+      "id": "23",
+      "content": "He expressed the hope {{__SELECT_1__}} they could start a business relationship with us.",
+      "options": [
+       "A. that",
+       "B. whether",
+       "C. what",
+       "D. which"
+      ],
+      "answer": "A",
+      "analysis": "考查同位语从句。that 引导同位语从句，解释说明 hope 的具体内容，从句成分完整，不作任何成分。句意：他表示希望他们能与我们建立业务关系。"
+     },
+     {
+      "id": "24",
+      "content": "By the time you get this letter, we {{__SELECT_1__}} the project.",
+      "options": [
+       "A. were completing",
+       "B. will have completed",
+       "C. had completed",
+       "D. are completing"
+      ],
+      "answer": "B",
+      "analysis": "考查将来完成时。“By the time + 一般现在时”是将来完成时的标志，表示到将来某个时间点已经完成的动作。句意：到你收到这封信的时候，我们已经完成这个项目了。"
+     },
+     {
+      "id": "25",
+      "content": "The small village where we spent our holiday lies {{__SELECT_1__}} the hillside",
+      "options": [
+       "A. for",
+       "B. in",
+       "C. on",
+       "D. with"
+      ],
+      "answer": "C",
+      "analysis": "考查介词用法。on the hillside 意为“在山坡上”，表示位置。句意：我们度假的那个小村庄坐落在山坡上。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "Part I"
+    },
+    "originalNumber": 1
+   },
+   {
+    "id": 2,
+    "type": "阅读理解",
+    "content": "Most Americans switch careers at least three times throughout their lives. Gone are the days when people retired from the company where they first worked. The progressive mentality (心态) regarding business and technology often ensures that people move from position to position as they try to find the right career for them.\n\nRecent college graduates ask \"what career is right for me?\" many times in the months before and after graduation Now more than ever, people are also asking \"what career is right for me?\" into their thirties, forties and fifties. Even baby boomers (生育高峰期出生的人)are asking \"what job is right for me?\" as they retire and reenter the workforce in their sixties and seventies. It seems that every employee in America is wondering which career path fits him or her best.\n\nWhen you find yourself asking \"what career is best for me?\", follow some of these simple tips to set yourself straight on the best path for you.\n\n1. Consult a website and take its test to see which career path might be right for you.  \n2. Think about whether you are happy with your current job.  \n3. Emphasize your skills in your resume.  \n4. Do more research about the new career.",
+    "options": [
+     "ways to build a website",
+     "steps to take an online test",
+     "courses to train resume writing",
+     "tips to find a right career path"
+    ],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "26",
+      "content": "According to the first paragraph, most Americans now {{__SELECT_1__}}.",
+      "options": [
+       "A. are more satisfied with their career than their parents",
+       "B. change their careers at least three times in their life",
+       "C. move their home more frequently than ever before",
+       "D. retire from the company where they first worked"
+      ],
+      "answer": "B",
+      "analysis": "细节理解题。根据第一段第一句 “Most Americans switch careers at least three times throughout their lives.”（大多数美国人一生中至少会换三次职业。）可知，B选项正确。"
+     },
+     {
+      "id": "27",
+      "content": "People change their position frequently in order to {{__SELECT_1__}}",
+      "options": [
+       "A. find a right career",
+       "B. support their families",
+       "C. start their own business",
+       "D. adapt to the new technology"
+      ],
+      "answer": "A",
+      "analysis": "细节理解题。根据第一段末句 “...people move from position to position as they try to find the right career for them.”（……人们不断地变换职位，试图为自己找到合适的职业。）可知，人们频繁换工作是为了找到合适的职业。因此，A选项正确。"
+     },
+     {
+      "id": "28",
+      "content": "All American employees seem to be asking about {{__SELECT_1__}}",
+      "options": [
+       "A. which company they will retire from",
+       "B. when they should change a position",
+       "C. what career path is right for them",
+       "D. where they can find another job"
+      ],
+      "answer": "C",
+      "analysis": "细节理解题。根据第二段末句 “It seems that every employee in America is wondering which career path fits him or her best.”（似乎每个美国员工都在想哪条职业道路最适合自己。）可知，C选项正确。"
+     },
+     {
+      "id": "29",
+      "content": "Why are you advised to consult a website and take its test? {{__SELECT_1__}}",
+      "options": [
+       "A. To find information about job fairs.",
+       "B. To improve your professional skills.",
+       "C. To decide the right career path.",
+       "D. To get in touch with a potential boss."
+      ],
+      "answer": "C",
+      "analysis": "细节理解题。根据文中给出的第一个建议 “Consult a website and take its test to see which career path might be right for you.”（咨询网站并参加测试，看看哪条职业道路可能适合你。）可知，这样做是为了确定正确的职业道路。因此，C选项正确。"
+     },
+     {
+      "id": "30",
+      "content": "The last part of the passage is mainly about {{__SELECT_1__}}",
+      "options": [
+       "A. ways to build a website",
+       "B. steps to take an online test",
+       "C. courses to train resume writing",
+       "D. tips to find a right career path"
+      ],
+      "answer": "D",
+      "analysis": "主旨大意题。文章最后一部分列出了四条建议，都是关于如何找到适合自己的职业道路的。因此，D选项是对这部分内容的最好概括。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "Passage I"
+    },
+    "originalNumber": 2
+   },
+   {
+    "id": 3,
+    "type": "阅读理解",
+    "content": "Being your own boss is the dream of most people, but it comes with a price. Since you do not have to answer to someone else, you have to be responsible for your own business. In this sense, the business becomes the new boss. Here are some tips for you to observe.\n\nWork-life balance: Staring a business will consume a lot of time and energy. Not letting the business prevent you from having personal time is a challenge. The failure to manage a work-life balance can lead to health problems and lost relationships with family and friends.\n\nMaking decisions: Since you are the owner, you have the final decision. This can be a tough challenge because you know that you alone have to bear the consequences of your decisions.\n\nSelf-doubt and criticism: In the beginning, customers and competitors will not take you seriously. Everyone will be quick to share their opinions on what you are doing wrong and why it will not work.\n\nWith all this, self-doubt will start to occur. Maybe they are all right. Maybe starting this business was a bad idea. If you have done your homework, this is the moment to overcome the fear of failure and have the confidence in yourself to keep going.",
+    "options": [
+     "you are well-prepared",
+     "you are fully satisfied",
+     "you are highly confident",
+     "you are less worried"
+    ],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "31",
+      "content": "According to the first paragraph, being your own boss means that you should {{__SELECT_1__}}",
+      "options": [
+       "A. meet your customers' demand",
+       "B. take responsibility of your own business",
+       "C. have the freedom to do what you like",
+       "D. take other people's needs into consideration"
+      ],
+      "answer": "B",
+      "analysis": "细节理解题。根据第一段第二句 “Since you do not have to answer to someone else, you have to be responsible for your own business.”（因为你不必对别人负责，你必须对自己的生意负责。）可知，B选项正确。"
+     },
+     {
+      "id": "32",
+      "content": "The writer believes that not being able to manage a work-life balance can result in {{__SELECT_1__}}",
+      "options": [
+       "A. big debts",
+       "B. lost profits",
+       "C. legal issues",
+       "D. health problems"
+      ],
+      "answer": "D",
+      "analysis": "细节理解题。根据第二段末句 “The failure to manage a work-life balance can lead to health problems and lost relationships with family and friends.”（无法平衡工作与生活会导致健康问题以及与家人朋友关系的丧失。）可知，D选项正确。"
+     },
+     {
+      "id": "33",
+      "content": "Making a final decision can be a tough challenge to business owners because {{__SELECT_1__}}",
+      "options": [
+       "A. they have to be responsible for its consequences",
+       "B. they are unable to turn to others for advice",
+       "C. they find it hard to achieve a work-life balance",
+       "D. they are prevented from having their personal time"
+      ],
+      "answer": "A",
+      "analysis": "细节理解题。根据第三段 “Making decisions” 部分的第二句 “This can be a tough challenge because you know that you alone have to bear the consequences of your decisions.”（这可能是一个严峻的挑战，因为你知道你必须独自承担自己决定的后果。）可知，A选项正确。"
+     },
+     {
+      "id": "34",
+      "content": "What will your competitors react at the very beginning of your business? {{__SELECT_1__}}",
+      "options": [
+       "A. They will not accept your products.",
+       "B. They will not take you seriously.",
+       "C. They will criticize your business strongly.",
+       "D. They will congratulate you on your success."
+      ],
+      "answer": "B",
+      "analysis": "细节理解题。根据第四段 “Self-doubt and criticism” 部分的第一句 “In the beginning, customers and competitors will not take you seriously.”（一开始，顾客和竞争对手不会把你当回事。）可知，B选项正确。"
+     },
+     {
+      "id": "35",
+      "content": "By saying \"you have done your homework\", the writer means {{__SELECT_1__}}",
+      "options": [
+       "A. you are well-prepared",
+       "B. you are fully satisfied",
+       "C. you are highly confident",
+       "D. you are less worried"
+      ],
+      "answer": "A",
+      "analysis": "词义猜测题。在上下文中，“If you have done your homework” 指的是如果你对创业已经做了充分的调查和准备。这个短语是一个习语，意思是你已经做了必要的准备工作。因此，A选项“你准备充分”是正确的。句意是：如果你已经做好了充分的准备，那么现在就是克服对失败的恐惧、相信自己并继续前进的时刻。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "Passage 2"
+    },
+    "originalNumber": 3
+   },
+   {
+    "id": 4,
+    "type": "阅读理解",
+    "content": "When people move from one city or country to another, the spread of diseases may result. People often bring in germs (病菌) that may not have been present there\n\nbefore. These new germs can spread quickly and cause previously unknown diseases. If a germ is completely new to a region, people who already live there have no natural protection against it. As a result, they become ill more easily and die more often. In turn, newcomers may catch diseases that were not present in their own country. If they go back, they may carry the diseases with them and spread the diseases there, too.\n\nChanges in the heating system of a building can also lead to disease. In the 1970s, there was a worldwide shortage of heating oil. As a result, hotels in the United Sate lowered the temperature in their heating systems in order to save fuel. This low temperature led to a deadly germ that grows in heating pipes. When the heated air was blown into the rooms of a hotel, it carried the germs. Many visitors became ill and several died.",
+    "options": [
+     "the protection against new diseases",
+     "the danger of visiting new places",
+     "the spread of new diseases",
+     "the worldwide shortage of fuel"
+    ],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "36",
+      "content": "The spread of new diseases may result from the move of people who {{__SELECT_1__}}",
+      "options": [
+       "A. carry the germs",
+       "B. have no protection",
+       "C. become ill more easily",
+       "D. work in a crowded place"
+      ],
+      "answer": "A",
+      "analysis": "细节理解题。根据第一段第二句 “People often bring in germs (病菌) that may not have been present there before.”（人们经常带来以前那里没有的病菌。）可知，疾病的传播是由于人们携带了病菌。因此，A选项正确。"
+     },
+     {
+      "id": "37",
+      "content": "When a new germ is spread to a region, {{__SELECT_1__}}",
+      "options": [
+       "A. it will cause the whole region to suffer from a deadly disease",
+       "B. newcomers are seldom affected by the newly-spread germ",
+       "C. people there usually have no natural protection against it",
+       "D. people in that region can hardly escape from the disease"
+      ],
+      "answer": "C",
+      "analysis": "细节理解题。根据第一段第四句 “If a germ is completely new to a region, people who already live there have no natural protection against it.”（如果一种病菌对一个地区来说是全新的，那么已经住在那里的人对它没有天然的抵抗力。）可知，C选项正确。"
+     },
+     {
+      "id": "38",
+      "content": "From the passage we learn that changes in the heating system of a building can result in {{__SELECT_1__}}.",
+      "options": [
+       "A. an oil shortage",
+       "B. certain diseases",
+       "C. the air pollution",
+       "D. a high temperature"
+      ],
+      "answer": "B",
+      "analysis": "细节理解题。根据第二段第一句 “Changes in the heating system of a building can also lead to disease.”（建筑物供暖系统的改变也可能导致疾病。）可知，B选项正确。"
+     },
+     {
+      "id": "39",
+      "content": "What caused the growth of a deadly germ in the heating pipes of the hotels? {{__SELECT_1__}}",
+      "options": [
+       "A. The dry air.",
+       "B. The polluted oil.",
+       "C. The heated pipes.",
+       "D. The low temperature."
+      ],
+      "answer": "D",
+      "analysis": "细节理解题。根据第二段第四句 “This low temperature led to a deadly germ that grows in heating pipes.”（这种低温导致一种致命的病菌在暖气管中生长。）可知，是低温导致了病菌的生长。因此，D选项正确。"
+     },
+     {
+      "id": "40",
+      "content": "The passage is mainly about {{__SELECT_1__}}",
+      "options": [
+       "A. the protection against new diseases",
+       "B. the danger of visiting new places",
+       "C. the spread of new diseases",
+       "D. the worldwide shortage of fuel"
+      ],
+      "answer": "C",
+      "analysis": "主旨大意题。文章第一段讨论了人口流动如何导致疾病传播，第二段讨论了供暖系统的改变如何导致疾病。全文都在围绕新疾病传播的原因和方式展开。因此，C选项“新疾病的传播”是文章的主旨。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "Passage 3"
+    },
+    "originalNumber": 4
+   },
+   {
+    "id": 5,
+    "type": "阅读理解",
+    "content": "Some workplace stress is normal, but when stress at work begins to weaken your ability to perform in your job, it's time for you to take action, Start by paying attention to your physical and emotional health.\n\nGet moving\n\nRegular exercise is an effective way to help you to relax both your mind and body. Try to get at least 30 minutes of activity on most days. If it's easier to fit into your schedule, break up the activity into two or three shorter periods of time each day.\n\nGet enough sleep\n\nA lack of sleep can make you suffer from more stress. When you're well-rested, it's much easier to keep your emotional balance. Try to improve the quality of your sleep by keeping a sleep schedule and aiming for 8 hours a night.\n\nGet support\n\nClose relationships are important to helping you through times of stress Simply sharing your feelings face to face with another person can help relieve some of the stress. Accepting support is not a sign of weakness and it won't mean you're a burden to others. In fact, most friends will be willing to help you to reduce your stress, and this will only strengthen your relationship.",
+    "options": [
+     "how to do exercise regularly",
+     "how to seek help from others",
+     "how to deal with workplace stress",
+     "how to keep your emotional balance"
+    ],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "41",
+      "content": "You should take action to handle your workplace stress when {{__SELECT_1__}}.",
+      "options": [
+       "A. it affects your job performance",
+       "B. it begins to damage your health",
+       "C. it influences your emotion",
+       "D. it shows its first signs"
+      ],
+      "answer": "A",
+      "analysis": "细节理解题。根据第一段第一句 “...but when stress at work begins to weaken your ability to perform in your job, it's time for you to take action...”（……但当工作压力开始削弱你的工作表现能力时，你就该采取行动了……）可知，当压力影响到工作表现时就应该采取行动。A选项 “it affects your job performance” 与原文 “weaken your ability to perform in your job” 意思相符。"
+     },
+     {
+      "id": "42",
+      "content": "If possible, you are advised to {{__SELECT_1__}}",
+      "options": [
+       "A. exercise before you start your work each day",
+       "B. do exercise together with your friends",
+       "C. arrange your activities based on your health",
+       "D. divide your activity into shorter periods of time"
+      ],
+      "answer": "D",
+      "analysis": "细节理解题。在 “Get moving” 部分，文章提到 “If it's easier to fit into your schedule, break up the activity into two or three shorter periods of time each day.”（如果这样更容易安排进你的日程，就把活动分成每天两到三个更短的时间段。）这与D选项 “divide your activity into shorter periods of time”（将你的活动分成更短的时间段）意思一致。"
+     },
+     {
+      "id": "43",
+      "content": "If you follow an 8-hour sleep schedule, you are more likely to {{__SELECT_1__}}",
+      "options": [
+       "A. get used to getting up early",
+       "B. improve your sleep quality",
+       "C. achieve positive effects of exercise",
+       "D. be able to work longer every day"
+      ],
+      "answer": "B",
+      "analysis": "细节理解题。在 “Get enough sleep” 部分，文章建议 “Try to improve the quality of your sleep by keeping a sleep schedule and aiming for 8 hours a night.”（通过保持睡眠时间表和每晚睡8小时来提高你的睡眠质量。）因此，遵循8小时睡眠时间表是为了提高睡眠质量。B选项正确。"
+     },
+     {
+      "id": "44",
+      "content": "To relieve your stress, you are encouraged to {{__SELECT_1__}}",
+      "options": [
+       "A. show your weaknesses to your friends",
+       "B. avoid becoming a burden to others",
+       "C. make as many friends as possible",
+       "D. share your feelings with others"
+      ],
+      "answer": "D",
+      "analysis": "细节理解题。在 “Get support” 部分，文章建议 “Simply sharing your feelings face to face with another person can help relieve some of the stress.”（仅仅是与另一个人面对面地分享你的感受就能帮助缓解一些压力。）D选项 “share your feelings with others”（与他人分享你的感受）与此相符。"
+     },
+     {
+      "id": "45",
+      "content": "The passage is mainly about {{__SELECT_1__}}",
+      "options": [
+       "A. how to do exercise regularly",
+       "B. how to seek help from others",
+       "C. how to deal with workplace stress",
+       "D. how to keep your emotional balance"
+      ],
+      "answer": "C",
+      "analysis": "主旨大意题。文章开头就点明主题，当工作压力影响工作表现时需要采取行动。接下来的三个部分 “Get moving”, “Get enough sleep”, “Get support” 都是应对工作压力的具体方法。因此，文章主旨是如何应对工作压力。C选项正确。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "Passage 4"
+    },
+    "originalNumber": 5
+   },
+   {
+    "id": 6,
+    "type": "填空题",
+    "content": "Booster Seats (幼儿保护座椅) are more than a good idea. It is the law. Until children are 8 years old or 4.9 feet tall, they can be too big for a child car seat but too small for a safety belt. A booster seat makes safety belts fit properly and reduces the risk of injury in a crash.\n\nWhich seat should I use? Either a proper-fitting child safety seal or booster seat installed (安装) correctly will meet the requirements of Michigan's new law for children under the age of 8 or not yet 4.9 feet tall. This includes using a booster seat with both a lap (膝部) and shoulder belt.\n\nWhere do I get a booster seat, and how much do they cost? Booster seats are available at many stores. They cost between $15 and $100 depending on the style.\n\nImportant: All booster seats are safest when used in the back seat and with both the car's lap and shoulder belt. Never use a lap belt only.\n\nBooster Seats\n\nPurposes: used for children under {{__BLANK_1__}} or 4.9 feet tall\n\nAdvantages:\n\n1. making safety belts fit properly  \n2. reducing the risk of {{__BLANK_2__}} in a crash\n\nPlaces to buy: available at {{__BLANK_3__}}\n\nPrices: between {{__BLANK_4__}}\n\nProper way of use: with both a lap and {{__BLANK_5__}} belt",
+    "options": [],
+    "answer": [
+     "8 years old",
+     "injury",
+     "many stores",
+     "$15 and $100",
+     "shoulder"
+    ],
+    "analysis": "本题考查根据短文内容提取关键信息的能力。\n1. (46) Purposes: 根据第一段第二句“Until children are 8 years old or 4.9 feet tall...”以及第二段第二句“...for children under the age of 8...”，可知适用于8岁以下的儿童。故填“8 years old”。\n2. (47) Advantages: 根据第一段最后一句“A booster seat makes safety belts fit properly and reduces the risk of injury in a crash.”，可知优点是降低碰撞中受伤的风险。故填“injury”。\n3. (48) Places to buy: 根据第三段第一句“Booster seats are available at many stores.”，可知在很多商店可以买到。故填“many stores”。\n4. (49) Prices: 根据第三段第二句“They cost between $15 and $100 depending on the style.”，可知价格在15到100美元之间。故填“$15 and $100”。\n5. (50) Proper way of use: 根据最后一段“Important:”中的“...with both the car's lap and shoulder belt.”，可知正确使用方式是同时使用腰部和肩部安全带。故填“shoulder”。",
+    "subQuestions": [],
+    "images": [
+     "2013984225049419777/images/1881e329dbfd0d30b158f874076bee6fc6a6eae27dae2708e4e54c54eb337db7.jpg"
+    ],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "Section 2"
+    },
+    "originalNumber": 6
+   },
+   {
+    "id": 7,
+    "type": "单选题",
+    "content": "Directions: This part is to test your ability to translate English into Chinese. After each of the 5 sentences, numbered 51 to 55, you will read three choices of suggested translation marked A). B). and C). You should choose the best translation and mark the corresponding letter on your Answer Sheet with a single line through the center.",
+    "options": [
+     "",
+     "",
+     ""
+    ],
+    "answer": "",
+    "analysis": "",
+    "subQuestions": [
+     {
+      "id": "51",
+      "content": "Please let me know your schedule in advance, and I'll have my secretary book a ticket for you. {{__SELECT_1__}}",
+      "options": [
+       "请告诉我您旅行的日程，秘书将会为您提前订票。",
+       "请提前告知您的日程表，我会让我秘书为您订票。",
+       "请告诉我您的行程，我的秘书会为您解决机票的。"
+      ],
+      "answer": "B",
+      "analysis": "本题考查翻译的准确性。“in advance”意为“提前”，修饰动词“let me know”，所以是“提前告知”。“I'll have my secretary book a ticket for you”是“have sb do sth”结构，意为“让某人做某事”，即“我会让我秘书为您订票”。B选项的翻译最准确、流畅。"
+     },
+     {
+      "id": "52",
+      "content": "First impression is so important that a hotel may win or lose its reputation at the front desk. {{__SELECT_1__}}",
+      "options": [
+       "A. 第一印象如此之重要，以致前台就会让宾馆赢得或失去声誉。",
+       "B. 对前台工作的第一印象，直接关系到宾馆声誉的高低与好坏。",
+       "C. 为了给顾客留下良好的印象，需要提高宾馆前台的服务质量。"
+      ],
+      "answer": "A",
+      "analysis": "本题考查“so...that...”句型的翻译。该句型意为“如此……以至于……”。“at the front desk”直译为“在前台”，引申为“在前台这个环节”。A选项准确地翻译了原句的结构和含义。"
+     },
+     {
+      "id": "53",
+      "content": "I think it would be necessary to have another meeting to talk about our further business cooperation. {{__SELECT_1__}}",
+      "options": [
+       "A. 我认为只有讨论了下一步的生产后，我们才需要见面。",
+       "B. 我认为必须要开会，以便进一步讨论我们之间的联系。",
+       "C. 我认为有必要再次开会，商谈我们进一步的业务合作。"
+      ],
+      "answer": "C",
+      "analysis": "本题考查翻译的准确性。“it would be necessary to do sth”意为“做某事是有必要的”。“another meeting”是“再次开会”。“further business cooperation”意为“进一步的业务合作”。C选项准确地传达了所有信息点。"
+     },
+     {
+      "id": "54",
+      "content": "It took half an hour for her to understand thoroughly all the items in the contrast. {{__SELECT_1__}}",
+      "options": [
+       "A. 半个小时已足够她就合同中的内容进行逐一核对。",
+       "B.她花了半个小时才彻底弄明白合同上的全部条软。",
+       "C. 她只用了半个小时来逐一研究会同上的各项内容。"
+      ],
+      "answer": "B",
+      "analysis": "本题考查“It takes sb some time to do sth”句型和词义辨析。“It took...to understand”表示“花了……才明白”，含有一定的难度或耗时。“thoroughly”意为“彻底地”。“items in the contract”指“合同中的条款”。B选项的“花了……才……”和“彻底弄明白”最符合原意。"
+     },
+     {
+      "id": "55",
+      "content": "We couldn't have succeeded in the market competition without your strong support. {{__SELECT_1__}}",
+      "options": [
+       "A.若不是得到了你们的大力支持，我们就不会参与市场竞争。",
+       "B. 若无你们强有力的支持，我们在市场竞争中本不可能成功。",
+       "C.因为你们的支持强大有力，我们有信心在市场竞争中获胜。"
+      ],
+      "answer": "B",
+      "analysis": "本题考查虚拟语气的翻译。“couldn't have done... without...”是对过去情况的虚拟，表示“如果没有……，本不可能……”。B选项准确地翻译了这种虚拟的语气和含义。A选项的“不会参与”与“succeeded”不符，C选项没有体现虚拟语气。"
+     }
+    ],
+    "images": [],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "Part III"
+    },
+    "originalNumber": 7
+   },
+   {
+    "id": 8,
+    "type": "翻译题",
+    "content": "Thank you for your letter and resume of April 16th. I have sent your resume to the proper department, and it will be considered soon.\n\nWe will get in touch with you and possibly arrange an interview with you some day next week. If there is no suitable position for you at present, we'll also let you know as soon as possible. Thank you for your interest in our company.",
+    "options": [],
+    "answer": "感谢您4月16日的来信及简历。我已将您的简历转交至相关部门，并将很快予以审阅。\n\n我们下周会与您联系，并可能安排面试。如果目前没有适合您的职位，我们也会尽快通知您。感谢您对本公司的关注。",
+    "analysis": "本段翻译为商务信函回复，语言应正式、得体。\n1. “resume of April 16th”指“4月16日的简历”。\n2. “proper department”指“相关部门”或“相应部门”。\n3. “it will be considered soon”意为“会很快被考虑/审阅”。\n4. “get in touch with you”意为“与您联系”。\n5. “possibly arrange an interview”意为“可能安排一次面试”。\n6. “suitable position”指“合适的职位”。\n7. “interest in our company”指“对我们公司的兴趣/关注”。\n整体翻译需保持原文的礼貌和专业语气。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "56"
+    },
+    "originalNumber": 8
+   },
+   {
+    "id": 9,
+    "type": "写作题",
+    "content": "说明：假定你是项目经理Jane Hart。根据以下内容给John Smith先生写封信。写信时间为2020年7月25日。信的内容包含：\n\n1.感谢他上周发来的邮件；  \n2. 告诉他工程进度很顺利，有可能提前完成；  \n3. 对当地员工的培训还未完成，预计下月底可结束；\n\n4.随信附上一份参加培训的员工名单。\n\n请注意信函格式！",
+    "options": [],
+    "answer": "July 25, 2020\n\nDear Mr. John Smith,\n\nThank you for your email from last week. \n\nI am writing to update you on the current project status. I am pleased to inform you that the project is progressing smoothly and is likely to be completed ahead of schedule.\n\nThe training for the local staff is still underway and is expected to be finished by the end of next month.\n\nEnclosed with this letter is a list of the employees participating in the training program.\n\nPlease feel free to contact me if you have any questions.\n\nYours sincerely,\n\nJane Hart\nProject Manager",
+    "analysis": "本题要求写一封商务信函，汇报项目进度。写作时应注意以下几点：\n1. **信函格式**：包括日期、称呼、正文、结束语和签名。日期应写在右上角或左上角。称呼用“Dear Mr. John Smith,”。结束语用“Yours sincerely,”。签名部分包括手写签名（此处省略）、打印姓名Jane Hart和职位Project Manager。\n2. **内容要点**：必须包含题目要求的四个要点。\n   - **感谢邮件**：可用“Thank you for your email from last week.”\n   - **工程进度**：说明进展顺利（progressing smoothly）且可能提前完成（likely to be completed ahead of schedule）。\n   - **员工培训**：说明培训尚未完成（still underway）并给出预计结束时间（expected to be finished by the end of next month）。\n   - **附上名单**：告知随信附有文件，可用“Enclosed with this letter is a list of...”或“Please find enclosed a list of...”。\n3. **语言风格**：应使用正式、专业、礼貌的商务英语。",
+    "subQuestions": [],
+    "images": [],
+    "source": {
+     "fileName": "2020年湖北省专升本真题.docx",
+     "fileId": "2013984225049419777",
+     "originalNumber": "Part IV"
+    },
+    "originalNumber": 9
+   }
+  ]
+ }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 按知识点刷题</title>
+<link rel="stylesheet" href="/static/css/app.css">
+<style>
+  .kp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin-top:10px}
+  .kp-card{border:1px solid #e2e5ea;border-radius:8px;padding:11px 13px;background:#fff;transition:box-shadow .12s,border-color .12s}
+  .kp-card:hover{border-color:#9dc0ea;box-shadow:0 2px 8px rgba(31,95,168,.08)}
+  .kp-card.zero{opacity:.62}
+  .kp-name{font-size:15px;font-weight:600;margin:0 0 4px}
+  .kp-meta{font-size:12.5px;color:#6b7280;display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:6px}
+  .kp-desc{font-size:12.5px;color:#8b93a1;margin:4px 0 8px;line-height:1.6}
+  .kp-num{font-weight:700;color:#1f5fa8}
+  .kp-num.zero{color:#b0b6bf;font-weight:400}
+  .mod-head{margin:16px 0 4px;font-size:15px;font-weight:600;color:#374151}
+  .hint{background:#f7f9fc;border-left:3px solid #9dc0ea;padding:9px 12px;border-radius:5px;font-size:13px;color:#4b5563;margin:10px 0}
+</style>
+</head>
+<body data-page="knowledge">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">按知识点刷题</span></span>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/quiz">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/analysis">分析</a>
+      <a href="/compare">复盘</a>
+      <a href="/knowledge" class="active">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/queue">判分队列</a>
+      <a href="/review">人工审核</a>
+      <a href="/history">判分记录</a>
+      <a href="/settings">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hint">
+    📌 点任意知识点即进入「只刷该知识点」的模式（筛选项已自动带上）。题量为 <b>0</b> 的知识点表示
+    <b>题库里还没有题打上该标签</b>——体系已建好，等打标或生成补上。
+  </div>
+
+  {% for sec in data %}
+  <section class="card">
+    <h1>{{ sec.label }} <span class="muted small">共 {{ sec.total_points }} 个知识点，其中 {{ sec.with_questions }} 个已有题</span></h1>
+    {% set last_mod = namespace(v='') %}
+    {% for pt in sec.points %}
+      {% if pt.module and pt.module != last_mod.v %}
+        {% set last_mod.v = pt.module %}
+        <div class="mod-head">▸ {{ pt.module }}</div>
+      {% endif %}
+      <div class="kp-grid" style="margin-top:6px">
+        <div class="kp-card{% if not pt.count %} zero{% endif %}">
+          <p class="kp-name">{{ pt.id }}{% if pt.id %} · {% endif %}{{ pt.name }}</p>
+          <div class="kp-meta">
+            <span>题量 <span class="kp-num{% if not pt.count %} zero{% endif %}">{{ pt.count }}</span></span>
+            {% if pt.difficulty %}<span class="pill">{{ pt.difficulty }}</span>{% endif %}
+            {% if not pt.count %}<span class="pill">待补题/待打标</span>{% endif %}
+          </div>
+          {% if pt.desc %}<p class="kp-desc">{{ pt.desc }}</p>{% endif %}
+          <p class="row" style="margin:0">
+            <a class="btn btn-small btn-primary" href="{{ pt.quiz_url }}">刷这个知识点</a>
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+  {% endfor %}
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+</body>
+</html>

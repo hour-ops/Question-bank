@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "subject": "aca_llm",
+  "subject_name_cn": "阿里云 ACA 大模型工程师",
+  "type": null,
+  "status": "empty_no_real_exam",
+  "built_at": "2026-10-12T00:55:47+08:00",
+  "built_by": "scripts/export_exam_samples.py",
+  "samples": [],
+  "why_empty": [
+    "`data/aca_llm.sqlite` 中 source_type='real_exam' 的题数 = 0（ACA 是机考认证，官方不公开真题）。",
+    "本库的定位是「真题样板库」，答案与解析必须来自真实考卷；ACA 没有真题可作样板，故按要求留空，不拿 AI 生成题或第三方练习冒充。"
+  ],
+  "knowledge_points_available": {
+    "kb_path": "subjects/aca_llm/knowledge_base.json",
+    "total_points": 252,
+    "modules": [
+      {
+        "no": 1,
+        "name": "大模型概念",
+        "weight": 0.18,
+        "points": 33
+      },
+      {
+        "no": 2,
+        "name": "提示词工程",
+        "weight": 0.2,
+        "points": 33
+      },
+      {
+        "no": 3,
+        "name": "增强大模型应用的能力",
+        "weight": 0.22,
+        "points": 59
+      },
+      {
+        "no": 4,
+        "name": "大模型微调",
+        "weight": 0.12,
+        "points": 22
+      },
+      {
+        "no": 5,
+        "name": "大模型 Agent",
+        "weight": 0.16,
+        "points": 79
+      },
+      {
+        "no": 6,
+        "name": "大模型安全合规",
+        "weight": 0.12,
+        "points": 26
+      }
+    ]
+  },
+  "what_does_exist": {
+    "note": "以下**不是**真题，仅作库存说明，本次未生成任何 aca_llm 样例文件。",
+    "db": "data/aca_llm.sqlite",
+    "fetch": 81,
+    "fetch_aca_extended": 20,
+    "generate": 104
+  },
+  "how_to_enable_later": "如需要，可复制 scripts/export_exam_samples.py 里的 `records_from_*` 逻辑，把 aca_llm.sqlite 里 source_type='fetch' 的题按知识点（模块/课时）分文件导出，并在每个 sample 的 trust 上写 'aca_official_course'，与 official_exam 区分。"
+}

@@ -1,0 +1,33 @@
+# 抓取时间: 2026-10-11T12:47:23.591Z  来源: https://www.hbzsb.com/list/16.html?cityid=0&courseid=4 前 6 页（成功 6 页）
+# 每行一个纯 URL（hbzsb.com 文章详情页）
+https://www.hbzsb.com/article/17899.html
+https://www.hbzsb.com/article/17898.html
+https://www.hbzsb.com/article/17803.html
+https://www.hbzsb.com/article/17802.html
+https://www.hbzsb.com/article/17776.html
+https://www.hbzsb.com/article/17775.html
+https://www.hbzsb.com/article/17732.html
+https://www.hbzsb.com/article/17731.html
+https://www.hbzsb.com/article/17691.html
+https://www.hbzsb.com/article/17690.html
+https://www.hbzsb.com/article/17677.html
+https://www.hbzsb.com/article/17676.html
+https://www.hbzsb.com/article/17595.html
+https://www.hbzsb.com/article/17594.html
+https://www.hbzsb.com/article/17528.html
+https://www.hbzsb.com/article/17527.html
+https://www.hbzsb.com/article/17401.html
+https://www.hbzsb.com/article/17400.html
+https://www.hbzsb.com/article/17379.html
+https://www.hbzsb.com/article/17301.html
+https://www.hbzsb.com/article/17300.html
+https://www.hbzsb.com/article/17180.html
+https://www.hbzsb.com/article/16820.html
+https://www.hbzsb.com/article/16819.html
+https://www.hbzsb.com/article/16044.html
+https://www.hbzsb.com/article/16042.html
+https://www.hbzsb.com/article/15820.html
+https://www.hbzsb.com/article/15523.html
+https://www.hbzsb.com/article/15423.html
+https://www.hbzsb.com/article/15422.html
+https://www.hbzsb.com/article/14792.html

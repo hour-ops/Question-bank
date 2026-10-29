@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>题库 · 首页</title>
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body data-page="index">
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">题库<span class="brand-sub">本地单机</span></span>
+    <nav class="nav">
+      <a href="/" class="{% if nav.active == 'index' %}active{% endif %}">首页</a>
+      <a href="/quiz" class="{% if nav.active == 'quiz' %}active{% endif %}">刷题</a>
+      <a href="/paper">套卷模拟</a>
+      <a href="/knowledge">知识点刷题</a>
+      <a href="/kb">知识库</a>
+      <a href="/analysis" class="{% if nav.active == 'analysis' %}active{% endif %}">分析</a>
+      <a href="/compare" class="{% if nav.active == 'compare' %}active{% endif %}">复盘</a>
+      <a href="/queue" class="{% if nav.active == 'queue' %}active{% endif %}">判分队列</a>
+      <a href="/review" class="{% if nav.active == 'review' %}active{% endif %}">人工审核</a>
+      <a href="/history" class="{% if nav.active == 'history' %}active{% endif %}">判分记录</a>
+      <a href="/settings" class="{% if nav.active == 'settings' %}active{% endif %}">设置</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <h1>今日进度 <span class="muted small">{{ progress.date }}</span></h1>
+    <div class="kpis">
+      <div class="kpi"><span class="kpi-num">{{ progress.total_done }}</span><span class="kpi-label">今日答题</span></div>
+      <div class="kpi kpi-ok"><span class="kpi-num">{{ progress.correct_count }}</span><span class="kpi-label">正确</span></div>
+      <div class="kpi kpi-err"><span class="kpi-num">{{ progress.wrong_count }}</span><span class="kpi-label">错误</span></div>
+      <div class="kpi"><span class="kpi-num">{{ (progress.accuracy * 100) | round(1) }}%</span><span class="kpi-label">正确率</span></div>
+      <div class="kpi kpi-due"><span class="kpi-num">{{ progress.due_review }}</span><span class="kpi-label">待复习</span></div>
+      <div class="kpi"><span class="kpi-num">{{ progress.judge_queue.pending }}</span><span class="kpi-label">待判分</span></div>
+    </div>
+    <div class="bar"><span style="width: {{ (progress.accuracy * 100) | round(1) }}%"></span></div>
+  </section>
+
+  <section class="card">
+    <h1>科目入口</h1>
+    <div class="grid grid-4">
+      {% for c in cards %}
+      <div class="card subject-card">
+        <h2>{{ c.name }}</h2>
+        <p class="muted small">题量 {{ c.total }} / 目标 {{ c.target }} · 可组卷 {{ c.approved }}</p>
+        {% if c.pending_review %}<p class="due-text">待审核 {{ c.pending_review }}</p>{% endif %}
+        {% if not c.db_exists %}<p class="err-text">题库文件缺失（{{ c.key }}.sqlite）</p>{% endif %}
+        <p class="row">
+          <a class="btn btn-primary" href="/quiz?subject={{ c.key }}">开始刷题</a>
+          <a class="btn" href="/analysis?subject={{ c.key }}">看分析</a>
+        </p>
+      </div>
+      {% endfor %}
+      {% if mock %}
+      <div class="card subject-card mock-card">
+        <h2>{{ mock.name }} <span class="mock-tag">模拟题</span></h2>
+        <p class="muted small">题量 {{ mock.total }} · 知识点贴合 ACA V2.4 六大模块</p>
+        <p class="muted small">{{ mock.desc }}</p>
+        <p class="row">
+          <a class="btn btn-primary" href="{{ mock.quiz_url }}">开始刷题</a>
+          <a class="btn" href="{{ mock.analysis_url }}">看分析</a>
+        </p>
+      </div>
+      {% endif %}
+    </div>
+    {% if extended %}
+    <h1 style="margin-top:18px">拓展专区 <span class="muted small">超纲但可能考到</span></h1>
+    <div class="grid grid-4">
+      {% for e in extended %}
+      <div class="card subject-card">
+        <h2>{{ e.name }}</h2>
+        <p class="muted small">{{ e.desc }}</p>
+        <p class="muted small">题量 {{ e.total }}</p>
+        <p class="row">
+          <a class="btn btn-primary" href="{{ e.quiz_url }}">去了解</a>
+          <a class="btn" href="{{ e.analysis_url }}">看分析</a>
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+
+  <section class="grid grid-2">
+    <div class="card">
+      <h1>复习待办 <span class="muted small">SM-2 到期</span></h1>
+      {% if due %}
+      <table class="data">
+        <thead><tr><th>科目</th><th>题干</th><th>错次</th><th></th></tr></thead>
+        <tbody>
+        {% for d in due %}
+          <tr>
+            <td class="small muted">{{ d.subject_label }}</td>
+            <td class="stem-cell">{{ d.stem[:60] }}{% if d.stem | length > 60 %}…{% endif %}</td>
+            <td><span class="wrong-count">{{ d.wrong_count }}</span></td>
+            <td><a class="btn btn-small" href="/quiz?subject={{ d.subject }}">去复习</a></td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p class="muted">暂无到期复习题。答错的题会自动进入 SM-2 排程。</p>
+      {% endif %}
+    </div>
+
+    <div class="card">
+      <h1>判分队列</h1>
+      <p class="badge-row">
+        <span class="badge badge-pending">pending {{ queue.pending }}</span>
+        <span class="badge badge-submitted">submitted {{ queue.submitted }}</span>
+        <span class="badge badge-synced">synced {{ queue.synced }}</span>
+        <span class="badge badge-failed">failed {{ queue.failed }}</span>
+      </p>
+      <p class="muted small">四态与 <code>judge_queue.judge_status</code> 严格对应；failed 可在队列页手动重投。</p>
+      <p class="row">
+        <a class="btn" href="/queue">打开判分队列</a>
+        <a class="btn" href="/review">去人工审核</a>
+      </p>
+      <p class="muted small">已生成试卷：{{ papers }} 个文件（output/papers/）</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">本地单机 · 仅绑定 127.0.0.1 · 零 CDN / 零外链</footer>
+<script src="/static/js/app.js"></script>
+</body>
+</html>
